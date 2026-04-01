@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="potentialProblems/css/phone.css"/>
+	</head>
+	<body>
+		<div id="messageTitle"><span key="INDEX_MESSAGE_TIP"></span></div>
+		<div id="messageTip">
+			<div id="problemDiv">
+				<div id="tvMessage"></div>
+				<span id="problemTitle"><span key="INDEX_POTENTICAL_PROBLEMS"></span></span>
+			</div>
+			<div id="showProblem"></div>
+			<div class="emptyPadding"></div>
+		</div>
+		<div id="setting">
+			<div id="settingTitle"><span key="INDEX_MESSAGE_REMIND_SET"></span></div>
+			<div>
+				<input type="checkbox" class="Checkbox" id="ignore30"/>
+				<label for="ignore30"><span id="index_no_remind"></span></label>
+			</div>
+			<div id="btnOk"><span key="INDEX_BTN_OK"></span></div>
+		</div>
+		<div class="rebootMask">
+			<div id="rebootDialog">
+				<div class="rebootText"><span key="INDEX_SURE_REBOOT"></span></div>
+				<div class="rebootBtn" id="rebootOk"><span key="INDEX_REBOOT"></span></div>
+				<div class="rebootBtn" id="rebootCancel"><span key="INDEX_CANCEL"></span></div>
+			</div>
+		</div>
+		<div id="dpi" style="height: 1in; width: 1in; left: 100%; position: fixed; top: 100%;"></div>
+		
+		<script src="./common/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./potentialProblems/js/RESOURCE.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./potentialProblems/js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./common/xssCheck.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

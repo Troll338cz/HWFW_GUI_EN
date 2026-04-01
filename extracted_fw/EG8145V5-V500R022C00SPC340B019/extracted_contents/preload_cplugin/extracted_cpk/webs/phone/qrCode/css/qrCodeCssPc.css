@@ -1,0 +1,131 @@
+body{
+	min-width: 1300px;
+}
+
+#chinaUnicomLOGO {
+	text-align: center;
+}
+
+#qrCodeTitle {
+	background-color: #1a83ec;
+	height: 15rem;
+}
+
+#chinaUnicomLOGOImg {
+	width: 5rem;
+	margin-top: 4.5rem;
+}
+
+#chinaUnicomTitle {
+	font-size: 2rem;
+	color: white;
+	display: inline-block;
+	transform: translate(1rem, -1rem);
+	top: 5rem;
+}
+
+#chinaUnicomTips {
+	text-align: center;
+	color: #ffff00;
+	margin-top: 1rem;
+	font-size: 1.5rem;
+}
+
+#qrCodeContentLeft {
+	width: 21rem;
+	height: 21rem;
+	float: right;
+	margin-top: 5rem;
+	margin-right: 5rem;
+	position: relative;
+}
+
+img {
+	border-radius: 5%;
+    border: 1px solid #e4e4e4;
+}
+
+#chinaUnicomLOGOImg {
+	border: none;
+}
+
+#qrCodeContentRight {
+	margin-top: 7rem;
+}
+
+#qrCodeImg {
+	position: relative;
+	left: 1rem;
+	top: 1rem;
+}
+
+#qrCodeLOGO {
+	position: absolute;
+	z-index: 9999999;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%)
+}
+
+#codeicoImg {
+	width: 5rem;
+	border-radius: 5%;
+}
+
+#broadbandAccount {
+	margin-top: 2rem;
+}
+
+.qrCodeInfo {
+	margin: 2rem;
+	height: 2rem;
+}
+
+#qrCodeBAccTitle {
+	color: #999999;
+	float: left;
+	font-size: 2rem;
+}
+
+#qrCodefaultCodeTitle {
+	color: #999999;
+	float: left;
+	font-size: 2rem;
+	width: 10rem;
+}
+
+#qrCodeBAccTitleVal,
+#qrCodefaultCodeVal {
+	font-size: 2rem;
+	color: #212121;
+	transform: translateY(0.3rem);
+}
+
+#qrCodeCoziestTipsTitle {
+	color: #999999;
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+	width: 10rem;
+}
+
+#qrCodeCoziestTipsVal {
+	font-size: 1.5rem;
+}
+
+.tipsVal {
+	color: #212121;
+}
+
+.flLeft {
+	float: left;
+	width: 45%;
+}
+
+.flRight {
+	float: left;
+	width: 50%;
+}
+
+.clearfix{
+	overflow: hidden;
+}

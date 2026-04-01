@@ -1,0 +1,5 @@
+compiler    : hisilinux
+version     : 22.0.77
+model       : release
+chainInfo   : rtos510v2081micro
+totalVersion: release

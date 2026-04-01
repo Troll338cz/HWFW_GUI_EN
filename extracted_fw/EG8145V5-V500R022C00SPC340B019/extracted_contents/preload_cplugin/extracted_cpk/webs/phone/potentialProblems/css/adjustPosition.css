@@ -1,0 +1,245 @@
+#main{
+	background: #157ae1;
+}
+#top{
+	height: 2rem;
+}
+.title{
+	font-size: 1.2rem;
+	text-align: center;
+	color: #fff;
+	opacity: 0.6;
+	line-height: 2rem;
+}
+#backIcon{
+	position: absolute;
+	left: 0.5rem;
+	display: block;
+	width: 1.5rem;
+	height: 2rem;
+	background: url(../image/pageBack.png) no-repeat center;
+	background-size: 0.8rem 1rem;
+	cursor: pointer;
+	z-index: 3;
+}
+
+#chart{
+	height: 15rem;
+	position: relative;
+}
+.divBox{
+	width: 15rem;
+	height: 15rem;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+#outer{
+	background-image: url(../image/bg.png);
+	background-size: cover;
+	border-radius: 50%;
+	animation-timing-function: linear;
+	transform-origin: center;
+	width: 100%;
+	height: 100%;
+}
+.crossLine{
+	width: 15rem;
+	height: 15rem;
+	background-image: url(../image/crossLine.png);
+	background-size: cover;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 10;
+}
+.line1{
+	position: relative;
+	top: -1px;
+	height: 50%;
+	border-bottom: 1px solid #0b60a1;
+}
+.line2{
+	position: relative;
+	width: 50%;
+	height: 50%;
+	border-right: 1px solid #0b60a1;
+	left: -1px;
+	top: -50%;
+	margin-top: -1px;
+}
+.word{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	color: white;
+	opacity: 0.6;
+}
+.good{
+	bottom: 5.5rem;
+}
+.poor{
+	bottom: 3rem;
+}
+.bad{
+	bottom: 0.7rem;
+}
+#state{
+	position: absolute;
+	width: 1.6rem;
+	height: 1.6rem;
+	left: 50%;
+	margin-left: -0.85rem;
+	margin-top: -0.85rem;
+	z-index: 20;
+	background-size: cover;
+}
+.stateGood{
+	background: url(../image/good.png);
+}
+.statePoor{
+	background: url(../image/poor.png);
+}
+.stateBad{
+	background: url(../image/bad.png);
+}
+#rotate{
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	background: linear-gradient(44deg, rgba(0, 255, 51, 0) 50%, #0b60a1 100%);
+	border-radius: 100% 0 0 0;
+	animation-timing-function: linear;
+	transform-origin: bottom right;
+}
+.rotate{
+	animation: myRotate 5s infinite;
+}
+@keyframes myRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.status {
+  margin-top: 0.24rem;
+  padding: 0 0.5rem 0.2rem;
+}
+
+.status p {
+  text-align: center;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.25rem;
+}
+
+.bottom{
+	margin-top: 0.5rem;
+}
+.bottom p {
+  font-size: 1.2rem;
+  height: 2.2rem;
+  color: #e54545;
+  text-align: center;
+}
+
+.bottom .place {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.bottom .place div img {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+}
+
+.bottom .place div span {
+  display: block;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.bottom .place .left{
+    transform: translate( 0.5rem, -0.5rem);
+}
+.bottom .place .right {
+    transform: translate( -0.5rem, -0.5rem);
+}
+
+.bottom .place .center {
+  flex: 1;
+  margin: 0 1rem;
+}
+
+.bottom .place .center .center_top {
+  height: 0.88rem;
+  padding-top: 0.39rem;
+}
+
+.bottom .place .center .center_top div {
+  height: 0.2rem;
+  background: linear-gradient(to right, #eff9f5, #40bf8f, #eff9f5);
+  position: relative;
+}
+
+.bottom .place .center .center_top div i {
+  height: 0.6rem;
+  width: 0.6rem;
+  position: absolute;
+  top: -0.2rem;
+  left: 60%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background-size: 0.6rem 0.6rem;
+}
+
+.bottom .place .center .center_top div img {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: -2.5rem;
+  left: 60%;
+  transform: translateX(-50%);
+}
+
+.bottom .place .center .center_bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom .place .center .center_bottom div span:nth-child(2){
+  color: #999999;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+.bottom .place .center .center_bottom div span:nth-child(3){
+  color: #999999;
+  margin-top: 0.1rem;
+  font-size: 0.9rem;
+}
+
+#btn {
+	position: absolute;
+    width: 20rem;
+    height: 2rem;
+    font-size: 1.25rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 2rem;
+    bottom: 2rem;
+    left: 50%;
+    margin-left: -10rem;
+    border-radius: 3px;
+}
+#btn.clickable:active{
+	opacity: 0.5;
+}

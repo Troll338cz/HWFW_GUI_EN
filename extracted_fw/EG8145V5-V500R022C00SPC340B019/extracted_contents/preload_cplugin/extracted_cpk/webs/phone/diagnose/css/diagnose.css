@@ -1,0 +1,154 @@
+
+#main1{
+	width: 70%;
+	margin: 0 auto;
+	color: #999;
+	text-align: center;
+}
+
+#imgWarn{
+	display: inline-block;
+	width: 10rem;
+	height: 5rem;
+	background: url(../image/indexWarn.png);
+	background-size: cover;
+	margin: 7rem auto 1rem;
+}
+
+#btn{
+	width: 80%;
+	height: 1.8rem;
+	color: white;
+	font-size: 1rem;
+	line-height: 1.8rem;
+	text-align: center;
+	background: #0099ff;
+	border-radius: 5px;
+	margin: 2rem auto;
+}
+
+#footer{
+	position: absolute;
+	width: 100%;
+	bottom: 2rem;
+	text-align: center;
+	color: #999;
+}
+
+#main2{
+	color: white;
+}
+
+#main2>p{
+	text-align: center;
+	font-size: 1.2rem;
+	margin-top: 4rem;
+	opacity: 0.8;
+}
+
+#topo{
+	position: relative;
+	width: 80%;
+	height: 4rem;
+	margin: 0 auto;
+	padding: 0 1rem;
+	box-sizing: border-box;
+}
+
+#line{
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	background: white;
+	left: 0;
+	top: 2rem;
+}
+
+#left, #center, #right{
+	position: absolute;
+	top: 1rem;
+	width: 3rem;
+	text-align: center;
+}
+
+#left{
+	left: 0;
+	transform: translateX(-0.5rem);
+}
+#center{
+	left: 50%;
+	transform: translateX(-1rem);
+}
+#right{
+	right: 0;
+	transform: translateX(0.5rem);
+}
+
+#left .image{
+	width: 2rem;
+	height: 2rem;
+	background: #0099FF url(../image/Internet.png) no-repeat center;
+	background-size: cover;
+	transform: translateX(0.5rem);
+}
+#center .image{
+	width: 2rem;
+	height: 2rem;
+	background: #0099FF url(../image/router.png) no-repeat center;
+	background-size: cover;
+	transform: translateX(0.5rem);
+}
+#right .image{
+	width: 2rem;
+	height: 2rem;
+	background: #0099FF url(../image/terminal.png) no-repeat center;
+	background-size: cover;
+	transform: translateX(0.5rem);
+}
+
+.message{
+	margin-top: 0.5rem;
+}
+
+#progress{
+	width: 80%;
+	margin: 7rem auto 0;
+}
+
+.progressBar{
+	height: 8px;
+	background: white;
+	border-radius: 4px;
+	margin: 0.5rem auto 0;
+	overflow: hidden;
+}
+
+.progressPercent{
+	width: 0%;
+	height: 100%;
+	background: #5ccbb1;
+}
+
+#cancelCheck{
+	width: 80%;
+	height: 1.8rem;
+	color: white;
+	font-size: 1rem;
+	line-height: 1.8rem;
+	text-align: center;
+	background: #5ccbb1;
+	border-radius: 5px;
+	margin: 2rem auto;
+}
+
+#page1{
+	width: 100%;
+	height: 100%;
+}
+#page2{
+	width: 100%;
+	height: 100%;
+	background: #0099ff;
+	position: absolute;
+	display: none;
+}
