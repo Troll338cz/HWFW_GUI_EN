@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+	<meta charset='UTF-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<meta http-equiv='X-UA-Compatible' content='ie=edge'>
+	<meta name='viewport'
+		content='width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+	<title></title>
+	<script type='text/javascript' src="./common/jquery.min.js" charset="utf-8"></script>
+	<script type='text/javascript' src='./common/qrcode.js' charset="utf-8"></script>
+	<script type='text/javascript' src='./qrCode/js/qrCodeAction.js' charset="utf-8"></script>
+	<script type="text/javascript" src="./qrCode/js/RESOURCE.js" charset="utf-8"></script>
+	<script type='text/javascript' src="./common/xssCheck.js" charset="utf-8"></script>
+
+</head>
+
+<body>
+	<div id='qrCodeShandong'>
+		<div id='qrCodeTitle'>
+			<div id='chinaUnicomLOGO'>
+				<img id='chinaUnicomLOGOImg' src='./qrCode/image/ChinaUnicomLOGO.png' />
+				<div id='chinaUnicomTitle'><span key="QRCODE_TITLE"></span></div>
+			</div>
+			<div id='chinaUnicomTips'><span key="QRCODE_TIP_CONTENT"></span></div>
+		</div>
+		<div id='qrCodeContent' class="clearfix">
+			<div class="flLeft">
+				<div id='qrCodeContentLeft'>
+					<div id='qrCodeImg'></div>
+					<div id='qrCodeLOGO'>
+						<img id='codeicoImg' src='./qrCode/image/qrCodeLOGO.png' />
+					</div>
+				</div>
+			</div>
+			<div class="flRight">
+				<div id='qrCodeContentRight'>
+					<div id='broadbandAccount' class='qrCodeInfo'>
+						<div id='qrCodeBAccTitle'><span key="QRCODE_BD_ACCOUNT"></span></div>
+						<div id='qrCodeBAccTitleVal'> </div>
+					</div>
+					<div id='faultCode' class='qrCodeInfo'>
+						<div id='qrCodefaultCodeTitle'><span key="QRCODE_FAULT_CODE"></span></div>
+						<div id='qrCodefaultCodeVal'> </div>
+					</div>
+					<div id='coziestTips' class='qrCodeInfo'>
+						<div id='qrCodeCoziestTipsTitle'><span key="QRCODE_TIP_COZIESTTIPS"></span></div>
+						<div id='qrCodeCoziestTipsVal'>
+							<div class='tipsVal'><span key="QRCODE_TIP_COZIESTTIPSDESC"></span></div>
+							<div class='tipsVal'><span key="QRCODE_TIP_COZIESTTIPSDESC2"></span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>

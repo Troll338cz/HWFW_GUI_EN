@@ -1,0 +1,4 @@
+<CliRoot>
+<GetUsbDeviceList CmdStr="display usb devList" ObjPath="InternetGatewayDevice.X_HW_UsbInterface.X_HW_UsbStorageDevice" OpType="1" Help="USAGE:
+     display usb devList -- get usb device list which can be used!" OutPut="Device List = %DeviceList%" CmdGroup="0x00004000"/>
+</CliRoot>

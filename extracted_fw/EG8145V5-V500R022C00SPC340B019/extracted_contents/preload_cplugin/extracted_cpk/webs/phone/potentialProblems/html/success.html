@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title></title>
+    <script src="../js/RESOURCE.js" type="text/javascript" charset="utf-8"></script>
+    <style type="text/css">
+    	#successTip{
+    		position: absolute;
+    		top: 40%;
+    		left: 50%;
+    		transform: translateX(-50%);
+    	}
+    	#successTip img{
+    		transform: translateY(0.5rem);
+    	}
+    </style>
+</head>
+<body>
+    <div id="successTip">
+        <img src="../image/success.png">
+        <span key="OPRATION_SUCCESS"></span></span>
+    </div>
+    <script type="text/javascript">
+    	document.getElementsByTagName('title')[0].innerHTML = getResource('OPRATION_SUCCESS');
+    	loadLanguage();
+    </script>
+</body>
+</html>

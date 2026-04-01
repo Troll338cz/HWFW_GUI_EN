@@ -1,0 +1,13 @@
+WAP:vspa display mg info
+WAP:vspa display mg if state
+WAP:display last call log
+SHELL:sleep 2
+WAP:vspa display rtp statistics
+WAP:vspa display port status
+WAP:vspa display profilebody info
+WAP:vspa display digitmap info
+WAP:vspa display dsp template info
+WAP:display voip ring info port 0
+WAP:display voip ring info port 1
+WAP:display voip rightflag port 0
+WAP:display voip rightflag port 1

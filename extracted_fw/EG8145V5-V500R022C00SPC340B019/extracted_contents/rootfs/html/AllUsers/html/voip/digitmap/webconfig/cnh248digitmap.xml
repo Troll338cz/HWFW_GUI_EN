@@ -1,0 +1,19 @@
+<InternetGatewayDevice> 
+<Services>
+<VoiceService setconfig = "0x00000003">
+<VoiceProfile setconfig = "0x00000002" >
+<X_HW_DigitMapMatchMode setconfig = "0x00000002" /> 
+<X_HW_H248  setconfig = "0x00000002">
+<Extend  setconfig = "0x00000002">
+<DigitMapAutoMatchEnable setconfig = "0x00000002" />
+</Extend>
+<Digitmap setconfig = "0x00000002">
+<DigitMapStartTimer setconfig = "0x00000002" />
+<DigitMapShortTimer setconfig = "0x00000002" />
+<DigitMapLongTimer setconfig = "0x00000002" />
+</Digitmap>
+</X_HW_H248>
+</VoiceProfile>
+</VoiceService>
+</Services>
+</InternetGatewayDevice>

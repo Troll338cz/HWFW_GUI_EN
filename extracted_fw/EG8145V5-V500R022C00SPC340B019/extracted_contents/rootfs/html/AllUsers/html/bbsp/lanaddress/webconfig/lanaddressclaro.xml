@@ -1,0 +1,47 @@
+<InternetGatewayDevice>
+<LANDevice setconfig="0x00000007" getconfig="0x00000007">
+<X_HW_RouterAdvertisement setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<Enable setconfig = "0x00000007" getconfig = "0x00000007"/>
+<ManagedFlag setconfig = "0x00000007" getconfig = "0x00000007"/>
+<OtherConfigFlag setconfig = "0x00000007" getconfig = "0x00000007"/>
+<mode setconfig = "0x00000007" getconfig = "0x00000007"/>
+<MTU setconfig = "0x00000007" getconfig = "0x00000007"/>
+</X_HW_RouterAdvertisement>
+<LANHostConfigManagement setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<X_HW_IPv6Interface setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<LanInterface setconfig = "0x00000007" getconfig = "0x00000007"/>
+<IPv6Address setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<IPv6Address setconfig = "0x00000007" getconfig = "0x00000007"/>
+</IPv6Address>
+<IPv6Prefix setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<ParentPrefix setconfig = "0x00000007" getconfig = "0x00000007"/>
+<ChildPrefixMask setconfig = "0x00000007" getconfig = "0x00000007"/>
+<Mode setconfig = "0x00000007" getconfig = "0x00000007"/>
+<Prefix setconfig = "0x00000007" getconfig = "0x00000007"/>
+<PreferredLifeTime setconfig = "0x00000007" getconfig = "0x00000007"/>
+<ValidLifeTime  setconfig = "0x00000007" getconfig = "0x00000007"/>
+</IPv6Prefix>
+<ULAIPv6Prefix setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<ULAmode setconfig = "0x00000007" getconfig = "0x00000007"/>
+<prefix setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<ULAPrefix setconfig = "0x00000007" getconfig = "0x00000007"/>
+<ULAPrefixLen setconfig = "0x00000007" getconfig = "0x00000007"/>
+<ValidLifetime setconfig = "0x00000007" getconfig = "0x00000007"/>
+<PreferredLifetime setconfig = "0x00000007" getconfig = "0x00000007"/>
+</prefix>
+</ULAIPv6Prefix>
+</X_HW_IPv6Interface>
+</LANHostConfigManagement>
+<X_HW_DHCPv6 setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<Server setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<Enable setconfig = "0x00000007" getconfig = "0x00000007"/>
+</Server>
+</X_HW_DHCPv6>
+<X_HW_IPv6Config setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<DomainName setconfig = "0x00000007" getconfig = "0x00000007"/>
+<IPv6DNSConfigType setconfig = "0x00000007" getconfig = "0x00000007"/>
+<IPv6DNSWANConnection setconfig = "0x00000007" getconfig = "0x00000007"/>
+<IPv6DNSServers setconfig = "0x00000007" getconfig = "0x00000007"/>     
+</X_HW_IPv6Config>
+</LANDevice>
+</InternetGatewayDevice> 

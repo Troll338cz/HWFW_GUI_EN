@@ -1,0 +1,61 @@
+<InternetGatewayDevice> 
+<LANDevice setconfig="0x00000003">
+	<WLANConfiguration addconfig="0x00000003" delconfig="0x00000003" setconfig="0x00000003">
+		<PreSharedKey setconfig="0x00000003">
+			<PreSharedKey setconfig="0x00000003"/>
+		</PreSharedKey>
+	</WLANConfiguration>
+	<WiFi setconfig="0x00000003">
+	<Radio setconfig="0x00000003">
+		<Enable setconfig="0x00000003"/>
+	</Radio>
+	</WiFi>
+</LANDevice>
+<UserInterface setconfig = "0x00000003"> 
+	<X_HW_WebUserInfo setconfig = "0x00000003"> 
+		<Password setconfig = "0x00000003"/> 
+		<OldPassword setconfig = "0x00000003"/>
+	</X_HW_WebUserInfo>
+</UserInterface> 
+<WANDevice>
+	<WANConnectionDevice addconfig = "0x00000003" setconfig = "0x00000001">
+		<WANPPPConnection setconfig = "0x00000003" addconfig = "0x00000002" delconfig = "0x00000002">
+			<ConnectionType setconfig = "0x00000003"/>
+			<Username setconfig = "0x00000003"/>
+			<Password setconfig = "0x00000003"/>
+			<X_HW_LANBIND setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003">
+				<Lan1Enable setconfig = "0x00000003"/>
+				<Lan2Enable setconfig = "0x00000003"/>
+				<Lan3Enable setconfig = "0x00000003"/>
+				<Lan4Enable setconfig = "0x00000003"/>
+				<SSID1Enable setconfig = "0x00000003"/>
+				<SSID2Enable setconfig = "0x00000003"/>
+				<SSID3Enable setconfig = "0x00000003"/>
+				<SSID4Enable setconfig = "0x00000003"/>
+			</X_HW_LANBIND>
+		</WANPPPConnection>
+	</WANConnectionDevice>
+</WANDevice>
+<X_HW_DEBUG> 
+<AMP>
+<WifiCoverSetWlanBasic setconfig = "0x00000003">
+<SsidInst setconfig = "0x00000003"/>
+<SSID setconfig = "0x00000003"/>
+<Enable setconfig = "0x00000003"/>
+<Standard setconfig = "0x00000003"/>
+<BeaconType setconfig = "0x00000003"/>
+<BasicEncryptionModes setconfig = "0x00000003"/>
+<BasicAuthenticationMode setconfig = "0x00000003"/>
+<WPAEncryptionModes setconfig = "0x00000003"/>
+<WPAAuthenticationMode setconfig = "0x00000003"/>
+<IEEE11iEncryptionModes setconfig = "0x00000003"/>
+<IEEE11iAuthenticationMode setconfig = "0x00000003"/>
+<MixEncryptionModes setconfig = "0x00000003"/>
+<MixAuthenticationMode setconfig = "0x00000003"/>
+<WEPEncryptionLevel setconfig = "0x00000003"/>
+<WEPKeyIndex setconfig = "0x00000003"/>
+<Key setconfig = "0x00000003"/>
+</WifiCoverSetWlanBasic>
+</AMP>
+</X_HW_DEBUG>
+</InternetGatewayDevice> 

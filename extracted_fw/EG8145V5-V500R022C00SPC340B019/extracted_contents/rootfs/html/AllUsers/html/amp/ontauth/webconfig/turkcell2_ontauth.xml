@@ -1,0 +1,27 @@
+<InternetGatewayDevice> 
+<DeviceInfo setconfig = "0x00000002" getconfig = "0x00000002"> 
+<X_HW_Loid setconfig = "0x00000002" /> 
+<X_HW_EponPwd setconfig = "0x00000002" /> 
+<X_HW_ForceSet setconfig = "0x00000002" /> 
+<X_HW_EponKey setconfig = "0x00000002" /> 
+<X_HW_PonHexPassword setconfig = "0x00000002" /> 
+<X_HW_PonSN setconfig = "0x00000002"/>
+<X_HW_PonPassword setconfig = "0x00000002"/>
+<SerialNumber setconfig = "0x00000002"/>
+<X_HW_MainUpPort  setconfig = "0x00000002" getconfig = "0x00000002"/>
+<X_HW_UpPortMode  setconfig = "0x00000002" getconfig = "0x00000002"/>
+<X_HW_UpPortID  setconfig = "0x00000002" getconfig = "0x00000002"/>
+</DeviceInfo> 
+<X_HW_XgponDeviceInfo  setconfig = "0x00000002">
+<RegistrationID setconfig = "0x00000002"/>
+<MutualAuthSwitch setconfig = "0x00000002"/>
+<PreSharedKey setconfig = "0x00000002"/>
+</X_HW_XgponDeviceInfo>
+<X_HW_DEBUG setconfig = "0x00000002" getconfig = "0x00000002">
+<SMP> 
+<DM setconfig = "0x00000002" getconfig = "0x00000002"> 
+<ResetBoard setconfig =" 0x00000002" getconfig = "0x00000002"/>
+</DM> 
+</SMP> 
+</X_HW_DEBUG>
+</InternetGatewayDevice> 

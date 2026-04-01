@@ -1,0 +1,20 @@
+<InternetGatewayDevice> 
+<LANDevice setconfig = "0x00000003">
+<X_HW_WlanEnable setconfig = "0x00000003" getconfig = "0x00000003"/>
+
+
+<WLANConfiguration addconfig = "0x00000003" delconfig = "0x00000003" setconfig = "0x00000003">
+
+
+<WPS setconfig = "0x00000003">
+<X_HW_ConfigMethod setconfig = "0x00000003"/>
+<DevicePassword setconfig = "0x00000003"/>
+<X_HW_PinGenerator setconfig = "0x00000003"/>
+<Enable setconfig = "0x00000003"/>
+<X_HW_APPinEnable setconfig = "0x00000003"/>
+</WPS>
+</WLANConfiguration>
+
+</LANDevice>
+
+</InternetGatewayDevice> 

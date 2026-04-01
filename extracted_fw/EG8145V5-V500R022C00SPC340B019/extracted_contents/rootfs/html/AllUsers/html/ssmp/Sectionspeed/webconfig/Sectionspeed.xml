@@ -1,0 +1,33 @@
+<InternetGatewayDevice>
+<X_HW_DataModel setconfig = "0x00000003" getconfig = "0x00000003">
+<X_HW_IperfSpeedTest setconfig = "0x00000003" getconfig = "0x00000003">
+<IperfClient setconfig = "0x00000003" getconfig = "0x00000003">
+<DiagnosticsState setconfig = "0x00000003" getconfig = "0x00000003" />
+<DestMac setconfig = "0x00000003" getconfig = "0x00000003" />
+<ServerAddr setconfig = "0x00000003" getconfig = "0x00000003"/>
+<TestMode setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Port setconfig = "0x00000003" getconfig = "0x00000003"/>
+<MaxTime setconfig = "0x00000003" getconfig = "0x00000003"/>
+<ProtocolType setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Parallel setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Bandwidth setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Result setconfig = "0x00000003" getconfig = "0x00000003"/>
+<ErrorDescription setconfig = "0x00000003" getconfig = "0x00000003"/>
+<ReportTime setconfig = "0x00000003" getconfig = "0x00000003"/>
+<TestResult setconfig = "0x00000003" getconfig = "0x00000003"/>
+</IperfClient>
+<IperfServer setconfig = "0x00000003" getconfig = "0x00000003">
+<DiagnosticsState setconfig = "0x00000003" getconfig = "0x00000003"/>
+<DestMac setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Port setconfig = "0x00000003" getconfig = "0x00000003"/>
+<MaxTime setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Result setconfig = "0x00000003" getconfig = "0x00000003"/>
+<ServerIP setconfig = "0x00000003" getconfig = "0x00000003"/>
+<ServerPort setconfig = "0x00000003" getconfig = "0x00000003"/>
+<ErrorDescription setconfig = "0x00000003" getconfig = "0x00000003"/>
+<ReportTime setconfig = "0x00000003" getconfig = "0x00000003"/>
+<TestResult setconfig = "0x00000003" getconfig = "0x00000003"/>
+</IperfServer>
+</X_HW_IperfSpeedTest>
+</X_HW_DataModel>
+</InternetGatewayDevice>

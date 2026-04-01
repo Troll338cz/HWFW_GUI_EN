@@ -1,0 +1,74 @@
+WAP:display version
+WAP:display sn
+WAP:display inner version
+WAP:display deviceInfo
+WAP:display apmChipStatus
+WAP:display batteryStatus
+WAP:display boardItem
+WAP:display cwmp debug
+WAP:display machineItem
+WAP:display swm state
+WAP:display sysinfo
+WAP:display syslog
+WAP:display timer type 5
+WAP:display swm bootstate
+WAP:display bmsxml crc
+WAP:display tr069 info
+WAP:display debuglog info
+WAP:ctrgcmd show type 5
+WAP:ctrgcmd send bus com.ctc.appframework1 obj /com/ctc/appframework1 method com.ctc.appframework1.AppAgent.List
+WAP:display notify file
+WAP:check security config
+SHELL:if [ ! -h /var/init_debug.txt ]; then cat /var/init_debug.txt | sed -E 's/([A-Fa-f0-9]{2}:){5}[A-Fa-f0-9]{2}/******/g' ;fi;
+SHELL:uptime
+SHELL:free
+SHELL:cat /proc/meminfo
+SHELL:wap.ssp.ps
+SHELL:ps
+SHELL:cat /proc/slabinfo
+SHELL:dlw
+SHELL:dlog | sed -E 's/([A-Fa-f0-9]{2}:){5}[A-Fa-f0-9]{2}/******/g' | sed -E 's/(((\d{1,2})|(1\d{2})|(2[0-4]\d)|(25[0-5]))\.){3}((\d{1,2})|(1\d{2})|(2[0-4]\d)|(25[0-5]))/*:*:*:*/g' 
+SHELL:cat /proc/sysvipc/msg
+SHELL:cat /proc/wap_proc/wap_timer
+SHELL:ls -l /var/*
+SHELL:ls -l /var/*/*
+SHELL:ls -l /var/*/*/*
+SHELL:dmesg
+SHELL:if [ ! -h /mnt/jffs2/modulesinfo ]; then cat /mnt/jffs2/modulesinfo ; fi;
+SHELL:if [ ! -h /mnt/jffs2/panicinfo ]; then cat /mnt/jffs2/panicinfo ; fi;
+SHELL:if [ ! -h /proc/wap_proc/panicinfo ]; then cat /proc/wap_proc/panicinfo ; fi;
+SHELL:if [ ! -h /mnt/jffs2/softlockinfo ]; then cat /mnt/jffs2/softlockinfo ; fi;
+SHELL:if [ ! -h /mnt/jffs2/trace_info.bin ]; then cat /mnt/jffs2/trace_info.bin ; fi;
+SHELL:if [ ! -h /mnt/jffs2/wap_syslog.0 ]; then cat /mnt/jffs2/wap_syslog.0 ; fi;
+SHELL:if [ ! -h /mnt/jffs2/wap_syslog ]; then cat /mnt/jffs2/wap_syslog ; fi;
+SHELL:if [ ! -h /var/last_lastword ]; then cat /var/last_lastword ; fi;
+SHELL:if [ ! -h /var/log/message.0 ]; then cat /var/log/message.0 ; fi;
+SHELL:if [ ! -h /var/log/message ]; then cat /var/log/message ; fi;
+SHELL:if [ ! -h /var/DBSaveLog ]; then cat /var/DBSaveLog ; fi;
+SHELL:df
+SHELL:mount
+SHELL:for i in `ls /var/pm_log/*`; do cat $i; done
+SHELL:ls -l /mnt/jffs2/*
+SHELL:for i in `ls /mnt/jffs2/pm_log/*`; do cat $i; done
+SHELL:if [ ! -h /var/settimefile ]; then cat /var/settimefile; fi;
+SHELL: ls  -l  /dev/
+SHELL:if [ ! -h /var/usbsdinfo ]; then cat /var/usbsdinfo; fi;
+SHELL:cat /proc/mtd
+SHELL:cat /proc/modules
+SHELL:cat /proc/wap_proc/feature
+SHELL:cat /proc/wap_proc/spec
+SHELL:cat /proc/wap_proc/pd_static_attr 
+SHELL:cat /proc/wap_proc/pd_dynamic_attr | sed -E 's/([A-Fa-f0-9]{2}:){5}[A-Fa-f0-9]{2}/******/g'
+SHELL:cat /proc/wap_proc/ap_log | sed -E 's/([A-Fa-f0-9]{2}:){5}[A-Fa-f0-9]{2}/******/g' | sed -E 's/(((\d{1,2})|(1\d{2})|(2[0-4]\d)|(25[0-5]))\.){3}((\d{1,2})|(1\d{2})|(2[0-4]\d)|(25[0-5]))/*:*:*:*/g' 
+SHELL:cat /proc/wap_proc/alarm_log
+SHELL:if [ ! -h /mnt/jffs2/hw_hardinfo_feature ]; then cat /mnt/jffs2/hw_hardinfo_feature ; fi;
+SHELL:if [ ! -h /mnt/jffs2/hw_hardinfo_spec ]; then cat /mnt/jffs2/hw_hardinfo_spec ; fi;
+SHELL:if [ ! -h /mnt/jffs2/xbt/xbt_log ]; then cat /mnt/jffs2/xbt/xbt_log ; fi;
+SHELL:if [ ! -h /var/xbt_event_log ]; then cat /var/xbt_event_log; fi;
+SHELL:if [ ! -h /var/xbt_recycle_event_log ]; then cat /var/xbt_recycle_event_log; fi;
+SHELL:lsmod
+SHELL:cominfo -g
+SHELL:if [ ! -h /mnt/jffs2/factory_file ]; then cat /mnt/jffs2/factory_file ; fi;
+WAP:preplugin integrity check
+SHELL:cat /proc/dcm_proc/links_info
+SHELL:if [ ! -h /mnt/jffs2/fd_monitor_debug.log ]; then cat /mnt/jffs2/fd_monitor_debug.log ; fi;

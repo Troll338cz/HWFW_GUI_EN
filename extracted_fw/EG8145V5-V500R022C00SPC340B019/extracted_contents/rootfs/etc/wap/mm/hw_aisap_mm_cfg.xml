@@ -1,0 +1,19 @@
+<Mm_Configuration>
+    <InternetGatewayDevice LANDeviceNumberOfEntries="" WANDeviceNumberOfEntries="" />	
+    <InternetGatewayDevice.WANDevice WANConnectionNumberOfEntries="" />
+    <InternetGatewayDevice.WANDevice.WANConnectionDevice WANPPPConnectionNumberOfEntries="" />
+    <InternetGatewayDevice.WANDevice.WANConnectionDevice.WANPPPConnection Enable="" Username="" Password="" Name=""/>	
+    <InternetGatewayDevice.DeviceInfo  SerialNumber="" X_HW_LanMac="" X_HW_MachineItem="" HardwareVersion="" SoftwareVersion="" AdditionalSoftwareVersion="" X_HW_SlaveSoftversion="" X_HW_WlanMac="" X_HW_WanMac="" X_HW_ReleaseTime=""/>
+    <InternetGatewayDevice.X_HW_DEBUG.SMP.DM.ShowWapVer MainVersion="" StandbyVersion="" />	
+    <InternetGatewayDevice.LANDevice LANWLANConfigurationNumberOfEntries="" />
+    <InternetGatewayDevice.LANDevice.WLANConfiguration Enable="" SSID="" WPAAuthenticationMode="" BasicAuthenticationMode="" BeaconType="" ModeEnabled="" IEEE11iAuthenticationMode="" X_HW_WPAand11iAuthenticationMode=""/>
+    <InternetGatewayDevice.LANDevice.WLANConfiguration.PreSharedKey PreSharedKey="" />	
+    <InternetGatewayDevice.X_HW_DEBUG.SMP.DM.CheckCurCustomize ProgramKey="" ConfigFileKey="" />
+    <InternetGatewayDevice.X_HW_ChoiceProvinceInfo ProvinceList="" />	
+    <InternetGatewayDevice.Services.VoiceService.VoiceProfile Name="" NumberOfLines=""/>
+    <InternetGatewayDevice.Services.VoiceService.VoiceProfile.Line Enable="" DirectoryNumber="" PhyReferenceList=""/>
+    <InternetGatewayDevice.Services.VoiceService.VoiceProfile.Line.SIP AuthUserName="" AuthPassword=""/>
+    <InternetGatewayDevice.X_HW_Security.AclServices TELNETLanEnable="" TELNETWifiEnable="" />
+    <InternetGatewayDevice.X_HW_DEBUG.SMP.DisplayDevCertState State="" Filename="" Thumbprint="" Issuer="" Subject="" NotBefore="" NotAfter="" SignatureAlgorithm=""/>
+    <InternetGatewayDevice.ExtDeviceInfo.X_HW_PluginEquipInfo CodeFlag=""/>
+</Mm_Configuration>

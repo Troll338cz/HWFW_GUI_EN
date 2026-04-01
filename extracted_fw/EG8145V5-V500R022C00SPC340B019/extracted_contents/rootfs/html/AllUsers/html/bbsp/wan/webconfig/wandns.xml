@@ -1,0 +1,14 @@
+<InternetGatewayDevice>
+    <WANDevice>
+        <WANConnectionDevice addconfig = "0x00000003" getconfig = "0x00000003" setconfig = "0x00000003">
+            <WANIPConnection setconfig = "0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003">
+                <DNSOverrideAllowed setconfig = "0x00000003" getconfig = "0x00000003"/>
+                <DNSServers setconfig = "0x00000003" getconfig = "0x00000003"/>
+            </WANIPConnection>
+            <WANPPPConnection getconfig = "0x00000003" setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003">
+                <DNSOverrideAllowed getconfig = "0x00000003" setconfig = "0x00000003"/>
+                <DNSServers getconfig = "0x00000003" setconfig = "0x00000003"/>
+            </WANPPPConnection>
+        </WANConnectionDevice>
+    </WANDevice>
+</InternetGatewayDevice>

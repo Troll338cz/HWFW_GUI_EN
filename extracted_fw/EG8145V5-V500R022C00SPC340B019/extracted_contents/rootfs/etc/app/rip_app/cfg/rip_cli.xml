@@ -1,0 +1,8 @@
+<CliRoot>
+<!-- NOT_SUPPORT_CM_START-->
+<DebugRip CmdStr="debugging rip" ObjPath="InternetGatewayDevice.X_HW_DEBUG.BBSP.DebugRip" OpType="0" Help="debugging rip" OutPut="" CmdGroup="0x00002000">
+</DebugRip>
+<UndoDebugRip CmdStr="undo debugging rip" ObjPath="InternetGatewayDevice.X_HW_DEBUG.BBSP.UndoDebugRip" OpType="0" Help="undo debugging rip" OutPut="" CmdGroup="0x00002000">
+</UndoDebugRip>
+<!-- NOT_SUPPORT_CM_END-->
+</CliRoot>

@@ -1,0 +1,52 @@
+<InternetGatewayDevice>
+<WANDevice>
+<WANConnectionDevice addconfig = "0x0000000f" setconfig = "0x0000000f" getconfig = "0x0000000f">
+<WANIPConnection setconfig = "0x00000002" addconfig = "0x00000002" delconfig = "0x00000002" getconfig = "0x00000002">
+<PortMapping setconfig = "0x0000000f" addconfig = "0x0000000f" delconfig = "0x0000000f" getconfig = "0x0000000f">
+<PortMappingEnabled setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<RemoteHost setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<X_HW_RemoteHostRange setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<ExternalPort setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<ExternalPortEndRange setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<InternalPort setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<PortMappingProtocol setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<InternalClient setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<PortMappingDescription setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<X_HW_InternalEndPort setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<X_HW_ExternalSrcPort setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<X_HW_ExternalIP setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<X_HW_ExternalSrcEndPort setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<X_HW_Portlist setconfig = "0x0000000f" addconfig = "0x0000000f" delconfig = "0x0000000f" getconfig = "0x0000000f">
+<Protocol setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<InternalPort setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<ExternalPort setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<ExternalSrcPort setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+</X_HW_Portlist>
+</PortMapping>
+</WANIPConnection>
+<WANPPPConnection setconfig = "0x0000000f" addconfig = "0x00000002" delconfig = "0x00000002" getconfig = "0x00000002">
+<PortMapping setconfig = "0x0000000f" addconfig = "0x0000000f" delconfig = "0x0000000f" getconfig = "0x0000000f">
+<PortMappingEnabled setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<RemoteHost setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<X_HW_RemoteHostRange setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<ExternalPort setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<ExternalPortEndRange setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<InternalPort setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<PortMappingProtocol setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<InternalClient setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<PortMappingDescription setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<X_HW_InternalEndPort setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<X_HW_ExternalSrcPort setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<X_HW_ExternalIP setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<X_HW_ExternalSrcEndPort setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<X_HW_Portlist setconfig = "0x0000000f" addconfig = "0x0000000f" delconfig = "0x0000000f" getconfig = "0x0000000f">
+<Protocol setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<InternalPort setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<ExternalPort setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+<ExternalSrcPort setconfig = "0x0000000f" getconfig = "0x0000000f"/>
+</X_HW_Portlist>
+</PortMapping>
+</WANPPPConnection>
+</WANConnectionDevice>
+</WANDevice>
+</InternetGatewayDevice> 

@@ -1,0 +1,21 @@
+<InternetGatewayDevice>
+<X_HW_PCP setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<Enable setconfig = "0x00000002" getconfig = "0x00000002"/>
+<Interface setconfig = "0x00000002" getconfig = "0x00000002"/>
+<PlainMode setconfig = "0x00000002" getconfig = "0x00000002"/>
+<ServerAddress setconfig = "0x00000002" getconfig = "0x00000002"/>
+<UsedServerAddress setconfig = "0x00000002" getconfig = "0x00000002"/>
+<PCPMapping setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<InternalAddress setconfig = "0x00000007" getconfig = "0x00000007"/>
+<InternalPort setconfig = "0x00000007" getconfig = "0x00000007"/>
+<Protocol setconfig = "0x00000007" getconfig = "0x00000007"/>
+<RequiredExternalAddress setconfig = "0x00000007" getconfig = "0x00000007"/>
+<RequiredExternalPort setconfig = "0x00000007" getconfig = "0x00000007"/>
+<AllowProposal setconfig = "0x00000007" getconfig = "0x00000007"/>
+<Origin setconfig = "0x00000007" getconfig = "0x00000007"/>
+<ExternalAddress setconfig = "0x00000007" getconfig = "0x00000007"/>
+<ExternalPort setconfig = "0x00000007" getconfig = "0x00000007"/>
+<Status setconfig = "0x00000007" getconfig = "0x00000007"/>
+</PCPMapping>
+</X_HW_PCP>
+</InternetGatewayDevice> 

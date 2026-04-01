@@ -1,0 +1,29 @@
+<InternetGatewayDevice> 
+<IPPingDiagnostics setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<DiagnosticsState setconfig = "0x00000007" getconfig = "0x00000007"/>
+<Interface setconfig = "0x00000007" getconfig = "0x00000007"/>
+<Host setconfig = "0x00000007" getconfig = "0x00000007"/>
+<NumberOfRepetitions setconfig = "0x00000007" getconfig = "0x00000007"/>
+<Timeout setconfig = "0x00000007" getconfig = "0x00000007"/>
+<DataBlockSize setconfig = "0x00000007" getconfig = "0x00000007"/>
+<DSCP setconfig = "0x00000007" getconfig = "0x00000007"/>    
+</IPPingDiagnostics>
+<TraceRouteDiagnostics setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<DiagnosticsState setconfig = "0x00000007" getconfig = "0x00000007"/>
+<Interface setconfig = "0x00000007" getconfig = "0x00000007"/>
+<Host setconfig = "0x00000007" getconfig = "0x00000007"/>
+<NumberOfTries setconfig = "0x00000007" getconfig = "0x00000007"/>
+<MaxHopCount setconfig = "0x00000007" getconfig = "0x00000007"/>
+<Timeout setconfig = "0x00000007" getconfig = "0x00000007"/>
+<DataBlockSize setconfig = "0x00000007" getconfig = "0x00000007"/>
+<DSCP setconfig = "0x00000007" getconfig = "0x00000007"/>
+<X_HW_ProtocolType setconfig = "0x00000007" getconfig = "0x00000007"/>
+</TraceRouteDiagnostics>
+<X_HW_DEBUG setconfig = "0x00000007" getconfig = "0x00000007"> 
+<BBSP>
+<ExtendPortTransCheck setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<portid setconfig = "0x00000007" getconfig = "0x00000007"/>
+</ExtendPortTransCheck>
+</BBSP>
+</X_HW_DEBUG> 
+</InternetGatewayDevice>

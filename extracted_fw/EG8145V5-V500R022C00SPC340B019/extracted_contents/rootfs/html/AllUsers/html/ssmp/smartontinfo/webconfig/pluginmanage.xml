@@ -1,0 +1,7 @@
+<InternetGatewayDevice>
+    <SoftwareModules setconfig="0x00000002">
+        <ExecutionUnit setconfig="0x00000002">
+            <RequestedState setconfig="0x00000002"/>
+        </ExecutionUnit>
+    </SoftwareModules>
+</InternetGatewayDevice>

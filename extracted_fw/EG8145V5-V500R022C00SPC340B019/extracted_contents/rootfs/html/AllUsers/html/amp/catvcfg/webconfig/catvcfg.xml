@@ -1,0 +1,5 @@
+<InternetGatewayDevice>
+	<X_CATVConfiguration setconfig="0x00000002">
+		<Enable setconfig="0x00000002"/>
+	</X_CATVConfiguration>
+</InternetGatewayDevice>

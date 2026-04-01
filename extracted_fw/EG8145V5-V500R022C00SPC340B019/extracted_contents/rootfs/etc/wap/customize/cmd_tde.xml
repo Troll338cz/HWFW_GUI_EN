@@ -1,0 +1,154 @@
+<CusCliRoot>
+<SetPwd CmdStr="set password" CmdGroup="0x83000000"/>
+<SetSn CmdStr="set sn" CmdGroup="0x83000000"/>
+<ResetBoard CmdStr="reset" CmdGroup="0x83000000"/>
+<RestoreManufactory CmdStr="restore manufactory" CmdGroup="0x81000000"/>
+<ChangeCLIPasswd CmdStr="set userpasswd" CmdGroup="0x83000000"/>
+<UndoDebuggingAll CmdStr="undo debugging all" CmdGroup=""/>
+<DispDebuggingall CmdStr="display debugging all" CmdGroup=""/>
+<GetWifiInformation CmdStr="display wifi information" CmdGroup="0x82000000"/>
+<GetWifiAssociate CmdStr="display wifi associate" CmdGroup="0x82000000"/>
+<SetWifiBandEnableChannel CmdStr="set wifi radio" CmdGroup="0x82000000"/>
+<SetWifiRadioAdvance CmdStr="set wifi expert" CmdGroup="0x81000000"/>
+<SetWlanBasic CmdStr="set wlan basic" CmdGroup="0x81000000"/>
+<SetWlanWps CmdStr="set wlan wps" CmdGroup="0x81000000"/>
+<GetWlanWps CmdStr="get wlan wps " CmdGroup="0x81000000"/>
+<SETSSIDISOLATE CmdStr="set wlan isolate" CmdGroup="0x81000000"/>
+<GETSSIDISOLATE CmdStr="get wlan isolate" CmdGroup="0x81000000"/>
+<GetWlanBasic CmdStr="get wlan basic" CmdGroup="0x81000000"/>
+<GetWifiRadio CmdStr="display wifi radio" CmdGroup="0x82000000"/>
+<DisplayWlanStaInfo CmdStr="display wlan stainfo" CmdGroup="0x82000000"/>
+<DisplayWlanConfig CmdStr="display wlan config" CmdGroup="0x82000000"/>
+<GetWifiAntennaRSSI CmdStr="display wifi antenna rssi" CmdGroup="0x81000000"/>
+<SetWpsSwitch CmdStr="set wps" CmdGroup="0x82000000"/>
+<SetSSIDInfo CmdStr="set ssid" CmdGroup="0x82000000"/>
+<DisplayWifiFactory CmdStr="display wifi factory" CmdGroup="0x82000000"/>
+<DisplayWlanMacFilter CmdStr="display wlan mac filter" CmdGroup="0x82000000"/>
+<WlanMacFilterEnable CmdStr="wlan mac filter enable" CmdGroup="0x82000000"/>
+<WlanMacFilterDisable CmdStr="wlan mac filter disable" CmdGroup="0x82000000"/>
+<DisplaySntpInfo CmdStr="display sntp info" CmdGroup="0x83000000"/>
+<DisplayCliClient CmdStr="display cli client" CmdGroup="0x83000000"/>
+<DisplayCurrent-configuration CmdStr="display current-configuration" CmdGroup="0x83000000"/>
+<ShowFirewallRule CmdStr="display firewall rule" CmdGroup="0x83000000"/>
+<DHCPClient CmdStr="display dhcp client" CmdGroup="0x83000000"/>
+<DHCPClientAll CmdStr="display dhcp client all" CmdGroup="0x83000000"/>
+<SetEthPortMirror CmdStr="set ethportmirror" CmdGroup="0x83000000"/>
+<GetConnection CmdStr="display connection" CmdGroup="0x83000000"/>
+<GetConnectionAll CmdStr="display connection all" CmdGroup="0x83000000"/>
+<DisplayIpNeigh CmdStr="display ip neigh" CmdGroup="0x83000000"/>
+<DisplayIpv4Route CmdStr="display ip route" CmdGroup="0x81000000"/>
+<DisplayIpv6Route CmdStr="display ip -6 route" CmdGroup="0x83000000"/>
+<DHCPClientPacket CmdStr="debugging dhcp client packet " CmdGroup=""/>
+<UndoDHCPClientPacket CmdStr="undo debugging dhcp client packet" CmdGroup=""/>
+<DHCPClientPacketGet CmdStr="display debugging dhcp client packet" CmdGroup=""/>
+<DHCPClient6Packet CmdStr="debugging dhcp client6 packet"  CmdGroup=""/>
+<UndoDHCPClient6Packet CmdStr="undo debugging dhcp client6 packet" CmdGroup=""/>
+<GetDhcp6cTraceSwitch CmdStr="display debugging dhcp client6 packet" CmdGroup=""/>
+<PPPoEClientPacket CmdStr="debugging pppoe client packet " CmdGroup=""/>
+<UndoPPPoEClientPacket CmdStr="undo debugging pppoe client packet" CmdGroup=""/>
+<PPPoEClientPacketGet CmdStr="display debugging pppoe client packet" CmdGroup=""/>
+<RenewDhcpClient CmdStr="dhcp client renew" CmdGroup="0x83000000"/>
+<AttachDHCPClient CmdStr="dhcp client attach" CmdGroup="0x83000000"/>
+<DetachDHCPClient CmdStr="dhcp client detach" CmdGroup="0x83000000"/>
+<RenewDhcpClient6 CmdStr="dhcp client6 renew" CmdGroup="0x83000000"/>
+<AttachDHCPClient6 CmdStr="dhcp client6 attach" CmdGroup="0x83000000"/>
+<DetachDHCPClient6 CmdStr="dhcp client6 detach" CmdGroup="0x83000000"/>
+<DHCPServer CmdStr="display dhcp server pool" CmdGroup="0x83000000"/>
+<DHCPServerAll CmdStr="display dhcp server pool all" CmdGroup="0x83000000"/>
+<AttachPPPOEClient CmdStr="pppoe client attach" CmdGroup="0x81000000"/>
+<DetachPPPOEClient CmdStr="pppoe client detach" CmdGroup="0x81000000"/>
+<DisplayUserdev CmdStr="display user device" CmdGroup="0x83000000"/>
+<ShowWanPktStatistic CmdStr="display bbsp stats wan" CmdGroup="0x83000000"/>
+<DisplayIgmpProgram CmdStr="display igmp" CmdGroup="0x83000000"/>
+<IgmpGet CmdStr="display igmp config" CmdGroup="0x83000000"/>
+<FlushIgmp CmdStr="flush igmp" CmdGroup="0x83000000"/>
+<IgmpProxyQuery CmdStr="igmp proxy query" CmdGroup="0x83000000"/>
+<UndoIgmpProxyQuery CmdStr="undo igmp proxy query" CmdGroup="0x83000000"/>
+<IgmpConfig CmdStr="igmp config" CmdGroup="0x83000000"/>
+<SetIgmpEnable CmdStr="igmp enable" CmdGroup="0x81000000"/>
+<IgmpEnableParaUnSet CmdStr="igmp disable" CmdGroup="0x81000000"/>
+<DebugIgmp CmdStr="debugging igmp" CmdGroup=""/>
+<UndoDebugIgmp CmdStr="undo debugging igmp" CmdGroup=""/>
+<UndoDebugIgmpHost CmdStr="undo debugging igmp host" CmdGroup=""/>
+<DispDebugIgmp CmdStr="display debugging igmp" CmdGroup=""/>
+<GetPortConfig CmdStr="get port config" CmdGroup="0x83000000"/>
+<DisplayPortmapping CmdStr="display nat port mapping" CmdGroup="0x82000000"/>
+<AddPortmapping CmdStr="nat port mapping add" CmdGroup="0x82000000"/>
+<DelPortmapping CmdStr="nat port mapping delete" CmdGroup="0x82000000"/>
+<FlushPortmapping CmdStr="nat port mapping flush" CmdGroup="0x82000000"/>
+<SetPortmapping CmdStr="nat port mapping modify" CmdGroup="0x82000000"/>
+<Setdtmfmethod CmdStr="set voice dtmfmethod" CmdGroup="0x83000000"/>
+<displaycallstat CmdStr="display voip call statistics"	CmdGroup="0x83000000"/>
+<VoipCallTestStart CmdStr="voip calltest start"	CmdGroup="0x83000000"/>
+<VoipCallTestStop CmdStr="voip calltest stop"	CmdGroup="0x83000000"/>
+<DisplayVoipCallTest CmdStr="display voip calltest result"	CmdGroup="0x83000000"/>
+
+<SwmBackupCfg CmdStr="backup cfg" CmdGroup="0x83000000"/>
+<SetIPInterface CmdStr="ip-interface config" CmdGroup="0x83000000"/>
+<DisplayIPInterface CmdStr="display ip-interface" CmdGroup="0x83000000"/>
+<SetIPoeInterface CmdStr="ip interface config" CmdGroup="0x81000000"/>
+<DisplayIPoeInterface CmdStr="display ip interface" CmdGroup="0x81000000"/>
+<SetPPPoeInterface CmdStr="ppp interface config" CmdGroup="0x81000000"/>
+<DisplayPPPoeInterface CmdStr="display ppp interface" CmdGroup="0x81000000"/>
+
+<DhcpServerPoolConfig CmdStr="dhcp server pool config" CmdGroup="0x83000000"/>
+<DhcpServerPoolConfigLease CmdStr="dhcp server pool lease config" CmdGroup="0x81000000"/>
+<EnableDHCPServer CmdStr="dhcp server pool enable" CmdGroup="0x83000000"/>
+<DisableDHCPServer CmdStr="dhcp server pool disable" CmdGroup="0x83000000"/>
+<DHCPServerPoolOptionAdd CmdStr="dhcp server pool option add" CmdGroup="0x81000000"/>
+<DHCPServerPoolOptionDel CmdStr="dhcp server pool option del" CmdGroup="0x81000000"/>
+<DHCPServerPoolOptionFlush CmdStr="dhcp server pool option flush" CmdGroup="0x81000000"/>
+<DHCPServerPoolOptionDispaly CmdStr="display dhcp server pool option" CmdGroup="0x81000000"/>
+<DHCPServerRestart CmdStr="dhcp server pool restart" CmdGroup="0x81000000"/>
+<DispDHCPClientStats CmdStr="display dhcp client statistics" CmdGroup="0x83000000"/>
+<DispDHCPClient6Stats CmdStr="display dhcp client6 statistics" CmdGroup="0x83000000"/>
+<DispDHCPClient6 CmdStr="display dhcp client6" CmdGroup="0x83000000"/>
+<DispDHCPClient6ALL CmdStr="display dhcp client6 all" CmdGroup="0x83000000"/>
+<DebugRip CmdStr="debugging rip" CmdGroup="0x80002000"/>
+<UndoDebugRip CmdStr="undo debugging rip" CmdGroup="0x80002000"/>
+<GetLanportWorkmode CmdStr="display lanport workmode" CmdGroup="0x81000000"/>
+<DHCPClientAll CmdStr="display pppoe client all" CmdGroup="0x81000000"/>
+<DHCPClient CmdStr="display pppoe client" CmdGroup="0x81000000"/>
+<GetBroadbandInfo CmdStr="display broadband info" CmdGroup="0x81000000"/>
+<PPPoEClientSet CmdStr="pppoe client config" CmdGroup="0x81000000"/>
+<PPPoEClientGet CmdStr="display pppoe client config" CmdGroup="0x81000000"/>
+<PPPoEClientFlush CmdStr="pppoe client flush" CmdGroup="0x81000000"/>
+
+<IPNeighAdd CmdStr="ip neigh add" CmdGroup="0x81000000"/>
+<IPNeighDel CmdStr="ip neigh delete" CmdGroup="0x81000000"/>
+<IPNeighFlush CmdStr="ip neigh flush" CmdGroup="0x81000000"/>
+<AddRoute CmdStr="ip route add" CmdGroup="0x81000000"/>
+<DelRoute CmdStr="ip route delete" CmdGroup="0x81000000"/>
+<FirewallRuleAdd CmdStr="firewall rule add" CmdGroup="0x81000000"/>
+<FirewallRuleDel CmdStr="firewall rule delete" CmdGroup="0x81000000"/>
+<FirewallRuleFlush CmdStr="firewall rule flush" CmdGroup="0x81000000"/>
+<ShowIptablesLog CmdStr="firewall log" CmdGroup="0x81000000"/>
+<ClearIptablesLog CmdStr="undo firewall log" CmdGroup="0x81000000"/>
+
+<NSLOOKUP CmdStr="nslookup" CmdGroup="0x81000000"/>
+<DyingGaspRepeatSet CmdStr="set dying-gasp" CmdGroup="0x83000000"/>
+<SwmLoadPack CmdStr="load pack" CmdGroup="0x83000000"/>
+<SwmLoadCfg CmdStr="load cfg" CmdGroup="0x83000000"/>
+<SetMacAddrTimer CmdStr="macaddress" CmdGroup="0x81000000"/>
+<DisplayMacAddrTimer CmdStr="display macaddress timer" CmdGroup="0x83000000"/>
+
+<AddLanMacFilter CmdStr="lan mac filter add" CmdGroup="0x81000000"/>
+<DeleteLanMacFilter CmdStr="lan mac filter delete" CmdGroup="0x81000000"/>
+<FlushLanMacFilter CmdStr="lan mac filter flush" CmdGroup="0x81000000"/>
+<DisplayLanMacFilter CmdStr="display lan mac filter" CmdGroup="0x81000000"/>
+<EnableLanMacFilter CmdStr="lan mac filter enable" CmdGroup="0x81000000"/>
+<DisableLanMacFilter CmdStr="lan mac filter disable" CmdGroup="0x81000000"/>
+
+<WLANMacFltAdd CmdStr="wlan mac filter add" CmdGroup="0x83000000"/>
+<WLANMacFltDelete CmdStr="wlan mac filter delete" CmdGroup="0x83000000"/>
+<WLANMacFltFlush CmdStr="wlan mac filter flush" CmdGroup="0x83000000"/>
+<GetWlanTxPower CmdStr="get wlan txpower" CmdGroup="0x82000000"/>
+<TLFFirewallAdd CmdStr="tlf-firewall firewall add" CmdGroup="0x83000000"/>
+<TLFFirewallDel CmdStr="tlf-firewall firewall delete" CmdGroup="0x83000000"/>
+<TLFFirewallDisplay CmdStr="display tlf-firewall firewall" CmdGroup="0x83000000"/>
+<TLFFirewallDisplayAll CmdStr="display tlf-firewall firewall all" CmdGroup="0x83000000"/>
+<TLFFirewallRuleAdd CmdStr="tlf-firewall rule add" CmdGroup="0x83000000"/>
+<TLFFirewallRuleDel CmdStr="tlf-firewall rule delete" CmdGroup="0x83000000"/>
+<TLFFirewallRuleDisplay CmdStr="display tlf-firewall rule" CmdGroup="0x83000000"/>
+<TLFFirewallOptionDisplay CmdStr="display tlf-firewall" CmdGroup="0x83000000"/>
+</CusCliRoot>

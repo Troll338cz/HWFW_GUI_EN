@@ -1,0 +1,178 @@
+<InternetGatewayDevice> 
+<LANDevice setconfig="0x00000003" getconfig = "0x00000003">
+<LANHostConfigManagement setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<IPInterface setconfig = "0x00000003" getconfig = "0x00000003">
+<Enable setconfig = "0x00000003" getconfig = "0x00000003"/>
+<IPInterfaceIPAddress setconfig = "0x00000003" getconfig = "0x00000003"/>
+<IPInterfaceSubnetMask setconfig = "0x00000003" getconfig = "0x00000003"/>
+<X_HW_AddressConflictDetectionEnable setconfig = "0x00000003" getconfig = "0x00000003"/>
+</IPInterface>
+</LANHostConfigManagement>
+<LANEthernetInterfaceConfig setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<X_HW_PoEControl setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003">
+<Enable setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<PowerMode setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<PowerPriority setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<MaxPowerClass setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<PowerCapability setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<PowerSupplyStatus setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<PoweredDeviceClass setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<InvalidSignatureCounter setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<PowerDeniedCounter setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<OverloadCounter setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<ShortCounter setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<MPSAbsentCounter setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<PowerModeCapability setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+</X_HW_PoEControl>
+</LANEthernetInterfaceConfig>
+</LANDevice>
+<X_HW_BUSSINESSWLAN setconfig="0x00000003" getconfig = "0x00000003">
+<Enable setconfig="0x00000003" getconfig = "0x00000003" />
+<CloudProviders setconfig="0x00000003" getconfig = "0x00000003" />
+<CloudServer setconfig="0x00000003" getconfig = "0x00000003" />
+<CloudPort setconfig="0x00000003" getconfig = "0x00000003" />
+</X_HW_BUSSINESSWLAN>
+ <X_HW_BUSSINESSWLANServerStatus setconfig="0x00000003" getconfig = "0x00000003">
+    <CloudServerStatus setconfig="0x00000003" getconfig = "0x00000003" />
+ </X_HW_BUSSINESSWLANServerStatus>
+ <X_HW_BUSSINESSWLANAuthResult setconfig="0x00000003" getconfig = "0x00000003">
+    <AuthResult setconfig="0x00000003" getconfig = "0x00000003" />
+ </X_HW_BUSSINESSWLANAuthResult>
+ <X_HW_BUSSINESSWLANDeviceID setconfig="0x00000003" getconfig = "0x00000003">
+    <DeviceID setconfig="0x00000003" getconfig = "0x00000003" />
+ </X_HW_BUSSINESSWLANDeviceID>
+ <X_HW_LLDP setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003">
+<GlobalTable setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003">
+<VoiceVlanEnable setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<VoiceVlan setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<VoiceCOS setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<OUIID_0 setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<OUIID_1 setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<OUIID_2 setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<OUIID_3 setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<OUIID_4 setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<OUIID_5 setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<OUIID_6 setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<OUIID_7 setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+</GlobalTable>
+<PortTable setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003">
+<Enable setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<LLDPSendInterval setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<NetworkPolicySignalVlanID setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<NetworkPolicySignalCOS setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<NetworkPolicySignalDSCP setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<NetworkPolicySignalUntag setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<NetworkPolicyMediaVlanID setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<NetworkPolicyMediaCOS setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<NetworkPolicyMediaDSCP setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<NetworkPolicyMediaUntag setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<NetworkPolicyEnable setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<ExtendPowerViaMDI setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<RemoteChassisID setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<RemotePortID setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<RemoteTTL setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<RemotePortDescription setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<RemoteSystemName setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<RemoteSystemDescription setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<RemoteSystemCapabilities setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<RemoteManagementAddress setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<RemoteMEDCapabilities setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<RemoteExtendedPowerViaMDI setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<RemoteHardwareRevision setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<RemoteFirmwareRevision setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<RemoteSoftwareRevision setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<RemoteSerialNumber setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<RemoteManufacturerName setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<RemoteModelName setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<RemoteAssetID setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<LLDPPacketSendNumber setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<LLDPPacketRcvNumber setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<LLDPPacketDroppedNumber setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+</PortTable>
+</X_HW_LLDP>
+<X_HW_VPN setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003">
+<L2TPLAC setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003">
+<Enable setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<LNSAddress setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<LNSPort setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<LocalHostName setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<WANInterface setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<LACPort setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<PPPCONFIG setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003">
+<AuthenticationProtocol setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<UserName setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<Password setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+</PPPCONFIG>
+<Status setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003">
+<State setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<RemoteHostName setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<LocalIPAddress setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<RemoteIPAddress setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<LocalTunnelID setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<RemoteTunnelID setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<LocalPort setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<RemotePort setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<RxPackets setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<RxBytesLo setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<RxBytesHi setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<TxPackets setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<TxBytesLo setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<TxBytesHi setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+</Status>
+</L2TPLAC>
+<L2TPRoute setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003">
+<DestIPAddress setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<DestSubnetMask setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<IPInterfaceName setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+</L2TPRoute>
+</X_HW_VPN>
+<X_HW_IEEE8021X setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003">
+<Enable setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<AutoDetect setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<Radius setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003">
+<Authserver1 setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<SharedSecretAuth1 setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<Authserver2 setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<SharedSecretAuth2 setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<AuthUserNameFormat setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<AccountingServer setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<NasPortID setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<FallbackPolicy setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+</Radius>
+<PAE setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003">
+<Enable setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<ActionRegister setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<AuthenticationMethod setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<GuestVlan setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<Restrictvlan setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<QuietPeriod setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<ServerRetryTimes setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<ServerTimeout setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<HandShakeEnable setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<HandShakePeriod setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<HandShakeTime setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<AuthLogicUnit setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<ReAuthEnable setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<ReAuthPeriod setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<PAEState setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<AuthenticationState setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<LastUpTime setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+</PAE>
+</X_HW_IEEE8021X>
+<X_HW_Cellinfo_Report setconfig="0x00000003" getconfig = "0x00000003">
+	<Enable setconfig="0x00000003" getconfig = "0x00000003" />
+	<FtpServerIpAddr setconfig="0x00000003" getconfig = "0x00000003" />
+	<FtpServerUserName setconfig="0x00000003" getconfig = "0x00000003" />
+	<FtpServerUserPassword setconfig="0x00000003" getconfig = "0x00000003" />
+	<FtpServerPath setconfig="0x00000003" getconfig = "0x00000003" />
+	<CellSwitchEnable setconfig="0x00000003" getconfig = "0x00000003" />
+	<InternetServerAddr setconfig="0x00000003" getconfig = "0x00000003" />
+</X_HW_Cellinfo_Report>
+<X_HW_CellLock setconfig="0x00000003" getconfig = "0x00000003">
+	<Enable setconfig="0x00000003" getconfig = "0x00000003" />
+	<Rescan setconfig="0x00000003" getconfig = "0x00000003" />
+	<Islocked setconfig="0x00000003" getconfig = "0x00000003" />
+	<CellLocked setconfig="0x00000003" getconfig = "0x00000003" />
+	<CellScaned setconfig="0x00000003" getconfig = "0x00000003" />
+</X_HW_CellLock>
+</InternetGatewayDevice>

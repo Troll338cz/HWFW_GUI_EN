@@ -1,0 +1,16 @@
+root:x:0:
+tty:x:5:srv_clid
+disk:x:6:srv_ssmp,osgi_proxy,srv_wifi,srv_mu,srv_clid,srv_amp,srv_dbus
+kmem:x:9:
+hlp:x:10:srv_kmc
+fuse:x:11:srv_ssmp
+kmc:x:500:
+osgi:x:2000:srv_ssmp,srv_appm,srv_cagent,srv_clid,srv_cms,srv_dbus,srv_wifi
+config:x:2001:srv_ssmp,cfg_cwmp,srv_clid,srv_comm,srv_amp,srv_web,srv_cms
+service:x:2002:cfg_cwmp,osgi_proxy,srv_cagent,srv_apm,srv_kmc,srv_comm,srv_web
+tools:x:2003:
+apm:x:2014:
+voice:x:2024:srv_voice
+comm:x:2034:srv_comm
+samba:x:5000:
+nobody:x:65534:

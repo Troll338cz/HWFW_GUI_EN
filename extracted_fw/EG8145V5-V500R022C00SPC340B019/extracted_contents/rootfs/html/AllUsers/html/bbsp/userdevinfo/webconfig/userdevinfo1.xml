@@ -1,0 +1,37 @@
+<InternetGatewayDevice>
+<LANDevice setconfig="0x00000003" getconfig="0x00000003">
+<X_HW_UserDev setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<IpAddr setconfig = "0x00000003" getconfig = "0x00000003"/>
+<MacAddr setconfig = "0x00000003" getconfig = "0x00000003"/>
+<time setconfig = "0x00000003" getconfig = "0x00000003"/>
+<HostName setconfig = "0x00000003" getconfig = "0x00000003"/>    
+<PortID setconfig = "0x00000003" getconfig = "0x00000003"/>
+<IpType setconfig = "0x00000003" getconfig = "0x00000003"/>
+<DevType setconfig = "0x00000003" getconfig = "0x00000003"/>
+<DevStatus setconfig = "0x00000003" getconfig = "0x00000003"/>
+<PortType setconfig = "0x00000003" getconfig = "0x00000003"/> 
+<UserDevAlias setconfig = "0x00000003" getconfig = "0x00000003"/> 
+<UserSpecifiedDeviceType setconfig = "0x00000003" getconfig = "0x00000003"/>   
+<IPv6Address setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003"> 
+<IP setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Scope setconfig = "0x00000003" getconfig = "0x00000003"/>
+<MacAddr setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Time setconfig = "0x00000003" getconfig = "0x00000003"/>
+<HostName setconfig = "0x00000003" getconfig = "0x00000003"/>    
+<PortID setconfig = "0x00000003" getconfig = "0x00000003"/>
+<IpType setconfig = "0x00000003" getconfig = "0x00000003"/>
+<DevType setconfig = "0x00000003" getconfig = "0x00000003"/>
+<DevStatus setconfig = "0x00000003" getconfig = "0x00000003"/>
+<PortType setconfig = "0x00000003" getconfig = "0x00000003"/>
+<LeaseTime setconfig = "0x00000003" getconfig = "0x00000003"/>  
+</IPv6Address> 
+</X_HW_UserDev>
+</LANDevice> 
+<X_HW_FeatureList setconfig="0x00000003" getconfig="0x00000003">
+<BBSPCustomization setconfig="0x00000003" getconfig="0x00000003">
+<UserDevInfo setconfig = "0x00000003" getconfig = "0x00000003">
+<State setconfig = "0x00000003" getconfig = "0x00000003"/>
+</UserDevInfo>
+</BBSPCustomization>
+</X_HW_FeatureList>
+</InternetGatewayDevice> 

@@ -1,0 +1,38 @@
+<InternetGatewayDevice> 
+<X_HW_DEBUG> 
+<AMP>
+<WifiGlobleParam getconfig = "0x00000003">
+<MACCheck2G getconfig = "0x00000003"/>
+<MACCheck5G getconfig = "0x00000003"/>
+</WifiGlobleParam>
+</AMP>
+</X_HW_DEBUG>
+<X_HW_VideoCoverService setconfig = "0x00000003" getconfig = "0x00000003">
+<VideoCoverEnable setconfig = "0x00000003" getconfig = "0x00000003"/>
+</X_HW_VideoCoverService>
+<LANDevice setconfig = "0x00000003">
+<WiFi setconfig = "0x00000003">
+<Radio setconfig = "0x00000003">
+<X_HW_WLANSTABoost addconfig = "0x00000003" delconfig = "0x00000003" setconfig = "0x00000003">
+<ChipIndex setconfig = "0x00000003"/>
+<MACAddress setconfig = "0x00000003"/>
+<Duration setconfig = "0x00000003"/>
+</X_HW_WLANSTABoost>
+</Radio>
+</WiFi>
+</LANDevice>
+<WANDevice setconfig = "0x00000003" getconfig = "0x00000003">
+<WANCommonInterfaceConfig setconfig = "0x00000003" getconfig = "0x00000003">
+<X_HW_UpmodeConfig setconfig = "0x00000003" getconfig = "0x00000003">
+<UpAccessMode setconfig = "0x00000003" getconfig = "0x00000003"/>
+</X_HW_UpmodeConfig>
+</WANCommonInterfaceConfig>
+</WANDevice>
+<EasyMesh setconfig = "0x00000003" getconfig = "0x00000003">
+<Role setconfig = "0x00000003" getconfig = "0x00000003"/>
+<DetectRole setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Roaming setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Enable setconfig = "0x00000003" getconfig = "0x00000003"/>
+<MAPAgent setconfig = "0x00000003" getconfig = "0x00000003"/>
+</EasyMesh>
+</InternetGatewayDevice> 

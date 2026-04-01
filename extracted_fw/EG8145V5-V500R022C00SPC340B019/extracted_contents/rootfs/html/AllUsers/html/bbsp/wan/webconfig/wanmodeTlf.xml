@@ -1,0 +1,9 @@
+<InternetGatewayDevice>
+<WANDevice>
+<WANConnectionDevice setconfig = "0x00000003">
+<WANPPPConnection setconfig = "0x00000003">
+<ConnectionType setconfig = "0x00000003"/>
+</WANPPPConnection>
+</WANConnectionDevice>
+</WANDevice>
+</InternetGatewayDevice>

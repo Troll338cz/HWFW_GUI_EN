@@ -1,0 +1,147 @@
+<CusCliRoot>
+<DisplayTr069Info CmdStr="display tr069 info" CmdGroup=""/>
+<IpAccelerate CmdStr="ip accelerate" CmdGroup=""/>
+<DisplayIpAcclerate CmdStr="display ip accelerate" CmdGroup=""/>
+<DisplayFirewallLevel CmdStr="display firewall level" CmdGroup=""/>
+<DisplayIgmpProgram CmdStr="display igmp" CmdGroup=""/>
+<FlushIgmp CmdStr="flush igmp" CmdGroup=""/>
+<IgmpProxyQuery CmdStr="igmp proxy query" CmdGroup=""/>
+<UndoIgmpProxyQuery CmdStr="undo igmp proxy query" CmdGroup=""/>
+<IgmpConfig CmdStr="igmp config" CmdGroup=""/>
+<IgmpMember CmdStr="igmp member" CmdGroup=""/>
+<UndoIgmpMember CmdStr="undo igmp member" CmdGroup=""/>
+<GetIgmpFlow CmdStr="get igmp flow" CmdGroup=""/>
+<DisplayIpfpm CmdStr="display ip-fpm" CmdGroup=""/>
+<DisplayIpfpmGlobalInfo CmdStr="display ip-fpm global info" CmdGroup=""/>
+<DisplayIpfpmPathInfo CmdStr="display ip-fpm path info" CmdGroup=""/>
+<DebuggingipfpmReport CmdStr="debugging ip-fpm report" CmdGroup=""/>
+<UndoDebuggingipfpmReport CmdStr="undo debugging ip-fpm report" CmdGroup=""/>
+<DisplayLldpRemote CmdStr="display lldp remote" CmdGroup=""/>
+<DisplayLldpLocal CmdStr="display lldp local" CmdGroup=""/>
+<DisplayConnectionStats CmdStr="display connection stats" CmdGroup=""/>
+<DisplayConnection CmdStr="display connection" CmdGroup=""/>
+<DisplayConnectionAll CmdStr="display connection all" CmdGroup=""/>
+<DisplayWaninfoAll CmdStr="display waninfo all" CmdGroup=""/>
+<DisplayWaninfoInterface CmdStr="display waninfo" CmdGroup=""/>
+<Macaddress CmdStr="macaddress" CmdGroup=""/>
+<DisplayMacaddressTimer CmdStr="display macaddress timer" CmdGroup=""/>
+<FlushUpnp CmdStr="flush upnp" CmdGroup=""/>
+<DisplayUpnpConfig CmdStr="display upnp config" CmdGroup=""/>
+<DisplayUpnpMapping CmdStr="display upnp mapping" CmdGroup=""/>
+<DispDnsserverStaticDomain CmdStr="display dnsserver static domain" CmdGroup=""/>
+<DNSClientAddServer CmdStr="dns client add server" CmdGroup=""/>
+<DNSClientServer CmdStr="dns client server" CmdGroup=""/>
+<DNSClientDeleteServer CmdStr="dns client delete server" CmdGroup=""/>
+<DDNSSetInterface CmdStr="ddns set" CmdGroup=""/>
+<DnsserverDeleteCache CmdStr="dnsserver delete cache" CmdGroup=""/>
+<DnsserverAddStatic CmdStr="dnsserver add static" CmdGroup=""/>
+<DnsserverDeleteStatic CmdStr="dnsserver delete static" CmdGroup=""/>
+<FirewallRuleAdd CmdStr="firewall rule add" CmdGroup=""/>
+<FirewallRuleDelete CmdStr="firewall rule delete" CmdGroup=""/>
+<FirewallRuleFlush CmdStr="firewall rule flush" CmdGroup=""/>
+<IpNeighAdd CmdStr="ip neigh add" CmdGroup=""/>
+<IpNeighDelete CmdStr="ip neigh delete" CmdGroup=""/>
+<IpNeighFlush CmdStr="ip neigh flush" CmdGroup=""/>
+<IpRouteAdd CmdStr="ip route add" CmdGroup=""/>
+<IpRouteDelete CmdStr="ip route delete" CmdGroup=""/>
+<DNSClientQuery CmdStr="dns client query" CmdGroup=""/>
+<DispDHCPServer6User CmdStr="display dhcp server6 user" CmdGroup=""/>
+<DispDHCPServer6UserAll CmdStr="display dhcp server6 user all" CmdGroup=""/>
+<DispDHCPServer6Pool CmdStr="display dhcp server6 pool" CmdGroup=""/>
+<DispDHCPServer6PoolAll CmdStr="display dhcp server6 pool all" CmdGroup=""/>
+<DispDHCPClientStats CmdStr="display dhcp client statistics" CmdGroup=""/>
+<ResetDHCPClientStats CmdStr="reset dhcp client statistics" CmdGroup=""/>
+<DispDHCPClient6Stats CmdStr="display dhcp client6 statistics" CmdGroup=""/>
+<ResetDHCPClient6Stats CmdStr="reset dhcp client6 statistics" CmdGroup=""/>
+<DispLanDHCPServer CmdStr="display lan dhcp server" CmdGroup=""/>
+<DHCPClentRenew CmdStr="dhcp client renew" CmdGroup=""/>
+<DHCPClentAttach CmdStr="dhcp client attach" CmdGroup=""/>
+<DHCPClentDetach CmdStr="dhcp client detach" CmdGroup=""/>
+<DHCPClent6Renew CmdStr="dhcp client6 renew" CmdGroup=""/>
+<DHCPClent6Attach CmdStr="dhcp client6 attach" CmdGroup=""/>
+<DHCPClent6Detach CmdStr="dhcp client6 detach" CmdGroup=""/>
+<DHCPServerPoolEnable CmdStr="dhcp server pool enable" CmdGroup=""/>
+<DHCPServerPoolDisable CmdStr="dhcp server pool disable" CmdGroup=""/>
+<DHCPServerStatcAdd CmdStr="dhcp server static add" CmdGroup=""/>
+<DHCPServerStatcDelete CmdStr="dhcp server static delete" CmdGroup=""/>
+<DispDHCPServerStatc CmdStr="display dhcp server static" CmdGroup=""/>
+<DispUserDevice CmdStr="display user device" CmdGroup=""/>
+<FlushDHCPServerPool CmdStr="flush dhcp server pool" CmdGroup=""/>
+<UndoDebuggingAll CmdStr="undo debugging all" CmdGroup=""/>
+<DebugCwmpServerPacket CmdStr="debugging cwmp server packet" CmdGroup=""/>
+<UndoDebugCwmpServerPacket CmdStr="undo debugging cwmp server packet" CmdGroup=""/>
+<DispDebugCwmpServerPacket CmdStr="display debugging cwmp server packet" CmdGroup=""/>
+<DebugIgmp CmdStr="debugging igmp" CmdGroup=""/>
+<UndoDebugIgmp CmdStr="undo debugging igmp" CmdGroup=""/>
+<UndoDebugIgmpHost CmdStr="undo debugging igmp host" CmdGroup=""/>
+<DispDebugIgmp CmdStr="display debugging igmp" CmdGroup=""/>
+<DebugConnectionTraceAll CmdStr="debugging connection trace all" CmdGroup=""/>
+<DebugConnectionTrace CmdStr="debugging connection trace" CmdGroup=""/>
+<UndoDebugConnectionTrace CmdStr="undo debugging connection trace" CmdGroup=""/>
+<DebugUpnp CmdStr="debugging upnp" CmdGroup=""/>
+<UndoDebugUpnp CmdStr="undo debugging upnp" CmdGroup=""/>
+<DispDebugUpnp CmdStr="display debugging upnp" CmdGroup=""/>
+<DispDebugDHCPClientPacket CmdStr="display debugging dhcp client packet" CmdGroup=""/>
+<DispDebugDHCPServerPacket CmdStr="display debugging dhcp server packet" CmdGroup=""/>
+<DebugDHCPServerPacket CmdStr="debugging dhcp server packet" CmdGroup=""/>
+<UndoDebugDHCPServerPacket CmdStr="undo debugging dhcp server packet" CmdGroup=""/>
+<DispDebugDHCPClient6Packet CmdStr="display debugging dhcp client6 packet" CmdGroup=""/>
+<DebugDHCPServer6Packet CmdStr="debugging dhcp server6 packet" CmdGroup=""/>
+<UndoDebugDHCPServer6Packet CmdStr="undo debugging dhcp server6 packet" CmdGroup=""/>
+<DispDebugDHCPServer6Packet CmdStr="display debugging dhcp server6 packet" CmdGroup=""/>
+<DebugRAServerPacket CmdStr="debugging ra server packet" CmdGroup=""/>
+<UndoDebugRAServerPacket CmdStr="undo debugging ra server packet" CmdGroup=""/>
+<DebugAlg CmdStr="debugging alg" CmdGroup=""/>
+<UndoDebugAlg CmdStr="undo debugging alg" CmdGroup=""/>
+<displayservicestate CmdStr="display voip service state"	CmdGroup=""/>
+<displaycallstat CmdStr="display voip call statistics"	CmdGroup=""/>
+<displaycalllog CmdStr="display voip call log"	CmdGroup=""/>
+<debugvoipsignaling CmdStr="debugging voip signaling"	CmdGroup=""/>
+<undodebugvoipsignaling CmdStr="undo debugging voip signaling"	CmdGroup=""/>
+<RemoteDiagnosePara CmdStr="voip remote-diagnose parameters"	CmdGroup=""/>
+<RemoteDiagnose CmdStr="debugging voip remote-diagnose"	CmdGroup=""/>
+<UndoRemoteDiagnose CmdStr="undo debugging voip remote-diagnose"	CmdGroup=""/>
+<voipsetaccount CmdStr="voip set account"	CmdGroup=""/>
+<voipsetservice CmdStr="voip set service"	CmdGroup=""/>
+<voipserviceflush CmdStr="voip service flush"	CmdGroup=""/>
+<VoipCallTestStart CmdStr="voip calltest start"	CmdGroup=""/>
+<VoipCallTestStop CmdStr="voip calltest stop"	CmdGroup=""/>
+<DisplayVoipCallTest CmdStr="display voip calltest result"	CmdGroup=""/>
+<SetTr069info CmdStr="set tr069 info" CmdGroup=""/>
+<DebugSntp CmdStr="debugging  sntp" CmdGroup=""/>
+<UndoDebugSntp CmdStr="undo debugging sntp" CmdGroup=""/>
+<DisDebugSntp CmdStr="display debugging sntp" CmdGroup=""/>
+<GetWifiInformation CmdStr="display wifi information" CmdGroup=""/>
+<GetWifiAssociate CmdStr="display wifi associate" CmdGroup=""/>
+<GetWifiNeighbor CmdStr="display wifi neighbor" CmdGroup=""/>
+<SetWifiBandEnableChannel CmdStr="set wifi radio" CmdGroup=""/>
+<SetWifiBandEnableChannel CmdStr="display alg bind" CmdGroup=""/>
+<SetWifiBandEnableChannel CmdStr="alg bind" CmdGroup=""/>
+<SetWifiBandEnableChannel CmdStr="display nat port mapping" CmdGroup=""/>
+<SetWifiBandEnableChannel CmdStr="display nat config" CmdGroup=""/>
+<SetWifiBandEnableChannel CmdStr="nat port mapping add" CmdGroup=""/>
+<SetWifiBandEnableChannel CmdStr="nat port mapping delete" CmdGroup=""/>
+<SetWifiBandEnableChannel CmdStr="nat port mapping flush" CmdGroup=""/>
+<SetPortConfig CmdStr="set port config" CmdGroup=""/>
+<DisplaySntpInfo CmdStr="display sntp info" CmdGroup=""/>
+<GetPortConfigAll CmdStr="get port config all" CmdGroup=""/>
+<NatConfig CmdStr="nat config" CmdGroup=""/>
+<SetDownloadDiag CmdStr="set download diag" CmdGroup=""/>
+<DisplayDownloadDiag CmdStr="display download diag" CmdGroup=""/>
+<SntpServerAdd CmdStr="sntp server add" CmdGroup=""/>
+<SntpServerDel CmdStr="sntp server delete" CmdGroup=""/>
+<SntpInterface CmdStr="sntp service source-interface" CmdGroup=""/>
+<SntpServerEnable CmdStr="sntp service" CmdGroup=""/>
+<SntpServerDelAll CmdStr="sntp server delete all" CmdGroup=""/>
+<IPNeighAgingTime CmdStr="ip neigh aging-time" CmdGroup=""/>
+<DisplayIPNeighAgingTime CmdStr="display ip neigh aging-time" CmdGroup=""/>
+<DebugRip CmdStr="debugging rip" CmdGroup="0x00000000"/>
+<WifiBandAutoChannelSet2G CmdStr="set wifi acs 2G" CmdGroup=""/>
+<WifiBandAutoChannelSet5G CmdStr="set wifi acs 5G" CmdGroup=""/>
+<SetSpeedTest CmdStr="set speed test" CmdGroup=""/>
+<GetSpeedTest CmdStr="get speed test" CmdGroup=""/>
+<GetSpeedResult CmdStr="display speed test result" CmdGroup=""/>
+<WifiBandAutoChannelGet CmdStr="get wifi acs channels" CmdGroup=""/>
+<DisplaySntpStatistics CmdStr="display sntp statistics" CmdGroup=""/>
+<SntpSetInterval CmdStr="set sntp syninterval" CmdGroup=""/>
+</CusCliRoot>

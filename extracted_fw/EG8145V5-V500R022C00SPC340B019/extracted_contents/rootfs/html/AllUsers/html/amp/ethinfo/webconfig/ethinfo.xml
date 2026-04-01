@@ -1,0 +1,11 @@
+<InternetGatewayDevice>
+<X_HW_DEBUG setconfig="0x00000002">
+<AMP setconfig="0x00000002">
+<LANPort setconfig="0x00000002">
+<Statistics setconfig="0x00000002">
+<RcvFrame setconfig="0x00000002"/>
+</Statistics>
+</LANPort>
+</AMP>
+</X_HW_DEBUG>
+</InternetGatewayDevice>

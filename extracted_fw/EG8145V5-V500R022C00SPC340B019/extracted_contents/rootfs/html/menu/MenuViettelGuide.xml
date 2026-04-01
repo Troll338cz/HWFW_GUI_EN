@@ -1,0 +1,66 @@
+﻿<WebConfig>
+<english>
+<admin>
+<Item MenuLevel="1" MenuName="Easy Setup" url="">
+<Item MenuLevel="2" MenuName="Easy Setup" url="html/ssmp/cfgguide/setup.asp" />
+</Item>
+</admin>
+<normal>
+</normal>
+</english>
+<public>
+<Item url="/resource/common/InitForm.asp"/>
+<Item url="/html/ssmp/common/getPwdModifyFlag.asp"/>
+<Item url="/html/ssmp/common/StartFileLoad.asp" />
+<Item url="/html/ssmp/common/getCurLanguage.asp"/>
+<Item url="/html/ssmp/common/getCurUserType.asp"/>
+<Item url="/html/ssmp/common/getCurWebFrame.asp"/>
+<Item url="/html/ssmp/common/getPageName.asp"/>
+<Item url="/html/ssmp/common/getCurWebMenuPath.asp"/>
+<Item url="/html/get_swm_status.asp"/>
+<Item url="/html/ssmp/common/GetRandToken.asp" />
+<Item url="/html/ssmp/common/refreshTime.asp"/>
+<Item url="/html/msgerrcode.asp"/>
+<Item url="/html/proerrcode.asp"/>
+<Item url="/html/relocation.asp"/>
+<Item url="/html/bbsp/common/userinfo.asp"/>
+<Item url="/html/bbsp/common/topoinfo.asp"/>
+<Item url="/html/bbsp/common/managemode.asp"/>
+<Item url="/html/amp/common/wlan_list.asp"/>
+<Item url="/html/httpsdirect.asp"/>
+<Item url="/html/bbsp/common/wan_list_info.asp"/>
+<Item url="/html/bbsp/common/wan_list.asp"/>
+<Item url="/html/bbsp/common/wan_settings.asp"/>
+<Item url="/html/bbsp/common/wan_settings_static.asp"/>
+<Item url="/html/bbsp/common/getWanDynamicData.asp"/>
+<Item url="/html/bbsp/common/wanStateMonitor.asp"/>
+<!-- async load begin -->
+<Item url="/html/bbsp/common/wan_list_cache_wan.asp"/>
+<Item url="/html/bbsp/common/get_wan_list_policyroute.asp" />
+<Item url="/html/bbsp/common/get_wan_list_ipversion.asp" />
+<Item url="/html/bbsp/common/get_wan_list_ispwlan.asp" />
+<Item url="/html/bbsp/common/get_wan_list_wlaninfo.asp" />
+<Item url="/html/bbsp/common/get_wan_list_ipdslite.asp" />
+<Item url="/html/bbsp/common/get_wan_list_pppdslite.asp" />
+<Item url="/html/bbsp/common/get_wan_list_radiowanps.asp" />
+<Item url="/html/bbsp/common/get_wan_list_radiowanpara.asp" />
+<Item url="/html/bbsp/common/get_wan_list_ipwanstat.asp" />
+<Item url="/html/bbsp/common/get_wan_list_pppwanstat.asp" />
+<Item url="/html/bbsp/common/get_wan_list_v6iptunnel.asp" />
+<Item url="/html/bbsp/common/get_wan_list_v6ppptunnel.asp" />
+<Item url="/html/bbsp/common/get_wan_list_dsllinkconf.asp" />
+<Item url="/html/bbsp/common/get_wan_list_wanaccesstype.asp" />
+<Item url="/html/bbsp/common/get_wan_list_time.asp" />
+<Item url="/html/bbsp/common/get_wan_list_ipv6time.asp" />
+<Item url="/html/bbsp/common/get_ipv6state_address.asp" />
+<Item url="/html/bbsp/common/get_ipv6state_prefix.asp" />
+<Item url="/html/bbsp/common/wan_list_cache_wanipv6.asp" />
+<Item url="/html/bbsp/common/wan_list_cache_wanaddressacquire.asp" />
+<!-- async load end -->
+<Item url="/html/ssmp/common/CheckNormalPwd.asp"/>
+<Item url="/html/ssmp/common/CheckAdminPwd.asp"/>
+<Item url="/html/ssmp/maintain/getSdDevTestStatus.asp" />
+<Item url="/html/ssmp/common/CheckCliPasswordModified.asp" />
+<Item url="/html/amp/wlanadv/getProcessState.asp" />
+</public>
+</WebConfig>

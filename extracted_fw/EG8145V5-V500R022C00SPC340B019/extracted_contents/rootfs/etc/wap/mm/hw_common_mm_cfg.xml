@@ -1,0 +1,23 @@
+<Mm_Configuration>
+    <InternetGatewayDevice LANDeviceNumberOfEntries="" WANDeviceNumberOfEntries="" />	
+    <InternetGatewayDevice.WANDevice WANConnectionNumberOfEntries="" />
+    <InternetGatewayDevice.WANDevice.WANConnectionDevice WANPPPConnectionNumberOfEntries="" />
+    <InternetGatewayDevice.WANDevice.WANConnectionDevice.WANPPPConnection Enable="" Username="" Password="" Name=""/>	
+    <InternetGatewayDevice.DeviceInfo  SerialNumber="" X_HW_LanMac="" X_HW_MachineItem="" HardwareVersion="" SoftwareVersion="" AdditionalSoftwareVersion="" X_HW_SlaveSoftversion="" X_HW_WlanMac="" X_HW_WanMac="" X_HW_ReleaseTime="" ModelName="" ProductClass="" X_HW_UpPortMode="" />
+    <InternetGatewayDevice.X_HW_DEBUG.SMP.DM.ShowWapVer MainVersion="" StandbyVersion="" />
+    <InternetGatewayDevice.X_HW_ProductInfo originalVersion="" customInfo="" customInfoDetail="" />
+    <InternetGatewayDevice.LANDevice LANWLANConfigurationNumberOfEntries="" />
+    <InternetGatewayDevice.LANDevice.WLANConfiguration Enable="" SSID="" WPAAuthenticationMode="" BasicAuthenticationMode="" BeaconType="" ModeEnabled="" IEEE11iAuthenticationMode="" X_HW_WPAand11iAuthenticationMode=""/>
+    <InternetGatewayDevice.LANDevice.WLANConfiguration.PreSharedKey PreSharedKey="" />	
+    <InternetGatewayDevice.X_HW_DEBUG.SMP.DM.CheckCurCustomize ProgramKey="" ConfigFileKey="" />
+    <InternetGatewayDevice.X_HW_Security.AclServices TELNETLanEnable="" />
+    <InternetGatewayDevice.X_HW_ChoiceProvinceInfo ProvinceList="" />	
+    <InternetGatewayDevice.Services.VoiceService.VoiceProfile Name="" NumberOfLines=""/>
+    <InternetGatewayDevice.Services.VoiceService.VoiceProfile.Line Enable="" DirectoryNumber="" PhyReferenceList=""/>
+    <InternetGatewayDevice.Services.VoiceService.VoiceProfile.Line.SIP AuthUserName="" AuthPassword=""/>
+    <InternetGatewayDevice.X_HW_DEBUG.SMP.DisplayDevCertState State="" Filename="" Thumbprint="" Issuer="" Subject="" NotBefore="" NotAfter="" SignatureAlgorithm=""/>
+    <InternetGatewayDevice.ExtDeviceInfo.X_HW_PluginEquipInfo CodeFlag=""/>
+    <InternetGatewayDevice.X_HW_DEBUG.AMP.GetSelfTest SD5113Result="" WifiResult="" LswResult="" CodecResult="" OpticResult="" Port1Result="" Port2Result="" Port3Result="" Port4Result="" Port5Result="" Port6Result="" Port7Result="" Port8Result="" ExtLswResult="" DataCardResult="" ExtRfResult="" DECTResult="" SDResult="" MTDResult="" FPGAResult="" MotorResult="" PonMac="" DdrTrainingResult="" CPUVoltResult=""/>
+    <InternetGatewayDevice.X_HW_DEBUG.AMP.LANPort.CommonConfig Enable="" Mtu="" PortVid="" PortPri="" NegoMode="" Speed="" Duplex="" Link="" PauseEn="" PauseLine="" LoopMode="" MirrorEn="" MirrorDstPortID="" MirrorType=""/>
+    <InternetGatewayDevice.X_HW_DEBUG.AMP.Optic OpticDevice="" LosEnable="" SendPowerSupply="" ControlMode="" PowerSupply="" LinkStaus="" RxPower="" TxPower="" Voltage="" Temperature="" Bias="" RfRxPower="" RfOutputPower="" VendorName="" VendorSN="" TxData="" VendorRev="" VendorPN="" DateCode="" TxWaveLength="" RxWaveLength="" MaxTxDistance="" LosStatus="" uwRxPower="" uwTxPower=""/>
+</Mm_Configuration>

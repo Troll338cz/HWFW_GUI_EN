@@ -1,0 +1,304 @@
+.stepPortalContent{
+	height:100%;
+	width:100%;
+	background-size:100% 100%;
+	/*background-color:#f2f2f2;*/
+}
+
+.stepPortalTitle{
+	width:100%;
+	line-height:2em;
+	background-color:rgb(0, 162, 232);
+	color: #fff;
+	font-size:2.5em;
+	font-family:"Î¢ÈíÑÅºÚ";
+	font-weight: bold;
+}
+
+.stepPortalTip{
+	line-height:4em;
+	margin-left: 3%;
+	text-align:left;
+}
+
+.stepPortalTiprule{
+	line-height:4em;
+	margin-left: 2%;
+	text-align:left;
+	margin-top: 8em;
+}	
+.stepPortalTipSpan{
+	color: #666;
+	font-size:1.5em;
+	font-family:"Î¢ÈíÑÅºÚ";
+}
+#pwdPortalInput{
+	font-size:1.5em;
+	font-family:"Î¢ÈíÑÅºÚ";
+	font-weight: bold;
+	outline:none;
+	width: 100%;
+	height: 3em;
+	color: #555;
+	padding-left: 3%;
+}
+#UserPortalInput
+{
+	font-size:1.5em;
+	font-family:"Î¢ÈíÑÅºÚ";
+	font-weight: bold;
+	outline:none;
+	width: 100%;
+	height: 3em;
+	color: #555;
+	padding-left: 3%;
+}
+#settingPortalBtn{
+	background-color: #fff;
+	color:rgb(0, 162, 232);
+}
+.operatePortalBtn{
+	border-radius:0.2em;
+	-webkit-border-radius:0.2em;
+	font-size:2.5em;
+	font-family:"Î¢ÈíÑÅºÚ";
+	font-weight: bold;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 2.5em;
+	margin-top: 1em;
+	cursor: pointer;
+	min-width: 10em;
+	max-width: 40%;
+}
+#passsPortaltrength{
+	color: red;
+}
+#showPwd{
+	position: absolute;
+	width: 4.1em;
+	right: 2.5em;
+	cursor: pointer;
+	margin-top:0.5em;
+}
+
+/* 2 */
+div.indexPortalContent {
+	height:100%;
+	width:100%;
+	background-size:100% 100%;
+	/*background-color:#7bcbff;*/
+}
+.stepPortalTitleCenter{
+	width:100%;
+	line-height:2em;
+	background-color:rgb(0, 162, 232);
+	color: #fff;
+	font-size:2.5em;
+	font-family:"Î¢ÈíÑÅºÚ";
+	font-weight: bold;
+	text-align: center;
+}
+
+#RetryBtnID{
+	background-color: #fff;
+	color:rgb(0, 162, 232);
+}
+
+#NextpageBtnID{
+	background-color: #fff;
+	color:rgb(0, 162, 232);
+}
+
+#EndBtnID{
+	background-color: #fff;
+	color:rgb(0, 162, 232);
+}
+.bodyclass_8{
+	text-align: center;
+	font-size: 8px;
+}
+
+/* 3 */
+.portalFinishSpan{
+	color: #333;
+	font-size:1.8em;
+	font-family:"Î¢ÈíÑÅºÚ";
+	text-align:center;
+}
+
+/* 4 */
+.gatewayPortalImg{
+	text-align: center;
+	margin-top:5em;
+}
+.stepTipPortalSpan{
+	color: #333;
+	font-size:1.8em;
+	font-family:"Î¢ÈíÑÅºÚ";
+}
+.bodyclass_12{
+	text-align: center;
+	font-size: 12px;
+}
+
+/* 5 */
+.PortalInput{
+	font-size:1.5em;
+	font-family:"Î¢ÈíÑÅºÚ";
+	font-weight: bold;
+	outline:none;
+	width: 100%;
+	height: 3em;
+	color: #555;
+	padding-left: 3%;
+}
+
+/* 6 */
+.TextHelp {
+	margin-top:1em;
+	font-size:1.3em;
+	font-family: Î¢ÈíÑÅºÚ;
+}
+
+.stepPortalTipUpport{
+	line-height:4em;
+	margin-left: auto;
+	text-align:left;
+	background-color: #ffffff;
+}		
+				
+.iptvupportcss{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-box-align: center;
+	justify-content: center;
+}
+		
+#iptvupport1 {
+	display:inline-block;
+	max-width: 37.1%;
+	position: relative;
+}
+		
+#iptvupport2 {
+	display:inline-block;
+	max-width: 63%;
+	position: relative;
+}
+		
+#iptvupport1 img, #iptvupport2 img {
+	max-width: 100%;
+}
+
+/* 7 */
+#pwdStreng{
+	line-height:4em;
+	margin-left: 3%;
+	text-align:left;
+}
+.PwdNotice{
+	color: #666;
+	font-size:1.5em;
+	font-family:"Î¢ÈíÑÅºÚ";
+}
+.pwdnoticetitle{
+	color: #666;
+	font-size:1.2em;
+	font-family:"Î¢ÈíÑÅºÚ";
+	color: #333;
+}
+.pwdnoticearea{
+	color: #666;
+	font-size:1.5em;
+	font-family:"Î¢ÈíÑÅºÚ";
+}
+.stepPortalWebPwd{
+	color: #666;
+	font-size:1.5em;
+	font-family:"Î¢ÈíÑÅºÚ";
+}
+.PortalUserName{
+	color: #666;
+	font-size:1.5em;
+	font-family:"Î¢ÈíÑÅºÚ";
+}
+#pwdPortalInput1{
+	font-size:1.5em;
+	font-family:"Î¢ÈíÑÅºÚ";
+	font-weight: bold;
+	outline:none;
+	width: 100%;
+	height: 3em;
+	color: #555;
+	padding-left: 3%;
+	line-height:3em;
+}
+#pwdPortalInput2{
+	font-size:1.5em;
+	font-family:"Î¢ÈíÑÅºÚ";
+	font-weight: bold;
+	outline:none;
+	width: 100%;
+	height: 3em;
+	color: #555;
+	padding-left: 3%;
+	line-height:3em;
+}		
+#showPwd1{
+	position: absolute;
+	width: 4.1em;
+	right: 2.5em;
+	cursor: pointer;
+	margin-top:0.5em;
+}
+#showPwd2{
+	position: absolute;
+	width: 4.1em;
+	right: 2.5em;
+	cursor: pointer;
+	margin-top:0.5em;
+}
+
+/* 8 */
+.stepPortalTipWifi{
+	line-height:3em;
+	text-align:left;
+	color: #666;
+	font-family:"Î¢ÈíÑÅºÚ";
+}
+
+.paddingleft3{
+	padding-left: 3%;
+}
+
+#wlWpaPsk,#wlSsid{
+	font-size:1.5em;
+	font-family:"Î¢ÈíÑÅºÚ";
+	font-weight: bold;
+	outline:none;
+	width: 100%;
+	height: 3em;
+	color: #555;
+	padding-left: 3%;
+	line-height:3em;
+}		
+.BbspPwdEN {
+	display:inline-block;
+	width:15em;
+	text-align:center;
+	font-size:1.5em;
+	cursor:pointer;
+}
+.AutoNumEN{
+	display:inline-block;
+	width:10em;
+	text-align:center;
+	font-size:1.5em;
+	cursor:pointer;
+}

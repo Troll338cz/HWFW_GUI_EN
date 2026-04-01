@@ -1,0 +1,1 @@
+<%HW_WEB_GetParaArryByDomain(InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.{i}.RtcpLog, SendPktNum|RecvPktNum|MeanDelay|MeanJitter|FractionLoss,stAuth);%>;

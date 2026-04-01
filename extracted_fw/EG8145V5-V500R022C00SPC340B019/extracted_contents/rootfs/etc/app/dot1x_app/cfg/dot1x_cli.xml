@@ -1,0 +1,33 @@
+<CliRoot>
+<!-- SUPPORT_HGW_START-->
+<Display8021xStatus CmdStr="display 8021x status" ObjPath="InternetGatewayDevice.X_HW_DEBUG.BBSP.Display8021xStatus" OpType="5" Help="display 8021x status" OutPut="" CmdGroup="">
+</Display8021xStatus>
+<Display8021xRdStatus CmdStr="display 8021x radius stats" ObjPath="InternetGatewayDevice.X_HW_DEBUG.BBSP.Display8021xRadiusStats" OpType="5" Help="display 8021x radius stats" OutPut="" CmdGroup="">
+<para ParaName="port" AttName="port" ParaAtt="0"/>
+</Display8021xRdStatus>
+<Display8021xRdCfg CmdStr="display 8021x radius config" ObjPath="InternetGatewayDevice.X_HW_DEBUG.BBSP.Display8021xRadiusCfg" OpType="5" Help="display 8021x radius config" OutPut="" CmdGroup="">
+<para ParaName="port" AttName="port" ParaAtt="0"/>
+</Display8021xRdCfg>
+<Display8021xPaeStats CmdStr="display 8021x pae stats" ObjPath="InternetGatewayDevice.X_HW_DEBUG.BBSP.Display8021xPaeStats" OpType="5" Help="display 8021x pae stats port [int]" OutPut="" CmdGroup="">
+<para ParaName="port" AttName="port" ParaAtt="0"/>
+</Display8021xPaeStats>
+<Display8021xPaeCfg CmdStr="display 8021x pae config" ObjPath="InternetGatewayDevice.X_HW_DEBUG.BBSP.Display8021xPaeCfg" OpType="5" Help="display 8021x pae config port [int]" OutPut="" CmdGroup="">
+<para ParaName="port" AttName="port" ParaAtt="0"/>
+</Display8021xPaeCfg>
+<Set8021xGlobal CmdStr="set dot1x" ObjPath="InternetGatewayDevice.X_HW_IEEE8021X" OpType="5" Help="set dot1x enable [int] detect[int]" OutPut="" CmdGroup="">
+<para ParaName="enable" AttName="Enable" ParaAtt="0"/>
+<para ParaName="detect" AttName="AutoDetect" ParaAtt="0"/>
+</Set8021xGlobal>
+<DOT1XClient CmdStr="debugging 802.1x client" ObjPath="InternetGatewayDevice.X_HW_DEBUG.BBSP.DOT1XClient" OpType="5" Help="debugging 802.1x client {port intfname}" OutPut="" CmdGroup="0x00002000">
+<para ParaName="port" AttName="port" ParaAtt="0"/>
+</DOT1XClient>
+<UndoDOT1XClient CmdStr="undo debugging 802.1x client" ObjPath="InternetGatewayDevice.X_HW_DEBUG.BBSP.UndoDOT1XClient" OpType="5" Help="undo debugging 802.1x client {port intfname}" OutPut="" CmdGroup="0x00002000">
+<para ParaName="port" AttName="port" ParaAtt="0"/>
+</UndoDOT1XClient>
+<DOT1XClientGet CmdStr="display debugging 802.1x client" ObjPath="InternetGatewayDevice.X_HW_DEBUG.BBSP.DOT1XClientGet" OpType="0" Help="display debugging 802.1x client {port intfname}" OutPut="" CmdGroup="0x80002000">
+<para ParaName="port" AttName="port" ParaAtt="0"/>
+</DOT1XClientGet>
+<Display8021xInnerStatus CmdStr="display 8021x inner status" ObjPath="InternetGatewayDevice.X_HW_DEBUG.BBSP.Display8021xInnerStatus" OpType="5" Help="display 8021x inner status" OutPut="" CmdGroup="">
+</Display8021xInnerStatus>
+<!-- SUPPORT_HGW_END-->
+</CliRoot>

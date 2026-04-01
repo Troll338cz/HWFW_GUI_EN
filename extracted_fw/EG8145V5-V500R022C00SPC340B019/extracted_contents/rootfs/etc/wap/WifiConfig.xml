@@ -1,0 +1,209 @@
+<!-- Type表示属性类型，与结构体定义要保持一致 -->
+<!-- MaxLength表示属性所占用的最大空间，要与结构体保持一致，非VALUE_TYPE_CHAR类型该参数无效，VALUE_TYPE_CHAR类型MaxLength必须包含\0结束符的长度 -->
+<WIFIAP>
+<EventList>
+<NotifyWLCAssociatedStat>
+    <WlanConfigurationIndex Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+ 	<FbtMacEnties Type="VALUE_TYPE_CHAR" MaxLength="20"  Sensitive="0"/>
+	<FbtChannel Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+    <FbtRSSI Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+    <FbtNotifyType Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+    <SupportedProtocols Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+	<FbtVMac Type="VALUE_TYPE_CHAR" MaxLength="20"  Sensitive="0"/>
+	<LoadBAFlag Type="VALUE_TYPE_BOOL" MaxLength="4" Sensitive="0"/>
+    <OfflineType Type="VALUE_TYPE_CHAR" MaxLength="8" Sensitive="0"/>
+    <OfflineReason Type="VALUE_TYPE_CHAR" MaxLength="128" Sensitive="0"/>
+    <ScnFriendlyFlag Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+    <ScnOnlineFlag Type="VALUE_TYPE_BOOL" MaxLength="4" Sensitive="0"/>
+</NotifyWLCAssociatedStat>
+<NotifyScanApResult>
+    <StaMac Type="VALUE_TYPE_CHAR" MaxLength="20"  Sensitive="0"/>
+ 	<Bssid Type="VALUE_TYPE_CHAR" MaxLength="20"  Sensitive="0"/>
+    <Rssi Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+    <refuse Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+	<CurrentRssi Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</NotifyScanApResult>
+<NotifyStaMoveOut>
+    <MoveStaMac Type="VALUE_TYPE_CHAR" MaxLength="20"  Sensitive="0"/>
+ 	<MoveBssid Type="VALUE_TYPE_CHAR" MaxLength="20"  Sensitive="0"/>
+	<Moveresult Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+    <CurRssi Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+    <ScanRssi Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</NotifyStaMoveOut>
+<NotifyTpcReadyStatus>
+	<IsReady Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</NotifyTpcReadyStatus>
+<NotifyHeartBeat>
+    <AP1SyncCode Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+    <AP2SyncCode Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+    <STopotimeout Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+    <SDeviceOnTime Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+    <ReserveData Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+    <RSSI Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+    <LinkId Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+    <UplinkRate Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+    <DownLinkRate Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</NotifyHeartBeat>
+<NotifyUpgradeFinish >
+    <ErrCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+    <SerialID Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+    <MAC Type="VALUE_TYPE_CHAR" MaxLength="18" Sensitive="0"/>
+</NotifyUpgradeFinish>
+<NotifyWiFiDebugInfo>
+    <Result Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+    <CommandLine Type="VALUE_TYPE_CHAR" MaxLength="64" Sensitive="0"/>
+</NotifyWiFiDebugInfo>
+<NotifyWiFiQueueRunover>
+	<BandQueue Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+	<Time Type="VALUE_TYPE_CHAR" MaxLength="32" Sensitive="0"/>
+	<EventName Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</NotifyWiFiQueueRunover>
+<NotifyDbgCollectRslt >
+    <ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+    <CMD Type="VALUE_TYPE_CHAR" MaxLength="65"  Sensitive="0"/>
+    <APMAC Type="VALUE_TYPE_CHAR" MaxLength="18"  Sensitive="0"/>
+</NotifyDbgCollectRslt>
+<NotifyRadarAppear>
+    <BandInfo Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</NotifyRadarAppear>
+<NotifyStaOffline>
+    <OffLineDevType Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+    <MacNum Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+    <MacContents Type="VALUE_TYPE_CHAR" MaxLength="1280"  Sensitive="0"/>
+</NotifyStaOffline>
+<NotifyUplinkRssiPoor>
+    <ApMAC Type="VALUE_TYPE_CHAR" MaxLength="20"  Sensitive="0"/>
+    <RSSi Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</NotifyUplinkRssiPoor>
+<NotifyStaRefused>
+    <StaMAC Type="VALUE_TYPE_CHAR" MaxLength="20"  Sensitive="0"/>
+    <Reason Type="VALUE_TYPE_CHAR" MaxLength="20"  Sensitive="0"/>
+    <MaxNum Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+    <CfgNum Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+    <CurNum Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</NotifyStaRefused>
+<NotifyStaTooMany>
+    <SSIDInDex Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+    <NUM Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</NotifyStaTooMany>
+<NotifyStaBgMode>
+    <SsidIndex Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+    <STAMAC Type="VALUE_TYPE_CHAR" MaxLength="20"  Sensitive="0"/>
+</NotifyStaBgMode>
+<NotifyDetectRadar>
+    <DFSList Type="VALUE_TYPE_CHAR" MaxLength="64"  Sensitive="0"/>
+</NotifyDetectRadar>
+<NotifyChannelChange>
+    <RFBand Type="VALUE_TYPE_CHAR" MaxLength="16"  Sensitive="0"/>
+    <PreChannel Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+    <CurChannel Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+    <ChlChangeReason Type="VALUE_TYPE_CHAR" MaxLength="64" Sensitive="0"/>
+</NotifyChannelChange>
+<NotifyIperfResult>
+	<uiType Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+    <uiResult Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+    <uiSequenceId Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+    <cRequestId Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+	<uiTaskID Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+	<cErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="512"  Sensitive="0"/>
+	<Sec Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+	<Usec Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+	<uiResultLen Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+	<pcTestResult Type="VALUE_TYPE_CHAR" MaxLength="102400"  Sensitive="0"/>
+</NotifyIperfResult>
+<NotifyProbeInfo>
+	<LeafMAC Type="VALUE_TYPE_CHAR" MaxLength="18"  Sensitive="0"/>
+	<VerifyData Type="VALUE_TYPE_CHAR" MaxLength="65"  Sensitive="0"/>
+</NotifyProbeInfo>
+<NotifyOkcFound>
+	<OkcFoundMac Type="VALUE_TYPE_CHAR" MaxLength="20"  Sensitive="0"/>
+	<DevKind Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+	<DevType Type="VALUE_TYPE_CHAR" MaxLength="32"  Sensitive="0"/>
+	<OkcChannel Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+	<OkcRSSI  Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+        <OkcFoundBrMac Type="VALUE_TYPE_CHAR" MaxLength="20"  Sensitive="0"/>
+</NotifyOkcFound>
+<NotifyOkcEnd>
+	<OkcEndMac Type="VALUE_TYPE_CHAR" MaxLength="20"  Sensitive="0"/>
+	<Status Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</NotifyOkcEnd>
+<NotifySegmentSpeedRslt>
+	<PktgenStaMac Type="VALUE_TYPE_CHAR" MaxLength="18"  Sensitive="0"/>
+	<PktgenStatus Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+	<PktSendBytes Type="VALUE_TYPE_CHAR" MaxLength="32"  Sensitive="0"/>
+	<PktSendRate Type="VALUE_TYPE_CHAR" MaxLength="32"  Sensitive="0"/>
+</NotifySegmentSpeedRslt>
+<NotifyBSDSwitchEnd>
+	<deviceMAC Type="VALUE_TYPE_CHAR" MaxLength="20"  Sensitive="0"/>
+	<TimeStamp Type="VALUE_TYPE_UINT64" MaxLength="8"  Sensitive="0"/>
+	<staMacAddr Type="VALUE_TYPE_CHAR" MaxLength="20"  Sensitive="0"/>
+	<steeringTime Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+	<steeringReason Type="VALUE_TYPE_CHAR" MaxLength="16"  Sensitive="0"/>
+	<oldBand Type="VALUE_TYPE_CHAR" MaxLength="8"  Sensitive="0"/>
+	<oldRSSI  Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+	<newBand Type="VALUE_TYPE_CHAR" MaxLength="8"  Sensitive="0"/>
+	<newRSSI Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+	<result Type="VALUE_TYPE_CHAR" MaxLength="16"  Sensitive="0"/>
+</NotifyBSDSwitchEnd>
+<NotifyHilinkMsg>
+	<MsgId Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+	<MsgLen Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+	<MsgData Type="VALUE_TYPE_CHAR" MaxLength="1025"  Sensitive="0"/>
+</NotifyHilinkMsg>
+<NotifyDeviceOper>
+    <Operation Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</NotifyDeviceOper>
+<NotifyUSBInfo>
+    <USBStatus Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+    <USBType Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+    <USBName Type="VALUE_TYPE_CHAR" MaxLength="32"  Sensitive="0"/>
+    <USBMAC Type="VALUE_TYPE_CHAR" MaxLength="32"  Sensitive="0"/>
+</NotifyUSBInfo>
+<NotifyCfgResult>
+    <CfgResult Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+    <CRC Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</NotifyCfgResult>
+<NotifyInterference>
+    <CurrentChannel Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+    <Interference Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</NotifyInterference>
+<NotifyUpdateRtInfo>
+    <RtMac Type="VALUE_TYPE_CHAR" MaxLength="18" Sensitive="0"/>
+    <IsRt Type="VALUE_TYPE_BOOL" MaxLength="4" Sensitive="0"/>
+    <PlannedChannel Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+    <ChannelType Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+    <BandWidth Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+    <InterfThres Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+    <LongDisMode Type="VALUE_TYPE_BOOL" MaxLength="4" Sensitive="0"/>
+</NotifyUpdateRtInfo>
+<NotifyReportQbbRadioInfo>
+    <RadioInfo Type="VALUE_TYPE_CHAR" MaxLength="10000" Sensitive="0"/>
+</NotifyReportQbbRadioInfo>
+<NotifyReportQbbStaInfo>
+    <StaInfoLen Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+    <StaNum Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+    <PluginID Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+    <StaInfo Type="VALUE_TYPE_CHAR" MaxLength="20000" Sensitive="0"/>
+</NotifyReportQbbStaInfo>
+<NotifyQbbRadioSecEvent>
+    <QbbRadioApMac Type="VALUE_TYPE_CHAR" MaxLength="18" Sensitive="0"/>
+    <TimeStamp Type="VALUE_TYPE_CHAR" MaxLength="32" Sensitive="0"/>
+    <ReportType Type="VALUE_TYPE_CHAR" MaxLength="30" Sensitive="0"/>
+    <RfBand Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+    <UsePercent Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+    <Duty Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+    <DeviceType Type="VALUE_TYPE_CHAR" MaxLength="65" Sensitive="0"/>
+</NotifyQbbRadioSecEvent>
+<NotifyQbbStaSecEvent>
+    <QbbStaApMac Type="VALUE_TYPE_CHAR" MaxLength="18" Sensitive="0"/>
+    <StaMac Type="VALUE_TYPE_CHAR" MaxLength="18" Sensitive="0"/>
+    <TimeStamp Type="VALUE_TYPE_CHAR" MaxLength="32" Sensitive="0"/>
+    <ReportType Type="VALUE_TYPE_CHAR" MaxLength="30" Sensitive="0"/>
+    <TxRate Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+    <RxRate Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+    <Rssi Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+    <PacketsDropRate Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+    <DeviceType Type="VALUE_TYPE_CHAR" MaxLength="65" Sensitive="0"/>
+</NotifyQbbStaSecEvent>
+</EventList>
+</WIFIAP>

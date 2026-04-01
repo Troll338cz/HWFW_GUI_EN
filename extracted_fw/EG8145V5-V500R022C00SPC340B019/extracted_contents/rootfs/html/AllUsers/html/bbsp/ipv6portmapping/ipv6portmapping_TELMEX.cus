@@ -1,0 +1,10 @@
+﻿var PortMappingReload = 
+[
+	{ReloadId:"PortMappingDescription", ReloadValue:[{Require:"TRUE"}]},
+]
+
+
+function CusLoadFrame()
+{
+
+}

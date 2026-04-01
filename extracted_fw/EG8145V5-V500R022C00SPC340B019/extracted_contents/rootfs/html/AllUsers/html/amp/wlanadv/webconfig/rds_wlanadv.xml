@@ -1,0 +1,112 @@
+<InternetGatewayDevice>
+    <LANDevice setconfig = "0x00000003">
+        <X_HW_WlanEnable setconfig = "0x00000003"/>
+        <X_HW_WLANForISP setconfig = "0x00000003">
+            <EnableUserId setconfig = "0x00000003"/>
+            <UserId setconfig = "0x00000003"/>
+        </X_HW_WLANForISP>
+        <X_HW_WLANForGuest addconfig = "0x00000003" delconfig = "0x00000003" setconfig = "0x00000003">
+            <SSID_IDX setconfig = "0x00000003"/>
+            <PortIsolation setconfig = "0x00000003"/>
+        </X_HW_WLANForGuest>
+        <WLANConfiguration addconfig = "0x00000003" delconfig = "0x00000003" setconfig = "0x00000003">
+            <Enable setconfig = "0x00000003"/>
+            <RegulatoryDomain setconfig = "0x00000002"/>
+            <X_HW_Standard setconfig = "0x00000003"/>
+            <X_HW_MCS setconfig = "0x00000002"/>
+            <X_HW_RSSIThreshold setconfig="0x00000003"/>
+            <X_HW_RSSIThresholdEnable setconfig="0x00000003"/>
+            <TransmitPower setconfig = "0x00000003"/>
+            <Channel setconfig = "0x00000003"/>
+            <ChannelPlus setconfig = "0x00000003"/>
+            <AutoChannelEnable setconfig = "0x00000003"/>
+            <X_HW_HT20 setconfig = "0x00000003"/>
+            <SSID setconfig = "0x00000003"/>
+            <SSIDAdvertisementEnabled setconfig = "0x00000003"/>
+            <MaxBitRate setconfig = "0x00000003"/>
+            <WMMEnable setconfig = "0x00000003"/>
+            <BeaconType setconfig = "0x00000003"/>
+            <BasicEncryptionModes setconfig = "0x00000003"/>
+            <BasicAuthenticationMode setconfig = "0x00000003"/>
+            <WPAEncryptionModes setconfig = "0x00000003"/>
+            <WPAAuthenticationMode setconfig = "0x00000003"/>
+            <IEEE11iEncryptionModes setconfig = "0x00000003"/>
+            <IEEE11iAuthenticationMode setconfig = "0x00000003"/>
+            <X_HW_WPAand11iEncryptionModes setconfig = "0x00000003"/>
+            <X_HW_WPAand11iAuthenticationMode setconfig = "0x00000003"/>
+            <X_HW_WAPIEncryptionModes setconfig = "0x00000003"/>
+            <X_HW_WAPIAuthenticationMode setconfig = "0x00000003"/>
+            <X_HW_WAPIServer setconfig = "0x00000003"/>
+            <X_HW_WAPIPort setconfig = "0x00000003"/>
+            <WEPKeyIndex setconfig = "0x00000003"/>
+            <WEPEncryptionLevel setconfig = "0x00000003"/>
+            <X_HW_RadiuServer setconfig = "0x00000003"/>
+            <X_HW_RadiusPort setconfig = "0x00000003"/>
+            <X_HW_RadiusKey setconfig = "0x00000003"/>
+            <X_HW_GroupRekey setconfig = "0x00000003"/>
+            <X_HW_AssociateNum setconfig = "0x00000003"/>
+            <X_HW_ServiceEnable setconfig = "0x00000003"/>
+            <X_HW_WorkMode setconfig = "0x00000003"/>
+            <X_TxBFEnabled setconfig = "0x00000003"/>
+            <X_TxBFImplicit setconfig = "0x00000003"/>
+            <X_OCCACEnables setconfig = "0x00000003"/>
+            <X_QHOPEnables setconfig = "0x00000003"/>
+            <X_SCSEnables setconfig = "0x00000003"/>
+            <X_HW_AutoChannelScope setconfig = "0x00000003"/>
+            <X_HW_AutoChannelPeriodically setconfig = "0x00000003"/>
+            <X_HW_WifiWorkingMode setconfig = "0x00000003"/>
+            <X_HW_AttachConf setconfig = "0x00000003">
+                <X_HW_AirtimeFairness setconfig = "0x00000003"/>
+                <X_HW_ChannelScopeFlag setconfig = "0x00000003"/>
+                <X_MUMIMOEnabled setconfig = "0x00000003"/>
+                <X_HW_PreambleType setconfig = "0x00000003"/>
+            </X_HW_AttachConf>
+            <X_HW_AdvanceConf setconfig = "0x00000003">
+                <DtimPeriod setconfig = "0x00000003"/>
+                <BeaconPeriod setconfig = "0x00000003"/>
+                <RTSThreshold setconfig = "0x00000003"/>
+                <FragThreshold setconfig = "0x00000003"/>
+            </X_HW_AdvanceConf>
+            <WEPKey setconfig = "0x00000003">
+                <WEPKey setconfig = "0x00000003"/>
+            </WEPKey>
+            <PreSharedKey setconfig = "0x00000003">
+                <PreSharedKey setconfig = "0x00000003"/>
+            </PreSharedKey>
+            <WPS setconfig = "0x00000003">
+                <X_HW_ConfigMethod setconfig = "0x00000003"/>
+                <DevicePassword setconfig = "0x00000003"/>
+                <X_HW_PinGenerator setconfig = "0x00000003"/>
+                <Enable setconfig = "0x00000003"/>
+            </WPS>
+            <X_HW_WDS setconfig="0x00000003">
+                <Enable setconfig="0x00000003"/>
+                <ClientAP setconfig="0x00000003">
+                    <BSSID setconfig="0x00000003"/>
+                </ClientAP>
+            </X_HW_WDS>
+        </WLANConfiguration>
+        <WiFi addconfig = "0x00000003" setconfig = "0x00000003">
+            <X_HW_GlobalConfig setconfig = "0x00000003">
+                <BandSteeringPolicy setconfig = "0x00000003"/>
+            </X_HW_GlobalConfig>
+            <Radio addconfig = "0x00000003" setconfig = "0x00000003">
+                <SupportedFrequencyBands setconfig = "0x00000003"/>
+                <OperatingFrequencyBand setconfig = "0x00000003"/>
+                <GuardInterval setconfig = "0x00000003"/>
+                <X_HW_TxChainMask setconfig = "0x00000003"/>
+                <X_HW_RxChainMask setconfig = "0x00000003"/>
+                <Enable setconfig = "0x00000003"/>
+                <X_HW_AdvanceCfg setconfig = "0x00000003">
+                    <UsersPerSSIDEnable setconfig = "0x00000003"/>
+                </X_HW_AdvanceCfg>
+            </Radio>
+        </WiFi>
+    </LANDevice>
+    <X_HW_DEBUG>
+        <WLANConfigAction setconfig = "0x00000003">
+            <ActionType setconfig = "0x00000003"/>
+            <SSIDList setconfig = "0x00000003"/>
+        </WLANConfigAction>
+    </X_HW_DEBUG>
+</InternetGatewayDevice> 

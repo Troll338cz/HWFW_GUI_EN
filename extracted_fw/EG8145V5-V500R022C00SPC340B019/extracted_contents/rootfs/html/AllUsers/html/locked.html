@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet"  href='../../resource/common/<%HW_WEB_CleanCache_Resource(style.css);%>' type='text/css'>
+<link rel="stylesheet"  href='../../Cuscss/<%HW_WEB_GetCusSource(frame.css);%>' type='text/css'>
+<script language="JavaScript" src="../../resource/<%HW_WEB_LoginResource(ssmpdes.js);%>"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta HTTP-EQUIV = 'Pragma' CONTENT = 'no-cache'>
+<script language = "javascript">
+var LoginRequestLanguage = '<%HW_WEB_GetLoginRequestLangue();%>';
+var ItvdfFlag = '<%HW_WEB_GetFeatureSupport(FT_ITVDF_SUPPORT);%>';
+var ctrgflag = '<%HW_WEB_GetFeatureSupport(HW_SSMP_FEATURE_CTRG);%>';
+var br0Ip = '<%HW_WEB_GetBr0IPString();%>';
+var IsMaintWan = '<%HW_WEB_IfMainWanLink();%>';
+var TDE2Flag = '<%HW_WEB_GetFeatureSupport(FT_FEATURE_TDE);%>';
+
+function btnLogin() 
+{
+    if (ctrgflag == 1)
+	{
+		if (IsMaintWan == 1)
+		{
+			var starIdx = window.location.href.indexOf('://');
+			var subAddr = window.location.href.substr(starIdx+3);
+			var newIp = subAddr.substring(0, subAddr.indexOf('/'));
+			url = 'http://' + newIp + '/cgi-bin/luci';
+		}
+		else
+		{
+			url = window.location.protocol + '//' + br0Ip + '/cgi-bin/luci';
+		}		
+	}
+	else
+	{
+		url= "login.asp";
+	}
+    top.location.replace(url);
+}
+
+function init()
+{
+	document.cookie = 'Cookie=default;path=/';
+	if(ItvdfFlag == 1)
+	{	
+		document.getElementById('itvdf_frame').style.display = "block";
+	}
+	else if(TDE2Flag == 1)
+	{	
+		document.getElementById('tde2_frame').style.display = "block";		
+	}
+	else
+	{	
+		document.getElementById('other_frame').style.display = "block";
+	}
+}
+
+</script>
+<title>Failed</title>
+</head>
+<body onload = "init();"> 
+<div align="center" id="other_frame" style="display:none"> 
+<table cellpadding="0" cellspacing="0"> 
+<tr> 
+		<td> 
+			<table class="itvdf_style" width="100%" height="10%" border="0" cellspacing="0" cellpadding="0"> 
+<tr> 
+					<td class="PageTitle_content"> 
+						<table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+<tr> 
+<td width="13%" align="center"><img src="../../images/error.gif" width="48" height="48" /></td> 
+								<td width="87%" id="Notice"> 
+									<font face="Arial">
+<script language="JavaScript" type="text/javascript">
+	document.write(PrompterDes['s1321']);
+</script> 
+									</font> 
+								</td> 
+</tr> 
+						</table>
+					</td> 
+</tr> 
+</table> 
+<table width="100%" height="45" cellpadding="0" cellspacing="0"> 
+<tr> 
+<td class="align_left"> 
+<input  class="ApplyButtoncss buttonwidth_100px TlfBtnStyle" name="btnReboot" id="btnReboot" type="button" onClick="btnLogin()" value="Retry">
+<script language="JavaScript" type="text/javascript">
+	document.getElementsByName('btnReboot')[0].value = PrompterDes['s1015'];	
+</script>
+</td> 
+</tr> 
+			</table>
+		</td> 
+</tr> 
+</table> 
+</div> 
+<div id="itvdf_frame" style="display:none"> 
+	<div class="itvdf_frame_box">
+		<div class="itvdf_img">
+			<img src="../../images/error.gif" width="48" height="48" /> 
+		</div>
+		<div class="itvdf_value">
+			<script language="JavaScript" type="text/javascript">
+				document.write(PrompterDes['s1321']);
+			</script> 
+		</div>
+		<div class="itvdf_btn_lock">
+			<input  class="ApplyButtoncss buttonwidth_100px TlfBtnStyle" name="btnReboot" id="btnReboot" type="button" onClick="btnLogin()" value="Retry">
+			<script language="JavaScript" type="text/javascript">
+				document.getElementsByName('btnReboot')[0].value = PrompterDes['s1015'];	
+			</script>
+		 </div>
+	</div>
+</div> 
+
+<div align="center" id="tde2_frame" style="display:none"> 
+<table cellpadding="0" cellspacing="0"> 
+<tr> 
+<td> 
+<table class="itvdf_style" width="100%" height="10%" border="0" cellspacing="0" cellpadding="0"> 
+<tr> 
+<td class="PageTitle_content"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+<tr> 
+<td width="13%" align="center"><img src="../../images/error.gif" width="48" height="48" /></td> 
+<td width="87%" id="Notice"> <font face="Arial">
+<script language="JavaScript" type="text/javascript">
+	document.write(PrompterDes['s1321']);
+</script> 
+</font> 
+</td> 
+</tr> 
+</table>
+</td> 
+</tr> 
+</table> 
+<table width="100%" height="45" cellpadding="0" cellspacing="0"> 
+<tr> 
+<td class="align_left"> 
+<input  class="ApplyButtoncss buttonwidth_100px TlfBtnStyle" name="btnReboot" style="width:190px" id="btnReboot" type="button" onClick="btnLogin()" value="Retry">
+<script language="JavaScript" type="text/javascript">
+	document.getElementsByName('btnReboot')[2].value = PrompterDes['s1015'];
+</script>
+</td> 
+</tr> 
+</table>
+</td> 
+</tr> 
+</table> 
+</div>
+</body>
+</html>

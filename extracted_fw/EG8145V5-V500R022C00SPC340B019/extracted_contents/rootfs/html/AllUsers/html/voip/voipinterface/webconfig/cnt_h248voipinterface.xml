@@ -1,0 +1,42 @@
+<InternetGatewayDevice> 
+<Services>
+<VoiceService setconfig = "0x00000007">
+<VoiceProfile setconfig = "0x00000007" >
+<Region setconfig = "0x00000007" />
+<X_HW_ServerType setconfig = "0x00000007" />
+<X_HW_DigitMapMatchMode setconfig = "0x00000007" /> 
+<X_HW_PortName setconfig = "0x00000007" />
+<X_HW_H248  setconfig = "0x00000007">
+<CallAgent1 setconfig = "0x00000007" />
+<CallAgentPort1 setconfig = "0x00000007" />
+<CallAgent2 setconfig = "0x00000007" />
+<CallAgentPort2 setconfig = "0x00000007" />
+<LocalPort setconfig = "0x00000007" />
+<Domain setconfig = "0x00000007" />
+<DeviceName setconfig = "0x00000007" />
+<MIDFormat setconfig = "0x00000007" />
+<Extend  setconfig = "0x00000007">
+<DigitMapAutoMatchEnable setconfig = "0x00000007" />
+</Extend>
+</X_HW_H248>
+<RTP  setconfig = "0x00000007">
+<X_HW_PortName setconfig = "0x00000007" />
+<X_HW_Extend  setconfig = "0x00000007">
+<RTPTermIDPrefix setconfig = "0x00000007" />
+<RTPTermIDStartNum setconfig = "0x00000007" />
+<RTPTermIDNumWidth setconfig = "0x00000007" />
+</X_HW_Extend>
+</RTP>
+<Line  setconfig = "0x00000007" addconfig = "0x00000007" delconfig="0x00000007">
+<PhyReferenceList setconfig = "0x00000007" addconfig = "0x00000007" delconfig="0x00000007"/>
+<Enable setconfig = "0x00000007" addconfig = "0x00000007" delconfig="0x00000007"/>
+<X_HW_H248  setconfig = "0x00000007" addconfig = "0x00000007" delconfig="0x00000007">
+<LineName setconfig = "0x00000007" addconfig = "0x00000007" delconfig="0x00000007"/>
+</X_HW_H248>
+</Line>
+</VoiceProfile>
+<PhyInterface setconfig = "0x00000007" >
+</PhyInterface>
+</VoiceService>
+</Services>
+</InternetGatewayDevice>

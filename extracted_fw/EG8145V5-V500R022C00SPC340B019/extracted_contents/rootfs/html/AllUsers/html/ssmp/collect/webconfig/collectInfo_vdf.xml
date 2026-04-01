@@ -1,0 +1,49 @@
+<InternetGatewayDevice> 
+<X_HW_DEBUG setconfig = "0x00000002" getconfig = "0x00000007" > 
+<SMP setconfig = "0x00000002" getconfig = "0x00000007"> 
+<WEB setconfig = "0x00000002" getconfig = "0x00000007">
+<CollectFault setconfig = "0x00000002" getconfig = "0x00000007">
+<status setconfig = "0x00000002" getconfig = "0x00000007" />
+</CollectFault>
+</WEB>
+</SMP> 
+<BBSP>
+<ExtendPortTransCheck setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<portid setconfig = "0x00000007" getconfig = "0x00000007"/>
+</ExtendPortTransCheck>
+</BBSP>
+</X_HW_DEBUG>
+<IPPingDiagnostics setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<DiagnosticsState setconfig = "0x00000007" getconfig = "0x00000007"/>
+<Interface setconfig = "0x00000007" getconfig = "0x00000007"/>
+<Host setconfig = "0x00000007" getconfig = "0x00000007"/>
+<NumberOfRepetitions setconfig = "0x00000007" getconfig = "0x00000007"/>
+<Timeout setconfig = "0x00000007" getconfig = "0x00000007"/>
+<DataBlockSize setconfig = "0x00000007" getconfig = "0x00000007"/>
+<DSCP setconfig = "0x00000007" getconfig = "0x00000007"/>    
+</IPPingDiagnostics>
+<TraceRouteDiagnostics setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<DiagnosticsState setconfig = "0x00000007" getconfig = "0x00000007"/>
+<Interface setconfig = "0x00000007" getconfig = "0x00000007"/>
+<Host setconfig = "0x00000007" getconfig = "0x00000007"/>
+<NumberOfTries setconfig = "0x00000007" getconfig = "0x00000007"/>
+<MaxHopCount setconfig = "0x00000007" getconfig = "0x00000007"/>
+<Timeout setconfig = "0x00000007" getconfig = "0x00000007"/>
+<DataBlockSize setconfig = "0x00000007" getconfig = "0x00000007"/>
+<DSCP setconfig = "0x00000007" getconfig = "0x00000007"/>
+</TraceRouteDiagnostics>
+<DNS setconfig = "0x00000007">
+<Diagnostics setconfig = "0x00000007">
+<NSLookupDiagnostics setconfig = "0x00000007">
+<DiagnosticsState setconfig = "0x00000007"/>
+<Interface setconfig = "0x00000007"/>
+<HostName setconfig = "0x00000007"/>
+<DNSServer setconfig = "0x00000007"/>
+<Timeout setconfig = "0x00000007"/>
+</NSLookupDiagnostics>
+</Diagnostics>
+</DNS>
+</InternetGatewayDevice> 
+
+
+

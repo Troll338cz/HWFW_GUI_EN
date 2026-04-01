@@ -1,0 +1,105 @@
+<InternetGatewayDevice> 
+<Services>
+<VoiceService setconfig = "0x00000003">
+<VoiceProfile setconfig = "0x00000002" >
+<DTMFMethod setconfig = "0x00000002" />
+<X_HW_Option120PriorityMode setconfig = "0x00000002" />
+<SIP setconfig = "0x00000002" >
+<X_HW_SubscribeEnable setconfig = "0x00000002" />
+<X_HW_SIPProfile setconfig = "0x00000002" >
+<ProfileBody setconfig = "0x00000002" />
+</X_HW_SIPProfile>
+<X_HW_SIPDigitmap setconfig = "0x00000002" >
+<DigitMapShortTimer setconfig = "0x00000002" />
+<DigitMapLongTimer setconfig = "0x00000002" />
+</X_HW_SIPDigitmap>
+<X_HW_SIPExtend setconfig = "0x00000002" >
+<SharedUserMode setconfig = "0x00000002" />
+<MultiHomeMode setconfig = "0x00000002" />
+<SoftwareParameters setconfig = "0x00000002" />
+</X_HW_SIPExtend>
+</SIP>
+<RTP  setconfig = "0x00000002">
+<TelephoneEventPayloadType setconfig = "0x00000002" />
+<X_HW_Extend  setconfig = "0x00000002">
+<EchoCancellationEnable setconfig = "0x00000002" />
+<OffhookDtasAckInterval setconfig = "0x00000002" />
+</X_HW_Extend>
+</RTP>
+<FaxT38  setconfig = "0x00000002">
+<Enable setconfig = "0x00000002" />
+</FaxT38>
+<X_HW_FaxModem  setconfig = "0x00000002">
+<FaxNego setconfig = "0x00000002" />
+</X_HW_FaxModem>
+<Line  setconfig = "0x00000002">
+<CallingFeatures  setconfig = "0x00000002">
+<X_HW_HotlineEnable setconfig = "0x00000002" />
+<X_HW_HotlineNumber setconfig = "0x00000002" />
+<X_HW_HotlineTimer setconfig = "0x00000002" />
+<CallForwardUnconditionalEnable setconfig = "0x00000002" />
+<CallForwardUnconditionalNumber setconfig = "0x00000002" />
+<CallForwardOnBusyEnable setconfig = "0x00000002" />
+<CallForwardOnBusyNumber setconfig = "0x00000002" />
+<CallForwardOnNoAnswerEnable setconfig = "0x00000002" />
+<CallForwardOnNoAnswerNumber setconfig = "0x00000002" />
+<CallWaitingEnable setconfig = "0x00000002" />
+<MWIEnable setconfig = "0x00000002" />
+<X_HW_3WayEnable setconfig = "0x00000002" />
+<X_HW_CallHoldEnable setconfig = "0x00000002" />
+<X_HW_MCIDEnable setconfig = "0x00000002" />
+<X_HW_CLIPEnable setconfig = "0x00000002" />
+<CallerIDEnable setconfig = "0x00000002" />
+<CallTransferEnable setconfig = "0x00000002" />
+</CallingFeatures>
+<VoiceProcessing  setconfig = "0x00000002">
+<TransmitGain setconfig = "0x00000002" />
+<ReceiveGain setconfig = "0x00000002" />
+</VoiceProcessing>
+<Codec  setconfig = "0x00000002" >
+<List  setconfig = "0x00000002" >
+<EntryID setconfig = "0x00000002" />
+<Codecs setconfig = "0x00000002" />
+<Codec setconfig = "0x00000002" />
+<PacketizationPeriod setconfig = "0x00000002" />
+<Priority setconfig = "0x00000002" />
+<Enable setconfig = "0x00000002" />
+</List>
+</Codec>
+</Line>
+</VoiceProfile>
+<PhyInterface setconfig = "0x00000002" >
+<X_HW_DspTemplate setconfig = "0x00000002" >
+<Enable setconfig = "0x00000002" />
+<WorkMode setconfig = "0x00000002" />
+</X_HW_DspTemplate>
+<X_HW_Extend setconfig = "0x00000002" >
+<FskTime setconfig = "0x00000002" />
+<ClipTransWhen setconfig = "0x00000002" />
+<ClipFormat setconfig = "0x00000002" />
+<Impedance setconfig = "0x00000002" />
+<Current setconfig = "0x00000002" />
+<HookFlashUpTime setconfig = "0x00000002" />
+<HookFlashDownTime setconfig = "0x00000002" />
+<OnhookConfirmTime setconfig = "0x00000002" />
+<SendGain setconfig = "0x00000002" />
+<ReceiveGain setconfig = "0x00000002" />
+<UserDefineRingVoltage setconfig = "0x00000002" />
+<RingDCVoltageOverlapped setconfig = "0x00000002" />
+<RingVoltage setconfig = "0x00000002" />
+<ClipSendDateTime setconfig = "0x00000002" />
+<DspHighPassFilterEnable setconfig = "0x00000002" />
+<DspTemplateName setconfig = "0x00000002" />
+<ReversePoleOnAnswer setconfig = "0x00000002" />
+<ClipForceSendFsk setconfig = "0x00000002" />
+</X_HW_Extend>
+</PhyInterface>
+<X_HW_DspTemplate setconfig = "0x00000002">
+<ServiceNumMapping setconfig = "0x00000002" addconfig = "0x00000002" delconfig="0x00000002">
+<ServiceNum setconfig = "0x00000002" addconfig = "0x00000002" delconfig="0x00000002" />
+<TemplateName setconfig = "0x00000002" addconfig = "0x00000002" delconfig="0x00000002" />
+</ServiceNumMapping>
+</X_HW_DspTemplate>
+</VoiceService>
+</Services>
+</InternetGatewayDevice>

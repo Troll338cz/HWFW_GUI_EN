@@ -1,0 +1,34 @@
+#! /bin/sh
+echo "enter rc.ttyinit................"
+PATH=/bin:/sbin:/usr/bin:/usr/sbin
+
+if [ -f /var/sys_start_flag ]; then
+	touch /var/twice_start_flag 
+	sleep 60
+	kill -9 $(pidof saf-huawei)
+	exit
+fi
+
+mount -t proc -o nodev,nosuid,noexec proc /proc 
+mount -t sysfs -o nodev,nosuid,noexec sysfs /sys
+#quiet
+echo 1 > /proc/sys/kernel/printk
+[ -f /lib/modules/linux/kernel/drivers/tty/serial/serial_core.ko ] && insmod /lib/modules/linux/kernel/drivers/tty/serial/serial_core.ko
+[ -f /lib/modules/linux/kernel/drivers/tty/serial/8250/8250.ko ] && insmod /lib/modules/linux/kernel/drivers/tty/serial/8250/8250.ko
+[ -f /lib/modules/linux/kernel/drivers/tty/serial/8250/8250_dw.ko ] && insmod /lib/modules/linux/kernel/drivers/tty/serial/8250/8250_dw.ko	
+insmod /lib/modules/linux/mts/uart_suspend.ko
+
+echo "out rc.ttyinit................"
+#the debug version open the console print 
+if [ -f /etc/wap/DebugVersionFlag ]; then
+	# Creating device driver instances
+	mdev -s
+	echo /sbin/mdev > /proc/sys/kernel/hotplug
+	/etc/rc.d/rc.sysinit > /dev/console 2>&1
+else
+	# Creating device driver instances
+	echo 1 > /proc/tty/uart_suspend
+	mdev -s
+	echo /sbin/mdev > /proc/sys/kernel/hotplug
+	/etc/rc.d/rc.sysinit
+fi

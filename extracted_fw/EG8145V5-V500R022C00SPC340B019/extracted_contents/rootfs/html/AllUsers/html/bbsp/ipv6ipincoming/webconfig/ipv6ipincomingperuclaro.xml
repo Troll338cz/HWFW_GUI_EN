@@ -1,0 +1,24 @@
+<InternetGatewayDevice>
+<X_HW_Security setconfig = "0x00000006" addconfig = "0x00000006" delconfig = "0x00000006" getconfig = "0x00000006">
+<Ip6FilterPolicy setconfig = "0x00000006" getconfig = "0x00000006"/>
+<Ip6FilterRight setconfig = "0x00000006" getconfig = "0x00000006"/>
+<Ip6Filter setconfig = "0x00000006" addconfig = "0x00000006" delconfig = "0x00000006" getconfig = "0x00000006">
+<Enable setconfig = "0x00000006" getconfig = "0x00000006"/>
+<Priority setconfig = "0x00000006" getconfig = "0x00000006"/>
+<Direction setconfig = "0x00000006" getconfig = "0x00000006"/>
+<SourceIPStart setconfig = "0x00000006" getconfig = "0x00000006"/>
+<SourceIPEnd setconfig = "0x00000006" getconfig = "0x00000006"/>
+<DestIPStart setconfig = "0x00000006" getconfig = "0x00000006"/>
+<DestIPEnd setconfig = "0x00000006" getconfig = "0x00000006"/>
+<SourceIPMask setconfig = "0x00000006" getconfig = "0x00000006"/>
+<DestIPMask setconfig = "0x00000006" getconfig = "0x00000006"/>
+<Protocol setconfig = "0x00000006" getconfig = "0x00000006"/>
+<Action setconfig = "0x00000006" getconfig = "0x00000006"/>
+<LanSideTcpPort setconfig = "0x00000006" getconfig = "0x00000006"/>
+<LanSideUdpPort setconfig = "0x00000006" getconfig = "0x00000006"/>
+<WanSideTcpPort setconfig = "0x00000006" getconfig = "0x00000006"/>
+<WanSideUdpPort setconfig = "0x00000006" getconfig = "0x00000006"/>
+<Name setconfig = "0x00000006" getconfig = "0x00000006"/>
+</Ip6Filter>
+</X_HW_Security>
+</InternetGatewayDevice> 

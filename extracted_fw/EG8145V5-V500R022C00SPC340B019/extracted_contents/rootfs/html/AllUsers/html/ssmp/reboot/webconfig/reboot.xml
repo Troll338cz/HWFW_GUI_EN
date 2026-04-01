@@ -1,0 +1,11 @@
+<InternetGatewayDevice> 
+<X_HW_AutoReboot setconfig = "0x00000003" getconfig = "0x00000003">
+<Enable  setconfig = "0x00000003" getconfig = "0x00000003"/> 
+<RunningDays    setconfig = "0x00000003" getconfig = "0x00000003"/> 
+<TrafficLimit  setconfig = "0x00000003" getconfig = "0x00000003"/> 
+<TrafficKeepTime  setconfig = "0x00000003" getconfig = "0x00000003"/> 
+<RebootStartTime  setconfig = "0x00000003" getconfig = "0x00000003"/> 
+<RebootEndTime   setconfig = "0x00000003" getconfig = "0x00000003"/> 
+<DelayMode   setconfig = "0x00000003" getconfig = "0x00000003"/>
+</X_HW_AutoReboot>
+</InternetGatewayDevice> 

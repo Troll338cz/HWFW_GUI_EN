@@ -1,0 +1,14 @@
+<InternetGatewayDevice> 
+<X_HW_Security setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<ParentalCtrl>
+<Templates setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<Stats setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<PacketsBlockedByTime_High setconfig = "0x00000007" getconfig = "0x00000007"/>
+<PacketsBlockedByTime_Low setconfig = "0x00000007" getconfig = "0x00000007"/>
+<PacketsBlockedByUrl_High setconfig = "0x00000007" getconfig = "0x00000007"/>
+<PacketsBlockedByUrl_Low setconfig = "0x00000007" getconfig = "0x00000007"/>
+</Stats>
+</Templates>
+</ParentalCtrl>
+</X_HW_Security>
+</InternetGatewayDevice> 

@@ -1,0 +1,10 @@
+<InternetGatewayDevice>
+	<LANDevice setconfig="0x00000003">
+		<LANEthernetInterfaceConfig setconfig="0x00000003">
+			<Enable setconfig="0x00000003"/>
+			<DuplexMode setconfig="0x00000003"/>
+			<MaxBitRate setconfig="0x00000003"/>
+			<X_TR181_MaxBitRate setconfig="0x00000003"/>
+		</LANEthernetInterfaceConfig>
+	</LANDevice>
+</InternetGatewayDevice>

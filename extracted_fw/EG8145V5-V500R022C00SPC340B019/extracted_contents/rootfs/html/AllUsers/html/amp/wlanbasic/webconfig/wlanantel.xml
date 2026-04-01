@@ -1,0 +1,153 @@
+<InternetGatewayDevice> 
+<LANDevice setconfig = "0x0000000f">
+<X_HW_WlanEnable setconfig = "0x0000000f"/>
+<X_HW_WLANForISP setconfig = "0x00000002">
+<EnableUserId setconfig = "0x00000002"/>
+<UserId setconfig = "0x00000002"/>
+</X_HW_WLANForISP>
+<X_HW_WLANForGuest addconfig = "0x00000002" delconfig = "0x00000002" setconfig = "0x00000002">
+<SSID_IDX setconfig = "0x00000002"/>
+<PortIsolation setconfig = "0x00000002"/>
+</X_HW_WLANForGuest>
+<WLANConfiguration addconfig = "0x0000000f" delconfig = "0x0000000f" setconfig = "0x0000000f">
+<Enable setconfig = "0x0000000f"/>
+<RegulatoryDomain setconfig = "0x00000002"/>
+<X_HW_Standard setconfig = "0x0000000f"/>
+<TransmitPower setconfig = "0x00000002"/>
+<Channel setconfig = "0x0000000f"/>
+<AutoChannelEnable setconfig = "0x0000000f"/>
+<X_HW_HT20 setconfig = "0x0000000f"/>
+<SSID setconfig = "0x0000000f"/>
+<SSIDAdvertisementEnabled setconfig = "0x00000002"/>
+<MaxBitRate setconfig = "0x00000002"/>
+<WMMEnable setconfig = "0x00000002"/>
+<BeaconType setconfig = "0x0000000f"/>
+<BasicEncryptionModes setconfig = "0x0000000f"/>
+<BasicAuthenticationMode setconfig = "0x0000000f"/>
+<WPAEncryptionModes setconfig = "0x0000000f"/>
+<WPAAuthenticationMode setconfig = "0x0000000f"/>
+<IEEE11iEncryptionModes setconfig = "0x0000000f"/>
+<IEEE11iAuthenticationMode setconfig = "0x0000000f"/>
+<X_HW_WPAand11iEncryptionModes setconfig = "0x0000000f"/>
+<X_HW_WPAand11iAuthenticationMode setconfig = "0x0000000f"/>
+<X_HW_WAPIEncryptionModes setconfig = "0x00000002"/>
+<X_HW_WAPIAuthenticationMode setconfig = "0x00000002"/>
+<X_HW_WAPIServer setconfig = "0x00000002"/>
+<X_HW_WAPIPort setconfig = "0x00000002"/>
+<WEPKeyIndex setconfig = "0x00000002"/>
+<WEPEncryptionLevel setconfig = "0x00000002"/>
+<X_HW_RadiuServer setconfig = "0x00000002"/>
+<X_HW_RadiusPort setconfig = "0x00000002"/>
+<X_HW_RadiusKey setconfig = "0x00000002"/>
+<X_HW_GroupRekey setconfig = "0x00000002"/>
+<X_HW_AssociateNum setconfig = "0x0000000f"/>
+<X_HW_ServiceEnable setconfig = "0x00000002"/>
+<X_HW_Mode setconfig = "0x00000002"/>	
+<X_HW_VLAN setconfig = "0x00000002"/>	
+<X_HW_AdvanceConf setconfig = "0x00000002">
+<DtimPeriod setconfig = "0x00000002"/>
+<BeaconPeriod setconfig = "0x00000002"/>
+<RTSThreshold setconfig = "0x00000002"/>
+<FragThreshold setconfig = "0x00000002"/>
+</X_HW_AdvanceConf>
+<WEPKey setconfig = "0x00000002">
+<WEPKey setconfig = "0x00000002"/>
+</WEPKey>
+<PreSharedKey setconfig = "0x0000000f">
+<PreSharedKey setconfig = "0x0000000f"/>
+</PreSharedKey>
+<WPS setconfig = "0x00000002">
+<X_HW_ConfigMethod setconfig = "0x00000002"/>
+<DevicePassword setconfig = "0x00000002"/>
+<X_HW_PinGenerator setconfig = "0x00000002"/>
+<Enable setconfig = "0x00000002"/>
+</WPS>
+<X_HW_WDS setconfig = "0x00000002">
+<Enable setconfig = "0x00000002"/>
+<ClientAP setconfig = "0x00000002">
+<BSSID setconfig = "0x00000002"/>
+</ClientAP>
+</X_HW_WDS>
+</WLANConfiguration>
+<WiFi addconfig = "0x00000002" setconfig = "0x0000000f">
+<Radio addconfig = "0x00000002" setconfig = "0x0000000f">
+<SupportedFrequencyBands setconfig = "0x0000000f"/>
+<OperatingFrequencyBand setconfig = "0x0000000f"/>
+<GuardInterval setconfig = "0x0000000f"/>
+<X_HW_TxChainMask setconfig = "0x0000000f"/>
+<X_HW_RxChainMask setconfig = "0x0000000f"/>
+<Enable setconfig = "0x0000000f"/>
+</Radio>
+</WiFi>
+<X_HW_WLANShutDownCtrl setconfig = "0x00000002">
+<Enable setconfig = "0x00000002"/>
+<Duration addconfig = "0x00000002" delconfig = "0x00000002" setconfig = "0x00000002">
+<StartTime setconfig = "0x00000002"/>
+<EndTime setconfig = "0x00000002"/>
+<RepeatDay setconfig = "0x00000002"/>
+</Duration>
+</X_HW_WLANShutDownCtrl>
+</LANDevice>
+<X_HW_DEBUG> 
+<AMP>
+<WifiCoverSetWlanBasic setconfig = "0x0000000f">
+<SsidInst setconfig = "0x0000000f"/>
+<SSID setconfig = "0x0000000f"/>
+<Enable setconfig = "0x0000000f"/>
+<Standard setconfig = "0x0000000f"/>
+<BeaconType setconfig = "0x0000000f"/>
+<BasicEncryptionModes setconfig = "0x0000000f"/>
+<BasicAuthenticationMode setconfig = "0x0000000f"/>
+<WPAEncryptionModes setconfig = "0x0000000f"/>
+<WPAAuthenticationMode setconfig = "0x0000000f"/>
+<IEEE11iEncryptionModes setconfig = "0x0000000f"/>
+<IEEE11iAuthenticationMode setconfig = "0x0000000f"/>
+<MixEncryptionModes setconfig = "0x0000000f"/>
+<MixAuthenticationMode setconfig = "0x0000000f"/>
+<WEPEncryptionLevel setconfig = "0x0000000f"/>
+<WEPKeyIndex setconfig = "0x0000000f"/>
+<Key setconfig = "0x0000000f"/>
+<MaxAssociateNum setconfig = "0x0000000f"/>
+<SSIDAdvertisementEnabled setconfig = "0x0000000f"/>
+<STAIsolation setconfig = "0x0000000f"/>
+<WMMEnable setconfig = "0x0000000f"/>
+<Priority setconfig = "0x0000000f"/>
+<SsidInst5G setconfig = "0x0000000f"/>
+<SSID5G setconfig = "0x0000000f"/>
+<Enable5G setconfig = "0x0000000f"/>
+<Standard5G setconfig = "0x0000000f"/>
+<BeaconType5G setconfig = "0x0000000f"/>
+<BasicEncryptionModes5G setconfig = "0x0000000f"/>
+<BasicAuthenticationMode5G setconfig = "0x0000000f"/>
+<WPAEncryptionModes5G setconfig = "0x0000000f"/>
+<WPAAuthenticationMode5G setconfig = "0x0000000f"/>
+<IEEE11iEncryptionModes5G setconfig = "0x0000000f"/>
+<IEEE11iAuthenticationMode5G setconfig = "0x0000000f"/>
+<MixEncryptionModes5G setconfig = "0x0000000f"/>
+<MixAuthenticationMode5G setconfig = "0x0000000f"/>
+<WEPEncryptionLevel5G setconfig = "0x0000000f"/>
+<WEPKeyIndex5G setconfig = "0x0000000f"/>
+<Key5G setconfig = "0x0000000f"/>
+<MaxAssociateNum5G setconfig = "0x0000000f"/>
+<SSIDAdvertisementEnabled5G setconfig = "0x0000000f"/>
+<STAIsolation5G setconfig = "0x0000000f"/>
+<WMMEnable5G setconfig = "0x0000000f"/>
+<Priority5G setconfig = "0x0000000f"/>
+</WifiCoverSetWlanBasic>
+</AMP>
+</X_HW_DEBUG> 
+<X_HW_APDevice setconfig = "0x00000003" >
+<WifiCover setconfig = "0x00000003" >
+<WorkingMode setconfig = "0x00000003"/>
+<ExtendedWLC setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003">
+<SSIDIndex setconfig = "0x00000003"/>
+</ExtendedWLC>
+</WifiCover>
+</X_HW_APDevice>
+<X_HW_WifiCoverService setconfig = "0x00000003" >
+<AutoExtended setconfig = "0x00000003"/>
+<AutoExtendedSSIDIndex setconfig = "0x00000003"/>
+<IspExtended setconfig = "0x00000003"/>
+<AutoSwitchAP setconfig = "0x00000003"/>
+</X_HW_WifiCoverService>
+</InternetGatewayDevice> 

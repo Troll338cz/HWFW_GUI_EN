@@ -1,0 +1,9 @@
+<InternetGatewayDevice>
+    <X_HW_DEBUG>
+        <BBSP>
+            <ExtendPortTransCheck setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+                <portid setconfig = "0x00000007" getconfig = "0x00000007"/>
+            </ExtendPortTransCheck>
+        </BBSP>
+    </X_HW_DEBUG>
+</InternetGatewayDevice>

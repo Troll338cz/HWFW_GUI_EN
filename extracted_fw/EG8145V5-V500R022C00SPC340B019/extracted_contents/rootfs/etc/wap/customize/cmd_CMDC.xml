@@ -1,0 +1,3 @@
+<CusCliRoot>
+<GetFwVersion CmdStr="display firmware version" CmdGroup=""/>
+</CusCliRoot>

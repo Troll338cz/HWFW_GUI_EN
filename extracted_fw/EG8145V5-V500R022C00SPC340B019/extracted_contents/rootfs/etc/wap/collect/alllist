@@ -1,0 +1,14 @@
+/etc/wap/collect/wifi_pdt_collect
+/etc/wap/collect/ssmp_pdt_collect
+/etc/wap/collect/bbsp_pdt_collect
+/etc/wap/collect/ldsp_pdt_collect
+/etc/wap/collect/voice_pdt_collect
+/etc/wap/collect/sfp_collect
+/etc/wap/collect/ssmp_collect
+/etc/wap/collect/bbsp_collect
+/etc/wap/collect/ldsp_collect
+/etc/wap/collect/voice_collect
+/etc/wap/collect/smart_collect
+/etc/wap/collect/amp_collect
+/etc/wap/collect/fttr_pdt_collect
+/etc/wap/collect/poe_pdt_collect

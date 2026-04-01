@@ -1,0 +1,12 @@
+<InternetGatewayDevice>
+<X_HW_Security setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<WlanMacFilterPolicy setconfig = "0x00000007" getconfig = "0x00000007"/>
+<WlanMacFilterRight setconfig = "0x00000007" getconfig = "0x00000007"/>
+<WLANMacFilter setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<Enable setconfig = "0x00000007" getconfig = "0x00000007"/>
+<SSIDName setconfig = "0x00000007" getconfig = "0x00000007"/>
+<SourceMACAddress setconfig = "0x00000007" getconfig = "0x00000007"/>
+<DeviceName setconfig = "0x00000007" getconfig = "0x00000007"/>
+</WLANMacFilter>
+</X_HW_Security> 
+</InternetGatewayDevice> 

@@ -1,0 +1,18 @@
+<InternetGatewayDevice> 
+<LANDevice setconfig="0x00000007" getconfig = "0x00000007">
+<DHCPConditionalServingPool setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<DHCPOption setconfig = "0x00000002" addconfig = "0x00000002" delconfig = "0x00000002" getconfig = "0x00000002">
+<Enable setconfig = "0x00000002" getconfig = "0x00000002"/>
+<Tag setconfig = "0x00000002" getconfig = "0x00000002"/>
+<Value setconfig = "0x00000002" getconfig = "0x00000002"/>
+</DHCPOption>
+</DHCPConditionalServingPool>
+<LANHostConfigManagement setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<DHCPOption setconfig = "0x00000002" addconfig = "0x00000002" delconfig = "0x00000002" getconfig = "0x00000002">
+<Enable setconfig = "0x00000002" getconfig = "0x00000002"/>
+<Tag setconfig = "0x00000002" getconfig = "0x00000002"/>
+<Value setconfig = "0x00000002" getconfig = "0x00000002"/>
+</DHCPOption>
+</LANHostConfigManagement>
+</LANDevice>
+</InternetGatewayDevice> 

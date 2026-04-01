@@ -1,0 +1,12 @@
+<InternetGatewayDevice> 
+<LANDevice setconfig = "0x00000003">
+<X_HW_WLANShutDownCtrl setconfig = "0x00000003">
+<Enable setconfig = "0x00000003"/>
+<Duration addconfig = "0x00000003" delconfig = "0x00000003" setconfig = "0x00000003">
+<StartTime setconfig = "0x00000003"/>
+<EndTime setconfig = "0x00000003"/>
+<RepeatDay setconfig = "0x00000003"/>
+</Duration>
+</X_HW_WLANShutDownCtrl>
+</LANDevice> 
+</InternetGatewayDevice> 

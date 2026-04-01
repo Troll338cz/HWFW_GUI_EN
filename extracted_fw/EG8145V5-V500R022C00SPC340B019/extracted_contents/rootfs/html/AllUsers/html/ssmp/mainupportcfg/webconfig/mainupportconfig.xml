@@ -1,0 +1,21 @@
+<InternetGatewayDevice> 
+<DeviceInfo setconfig = "0x00000002" getconfig = "0x00000002"> 
+<X_HW_MainUpPort  setconfig = "0x00000002" getconfig = "0x00000002"/>
+<X_HW_UpPortMode  setconfig = "0x00000002" getconfig = "0x00000002"/>
+<X_HW_UpPortID  setconfig = "0x00000002" getconfig = "0x00000002"/> 
+</DeviceInfo>
+<X_HW_APService setconfig = "0x00000002" getconfig = "0x00000002">
+<IPTVUpPort setconfig = "0x00000002" getconfig = "0x00000002"/>
+</X_HW_APService>
+<X_HW_DEBUG setconfig = "0x00000003" getconfig = "0x00000003">
+<SMP> 
+<DM setconfig = "0x00000003" getconfig = "0x00000003"> 
+<ResetBoard setconfig =" 0x00000003" getconfig = "0x00000003"/>
+</DM> 
+</SMP> 
+</X_HW_DEBUG>
+<X_HW_UserInfo setconfig = "0x00000002" getconfig = "0x00000002">
+<Status setconfig = "0x00000002" getconfig = "0x00000002"/>
+<Result setconfig = "0x00000002" getconfig = "0x00000002"/>
+</X_HW_UserInfo>
+</InternetGatewayDevice>

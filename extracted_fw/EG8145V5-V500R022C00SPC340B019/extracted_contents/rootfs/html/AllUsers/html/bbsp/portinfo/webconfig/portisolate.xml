@@ -1,0 +1,9 @@
+<InternetGatewayDevice>
+<X_HW_FeatureList setconfig = "0x00000003" getconfig = "0x00000003">
+<BBSPCustomization setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<EthIsolateCfg setconfig = "0x00000002" addconfig = "0x00000002" getconfig = "0x00000002">
+<Isolate setconfig = "0x00000002" getconfig = "0x00000002"/>
+</EthIsolateCfg>
+</BBSPCustomization>
+</X_HW_FeatureList>
+</InternetGatewayDevice>

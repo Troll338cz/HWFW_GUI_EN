@@ -1,0 +1,7 @@
+<InternetGatewayDevice> 
+<X_HW_HOMENET_NAME setconfig = "0x00000003" getconfig = "0x00000003"> 
+<hosts setconfig = "0x00000003" getconfig = "0x00000003">
+<Name setconfig = "0x00000003" getconfig = "0x00000003"/>
+</hosts>
+</X_HW_HOMENET_NAME>
+</InternetGatewayDevice> 

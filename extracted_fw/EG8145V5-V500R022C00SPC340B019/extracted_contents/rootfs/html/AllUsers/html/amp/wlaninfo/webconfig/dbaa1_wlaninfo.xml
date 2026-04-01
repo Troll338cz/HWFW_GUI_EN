@@ -1,0 +1,30 @@
+<InternetGatewayDevice> 
+<X_HW_DEBUG> 
+<AMP>
+<WifiGlobleParam getconfig = "0x00000007">
+<MACCheck2G getconfig = "0x00000007"/>
+<MACCheck5G getconfig = "0x00000007"/>
+</WifiGlobleParam>
+</AMP>
+</X_HW_DEBUG>
+<X_HW_VideoCoverService setconfig = "0x00000007" getconfig = "0x00000007">
+<VideoCoverEnable setconfig = "0x00000007" getconfig = "0x00000007"/>
+</X_HW_VideoCoverService>
+<LANDevice setconfig = "0x00000007">
+<WiFi setconfig = "0x00000007">
+<Radio setconfig = "0x00000007">
+<X_HW_WLANSTABoost addconfig = "0x00000007" delconfig = "0x00000007" setconfig = "0x00000007">
+<ChipIndex setconfig = "0x00000007"/>
+<MACAddress setconfig = "0x00000007"/>
+</X_HW_WLANSTABoost>
+</Radio>
+</WiFi>
+</LANDevice>
+<WANDevice setconfig = "0x00000007" getconfig = "0x00000007">
+<WANCommonInterfaceConfig setconfig = "0x00000007" getconfig = "0x00000007">
+<X_HW_UpmodeConfig setconfig = "0x00000007" getconfig = "0x00000007">
+<UpAccessMode setconfig = "0x00000007" getconfig = "0x00000007"/>
+</X_HW_UpmodeConfig>
+</WANCommonInterfaceConfig>
+</WANDevice>
+</InternetGatewayDevice> 

@@ -1,0 +1,2 @@
+logo_moinwi2.gif filter=lfs diff=lfs merge=lfs -text
+logo_moinwi2wifi.gif filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,11 @@
+<InternetGatewayDevice>
+<LANDevice setconfig="0x00000003" getconfig="0x00000003">
+<LANHostConfigManagement setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<X_HW_IPv6Interface setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<IPv6Address setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<IPv6Address setconfig = "0x00000003" getconfig = "0x00000003"/>
+</IPv6Address>
+</X_HW_IPv6Interface>
+</LANHostConfigManagement>
+</LANDevice>
+</InternetGatewayDevice> 

@@ -1,0 +1,4 @@
+<CusCliRoot>
+<Reboot CmdStr="reboot" CmdGroup=""/>
+<GetSoftVersionAis CmdStr="config" CmdGroup=""/>
+</CusCliRoot>

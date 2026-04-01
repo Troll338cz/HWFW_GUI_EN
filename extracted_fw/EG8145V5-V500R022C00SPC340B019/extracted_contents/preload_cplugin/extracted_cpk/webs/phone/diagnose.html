@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="common/base.css"/>
+		<link rel="stylesheet" type="text/css" href="diagnose/css/diagnose.css"/>
+	</head>
+	<body>
+		<div id="page1">
+			<div id="main1">
+				<span id="imgWarn"></span>
+				<p id="warnMessage"><span key = "INDEX_WARN_MESSAGE"></span></p>
+			</div>
+			<div id="btn"><span  key = "INDEX_BTN"></span></div>
+			<div id="footer"><span key="FOOTER_COPYRIGHT"></span></div>
+		</div>
+		<div id="page2">
+			<div id="main2">
+				<p><span key="DIAGNOSE_TITTLE"></span></p>
+				<div id="topo">
+					<div id="line"></div>
+					<div id="left">
+						<div class="image"></div>
+						<div class="message"><span key="DIAGNOSE_INTERNET"></span></div>
+					</div>
+					<div id="center">
+						<div class="image"></div>
+						<div class="message"><span key="DIAGNOSE_ROUTER"></span></div>
+					</div>
+					<div id="right">
+						<div class="image"></div>
+						<div class="message"><span key="DIAGNOSE_TERMINAL"></span></div>
+					</div>
+				</div>
+				
+				<div id="cancelCheck">
+					<span key="CANCEL_CHECK"></span>
+				</div>
+				
+				<div id="progress">
+					<p class="progressMessage"><span key="DIAGNOSING"></span></p>
+					<div class="progressBar">
+						<div class="progressPercent"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<script src="common/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="diagnose/js/RESOURCE.js" type="text/javascript" charset="utf-8"></script>
+		<script src="diagnose/js/diagnose.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

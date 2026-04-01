@@ -1,0 +1,31 @@
+# root and users in group wheel can run anything on any machine as any user
+root ALL = (ALL) ALL
+
+# Cmnd alias
+Cmnd_Alias RESTORE_CMD = /bin/hw_restore_manufactory_exec.sh
+Cmnd_Alias USB_MODULE = /etc/wap/usb/insmod_usb.sh, /etc/wap/usb/rmmod_usb.sh
+Cmnd_Alias COLLECT_INFO = /bin/collect_exec.sh, /bin/cat /proc/net/ip_conntrack
+Cmnd_Alias MU_MEMCLEAN_CMD = /bin/cleanmem.sh
+Cmnd_Alias SSMP_CFG_CMD = /bin/rm -fr /mnt/jffs2/UserChoiceFlag, /bin/rm -fr /mnt/jffs2/app/plugins/Installer, \
+    /bin/rm -rf /mnt/jffs2/app/explugin
+Cmnd_Alias SSMP_DUIT = /bin/restorehwmode.sh
+
+Cmnd_Alias BBSP_INSMOD = /usr/bin/bbsp_insmod
+Cmnd_Alias BBSP_RMMOD = /usr/bin/bbsp_rmmod
+Cmnd_Alias BBSP_PARAMOD = /usr/bin/iptset_insmod, /usr/bin/algvse_modprobe, /usr/bin/algrtsp_modprobe, /usr/bin/algct_modprobe
+Cmnd_Alias BBSP_NFCT = /usr/bin/nfct
+Cmnd_Alias BBSP_DPST = /usr/bin/dpst
+Cmnd_Alias BACK_STACK_CMD = /sbin/BackStackInfo.sh
+
+# backtrace dia interface
+%service ALL = NOPASSWD:BACK_STACK_CMD
+%config ALL = NOPASSWD:BACK_STACK_CMD
+
+srv_ssmp ALL = NOPASSWD:USB_MODULE, NOPASSWD:SSMP_CFG_CMD, NOPASSWD:SSMP_DUIT
+srv_mu ALL = NOPASSWD:MU_MEMCLEAN_CMD
+srv_clid ALL = NOPASSWD:RESTORE_CMD, NOPASSWD:COLLECT_INFO
+
+# bbsp
+srv_bbsp ALL = NOPASSWD:BBSP_INSMOD, NOPASSWD:BBSP_RMMOD, NOPASSWD:BBSP_PARAMOD, NOPASSWD:BBSP_NFCT, NOPASSWD:BBSP_DPST
+srv_ret ALL = NOPASSWD:BBSP_INSMOD, NOPASSWD:BBSP_RMMOD
+srv_dot1x ALL = NOPASSWD:BBSP_INSMOD

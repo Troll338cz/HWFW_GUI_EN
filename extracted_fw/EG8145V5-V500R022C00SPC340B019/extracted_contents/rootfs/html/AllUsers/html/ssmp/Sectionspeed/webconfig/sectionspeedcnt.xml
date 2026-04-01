@@ -1,0 +1,33 @@
+<InternetGatewayDevice>
+    <X_HW_DataModel setconfig = "0x00000007" getconfig = "0x00000007">
+        <X_HW_IperfSpeedTest setconfig = "0x00000007" getconfig = "0x00000007">
+            <IperfClient setconfig = "0x00000007" getconfig = "0x00000007">
+                <DiagnosticsState setconfig = "0x00000007" getconfig = "0x00000007" />
+                <DestMac setconfig = "0x00000007" getconfig = "0x00000007" />
+                <ServerAddr setconfig = "0x00000007" getconfig = "0x00000007"/>
+                <TestMode setconfig = "0x00000007" getconfig = "0x00000007"/>
+                <Port setconfig = "0x00000007" getconfig = "0x00000007"/>
+                <MaxTime setconfig = "0x00000007" getconfig = "0x00000007"/>
+                <ProtocolType setconfig = "0x00000007" getconfig = "0x00000007"/>
+                <Parallel setconfig = "0x00000007" getconfig = "0x00000007"/>
+                <Bandwidth setconfig = "0x00000007" getconfig = "0x00000007"/>
+                <Result setconfig = "0x00000007" getconfig = "0x00000007"/>
+                <ErrorDescription setconfig = "0x00000007" getconfig = "0x00000007"/>
+                <ReportTime setconfig = "0x00000007" getconfig = "0x00000007"/>
+                <TestResult setconfig = "0x00000007" getconfig = "0x00000007"/>
+            </IperfClient>
+            <IperfServer setconfig = "0x00000007" getconfig = "0x00000007">
+                <DiagnosticsState setconfig = "0x00000007" getconfig = "0x00000007"/>
+                <DestMac setconfig = "0x00000007" getconfig = "0x00000007"/>
+                <Port setconfig = "0x00000007" getconfig = "0x00000007"/>
+                <MaxTime setconfig = "0x00000007" getconfig = "0x00000007"/>
+                <Result setconfig = "0x00000007" getconfig = "0x00000007"/>
+                <ServerIP setconfig = "0x00000007" getconfig = "0x00000007"/>
+                <ServerPort setconfig = "0x00000007" getconfig = "0x00000007"/>
+                <ErrorDescription setconfig = "0x00000007" getconfig = "0x00000007"/>
+                <ReportTime setconfig = "0x00000007" getconfig = "0x00000007"/>
+                <TestResult setconfig = "0x00000007" getconfig = "0x00000007"/>
+            </IperfServer>
+        </X_HW_IperfSpeedTest>
+    </X_HW_DataModel>
+</InternetGatewayDevice>

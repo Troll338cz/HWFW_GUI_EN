@@ -1,0 +1,14 @@
+<InternetGatewayDevice> 
+<X_HW_DataModel getconfig="0x00000003">
+<X_HW_GXB getconfig="0x00000003">
+<DeviceInfo getconfig="0x00000003">
+<ServerURI1 getconfig="0x00000003"/>
+<ServerURI2 getconfig="0x00000003"/>
+</DeviceInfo> 
+</X_HW_GXB>
+</X_HW_DataModel>
+<X_HW_iaccess  getconfig="0x00000003"  setconfig="0x00000003">
+<SecPlatEnable getconfig="0x00000003"  setconfig="0x00000003"/>
+<SecPlatStatus getconfig="0x00000003"/>
+</X_HW_iaccess>
+</InternetGatewayDevice> 

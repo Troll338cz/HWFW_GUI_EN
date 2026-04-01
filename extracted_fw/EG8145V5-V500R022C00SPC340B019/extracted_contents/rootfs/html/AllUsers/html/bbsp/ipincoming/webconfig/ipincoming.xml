@@ -1,0 +1,46 @@
+<InternetGatewayDevice> 
+<X_HW_Security setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<IpFilterInPolicy setconfig = "0x00000003" getconfig = "0x00000003"/>
+<IpFilterInRight setconfig = "0x00000003" getconfig = "0x00000003"/>
+<IpFilterIn setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<Enable setconfig = "0x00000003" getconfig = "0x00000003"/>
+<StartDate setconfig = "0x00000003" getconfig = "0x00000003" />
+<ExpiryDate setconfig = "0x00000003" getconfig = "0x00000003" />
+<SourceInterface setconfig = "0x00000003" getconfig = "0x00000003" />
+<SourceIPStart setconfig = "0x00000003" getconfig = "0x00000003"/>
+<SourceIPEnd setconfig = "0x00000003" getconfig = "0x00000003"/>
+<DestIPStart setconfig = "0x00000003" getconfig = "0x00000003"/>
+<DestIPEnd setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Protocol setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Priority setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Direction setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Action setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Name setconfig = "0x00000003" getconfig = "0x00000003"/>
+<LanSideTcpPort setconfig = "0x00000003" getconfig = "0x00000003"/>
+<LanSideUdpPort setconfig = "0x00000003" getconfig = "0x00000003"/>
+<WanSideTcpPort setconfig = "0x00000003" getconfig = "0x00000003"/>
+<WanSideUdpPort setconfig = "0x00000003" getconfig = "0x00000003"/>
+<VlanId setconfig = "0x00000003" getconfig = "0x00000003"/>
+</IpFilterIn>
+<Firewall setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<Chain setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<Enable setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Name setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Rule setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<SourceIP setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003"/>
+<X_HW_SourceIPRangeMax setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003"/>
+<ConnLimitNum setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003"/>
+</Rule>
+</Chain>
+</Firewall>
+<ARPFilter setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<Enable setconfig = "0x00000003" getconfig = "0x00000003"/>
+<LimitNumber setconfig = "0x00000003" getconfig = "0x00000003"/>
+<ARPAutoBindEnable setconfig = "0x00000003" getconfig = "0x00000003"/>
+<SendFreeArp setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<Interface setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003"/>
+<SendInterval setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003"/>
+</SendFreeArp>
+</ARPFilter>
+</X_HW_Security>
+</InternetGatewayDevice> 

@@ -1,0 +1,28 @@
+<CusCliRoot>
+<DispTR069Info CmdStr="display tr069 info" CmdGroup=""/>
+<SetTR069Info CmdStr="set tr069 info" CmdGroup=""/>
+<SetWbeuserpwd CmdStr="set webuserpasswd" CmdGroup=""/>
+<DispAclservicesrule CmdStr="display aclservicesrule" CmdGroup=""/>
+<DispWanCmdStr CmdStr="display wan white list" CmdGroup=""/>
+<SetWanWhite CmdStr="set wan white" CmdGroup=""/>
+<SetWanWhiteList CmdStr="set the wan white list" CmdGroup=""/>
+<AddWanWhiteList CmdStr="add wan white list" CmdGroup=""/>
+<DelWanWhiteList CmdStr="del wan white list" CmdGroup=""/>
+<SetIPAddressDevBr0 CmdStr="set ip address dev br0" CmdGroup=""/>
+<SetPPWan CmdStr="set pppwan" CmdGroup=""/>
+<DispDHCPsrvInfo CmdStr="display dhcpsrv info" CmdGroup=""/>
+<DHCPsrvPool CmdStr="dhcpsrv pool" CmdGroup=""/>
+
+<SetWlanEnable CmdStr="set wlan enable" CmdGroup=""/>
+<SetWlanBasic CmdStr="set wlan basic" CmdGroup=""/>
+<WanInfoSet CmdStr="wan" CmdGroup=""/>
+
+<SetVoiceProvider CmdStr="set voice provider" CmdGroup=""/>
+<SetVoiceSIPAccount CmdStr="set voice sip-account" CmdGroup=""/>
+<SetVoiceRegister CmdStr="set voice register" CmdGroup=""/>
+<SetVoiceCodec CmdStr="set voice codec" CmdGroup=""/>
+<DisplayVoipCodecInfo CmdStr="display voip codec info" CmdGroup=""/>
+<SetVoiceDigitMap CmdStr="set voice digitmap" CmdGroup=""/>
+</CusCliRoot>
+
+

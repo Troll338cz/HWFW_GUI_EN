@@ -1,0 +1,2295 @@
+<!-- ObjectType表示对象类型，0标识单实例，1表示多实例，默认为0 -->
+<!-- MaxInstanceNum表示多实例的最大实例个数 -->
+<!-- Type表示属性类型，与结构体定义要保持一致 -->
+<!-- MaxLength表示属性所占用的最大空间，要与结构体保持一致，非VALUE_TYPE_CHAR类型该参数无效，VALUE_TYPE_CHAR类型MaxLength必须包含\0结束符的长度 -->
+<!-- 请按照默认文件格式标准修改，每个对象都列一行，</ReplyPara>务必要单独列一行，后面的对象结束字段单独一行，否则xml解析时可能会异常 -->
+<!-- HttpSupport="1"标识用http, HttpSupport="0"标识用https，涉及敏感信息传输的需要设置为0，记住该字段要添加不要缺省 -->
+<ActionInfo>
+<GetDeviceInfo RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara>
+</SendPara>
+<ReplyPara>
+<NewNetworkSyncCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewManufacturer Type="VALUE_TYPE_CHAR" MaxLength="65"  Sensitive="0"/>
+<NewManufacturerOUI Type="VALUE_TYPE_CHAR" MaxLength="7"  Sensitive="0"/>
+<NewDeviceType Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewSerialNumber Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewHardwareVersion Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewSoftwareVersion Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewUpTime Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewProtocolVersion Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewWiFiBands Type="VALUE_TYPE_CHAR" MaxLength="33" Sensitive="0"/>
+<NewStandardCapability Type="VALUE_TYPE_CHAR" MaxLength="33" Sensitive="0"/>
+<NewDeviceRunInfoCapability Type="VALUE_TYPE_CHAR" MaxLength="2" Sensitive="0"/>
+<NewNeighborAPBackgroundScanningCapability Type="VALUE_TYPE_CHAR" MaxLength="2" Sensitive="0"/>
+<NewBannSteeringCapability Type="VALUE_TYPE_CHAR" MaxLength="2" Sensitive="0"/>
+<NewVerifyData Type="VALUE_TYPE_CHAR" MaxLength="65" Sensitive="0"/>
+<NewLanMac Type="VALUE_TYPE_CHAR" MaxLength="18" Sensitive="1"/>
+<NewLastOfflineReason Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewLastResetReason Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewLastResetTerminal Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewUpdateCertCap Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewProductClass Type="VALUE_TYPE_CHAR" MaxLength="65"  Sensitive="0"/>
+<NewDevName Type="VALUE_TYPE_CHAR" MaxLength="257"  Sensitive="0"/>
+</ReplyPara>
+</GetDeviceInfo>
+<GetTopology  RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara>
+</SendPara>
+<ReplyPara>
+<NewAndroidIP Type="VALUE_TYPE_CHAR" MaxLength="33" Sensitive="1" />
+<NewIsNeedAuth Type="VALUE_TYPE_BOOL" MaxLength="4" Sensitive="0" />
+<NewTopologyInfo  Type="VALUE_TYPE_CHAR" MaxLength="17408" Sensitive="0"/>
+<NewURLInfo Type="VALUE_TYPE_CHAR" MaxLength="4097" Sensitive="1"/>
+<NewMacAddress  Type="VALUE_TYPE_CHAR" MaxLength="33" Sensitive="1"/>
+<NewAccessType  Type="VALUE_TYPE_CHAR" MaxLength="33" Sensitive="0"/>
+<NewEthernetInfo Type="VALUE_TYPE_CHAR" MaxLength="4097" Sensitive="0"/>
+</ReplyPara>
+</GetTopology>
+<GetParamerterOption RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara>
+</SendPara>
+<ReplyPara>
+<NewParaSyncOption  Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewParaSyncCode  Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</ReplyPara>
+</GetParamerterOption>
+<GetDeviceCapability RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara>
+</SendPara>
+<ReplyPara>
+<NewSupportedRFBand Type="VALUE_TYPE_CHAR" MaxLength="65"  Sensitive="0"/>
+<NewSupportedWorkingMode Type="VALUE_TYPE_CHAR" MaxLength="65"  Sensitive="0"/>
+<NewSupportedSSIDNumber Type="VALUE_TYPE_CHAR" MaxLength="65"  Sensitive="0"/>
+<NewTransmitPowerSupported Type="VALUE_TYPE_CHAR" MaxLength="65"  Sensitive="0"/>
+<NewSupportedUplinkType Type="VALUE_TYPE_CHAR" MaxLength="65"  Sensitive="0"/>
+<NewSupportedUniPorts Type="VALUE_TYPE_CHAR" MaxLength="65"  Sensitive="0"/>
+<NewSupportedProtocols Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewTxAntennaNumber2G4 Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewRxAntennaNumber2G4 Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewMimoCapability2G4 Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewMIMOParameter2G4 Type="VALUE_TYPE_CHAR" MaxLength="17"  Sensitive="0"/>
+<NewTxAntennaNumber5G Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewRxAntennaNumber5G Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewMimoCapability5G Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewMIMOParameter5G Type="VALUE_TYPE_CHAR" MaxLength="17"  Sensitive="0"/>
+<NewSupportedFeatures Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewSupportedRj11PortNum Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewSupportediFitStats Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewEthLanNum Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<ScnCapability Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<WifiDebugCap Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<BgScanCap Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewUsbNum Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewSupportedAPLock Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</ReplyPara>
+</GetDeviceCapability>
+<GetNetworkInfo RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara>
+</SendPara>
+<ReplyPara>
+<NewDeviceStatus Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewWorkingMode Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewUplinkType Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewMacAddress  Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="1"/>
+<NewAccessPoint  Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewInternetAccessMode Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewSignalIntensity Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewDHCPServerEnable Type="VALUE_TYPE_BOOL" MaxLength="4"  Sensitive="0"/>
+<NewWlanConfigurationEntryNum Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewCurrentChannel Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewChannelWidth Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewTransmitPower Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewApCliMacAddress  Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="1"/>
+<NewSupport4Address  Type="VALUE_TYPE_BOOL" MaxLength="4"  Sensitive="0"/>
+<NewUpLinkRate Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewDownLinkRate Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewSendPackets Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewRecvPackets Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewWiFiInfo Type="VALUE_TYPE_CHAR" MaxLength="513"  Sensitive="0"/>
+<NewConnectRssi Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewMaxBitRate Type="VALUE_TYPE_CHAR" MaxLength="17"  Sensitive="0"/>
+</ReplyPara>
+</GetNetworkInfo>
+<GetMacAddressPool RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara>
+</SendPara>
+<ReplyPara>
+<NewMacAddressPool Type="VALUE_TYPE_CHAR" MaxLength="513"  Sensitive="1"/>
+</ReplyPara>
+</GetMacAddressPool>
+<GetStaMacPool RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara>
+</SendPara>
+<ReplyPara>
+<NewStaMacPool  Type="VALUE_TYPE_CHAR" MaxLength="513" Sensitive="1"/>
+</ReplyPara>
+</GetStaMacPool>
+<GetWLCIndexForCover RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara>
+<NewQueryType Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewSSID Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewRFBand Type="VALUE_TYPE_CHAR" MaxLength="17"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewWlanConfigurationIndex Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</ReplyPara>
+</GetWLCIndexForCover>
+<GetWlanAdvancedCfg RpcId="0x4760350e" AppName="wifi" HttpSupport="0"> 
+<SendPara>
+<NewWlanConfigurationIndex Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<IfName Type="VALUE_TYPE_CHAR" MaxLength="17"  Sensitive="0"/>
+<Password Type="VALUE_TYPE_CHAR" MaxLength="65"  Sensitive="0"/>
+</ReplyPara>
+</GetWlanAdvancedCfg>
+<GetWlanConfiguration RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara>
+<NewWlanConfigurationIndex Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewSSID Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewCanUsedForCover Type="VALUE_TYPE_BOOL" MaxLength="4"  Sensitive="0"/>
+<NewUsedForCover Type="VALUE_TYPE_BOOL" MaxLength="4"  Sensitive="0"/>
+<NewEnable Type="VALUE_TYPE_BOOL" MaxLength="4"  Sensitive="0"/>
+<NewStandard Type="VALUE_TYPE_CHAR" MaxLength="17"  Sensitive="0"/>
+<NewBSSID Type="VALUE_TYPE_CHAR" MaxLength="33" Sensitive="1"/>
+<NewMaxAssociateNum Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewAutoChannelEnable Type="VALUE_TYPE_BOOL" MaxLength="4"  Sensitive="0"/>
+<NewChannel Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewSSIDAdvertisementEnabled Type="VALUE_TYPE_BOOL" MaxLength="4"  Sensitive="0"/>
+<NewSTAIsolation Type="VALUE_TYPE_BOOL" MaxLength="4"  Sensitive="0"/>
+<NewRegulatoryDomain Type="VALUE_TYPE_CHAR" MaxLength="4"  Sensitive="0"/>
+<NewWMMEnable Type="VALUE_TYPE_BOOL" MaxLength="4"  Sensitive="0"/>
+<NewBeaconType Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewBasicEncryptionModes Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewBasicAuthenticationMode Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewWPAEncryptionModes Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewWPAAuthenticationMode Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewIEEE11iEncryptionModes Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewIEEE11iAuthenticationMode Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewMixEncryptionModes  Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewMixAuthenticationMode Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewDtimPeriod Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewBeaconPeriod Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewRTSThreshold Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewFragThreshold Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewonlineUsers Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewRecvPackets Type="VALUE_TYPE_CHAR" MaxLength="12"  Sensitive="0"/>
+<NewSendPackets Type="VALUE_TYPE_CHAR" MaxLength="12"  Sensitive="0"/>
+<NewSSIDIndex Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewBandWidth Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewOperateClass Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</ReplyPara>
+</GetWlanConfiguration>
+<GetWLCStats RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara>
+<NewWlanConfigurationIndex Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewTotalBytesSent Type="VALUE_TYPE_UINT64" MaxLength="8"  Sensitive="0"/>
+<NewTotalBytesReceived Type="VALUE_TYPE_UINT64" MaxLength="8"  Sensitive="0"/>
+<NewTotalPacketsSent Type="VALUE_TYPE_UINT64" MaxLength="8"  Sensitive="0"/>
+<NewTotalPacketsReceived Type="VALUE_TYPE_UINT64" MaxLength="8"  Sensitive="0"/>
+<NewErrorsSent Type="VALUE_TYPE_UINT64" MaxLength="8"  Sensitive="0"/>
+<NewErrorsReceived Type="VALUE_TYPE_UINT64" MaxLength="8"  Sensitive="0"/>
+<NewDiscardPacketsSent Type="VALUE_TYPE_UINT64" MaxLength="8"  Sensitive="0"/>
+<NewDiscardPacketsReceived Type="VALUE_TYPE_UINT64" MaxLength="8"  Sensitive="0"/>
+<NewCurrChannel Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewBandwidth Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewNoise Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewGlitch Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewACSSocre Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewTotalAss Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</ReplyPara>
+</GetWLCStats>
+<GetWLCAssociatedDevice RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara>
+<NewWlanConfigurationIndex Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</SendPara>
+<ReplyPara  ObjectType="1" MaxInstanceNum="64" RootName="AssociatedDevice" >
+<MACAddress Type="VALUE_TYPE_CHAR" MaxLength="18"  Sensitive="1"/>
+<IPAddress Type="VALUE_TYPE_CHAR" MaxLength="65"  Sensitive="1"/>
+<AuthenticationState Type="VALUE_TYPE_CHAR" MaxLength="4"  Sensitive="0"/>
+<LastDataTransmitRate Type="VALUE_TYPE_CHAR" MaxLength="5"  Sensitive="0"/>
+<UpTime Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<RxRate Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<TxRate Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<RSSI Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<Noise Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<SNR Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<SingalQuality Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<AntennaNumber Type="VALUE_TYPE_CHAR" MaxLength="64"  Sensitive="0"/>
+<PhyRxRate Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<PhyTxRate Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<Standard Type="VALUE_TYPE_CHAR" MaxLength="10"  Sensitive="0"/>
+<Band Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<RecvPackets Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<SendPackets Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<SendDroppedPackets Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<SendRetryNum Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<SendFailedPackets Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<SendLongTimeNum Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<RecvDroppedPackets Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<RecvErrorPackets Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<RecvSeqLostNum Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<RecvLongTimeNum Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<DutyRatioPercent Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<WiFiBands Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<StandardCapability Type="VALUE_TYPE_CHAR" MaxLength="17"  Sensitive="0"/>
+<BandSteeringCapability Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<Sta11kvrCapability Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<BeamformingCapability Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</ReplyPara>
+</GetWLCAssociatedDevice>
+<GetWLCAssociatedDeviceExtend RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara>
+<NewWlanConfigurationIndex Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</SendPara>
+<ReplyPara  ObjectType="1" MaxInstanceNum="64" RootName="ExtendAssociatedDevice" >
+<PsMode Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<WMMStatus Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<FrequencyWidth Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<DualBandCap Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+</ReplyPara>
+</GetWLCAssociatedDeviceExtend>
+<GetAllWLCAssociatedDevice RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara>
+</SendPara>
+<ReplyPara  ObjectType="1" MaxInstanceNum="128" RootName="AllAssociatedDevice" >
+<SSIDIndex Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<SSIDName Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<Mac Type="VALUE_TYPE_CHAR" MaxLength="18"  Sensitive="1"/>
+<Rssi Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<RxRate Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<TxRate Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<Standard Type="VALUE_TYPE_CHAR" MaxLength="10"  Sensitive="0"/>
+<Band Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<AntennaNumber Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<Noise Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<SNR Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<SingalQuality Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<RecvPackets Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<SendPackets Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<SendDroppedPackets Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<SendRetryNum Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<SendFailedPackets Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<SendLongTimeNum Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<RecvDroppedPackets Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<RecvErrorPackets Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<RecvSeqLostNum Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<RecvLongTimeNum Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<DutyRatioPercent Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<WiFiBands Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<StandardCapability Type="VALUE_TYPE_CHAR" MaxLength="17"  Sensitive="0"/>
+<BandSteeringCapability Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<Sta11kvrCapability Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<BeamformingCapability Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<SentDelay Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<RecDelay Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<PsMode Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</ReplyPara>
+</GetAllWLCAssociatedDevice>
+<GetNeighborInfo RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara>
+<RFBand Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<SortType Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</SendPara>
+<ReplyPara  ObjectType="1" MaxInstanceNum="256" RootName="NeighborInfo" >
+<SSID Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<BSSID Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="1"/>
+<NetworkType Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<Channel Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<RSSI Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<Noise Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<DtimPeriod Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<BeaconPeriod Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<Security Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<Standard Type="VALUE_TYPE_CHAR" MaxLength="17"  Sensitive="0"/>
+<RFBand Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<MaxBitRate Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<ChannelWidth Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<TimeStamp Type="VALUE_TYPE_CHAR" MaxLength="24"  Sensitive="0"/>
+</ReplyPara>
+</GetNeighborInfo>
+<GetDelayStats RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara RecordOpLog="0">
+</SendPara>
+<ReplyPara  ObjectType="1" MaxInstanceNum="64" RootName="DelayStats" >
+<Mac Type="VALUE_TYPE_CHAR" MaxLength="18"  Sensitive="1"/>
+<SSIDIndex Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<SampleCount Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<MaxDelay Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<MinDelay Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<AverageDelay Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<Period1Count Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<Period2Count Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<Period3Count Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<Period4Count Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</ReplyPara>
+</GetDelayStats>
+<SetCudbusWlanConfig RpcId="0x4760350e" AppName="wifi" HttpSupport="0"> 
+<SendPara>
+<WlanIndex Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<SSID Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<Enable Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<BeaconType Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<Password Type="VALUE_TYPE_CHAR" MaxLength="65"  Sensitive="0"/>
+<TransmitPower Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<Channel Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<AutoChannel Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<Advertise Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<bandWidth Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<Standard Type="VALUE_TYPE_CHAR" MaxLength="10"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetCudbusWlanConfig>
+<GetApHostDetail RpcId="0x4760350e" AppName="wifi" HttpSupport="0"> 
+<SendPara RecordOpLog="0">
+</SendPara>
+<ReplyPara ObjectType="1" MaxInstanceNum="128" RootName="HostInfo">
+<STAMac Type="VALUE_TYPE_CHAR" MaxLength="18" Sensitive="0"/>
+<RxRate Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<TxRate Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<ConnectedInterface Type="VALUE_TYPE_CHAR" MaxLength="8" Sensitive="0"/>
+<ConnectedType Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<SsidName Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<Channel Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<AntennaNumber Type="VALUE_TYPE_CHAR" MaxLength="4"  Sensitive="0"/>
+<Protocol Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<RadioType Type="VALUE_TYPE_CHAR" MaxLength="5"  Sensitive="0"/>
+<FrequencyWidth Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<RSSI Type="VALUE_TYPE_INT32" MaxLength="4"  Sensitive="0"/>
+<Noise Type="VALUE_TYPE_INT32" MaxLength="4"  Sensitive="0"/>
+<SNR Type="VALUE_TYPE_INT32" MaxLength="4"  Sensitive="0"/>
+<IPAddress Type="VALUE_TYPE_CHAR" MaxLength="32"  Sensitive="0"/>
+<IPV6Address Type="VALUE_TYPE_CHAR" MaxLength="64"  Sensitive="0"/>
+<HostName Type="VALUE_TYPE_CHAR" MaxLength="65"  Sensitive="0"/>
+<UpTime Type="VALUE_TYPE_CHAR" MaxLength="32"  Sensitive="0"/>
+<RxRate_rt Type="VALUE_TYPE_CHAR" MaxLength="20"  Sensitive="0"/>
+<TxRate_rt Type="VALUE_TYPE_CHAR" MaxLength="20"  Sensitive="0"/>
+</ReplyPara>
+</GetApHostDetail>
+<GetApDevInfo  RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara>
+</SendPara>
+<ReplyPara>
+<MeshRole Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0" />
+<UpTime Type="VALUE_TYPE_CHAR" MaxLength="32" Sensitive="0" />
+<IPAddress  Type="VALUE_TYPE_CHAR" MaxLength="32" Sensitive="0"/>
+<IPV6Address Type="VALUE_TYPE_CHAR" MaxLength="32" Sensitive="0"/>
+<DeviceVendor  Type="VALUE_TYPE_CHAR" MaxLength="128" Sensitive="0"/>
+<DeviceModel  Type="VALUE_TYPE_CHAR" MaxLength="128" Sensitive="0"/>
+<UplinkType Type="VALUE_TYPE_CHAR" MaxLength="18" Sensitive="0"/>
+<Radio Type="VALUE_TYPE_CHAR" MaxLength="9" Sensitive="0"/>
+<Mac Type="VALUE_TYPE_CHAR" MaxLength="18" Sensitive="0"/>
+<RxRate Type="VALUE_TYPE_CHAR" MaxLength="20" Sensitive="0"/>
+<TxRate Type="VALUE_TYPE_CHAR" MaxLength="20" Sensitive="0"/>
+</ReplyPara>
+</GetApDevInfo>
+<GetTxLostRate RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+<SendPara RecordOpLog="0">
+</SendPara>
+<ReplyPara ObjectType="1" MaxInstanceNum="2" RootName="TxLostRate">
+<Time Type="VALUE_TYPE_CHAR" MaxLength="32" Sensitive="0"/>
+<Mac Type="VALUE_TYPE_CHAR" MaxLength="20" Sensitive="1"/>
+<Radio Type="VALUE_TYPE_CHAR" MaxLength="8" Sensitive="0"/>
+<TxLostRate Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<TxPackets Type="VALUE_TYPE_UINT64" MaxLength="8" Sensitive="0"/>
+<TxFailedPackets Type="VALUE_TYPE_UINT64" MaxLength="8" Sensitive="0"/>
+</ReplyPara>
+</GetTxLostRate>
+<GetNeighborInfoPerBand RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara>
+<Band Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+</SendPara>
+<ReplyPara  ObjectType="1" MaxInstanceNum="128" RootName="NeighborInfoPerBand" >
+<SSID Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<BSSID Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="1"/>
+<NetworkType Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<Channel Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<RSSI Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<Noise Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<DtimPeriod Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<BeaconPeriod Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<Security Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<Standard Type="VALUE_TYPE_CHAR" MaxLength="17"  Sensitive="0"/>
+<RFBand Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<MaxBitRate Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+</ReplyPara>
+</GetNeighborInfoPerBand>
+<GetChannelScorePerBand RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara>
+<Band Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+</SendPara>
+<ReplyPara  ObjectType="1" MaxInstanceNum="64" RootName="ChannelScorePerBand" >
+<RFBand Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<Channel Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<Score Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</ReplyPara>
+</GetChannelScorePerBand>
+<GetWlanRadioConfiguration RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara>
+<NewRFBand Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewAutoChannelEnable Type="VALUE_TYPE_BOOL" MaxLength="4"  Sensitive="0"/>
+<NewChannel Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewChannelsInUse Type="VALUE_TYPE_CHAR" MaxLength="129"  Sensitive="0"/>
+<NewChannelWidth Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewTransmitPower Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewRegulatoryDomain Type="VALUE_TYPE_CHAR" MaxLength="4"  Sensitive="0"/>
+<NewDtimPeriod Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewBeaconPeriod Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewRTSThreshold Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewFragThreshold Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewCurrentChannel Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewCurrentChannelWidth Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewNoise Type="VALUE_TYPE_CHAR" MaxLength="17"  Sensitive="0"/>
+<NewInterferencePercent Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<NewIdlePercent Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<NewRecvPackets Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewSendPackets Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewBeaconFails Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewBandSteeringEnable Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewEnable Type="VALUE_TYPE_BOOL" MaxLength="4"  Sensitive="0"/>
+<NewCurrentChannelTriBand Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewAcsMode Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewFrequencyWidth Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+</ReplyPara>
+</GetWlanRadioConfiguration>
+<GetWlanRadioPayload RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara>
+<NewRFBand Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewRecvPktNum Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewRecvPktBytes Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewSendPktNum Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewSendPktBytes Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewDropPktNum Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewDropPktBytes Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewStaNum Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</ReplyPara>
+</GetWlanRadioPayload>
+<GetWlanChannelListInfo RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara>
+<RFBand Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+</SendPara>
+<ReplyPara  ObjectType="1" MaxInstanceNum="32" RootName="ChanList" >
+<ChanId Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<ScoreFlag Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<ScanBw Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<Noise Type="VALUE_TYPE_INT32" MaxLength="4"  Sensitive="0"/>
+<TxPower Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<RxTime Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<TxTime Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<FreeTime Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<TotalTime Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</ReplyPara>
+</GetWlanChannelListInfo>
+<GetWlanRadioCca RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara>
+<NewRFBand Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<OfdmaThres Type="VALUE_TYPE_INT32" MaxLength="4"  Sensitive="0"/>
+<DsssThres Type="VALUE_TYPE_INT32" MaxLength="4"  Sensitive="0"/>
+<LenTckThres Type="VALUE_TYPE_INT32" MaxLength="4"  Sensitive="0"/>
+</ReplyPara>
+</GetWlanRadioCca>
+<GetRfAttrInfo RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara>
+<NewRFBand Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<MaxTxPower Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<CurTxPower Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<CurChannel Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<CurBandwidth Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</ReplyPara>
+</GetRfAttrInfo>
+<GetWiFiBackboneStats RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara>
+<NewRFBand Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewTotalBytesSent Type="VALUE_TYPE_UINT64" MaxLength="8"  Sensitive="0"/>
+<NewTotalBytesReceived Type="VALUE_TYPE_UINT64" MaxLength="8"  Sensitive="0"/>
+<NewTotalPacketsSent Type="VALUE_TYPE_UINT64" MaxLength="8"  Sensitive="0"/>
+<NewTotalPacketsReceived Type="VALUE_TYPE_UINT64" MaxLength="8"  Sensitive="0"/>
+<NewErrorsSent Type="VALUE_TYPE_UINT64" MaxLength="8"  Sensitive="0"/>
+<NewErrorsReceived Type="VALUE_TYPE_UINT64" MaxLength="8"  Sensitive="0"/>
+<NewDiscardPacketsSent Type="VALUE_TYPE_UINT64" MaxLength="8"  Sensitive="0"/>
+<NewDiscardPacketsReceived Type="VALUE_TYPE_UINT64" MaxLength="8"  Sensitive="0"/>
+</ReplyPara>
+</GetWiFiBackboneStats>
+<SetNetworkInfo RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara RecordOpLog="1">
+<NewWorkingMode Type="VALUE_TYPE_CHAR" MaxLength="65"  Sensitive="0"/>
+<NewInternetAccessMode Type="VALUE_TYPE_CHAR" MaxLength="65"  Sensitive="0"/>
+<NewDHCPServerEnable Type="VALUE_TYPE_BOOL" MaxLength="4"  Sensitive="0"/>
+<NewChannelWidth Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<CascadeForbidden Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<BackScanEnable Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<UpdateCertCap Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</SendPara>
+<ReplyPara >
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetNetworkInfo>
+<SetNeighborAPBgScanSwitch RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara RecordOpLog="1">
+<BgScanEnable Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</SendPara>
+<ReplyPara >
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetNeighborAPBgScanSwitch>
+<GetNeighborAPBgScanSwitch RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara RecordOpLog="0">
+</SendPara>
+<ReplyPara >
+<NewBgScanEnable Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</ReplyPara>
+</GetNeighborAPBgScanSwitch>
+<GetUpLinkStats RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara RecordOpLog="0">
+</SendPara>
+<ReplyPara >
+<NewUsStats Type="VALUE_TYPE_UINT64" MaxLength="8"  Sensitive="0"/>
+<NewDsStats Type="VALUE_TYPE_UINT64" MaxLength="8"  Sensitive="0"/>
+<NewbcastStats Type="VALUE_TYPE_UINT64" MaxLength="8"  Sensitive="0"/>
+</ReplyPara>
+</GetUpLinkStats>
+<GetHostInfo RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara RecordOpLog="0">
+</SendPara>
+<ReplyPara ObjectType="1" MaxInstanceNum="256" RootName="HostInfo">
+<STAMac  Type="VALUE_TYPE_CHAR" MaxLength="18" Sensitive="1"/>
+<NewRSST Type="VALUE_TYPE_INT32" MaxLength="4"  Sensitive="0"/>
+<NewRxRate Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewTxRate Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewAntennaNumber Type="VALUE_TYPE_CHAR" MaxLength="8"  Sensitive="0"/>
+<NewacAccessType  Type="VALUE_TYPE_CHAR" MaxLength="16" Sensitive="0"/>
+<NewAccessPortNo Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewStandard Type="VALUE_TYPE_CHAR" MaxLength="8"  Sensitive="0"/>
+<Sta11kvrCapability Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<TrafficSend Type="VALUE_TYPE_UINT64" MaxLength="8"  Sensitive="0"/>
+<TrafficRecv Type="VALUE_TYPE_UINT64" MaxLength="8"  Sensitive="0"/>
+<PacketsSent Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<PacketsReceived Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<CurBand Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<PowerSave Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<UpTime Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<DualBandSupported Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<BeamFormingSupported Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<SSID Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<IsIspWifi Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</ReplyPara>
+</GetHostInfo>
+<SetRepeaterMacBroadcast RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara RecordOpLog="0">
+<NewMacAddress Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="1"/>
+<NewApCliMacAddress Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="1"/>
+<NewApSupport4MacAddress Type="VALUE_TYPE_BOOL" MaxLength="4"  Sensitive="0"/>
+<NewSendArp Type="VALUE_TYPE_BOOL" MaxLength="4"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetRepeaterMacBroadcast>
+<SetWlanBaseConfiguration RpcId="0x4760350e" AppName="wifi" HttpSupport="0"> 
+<SendPara RecordOpLog="1">
+<NewWlanConfigurationIndex Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewSSID Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewEnable Type="VALUE_TYPE_BOOL" MaxLength="4"  Sensitive="0"/>
+<NewUsedForCover Type="VALUE_TYPE_BOOL" MaxLength="4"  Sensitive="0"/>
+<NewStandard Type="VALUE_TYPE_CHAR" MaxLength="17"  Sensitive="0"/>
+<NewBeaconType Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewBasicEncryptionModes Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewBasicAuthenticationMode Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewWPAEncryptionModes Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewWPAAuthenticationMode Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewIEEE11iEncryptionModes Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewIEEE11iAuthenticationMode Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewMixEncryptionModes Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewMixAuthenticationMode Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewWEPEncryptionLevel Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewWEPKeyIndex Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewKey Type="VALUE_TYPE_CHAR" MaxLength="129"  Sensitive="1"/>
+<NewUpSsidInst Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewPmf Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewMngSsid Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetWlanBaseConfiguration>
+<SetWlanAdvancedConfiguration RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara RecordOpLog="1">
+<NewWlanConfigurationIndex Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewMaxAssociateNum Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewAutoChannelEnable Type="VALUE_TYPE_BOOL" MaxLength="4"  Sensitive="0"/>
+<NewChannel Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewTransmitPower Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewSSIDAdvertisementEnabled Type="VALUE_TYPE_BOOL" MaxLength="4"  Sensitive="0"/>
+<NewSTAIsolation Type="VALUE_TYPE_BOOL" MaxLength="4"  Sensitive="0"/>
+<NewRegulatoryDomain Type="VALUE_TYPE_CHAR" MaxLength="4"  Sensitive="0"/>
+<NewWMMEnable Type="VALUE_TYPE_BOOL" MaxLength="4"  Sensitive="0"/>
+<NewDtimPeriod Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewBeaconPeriod Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewRTSThreshold Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewFragThreshold Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewFeatureValue Type="VALUE_TYPE_CHAR" MaxLength="17"  Sensitive="0"/>
+<NewBandWidth Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewFBT_11rEnable Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewAtfEnable Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewStandard Type="VALUE_TYPE_CHAR" MaxLength="10"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetWlanAdvancedConfiguration>
+<SetWlanRadioConfiguration RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+<SendPara RecordOpLog="1">
+<NewRFBand Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<NewAutoChannelEnable Type="VALUE_TYPE_BOOL" MaxLength="4"  Sensitive="0"/>
+<NewChannel Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewChannelWidth Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewTransmitPower Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewRegulatoryDomain Type="VALUE_TYPE_CHAR" MaxLength="4"  Sensitive="0"/>
+<NewDtimPeriod Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewBeaconPeriod Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewRTSThreshold Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewFragThreshold Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetWlanRadioConfiguration>
+<SetWlanEnable RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara RecordOpLog="1">
+<NewEnable2G4 Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewEnable5G Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewRFBand Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+<NewPersistant Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetWlanEnable>
+<GetWlanEnable RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+<SendPara>
+<NewRFBand Type="VALUE_TYPE_CHAR" MaxLength="9" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewEnable Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewSsidAvalid Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</ReplyPara>
+</GetWlanEnable>
+<SetApTpcEnable RpcId="0x4760350e" AppName="wifi" HttpSupport="0">
+<SendPara>
+<NewEnable Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetApTpcEnable>
+<SetApTpcPower RpcId="0x4760350e" AppName="wifi" HttpSupport="0">
+<SendPara RecordOpLog="0">
+<NewEnable Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewPower Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewAlgEnable Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewRFBand Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetApTpcPower>
+<GetWlanBandBusyStatus RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+<SendPara>
+</SendPara>
+<ReplyPara>
+<New2GBandStatus Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<New5GBandStatus Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</ReplyPara>
+</GetWlanBandBusyStatus>
+<GetDeviceLedState RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+<SendPara>
+</SendPara>
+<ReplyPara>
+<NewledState Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</ReplyPara>
+</GetDeviceLedState>
+<SetWiFiMacFilter RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara RecordOpLog="1">
+<WiFiFilterSetType Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<WiFiFilterEnable Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<WiFiFilterPolicy Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<WiFiFilterAddMAC Type="VALUE_TYPE_CHAR" MaxLength="24"  Sensitive="1"/>
+<WiFiFilterDelMAC Type="VALUE_TYPE_CHAR" MaxLength="24" Sensitive="1"/>
+<WiFiFilterBlkEntries Type="VALUE_TYPE_CHAR" MaxLength="6144" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetWiFiMacFilter>
+<SetETHMacFilter RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara RecordOpLog="1">
+<ETHFilterSetType Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<ETHFilterEnable Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<ETHFilterPolicy Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<ETHFilterAddMAC Type="VALUE_TYPE_CHAR" MaxLength="24"  Sensitive="1"/>
+<ETHFilterDelMAC Type="VALUE_TYPE_CHAR" MaxLength="24" Sensitive="1"/>
+<ETHFilterAddEnable Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ETHFilterDelEnable Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ETHFilterBlkEnable Type="VALUE_TYPE_CHAR" MaxLength="24" Sensitive="0"/>
+<ETHFilterWhtEnable Type="VALUE_TYPE_CHAR" MaxLength="24" Sensitive="0"/>
+<ETHFilterBlkEntries Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+<ETHFilterWhtEntries Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetETHMacFilter>
+<InvokeAction RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara RecordOpLog="1">
+<NewActionType Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</InvokeAction>
+<SetHeartbeat RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara>
+<NewInterval Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetHeartbeat>
+<Start RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara RecordOpLog="1">
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</Start>
+<Rollback RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara RecordOpLog="1">
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</Rollback>
+<Commit RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara RecordOpLog="1">
+<NewNetworkSyncCode Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<ApOnlineFlag Type="VALUE_TYPE_BOOL" MaxLength="4"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</Commit>
+<SetWlanFbtConfiguration RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara RecordOpLog="0">
+<NewWlanConfigurationIndex Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewFbtMode Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewFbtRSSIThreshold Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewChannelLow Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewChannelHigh Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<FbtControlPolicy Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<IncreasedRssi Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<CurBandwidth5G Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetWlanFbtConfiguration>
+<SetWlanFbtScanSta RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara RecordOpLog="0">
+<NewWlanConfigurationIndex Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewFbtMacEntries Type="VALUE_TYPE_CHAR" MaxLength="1024"  Sensitive="1"/>
+<NewFbtChannel Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewFbtScanInterval Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewBssid Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="1"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetWlanFbtScanSta>
+<SetMacKickState RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara RecordOpLog="0">
+<NewWlanConfigurationIndex Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewMacKickEntries Type="VALUE_TYPE_CHAR" MaxLength="1024"  Sensitive="1"/>
+<NewMacKickTime Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewForceKickInterval Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetMacKickState>
+<KickMacSta RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara RecordOpLog="0">
+<NewWlanConfigurationIndex Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<MacKickSta Type="VALUE_TYPE_CHAR" MaxLength="20"  Sensitive="1"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</KickMacSta>
+<SpeedTestRequest RpcId="0x47201050" AppName="udm" HttpSupport="1">
+<SendPara RecordOpLog="1">
+<URL Type="VALUE_TYPE_CHAR" MaxLength="513"  Sensitive="1"/>
+<SpeedTestTime Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<SpeedAct Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SpeedTestRequest>
+<GetSpeedTestResult RpcId="0x47201050" AppName="udm" HttpSupport="1">
+<SendPara>
+<SpeedAct Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<RealTimeRate Type="VALUE_TYPE_CHAR" MaxLength="1025"  Sensitive="0"/>
+</ReplyPara>
+</GetSpeedTestResult>
+<FramewareUpgradeRequest  RpcId="0x47201050" AppName="udm" HttpSupport="0">
+<SendPara RecordOpLog="1">
+<UpgURL  Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="1"/>
+<SerialID Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<AutoReboot Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<terminal Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</FramewareUpgradeRequest>
+<SyncTime  RpcId="0x47201050" AppName="udm" HttpSupport="1">
+<SendPara>
+<Time  Type="VALUE_TYPE_CHAR" MaxLength="33" Sensitive="0"/>
+<ZoneName  Type="VALUE_TYPE_CHAR" MaxLength="65" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</SyncTime>
+<SetDSTRuler RpcId="0x47201050" AppName="udm" HttpSupport="1">
+<SendPara>
+<DaylightSavingsUsed Type="VALUE_TYPE_BOOL" MaxLength="4" Sensitive="0"/>
+<DaylightSavingsStart  Type="VALUE_TYPE_CHAR" MaxLength="33" Sensitive="0"/>
+<DaylightSavingsEnd  Type="VALUE_TYPE_CHAR" MaxLength="33" Sensitive="0"/>
+<DaylightSavingsStartDate  Type="VALUE_TYPE_CHAR" MaxLength="33" Sensitive="0"/>
+<DaylightSavingsEndDate  Type="VALUE_TYPE_CHAR" MaxLength="33" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</SetDSTRuler>
+<GetProtocolCapability RpcId="0x47201050" AppName="udm" HttpSupport="1">
+<SendPara>
+</SendPara>
+<ReplyPara>
+<SupportedActions Type="VALUE_TYPE_CHAR" MaxLength="4097"  Sensitive="0"/>
+<SupportedEvents Type="VALUE_TYPE_CHAR" MaxLength="1025"  Sensitive="0"/>
+</ReplyPara>
+</GetProtocolCapability>
+<GetDeviceVersionInfo RpcId="0x47201050" AppName="udm" HttpSupport="1">
+<SendPara>
+</SendPara>
+<ReplyPara>
+<SoftwareVersion Type="VALUE_TYPE_CHAR" MaxLength="65"  Sensitive="0"/>
+<HardwareVersion Type="VALUE_TYPE_CHAR" MaxLength="65"  Sensitive="0"/>
+<SerialNumber Type="VALUE_TYPE_CHAR" MaxLength="17"  Sensitive="0"/>
+<MachineItem Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+</ReplyPara>
+</GetDeviceVersionInfo>
+<SetSntpInfo RpcId="0x47201050" AppName="udm" HttpSupport="1">
+<SendPara RecordOpLog="1">
+<Enable Type="VALUE_TYPE_BOOL" MaxLength="4" Sensitive="0"/>
+<NTPServerList Type="VALUE_TYPE_CHAR" MaxLength="513"  Sensitive="0"/>
+<LocalTimeZoneName Type="VALUE_TYPE_CHAR" MaxLength="65"  Sensitive="0"/>
+<SynInterval Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<ExtFlag Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetSntpInfo>
+<SetDeviceControl RpcId="0x47201050" AppName="udm" HttpSupport="1">
+<SendPara RecordOpLog="0">
+<ControlType Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<ControlStatus Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<ControlStatusStr Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetDeviceControl>
+<GetDeviceControlStatus RpcId="0x47201050" AppName="udm" HttpSupport="1">
+<SendPara>
+<GetControlType Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<GetControlStatusStr Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<GetControlType Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<LastSetControlStatus Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<CurrentControlStatus Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</ReplyPara>
+</GetDeviceControlStatus>
+<QueryMacTable RpcId="0x47604141" AppName="bbsp" HttpSupport="1">
+<SendPara>
+</SendPara>
+<ReplyPara ObjectType="1" MaxInstanceNum="1024" RootName="MacTable">
+<para1 Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<para2 Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<vlan_ctp Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<acdev_name Type="VALUE_TYPE_CHAR" MaxLength="12" Sensitive="0"/>
+</ReplyPara>
+</QueryMacTable>
+<GetWiFiDebugInfo RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+<SendPara>
+<NewCommandLine Type="VALUE_TYPE_CHAR" MaxLength="64" Sensitive="0"/>
+<NewAPMac Type="VALUE_TYPE_CHAR" MaxLength="32" Sensitive="1"/>
+<NewUploadUrl Type="VALUE_TYPE_CHAR" MaxLength="512" Sensitive="1"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</GetWiFiDebugInfo>
+<GetApRunInfo RpcId="0x47201050" AppName="udm" HttpSupport="0">
+<SendPara>
+<IP Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="1"/>
+<PORT Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="1"/>
+<PROTOCOL Type="VALUE_TYPE_CHAR" MaxLength="8"  Sensitive="0"/>
+<USERNAME Type="VALUE_TYPE_CHAR" MaxLength="32"  Sensitive="0"/>
+<PASSWORD Type="VALUE_TYPE_CHAR" MaxLength="32"  Sensitive="1"/>
+<REMOTEPATH Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+<Mac Type="VALUE_TYPE_CHAR" MaxLength="20"  Sensitive="1"/>
+<Command Type="VALUE_TYPE_CHAR" MaxLength="65"  Sensitive="0"/>
+<LocalFileName Type="VALUE_TYPE_CHAR" MaxLength="128"  Sensitive="0"/>
+<Addr Type="VALUE_TYPE_CHAR" MaxLength="16"  Sensitive="1"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</GetApRunInfo>
+<GetWlanUserLoad RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+<SendPara>
+<NewRFBand Type="VALUE_TYPE_CHAR" MaxLength="17" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewRFBand Type="VALUE_TYPE_CHAR" MaxLength="17" Sensitive="0"/>
+<NewCurrentUserNumber Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewMaxUserNumber Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewOccupancyRate Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewChannel Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewTriBandAP Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewBsdSwitchLoad Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</ReplyPara>
+</GetWlanUserLoad>
+<SetWlanFbtScanAp RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+<SendPara RecordOpLog="0">
+<NewStaMac Type="VALUE_TYPE_CHAR" MaxLength="20" Sensitive="1"/>
+<NewBssid Type="VALUE_TYPE_CHAR" MaxLength="20" Sensitive="1"/>
+<NewChannel Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</SetWlanFbtScanAp>
+<SetWlanStaMoveOut RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+<SendPara RecordOpLog="0">
+<NewStaMac Type="VALUE_TYPE_CHAR" MaxLength="20" Sensitive="1"/>
+<NewBssid Type="VALUE_TYPE_CHAR" MaxLength="20" Sensitive="1"/>
+<NewChannel Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</SetWlanStaMoveOut>
+<SetPriMap RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara RecordOpLog="1">
+<NewRadio Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewPriMode Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewPriMap Type="VALUE_TYPE_CHAR" MaxLength="65"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetPriMap>
+<GetDeviceResouceConsumeRate RpcId="0x47201050" AppName="udm" HttpSupport="1">
+<SendPara>
+</SendPara>
+<ReplyPara>
+<CPUOccupancyRate Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<RAMOccupancyRate Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<Uptime Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</ReplyPara>
+</GetDeviceResouceConsumeRate>
+<StartScanInterval RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara RecordOpLog="1">
+<NewInterval Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</StartScanInterval>
+<SetWiFiRunoverAlertEnable RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+<SendPara>
+<NewEnable Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetWiFiRunoverAlertEnable>
+<GetSelfTestResult RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+<SendPara>
+<NewCmdType Type="VALUE_TYPE_CHAR" MaxLength="10"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<CPUStatus Type="VALUE_TYPE_CHAR" MaxLength="17"  Sensitive="0"/>
+<WIFIStatus Type="VALUE_TYPE_CHAR" MaxLength="17"  Sensitive="0"/>
+<LSWStatus Type="VALUE_TYPE_CHAR" MaxLength="17"  Sensitive="0"/>
+<CodecStatus Type="VALUE_TYPE_CHAR" MaxLength="17"  Sensitive="0"/>
+<OpticStatus Type="VALUE_TYPE_CHAR" MaxLength="17"  Sensitive="0"/>
+<LAN1Status Type="VALUE_TYPE_CHAR" MaxLength="17"  Sensitive="0"/>
+<LAN2Status Type="VALUE_TYPE_CHAR" MaxLength="17"  Sensitive="0"/>
+<LAN3Status Type="VALUE_TYPE_CHAR" MaxLength="17"  Sensitive="0"/>
+<LAN4Status Type="VALUE_TYPE_CHAR" MaxLength="17"  Sensitive="0"/>
+<CheckStatus Type="VALUE_TYPE_CHAR" MaxLength="17"  Sensitive="0"/>
+</ReplyPara>
+</GetSelfTestResult>
+<SetAPTelnetEnable RpcId="0x47201050" AppName="udm" HttpSupport="0">
+<SendPara RecordOpLog="1">
+<Enable Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<SrcIPAddr Type="VALUE_TYPE_CHAR" MaxLength="40" Sensitive="1"/>
+<CliType Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</SetAPTelnetEnable>
+<CheckAdjustOrNot RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara>
+<NewRSSIThrehold Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewAdjustType Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewRSSIInfo Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<OfflineReason Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<CurChannel Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<UpBand Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</ReplyPara>
+</CheckAdjustOrNot>
+<GetServiceState RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara RecordOpLog="0">
+<NewQueryType Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewQueryTime Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewQueryFlag Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewStaNum Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewTotalRate Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewCascadingPacketloss Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</ReplyPara>
+</GetServiceState>
+<SetBsdGlbPara RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+<SendPara RecordOpLog="0">
+<NewBandSteeringPolicy Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewBandSteeringCycle Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewKickHoldTime Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewPreemptTime Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewPreemptRssiThreshold Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewBandSteeringSamplingNumber Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewBandSteeringCapability Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewLoadBAEnable Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewLoadBAStaThreshold Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewLoadBABsdRssiStep Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewLoadBARoamingRssiStep Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewLoadBAStaThreshold5G Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewLoadBARoamingRssiStep5G Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<SCNEnable Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewEnableBsd5GFirst Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</SetBsdGlbPara>
+<SetBsdBandPara RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+<SendPara RecordOpLog="0">
+<NewCurrentBand Type="VALUE_TYPE_CHAR" MaxLength="17" Sensitive="0"/>
+<NewRssiThreshold Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewRssiBackoffThreshold Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewLoadbalanceThreshold Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewMinStaPhyRateThreshold Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewBackoffTime Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewRssiBuffer Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewLoadbalanceBuffer Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</SetBsdBandPara>
+<SetWifiLink RpcId="0x4760350e" AppName="wifi" HttpSupport="0">
+<SendPara RecordOpLog="1">
+<NewRetransEnable Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewSSID5G Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewKey5G Type="VALUE_TYPE_CHAR" MaxLength="65"  Sensitive="1"/>
+<NewBSSID5G Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="1"/>
+<NewSSID2G Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewKey2G Type="VALUE_TYPE_CHAR" MaxLength="65"  Sensitive="1"/>
+<NewBSSID2G Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="1"/>
+<NewUpSsidIdx Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewRetClientEnable Type="VALUE_TYPE_BOOL" MaxLength="4"  Sensitive="0"/>
+<NewRtcpPort Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewRetransFeatureEnable Type="VALUE_TYPE_BOOL" MaxLength="4"  Sensitive="0"/>
+<NewIsEncryptOpen Type="VALUE_TYPE_BOOL" MaxLength="4"  Sensitive="0"/>
+<BondingEnable Type="VALUE_TYPE_BOOL" MaxLength="4"  Sensitive="0"/>
+<BondingRatio2G Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<BondingRatio5G Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</SetWifiLink>
+<SetWEBCode RpcId="0x47604293" AppName="ssmp" HttpSupport="0">
+<SendPara RecordOpLog="0">
+<WebCode Type="VALUE_TYPE_CHAR" MaxLength="128" Sensitive="1"/>
+<WebMode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="1"/>
+<Salt Type="VALUE_TYPE_CHAR" MaxLength="33" Sensitive="1"/>
+<WebUserCode Type="VALUE_TYPE_CHAR" MaxLength="33" Sensitive="1"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</SetWEBCode>
+<SetUserQos RpcId="0x47617045" AppName="bbsp" HttpSupport="0">
+<SendPara RecordOpLog="1">
+<UserQosInfo Type="VALUE_TYPE_CHAR" MaxLength="700" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</SetUserQos>
+<SetNativeVlan RpcId="0x47617047" AppName="bbsp" HttpSupport="0">
+<SendPara RecordOpLog="1">
+<SetVlanInfo Type="VALUE_TYPE_CHAR" MaxLength="2800" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</SetNativeVlan>
+<SetApPoe RpcId="0x48610024" AppName="amp" HttpSupport="0">
+<SendPara RecordOpLog="1">
+<PoeIdListString Type="VALUE_TYPE_CHAR" MaxLength="128" Sensitive="0"/>
+<PoeSetconfigInfo Type="VALUE_TYPE_CHAR" MaxLength="128" Sensitive="0"/>
+<PoeSetMaskInfo Type="VALUE_TYPE_UINT32" MaxLength="8" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</SetApPoe>
+<SetApPoeGlobal RpcId="0x47601408" AppName="amp" HttpSupport="0">
+<SendPara RecordOpLog="1">
+<guardBandPower Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</SetApPoeGlobal>
+<SetIterateCode RpcId="0x47604294" AppName="ssmp" HttpSupport="0">
+<SendPara RecordOpLog="0">
+<WebIterateCode Type="VALUE_TYPE_CHAR" MaxLength="128" Sensitive="1"/>
+<Salt Type="VALUE_TYPE_CHAR" MaxLength="33" Sensitive="1"/>
+<Count Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="1"/>
+<HashType Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="1"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</SetIterateCode>
+<SetAPMultiServerPort RpcId="0x47201050" AppName="udm" HttpSupport="1">
+<SendPara RecordOpLog="0">
+<NewStatus Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<Newipv4Flag Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<Newipv6Flag Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewPortNum Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<NewUUID Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+<NewPortList Type="VALUE_TYPE_CHAR" MaxLength="480"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</SetAPMultiServerPort>
+<NotifyODUStatus RpcId="0x47201050" AppName="udm" HttpSupport="1">
+<SendPara RecordOpLog="0">
+<NewStatus Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</NotifyODUStatus>
+<BbspMsgProc  RpcId="0x47604142" AppName="bbsp" HttpSupport="0">
+<SendPara RecordOpLog="0">
+<RPCID Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<RecvApp Type="VALUE_TYPE_CHAR" MaxLength="32" Sensitive="0"/>
+<SendMid Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<RecvMid Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<InputMsg  Type="VALUE_TYPE_CHAR" MaxLength="513" Sensitive="1"/>
+<InputLen  Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="1"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+<OutputMsg Type="VALUE_TYPE_CHAR" MaxLength="513" Sensitive="0"/>
+<OutputLen Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</ReplyPara>
+</BbspMsgProc>
+<SetACSStart RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara RecordOpLog="1">
+<NewRFBand Type="VALUE_TYPE_CHAR" MaxLength="9"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetACSStart>
+<SsmpMsgProc  RpcId="0x47604292" AppName="ssmp" HttpSupport="1">
+<SendPara RecordOpLog="1">
+<RPCID Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<RecvApp Type="VALUE_TYPE_CHAR" MaxLength="32" Sensitive="0"/>
+<SendMid Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<RecvMid Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<InputMsg  Type="VALUE_TYPE_CHAR" MaxLength="1025" Sensitive="0"/>
+<InputLen  Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<uiResult Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<uiSequenceId Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<cServerIp Type="VALUE_TYPE_CHAR" MaxLength="128" Sensitive="1"/>
+<uiServerPort Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="1"/>
+<uiTaskID Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<cErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="512" Sensitive="0"/>
+<cRequestId Type="VALUE_TYPE_CHAR" MaxLength="33" Sensitive="0"/>
+</ReplyPara>
+</SsmpMsgProc>
+<SetToken RpcId="0x4760350e" AppName="wifi" HttpSupport="0"> 
+<SendPara RecordOpLog="1">
+<Token Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="1"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetToken>
+<SetProbeResp RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara RecordOpLog="0">
+<MAC Type="VALUE_TYPE_CHAR" MaxLength="18"  Sensitive="1"/>
+<ConfigData Type="VALUE_TYPE_CHAR" MaxLength="257"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetProbeResp>
+<TestLink RpcId="0x47201050" AppName="udm" HttpSupport="1">
+<SendPara>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</TestLink>
+<GetBssidCached RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara>
+</SendPara>
+<ReplyPara>
+<NewBssidCached Type="VALUE_TYPE_CHAR" MaxLength="513"  Sensitive="1"/>
+<NewAccessPointBssid  Type="VALUE_TYPE_CHAR" MaxLength="18"  Sensitive="1"/>
+</ReplyPara>
+</GetBssidCached>
+<GetStatusInfo RpcId="0x47283546" AppName="udm" HttpSupport="1">
+<SendPara></SendPara>
+<ReplyPara>
+<NewConnectionStatus Type="VALUE_TYPE_CHAR" MaxLength="16" Sensitive="0"/>
+<NewLastConnectionError Type="VALUE_TYPE_CHAR" MaxLength="64" Sensitive="0"/>
+<NewUptime Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</ReplyPara>
+</GetStatusInfo>
+<GetExternalIPAddress RpcId="0x47283547" AppName="udm" HttpSupport="1">
+<SendPara></SendPara>
+<ReplyPara>
+<NewExternalIPAddress Type="VALUE_TYPE_CHAR" MaxLength="16" Sensitive="1"/>
+</ReplyPara>
+</GetExternalIPAddress>
+<AddPortMapping RpcId="0x47283548" AppName="udm" HttpSupport="1">
+<SendPara>
+<NewRemoteHost Type="VALUE_TYPE_CHAR" MaxLength="16" Sensitive="0"/>
+<NewExternalPort Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewProtocol Type="VALUE_TYPE_CHAR" MaxLength="4" Sensitive="0"/>
+<NewInternalPort Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewInternalClient Type="VALUE_TYPE_CHAR" MaxLength="16" Sensitive="0"/>
+<NewEnabled Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewPortMappingDescription Type="VALUE_TYPE_CHAR" MaxLength="50" Sensitive="0"/>
+<NewLeaseDuration Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</SendPara>
+<ReplyPara></ReplyPara>
+</AddPortMapping>
+<GetSpecificPortMappingEntry RpcId="0x47283549" AppName="udm" HttpSupport="1">
+<SendPara>
+<NewRemoteHost Type="VALUE_TYPE_CHAR" MaxLength="16" Sensitive="0"/>
+<NewExternalPort Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewProtocol Type="VALUE_TYPE_CHAR" MaxLength="4" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewInternalPort Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewInternalClient Type="VALUE_TYPE_CHAR" MaxLength="16" Sensitive="0"/>
+<NewEnabled Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewPortMappingDescription Type="VALUE_TYPE_CHAR" MaxLength="50" Sensitive="0"/>
+<NewLeaseDuration Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</ReplyPara>
+</GetSpecificPortMappingEntry>
+<DeletePortMapping RpcId="0x4728354a" AppName="udm" HttpSupport="1">
+<SendPara>
+<NewRemoteHost Type="VALUE_TYPE_CHAR" MaxLength="16" Sensitive="0"/>
+<NewExternalPort Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewProtocol Type="VALUE_TYPE_CHAR" MaxLength="4" Sensitive="0"/>
+</SendPara>
+<ReplyPara></ReplyPara>
+</DeletePortMapping>
+<SetOkcPairAction RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara RecordOpLog="1">
+<OkcMac Type="VALUE_TYPE_CHAR" MaxLength="20"  Sensitive="1"/>
+<OkcBand Type="VALUE_TYPE_CHAR" MaxLength="8"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetOkcPairAction>
+<SegmentSpeedStart RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara RecordOpLog="1">
+<SendDevMAC Type="VALUE_TYPE_CHAR" MaxLength="64"  Sensitive="1"/>
+<RecvDevMAC Type="VALUE_TYPE_CHAR" MaxLength="64"  Sensitive="1"/>
+<SendIp Type="VALUE_TYPE_CHAR" MaxLength="64"  Sensitive="1"/>
+<RecvIp Type="VALUE_TYPE_CHAR" MaxLength="64"  Sensitive="1"/>
+<Duration Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<WlanInst Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewTaskID Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/> 
+</ReplyPara>
+</SegmentSpeedStart>
+<SegmentSpeedStop RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara RecordOpLog="1">
+<TaskID Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SegmentSpeedStop>
+<UpnpSetMsgProc RpcId="0x47201050" AppName="udm" HttpSupport="0">
+<SendPara RecordOpLog="0">
+<RPCID Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<RecvApp Type="VALUE_TYPE_CHAR" MaxLength="32" Sensitive="0"/>
+<SendMid Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<RecvMid Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<MsgLen Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="1"/>
+<MsgBody Type="VALUE_TYPE_CHAR" MaxLength="2561" Sensitive="1"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</UpnpSetMsgProc>
+<UpnpGetMsgProc RpcId="0x47201050" AppName="udm" HttpSupport="1">
+<SendPara RecordOpLog="0">
+<RPCID Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<RecvApp Type="VALUE_TYPE_CHAR" MaxLength="32" Sensitive="0"/>
+<SendMid Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<RecvMid Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<MsgLen Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="1"/>
+<MsgBody Type="VALUE_TYPE_CHAR" MaxLength="2561" Sensitive="1"/>
+</SendPara>
+<ReplyPara>
+<RspMsgLen Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<RspMsgBody Type="VALUE_TYPE_CHAR" MaxLength="2561" Sensitive="1"/>
+</ReplyPara>
+</UpnpGetMsgProc>
+<SetAcceNotifyData RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara RecordOpLog="0">
+<ServiceMode Type="VALUE_TYPE_CHAR" MaxLength="32" Sensitive="0"/>
+<StaMac Type="VALUE_TYPE_CHAR" MaxLength="3327" Sensitive="1"/>
+<AppName Type="VALUE_TYPE_CHAR" MaxLength="32" Sensitive="0"/>
+<AccType Type="VALUE_TYPE_CHAR" MaxLength="32" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</SetAcceNotifyData>
+<SetSharedKey RpcId="0x47201050" AppName="udm" HttpSupport="0">
+<SendPara RecordOpLog="0">
+<OpensslIdentity Type="VALUE_TYPE_CHAR" MaxLength="129" Sensitive="1"/>
+<OpensslPwd Type="VALUE_TYPE_CHAR" MaxLength="33" Sensitive="1"/>
+<OpensslSalt Type="VALUE_TYPE_CHAR" MaxLength="33" Sensitive="1"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</SetSharedKey>
+<SetUpAccessBand RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+<SendPara RecordOpLog="1">
+<Band Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</SetUpAccessBand>
+<GetServicePriority RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+<SendPara RecordOpLog="0">
+<ServeType Type="VALUE_TYPE_CHAR" MaxLength="512" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<Priority Type="VALUE_TYPE_CHAR" MaxLength="512" Sensitive="0"/>
+</ReplyPara>
+</GetServicePriority>
+<InvokeApWanDown RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+<SendPara RecordOpLog="0">
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</InvokeApWanDown>
+<SetWifiBackhaul RpcId="0x4760350e" AppName="wifi" HttpSupport="0">
+<SendPara RecordOpLog="1">
+<NewBand Type="VALUE_TYPE_CHAR" MaxLength="8"  Sensitive="0"/>
+<NewSsid Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<NewKey Type="VALUE_TYPE_CHAR" MaxLength="65"  Sensitive="1"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetWifiBackhaul>
+<SyncNeighborList RpcId="0x4760350e" AppName="wifi" HttpSupport="1"> 
+<SendPara RecordOpLog="0">
+<NewNeighInfo Type="VALUE_TYPE_CHAR" MaxLength="5120"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SyncNeighborList>
+<SyncMultiNeighbor RpcId="0x4760350e" AppName="wifi" HttpSupport="0"> 
+<SendPara RecordOpLog="0" ObjectType="1" MaxInstanceNum="256" RootName="MultiNeighbor">
+<MultiApInst Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<MultiBssid Type="VALUE_TYPE_CHAR" MaxLength="18"  Sensitive="1"/>
+<MultiSsid Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<MultiChannel Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<MultiBandWidth Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<MultiOpClass Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<MultiStandard Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SyncMultiNeighbor>
+<SetWlanRadius RpcId="0x4760350e" AppName="wifi" HttpSupport="0">
+<SendPara RecordOpLog="1">
+<WlanConfigurationIndex Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<RadiusServer Type="VALUE_TYPE_CHAR" MaxLength="33" Sensitive="0"/>
+<RadiusKey Type="VALUE_TYPE_CHAR" MaxLength="65" Sensitive="1"/>
+<RadiusAuthenticationPort Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<RadiusAccountEnable Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<RadiusAccountPort Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetWlanRadius>
+<SetAllWlanConfiguration RpcId="0x4760350e" AppName="wifi" HttpSupport="0">
+<SendPara RecordOpLog="1">
+<Wlan2GEnable Type="VALUE_TYPE_CHAR" MaxLength="37" Sensitive="0"/>
+<Wlan2GBaseConfiguration Type="VALUE_TYPE_CHAR" MaxLength="713" Sensitive="1"/>
+<Wlan2GAdvancedConfiguration Type="VALUE_TYPE_CHAR" MaxLength="101" Sensitive="0"/>
+<Wlan2GRadioConfiguration Type="VALUE_TYPE_CHAR" MaxLength="69" Sensitive="0"/>
+<Wlan5GEnable Type="VALUE_TYPE_CHAR" MaxLength="37" Sensitive="0"/>
+<Wlan5GBaseConfiguration Type="VALUE_TYPE_CHAR" MaxLength="713" Sensitive="1"/>
+<Wlan5GAdvancedConfiguration Type="VALUE_TYPE_CHAR" MaxLength="101" Sensitive="0"/>
+<Wlan5GRadioConfiguration Type="VALUE_TYPE_CHAR" MaxLength="69" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</SetAllWlanConfiguration>
+<GetCfgFileCRC RpcId="0x47201050" AppName="udm" HttpSupport="1">
+<SendPara RecordOpLog="0">
+</SendPara>
+<ReplyPara>
+<CRC Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</GetCfgFileCRC>
+<SetCfgFileURL  RpcId="0x47201050" AppName="udm" HttpSupport="1">
+<SendPara RecordOpLog="1">
+<URL Type="VALUE_TYPE_CHAR" MaxLength="129" Sensitive="1"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</SetCfgFileURL>
+<AddObject RpcId="0x47201050" AppName="udm" HttpSupport="0">
+<SendPara RecordOpLog="1">
+<Param Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+<InstanceID Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</AddObject>
+<DeleteObject RpcId="0x47201050" AppName="udm" HttpSupport="0">
+<SendPara RecordOpLog="1">
+<Param Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+<InstanceID Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</DeleteObject>
+<GetMultiObjectAttributes RpcId="0x47201050" AppName="udm" HttpSupport="0">
+<SendPara RecordOpLog="0">
+<ObjectNum Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ObjPathValue Type="VALUE_TYPE_CHAR" MaxLength="1024" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+<ObjectNum Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ObjPathValue1 Type="VALUE_TYPE_CHAR" MaxLength="1024" Sensitive="0"/>
+<ObjPathValue2 Type="VALUE_TYPE_CHAR" MaxLength="1024" Sensitive="0"/>
+<ObjPathValue3 Type="VALUE_TYPE_CHAR" MaxLength="1024" Sensitive="0"/>
+</ReplyPara>
+</GetMultiObjectAttributes>
+<SetMultiObjectAttributes RpcId="0x47201050" AppName="udm" HttpSupport="0">
+<SendPara RecordOpLog="1">
+<ObjectNum Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ObjPathValue1 Type="VALUE_TYPE_CHAR" MaxLength="1024" Sensitive="0"/>
+<ObjPathValue2 Type="VALUE_TYPE_CHAR" MaxLength="1024" Sensitive="0"/>
+<ObjPathValue3 Type="VALUE_TYPE_CHAR" MaxLength="1024" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</SetMultiObjectAttributes>
+<LedSwitch RpcId="0x47201050" AppName="udm" HttpSupport="1">
+<SendPara RecordOpLog="1">
+<Enable Type="VALUE_TYPE_BOOL" MaxLength="4" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<Priority Type="VALUE_TYPE_CHAR" MaxLength="512" Sensitive="0"/>
+</ReplyPara>
+</LedSwitch>
+<SetCentralSchedule RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+<SendPara RecordOpLog="0">
+<Enable Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</SetCentralSchedule>
+<SetIfitParam RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+<SendPara RecordOpLog="0">
+<IsAddFlag Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<IfitStatsOpt Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ReportInterval Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<Flowid Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<Protocol Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<IpVersion Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<SourcePort Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<DestPort Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<SourceIp Type="VALUE_TYPE_CHAR" MaxLength="64" Sensitive="1"/>
+<DestIp Type="VALUE_TYPE_CHAR" MaxLength="64" Sensitive="1"/>
+<FifoNum Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<FifoLen Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</SetIfitParam>
+<SetSecureToken RpcId="0x4760350e" AppName="wifi" HttpSupport="0"> 
+<SendPara RecordOpLog="1">
+<Token Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="1"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetSecureToken>
+<SetWlanStaMoveIn RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+<SendPara RecordOpLog="0">
+<StaMac Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="1"/>
+<StaIp Type="VALUE_TYPE_CHAR" MaxLength="65"  Sensitive="1"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetWlanStaMoveIn>
+<BroadApOnline RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+<SendPara RecordOpLog="0">
+<Rssithreshold Type="VALUE_TYPE_INT32" MaxLength="4"  Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</BroadApOnline>
+<Custominfo RpcId="0x47201050" AppName="udm" HttpSupport="1">
+<SendPara RecordOpLog="0">
+<CfgWord Type="VALUE_TYPE_CHAR" MaxLength="25" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<Priority Type="VALUE_TYPE_CHAR" MaxLength="512" Sensitive="0"/>
+</ReplyPara>
+</Custominfo>
+<GetChannelPlan RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+<SendPara RecordOpLog="0">
+</SendPara>
+<ReplyPara>
+<RtMac Type="VALUE_TYPE_CHAR" MaxLength="18" Sensitive="1"/>
+<IsRt Type="VALUE_TYPE_BOOL" MaxLength="4" Sensitive="0"/>
+<PlannedChannel Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ChannelType Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<BandWidth Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<InterfThres Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<LongDisMode Type="VALUE_TYPE_BOOL" MaxLength="4" Sensitive="0"/>
+</ReplyPara>
+</GetChannelPlan>
+<SetChannelPlan RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+<SendPara RecordOpLog="0">
+<RadioInst Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<BandWidth Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<InterfThres Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ChannelType Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<AcsList Type="VALUE_TYPE_CHAR" MaxLength="129" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</SetChannelPlan>
+<SyncLinkturboStaInfo RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+<SendPara RecordOpLog="0">
+<LinkturStaInfo Type="VALUE_TYPE_CHAR" MaxLength="2048" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</SyncLinkturboStaInfo>
+<SetStaBoost RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+<SendPara RecordOpLog="0">
+<staMac Type="VALUE_TYPE_CHAR" MaxLength="18" Sensitive="1"/>
+<duration Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<radioinst Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<stainst Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<mode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</SetStaBoost>
+<DelAllBoost RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+<SendPara RecordOpLog="0">
+<flag Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</DelAllBoost>
+<SyncQbbInfo RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+<SendPara RecordOpLog="0">
+<SubFlag Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<QbbType Type="VALUE_TYPE_CHAR" MaxLength="32" Sensitive="0"/>
+<PluginId Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<CollectInterval Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ReportInterval Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<SetParaInfo Type="VALUE_TYPE_CHAR" MaxLength="1000" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</SyncQbbInfo>
+<ScnGetStaInfoByMac RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+<SendPara RecordOpLog="0">
+<WlanInst Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<StaMac Type="VALUE_TYPE_CHAR" MaxLength="18" Sensitive="1"/>
+<GateWayIp Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="1"/>
+<Port Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="1"/>
+</SendPara>
+<ReplyPara>
+<Rssi Type="VALUE_TYPE_INT32" MaxLength="4" Sensitive="0"/>
+<Load Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<ApIp Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="1"/>
+</ReplyPara>
+</ScnGetStaInfoByMac>
+<ScnSyncControl RpcId="0x4760350e" AppName="wifi" HttpSupport="0">
+<SendPara RecordOpLog="1">
+<Enable Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<WlanInst Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<Bssid Type="VALUE_TYPE_CHAR" MaxLength="18" Sensitive="1"/>
+<WpsUUID Type="VALUE_TYPE_CHAR" MaxLength="37" Sensitive="0"/>
+<ScnToken Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="1"/>
+<ToScnThres Type="VALUE_TYPE_INT32" MaxLength="4" Sensitive="0"/>
+<ScnThres Type="VALUE_TYPE_INT32" MaxLength="4" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</ScnSyncControl>
+<SetFttxApRadioInfo RpcId="0x4760350e" AppName="wifi" HttpSupport="0">
+    <SendPara RecordOpLog="0">
+        <ApInst Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <RadioType Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <RadioEnable Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <Standard Type="VALUE_TYPE_CHAR" MaxLength="10" Sensitive="0"/>
+        <TxPower Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <Channel Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <BandWidth Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <WebChangeFlag Type="VALUE_TYPE_BOOL" MaxLength="4" Sensitive="0"/>
+    </SendPara>
+    <ReplyPara>
+        <ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+    </ReplyPara>
+</SetFttxApRadioInfo>
+<GetApWifiAbility RpcId="0x4760350e" AppName="wifi" HttpSupport="0"> 
+    <SendPara>
+    </SendPara>
+    <ReplyPara>
+        <NewWifiAbility2G Type="VALUE_TYPE_CHAR" MaxLength="65"  Sensitive="0"/>
+        <NewWifiAbility5G Type="VALUE_TYPE_CHAR" MaxLength="65"  Sensitive="0"/>
+    </ReplyPara>
+</GetApWifiAbility>
+<SetLiveAccessControl RpcId="0x4760350e" AppName="wifi" HttpSupport="0">
+<SendPara RecordOpLog="1">
+<LiveModeEnable Type="VALUE_TYPE_BOOL" MaxLength="4" Sensitive="0"/>
+<IntensityThreshold Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<MonitorTimes Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<WeakTimes Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</SetLiveAccessControl>
+<SyncDcaConfig RpcId="0x4760350e" AppName="wifi" HttpSupport="0">
+<SendPara RecordOpLog="0">
+<DcaSwtich Type="VALUE_TYPE_BOOL" MaxLength="4" Sensitive="0"/>
+<Bw40Threshold Type="VALUE_TYPE_INT32" MaxLength="4" Sensitive="0"/>
+<Bw80Threshold Type="VALUE_TYPE_INT32" MaxLength="4" Sensitive="0"/>
+<Bw160Threshold Type="VALUE_TYPE_INT32" MaxLength="4" Sensitive="0"/>
+<StaFlowThreshold Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<DcaEnable Type="VALUE_TYPE_BOOL" MaxLength="4" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</SyncDcaConfig>
+<JudgeCanStartDca RpcId="0x4760350e" AppName="wifi" HttpSupport="0">
+<SendPara RecordOpLog="0">
+<radioType Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<forceFlag Type="VALUE_TYPE_BOOL" MaxLength="4" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<DcaFlag Type="VALUE_TYPE_BOOL" MaxLength="4" Sensitive="0"/>
+<DcaMode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</ReplyPara>
+</JudgeCanStartDca>
+<UpdateProbeBlackList RpcId="0x4760350e" AppName="wifi" HttpSupport="0">
+<SendPara RecordOpLog="0">
+<UpdateFlag Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<RadioInst Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<StaMac Type="VALUE_TYPE_CHAR" MaxLength="18" Sensitive="1"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</UpdateProbeBlackList>
+<BroadcastFixedStaList RpcId="0x4760350e" AppName="wifi" HttpSupport="0">
+<SendPara RecordOpLog="0">
+<staNum Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<staMacInfo Type="VALUE_TYPE_CHAR" MaxLength="512"  Sensitive="1"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</BroadcastFixedStaList>
+<SyncSta11kvAbilityList RpcId="0x4760350e" AppName="wifi" HttpSupport="0">
+    <SendPara RecordOpLog="0">
+        <staNum Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <staMacInfo Type="VALUE_TYPE_CHAR" MaxLength="996" Sensitive="1"/>
+    </SendPara>
+    <ReplyPara>
+        <ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+        <ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+    </ReplyPara>
+</SyncSta11kvAbilityList>
+<SetISPExtend RpcId="0x4760350e" AppName="wifi" HttpSupport="0">
+<SendPara RecordOpLog="1">
+<ControlType Type="VALUE_TYPE_CHAR" MaxLength="10" Sensitive="0"/>
+<WlanInst Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<Enable Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<Ssid Type="VALUE_TYPE_CHAR" MaxLength="33"  Sensitive="0"/>
+<PortIsolation Type="VALUE_TYPE_BOOL" MaxLength="4" Sensitive="0"/>
+<STAIsolation Type="VALUE_TYPE_BOOL" MaxLength="4"  Sensitive="0"/>
+<EnableUserId Type="VALUE_TYPE_BOOL" MaxLength="4" Sensitive="0"/>
+<UserId Type="VALUE_TYPE_CHAR" MaxLength="65" Sensitive="1"/>
+<AuthenticationMode Type="VALUE_TYPE_CHAR" MaxLength="33" Sensitive="0"/>
+<RadiusServer Type="VALUE_TYPE_CHAR" MaxLength="65" Sensitive="0"/>
+<RadiusKey Type="VALUE_TYPE_CHAR" MaxLength="65" Sensitive="1"/>
+<RadiusAuthenticationPort Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<RadiusAccountPort Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<RadiusAccountEnable Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<UpRateLimit Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<DownRateLimit Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<EnableCalledId Type="VALUE_TYPE_BOOL" MaxLength="4" Sensitive="0"/>
+<NasID Type="VALUE_TYPE_CHAR" MaxLength="33" Sensitive="0"/>
+<CircuitId Type="VALUE_TYPE_CHAR" MaxLength="65" Sensitive="0"/>
+<SecondRadiusServer Type="VALUE_TYPE_CHAR" MaxLength="65" Sensitive="0"/>
+<SecondRadiusKey  Type="VALUE_TYPE_CHAR" MaxLength="65" Sensitive="1"/>
+<SecondRadiusAuthenticationPort Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<SSIDAdvertisementEnabled Type="VALUE_TYPE_BOOL" MaxLength="4" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetISPExtend>
+<GuestSsidSync RpcId="0x4760350e" AppName="wifi" HttpSupport="0">
+<SendPara RecordOpLog="1">
+<ControlType Type="VALUE_TYPE_CHAR" MaxLength="8" Sensitive="0"/>
+<GuestWlanInst Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<DelGuestRadio Type="VALUE_TYPE_CHAR" MaxLength="4" Sensitive="0"/>
+<PortIsolation Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<Duration Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<UpRateLimit Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<DownRateLimit Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<RadioId Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<Ssid Type="VALUE_TYPE_CHAR" MaxLength="33" Sensitive="0"/>
+<Enable Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</GuestSsidSync>
+<SetLogReportCfg RpcId="0x47201050" AppName="udm" HttpSupport="0">
+<SendPara RecordOpLog="1">
+<Enable Type="VALUE_TYPE_BOOL" MaxLength="4" Sensitive="0"/>
+<ReportInterval Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ReportURL Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="1"/>
+<LogTimeStart Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<LogTimeEnd Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<LogDateStart Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<LogDateEnd Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<LogType Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ReportMode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<DeviceMac Type="VALUE_TYPE_CHAR" MaxLength="20" Sensitive="1"/>
+<SetMask Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetLogReportCfg>
+<SetScnFriendStaInfo RpcId="0x4760350e" AppName="wifi" HttpSupport="0">
+    <SendPara RecordOpLog="0" ObjectType="1" MaxInstanceNum="32" RootName="MultiFriendSta">
+        <OpType Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <MacBuf Type="VALUE_TYPE_CHAR" MaxLength="18" Sensitive="1"/>
+        <Aid Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+    </SendPara>
+    <ReplyPara>
+        <ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+    </ReplyPara>
+</SetScnFriendStaInfo>
+<GetScnScanApRssi RpcId="0x4760350e" AppName="wifi" HttpSupport="0">
+    <SendPara RecordOpLog="0" >
+	    <SendProbeFlag Type="VALUE_TYPE_BOOL" MaxLength="4" Sensitive="0"/>
+    </SendPara>
+    <ReplyPara ObjectType="1" MaxInstanceNum="32" RootName="ScnApRssi">
+        <ScnScanMac Type="VALUE_TYPE_CHAR" MaxLength="18" Sensitive="1"/>
+        <ScnScanRssi Type="VALUE_TYPE_INT32" MaxLength="4" Sensitive="0"/>
+    </ReplyPara>
+</GetScnScanApRssi>
+<GetVitransUpMac RpcId="0x4760350e" AppName="wifi" HttpSupport="0">
+    <SendPara>
+    </SendPara>
+    <ReplyPara>
+        <UpMac Type="VALUE_TYPE_CHAR" MaxLength="18" Sensitive="1"/>
+    </ReplyPara>
+</GetVitransUpMac>
+<GetTestLinkState RpcId="0x4760350e" AppName="wifi" HttpSupport="0">
+    <SendPara>
+    </SendPara>
+    <ReplyPara>
+        <TestLinkState Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <EscapeState Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+    </ReplyPara>
+</GetTestLinkState>
+<SetNetworkTopoLayer RpcId="0x4760350e" AppName="wifi" HttpSupport="0">
+<SendPara RecordOpLog="1">
+<MaxLayer Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<RtLayer Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+<TestLinkState Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<EscapeState Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</SendPara>
+<ReplyPara >
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetNetworkTopoLayer>
+<GetLanRxStats RpcId="0x47201050" AppName="udm" HttpSupport="0">
+    <SendPara>
+    </SendPara>
+    <ReplyPara ObjectType="1" MaxInstanceNum="8" RootName="LanRxStats">
+        <RcvFrame Type="VALUE_TYPE_UINT64" MaxLength="8" Sensitive="0"/>
+        <RcvUcastFrame Type="VALUE_TYPE_UINT64" MaxLength="8" Sensitive="0"/>
+        <RcvMcastFrame Type="VALUE_TYPE_UINT64" MaxLength="8" Sensitive="0"/>
+        <RcvBcastFrame Type="VALUE_TYPE_UINT64" MaxLength="8" Sensitive="0"/>
+        <RcvErrorFrame Type="VALUE_TYPE_UINT64" MaxLength="8" Sensitive="0"/>
+    </ReplyPara>
+</GetLanRxStats>
+<GetPonTxStats RpcId="0x47201050" AppName="udm" HttpSupport="0">
+    <SendPara>
+    </SendPara>
+    <ReplyPara>
+        <SentFrame Type="VALUE_TYPE_UINT64" MaxLength="8" Sensitive="0"/>
+        <SentUcastFrame Type="VALUE_TYPE_UINT64" MaxLength="8" Sensitive="0"/>
+        <SentMcastFrame Type="VALUE_TYPE_UINT64" MaxLength="8" Sensitive="0"/>
+        <SentBcastFrame Type="VALUE_TYPE_UINT64" MaxLength="8" Sensitive="0"/>
+    </ReplyPara>
+</GetPonTxStats>
+<GetPonStats RpcId="0x47201050" AppName="udm" HttpSupport="0">
+    <SendPara>
+    </SendPara>
+    <ReplyPara>
+        <NewBytesSent Type="VALUE_TYPE_UINT64" MaxLength="8"  Sensitive="0"/>
+        <NewBytesReceived Type="VALUE_TYPE_UINT64" MaxLength="8"  Sensitive="0"/>
+        <NewPacketsSent Type="VALUE_TYPE_UINT64" MaxLength="8"  Sensitive="0"/>
+        <NewPacketsReceived Type="VALUE_TYPE_UINT64" MaxLength="8"  Sensitive="0"/>
+        <NewDropSent Type="VALUE_TYPE_UINT64" MaxLength="8"  Sensitive="0"/>
+        <NewDropReceived Type="VALUE_TYPE_UINT64" MaxLength="8"  Sensitive="0"/>
+        <NewUpSpeed Type="VALUE_TYPE_UINT64" MaxLength="8"  Sensitive="0"/>
+        <NewDownSpeed Type="VALUE_TYPE_UINT64" MaxLength="8"  Sensitive="0"/>
+    </ReplyPara>
+</GetPonStats>
+<SetAutoRebootConfig RpcId="0x47201050" AppName="udm" HttpSupport="1">
+    <SendPara RecordOpLog="1">
+        <Enable Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <RunningDays Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <RebootStartTime Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <RebootEndTime Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <TrafficLimit Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <TrafficKeepTime Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+    </SendPara>
+    <ReplyPara>
+        <ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+    </ReplyPara>
+</SetAutoRebootConfig>
+<SetAutoRebootByWeek RpcId="0x47201050" AppName="udm" HttpSupport="1">
+    <SendPara RecordOpLog="1">
+        <Enable Type="VALUE_TYPE_BOOL" MaxLength="4" Sensitive="0"/>
+        <RebootStartTime Type="VALUE_TYPE_CHAR" MaxLength="17" Sensitive="0"/>
+        <RepeatDay Type="VALUE_TYPE_CHAR" MaxLength="17" Sensitive="0"/>
+    </SendPara>
+    <ReplyPara>
+        <ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+    </ReplyPara>
+</SetAutoRebootByWeek>
+<GetLoidInfo RpcId="0x47201050" AppName="udm" HttpSupport="0">
+    <SendPara>
+    </SendPara>
+    <ReplyPara>
+        <Loid Type="VALUE_TYPE_CHAR" MaxLength="64"  Sensitive="0"/>
+        <LoidPwd Type="VALUE_TYPE_CHAR" MaxLength="64"  Sensitive="0"/>
+    </ReplyPara>
+</GetLoidInfo>
+<SetLedStatus RpcId="0x47201050" AppName="udm" HttpSupport="0">
+    <SendPara>
+        <LedStatus Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+    </SendPara>
+    <ReplyPara>
+        <ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+    </ReplyPara>
+</SetLedStatus>
+<SetFriendOuiInfo RpcId="0x4760350e" AppName="wifi" HttpSupport="0">
+    <SendPara RecordOpLog="0" ObjectType="1" MaxInstanceNum="32" RootName="MultiOuiInfo">
+        <FriendOui Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+    </SendPara>
+    <ReplyPara>
+        <ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+    </ReplyPara>
+</SetFriendOuiInfo>
+<GetApDefCus RpcId="0x47201050" AppName="udm" HttpSupport="0">
+    <SendPara>
+    </SendPara>
+    <ReplyPara>
+        <Ssid1 Type="VALUE_TYPE_CHAR" MaxLength="257" Sensitive="0"/>
+        <ConvertSn Type="VALUE_TYPE_CHAR" MaxLength="65" Sensitive="0"/>
+        <SpecSn Type="VALUE_TYPE_CHAR" MaxLength="65" Sensitive="0"/>
+    </ReplyPara>
+</GetApDefCus>
+<SetApDevName RpcId="0x47201050" AppName="udm" HttpSupport="0">
+    <SendPara>
+        <DevName Type="VALUE_TYPE_CHAR" MaxLength="257" Sensitive="0"/>
+    </SendPara>
+    <ReplyPara>
+        <ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+    </ReplyPara>
+</SetApDevName>
+<SetAPAliasName RpcId="0x47201050" AppName="udm" HttpSupport="0">
+    <SendPara>
+        <AliasName Type="VALUE_TYPE_CHAR" MaxLength="257" Sensitive="0"/>
+    </SendPara>
+    <ReplyPara>
+        <ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+    </ReplyPara>
+</SetAPAliasName>
+<GetAPAliasName RpcId="0x47201050" AppName="udm" HttpSupport="0">
+    <SendPara>
+    </SendPara>
+    <ReplyPara>
+        <AliasName Type="VALUE_TYPE_CHAR" MaxLength="257" Sensitive="0"/>
+    </ReplyPara>
+</GetAPAliasName>
+<GetSlaveNetworkInfo RpcId="0x48306830" AppName="bbsp" HttpSupport="0">
+    <SendPara>
+    </SendPara>
+    <ReplyPara>
+        <UpLink Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <UpLinkType Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <Status Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <WifiMode Type="VALUE_TYPE_CHAR" MaxLength="257" Sensitive="0"/>
+        <PonDuration Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <Speed Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <Lan1Status Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <Lan2Status Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <Lan3Status Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <Lan4Status Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <Lan1TxByte Type="VALUE_TYPE_UINT64" MaxLength="8" Sensitive="0"/>
+        <Lan1RxByte Type="VALUE_TYPE_UINT64" MaxLength="8" Sensitive="0"/>
+        <Lan2TxByte Type="VALUE_TYPE_UINT64" MaxLength="8" Sensitive="0"/>
+        <Lan2RxByte Type="VALUE_TYPE_UINT64" MaxLength="8" Sensitive="0"/>
+        <Lan3TxByte Type="VALUE_TYPE_UINT64" MaxLength="8" Sensitive="0"/>
+        <Lan3RxByte Type="VALUE_TYPE_UINT64" MaxLength="8" Sensitive="0"/>
+        <Lan4TxByte Type="VALUE_TYPE_UINT64" MaxLength="8" Sensitive="0"/>
+        <Lan4RxByte Type="VALUE_TYPE_UINT64" MaxLength="8" Sensitive="0"/>
+        <WanLinkStatus Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <LanIpaddr Type="VALUE_TYPE_CHAR" MaxLength="16" Sensitive="0"/>
+        <LanIp6addr Type="VALUE_TYPE_CHAR" MaxLength="65" Sensitive="0"/>
+        <WanIpaddr Type="VALUE_TYPE_CHAR" MaxLength="16" Sensitive="0"/>
+        <WanIp6addr Type="VALUE_TYPE_CHAR" MaxLength="65" Sensitive="0"/>
+        <WifiBytes Type="VALUE_TYPE_UINT64" MaxLength="8" Sensitive="0"/>
+        <WifiTxBytes Type="VALUE_TYPE_UINT64" MaxLength="8" Sensitive="0"/>
+        <WifiRxBytes Type="VALUE_TYPE_UINT64" MaxLength="8" Sensitive="0"/>
+        <WanBytes Type="VALUE_TYPE_UINT64" MaxLength="8" Sensitive="0"/>
+        <WanTxBytes Type="VALUE_TYPE_UINT64" MaxLength="8" Sensitive="0"/>
+        <WanRxBytes Type="VALUE_TYPE_UINT64" MaxLength="8" Sensitive="0"/>
+    </ReplyPara>
+</GetSlaveNetworkInfo>
+<GetSlaveEthernetConfig RpcId="0x48306831" AppName="bbsp" HttpSupport="0">
+    <SendPara>
+        <PortId Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+    </SendPara>
+    <ReplyPara>
+        <Enable Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <Status Type="VALUE_TYPE_CHAR" MaxLength="9" Sensitive="0"/>
+        <Mac Type="VALUE_TYPE_CHAR" MaxLength="33" Sensitive="0"/>
+        <IfName Type="VALUE_TYPE_CHAR" MaxLength="33" Sensitive="0"/>
+        <MaxBitRate Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <BitRate Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <DuplexMode Type="VALUE_TYPE_CHAR" MaxLength="9" Sensitive="0"/>
+        <ByteSent Type="VALUE_TYPE_UINT64" MaxLength="8" Sensitive="0"/>
+        <ByteRecv Type="VALUE_TYPE_UINT64" MaxLength="8" Sensitive="0"/>
+        <PktSent Type="VALUE_TYPE_UINT64" MaxLength="8" Sensitive="0"/>
+        <PktRecv Type="VALUE_TYPE_UINT64" MaxLength="8" Sensitive="0"/>
+    </ReplyPara>
+</GetSlaveEthernetConfig>
+<SetSlaveEthernetConfig RpcId="0x48306832" AppName="bbsp" HttpSupport="0">
+    <SendPara>
+        <PortId Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <Enable Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+    </SendPara>
+    <ReplyPara>
+        <ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+    </ReplyPara>
+</SetSlaveEthernetConfig>
+<GetSlaveEthernetConfigInst RpcId="0x48306833" AppName="bbsp" HttpSupport="0">
+    <SendPara>
+    </SendPara>
+    <ReplyPara>
+        <InstNum Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <InstId1 Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <InstId2 Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <InstId3 Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <InstId4 Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <InstId5 Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <InstId6 Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <InstId7 Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <InstId8 Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+    </ReplyPara>
+</GetSlaveEthernetConfigInst>
+<SetDevMaxAssocNum RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+    <SendPara RecordOpLog="1">
+        <DevMaxAssociateNum Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+    </SendPara>
+    <ReplyPara>
+        <ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+    </ReplyPara>
+</SetDevMaxAssocNum>
+<GetDevMaxAssociateNum RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+    <SendPara>
+    </SendPara>
+    <ReplyPara>
+        <DevMaxAssoNum Type="VALUE_TYPE_UINT32" MaxLength="4"  Sensitive="0"/>
+    </ReplyPara>
+</GetDevMaxAssociateNum>
+<SetBackupPara RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+<SendPara RecordOpLog="1">
+<Enable Type="VALUE_TYPE_BOOL" MaxLength="4" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</SetBackupPara>
+<SetAPLock RpcId="0x4760350e" AppName="wifi" HttpSupport="0">
+<SendPara RecordOpLog="1">
+<Status Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<ErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+<ErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256" Sensitive="0"/>
+</ReplyPara>
+</SetAPLock>
+<GetAPLock RpcId="0x4760350e" AppName="wifi" HttpSupport="0">
+<SendPara>
+</SendPara>
+<ReplyPara>
+<Status Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</ReplyPara>
+</GetAPLock>
+<SetDfsMaxTimes RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+<SendPara RecordOpLog="1">
+<NewDfsMaxTimes Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+</SendPara>
+<ReplyPara>
+<NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4"   Sensitive="0"/>
+<NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+</ReplyPara>
+</SetDfsMaxTimes>
+<SetBandWidthUp RpcId="0x4760350e" AppName="wifi" HttpSupport="1">
+    <SendPara RecordOpLog="1">
+        <Enable Type="VALUE_TYPE_BOOL" MaxLength="4"/>
+        <PerformCycle Type="VALUE_TYPE_UINT32" MaxLength="4"/>
+        <MeasureTimeLength Type="VALUE_TYPE_UINT32" MaxLength="4"/>
+        <LowRateThrehold Type="VALUE_TYPE_UINT32" MaxLength="4"/>
+        <PacketLossRateThrehold Type="VALUE_TYPE_UINT32" MaxLength="4"/>
+        <StartTime Type="VALUE_TYPE_UINT32" MaxLength="4"/>
+        <EndTime Type="VALUE_TYPE_UINT32" MaxLength="4"/>
+    </SendPara>
+    <ReplyPara>
+        <NewErrorCode Type="VALUE_TYPE_UINT32" MaxLength="4" Sensitive="0"/>
+        <NewErrorDescription Type="VALUE_TYPE_CHAR" MaxLength="256"  Sensitive="0"/>
+    </ReplyPara>
+</SetBandWidthUp>
+</ActionInfo>

@@ -1,0 +1,23 @@
+WAP:vspa display mg info
+WAP:vspa display mg if state
+WAP:vspa debug module 201 cmd 5 subcmd 1
+WAP:vspa debug module 200 cmd 1 subcmd 1
+WAP:vspa debug module 200 cmd 2 subcmd 0
+WAP:vspa debug module 200 cmd 5
+WAP:vspa debug module 201 cmd 4
+WAP:vspa debug module 203 cmd 1
+WAP:vspa debug module 206 cmd 2 subcmd 0
+WAP:vspa debug module 206 cmd 9 subcmd 0xff
+WAP:vspa debug module 208 cmd 2 subcmd 0xff
+WAP:vspa debug module 30 cmd 0x22 subcmd 0 para1 0 para2 0
+WAP:vspa debug module 200 cmd 1 subcmd 0
+WAP:vspa debug module 207 cmd 117
+WAP:vspa debug module 201 cmd 5 subcmd 0
+WAP:display last call log
+WAP:vspa display rtp statistics
+WAP:vspa display port status
+WAP:vspa display profilebody info
+WAP:vspa display dsp template info
+WAP:display voip ring info port 0xff
+WAP:display voip rightflag port 0xff
+WAP:get testself

@@ -1,0 +1,7 @@
+<InternetGatewayDevice> 
+<Services>
+<X_HW_E8CIPFwd setconfig = "0x00000007" getconfig = "0x00000007">
+<IPForwardModeEnabled setconfig = "0x00000007" getconfig = "0x00000007"/>
+</X_HW_E8CIPFwd>
+</Services>
+</InternetGatewayDevice> 

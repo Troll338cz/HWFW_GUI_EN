@@ -1,0 +1,12 @@
+<InternetGatewayDevice>
+<Layer3Forwarding setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<X_HW_policy_route setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<PolicyRouteType setconfig = "0x00000003" getconfig = "0x00000003"/>
+<VenderClassId setconfig = "0x00000003" getconfig = "0x00000003"/>
+<WanName setconfig = "0x00000003" getconfig = "0x00000003"/>
+<EtherType setconfig = "0x00000003" getconfig = "0x00000003"/>
+<PhyPortName setconfig = "0x00000003" getconfig = "0x00000003"/>
+</X_HW_policy_route>
+</Layer3Forwarding>
+</InternetGatewayDevice>
+ 

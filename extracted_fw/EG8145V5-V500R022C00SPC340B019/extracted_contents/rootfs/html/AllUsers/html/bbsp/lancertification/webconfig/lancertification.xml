@@ -1,0 +1,27 @@
+<InternetGatewayDevice>
+<LANDevice setconfig="0x00000003" getconfig = "0x00000003">
+<LANHostConfigManagement setconfig = "0x00000003" getconfig = "0x00000003">
+<IPInterface setconfig = "0x00000003" getconfig = "0x00000003">
+<Enable  setconfig = "0x00000003" getconfig = "0x00000003"/>
+<IPInterfaceIPAddress  setconfig = "0x00000003" getconfig = "0x00000003"/>
+<IPInterfaceSubnetMask  setconfig = "0x00000003" getconfig = "0x00000003"/>
+</IPInterface>
+<DHCPConditionalServingPool setconfig = "0x00000003" getconfig = "0x00000003">
+<Enable setconfig = "0x00000003" getconfig = "0x00000003"/>
+<SourceInterface setconfig = "0x00000003" getconfig = "0x00000003"/>
+<MinAddress setconfig = "0x00000003" getconfig = "0x00000003"/>
+<MaxAddress setconfig = "0x00000003" getconfig = "0x00000003"/>
+<IPRouters setconfig = "0x00000003" getconfig = "0x00000003"/>
+<SubnetMask setconfig = "0x00000003" getconfig = "0x00000003"/>
+<DHCPLeaseTime setconfig = "0x00000003" getconfig = "0x00000003"/>
+</DHCPConditionalServingPool>
+</LANHostConfigManagement>
+</LANDevice>
+<X_HW_AWIFIService setconfig = "0x00000003" getconfig = "0x00000003">
+<PortCertificateEnable  setconfig = "0x00000003" getconfig = "0x00000003"/>
+<LanPortSwitch  setconfig = "0x00000003" getconfig = "0x00000003"/>
+<BindPort  setconfig = "0x00000003" getconfig = "0x00000003">
+<PhyPortName setconfig = "0x00000003" getconfig = "0x00000003"/>
+</BindPort>
+</X_HW_AWIFIService>
+</InternetGatewayDevice> 

@@ -1,0 +1,1 @@
+/var/lancutdes.js

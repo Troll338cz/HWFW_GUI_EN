@@ -1,0 +1,9 @@
+<CusCliRoot>
+<displayMacaddress CmdStr="display macaddress" CmdGroup=""/>
+<saveData CmdStr="save data" CmdGroup=""/>
+<VspaDisplayMgIfState CmdStr="vspa display mg if state" CmdGroup=""/>
+</CusCliRoot>
+
+
+
+

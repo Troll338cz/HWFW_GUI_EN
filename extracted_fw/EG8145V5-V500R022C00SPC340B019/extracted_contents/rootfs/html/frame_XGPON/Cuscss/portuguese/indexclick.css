@@ -1,0 +1,372 @@
+﻿/* 首页图标点击张开页面的样式 */
+#MainContent {
+	margin-left:20px;
+}
+
+.PageTitleCss {
+	height:30px;
+	line-height:30px;
+	font-size:16px;
+	color:#666666;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#userinfoontmngt {
+		height: auto;
+    overflow: hidden;
+}
+
+.FunctionTitle{
+	width:730px;
+	height:30px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	border-bottom:1px solid #A6A6A6;
+}
+
+#FunctionTitleIcon {
+	float:left;
+	height:30px;
+	width:15px;
+}
+
+#FunctionTitleText {
+	float:left;
+}
+
+#defaultpwdnotice {
+	float:left;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size:12px;
+	line-height:30px;
+	margin-left:10px;
+	color:#FF0000;
+	display:none;
+}
+
+#defaultpwdnoticeCss {
+	color:#FF0000;
+	font-size:12px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.FunctionTitleCss {
+	background:url(../../images/functionicon.jpg) no-repeat center;
+}
+
+.FunctionTitleTextSpanCss {
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#userconfig{
+	float:left;
+	width:60%;
+}
+
+#pwdnoticeareatitle{
+	float:left;
+	margin-left:-40px;
+	width:40%;
+	margin-top:15px;
+}
+#pwdnoticearea{
+	float:left;
+	margin-left:-62px;
+	width:45%;
+}
+ol.outside 
+{
+	list-style-position: outside
+}
+
+.PwdNoticeTextCss {
+	height:16px;
+	line-height:16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+#PwdNoticeTitle{
+	font-size:14px;
+	color:#666666;
+}
+#PwdNotice{
+	font-size:12px;
+	color:#999999;
+}
+
+.divtr{
+	margin-top:5px;
+	height: 30px;
+	width: 100%;
+}
+
+.divtrbutton{
+	margin-top:5px;
+	height: 40px;
+	width: 100%;
+}
+
+.divtdlabal{
+	float:left;
+	font-size:14px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #666666;
+	height: 30px;
+	line-height:100%;
+	width: 30%;
+	text-align:left;
+	position:relative;
+}
+
+.divtdinput{
+	float:left;
+	font-size:14px;
+	height: 30px;
+	line-height:100%;
+	color:#333333;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	height: 30px;
+	width: 60%;
+	position:relative;
+}
+
+.textboxbg {
+	height: 24px;
+	width: 220px;
+	font-size:16px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #cccccc;
+}
+
+.DivSpace{
+	top:10px;
+	height:10px;
+	width:710px;
+	position:relative;
+}
+
+#ResetRestore{
+	height:150px;
+	width:100%;
+	top:20px;
+	position:relative;
+}
+
+#OntReset {
+	margin-top:10px;
+	height:40px;
+}
+
+#OntRestore {
+	margin-top:10px;
+	height:40px;
+}
+
+#ResetDes {
+	float:left;
+	width:420px;
+	height:40px;
+	margin-left:20px;
+	line-height:100%;
+	margin-top:-3px;
+}
+
+.OntResetIcon{
+	float:left;
+	height:40px;
+	width:40px;
+	background:url(../../images/ontreseticon.jpg) no-repeat center;
+}
+
+.FloatLeftCss {
+	float:left;
+}
+
+.OntRestoreIcon{
+	float:left;
+	height:40px;
+	width:40px;
+	background:url(../../images/ontrestoreicon.jpg) no-repeat center;
+}
+
+.ResetRestoreSpan{
+	font-size:14px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	vertical-align:middle;
+}
+
+#SmartOntInfo {
+	width:710px;
+	height:120px;
+}
+
+.SmartOntModule {
+	float:left;
+	margin-left:4%;
+	width:25%;
+}
+
+.SmartOntModule_PonInfo {
+	float:left;
+	margin-left:4%;
+	width:31%;
+}
+
+.SmartOntModule_InterNet {
+	float:left;
+	margin-left:4%;
+	width:31%;
+}
+
+.TitleBorderCss {
+	height:30px;
+	border-bottom:1px solid #CCCCCC;
+}
+
+.TitleSpace{
+	margin-top:5px;
+}
+.SmartinfoSpan {
+	height:30px;
+	font-size:14px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color:#333333;
+}
+
+.SmartinfoLeft {
+	height:20px;
+	line-height:20px;
+	font-size:12px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color:#666666;
+	margin-top:10px;
+}
+
+.Smartinforight {
+	height:20px;
+	line-height:20px;
+	font-size:12px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color:#333333;
+}
+
+.DevNameTitle {
+	margin-left:22px;
+}
+
+.DevTable {
+	margin-left:22px;
+	margin-right:22px;
+	border-collapse:collapse;
+}
+
+.DeviceTitle {
+	font-size:14px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color:#333333;
+}
+
+.DeviceLine {
+	font-size:14px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color:#727272;
+}
+
+.DeviceRefresh {
+	font-size:14px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.DevTableTitle {
+	background-color: #E3E3E3;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: center;
+	color: #333333;
+	height: 37px;
+	line-height: 33px;
+	border: 1px solid #C7C6C6;
+}
+
+.DevTableList {
+	background-color: #F2F5F5;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	height: 44px;
+	line-height: 33px;
+	/*padding-left: 12px;*/
+	text-align: center;
+	border: 1px solid #C7C6C6;
+}
+
+.DevTableListTd {
+	border: 1px solid #C7C6C6;
+}
+
+.DevTableListTd1 {
+	border: 1px solid #C7C6C6;
+	padding-left: 12px;
+	text-align: left;
+}
+
+.DevTableListTd2 {
+	border: 1px solid #C7C6C6;
+	padding-left: 12px;
+	text-align: left;
+	line-height: 16px;
+	margin-bottom:2px;
+}
+
+
+.DevEditBtn { 
+	width: 16px;
+	height: 16px;
+	margin-top: 8px;
+	line-height: 33px;
+	background:none; 
+	border:none;
+	float:left;
+	background:url(../../images/edit.jpg) no-repeat;
+}
+
+.DevNameLabel {
+	/*margin-left:21px;
+	margin-right:27px;
+	float:left;*/
+	width: 164px;
+}
+
+.DevInputName {
+	height: 33px;
+	width: 164px;
+	font-size:12px;
+	color: #333333;
+	padding-left: 12px;
+	padding-right: 6px;
+	background:none; 
+	border:none;
+	background:url(../../images/devnameinput.jpg) no-repeat;
+}
+
+.DevNameBtnBg {
+	height: 16px;
+	margin-top: 6px;
+	color:#333333;
+	text-align: center;
+	line-height: 33px;
+	font-size:12px;
+}
+
+.width_150px {
+	width:150px;
+}
+
+#siptable tbody tr td {
+	border: 1px solid #C7C6C6;
+}
+

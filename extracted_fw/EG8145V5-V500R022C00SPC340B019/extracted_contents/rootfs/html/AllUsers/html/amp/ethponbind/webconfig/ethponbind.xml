@@ -1,0 +1,7 @@
+<InternetGatewayDevice>
+	<LANDevice setconfig="0x00000003">
+		<X_HW_LANEthernetPortConfig setconfig="0x00000003">
+			<BindPonLinkEnable setconfig="0x00000003"/>
+		</X_HW_LANEthernetPortConfig>
+	</LANDevice>
+</InternetGatewayDevice>

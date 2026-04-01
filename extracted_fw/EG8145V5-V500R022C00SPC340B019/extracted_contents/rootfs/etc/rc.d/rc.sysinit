@@ -1,0 +1,74 @@
+#! /bin/sh
+echo "enter rc.sysinit................"
+umask 0027
+
+PATH=/bin:/bin/exbin:/sbin:/usr/bin:/usr/sbin:/usr/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/osgi/bin:
+export LD_LIBRARY_PATH=/lib:/lib/exlib:/lib/omci_module:/lib/oam_module:/usr/osgi/lib:/usr/osgi/lib/aarch32:/usr/osgi/lib/aarch32/jli:/usr/osgi/lib/aarch32/server
+
+export LANG=zh_CN.UTF-8
+export LC_ALL=zh_CN.UTF-8
+
+[ -f /var/sys_start_flag ] && echo "the ont has already been started!" && exit
+
+[ -f /lib/modules/linux/extra/arch/arm/mach-hisi/hw_drv_core.ko ] && insmod /lib/modules/linux/extra/arch/arm/mach-hisi/hw_drv_core.ko
+[ -f /lib/modules/linux/extra/arch/arm/mach-hisi/hi_drv_wdt.ko ] && insmod /lib/modules/linux/extra/arch/arm/mach-hisi/hi_drv_wdt.ko
+
+mkdir /dev/pts
+mkdir /dev/shm
+mount -t devpts -o nosuid,noexec,mode=660 devpts /dev/pts
+mount -t tmpfs -o nodev,nosuid,noexec,mode=1777 tmpfs /dev/shm
+mount -t tmpfs -o nodev,nosuid,noexec,size=10m,mode=1777 none /tmp
+mount -t tmpfs -o nodev,nosuid,size=80m,mode=1777 none /var
+mount -t tmpfs -o nodev,nosuid,noexec,size=4k,mode=755 none /mnt
+
+mkdir /mnt/jffs2
+touch /var/sys_start_flag 
+
+cp -a /etc/wap/passwd /var/ -rf
+cp -a /etc/wap/group /var/ -rf
+
+mkdir /var/osgi && chmod 770 /var/osgi && chown -h osgi_proxy:osgi /var/osgi
+mkdir -p /var/cli/cmdtree
+chmod 770 -R /var/cli && chown -h 3008:2002 -R /var/cli
+mkdir /tmp/proto; chown -h osgi_proxy:osgi /tmp/proto;chmod 1770 /tmp/proto
+
+mkdir /tmp/cert
+mount -t tmpfs -o nodev,nosuid,noexec,size=120k,mode=770,uid=3008,gid=2002 none /tmp/cert
+mount --make-unbindable /tmp/cert
+
+mkdir /var/felix-temp
+if [ -f /bin/osgi_proxy ]; then
+    mount -t tmpfs -o nodev,nosuid,size=30m,mode=750 none /var/felix-temp
+fi
+
+mkdir /var/cplugin && chmod 770 /var/cplugin && chown -h osgi_proxy:osgi /var/cplugin
+
+mkdir /tmp/QoE
+mkdir /tmp/uxm
+mount -t tmpfs -o nodev,nosuid,size=2m,mode=755 none /tmp/QoE
+mount -t tmpfs -o nodev,nosuid,size=4m,mode=755 none /tmp/uxm
+
+# Setting up initial hostname
+touch /var/HOSTNAME
+hostname -F /etc/HOSTNAME
+
+# Setting up the sysctl confgiruaton options
+sysctl -p /etc/sysctl.conf > /dev/null
+
+# Setting up localhost loopback interface
+ifconfig lo up 127.0.0.1
+
+# Redirect stdout/stderr to pipe, for common all version one key collection
+collect_pipe &
+echo "out rc.sysinit................"
+# Running local startup scripts
+for i in `ls /etc/rc.d/rc.start/*` ; do
+    if [ -x $i ]; then
+        $i start
+    fi
+done
+
+# Calling user defined scripts if any
+if [ -x /etc/rc.d/rc.local ]; then
+    /etc/rc.d/rc.local
+fi

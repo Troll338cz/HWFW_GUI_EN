@@ -1,0 +1,14 @@
+#LANHOST
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterface.{i}:Enable|IPInterfaceIPAddress|IPInterfaceSubnetMask|IPInterfaceAddressingType$
+#DHCP
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement:DHCPServerConfigurable|DHCPServerEnable|DHCPRelay|DHCPLeaseTime|MinAddress|MaxAddress|SubnetMask|DNSServers|IPRouters$
+#WLAN
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.{i}:Enable|RegulatoryDomain|SSID|LowerLayers$
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.{i}.PreSharedKey.1:PreSharedKey$
+InternetGatewayDevice.X_HW_Security:WlanMacFilterPolicy|WlanMacFilterRight|WlanMacFilterNumberOfEntries$
+InternetGatewayDevice.X_HW_Security.WLANMacFilter.{i}:SSIDName|SourceMACAddress|DeviceName$
+InternetGatewayDevice.LANDevice.1.X_HW_WLANShutDownCtrl:Enable|ScheduleEnable$
+InternetGatewayDevice.LANDevice.1.X_HW_WLANShutDownCtrl.Duration.{i}:StartTime|EndTime|RepeatDay|Enable|SSIDMask|Name$
+#web
+InternetGatewayDevice.UserInterface.X_HW_WebUserInfo.{i}:UserName|Password|Salt|PassMode$
+InternetGatewayDevice.UserInterface.X_HW_WebUserInfo.{i}.X_HW_IteratePassword:Password|Salt|IterateCount|HashType$

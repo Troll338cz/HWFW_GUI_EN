@@ -1,0 +1,15 @@
+<InternetGatewayDevice> 
+<Services>
+<VoiceService setconfig = "0x00000003">
+<PhyInterface setconfig = "0x00000003" >
+<Tests setconfig = "0x00000003" >
+<TestState setconfig = "0x00000003" />
+<TestSelector setconfig = "0x00000003" />
+<X_HW_LineTest setconfig = "0x00000003" >
+<IsTestOnBusy setconfig = "0x00000003" />
+</X_HW_LineTest>
+</Tests>
+</PhyInterface>
+</VoiceService>
+</Services>
+</InternetGatewayDevice>

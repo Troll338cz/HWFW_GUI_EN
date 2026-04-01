@@ -1,0 +1,25 @@
+SHELL:if [ ! -h /mnt/jffs2/app/cplugin/cpluginstate ]; then cat /mnt/jffs2/app/cplugin/cpluginstate ; fi;
+SHELL:ls -l /var/|grep ker
+SHELL:if [ ! -h /var/kernelapp_boot.0 ]; then cat /var/kernelapp_boot.0 ; fi;
+SHELL:if [ ! -h /var/kernelapp_curl.log ]; then cat /var/kernelapp_curl.log ; fi;
+SHELL:if [ ! -h /var/kernelapp_post.0 ]; then cat /var/kernelapp_post.0 ; fi;
+SHELL:if [ ! -h /var/kernelapp_event.log ]; then cat /var/kernelapp_event.log ; fi;
+SHELL:if [ ! -h /var/kernelapp_capierrlog ]; then cat /var/kernelapp_capierrlog ; fi;
+SHELL:if [ ! -h /var/kernelapp_lsw.0 ]; then cat /var/kernelapp_lsw.0 ; fi;
+SHELL:if [ ! -h /var/kernelapp_lsw.1 ]; then cat /var/kernelapp_lsw.1 ; fi;
+SHELL:if [ ! -h /var/kernelapp_plugmng.0 ]; then cat /var/kernelapp_plugmng.0 ; fi;
+SHELL:if [ ! -h /var/kernelapp_plugmng.1 ]; then cat /var/kernelapp_plugmng.1 ; fi;
+SHELL:if [ ! -h /var/kernelapp_wanip ]; then cat /var/kernelapp_wanip ; fi;
+SHELL:if [ ! -h /var/kernelapp_gpb.0 ]; then cat /var/kernelapp_gpb.0 ; fi;
+SHELL:if [ ! -h /var/kernelapp_gpb.1 ]; then cat /var/kernelapp_gpb.1 ; fi;
+SHELL:if [ ! -h /var/kernelapp_cfg.log ]; then cat /var/kernelapp_cfg.log; fi;
+SHELL:if [ ! -h /var/smartapi_debug.log ]; then cat /var/smartapi_debug.log; fi;
+SHELL:if [ ! -h /var/ufwmg.log ]; then cat /var/ufwmg.log; fi;
+WAP:ctrgcmd plugin method List
+WAP:ctrgcmd frmwork method GetAll
+WAP:ctrgcmd show type 1
+WAP:ctrgcmd show type 2
+WAP:ctrgcmd show type 3
+WAP:ctrgcmd show type 4
+WAP:ctrgcmd show type 5
+WAP:ctrgcmd show type 6

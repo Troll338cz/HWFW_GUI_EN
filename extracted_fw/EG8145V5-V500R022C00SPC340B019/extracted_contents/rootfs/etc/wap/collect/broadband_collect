@@ -1,0 +1,59 @@
+WAP:display waninfo all
+WAP:display waninfo interface wan1
+WAP:display waninfo interface wan2
+WAP:display waninfo interface wan3
+WAP:display waninfo interface wan4
+WAP:display waninfo interface wan5
+WAP:display waninfo interface wan6
+WAP:display waninfo interface wan7
+WAP:display waninfo interface wan8
+WAP:display lanport workmode
+WAP:display dhcp client all
+WAP:display dhcp client interface wan1
+WAP:display dhcp client interface wan2
+WAP:display dhcp client interface wan3
+WAP:display dhcp client interface wan4
+WAP:display dhcp client interface wan5
+WAP:display dhcp client interface wan6
+WAP:display dhcp client interface wan7
+WAP:display dhcp client interface wan8
+WAP:display pppoe client all
+WAP:display pppoe client interface wan1
+WAP:display pppoe client interface wan2
+WAP:display pppoe client interface wan3
+WAP:display pppoe client interface wan4
+WAP:display pppoe client interface wan5
+WAP:display pppoe client interface wan6
+WAP:display pppoe client interface wan7
+WAP:display pppoe client interface wan8
+WAP:display dhcp server pool index 1
+WAP:display dhcp server pool index 2
+WAP:display dhcp server static
+WAP:display dhcp server user all
+WAP:display dnsserver static domain
+WAP:display ip neigh
+WAP:display ip route
+SHELL:Bbspcmd iptables get table filter
+SHELL:sleep 1.5
+SHELL:if [ ! -h /var/cat_iptables.log ]; then cat /var/cat_iptables.log ; fi;
+SHELL:Bbspcmd iptables get table nat
+SHELL:sleep 1.5
+SHELL:if [ ! -h /var/cat_iptables.log ]; then cat /var/cat_iptables.log ; fi;
+SHELL:Bbspcmd iptables get table mangle
+SHELL:sleep 1.5
+SHELL:if [ ! -h /var/cat_iptables.log ]; then cat /var/cat_iptables.log ; fi;
+WAP:display connection all
+WAP:display igmp program all
+WAP:igmp get iptv
+WAP:igmp get global cfg
+WAP:igmp get statistics
+WAP:igmp get multilmac
+WAP:display lanmac
+WAP:get mac agingtime
+WAP:get global hgdetect
+SHELL:Broadband display soc cnt
+SHELL:Broadband display l2mac
+SHELL:sleep 0.5
+SHELL:Broadband display soc flow
+SHELL:sleep 0.5
+SHELL:Broadband display soc ifc

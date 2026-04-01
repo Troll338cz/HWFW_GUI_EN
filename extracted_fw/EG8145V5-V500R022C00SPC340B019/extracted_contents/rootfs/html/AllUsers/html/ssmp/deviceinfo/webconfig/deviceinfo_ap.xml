@@ -1,0 +1,6 @@
+<InternetGatewayDevice>
+<DeviceInfo setconfig ="0x00000003"> 
+<X_HW_DeviceAlias setconfig ="0x00000003"> 
+</X_HW_DeviceAlias> 
+</DeviceInfo>
+</InternetGatewayDevice> 

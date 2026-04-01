@@ -1,0 +1,3 @@
+<CusCliRoot>
+<DisplayItvdfSN CmdStr="display itvdfsn" CmdGroup="0x80004000"/>
+</CusCliRoot>

@@ -1,0 +1,67 @@
+SHELL:cat /proc/wap_proc/pon_log
+SHELL:cat /proc/soc/cnt
+SHELL:cat /proc/soc/queue
+SHELL:cat /proc/soc/eth
+SHELL:/bin/collect_pon_stat.sh
+SHELL:sleep 1
+SHELL:cat /proc/soc/sfc
+SHELL:ampcmd show edgeontinfo
+SHELL:chipdebug print on
+WAP:display pon statistics
+WAP:display poncnt upstatistic
+WAP:display poncnt dnstatistic
+WAP:display portstatistics portnum 1
+WAP:display portstatistics portnum 2
+WAP:display portstatistics portnum 3
+WAP:display portstatistics portnum 4
+WAP:display portstatistics portnum 5
+WAP:display portstatistics portnum 6
+WAP:display portstatistics portnum 7
+WAP:display portstatistics portnum 8
+WAP:display access mode
+SHELL:chipdebug ploam stat
+SHELL:ampcmdStatRx.sh
+SHELL:ampcmdStatTx.sh
+SHELL:ampcmdStatDrop.sh
+SHELL:ampcmd show flow all
+SHELL:ampcmd show log
+SHELL:sleep 1
+SHELL:chipdebug print off
+WAP:get port config portid 1
+WAP:get port config portid 2
+WAP:get port config portid 3
+WAP:get port config portid 4
+WAP:get port config portid 5
+WAP:get rogue status
+WAP:display epon ont info
+WAP:display onu info
+WAP:display flow id all
+WAP:omcicmd show flow type 0
+WAP:omcicmd error log
+WAP:oamcmd error log
+SHELL:omcicmd show olt type
+WAP:omcicmd mib show meid 11 instid 65535
+WAP:omcicmd mib show meid 171 instid 65535
+WAP:oamcmd show log 
+SHELL:cat /proc/soc/cnt
+SHELL:cat /proc/soc/queue
+SHELL:cat /proc/soc/eth
+SHELL:/bin/collect_pon_stat.sh
+SHELL:cat /proc/soc/xepon
+SHELL:sleep 1
+SHELL:chipdebug print on
+WAP:display pon statistics
+WAP:display poncnt upstatistic
+WAP:display poncnt dnstatistic
+WAP:display portstatistics portnum 1
+WAP:display portstatistics portnum 2
+WAP:display portstatistics portnum 3
+WAP:display portstatistics portnum 4
+WAP:display portstatistics portnum 5
+WAP:display portstatistics portnum 6
+WAP:display portstatistics portnum 7
+WAP:display portstatistics portnum 8
+SHELL:chipdebug print off
+SHELL:omcicmd show log 
+SHELL: sleep 10
+SHELL:chipdebug datacard debug show

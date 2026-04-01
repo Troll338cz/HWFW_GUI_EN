@@ -1,0 +1,14 @@
+<InternetGatewayDevice>
+<LANDevice setconfig="0x00000007" getconfig = "0x00000007">
+<LANHostConfigManagement setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<DHCPServerEnable setconfig = "0x00000007" getconfig = "0x00000007"/>
+<DHCPLeaseTime setconfig = "0x00000007" getconfig = "0x00000007"/>
+<MinAddress setconfig = "0x00000007" getconfig = "0x00000007"/>
+<MaxAddress setconfig = "0x00000007" getconfig = "0x00000007"/>
+<SubnetMask setconfig = "0x00000007" getconfig = "0x00000007"/>
+<IPInterface setconfig = "0x00000007" getconfig = "0x00000007">
+<IPInterfaceIPAddress  setconfig = "0x00000007" getconfig = "0x00000007"/>
+</IPInterface>
+</LANHostConfigManagement>
+</LANDevice>
+</InternetGatewayDevice> 

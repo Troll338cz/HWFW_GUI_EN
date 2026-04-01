@@ -1,0 +1,36 @@
+<InternetGatewayDevice>
+<WANDevice>
+<WANConnectionDevice addconfig = "0x00000003" setconfig = "0x00000003" getconfig  = "0x00000003">
+<WANIPConnection setconfig = "0x00000002" addconfig = "0x00000002" delconfig = "0x00000002" getconfig  = "0x00000003">
+<X_HW_IPv6 setconfig = "0x00000002" addconfig = "0x00000002" delconfig = "0x00000002" getconfig  = "0x00000003">
+<PortForward setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig  = "0x00000003">
+<Enabled setconfig = "0x00000003" getconfig  = "0x00000003"/>
+<InternalClient setconfig = "0x00000003" getconfig  = "0x00000003"/>
+<RemoteHost setconfig = "0x00000003" getconfig  = "0x00000003"/>
+<RemoteHostRange setconfig = "0x00000003" getconfig  = "0x00000003"/>
+<Description setconfig = "0x00000003" getconfig  = "0x00000003"/>
+<Portlist setconfig="0x00000003" addconfig="0x00000003" delconfig="0x00000003" getconfig  = "0x00000003">
+<Protocol setconfig="0x00000003" getconfig  = "0x00000003"/> 
+<InternalPortList setconfig="0x00000003" getconfig  = "0x00000003"/> 
+</Portlist>
+</PortForward>
+</X_HW_IPv6>
+</WANIPConnection>
+<WANPPPConnection setconfig = "0x00000003" addconfig = "0x00000002" delconfig = "0x00000002" getconfig  = "0x00000003">
+<X_HW_IPv6 setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig  = "0x00000003">
+<PortForward setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig  = "0x00000003">
+<Enabled setconfig = "0x00000003" getconfig  = "0x00000003"/>
+<InternalClient setconfig = "0x00000003" getconfig  = "0x00000003"/>
+<RemoteHost setconfig = "0x00000003" getconfig  = "0x00000003"/>
+<RemoteHostRange setconfig = "0x00000003" getconfig  = "0x00000003"/>
+<Description setconfig = "0x00000003" getconfig  = "0x00000003"/>
+<Portlist setconfig="0x00000003" addconfig="0x00000003" delconfig="0x00000003" getconfig  = "0x00000003">
+<Protocol setconfig="0x00000003" getconfig  = "0x00000003"/> 
+<InternalPortList setconfig="0x00000003" getconfig  = "0x00000003"/> 
+</Portlist>
+</PortForward>
+</X_HW_IPv6>
+</WANPPPConnection>
+</WANConnectionDevice>
+</WANDevice>
+</InternetGatewayDevice> 

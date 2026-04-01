@@ -1,0 +1,10 @@
+<InternetGatewayDevice> 
+<LANDevice setconfig = "0x00000003">
+<WiFi setconfig = "0x00000003">
+<X_HW_NFC setconfig = "0x00000003">
+<Enable setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Duration setconfig = "0x00000003" getconfig = "0x00000003"/>
+</X_HW_NFC>
+</WiFi>
+</LANDevice>
+</InternetGatewayDevice> 

@@ -1,0 +1,158 @@
+﻿#diagnose {
+	width:100%;
+	height:271px;
+	margin:0px auto;
+	background-color:#F1F6F7;
+}
+
+.iconarea{
+	width:100%;
+	height:112px;
+	margin-top:60px;
+	text-align:center;
+	position:absolute;
+}
+
+.diagnosePageTitle{
+	width:80%;
+	padding: 15px 0px 10px 0px;
+	font-size:14px;
+	font-family:"微软雅黑";
+	color: #ECA417;
+	margin-left:50px;
+	position:absolute;
+}
+.icon0{
+	/*width:112px;
+	height:112px;
+	margin-left:168px;
+	position:absolute;
+	display:none;*/
+}
+.icon1{
+	margin-left:112px;
+}
+
+.pointlink{
+	width: 60%;
+	margin-top: 100px;
+	text-align: center;
+	position: absolute;
+	margin-left: 148px;
+}
+
+.linkfault{
+	text-align: left;
+	padding-left: 100px;
+}
+
+.point0{
+	/*width:100%;
+	height:8px;
+	margin-top:52px;
+	text-align:center;
+	position:absolute;*/
+}
+.point1{
+	margin-left:92px;
+}
+
+#internetgrayicon3{
+	margin-top:5px;
+}
+
+.divdiagnose{
+	width:100%;
+	margin-top:190px;
+	font-size:14px;
+	text-align:center;
+	position:absolute;
+}
+
+#diagnoseresult {
+	width:100%;
+	height:120px;
+	font-family:"微软雅黑";
+	margin:0px auto;
+	background-color:#F1F6F7;
+}
+
+#diagnoseresult .warningtxtbg{
+	height:20px;
+	text-align:center;
+	position:absolute;
+}
+
+#diagnoseframebg {
+	width:100%;
+	height:400px;
+	margin-top:25px;
+	font-family:"微软雅黑";
+}
+
+#diagnoseframebg .diagnosearea{
+	width:335px;
+	height:180px;
+	background-color:#F2F5F7;
+	position:absolute;
+}
+
+#diagnoseframebg .warningbg{
+	float:left;
+	margin:30px;
+	margin-top:24px;
+	padding:0px;
+	width:26px;
+	height:26px;
+	background:url(../images/redwarning.jpg) no-repeat;
+	position:absolute;
+}
+#diagnoseframebg .sublinebg{
+	float:left;
+	margin:38px;
+	margin-top:50px;
+	padding:0px;
+	width:11px;
+	height:35px;
+	background:url(../images/reddotline.jpg) no-repeat bottom;
+	position:absolute;
+}
+
+#diagnoseframebg .sublinebg .subline{
+	float:top;
+	margin:0px 5px;
+	padding:0px;
+	width:1px;
+	height:25px;
+	background-color:#F16262;
+}
+
+#diagnoseframebg .diagnosetitle{
+	float:left;
+	margin-left:70px;
+	margin-top:26px;
+	font-size:16px;
+	font-weight:bolder;
+	color:#808080;
+	position:absolute;
+}
+
+#diagnoseframebg .diagnosecontent{
+	float:left;
+	width:260px;
+	margin-left:70px;
+	margin-top:70px;
+	font-size:12px;
+	line-height: 15px;
+	/*font-weight:bolder;*/
+	color:#808080;
+	position:absolute;
+}
+
+#diagnoseframebg .diagnosecontentbg{
+	width:130px;
+	height:116px;
+	margin-top:50px;
+	margin-left:215px;
+	position:absolute;
+}
