@@ -1,0 +1,22 @@
+<InternetGatewayDevice>
+<X_HW_DEBUG setconfig="0x00000007">
+<AMP setconfig="0x00000007">
+<LANPort setconfig="0x00000007">
+<Statistics setconfig="0x00000007">
+<RcvFrame setconfig="0x00000007"/>
+</Statistics>
+</LANPort>
+</AMP>
+<WAP_AMP setconfig="0x00000003">
+<Gemport setconfig="0x00000003">
+<GemInfo setconfig="0x00000003">
+<ClearStats setconfig="0x00000003"/>
+</GemInfo>
+</Gemport>
+<Pon setconfig="0x00000003">
+<ClearPonStats setconfig="0x00000003"/>
+</Pon>
+</WAP_AMP>
+</X_HW_DEBUG>
+</InternetGatewayDevice>
+

@@ -1,0 +1,17 @@
+WAP:display flashlock status
+WAP:display cwmp status
+WAP:display productmac
+WAP:display board-temperatures
+SHELL:if [ ! -h /mnt/jffs2/cwmp_rebootsave ]; then cat /mnt/jffs2/cwmp_rebootsave ; fi;
+SHELL:cat /proc/kbox/deviceinfo
+SHELL:cat /proc/kbox/mem
+SHELL:cat /proc/kbox/regions/oom_extend
+SHELL:dlw 0
+SHELL:dlw 2
+SHELL:Getlastinfo.sh
+SHELL:brd=/mnt/jffs2/hw_boardinfo; if [ -f /var/decrypt_boardinfo ]; then brd=/var/decrypt_boardinfo; fi; cat $brd | sed -E 's/([A-Fa-f0-9]{2}:){5}[A-Fa-f0-9]{2}/******/g'
+SHELL:brd=/mnt/jffs2/hw_boardinfo.bak; if [ -f /var/decrypt_boardinfo.bak ]; then brd=/var/decrypt_boardinfo.bak; fi; cat $brd | sed -E 's/([A-Fa-f0-9]{2}:){5}[A-Fa-f0-9]{2}/******/g'
+SHELL:getcustominfo.sh
+SHELL:if [ ! -h /mnt/jffs2/keyreleasecount.txt ]; then cat /mnt/jffs2/keyreleasecount.txt ; fi;
+SHELL:if [ ! -h /mnt/jffs2/reboot.log ]; then cat /mnt/jffs2/reboot.log ; fi;
+SHELL:hexdump /var/selftestresult

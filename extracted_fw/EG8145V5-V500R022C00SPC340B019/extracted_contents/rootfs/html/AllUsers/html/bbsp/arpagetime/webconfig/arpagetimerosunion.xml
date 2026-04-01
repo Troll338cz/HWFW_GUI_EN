@@ -1,0 +1,9 @@
+<InternetGatewayDevice>
+<X_HW_NeighborDiscovery setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<InterfaceSetting setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<Interface setconfig = "0x00000003" getconfig = "0x00000003"/>
+<ArpAgingTime setconfig = "0x00000003" getconfig =  "0x00000003"/>
+<AddressFamily setconfig = "0x00000003" getconfig =  "0x00000003"/>
+</InterfaceSetting>
+</X_HW_NeighborDiscovery>
+</InternetGatewayDevice> 

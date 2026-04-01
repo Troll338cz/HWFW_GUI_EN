@@ -1,0 +1,165 @@
+#! /bin/sh
+
+# 写入一个SSID的recover脚本，该脚本通过读取 /var/customizepara.txt 
+# 文件中的定制信息，来将定制信息写入ctree中
+#customize.sh COMMON_WIFI XXX SSID WPA密码
+# 定制脚本信息文件，该文件名固定，不能更改
+var_customize_file=/var/customizepara.txt
+
+# 定制信息写入文件，该文件通过tar包解压后复制产生,
+# recover脚本的写入操作都是在这个临时文件中进行
+var_default_ctree_var=/var/hw_default_ctree.xml
+var_default_ctree=/var/hw_default_ctree.xml
+var_pack_temp_dir=/bin/
+var_boardinfo_dup="/var/dup_boardinfo"
+var_specsn=""
+
+var_ssid=""
+var_wpa="" 
+var_para=""
+
+#默认是不带wifi
+var_has_wifi=0
+
+#判断是否包含wifi
+HW_Script_CheckHaveWIFI()
+{	
+	var_has_wifi=`cat /proc/wap_proc/pd_static_attr | grep -w wlan_num | grep -o \".*[0-9].*\" | grep -o "[0-9]"`  
+}
+
+# check the customize file
+HW_Script_CheckFileExist()
+{
+	if [ ! -f "$var_customize_file" ] ;then
+	    echo "ERROR::customize file is not existed."
+            return 1
+	fi
+	return 0
+}
+
+HW_Script_GetONTSN()
+{
+	while read line;
+	do
+		obj_id_temp=`echo $line | sed 's/\(.*\)obj.value\(.*\)/\1/g'`
+		obj_id=`echo $obj_id_temp | sed 's/\(.*\)"\(.*\)"\(.*\)/\2/g'`
+		if [ "0x00000002" == $obj_id ];then
+			obj_value=`echo $line | sed 's/\(.*\)"\(.*\)"\(.*\)"\(.*\)"\(.*\)/\4/g'`
+			var_specsn=$obj_value
+			break
+		fi
+	done < $var_boardinfo_dup
+	
+	if [ $var_specsn == "" ]
+	then
+		echo "ERROR::Failed to get cur_sn info!"
+		exit 1
+	fi
+	return
+}
+
+# read data from customize file
+HW_Script_ReadDataFromFile()
+{
+	#有wifi才需要读
+	if [ $var_has_wifi -ne 0 ]
+	then	
+		read -r var_para < $var_customize_file
+		echo $var_para | grep \" > /dev/null	
+		if [ $? == 0 ]
+		then
+			var_ssid=`echo $var_para | cut -d \" -f2 `
+			len=`expr length "\"$var_ssid\"  "`
+			var_wpa=`echo $var_para | cut -b $len-`
+		else
+			read -r var_ssid var_wpa var_ssid2 var_wpa2 < $var_customize_file
+		fi 
+		
+		if [ 0 -ne $? ]
+		then
+			echo "Failed to read spec info!"
+			return 1
+		fi
+		return
+	fi
+}
+
+# set customize data to file
+HW_Script_SetDatToFile()
+{
+	var_node_ssid=InternetGatewayDevice.LANDevice.LANDeviceInstance.1.WLANConfiguration.WLANConfigurationInstance.1
+	var_node_wpa_pwd=InternetGatewayDevice.LANDevice.LANDeviceInstance.1.WLANConfiguration.WLANConfigurationInstance.1.PreSharedKey.PreSharedKeyInstance.1
+	
+	var_node_ssid2=InternetGatewayDevice.LANDevice.LANDeviceInstance.1.WLANConfiguration.WLANConfigurationInstance.5
+	var_node_wpa_pwd2=InternetGatewayDevice.LANDevice.LANDeviceInstance.1.WLANConfiguration.WLANConfigurationInstance.5.PreSharedKey.PreSharedKeyInstance.1
+	
+	if [ $var_has_wifi -eq 0 ]
+	then
+		return
+	fi
+
+	#判断密码即可
+	if [ ! -z $var_wpa ]
+	then
+		# set ssid 
+		cfgtool set $var_default_ctree_var $var_node_ssid SSID "$var_ssid"
+		if [ 0 -ne $? ]
+			then
+				echo "Failed to set common ssid name!"
+			return 1
+		fi
+		
+		cfgtool set $var_default_ctree_var $var_node_ssid2 SSID $var_ssid2
+		if [ 0 -ne $? ]
+		then
+			echo "Failed to set common ssid2 name!"
+			return 1
+		fi
+
+		# set wpa password
+		cfgtool set $var_default_ctree_var $var_node_wpa_pwd PreSharedKey "$var_wpa"
+		if [ 0 -ne $? ]
+		then
+		    echo "Failed to set common ssid wap password!"
+		    return 1
+		fi
+		cfgtool set $var_default_ctree_var $var_node_wpa_pwd2 PreSharedKey $var_wpa2
+		if [ 0 -ne $? ]
+		then
+			echo "Failed to set common ssid2 wap password!"
+			return 1
+		fi
+		
+		cfgtool set $var_default_ctree_var InternetGatewayDevice.ManagementServer Username "$var_specsn"
+		if [ 0 -ne $? ]
+		then
+		    echo "Failed to set  acs username!"
+		    return 1
+		fi
+	fi
+
+	return
+}
+
+#
+HW_Script_CheckFileExist
+[ ! $? == 0 ] && exit 1
+
+#检查是否包含wifi
+HW_Script_CheckHaveWIFI
+
+#读取定制参数
+HW_Script_ReadDataFromFile
+[ ! $? == 0 ] && exit 1
+
+HW_Script_GetONTSN
+[ ! $? == 0 ] && exit 1
+
+#
+HW_Script_SetDatToFile
+[ ! $? == 0 ] && exit 1
+
+echo "set spec info OK!"
+
+exit 0
+

@@ -1,0 +1,45 @@
+<InternetGatewayDevice>
+<LANDevice setconfig="0x00000007" getconfig = "0x00000007">
+<LANHostConfigManagement setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<DHCPServerEnable setconfig = "0x00000007" getconfig = "0x00000007"/>
+<DHCPLeaseTime setconfig = "0x00000007" getconfig = "0x00000007"/>
+<MinAddress setconfig = "0x00000007" getconfig = "0x00000007"/>
+<MaxAddress setconfig = "0x00000007" getconfig = "0x00000007"/>
+<X_HW_DHCPL2RelayEnable setconfig = "0x00000007" getconfig = "0x00000007"/>
+<X_HW_Option125Enable setconfig = "0x00000007" getconfig = "0x00000007"/>
+<X_HW_DNSList setconfig = "0x00000007" getconfig = "0x00000007"/>
+<IPInterface setconfig = "0x00000007" getconfig = "0x00000007">
+<IPInterfaceIPAddress  setconfig = "0x00000007" getconfig = "0x00000007"/>
+<IPInterfaceSubnetMask  setconfig = "0x00000007" getconfig = "0x00000007"/>
+</IPInterface>
+<DHCPConditionalServingPool setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<Enable setconfig = "0x00000007" getconfig = "0x00000007"/>
+<VendorClassID setconfig = "0x00000007" getconfig = "0x00000007"/>
+<VendorClassIDMode setconfig = "0x00000007" getconfig = "0x00000007"/>
+<MinAddress setconfig = "0x00000007" getconfig = "0x00000007"/>
+<MaxAddress setconfig = "0x00000007" getconfig = "0x00000007"/>
+<IPRouters setconfig = "0x00000007" getconfig = "0x00000007"/>
+<SubnetMask setconfig = "0x00000007" getconfig = "0x00000007"/>
+<DNSServers setconfig = "0x00000007" getconfig = "0x00000007"/>
+<DHCPLeaseTime setconfig = "0x00000007" getconfig = "0x00000007"/>
+<X_HW_NTPList setconfig = "0x00000007" getconfig = "0x00000007"/>
+<X_HW_Option43 setconfig = "0x00000007" getconfig = "0x00000007"/>
+<DHCPOption setconfig = "0x00000002" addconfig = "0x00000002" delconfig = "0x00000002" getconfig = "0x00000002">
+<Enable setconfig = "0x00000002" getconfig = "0x00000002"/>
+<Tag setconfig = "0x00000002" getconfig = "0x00000002"/>
+<Value setconfig = "0x00000002" getconfig = "0x00000002"/>
+</DHCPOption>
+</DHCPConditionalServingPool>
+</LANHostConfigManagement>
+</LANDevice>
+<X_HW_DHCPSLVSERVER setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<DHCPEnable setconfig = "0x00000007" getconfig = "0x00000007"/>
+<Option60 setconfig = "0x00000007" getconfig = "0x00000007"/>
+<StartIP setconfig = "0x00000007" getconfig = "0x00000007"/>
+<EndIP setconfig = "0x00000007" getconfig = "0x00000007"/>
+<LeaseTime setconfig = "0x00000007" getconfig = "0x00000007"/>
+<DNSList setconfig = "0x00000007" getconfig = "0x00000007"/>
+<NTPList setconfig = "0x00000007" getconfig = "0x00000007"/>
+<Option43 setconfig = "0x00000007" getconfig = "0x00000007"/>
+</X_HW_DHCPSLVSERVER> 
+</InternetGatewayDevice> 

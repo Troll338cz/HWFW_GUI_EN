@@ -1,0 +1,17 @@
+WAP:osgicmd show bundlestate
+WAP:plugcmd show state
+SHELL:if [ ! -h /var/osgi/felixrecord0.log ]; then cat /var/osgi/felixrecord0.log ; fi;
+SHELL:if [ ! -h /var/osgi/OSGi1.log ]; then cat /var/osgi/OSGi1.log ; fi;
+SHELL:if [ ! -h /var/osgi/OSGi0.log ]; then cat /var/osgi/OSGi0.log ; fi;
+SHELL:if [ ! -h /mnt/jffs2/app/osgi/java_error.log ]; then cat /mnt/jffs2/app/osgi/java_error.log ; fi;
+SHELL:if [ ! -h /mnt/jffs2/app/osgi/java_error_bk.log ]; then cat /mnt/jffs2/app/osgi/java_error_bk.log ; fi;
+SHELL:if [ ! -h /var/felix-temp/status.config ]; then cat /var/felix-temp/status.config ; fi;
+SHELL:if [ ! -h /var/osgi/bundlestate ]; then cat /var/osgi/bundlestate ; fi;
+SHELL:if [ ! -h /var/smartapi_debug.log ]; then cat /var/smartapi_debug.log ; fi;
+WAP:osgicmd show bundleresource
+WAP:jvmcmd stack trace
+SHELL: sleep 5
+SHELL:cat /opt/upt/apps/apps/opt/apps/ctsgw.log
+SHELL:cat /opt/upt/apps/apps/opt/apps/ctsgw.log.old
+WAP:display capwap state
+WAP:display capwap statistic

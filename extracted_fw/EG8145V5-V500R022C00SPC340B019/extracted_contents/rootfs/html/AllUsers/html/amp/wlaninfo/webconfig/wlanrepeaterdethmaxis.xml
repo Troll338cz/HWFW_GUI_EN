@@ -1,0 +1,20 @@
+<InternetGatewayDevice> 
+<WANDevice> 
+<WANCommonInterfaceConfig>
+<X_HW_WLANConfiguration setconfig = "0x00000007" getconfig = "0x00000007">
+<RFBand setconfig = "0x00000007" getconfig = "0x00000007"/>
+<SSID setconfig = "0x00000007" getconfig = "0x00000007"/>
+<SecurityMode setconfig = "0x00000007" getconfig = "0x00000007"/>
+<Key setconfig = "0x00000007" getconfig = "0x00000007"/>
+<BSSID setconfig = "0x00000007" getconfig = "0x00000007"/>
+</X_HW_WLANConfiguration>
+<X_HW_UpmodeConfig setconfig = "0x00000007" getconfig = "0x00000007">
+<RFBand setconfig = "0x00000007" getconfig = "0x00000007"/>
+<SSID setconfig = "0x00000007" getconfig = "0x00000007"/>
+<SecurityMode setconfig = "0x00000007" getconfig = "0x00000007"/>
+<Key setconfig = "0x00000007" getconfig = "0x00000007"/>
+<BSSID setconfig = "0x00000007" getconfig = "0x00000007"/>
+</X_HW_UpmodeConfig>
+</WANCommonInterfaceConfig>
+</WANDevice>
+</InternetGatewayDevice> 

@@ -1,0 +1,38 @@
+<InternetGatewayDevice> 
+<Services>
+<VoiceService setconfig = "0x00000003">
+<VoiceProfile setconfig = "0x00000002" >
+<Region setconfig = "0x00000002" />
+<X_HW_DigitMapMatchMode setconfig = "0x00000002" /> 
+<SIP setconfig = "0x00000002" >
+<OutboundProxy setconfig = "0x00000002" />
+<OutboundProxyPort setconfig = "0x00000002" />
+<X_HW_SecondaryProxyServerPort setconfig = "0x00000002" />
+<X_HW_SecondaryOutboundProxy setconfig = "0x00000002" />
+<X_HW_SecondaryOutboundProxyPort setconfig = "0x00000002" />
+<RegistrarServer setconfig = "0x00000002" />
+<ProxyServer setconfig = "0x00000002" />
+<ProxyServerPort setconfig = "0x00000002" />
+<X_HW_SecondaryProxyServer setconfig = "0x00000002" />
+<RegistrationPeriod setconfig = "0x00000002" />
+<UserAgentPort setconfig = "0x00000002" />
+<X_HW_SIPDigitmap setconfig = "0x00000002" >
+<DigitMap setconfig = "0x00000002" />
+</X_HW_SIPDigitmap>
+</SIP>
+<Line  setconfig = "0x00000002" addconfig = "0x00000002" delconfig="0x00000002">
+<DirectoryNumber setconfig = "0x00000002" addconfig = "0x00000002" delconfig="0x00000002"/>
+<PhyReferenceList setconfig = "0x00000002" addconfig = "0x00000002" delconfig="0x00000002"/>
+<Enable setconfig = "0x00000002" addconfig = "0x00000002" delconfig="0x00000002"/>
+<SIP  setconfig = "0x00000002" addconfig = "0x00000002" delconfig="0x00000002">
+<AuthUserName setconfig = "0x00000002" addconfig = "0x00000002" delconfig="0x00000002"/>
+<AuthPassword setconfig = "0x00000002" addconfig = "0x00000002" delconfig="0x00000002"/>
+<URI setconfig = "0x00000002" addconfig = "0x00000002" delconfig="0x00000002"/>
+</SIP>
+</Line>
+</VoiceProfile>
+<PhyInterface setconfig = "0x00000002" >
+</PhyInterface>
+</VoiceService>
+</Services>
+</InternetGatewayDevice>

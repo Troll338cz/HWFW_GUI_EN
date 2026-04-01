@@ -1,0 +1,21 @@
+<InternetGatewayDevice> 
+<Services>
+<VoiceService getconfig = "0x00000003">
+<VoiceProfile getconfig = "0x00000003">
+<SignalingProtocol getconfig = "0x00000003"/>
+<Line getconfig = "0x00000003">
+<Status getconfig = "0x00000003"/>
+<X_HW_LastRegisterError getconfig = "0x00000003"/>
+<DirectoryNumber getconfig = "0x00000003"/>
+<SIP getconfig = "0x00000003">
+<URI getconfig = "0x00000003"/>
+<AuthUserName getconfig = "0x00000003"/>
+</SIP>
+<X_HW_H248 getconfig = "0x00000003">
+<LineName getconfig = "0x00000003"/>
+</X_HW_H248>
+</Line>
+</VoiceProfile>
+</VoiceService>
+</Services>
+</InternetGatewayDevice>

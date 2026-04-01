@@ -1,0 +1,49 @@
+<InternetGatewayDevice> 
+<Services>
+<VoiceService setconfig = "0x00000003">
+<VoiceProfile setconfig = "0x00000002" >
+<DTMFMethod setconfig = "0x00000002" />
+<X_HW_ServerType setconfig = "0x00000002" /> 
+<SIP setconfig = "0x00000002" >
+<X_HW_SubscribeEnable setconfig = "0x00000002" />
+<X_HW_SIPExtend setconfig = "0x00000002" >
+<ThreeWayMixType setconfig = "0x00000002" />
+<ConferenceFactoryUri setconfig = "0x00000002" />
+</X_HW_SIPExtend>
+</SIP>
+<Line  setconfig = "0x00000002" addconfig = "0x00000002" delconfig="0x00000002">
+<PhyReferenceList setconfig = "0x00000002" addconfig = "0x00000002" delconfig="0x00000002"/>
+<CallingFeatures  setconfig = "0x00000002">
+<X_HW_HotlineEnable setconfig = "0x00000002" />
+<X_HW_HotlineNumber setconfig = "0x00000002" />
+<X_HW_HotlineTimer setconfig = "0x00000002" />
+<CallForwardUnconditionalEnable setconfig = "0x00000002" />
+<CallForwardUnconditionalNumber setconfig = "0x00000002" />
+<CallForwardOnBusyEnable setconfig = "0x00000002" />
+<CallForwardOnBusyNumber setconfig = "0x00000002" />
+<CallForwardOnNoAnswerEnable setconfig = "0x00000002" />
+<CallForwardOnNoAnswerNumber setconfig = "0x00000002" />
+<CallWaitingEnable setconfig = "0x00000002" />
+<MWIEnable setconfig = "0x00000002" />
+<X_HW_3WayEnable setconfig = "0x00000002" />
+<X_HW_CallHoldEnable setconfig = "0x00000002" />
+<X_HW_MCIDEnable setconfig = "0x00000002" />
+<X_HW_CLIPEnable setconfig = "0x00000002" />
+<X_HW_ConferenceFactoryUri setconfig = "0x00000002" />
+<CallerIDEnable setconfig = "0x00000002" />
+<X_HW_PBXPrefixEnable setconfig = "0x00000002" />
+<X_HW_CentrexPrefix setconfig = "0x00000002" />
+<CallTransferEnable setconfig = "0x00000002" />
+</CallingFeatures>
+</Line>
+</VoiceProfile>
+<PhyInterface setconfig = "0x00000002" >
+<X_HW_Extend setconfig = "0x00000002" >
+<ClipFormat setconfig = "0x00000002" />
+<ClipSendDateTime setconfig = "0x00000002" />
+<ReversePoleOnAnswer setconfig = "0x00000002" />
+</X_HW_Extend>
+</PhyInterface>
+</VoiceService>
+</Services>
+</InternetGatewayDevice>

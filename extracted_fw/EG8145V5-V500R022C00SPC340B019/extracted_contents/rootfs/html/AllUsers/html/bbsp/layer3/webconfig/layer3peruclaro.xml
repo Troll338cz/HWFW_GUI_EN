@@ -1,0 +1,11 @@
+<InternetGatewayDevice>
+    <LANDevice setconfig="0x00000006" getconfig="0x00000006">
+        <LANEthernetInterfaceConfig setconfig = "0x00000006" addconfig = "0x00000006" delconfig = "0x00000006" getconfig = "0x00000006">
+            <X_HW_L3Enable setconfig = "0x00000006" getconfig = "0x00000006"/>
+            <X_HW_DHCPv4Enable setconfig = "0x00000006" getconfig = "0x00000006"/>
+        </LANEthernetInterfaceConfig>
+    </LANDevice>
+    <X_HW_APService setconfig = "0x00000006" getconfig = "0x00000006">
+        <IPTVUpPort setconfig = "0x00000006" getconfig = "0x00000006"/>
+    </X_HW_APService>
+</InternetGatewayDevice>

@@ -1,0 +1,37 @@
+# 
+# This file contains the device names of tty lines (one per line,
+# without leading /dev/) on which root is allowed to login.
+
+pts/0
+pts/1
+pts/2
+pts/3
+pts/4
+pts/5
+pts/6
+pts/7
+pts/8
+pts/9
+pts/10
+pts/11
+pts/12
+pts/13
+pts/14
+pts/15
+pts/16
+pts/17
+pts/18
+pts/19
+pts/20
+pts/21
+pts/22
+pts/23
+pts/24
+pts/25
+pts/26
+pts/27
+pts/28
+pts/29
+pts/30
+pts/31
+pts/32

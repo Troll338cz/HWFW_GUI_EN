@@ -1,0 +1,44 @@
+WAP:display waninfo all detail
+WAP:display last call log
+SHELL:sleep 2
+WAP:display wifi information
+WAP:display wifi associate
+WAP:display wifi neighbor
+WAP:display wifi ap
+SHELL:wlancmd show log
+SHELL:wlancmd show xlinkerrlog
+SHELL:wlancmd debug ap log
+SHELL:wlancmd wifi associated
+WAP:get testself
+WAP:display access mode
+WAP:display onu info
+WAP:display epon ont info
+SHELL:chipdebug print on
+WAP:display pon statistics 
+WAP:display poncnt dnstatistic
+WAP:display poncnt upstatistic
+SHELL:chipdebug print off
+WAP:display portstatistics portnum 1
+WAP:display portstatistics portnum 2
+WAP:display portstatistics portnum 3
+WAP:display portstatistics portnum 4
+WAP:display portstatistics portnum 5
+WAP:display portstatistics portnum 6
+WAP:display portstatistics portnum 7
+WAP:display portstatistics portnum 8
+SHELL:cat /proc/soc/cnt
+SHELL:sleep 2
+SHELL:chipdebug print on
+WAP:display pon statistics 
+WAP:display poncnt dnstatistic
+WAP:display poncnt upstatistic
+SHELL:chipdebug print off
+WAP:display portstatistics portnum 1
+WAP:display portstatistics portnum 2
+WAP:display portstatistics portnum 3
+WAP:display portstatistics portnum 4
+WAP:display portstatistics portnum 5
+WAP:display portstatistics portnum 6
+WAP:display portstatistics portnum 7
+WAP:display portstatistics portnum 8
+SHELL:cat /proc/soc/cnt

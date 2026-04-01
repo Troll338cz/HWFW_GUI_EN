@@ -1,0 +1,10 @@
+<InternetGatewayDevice> 
+<X_HW_Security setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<MacFilterPolicy setconfig = "0x00000007" getconfig = "0x00000007"/>
+<MacFilterRight setconfig = "0x00000007" getconfig = "0x00000007"/>
+<MacFilter setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<SourceMACAddress setconfig = "0x00000007" getconfig = "0x00000007"/>
+<DeviceAlias setconfig = "0x00000007" getconfig = "0x00000007"/>
+</MacFilter>
+</X_HW_Security>
+</InternetGatewayDevice> 

@@ -1,0 +1,9 @@
+<InternetGatewayDevice> 
+<X_HW_L2TPTunnel getconfig = "0x00000003">
+<State getconfig = "0x00000003"/>
+<Enable getconfig = "0x00000003"/>
+<Username getconfig = "0x00000003"/>
+<UserId getconfig = "0x00000003"/>
+<ServerAddress getconfig = "0x00000003"/>
+</X_HW_L2TPTunnel>
+</InternetGatewayDevice> 

@@ -1,0 +1,64 @@
+<InternetGatewayDevice>
+<LANDevice getconfig = "0x00000007">
+<LANHostConfigManagement getconfig = "0x00000007">
+<IPInterface getconfig = "0x00000007">
+<IPInterfaceIPAddress getconfig = "0x00000007"/>
+<IPInterfaceSubnetMask getconfig = "0x00000007"/>
+</IPInterface>
+</LANHostConfigManagement>
+</LANDevice>
+<WANDevice>
+<WANConnectionDevice getconfig = "0x00000007">
+<WANIPConnection getconfig = "0x00000007">
+<DNSServers getconfig = "0x00000007"/>
+<X_HW_MacId getconfig = "0x00000007"/>
+<X_HW_SERVICELIST getconfig = "0x00000007"/>
+<Name getconfig = "0x00000007"/>
+<ConnectionStatus getconfig = "0x00000007"/>
+<X_HW_TR069FLAG getconfig = "0x00000007"/>
+<ConnectionType getconfig = "0x00000007"/>
+<ExternalIPAddress getconfig = "0x00000007"/>
+<X_HW_IPv4Enable getconfig = "0x00000007"/>
+<X_HW_IPv6Enable getconfig = "0x00000007"/>
+</WANIPConnection>
+<WANPPPConnection getconfig = "0x00000007">
+<DNSServers getconfig = "0x00000007"/>
+<X_HW_MacId getconfig = "0x00000007"/>
+<X_HW_SERVICELIST getconfig = "0x00000007"/>
+<Name getconfig = "0x00000007"/>
+<ConnectionStatus getconfig = "0x00000007"/>
+<X_HW_TR069FLAG getconfig = "0x00000007"/>
+<ConnectionType getconfig = "0x00000007"/>
+<ExternalIPAddress getconfig = "0x00000007"/>
+<X_HW_IPv4Enable getconfig = "0x00000007"/>
+<X_HW_IPv6Enable getconfig = "0x00000007"/>
+</WANPPPConnection>
+</WANConnectionDevice>
+<X_HW_PonInterface getconfig = "0x00000007">
+<Stats getconfig = "0x00000007">
+<BytesSent getconfig = "0x00000007"/>
+<BytesReceived getconfig = "0x00000007"/>
+</Stats>
+</X_HW_PonInterface>
+<X_HW_ShowInterface getconfig = "0x00000007">
+<IPv6DNS getconfig = "0x00000007"/>
+<ConnectionStatus getconfig = "0x00000007"/>
+<IPv6Address getconfig = "0x00000007">
+<Origin getconfig = "0x00000007"/>
+<IPAddressStatus getconfig = "0x00000007"/>
+<IPAddress getconfig = "0x00000007"/>
+</IPv6Address>
+</X_HW_ShowInterface>
+</WANDevice>
+<DeviceInfo getconfig = "0x00000007">
+<X_HW_CpuUsed getconfig = "0x00000007"/>
+<X_HW_MemUsed getconfig = "0x00000007"/>
+</DeviceInfo>
+<Layer3Forwarding getconfig = "0x00000007">
+<X_HW_policy_route getconfig = "0x00000007">
+<PolicyRouteType getconfig = "0x00000007"/>
+<WanName getconfig = "0x00000007"/>
+<PhyPortName getconfig = "0x00000007"/>
+</X_HW_policy_route>
+</Layer3Forwarding>
+</InternetGatewayDevice>

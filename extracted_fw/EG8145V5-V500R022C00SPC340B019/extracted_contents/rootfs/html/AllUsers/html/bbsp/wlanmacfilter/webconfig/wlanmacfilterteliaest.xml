@@ -1,0 +1,18 @@
+<InternetGatewayDevice>
+<X_HW_Security setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<WlanMacFilterPolicy setconfig = "0x00000003" getconfig = "0x00000003"/>
+<WlanMacFilterRight setconfig = "0x00000003" getconfig = "0x00000003"/>
+<WLANMacFilter setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<Enable setconfig = "0x00000003" getconfig = "0x00000003"/>
+<SSIDName setconfig = "0x00000003" getconfig = "0x00000003"/>
+<SourceMACAddress setconfig = "0x00000003" getconfig = "0x00000003"/>
+</WLANMacFilter>
+</X_HW_Security> 
+<LANDevice setconfig = "0x00000003">
+<WLANConfiguration addconfig = "0x00000003" delconfig = "0x00000003" setconfig = "0x00000003">
+<X_HW_AttachConf addconfig = "0x00000003" delconfig = "0x00000003" setconfig = "0x00000003">
+<X_HW_MacFilterPolicy addconfig = "0x00000003" delconfig = "0x00000003" setconfig = "0x00000003"/>
+</X_HW_AttachConf>	
+</WLANConfiguration>
+</LANDevice>
+</InternetGatewayDevice> 

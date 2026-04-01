@@ -1,0 +1,28 @@
+<InternetGatewayDevice>
+<X_HW_Security setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<AclServices setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<AccessControl setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<AccessControlListEnable setconfig = "0x00000003" getconfig = "0x00000003"/>
+<List setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<SrcPortType setconfig = "0x00000003" getconfig = "0x00000003"/>
+<SrcPortName setconfig = "0x00000003" getconfig = "0x00000003"/>
+<SrcIp setconfig = "0x00000003" getconfig = "0x00000003"/>
+<ServicePort setconfig = "0x00000003" getconfig = "0x00000003"/>
+<SrcMac setconfig = "0x00000003" getconfig = "0x00000003"/>
+<ServiceProto setconfig = "0x00000003" getconfig = "0x00000003"/>
+<ServiceProtoPort setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Priority setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Mode setconfig = "0x00000003" getconfig = "0x00000003"/>
+</List>
+</AccessControl>
+</AclServices>
+</X_HW_Security> 
+<X_HW_APService setconfig = "0x00000002" getconfig = "0x00000002">
+<IPTVUpPort setconfig = "0x00000002" getconfig = "0x00000002"/>
+</X_HW_APService>
+<UserInterface setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<X_HW_CLIUserInfo setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<Userpassword setconfig = "0x00000003" getconfig = "0x00000003"/>
+</X_HW_CLIUserInfo>
+</UserInterface> 
+</InternetGatewayDevice> 

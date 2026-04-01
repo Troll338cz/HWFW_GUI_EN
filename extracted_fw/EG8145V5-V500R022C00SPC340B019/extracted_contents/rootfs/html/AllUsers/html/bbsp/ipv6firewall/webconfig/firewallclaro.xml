@@ -1,0 +1,5 @@
+<InternetGatewayDevice> 
+<X_HW_Security setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<X_HW_IPv6FWDFireWallEnable setconfig = "0x00000002" getconfig = "0x00000007"/>
+</X_HW_Security>
+</InternetGatewayDevice> 

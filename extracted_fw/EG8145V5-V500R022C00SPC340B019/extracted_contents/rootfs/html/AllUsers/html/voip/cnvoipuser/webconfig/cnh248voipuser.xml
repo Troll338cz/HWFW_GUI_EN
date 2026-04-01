@@ -1,0 +1,105 @@
+<InternetGatewayDevice> 
+<Services>
+<VoiceService setconfig = "0x00000003">
+<VoiceProfile setconfig = "0x00000002" >
+<DTMFMethod setconfig = "0x00000002" />
+<X_HW_PortName setconfig = "0x00000002" /> 
+<X_HW_HangingReminderToneTimer setconfig = "0x00000002" />
+<X_HW_BusyToneTimer setconfig = "0x00000002" />
+<X_HW_NoAnswerTimer setconfig = "0x00000002" />
+<X_HW_H248  setconfig = "0x00000002">
+<HeartbeatMode setconfig = "0x00000002" />
+<DSCPMark setconfig = "0x00000002" />
+<HeartBeatPattern setconfig = "0x00000002" />
+<RegisterMode setconfig = "0x00000002" />
+<Profile  setconfig = "0x00000002">
+<ProfileName setconfig = "0x00000002" />
+<ProfileBody setconfig = "0x00000002" />
+</Profile>
+<Extend  setconfig = "0x00000002">
+<Topversion setconfig = "0x00000002" />
+<HeartBeatTimer setconfig = "0x00000002" />
+<HeartBeatRetransTimer setconfig = "0x00000002" />
+<HeartBeatRetransTimes setconfig = "0x00000002" />
+<ProfileIndex setconfig = "0x00000002" />
+<SoftwareParameters setconfig = "0x00000002" />
+</Extend>
+<Digitmap setconfig = "0x00000002">
+<DigitMapStartTimer setconfig = "0x00000002" />
+<DigitMapShortTimer setconfig = "0x00000002" />
+<DigitMapLongTimer setconfig = "0x00000002" />
+</Digitmap>
+</X_HW_H248>
+<RTP  setconfig = "0x00000002">
+<LocalPortMin setconfig = "0x00000002" />
+<LocalPortMax setconfig = "0x00000002" />
+<DSCPMark setconfig = "0x00000002" />
+<X_HW_PortName setconfig = "0x00000002" />
+<X_HW_JitBuffer  setconfig = "0x00000002">
+<IniFixedJB setconfig = "0x00000002" />
+</X_HW_JitBuffer>
+<X_HW_Extend  setconfig = "0x00000002">
+<EchoCancellationEnable setconfig = "0x00000002" />
+<SilenceSuppression setconfig = "0x00000002" />
+<OffhookDtasAckInterval setconfig = "0x00000002" />
+</X_HW_Extend>
+</RTP>
+<FaxT38  setconfig = "0x00000002">
+<Enable setconfig = "0x00000002" />
+</FaxT38>
+<X_HW_FaxModem  setconfig = "0x00000002">
+<FaxNego setconfig = "0x00000002" />
+</X_HW_FaxModem>
+<Line  setconfig = "0x00000002">
+<VoiceProcessing  setconfig = "0x00000002">
+<TransmitGain setconfig = "0x00000002" />
+<ReceiveGain setconfig = "0x00000002" />
+</VoiceProcessing>
+<Codec  setconfig = "0x00000002" >
+<List  setconfig = "0x00000002" >
+<EntryID setconfig = "0x00000002" />
+<Codecs setconfig = "0x00000002" />
+<Codec setconfig = "0x00000002" />
+<PacketizationPeriod setconfig = "0x00000002" />
+<Priority setconfig = "0x00000002" />
+<Enable setconfig = "0x00000002" />
+</List>
+</Codec>
+</Line>
+</VoiceProfile>
+<PhyInterface setconfig = "0x00000002" >
+<X_HW_DspTemplate setconfig = "0x00000002" >
+<Enable setconfig = "0x00000002" />
+<WorkMode setconfig = "0x00000002" />
+<JbMode setconfig = "0x00000002" />
+</X_HW_DspTemplate>
+<X_HW_Extend setconfig = "0x00000002" >
+<FskTime setconfig = "0x00000002" />
+<ClipTransWhen setconfig = "0x00000002" />
+<ClipFormat setconfig = "0x00000002" />
+<Impedance setconfig = "0x00000002" />
+<Current setconfig = "0x00000002" />
+<HookFlashUpTime setconfig = "0x00000002" />
+<HookFlashDownTime setconfig = "0x00000002" />
+<OnhookConfirmTime setconfig = "0x00000002" />
+<SendGain setconfig = "0x00000002" />
+<ReceiveGain setconfig = "0x00000002" />
+<UserDefineRingVoltage setconfig = "0x00000002" />
+<RingDCVoltageOverlapped setconfig = "0x00000002" />
+<RingVoltage setconfig = "0x00000002" />
+<ClipSendDateTime setconfig = "0x00000002" />
+<DspHighPassFilterEnable setconfig = "0x00000002" />
+<DspTemplateName setconfig = "0x00000002" />
+<ReversePoleOnAnswer setconfig = "0x00000002" />
+<ClipForceSendFsk setconfig = "0x00000002" />
+</X_HW_Extend>
+</PhyInterface>
+<X_HW_DspTemplate setconfig = "0x00000002">
+<ServiceNumMapping setconfig = "0x00000002" addconfig = "0x00000002" delconfig="0x00000002">
+<ServiceNum setconfig = "0x00000002" addconfig = "0x00000002" delconfig="0x00000002" />
+<TemplateName setconfig = "0x00000002" addconfig = "0x00000002" delconfig="0x00000002" />
+</ServiceNumMapping>
+</X_HW_DspTemplate>
+</VoiceService>
+</Services>
+</InternetGatewayDevice>

@@ -1,0 +1,23 @@
+<InternetGatewayDevice> 
+<Services>
+<VoiceService setconfig = "0x00000003">
+<VoiceProfile setconfig = "0x00000003" >
+<SIP setconfig = "0x00000003" >
+<UserAgentPort setconfig = "0x00000003" />
+</SIP>
+<Line  setconfig = "0x00000003" addconfig = "0x00000003" delconfig="0x00000003">
+<DirectoryNumber setconfig = "0x00000003" addconfig = "0x00000003" delconfig="0x00000003"/>
+<PhyReferenceList setconfig = "0x00000003" addconfig = "0x00000003" delconfig="0x00000003"/>
+<Enable setconfig = "0x00000003" addconfig = "0x00000003" delconfig="0x00000003"/>
+<SIP  setconfig = "0x00000003" addconfig = "0x00000003" delconfig="0x00000003">
+<AuthUserName setconfig = "0x00000003" addconfig = "0x00000003" delconfig="0x00000003"/>
+<AuthPassword setconfig = "0x00000003" addconfig = "0x00000003" delconfig="0x00000003"/>
+<URI setconfig = "0x00000003" addconfig = "0x00000003" delconfig="0x00000003"/>
+</SIP>
+</Line>
+</VoiceProfile>
+<PhyInterface setconfig = "0x00000003" >
+</PhyInterface>
+</VoiceService>
+</Services>
+</InternetGatewayDevice>

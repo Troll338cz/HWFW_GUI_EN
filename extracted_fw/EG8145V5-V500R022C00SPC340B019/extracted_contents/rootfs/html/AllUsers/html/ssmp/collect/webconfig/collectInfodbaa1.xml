@@ -1,0 +1,11 @@
+<InternetGatewayDevice>
+    <X_HW_DEBUG setconfig = "0x00000004" getconfig = "0x00000004">
+        <SMP setconfig = "0x00000004" getconfig = "0x00000004">
+            <WEB setconfig = "0x00000004" getconfig = "0x00000004">
+                <CollectFault setconfig = "0x00000004" getconfig = "0x00000004">
+                    <status setconfig = "0x00000004" getconfig = "0x00000004" />
+                </CollectFault>
+            </WEB>
+        </SMP>
+    </X_HW_DEBUG>
+</InternetGatewayDevice> 

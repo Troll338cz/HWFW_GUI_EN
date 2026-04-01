@@ -1,0 +1,7 @@
+<CusCliRoot>
+<Reboot CmdStr="reboot" CmdGroup=""/>
+<GetSoftVersionAis CmdStr="config" CmdGroup=""/>
+<ChangeDirAis CmdStr="cd" CmdGroup=""/>
+<TftpAis CmdStr="tftp" CmdGroup=""/>
+<FactoryAis CmdStr="factory" CmdGroup=""/>
+</CusCliRoot>

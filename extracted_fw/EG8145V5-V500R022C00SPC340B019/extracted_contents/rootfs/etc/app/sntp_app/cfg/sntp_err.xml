@@ -1,0 +1,6 @@
+<ErrRoot>
+<HW_RET_SNTP_SET_PARA_ERR CMO="0xf7211001" InfoStr="ERROR::[SNTP]illegal parameter, please check the parameter value!" Output="0x80000000"/>
+<HW_RET_SNTP_ADD_DOMAIN_REACH_MAX CMO="0xf7211002" InfoStr="ERROR::[SNTP]NTP server domain configuration is full!" Output="0x80000000"/>
+<HW_RET_SNTP_NO_DEL_DOMAIN CMO="0xf7211003" InfoStr="ERROR::[SNTP]Input ntp server domain is not existed!" Output="0x80000000"/>
+<HW_RET_SNTP_EXECUTE_FAIL CMO="0xf7211004" InfoStr="ERROR::[SNTP]Execute command fail, please try again!" Output="0x80000000"/>
+</ErrRoot>

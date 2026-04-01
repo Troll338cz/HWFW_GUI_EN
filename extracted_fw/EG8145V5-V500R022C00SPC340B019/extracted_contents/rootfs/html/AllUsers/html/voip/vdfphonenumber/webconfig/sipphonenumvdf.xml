@@ -1,0 +1,106 @@
+<InternetGatewayDevice> 
+<Services>
+<VoiceService setconfig = "0x00000007">
+<VoiceProfile setconfig = "0x00000007" >
+<Region setconfig = "0x00000002" />
+<DTMFMethod setconfig = "0x00000002" />
+<DigitMap setconfig = "0x00000002" />
+<Name setconfig = "0x00000002" />
+<X_HW_DigitMapMatchMode setconfig = "0x00000002" /> 
+<X_HW_PortName setconfig = "0x00000002" />
+<X_HW_DigitMapMatchMode setconfig = "0x00000002" /> 
+<SIP setconfig = "0x00000002" >
+<OutboundProxy setconfig = "0x00000002" />
+<OutboundProxyPort setconfig = "0x00000002" />
+<X_HW_SecondaryProxyServerPort setconfig = "0x00000002" />
+<X_HW_SecondaryOutboundProxy setconfig = "0x00000002" />
+<X_HW_SecondaryOutboundProxyPort setconfig = "0x00000002" />
+<RegistrarServer setconfig = "0x00000002" />
+<UserAgentDomain setconfig = "0x00000002" />
+<RegisterRetryInterval setconfig = "0x00000002" />
+<ProxyServer setconfig = "0x00000002" />
+<ProxyServerPort setconfig = "0x00000002" />
+<X_HW_SecondaryProxyServer setconfig = "0x00000002" />
+<RegistrationPeriod setconfig = "0x00000002" />
+<RegistrarServerPort setconfig = "0x00000002" />
+<X_HW_SecondaryRegistrarServerPort setconfig = "0x00000002" />
+<X_HW_SecondaryRegistrarServer setconfig = "0x00000002" />
+<X_HW_PRACKEnable setconfig = "0x00000002" />
+<X_HW_SessionUpdateTimer setconfig = "0x00000002" />
+<DSCPMark setconfig = "0x00000002" />
+<UserAgentPort setconfig = "0x00000002" />
+<X_HW_SIPDigitmap setconfig = "0x00000002" >
+<DigitMapShortTimer setconfig = "0x00000002" />
+<DigitMapLongTimer setconfig = "0x00000002" />
+<DigitMapStartTimer setconfig = "0x00000002" />
+</X_HW_SIPDigitmap>
+<X_HW_SIPExtend setconfig = "0x00000002" >
+<SharedUserMode setconfig = "0x00000002" />
+<MultiHomeMode setconfig = "0x00000002" />
+<SoftwareParameters setconfig = "0x00000002" />
+<TimerMinSe setconfig = "0x00000002" />
+</X_HW_SIPExtend>
+</SIP>
+<RTP  setconfig = "0x00000002">
+<X_HW_PortName setconfig = "0x00000002" />
+<LocalPortMax setconfig = "0x00000002" />
+<LocalPortMin setconfig = "0x00000002" />
+<DSCPMark setconfig = "0x00000002" />
+<X_HW_PortName setconfig = "0x00000002" />
+<RTCP  setconfig = "0x00000002">
+<TxRepeatInterval setconfig = "0x00000002" />
+</RTCP>
+<X_HW_Extend  setconfig = "0x00000002">
+<EchoCancellationEnable setconfig = "0x00000002" />
+<OffhookDtasAckInterval setconfig = "0x00000002" />
+<SilenceSuppression setconfig = "0x00000002" />
+</X_HW_Extend>
+</RTP>
+<Line  setconfig = "0x00000007" addconfig = "0x00000007" delconfig="0x00000007">
+<DirectoryNumber setconfig = "0x00000007" addconfig = "0x00000007" delconfig="0x00000007"/>
+<PhyReferenceList setconfig = "0x00000007" addconfig = "0x00000007" delconfig="0x00000007"/>
+<Enable setconfig = "0x00000007" addconfig = "0x00000007" delconfig="0x00000007"/>
+<X_HW_Description setconfig = "0x00000007" addconfig = "0x00000007" delconfig="0x00000007"/>
+<SIP  setconfig = "0x00000007" addconfig = "0x00000007" delconfig="0x00000007">
+<AuthUserName setconfig = "0x00000007" addconfig = "0x00000007" delconfig="0x00000007"/>
+<AuthPassword setconfig = "0x00000007" addconfig = "0x00000007" delconfig="0x00000007"/>
+<URI setconfig = "0x00000007" addconfig = "0x00000007" delconfig="0x00000007"/>
+</SIP>
+<Codec  setconfig = "0x00000002" >
+<List  setconfig = "0x00000002" >
+<EntryID setconfig = "0x00000002" />
+<Codecs setconfig = "0x00000002" />
+<Codec setconfig = "0x00000002" />
+<PacketizationPeriod setconfig = "0x00000002" />
+<Priority setconfig = "0x00000002" />
+<Enable setconfig = "0x00000002" />
+<SilenceSuppression setconfig = "0x00000002" />
+</List>
+</Codec>
+</Line>
+<X_HW_FaxModem setconfig="0x00000007">
+<X_HW_FaxDetect setconfig = "0x00000002" />
+</X_HW_FaxModem>
+<X_HW_RingSchedule setconfig="0x00000007">
+<Enable setconfig="0x00000007" addconfig="0x00000007" delconfig="0x00000007"/>
+<Policy setconfig="0x00000007" addconfig="0x00000007" delconfig="0x00000007"/>
+<Schedules setconfig="0x00000007" addconfig="0x00000007" delconfig="0x00000007">
+<Numbers setconfig="0x00000007" addconfig="0x00000007" delconfig="0x00000007"/>
+<Days setconfig="0x00000007" addconfig="0x00000007" delconfig="0x00000007"/>
+<TimeFrom setconfig="0x00000007" addconfig="0x00000007" delconfig="0x00000007"/>
+<TimeTo setconfig="0x00000007" addconfig="0x00000007" delconfig="0x00000007"/>
+</Schedules>
+</X_HW_RingSchedule>
+</VoiceProfile>
+<PhyInterface setconfig = "0x00000002" >
+<X_HW_Extend setconfig = "0x00000002" >
+<HookFlashUpTime setconfig = "0x00000002" />
+<HookFlashDownTime setconfig = "0x00000002" />
+</X_HW_Extend>
+</PhyInterface>
+<X_HW_InnerParameters setconfig = "0x00000002">
+<SilenceSuppressionMode setconfig = "0x00000002"/>
+</X_HW_InnerParameters>
+</VoiceService>
+</Services>
+</InternetGatewayDevice>

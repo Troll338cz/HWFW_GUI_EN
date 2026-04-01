@@ -1,0 +1,12 @@
+<InternetGatewayDevice> 
+<DeviceInfo setconfig = "0x00000003" getconfig = "0x00000003"> 
+<X_HW_Restore setconfig = "0x00000002" getconfig = "0x00000002"> 
+<Enable setconfig = "0x00000002" getconfig = "0x00000002"/> 
+<X_HW_BACKUPCFG  setconfig = "0x00000002" getconfig = "0x00000002"> 
+<Path setconfig = "0x00000002" getconfig = "0x00000002"/> 
+<Operate setconfig = "0x00000002" getconfig = "0x00000002"/> 
+<Option setconfig = "0x00000002" getconfig = "0x00000002"/> 
+</X_HW_BACKUPCFG> 
+</X_HW_Restore>
+</DeviceInfo>
+</InternetGatewayDevice>  

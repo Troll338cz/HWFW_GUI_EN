@@ -1,0 +1,31 @@
+<InternetGatewayDevice>
+    <X_HW_PhysicalConnection setconfig = "0x00000003" getconfig = "0x00000003">
+        <Physical_DiagnosticsState setconfig = "0x00000003" getconfig = "0x00000003"/>
+    </X_HW_PhysicalConnection>
+    <X_HW_ManagementDiagnostics setconfig = "0x00000003" getconfig = "0x00000003">
+        <Management_DiagnosticsState setconfig = "0x00000003" getconfig = "0x00000003"/>
+    </X_HW_ManagementDiagnostics>
+    <X_HW_DiagnoseTestSuit setconfig = "0x00000003" getconfig = "0x00000003">
+        <DiagnosticsState setconfig = "0x00000003" getconfig = "0x00000003"/>
+        <Internet_DiagnosticsState setconfig = "0x00000003" getconfig = "0x00000003"/>
+        <IPTV_DiagnosticsState setconfig = "0x00000003" getconfig = "0x00000003"/>
+    </X_HW_DiagnoseTestSuit>
+    <Services>
+        <VoiceService setconfig = "0x00000003">
+            <VoiceProfile setconfig = "0x00000003">
+                <X_HW_Connection  setconfig = "0x00000003" getconfig = "0x00000003">
+                    <X_HW_VoipDiagnosticsState setconfig = "0x00000003" getconfig = "0x00000003"/>
+                </X_HW_Connection>
+            </VoiceProfile>
+            <PhyInterface setconfig = "0x00000003">
+                <Tests setconfig = "0x00000003">
+                    <TestState setconfig = "0x00000003" />
+                    <TestSelector setconfig = "0x00000003" />
+                    <X_HW_LineTest setconfig = "0x00000003">
+                        <IsTestOnBusy setconfig = "0x00000003" />
+                    </X_HW_LineTest>
+                </Tests>
+            </PhyInterface>
+        </VoiceService>
+    </Services>
+</InternetGatewayDevice>

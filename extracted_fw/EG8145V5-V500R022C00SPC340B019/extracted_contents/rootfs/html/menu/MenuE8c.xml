@@ -1,0 +1,582 @@
+<WebConfig>
+<chinese>
+<admin>
+<Item MenuLevel="1" MenuName="状态" MenuID="Menu1_Status" url="">
+<Item MenuLevel="2" MenuName="状态总览" MenuID="Menu2_Sta_Overview" url="">
+<Item MenuLevel="3" MenuName="状态总览" MenuID="Menu3_SO_Overview" url="/html/ssmp/deviceinfo/e8cdeviceinfo.asp" />
+<Item MenuLevel="3" MenuName ="宽带普遍服务信息" MenuID="Menu3_GXBMonitor" featurectrl="HW_SSMP_FEATURE_GXBMONITOR" url = "/html/ssmp/GXBMonitor/GXBMonitor.asp"/>
+</Item>
+<Item MenuLevel="2" MenuName="网络侧信息" MenuID="Menu2_Sta_WAN" url="">
+<Item MenuLevel="3" MenuName="IP连接信息" MenuID="Menu3_SW_IPinfo" url="/html/bbsp/waninfo/waninfoe8c.asp" />
+<Item MenuLevel="3" MenuName = "链路连接信息" MenuID="Menu3_SW_Linkinfo" featurectrl="HW_AMP_FEATURE_OPTIC" url="/html/amp/opticinfo/e8ceponlink.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="用户侧信息" MenuID="Menu2_Sta_LAN" url="">
+<Item MenuLevel="3" MenuName="无线接口信息" MenuID="Menu3_SL_WLANinfo" featurectrl="HW_AMP_FEATURE_WLAN" url="/html/amp/wlaninfo/e8cwlaninfo.asp" />
+<Item MenuLevel="3" MenuName="家庭网络信息" MenuID="Menu3_HomeNetwork_info" featurectrl="HW_AMP_FEATURE_WLAN|FT_WLAN_UPNP_EXPAND" url="/html/amp/wificoverinfo/wlancoverinfo.asp" />
+<Item MenuLevel="3" MenuName="以太网接口信息" MenuID="Menu3_SL_Ethinfo" url="/html/amp/ethinfo/e8cethinfo.asp" />
+<Item MenuLevel="3" MenuName="丢帧检测信息" MenuID="Menu3_SL_Frameinfo" featurectrl="FT_SUPPORT_FRAME_DETECTION" url="/html/bbsp/frameinfo/frameinfo.asp" />
+<Item MenuLevel="3" MenuName="USB接口信息" MenuID="Menu3_SL_USBinfo" featurectrl="HW_SSMP_FEATURE_USB" url="/html/ssmp/usbconect/usbstatus.asp" />
+<Item MenuLevel="3" MenuName="用户设备信息" MenuID="Menu3_SL_UserDeviceInfo" featurectrl="BBSP_FT_DHCP_MAIN" url="/html/bbsp/userdevinfo/userdevinfo1.asp" />
+</Item>
+<Item MenuLevel="2" MenuName = "语音信息" MenuID="Menu2_Sta_Voice" featurectrl="HW_VSPA_FEATURE_VOIP"  url = "">
+<Item MenuLevel="3" MenuName = "语音信息" MenuID="Menu3_SV_Voiceinfo" featurectrl="HW_VSPA_FEATURE_VOIP" url = "/html/voip/cnstatus/cnregstatus.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="远程管理状态" MenuID="Menu2_Sta_Management" featurectrl="HW_SSMP_FEATURE_TR069" url="">
+<Item MenuLevel="3" MenuName="交互建立" MenuID="Menu3_SM_Interactive" featurectrl="HW_SSMP_FEATURE_TR069" url="/html/ssmp/RomteInfo/e8cRemoteInfo.asp" />
+<Item MenuLevel="3" MenuName="业务配置下发状态" MenuID="Menu3_SM_Setupstatus" featurectrl="HW_SSMP_FEATURE_TR069" url="/html/ssmp/RomteInfo/remoteopt.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="机顶盒模块信息" MenuID="Menu3_Sta_STB" featurectrl="FT_SHMP_RONGHE" url="">
+<Item MenuLevel="3" MenuName ="机顶盒模块信息" MenuID="Menu3_STBInfo" featurectrl="FT_SHMP_RONGHE" url = "/html/ssmp/stbinfo/STBInfo.asp"/>
+</Item>
+</Item>
+<Item MenuLevel="1" MenuName="网络" MenuID="Menu1_Network" url="">
+<Item MenuLevel="2" MenuName="网络设置" MenuID="Menu2_Net_Network" url="">
+<Item MenuLevel="3" MenuName="网络连接" MenuID="Menu3_NN_WAN" url="/html/bbsp/wan/wane8c.asp" />
+<Item MenuLevel="3" MenuName="VLAN绑定" MenuID="Menu3_NN_VLAN" featurectrl="BBSP_FT_ROUTE_POLICY" url="/html/bbsp/vlanctc/vlanctce8c.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="用户侧管理" MenuID="Menu2_Net_LAN" url="">
+<Item MenuLevel="3" MenuName="IPv4设置" MenuID="Menu3_ND_IPv4" featurectrl="BBSP_FT_DHCP_MAIN" url="/html/bbsp/dhcp/dhcpe8c.asp" />
+<Item MenuLevel="3" MenuName="IPv6设置" MenuID="Menu3_ND_IPv6" featurectrl="BBSP_FT_IPV6_DHCP6S" url="/html/bbsp/lanaddress/lanaddresse8c.asp" />
+<Item MenuLevel="3" MenuName="家庭网络命名" MenuID="Menu3_ND_Named" featurectrl="BBSP_FT_DHCP_MAIN" url="/html/bbsp/userdevinfo/homenetname.asp" />
+<Item MenuLevel="3" MenuName="DHCP静态IP配置" MenuID="Menu3_landhcpstatic" featurectrl="BBSP_FT_DHCP_MAIN&amp;FT_FTTR_MAIN_ONT" url="/html/bbsp/dhcpstatic/dhcpstatic.asp" />
+<Item MenuLevel="3" MenuName="DHCPv6静态IP配置" MenuID="Menu3_landhcpv6static" featurectrl="BBSP_FT_IPV6_DHCP6S&amp;FT_FTTR_MAIN_ONT" url="/html/bbsp/dhcpstaticaddr/dhcpstaticaddress.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="无线设置" MenuID="Menu2_Net_WLAN" url="">
+<Item MenuLevel="3" MenuName="无线基本设置" MenuID="Menu3_NW_Basic" featurectrl="HW_AMP_FEATURE_SINGLE_WLAN" url="/html/amp/wlanbasic/e8cWlanBasic.asp" />
+<Item MenuLevel="3" MenuName="无线高级设置" MenuID="Menu3_NW_Advanced" featurectrl="HW_AMP_FEATURE_SINGLE_WLAN" url="/html/amp/wlanadv/e8cWlanAdvance.asp" />
+<Item MenuLevel="3" MenuName="2.4G无线基本设置" MenuID="Menu3_NW_Basic_2G" featurectrl="HW_AMP_FEATURE_DOUBLE_WLAN" url="/html/amp/wlanbasic/e8cWlanBasic.asp?2G" />
+<Item MenuLevel="3" MenuName="2.4G无线高级设置" MenuID="Menu3_NW_Advanced_2G" featurectrl="HW_AMP_FEATURE_DOUBLE_WLAN" url="/html/amp/wlanadv/e8cWlanAdvance.asp?2G" />
+<Item MenuLevel="3" MenuName="5G无线基本设置" MenuID="Menu3_NW_Basic_5G" featurectrl="HW_AMP_FEATURE_DOUBLE_WLAN" url="/html/amp/wlanbasic/e8cWlanBasic.asp?5G" />
+<Item MenuLevel="3" MenuName="5G无线高级设置" MenuID="Menu3_NW_Advanced_5G" featurectrl="HW_AMP_FEATURE_DOUBLE_WLAN" url="/html/amp/wlanadv/e8cWlanAdvance.asp?5G" />
+<Item MenuLevel="3" MenuName="智能覆盖网络管理" MenuID="Menu3_Wifi_Cover_Cfg" featurectrl="HW_AMP_FEATURE_WLAN|FT_WLAN_UPNP_EXPAND" url="/html/amp/wificovercfg/wifiCover.asp" />
+<Item MenuLevel="3" MenuName="射频管理" MenuID="Menu3_ap_turn" featurectrl="!HW_FEATURE_ZQ&amp;FT_FTTR_MAIN_ONT" url="/html/amp/wlaninfo/wifiApTurn.asp" />
+<Item MenuLevel="3" MenuName="功率管理" MenuID="Menu3_ap_optimize" featurectrl="!HW_FEATURE_ZQ&amp;FT_FTTR_MAIN_ONT" url="/html/amp/wlaninfo/wifiApPower.asp" />
+<Item MenuLevel="3" MenuName="WAPI证书" MenuID="Menu3_Wapi" featurectrl="HW_AMP_FEATURE_WAPI" url="/html/amp/wapi/Wapi.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="远程管理" MenuID="Menu2_Net_Management" url="">
+<Item MenuLevel="3" MenuName="ITMS 服务器" MenuID="Menu3_NM_ITMS" featurectrl="HW_SSMP_FEATURE_TR069" url="/html/ssmp/tr069/tr069e8c.asp" />
+<Item MenuLevel="3" MenuName="宽带识别码认证" MenuID="Menu3_NM_Loid" featurectrl="FT_WEB_DISPLAY_LOIDREG" url="/html/ssmp/loid/loid.asp" />
+<Item MenuLevel="3" MenuName="OLT注册" MenuID="Menu3_NM_Loid" featurectrl="HW_SSMP_FEATURE_MNGT_GDCT" url="/html/ssmp/loid/loid.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="QoS设置" MenuID="Menu2_Net_QoS" url="">
+<Item MenuLevel="3" MenuName="基本设置" MenuID="Menu3_NQ_Basic" featurectrl="BBSP_FT_QOS_CFG" url="/html/bbsp/qos/qosbasic.asp" />
+<Item MenuLevel="3" MenuName="高级设置上行" MenuID="Menu3_NQ_Advanced_Up" featurectrl="BBSP_FT_QOS_CFG" url="/html/bbsp/qos/qosadvancedup.asp" />
+<Item MenuLevel="3" MenuName="高级设置下行" MenuID="Menu3_NQ_Advanced_Down" featurectrl="BBSP_FT_QOS_CFG" url="/html/bbsp/qos/qosadvanceddown.asp" />
+<Item MenuLevel="3" MenuName="LAN上下行限速" MenuID="Menu3_qosdataspeedlimit" featurectrl="BBSP_FT_QOS_SPDLMT" url="/html/bbsp/qosspdlmt/qosdataspeedlimit.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="时间管理" MenuID="Menu2_Net_NTP" url="">
+<Item MenuLevel="3" MenuName="时间服务器" MenuID="Menu3_NNTP_NTP" featurectrl="BBSP_FT_SNTP" url="/html/ssmp/sntp/e8csntp.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="路由配置" MenuID="Menu2_Net_Route" url="">
+<Item MenuLevel="3" MenuName="路由设置" MenuID="Menu3_NR_Route" featurectrl="BBSP_FT_ROUTE_STATIC" url="/html/bbsp/staticroute/staticroutee8c.asp" />
+<Item MenuLevel="3" MenuName="路由表"   MenuID="Menu3_routeinfochina" url="/html/bbsp/routeinfo/routeinfochina.asp" />
+<Item MenuLevel="3" MenuName="全路由模式" MenuID="Menu3_fullrouting" url="/html/bbsp/fullrouting/fullrouting.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="IP协议栈配置" MenuID="Menu2_ipprotocal" featurectrl="BBSP_FT_IP_PROTOCOL_CFG_CHK" url="">
+<Item MenuLevel="3" MenuName="IP协议栈配置" MenuID="Menu3_ipprotocalmode" featurectrl="BBSP_FT_IP_PROTOCOL_CFG_CHK" url="/html/bbsp/ipprotocalmode/ipprotocalmode.asp" />
+</Item>
+</Item>
+<Item MenuLevel="1" MenuName="安全" MenuID="Menu1_Secure" url="">
+<Item MenuLevel="2" MenuName="广域网访问设置" MenuID="Menu2_Secu_WAN" url="">
+<Item MenuLevel="3" MenuName="广域网访问设置" MenuID="Menu3_SeW_WAN" featurectrl="BBSP_FT_PARENTAL_CTRL_URL_FLT" url="/html/bbsp/urlfiltersetting/urlfiltersettinge8c.asp" />
+<Item MenuLevel="3" MenuName="ONT访问控制配置" MenuID="Menu3_acl" featurectrl="BBSP_FT_WAN" url="/html/bbsp/acl/acl.asp" />
+<Item MenuLevel="3" MenuName="多终端上网数量" MenuID="Menu3_accesslimit" featurectrl="HW_SSMP_FEATURE_MNGT_JXCT" url="/html/bbsp/accesslimit/accesslimit.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="防火墙" MenuID="Menu2_Secu_Firewall" url="">
+<Item MenuLevel="3" MenuName="IPv4防火墙" MenuID="Menu3_SeF_Firewall" url="/html/bbsp/firewalllevel/firewalle8c.asp" />
+<Item MenuLevel="3" MenuName="IPv6防火墙" MenuID="Menu3_SeF_IPV6Firewall" featurectrl="BBSP_FT_CONFIG_IPV6_SESSION" url="/html/bbsp/ipv6firewall/firewall.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="MAC过滤" MenuID="Menu2_Secu_MAC" url="">
+<Item MenuLevel="3" MenuName="MAC过滤" MenuID="Menu3_SeM_MAC" featurectrl="BBSP_FT_MACFILTER" url="/html/bbsp/macfilter/macfiltere8c.asp" />
+<Item MenuLevel="3" MenuName="无线网络MAC过滤" MenuID="Menu3_wlanmacfiltere8c" featurectrl="BBSP_FT_WLANMACFILER" url="/html/bbsp/wlanmacfilter/wlanmacfiltere8c.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="端口过滤" MenuID="Menu2_ipincoming" url="">
+<Item MenuLevel="3" MenuName="端口过滤" MenuID="Menu3_ipincominge8c" featurectrl="BBSP_FT_IPFILTERIN" url="/html/bbsp/ipincoming/ipincominge8c.asp" />
+</Item>
+</Item>
+<Item MenuLevel="1" MenuName="应用" MenuID="Menu1_Application" url="">
+<Item MenuLevel="2" MenuName="DDNS配置" MenuID="Menu2_App_DDNS" url="">
+<Item MenuLevel="3" MenuName="DDNS设置" MenuID="Menu3_AD_DDNS" featurectrl="BBSP_FT_DDNS_IP" url="/html/bbsp/ddns/ddnse8c.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="高级NAT配置" MenuID="Menu2_App_NAT" url="">
+<Item MenuLevel="3" MenuName="ALG设置" MenuID="Menu3_AN_ALG" featurectrl="BBSP_FT_ALG" url="/html/bbsp/alg/alge8c.asp" />
+<Item MenuLevel="3" MenuName="DMZ设置" MenuID="Menu3_AN_DMZ" featurectrl="BBSP_FT_DMZ_IP" url="/html/bbsp/dmz/dmze8c.asp" />
+<Item MenuLevel="3" MenuName="IPv4虚拟服务器设置" MenuID="Menu3_AN_VirtualServer" featurectrl="BBSP_FT_PORTMAP_IP" url="/html/bbsp/portmapping/portmappingolde8c.asp" />
+<Item MenuLevel="3" MenuName="IPv6虚拟服务器设置" MenuID="Menu3_AN_IPV6VirtualServer" featurectrl="BBSP_FT_IPV6_PORTMAPPING" url="/html/bbsp/ipv6portmapping/ipv6portmapping.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="UPnP配置" MenuID="Menu2_App_UPnP" url="">
+<Item MenuLevel="3" MenuName="UPnP设置" MenuID="Menu3_AU_UPnP" featurectrl="BBSP_FT_UPNP_MAIN" url="/html/bbsp/upnp/upnpe8c.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="宽带电话设置" MenuID="Menu2_App_Voice" featurectrl="HW_VSPA_FEATURE_VOIP" url="">
+<Item MenuLevel="3" MenuName="基本设置" MenuID="Menu3_AV_Basic" featurectrl="HW_VSPA_FEATURE_VOIP" url="/html/voip/cnvoipinterface/cnvoipinterface.asp" />
+<Item MenuLevel="3" MenuName="高级设置" MenuID="Menu3_AV_Advanced" featurectrl="HW_VSPA_FEATURE_VOIP" url="/html/voip/cnvoipuser/cnvoipuser.asp" />
+<Item MenuLevel="3" MenuName="补充业务设置" MenuID="Menu3_AV_Addtional" featurectrl="HW_VSPA_FEATURE_VOIP" url="/html/voip/voipsub/cnvoipsub.asp" />
+<Item MenuLevel="3" MenuName="拨号设置" MenuID="Menu3_AV_Digitalmap" featurectrl="HW_VSPA_FEATURE_VOIP" url="/html/voip/digitmap/cndigitmap.asp" />
+<Item MenuLevel="3" MenuName="宽带电话高级拨号设置" MenuID="Menu3_AV_AdDigitalmap" featurectrl="VOICE_FT_WEB_PBXPrefix" url="/html/voip/advdigitmap/advdm.asp" />
+<Item MenuLevel="3" MenuName="传真设置" MenuID="Menu3_AV_Fax" featurectrl="HW_VSPA_FEATURE_VOIP" url="/html/voip/fax/cnvoipfaxentry.asp" />
+
+</Item>
+<Item MenuLevel="2" MenuName="IGMP设置" MenuID="Menu2_App_IGMP" url="">
+<Item MenuLevel="3" MenuName="IGMP ENABLE" MenuID="Menu3_igmpenablee8c" featurectrl="BBSP_FT_E8C_PK_IGMPENABLE" url="/html/bbsp/igmp/igmpenablee8c.asp" />
+<Item MenuLevel="3" MenuName="组播设置" MenuID="Menu3_AI_Muticast" url = "/html/bbsp/igmp/igmpe8c.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="LAN口多业务" MenuID="Menu2_LAN_PORT" url="">
+<Item MenuLevel="3" MenuName="LAN口多业务" MenuID="Menu3_lanservicecfg" featurectrl="FT_MULTI_SERVICE_IPTV_PORT|FT_MULTI_SERVICE_IPTV_PORT_NEW" url="/html/bbsp/lanservicecfg/lanservicecfg.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="第三方插件" MenuID="Menu2_TrdBundle" featurectrl="HW_SSMP_FT_QOE_CDN" url="">
+<Item MenuLevel="3" MenuName="第三方插件管理" MenuID="Menu3_MM_TrdBundle" featurectrl="HW_SSMP_FT_QOE_CDN" url="/html/ssmp/monitor/p2pcdn.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="日常应用" MenuID="Menu2_App_Application" url="">
+<Item MenuLevel="3" MenuName="远程下载" MenuID="Menu3_AA_Download" featurectrl="HW_SSMP_FEATURE_USB" url="/html/ssmp/usbftp/e8cusbhost.asp" />
+<Item MenuLevel="3" MenuName="家庭共享" MenuID="Menu3_e8csamba" featurectrl="HW_SSMP_FEATURE_USBPRINTER" url="/html/ssmp/samba/e8csamba.asp" />
+<Item MenuLevel="3" MenuName="媒体共享" MenuID="Menu3_e8cdlna" featurectrl="HW_SSMP_FEATURE_DLNA" url="/html/ssmp/dlna/e8cdlna.asp" />
+<Item MenuLevel="3" MenuName="IPTV" MenuID="Menu3_AA_e8cdlna" url="/html/bbsp/wanctcmvlan/wanctcmvlan.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="VR配置" MenuID="Menu2_App_VR" featurectrl="FT_BBSP_FUTURE_VRRECOGNITION" url="">
+<Item MenuLevel="3" MenuName="VR设置" MenuID="Menu3_AU_VR" featurectrl="FT_BBSP_FUTURE_VRRECOGNITION" url="/html/bbsp/cloudVR/cloudVR.asp" />
+</Item>
+</Item>
+<Item MenuLevel="1" MenuName="管理" MenuID="Menu1_Managemen" url="">
+<Item MenuLevel="2" MenuName="用户管理" MenuID="Menu2_Mng_User" url="">
+<Item MenuLevel="3" MenuName="用户管理" MenuID="Menu3_MU_User" url="/html/ssmp/accoutcfg/e8caccountadmin.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="设备管理" MenuID="Menu2_Mng_Device" url="">
+<Item MenuLevel="3" MenuName="设备管理" MenuID="Menu3_MD_Device" url="/html/ssmp/devmanage/e8cdevicemanagement.asp" />
+<Item MenuLevel="3" MenuName="固件升级" MenuID="Firmware" featurectrl="FT_FIRMWARE_UPGRADE_PAGE" url="/html/ssmp/fireware/firmware.asp" />
+<Item MenuLevel="3" MenuName="指示灯状态管理" MenuID="Ledcfg" featurectrl="HW_SSMP_FEATURE_DM_LEDSWITCH" url="/html/ssmp/ledcfg/ledcfg.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="日志文件管理" MenuID="Menu2_Mng_Log" url="">
+<Item MenuLevel="3" MenuName="日志查看" MenuID="Menu3_ML_Check" url="/html/ssmp/CusUserLog/e8chrelogview.asp" />
+<Item MenuLevel="3" MenuName="日志设置" MenuID="Menu3_ML_Setting" url="/html/ssmp/CusUserLog/loglevelset.asp" />
+<Item MenuLevel="3" MenuName="组网日志" MenuID="Menu3_AP_Log" url="/html/ssmp/aplog/aplogview.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="维护" MenuID="Menu2_Mng_Maintain" url="">
+<Item MenuLevel="3" MenuName="维护" MenuID="Menu3_MM_Maintain" featurectrl="HW_SSMP_FEATURE_TR069" url="/html/ssmp/maintain/e8cdiagnose.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="业务管理" MenuID="Menu2_bss" featurectrl="HW_SSMP_FEATURE_MNGT_YNCT" url="">
+<Item MenuLevel="3" MenuName="业务管理" MenuID="Menu3_e8cbss" featurectrl="HW_SSMP_FEATURE_MNGT_YNCT" url="/html/ssmp/bss/e8cbss.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="上行口管理" url="">
+<Item MenuLevel="3" MenuName="上行口配置" MenuID="mainupportcfg" featurectrl="FT_PON_UPPORT_CONFIG" url="/html/ssmp/mainupportcfg/mainupportconfig.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="NFC" MenuID="Menu2_NFC_User" featurectrl="HAL_FEATURE_NFC_SRAM_MIRROR" url="">
+<Item MenuLevel="3" MenuName="NFC" MenuID="Menu3_NFC_User" featurectrl="HAL_FEATURE_NFC_SRAM_MIRROR" url="/html/amp/wlaninfo/nfcSetting.asp" />
+</Item>
+</Item>
+<Item MenuLevel="1" MenuName="诊断" MenuID="Menu1_diagnose" url="">
+<Item MenuLevel="2" MenuName="网络诊断" MenuID="Menu2_Dia_Diagnose" url="">
+<Item MenuLevel="3" MenuName="Ping测试" MenuID="Menu3_DD_Ping" url="/html/bbsp/maintenance/diagnoseping.asp" />
+<Item MenuLevel="3" MenuName="Tracert测试" MenuID="Menu3_DD_Tracert" url="/html/bbsp/maintenance/traceRoute.asp" />
+<Item MenuLevel="3" MenuName="Inform手动上报" MenuID="Menu3_DD_Inform" featurectrl="HW_SSMP_FEATURE_TR069" url="/html/ssmp/handtest/handTest.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="设备诊断" MenuID="Menu2_selfteste8c" url="/html/bbsp/maintenance/selfteste8c.asp">
+<Item MenuLevel="3" MenuName="硬件故障诊断" MenuID="Menu3_selfteste8c" url="/html/bbsp/maintenance/selfteste8c.asp" />
+<Item MenuLevel="3" MenuName="远程镜像" MenuID="Menu3_remotepktmirror" featurectrl="BBSP_FT_WAN" url="/html/bbsp/remotepktmirror/remotepktmirror.asp"/>
+<Item MenuLevel="3" MenuName="家庭网络测速" MenuID="Menu3_testspeed" featurectrl="FT_WEB_SPEED_DIAG&amp;!BBSP_FT_IS_BIN5" url="/html/ssmp/testspeed/testspeed.asp"/>
+<Item MenuLevel="3" MenuName="分段测速"  MenuID="Menu3_Sectionspeed" featurectrl="FT_IPERF_TEST"  url="/html/ssmp/Sectionspeed/Sectionspeed.asp"/>
+<Item MenuLevel="3" MenuName="软件故障诊断" MenuID="Menu3_collectInfo" url="/html/ssmp/collect/collectInfo.asp" />
+<Item MenuLevel="3" MenuName="日志诊断" MenuID="Menu3_debuglogview" url="/html/ssmp/debuglog/debuglogview.asp" />
+<Item MenuLevel="3" MenuName="远程运维" featurectrl="FT_FTTR_MAIN_ONT|FT_FTTR_EDGE_ONT" url="/html/bbsp/maintenance/necenableE8c.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="业务诊断" MenuID="Menu2_cnoutlinetest" featurectrl="HW_VSPA_FEATURE_VOIP" url="">
+<Item MenuLevel="3" MenuName="语音诊断" MenuID="Menu3_cnoutlinetest" featurectrl="HW_VSPA_FEATURE_VOIP" url="/html/voip/cnoutlinetest/cnoutlinetest.asp" />
+<Item MenuLevel="3" MenuName="内线测试" MenuID="Menu3_cninnerlinetest" featurectrl="HW_VSPA_FEATURE_VOIP" url="/html/voip/cninnerlinetest/cninnerlinetest.asp" />
+<Item MenuLevel="3" MenuName="语音统计信息" MenuID="Menu3_cnqualitystatistics" featurectrl="HW_VSPA_FEATURE_VOIP" url="/html/voip/cnqualitystatistic/cnqualitystatistics.asp" />
+<Item MenuLevel="3" MenuName="自动重启设置" MenuID="Menu3_restartautomatically" featurectrl="FT_SSMP_CPU_MEM_THRESHOLD" url="/html/ssmp/reset/restartautomatically.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="一键诊断" MenuID="Menu2_smartdiagnose" url="/html/ssmp/maintain/smartdiagnose.asp" >
+<Item MenuLevel="3" MenuName="一键诊断" MenuID="Menu3_smartdiagnose" url="/html/ssmp/maintain/smartdiagnose.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="智能诊断系统"  MenuID="Menu2_monitordiagnose" featurectrl="HW_SSMP_FEATURE_MONITORDIAG&amp;FT_OPEN_DIAGNOSEPAGE" cfgctrl ="GUANGDONGCHECK" url="/html/ssmp/monitor/monitordiagnose.asp">
+<Item MenuLevel="3" MenuName="监控诊断"  MenuID="Menu3_monitordiagnose" featurectrl="HW_SSMP_FEATURE_MONITORDIAG&amp;FT_OPEN_DIAGNOSEPAGE" cfgctrl ="GUANGDONGCHECK" url="/html/ssmp/monitor/monitordiagnose.asp" />
+</Item>
+</Item>
+<Item MenuLevel="1" MenuName="帮助" MenuID="Menu1_Help" url="">
+<Item MenuLevel="2" MenuName="状态帮助" MenuID="Menu2_Help_Help" url="">
+<Item MenuLevel="3" MenuName="状态总览帮助" MenuID="Menu3_HH_Help" url="/html/ssmp/help/StatusDeviceHelp.asp" />
+<Item MenuLevel="3" MenuName="网络侧信息帮助" MenuID="Menu3_HH_Help" url="/html/bbsp/help/StatusNetHelp.asp" />
+<Item MenuLevel="3" MenuName="用户侧信息帮助" MenuID="Menu3_HH_Help" url="/html/ssmp/help/StatusUserHelp.asp" />
+<Item MenuLevel="3" MenuName="语音信息帮助" MenuID="Menu3_HH_Help" featurectrl="HW_VSPA_FEATURE_VOIP" url="/html/voip/help/StatusVoiceHelp.asp" />
+<Item MenuLevel="3" MenuName="远程管理状态帮助" MenuID="Menu3_HH_Help" featurectrl="HW_SSMP_FEATURE_TR069" url="/html/ssmp/help/StatusRouteHelp.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="网络帮助" MenuID="Menu2_Help_Help" url="">
+<Item MenuLevel="3" MenuName="网络设置帮助" MenuID="Menu3_HH_Help" url="/html/bbsp/help/NetNetsetHelpe8c.asp" />
+<Item MenuLevel="3" MenuName="用户侧管理帮助" MenuID="Menu3_HH_Help" featurectrl="BBSP_FT_DHCP_MAIN" url="/html/bbsp/help/NetDHCPHelp.asp" />
+<Item MenuLevel="3" MenuName="WLAN配置帮助" MenuID="Menu3_HH_Help" featurectrl="HW_AMP_FEATURE_WLAN" url="/html/amp/help/NetWlanSetHelp.asp" />
+<Item MenuLevel="3" MenuName="远程管理帮助" MenuID="Menu3_HH_Help" featurectrl="HW_SSMP_FEATURE_TR069" url="/html/ssmp/help/NetRemoteSetHelp.asp" />
+<Item MenuLevel="3" MenuName="QoS设置帮助" MenuID="Menu3_HH_Help" featurectrl="BBSP_FT_QOS_CFG" url="/html/bbsp/help/NetQosSetHelp.asp" />
+<Item MenuLevel="3" MenuName="时间管理帮助" MenuID="Menu3_HH_Help" featurectrl="BBSP_FT_SNTP" url="/html/ssmp/help/NetTimeSetHelp.asp" />
+<Item MenuLevel="3" MenuName="路由配置帮助" MenuID="Menu3_HH_Help" featurectrl="BBSP_FT_ROUTE_STATIC" url="/html/bbsp/help/NetRouteSetHelpe8c.asp" />
+<Item MenuLevel="3" MenuName="IP协议栈配置帮助" MenuID="Menu3_HH_Help" featurectrl="BBSP_FT_IP_PROTOCOL_CFG_CHK" url="/html/bbsp/help/NetIPSetHelpe8c.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="安全帮助" MenuID="Menu2_Help_Help" url="">
+<Item MenuLevel="3" MenuName="广域网访问设置帮助" MenuID="Menu3_HH_Help" featurectrl="BBSP_FT_PARENTAL_CTRL_URL_FLT" url="/html/bbsp/help/SafeWanHelp.asp" />
+<Item MenuLevel="3" MenuName="防火墙帮助" MenuID="Menu3_HH_Help" url="/html/bbsp/help/SafeWallHelp.asp" />
+<Item MenuLevel="3" MenuName="MAC过滤帮助" MenuID="Menu3_HH_Help" featurectrl="BBSP_FT_MACFILTER" url="/html/bbsp/help/SafeMacHelp.asp" />
+<Item MenuLevel="3" MenuName="端口过滤帮助" MenuID="Menu3_HH_Help" featurectrl="BBSP_FT_IPFILTERIN" url="/html/bbsp/help/SafePortHelp.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="应用帮助" MenuID="Menu2_Help_Help" url="">
+<Item MenuLevel="3" MenuName="DDNS配置帮助" MenuID="Menu3_HH_Help" featurectrl="BBSP_FT_DDNS_IP" url="/html/bbsp/help/UseDDNSHelp.asp" />
+<Item MenuLevel="3" MenuName="高级NAT配置帮助" MenuID="Menu3_HH_Help" featurectrl="BBSP_FT_L3_ALL" url="/html/bbsp/help/UseNatHelp.asp" />
+<Item MenuLevel="3" MenuName="UPNP配置帮助" MenuID="Menu3_HH_Help" featurectrl="BBSP_FT_UPNP_MAIN" url="/html/bbsp/help/UseUPNPHelp.asp" />
+<Item MenuLevel="3" MenuName="宽带电话配置帮助" MenuID="Menu3_HH_Help" featurectrl="HW_VSPA_FEATURE_VOIP" url="/html/voip/help/UseVoiceHelp.asp" />
+<Item MenuLevel="3" MenuName="IGMP配置帮助" MenuID="Menu3_HH_Help" url="/html/bbsp/help/UseIGMPHelp.asp" />
+<Item MenuLevel="3" MenuName="第三方插件帮助" MenuID="Menu3_HH_Help" featurectrl="HW_SSMP_FT_QOE_CDN" url="/html/ssmp/help/CDNHelp.asp" />
+<Item MenuLevel="3" MenuName="日常应用帮助" MenuID="Menu3_HH_Help" url="/html/ssmp/help/UseUSBHelp.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="管理帮助" MenuID="Menu2_Help_Help" url="">
+<Item MenuLevel="3" MenuName="用户管理帮助" MenuID="Menu3_HH_Help" url="/html/ssmp/help/ManageUserHelp.asp" />
+<Item MenuLevel="3" MenuName="设备管理帮助" MenuID="Menu3_HH_Help" url="/html/ssmp/help/ManageAdminDeviceHelp.asp" />
+<Item MenuLevel="3" MenuName="日志文件管理帮助" MenuID="Menu3_HH_Help" url="/html/ssmp/help/ManageLogHelp.asp" />
+<Item MenuLevel="3" MenuName="维护帮助" MenuID="Menu3_HH_Help" url="/html/ssmp/help/DiagnoseHelp.asp" />
+<Item MenuLevel="3" MenuName="业务管理帮助" MenuID="Menu3_HH_Help" featurectrl="HW_SSMP_FEATURE_MNGT_YNCT" url="/html/ssmp/help/e8cbssHelp.asp" />
+<Item MenuLevel="3" MenuName="开源软件使用声明" MenuID="Menu3_opensfnotice" url = "/html/ssmp/softnotice/opensfnotice.asp"/>
+<Item MenuLevel="3" MenuName="EAI插件声明" featurectrl="FT_EAI_APP_SUPPORT" MenuID="EAIPluginNotice" url="/html/ssmp/softnotice/pluginnotice.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="诊断帮助" MenuID="Menu2_Help_Help" url="">
+<Item MenuLevel="3" MenuName="网络诊断帮助" MenuID="Menu3_HH_Help" url="/html/bbsp/help/DiagUserHelp.asp" />
+<Item MenuLevel="3" MenuName="设备诊断帮助" MenuID="Menu3_HH_Help" url="/html/ssmp/help/DeviceDiagHelp.asp" />
+<Item MenuLevel="3" MenuName="智能诊断帮助" MenuID="Menu3_HH_Help" featurectrl="HW_SSMP_FEATURE_MONITORDIAG" url="/html/ssmp/help/MonitorDiagHelp.asp" />
+<Item MenuLevel="3" MenuName="VOICE诊断帮助" MenuID="Menu3_HH_Help" featurectrl="HW_VSPA_FEATURE_VOIP" url="/html/voip/help/DiagnoseVoiceHelp.asp" />
+<Item MenuLevel="3" MenuName="自动重启设置帮助" MenuID="Menu3_automaticallyHelp" featurectrl="FT_SSMP_CPU_MEM_THRESHOLD" url="/html/ssmp/help/automaticallyHelp.asp" />
+<Item MenuLevel="3" MenuName="一键诊断帮助" MenuID="Menu3_Diagnosis_Help" url="/html/ssmp/help/OneClickDiagHelp.asp" />
+</Item>
+
+</Item>
+</admin>
+<normal>
+<Item MenuLevel="1" MenuName="状态" MenuID="Menu1_Status" url="">
+<Item MenuLevel="2" MenuName="状态总览" MenuID="Menu2_Sta_Overview" url="">
+<Item MenuLevel="3" MenuName="状态总览" MenuID="Menu3_SO_Overview" url="/html/ssmp/deviceinfo/e8cdeviceinfo.asp" />
+<Item MenuLevel="3" MenuName="配置向导" MenuID="Menu3_SO_Wizard" url="/html/ssmp/cfgguide/cfgwizard.asp" />
+<Item MenuLevel="3" MenuName ="宽带普遍服务信息" MenuID="Menu3_GXBMonitor" featurectrl="HW_SSMP_FEATURE_GXBMONITOR" url = "/html/ssmp/GXBMonitor/GXBMonitor.asp"/>
+</Item>
+<Item MenuLevel="2" MenuName="网络侧信息" MenuID="Menu2_Sta_WAN" url="">
+<Item MenuLevel="3" MenuName="IP连接信息" MenuID="Menu3_SW_IPinfo" url="/html/bbsp/waninfo/waninfoe8c.asp" />
+<Item MenuLevel="3" MenuName="链路连接信息" MenuID="Menu3_SW_Linkinfo" featurectrl="HW_AMP_FEATURE_OPTIC" url="/html/amp/opticinfo/e8ceponlink_user.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="用户侧信息" MenuID="Menu2_Sta_LAN" url="">
+<Item MenuLevel="3" MenuName="无线接口信息" MenuID="Menu3_SL_WLANinfo" featurectrl="HW_AMP_FEATURE_WLAN" url="/html/amp/wlaninfo/e8cwlaninfo.asp" />
+<Item MenuLevel="3" MenuName="家庭网络信息" MenuID="Menu3_HomeNetwork_info" featurectrl="HW_AMP_FEATURE_WLAN|FT_WLAN_UPNP_EXPAND" url="/html/amp/wificoverinfo/wlancoverinfo.asp" />
+<Item MenuLevel="3" MenuName="以太网接口信息" MenuID="Menu3_SL_Ethinfo" url="/html/amp/ethinfo/e8cethinfo.asp" />
+<Item MenuLevel="3" MenuName="USB接口信息" MenuID="Menu3_SL_USBinfo" featurectrl="HW_SSMP_FEATURE_USB" url="/html/ssmp/usbconect/usbstatus.asp" />
+<Item MenuLevel="3" MenuName="用户设备信息" MenuID="Menu3_SL_UserDeviceInfo" featurectrl="BBSP_FT_DHCP_MAIN" url="/html/bbsp/userdevinfo/userdevinfo1.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="语音信息" MenuID="Menu2_Sta_Voice" featurectrl="HW_VSPA_FEATURE_VOIP" url="">
+<Item MenuLevel="3" MenuName="语音信息" MenuID="Menu3_SV_Voiceinfo" featurectrl="HW_VSPA_FEATURE_VOIP"  url="/html/voip/cnstatus/cnregstatus.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="远程管理状态" MenuID="Menu2_Sta_Management" featurectrl="HW_SSMP_FEATURE_TR069" url="">
+<Item MenuLevel="3" MenuName="交互建立" MenuID="Menu3_SM_Interactive" featurectrl="HW_SSMP_FEATURE_TR069" url="/html/ssmp/RomteInfo/e8cRemoteInfo.asp" />
+<Item MenuLevel="3" MenuName="业务配置下发状态" MenuID="Menu3_SM_Setupstatus" featurectrl="HW_SSMP_FEATURE_TR069" url="/html/ssmp/RomteInfo/remoteopt.asp" />
+</Item>
+</Item>
+<Item MenuLevel="1" MenuName="网络" MenuID="Menu1_Network" url="">
+<Item MenuLevel="2" MenuName="用户侧管理" MenuID="Menu2_Net_LAN" url="">
+<Item MenuLevel="3" MenuName="IPv4配置" MenuID="Menu3_ND_IPv4" featurectrl="BBSP_FT_DHCP_MAIN" url="/html/bbsp/dhcp/dhcpe8c.asp" />
+<Item MenuLevel="3" MenuName="IPv6配置" MenuID="Menu3_ND_IPv6" featurectrl="BBSP_FT_IPV6_DHCP6S" url="/html/bbsp/lanaddress/lanaddresse8c.asp" />
+<Item MenuLevel="3" MenuName="家庭网络命名" MenuID="Menu3_ND_Named" featurectrl="BBSP_FT_DHCP_MAIN" url="/html/bbsp/userdevinfo/homenetname.asp" />
+<Item MenuLevel="3" MenuName="DHCP静态IP配置" MenuID="Menu3_landhcpstatic" featurectrl="BBSP_FT_DHCP_MAIN&amp;FT_FTTR_MAIN_ONT" url="/html/bbsp/dhcpstatic/dhcpstatic.asp" />
+<Item MenuLevel="3" MenuName="DHCPv6静态IP配置" MenuID="Menu3_landhcpv6static" featurectrl="BBSP_FT_IPV6_DHCP6S&amp;FT_FTTR_MAIN_ONT" url="/html/bbsp/dhcpstaticaddr/dhcpstaticaddress.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="无线设置" MenuID="Menu2_Net_WLAN" url="">
+<Item MenuLevel="3" MenuName="无线基本设置" MenuID="Menu3_NW_Basic" featurectrl="HW_AMP_FEATURE_SINGLE_WLAN" url="/html/amp/wlanbasic/e8cWlanBasic.asp" />
+<Item MenuLevel="3" MenuName="无线高级设置" MenuID="Menu3_NW_Advanced" featurectrl="HW_AMP_FEATURE_SINGLE_WLAN" url="/html/amp/wlanadv/e8cWlanAdvance.asp" />
+<Item MenuLevel="3" MenuName="2.4G无线基本设置" MenuID="Menu3_NW_Basic_2G" featurectrl="HW_AMP_FEATURE_DOUBLE_WLAN" url="/html/amp/wlanbasic/e8cWlanBasic.asp?2G" />
+<Item MenuLevel="3" MenuName="2.4G无线高级设置" MenuID="Menu3_NW_Advanced_2G" featurectrl="HW_AMP_FEATURE_DOUBLE_WLAN" url="/html/amp/wlanadv/e8cWlanAdvance.asp?2G" />
+<Item MenuLevel="3" MenuName="5G无线基本设置" MenuID="Menu3_NW_Basic_5G" featurectrl="HW_AMP_FEATURE_DOUBLE_WLAN" url="/html/amp/wlanbasic/e8cWlanBasic.asp?5G" />
+<Item MenuLevel="3" MenuName="5G无线高级设置" MenuID="Menu3_NW_Advanced_5G" featurectrl="HW_AMP_FEATURE_DOUBLE_WLAN" url="/html/amp/wlanadv/e8cWlanAdvance.asp?5G" />
+<Item MenuLevel="3" MenuName="智能覆盖网络管理" MenuID="Menu3_Wifi_Cover_Cfg" featurectrl="HW_AMP_FEATURE_WLAN|FT_WLAN_UPNP_EXPAND" url="/html/amp/wificovercfg/wifiCover.asp" />
+<Item MenuLevel="3" MenuName="射频管理" MenuID="Menu3_ap_turn" featurectrl="!HW_FEATURE_ZQ&amp;FT_FTTR_MAIN_ONT" url="/html/amp/wlaninfo/wifiApTurn.asp" />
+<Item MenuLevel="3" MenuName="功率管理" MenuID="Menu3_ap_optimize" featurectrl="!HW_FEATURE_ZQ&amp;FT_FTTR_MAIN_ONT" url="/html/amp/wlaninfo/wifiApPower.asp" />
+<Item MenuLevel="3" MenuName="WAPI证书" MenuID="Menu3_Wapi" featurectrl="HW_AMP_FEATURE_WAPI" url="/html/amp/wapi/Wapi.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="远程管理" MenuID="Menu2_Net_Management" url="">
+<Item MenuLevel="3" MenuName="宽带识别码认证" MenuID="Menu3_NM_Loid" url="/html/ssmp/loid/loid.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="路由配置" MenuID="Menu2_Net_Route" url="">
+<Item MenuLevel="3" MenuName="路由表"  MenuID="Menu3_routeinfochina" url="/html/bbsp/routeinfo/routeinfochina.asp" />
+</Item>
+</Item>
+<Item MenuLevel="1" MenuName="安全" MenuID="Menu1_Secure" url="">
+<Item MenuLevel="2" MenuName="广域网访问设置" MenuID="Menu2_Secu_WAN" url="">
+<Item MenuLevel="3" MenuName="广域网访问设置" MenuID="Menu3_SeW_WAN" featurectrl="BBSP_FT_PARENTAL_CTRL_URL_FLT" url="/html/bbsp/urlfiltersetting/urlfiltersettinge8c.asp" />
+<Item MenuLevel="3" MenuName="ONT访问控制配置" MenuID="Menu3_acl" featurectrl="HW_AMP_FEATURE_WLAN" url="/html/bbsp/acl/acl.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="防火墙" MenuID="Menu2_Secu_Firewall" url="">
+<Item MenuLevel="3" MenuName="IPv4防火墙" MenuID="Menu3_SeF_Firewall" url="/html/bbsp/firewalllevel/firewalle8c.asp" />
+<Item MenuLevel="3" MenuName="IPv6防火墙" MenuID="Menu3_SeF_IPV6Firewall" featurectrl="BBSP_FT_CONFIG_IPV6_SESSION" url="/html/bbsp/ipv6firewall/firewall.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="MAC过滤" MenuID="Menu2_Secu_MAC" url="">
+<Item MenuLevel="3" MenuName="MAC过滤" MenuID="Menu3_SeM_MAC" featurectrl="BBSP_FT_MACFILTER" url="/html/bbsp/macfilter/macfiltere8c.asp" />
+<Item MenuLevel="3" MenuName="无线网络MAC过滤" MenuID="Menu3_wlanmacfiltere8c" featurectrl="BBSP_FT_WLANMACFILER" url="/html/bbsp/wlanmacfilter/wlanmacfiltere8c.asp" />
+</Item>
+</Item>
+<Item MenuLevel="1" MenuName="应用" MenuID="Menu1_Application" url="">
+<Item MenuLevel="2" MenuName="高级NAT配置" MenuID="Menu2_App_NAT" featurectrl="BBSP_FT_FJCT" url="">
+<Item MenuLevel="3" MenuName="DMZ设置" MenuID="Menu3_AN_DMZ" featurectrl="BBSP_FT_FJCT" url="/html/bbsp/dmz/dmze8c.asp" />
+<Item MenuLevel="3" MenuName="IPv4虚拟服务器设置" MenuID="Menu3_AN_VirtualServer" featurectrl="BBSP_FT_PORTMAP_IP" url="/html/bbsp/portmapping/portmappingolde8c.asp" />
+<Item MenuLevel="3" MenuName="IPv6虚拟服务器设置" MenuID="Menu3_AN_IPV6VirtualServer" featurectrl="BBSP_FT_IPV6_PORTMAPPING" url="/html/bbsp/ipv6portmapping/ipv6portmapping.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="LAN口多业务" MenuID="Menu2_LAN_PORT" url="">
+<Item MenuLevel="3" MenuName="LAN口多业务" MenuID="Menu3_lanservicecfg" featurectrl="FT_MULTI_SERVICE_IPTV_PORT|FT_MULTI_SERVICE_IPTV_PORT_NEW" url="/html/bbsp/lanservicecfg/lanservicecfg.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="日常应用" MenuID="Menu2_App_Application" url="">
+<Item MenuLevel="3" MenuName="远程下载" MenuID="Menu3_e8cusbhost" featurectrl="HW_SSMP_FEATURE_USB" url="/html/ssmp/usbftp/e8cusbhost.asp" />
+<Item MenuLevel="3" MenuName="家庭共享" MenuID="Menu3_e8csamba" featurectrl="HW_SSMP_FEATURE_USBPRINTER" url="/html/ssmp/samba/e8csamba.asp" />
+<Item MenuLevel="3" MenuName="媒体共享" MenuID="Menu3_e8cdlna" featurectrl="HW_SSMP_FEATURE_DLNA" url="/html/ssmp/dlna/e8cdlna.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="VR配置" MenuID="Menu2_App_VR" featurectrl="FT_BBSP_FUTURE_VRRECOGNITION" url="">
+<Item MenuLevel="3" MenuName="VR设置" MenuID="Menu3_AU_VR" featurectrl="FT_BBSP_FUTURE_VRRECOGNITION" url="/html/bbsp/cloudVR/cloudVR.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="VPN配置" MenuID="Menu2_VPN" featurectrl="FT_FTTR_MAIN_ONT&amp;FT_VXLAN" url="">
+<Item MenuLevel="3" MenuName="VXLAN隧道配置" MenuID="Menu3_VXLAN" featurectrl="FT_FTTR_MAIN_ONT&amp;FT_VXLAN" url="/html/bbsp/vxlan/vxlan.asp" />
+</Item>
+</Item>
+<Item MenuLevel="1" MenuName="管理" MenuID="Menu1_Managemen" url="">
+<Item MenuLevel="2" MenuName="用户管理" MenuID="Menu2_Mng_User" url="">
+<Item MenuLevel="3" MenuName="用户管理" MenuID="Menu3_MU_User" url="/html/ssmp/accoutcfg/e8caccount.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="设备管理" MenuID="Menu2_Mng_Device" url="">
+<Item MenuLevel="3" MenuName="设备管理" MenuID="Menu2_Mng_Device" url="/html/ssmp/devmanage/e8cdevicemanormal.asp" />
+<Item MenuLevel="3" MenuName="指示灯状态管理" MenuID="Menu3_ledcfg" featurectrl="HW_SSMP_FEATURE_DM_LEDSWITCH" url="/html/ssmp/ledcfg/ledcfg.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="业务管理" MenuID="Menu2_e8cbss" featurectrl="HW_SSMP_FEATURE_MNGT_YNCT" url="">
+<Item MenuLevel="3" MenuName="业务管理" MenuID="Menu3_e8cbss" featurectrl="HW_SSMP_FEATURE_MNGT_YNCT" url="/html/ssmp/bss/e8cbss.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="一键诊断" MenuID="Menu2_smartdiagnose" url="/html/ssmp/maintain/smartdiagnose.asp" >
+<Item MenuLevel="3" MenuName="一键诊断" MenuID="Menu3_smartdiagnose" url="/html/ssmp/maintain/smartdiagnose.asp" />
+<Item MenuLevel="3" MenuName="自动重启设置" MenuID="Menu3_restartautomatically" featurectrl="FT_SSMP_CPU_MEM_THRESHOLD" url="/html/ssmp/reset/restartautomatically.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="NFC" MenuID="Menu2_NFC_User" featurectrl="HAL_FEATURE_NFC_SRAM_MIRROR" url="">
+<Item MenuLevel="3" MenuName="NFC" MenuID="Menu3_NFC_User" featurectrl="HAL_FEATURE_NFC_SRAM_MIRROR" url="/html/amp/wlaninfo/nfcSetting.asp" />
+</Item>
+</Item>
+<Item MenuLevel="1" MenuName="帮助" MenuID="Menu1_Help" url="">
+<Item MenuLevel="2" MenuName="状态帮助" MenuID="Menu2_Help_Help" url="">
+<Item MenuLevel="3" MenuName="状态总览帮助" MenuID="Menu3_HH_Help" url="/html/ssmp/help/StatusDeviceHelpwithCfgguide.asp" />
+<Item MenuLevel="3" MenuName="网络侧信息帮助" MenuID="Menu3_HH_Help" url="/html/bbsp/help/StatusNetHelp.asp" />
+<Item MenuLevel="3" MenuName="用户侧信息帮助" MenuID="Menu3_HH_Help" url="/html/ssmp/help/StatusUserHelp.asp" />
+<Item MenuLevel="3" MenuName="语音信息帮助" MenuID="Menu3_HH_Help" featurectrl="HW_VSPA_FEATURE_VOIP" url="/html/voip/help/StatusVoiceHelp.asp" />
+<Item MenuLevel="3" MenuName="远程管理状态帮助" MenuID="Menu3_HH_Help" featurectrl="HW_SSMP_FEATURE_TR069" url="/html/ssmp/help/StatusRouteHelp.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="网络帮助" MenuID="Menu2_Help_Help" url="">
+<Item MenuLevel="3" MenuName="用户侧管理帮助" MenuID="Menu3_HH_Help" featurectrl="BBSP_FT_DHCP_MAIN" url="/html/bbsp/help/NetDHCPHelp.asp" />
+<Item MenuLevel="3" MenuName="WLAN配置帮助" MenuID="Menu3_HH_Help" featurectrl="HW_AMP_FEATURE_WLAN" url="/html/amp/help/NetWlanSetHelp.asp" />
+<Item MenuLevel="3" MenuName="远程管理帮助" MenuID="Menu3_HH_Help" featurectrl="HW_SSMP_FEATURE_TR069" url="/html/ssmp/help/NetRemoteSetHelp.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="安全帮助" MenuID="Menu2_Help_Help" url="">
+<Item MenuLevel="3" MenuName="广域网访问设置帮助" MenuID="Menu3_HH_Help" featurectrl="BBSP_FT_PARENTAL_CTRL_URL_FLT" url="/html/bbsp/help/SafeWanHelp.asp" />
+<Item MenuLevel="3" MenuName="防火墙帮助" MenuID="Menu3_HH_Help" url="/html/bbsp/help/SafeWallHelp.asp" />
+<Item MenuLevel="3" MenuName="MAC过滤帮助" MenuID="Menu3_HH_Help" featurectrl="BBSP_FT_MACFILTER" url="/html/bbsp/help/SafeMacHelp.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="应用帮助" MenuID="Menu2_Help_Help" url="">
+<Item MenuLevel="3" MenuName="高级NAT配置帮助" MenuID="Menu3_HH_Help" featurectrl="BBSP_FT_FJCT" url="/html/bbsp/help/UseNatHelp.asp" />
+<Item MenuLevel="3" MenuName="日常应用帮助" MenuID="Menu3_HH_Help" featurectrl="HW_SSMP_FEATURE_USB" url="/html/ssmp/help/UseUSBHelp.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="管理帮助" MenuID="Menu2_Help_Help" url="">
+<Item MenuLevel="3" MenuName="用户管理帮助" MenuID="Menu3_HH_Help" url="/html/ssmp/help/ManageUserHelp.asp" />
+<Item MenuLevel="3" MenuName="设备管理帮助" MenuID="Menu3_HH_Help" url="/html/ssmp/help/ManageRootDeviceHelp.asp" />
+<Item MenuLevel="3" MenuName="业务管理帮助" MenuID="Menu3_HH_Help" featurectrl="HW_SSMP_FEATURE_MNGT_YNCT" url="/html/ssmp/help/e8cbssHelp.asp" />
+<Item MenuLevel="3" MenuName="开源软件使用声明" MenuID="Menu3_opensfnotice" url = "/html/ssmp/softnotice/opensfnotice.asp"/>
+<Item MenuLevel="3" MenuName="EAI插件声明" featurectrl="FT_EAI_APP_SUPPORT" MenuID="EAIPluginNotice" url="/html/ssmp/softnotice/pluginnotice.asp" />
+</Item>
+<Item MenuLevel="2" MenuName="诊断帮助" MenuID="Menu2_Help_Help" url="">
+<Item MenuLevel="3" MenuName="一键诊断帮助" MenuID="Menu3_Diagnosis_Help" url="/html/ssmp/help/OneClickDiagHelp.asp" />
+<Item MenuLevel="3" MenuName="自动重启设置帮助" featurectrl="FT_SSMP_CPU_MEM_THRESHOLD" url="/html/ssmp/help/automaticallyHelp.asp" />
+</Item>
+</Item>
+</normal>
+</chinese>
+<public>
+<Item url="/resource/common/InitForm.asp"/>
+<Item url="/html/get_swm_status.asp" />
+<Item url="/html/amp/wlaninfo/setWifiTurnList.asp" />
+<Item url="/html/amp/wlaninfo/getWifiTurnResult.asp" />
+<Item url="/html/ssmp/common/StartFileLoad.asp" />
+<Item url="/html/ssmp/smblist/smb_choosedir_list.asp" />
+<Item url="/html/ssmp/common/getCurrentUsbDir.asp" />
+<Item url="/html/ssmp/common/CheckUSBFileExist.asp" />
+<Item url="/html/ssmp/common/CheckNormalPwd.asp"/>
+<Item url="/html/ssmp/common/CheckAdminPwd.asp"/>
+<Item url="/html/ssmp/common/getCollectStatus.asp"/>
+<Item url="/html/ssmp/common/getCollectProgress.asp"/>
+<Item url="/html/ssmp/common/getCurLanguage.asp"/>
+<Item url="/html/ssmp/common/getCurUserType.asp"/>
+<Item url="/html/ssmp/common/getCurWebFrame.asp"/>
+<Item url="/html/ssmp/common/getPwdModifyFlag.asp"/>
+<Item url="/html/ssmp/common/getPageName.asp"/>
+<Item url="/html/ssmp/common/getCurWebMenuPath.asp"/>
+<Item url="/html/ssmp/common/GetRandToken.asp" />
+<Item url="/html/ssmp/common/GetVoipTestResult.asp" />
+<Item url="/html/ssmp/common/GetVoipTestState.asp" />
+<Item url="/html/ssmp/common/ProductCapInfo.asp" />
+<Item url="/html/ssmp/common/refreshTime.asp"/>
+<Item url="/html/amp/ontauth/ontOnlineStatus.asp" />
+<Item url="/html/amp/ontauth/xgponauth_func.asp" />
+<Item url="/html/amp/common/WlanChannel.asp" />
+<Item url="/html/amp/common/getSsidProcFlag.asp" />
+<Item url="/html/amp/common/WlanGetApNeighborinfo.asp" />
+<Item url="/html/amp/common/WlanGetApSta.asp" />
+<Item url="/html/amp/common/WlanGetApStatistic.asp" />
+<Item url="/html/amp/common/getSmartDiagnoseResult.asp" />
+<Item url="/html/amp/wlanbasic/WlanWpsPin.asp" />
+<Item url="/html/amp/wlanadv/e8cwlanadvance_api.asp" />
+<Item url="/html/amp/wlanadv/wlanadvance_com_api.asp" />
+<Item url="/html/msgerrcode.asp" />
+<Item url="/html/proerrcode.asp" />
+<Item url="/html/relocation.asp" />
+<Item url="/html/bbsp/common/userinfo.asp" />
+<Item url="/html/bbsp/common/lanmodelist.asp" />
+<Item url="/html/bbsp/common/ontstate.asp" />
+<Item url="/html/bbsp/common/getwanlist.asp" />
+<Item url="/html/bbsp/common/EquipTestResultsmart.asp" />
+<Item url="/html/bbsp/common/topoinfo.asp" />
+<Item url="/html/bbsp/common/wanaddressacquire.asp" />
+<Item url="/html/bbsp/common/wandns.asp" />
+<Item url="/html/bbsp/maintenance/getEquipTestResultsmart.asp" />
+<Item url="/html/bbsp/common/wanipv6state.asp" />
+<Item url="/html/bbsp/common/managemode.asp" />
+<Item url="/html/amp/common/wlan_list.asp" />
+<Item url="/html/amp/common/wlan_extended.asp" />
+<Item url="/html/amp/wlaninfo/getradar.asp" />
+<Item url="/html/bbsp/common/dataspeedlimit.asp" />
+<Item url="/html/bbsp/maintenance/selftestwaite8c.asp" />
+<Item url="/html/management/SetForceSupport.asp" />
+<Item url="/html/amp/wlaninfo/getassociateddeviceinfo.asp" />
+<Item url="/html/amp/wlaninfo/getassociatedstaboost.asp" />
+<Item url="/html/amp/wlaninfo/getneighbourAPinfo.asp" />
+<Item url="/html/amp/wificoverinfo/getGhnDeviceInfo.asp" />
+<Item url="/html/amp/wificoverinfo/getTopoInfo.asp" />
+<Item url="/html/amp/wificoverinfo/getEthInfo.asp" />
+<Item url="/html/amp/wificoverinfo/getAPPONInfo.asp" />
+<Item url="/html/amp/wificoverinfo/delOfflineAp.asp" />
+<Item url="/html/amp/wificoverinfo/delOfflineDevice.asp" />
+<Item url="/html/amp/wificoverinfo/apNeighborList.asp" />
+<Item url="/html/amp/wificoverinfo/apssidStat.asp" />
+<Item url="/html/amp/wificoverinfo/apssidStation.asp" />
+<Item url="/html/amp/wificovercfg/refreshOperFlag.asp"/>
+<Item url="/html/amp/wificovercfg/getSsidlist.asp"/>
+<Item url="/html/common/ProductCapInfo.asp" />
+<Item url="/html/bbsp/common/qosinfoe8c.asp" />
+<Item url="/html/bbsp/common/dhcpinfo.asp" />
+<Item url="/html/bbsp/common/lanuserinfo.asp"/>
+<Item url="/html/bbsp/common/GetLanUserDhcpInfo.asp"/>
+<Item url="/html/bbsp/common/GetLanUserDevInfo.asp"/>
+<Item url="/html/voip/cnstatus/cnsipregstatus.asp" />
+<Item url="/html/voip/cnstatus/cnh248regstatus.asp" />
+<Item url="/html/voip/authfail/voipdisplayauthfail.asp" />
+<Item url="/asp/GetConfigStatusInfo.asp" />
+<Item url="/html/httpsdirect.asp"/>
+<Item url="/html/bbsp/common/wanpageparse.asp"/>
+<Item url="/html/bbsp/common/wandatabind.asp"/>
+<Item url="/html/bbsp/common/wancontrole8c.asp"/>
+<Item url="/html/bbsp/common/wan_list_info.asp"/>
+<Item url="/html/bbsp/common/wan_list.asp"/>
+<Item url="/html/bbsp/common/wan_settings.asp"/>
+<Item url="/html/bbsp/common/wan_settings_static.asp"/>
+<Item url="/html/bbsp/common/wan_list_info_e8c.asp"/>
+<Item url="/html/bbsp/common/wan_list_e8c.asp"/>
+<Item url="/html/bbsp/common/wan_settings_e8c.asp"/>
+<Item url="/html/bbsp/common/wan_settings_static_e8c.asp"/>
+<Item url="/html/bbsp/common/getWanDynamicData.asp"/>
+<Item url="/html/bbsp/common/wanStateMonitor.asp"/>
+<Item url="/html/bbsp/common/wan_pageparse.asp"/>
+<Item url="/html/bbsp/common/wan_servicelist.js"/>
+<Item url="/html/bbsp/common/wan_control.asp"/>
+<Item url="/html/bbsp/common/wan_check.asp"/>
+<Item url="/html/bbsp/routeinfo/GetRouteInfoProcResult.asp"/>
+<Item url="/html/bbsp/routeinfo/GetRouteInfoProcState.asp"/>
+<Item url="/html/bbsp/common/getwanlist.asp"/>
+<Item url="/html/bbsp/maintenance/getStbDiagnoseResult.asp"/>
+<Item url="/html/amp/common/getSmartDiagnoseResult.asp"/>
+<Item url="/html/bbsp/userdevinfo/userdetdevinfo.asp" />
+<Item url="/html/bbsp/userdevinfo/getuserdevinfo.asp" />
+<Item url="/html/ssmp/maintain/getSdDevTestStatus.asp" />
+<Item url="/html/ssmp/testspeed/speedResult.asp" />
+<Item url="/html/ssmp/Sectionspeed/clientspeedResult.asp" />
+<Item url="/html/ssmp/Sectionspeed/serverspeedResult.asp" />
+<Item url="/html/ssmp/Sectionspeed/getfileResult.asp" />
+<Item url="/html/voip/common/srvnummapping_list.asp" />
+<Item url="/html/voip/common/voip_disableallelement.asp" />
+<Item url="/html/bbsp/maintenance/getEquipTestResult.asp" />
+<Item url="/html/ssmp/common/CheckCliPasswordModified.asp" />
+<Item url="/html/amp/wlanbasic/guidewificfg.asp" />
+<Item url="/html/CustomApp/adminguideframe_fttr.asp" />
+<!-- async load begin -->
+<Item url="/html/bbsp/common/wan_list_cache_wan.asp"/>
+<Item url="/html/bbsp/common/get_wan_list_policyroute.asp" />
+<Item url="/html/bbsp/common/get_wan_list_ipversion.asp" />
+<Item url="/html/bbsp/common/get_wan_list_ispwlan.asp" />
+<Item url="/html/bbsp/common/get_wan_list_wlaninfo.asp" />
+<Item url="/html/bbsp/common/get_wan_list_ipdslite.asp" />
+<Item url="/html/bbsp/common/get_wan_list_pppdslite.asp" />
+<Item url="/html/bbsp/common/get_wan_list_radiowanps.asp" />
+<Item url="/html/bbsp/common/get_wan_list_radiowanpara.asp" />
+<Item url="/html/bbsp/common/get_wan_list_ipwanstat.asp" />
+<Item url="/html/bbsp/common/get_wan_list_pppwanstat.asp" />
+<Item url="/html/bbsp/common/get_wan_list_v6iptunnel.asp" />
+<Item url="/html/bbsp/common/get_wan_list_v6ppptunnel.asp" />
+<Item url="/html/bbsp/common/get_wan_list_dsllinkconf.asp" />
+<Item url="/html/bbsp/common/get_wan_list_wanaccesstype.asp" />
+<Item url="/html/bbsp/common/get_wan_list_time.asp" />
+<Item url="/html/bbsp/common/get_wan_list_ipv6time.asp" />
+<Item url="/html/bbsp/common/get_ipv6state_address.asp" />
+<Item url="/html/bbsp/common/get_ipv6state_prefix.asp" />
+<Item url="/html/bbsp/common/wan_list_cache_wanipv6.asp" />
+<Item url="/html/bbsp/common/wan_list_cache_wanaddressacquire.asp" />
+<Item url="/html/ssmp/aplog/aplogview_ios.asp"/>
+<!-- async load end -->
+<Item url="/html/amp/wlaninfo/getOptimizeState.asp"/>
+<Item url="/html/amp/wlanadv/getProcessState.asp" />
+<Item url="/html/bbsp/lanservicecfg/lanportcfg.asp" />
+<Item url="/html/ssmp/common/getApCollectStatus.asp" featurectrl="FT_FTTR_MAIN_ONT"/>
+<Item url="/html/ssmp/common/GetApActionEnable.asp" featurectrl="FT_FTTR_MAIN_ONT"/>
+<Item url="/html/ssmp/common/getCollectApProgress.asp" featurectrl="FT_FTTR_MAIN_ONT"/>
+<Item url="/html/ssmp/common/getApDownloadCfgStatus.asp" featurectrl="FT_FTTR_MAIN_ONT"/>
+</public>
+<adminfiles>
+<Item url="/html/ssmp/debuglog/debuglogview_ios.asp"/>
+<Item url="/html/bbsp/maintenance/GetNceStatus.asp" />
+<Item url="/html/ssmp/collect/collectInfo_ios.asp"/>
+<Item url="/CustomApp/Aindex.asp"/>
+<Item url="/CustomApp/index.asp"/>
+<Item url="/html/bbsp/maintenance/selftestwaite8c.asp" />
+<Item url="/html/ssmp/CusUserLog/e8clogview.asp" />
+<Item url="/html/ssmp/tr069/certinpute8c.asp" />
+<Item url="/html/ssmp/tr069/hrefcerte8c.asp" />
+<Item url="/html/voip/authfail/voipdisplayauthfail.asp" />
+<Item url="/html/voip/cnstatus/cnsipregstatus.asp" />
+<Item url="/html/voip/cnstatus/h248sipregstatus.asp" />
+<Item url="/html/voip/cnoutlinetest/cnoutlinetest.asp" />
+<Item url="/html/voip/cnoutlinetest/cnoutlinetestreal.asp" />
+<Item url="/html/voip/cninnerlinetest/cninnerlinetest.asp" />
+<Item url="/html/voip/cninnerlinetest/cninnerlinetestreal.asp" />
+<Item url="/html/voip/cnqualitystatistic/cnqualitystatistics.asp" />
+<Item url="/html/voip/cnqualitystatistic/cnqualitystatisticsreal.asp" />
+<Item url="/html/voip/statistic/voipstatistic.asp" />
+<Item url="/html/voip/cnvoipinterface/cnvoipinterface.asp" />
+<Item url="/html/voip/cnvoipinterface/cnsipvoipinterface.asp" />
+<Item url="/html/voip/cnvoipinterface/cnh248voipinterface.asp" />
+<Item url="/html/voip/cnvoipuser/cnvoipuser.asp" />
+<Item url="/html/voip/cnvoipuser/cnsipvoipuser.asp" />
+<Item url="/html/voip/cnvoipuser/cnh248voipuser.asp" />
+<Item url="/html/voip/voipsub/cnvoipsub.asp" />
+<Item url="/html/voip/voipsub/cnsipvoipsub.asp" />
+<Item url="/html/voip/voipsub/cnh248voipsub.asp" />
+<Item url="/html/voip/fax/cnvoipfax.asp" />
+<Item url="/html/voip/digitmap/cndigitmap.asp" />
+<Item url="/html/voip/digitmap/cnsipdigitmap.asp" />
+<Item url="/html/voip/digitmap/cnh248digitmap.asp" />
+<Item url="/html/voip/cnvoipinterface/cnvoipServertypechangeTemp.asp" />
+<Item url="/html/voip/digitmap/cndigitmap.asp" />
+<Item url="/html/bbsp/maintenance/GetPingResult.asp" />
+<Item url="/html/bbsp/maintenance/GetPingDnsResult.asp" />
+<Item url="/html/bbsp/maintenance/GetRouteResult.asp" />
+<Item url="/html/bbsp/common/ipv6staticroute.asp" />
+<Item url="/html/bbsp/lanservicecfg/lanservicecfg.asp" />
+<Item url="/html/bbsp/lanservicecfg/iptvupport.asp" />
+</adminfiles>
+<userfiles>
+<Item url="/CustomApp/index.asp"/>
+</userfiles>
+</WebConfig>

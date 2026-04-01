@@ -1,0 +1,11 @@
+<InternetGatewayDevice>
+<LANDevice setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<LANHostConfigManagement setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<X_HW_PublicIPInterface setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<Enable setconfig = "0x00000007" getconfig = "0x00000007"/>
+<IPAddress setconfig = "0x00000007" getconfig = "0x00000007"/>
+<SubnetMask setconfig = "0x00000007" getconfig = "0x00000007"/>
+</X_HW_PublicIPInterface>
+</LANHostConfigManagement> 
+</LANDevice> 
+</InternetGatewayDevice> 

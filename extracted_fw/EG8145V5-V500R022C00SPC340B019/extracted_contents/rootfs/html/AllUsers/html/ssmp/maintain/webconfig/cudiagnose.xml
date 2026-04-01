@@ -1,0 +1,5 @@
+﻿<InternetGatewayDevice> 
+<X_HW_UserInfo> 
+<ForceSupport setconfig = "0x00000003" getconfig = "0x00000003"/>
+</X_HW_UserInfo> 
+</InternetGatewayDevice>

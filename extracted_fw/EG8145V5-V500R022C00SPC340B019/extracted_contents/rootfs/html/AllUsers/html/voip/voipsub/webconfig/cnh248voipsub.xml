@@ -1,0 +1,22 @@
+<InternetGatewayDevice> 
+<Services>
+<VoiceService setconfig = "0x00000003">
+<VoiceProfile setconfig = "0x00000002" >
+<X_HW_H248  setconfig = "0x00000002">
+<HeartbeatMode setconfig = "0x00000002" />
+<Extend  setconfig = "0x00000002">
+<HeartBeatTimer setconfig = "0x00000002" />
+<HeartBeatRetransTimer setconfig = "0x00000002" />
+<HeartBeatRetransTimes setconfig = "0x00000002" />
+</Extend>
+</X_HW_H248>
+</VoiceProfile>
+<PhyInterface setconfig = "0x00000002" >
+<X_HW_Extend setconfig = "0x00000002" >
+<ClipFormat setconfig = "0x00000002" />
+<ClipSendDateTime setconfig = "0x00000002" />
+</X_HW_Extend>
+</PhyInterface>
+</VoiceService>
+</Services>
+</InternetGatewayDevice>

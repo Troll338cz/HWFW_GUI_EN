@@ -1,0 +1,12 @@
+<ObjPerm>
+<Plugin Name="default">
+<Object Path="InternetGatewayDevice.DeviceInfo"/>
+<Object Path="InternetGatewayDevice.X_HW_AppRemoteManage"/>
+<Object Path="InternetGatewayDevice.X_HW_EAIInfo.GameAcceleration"/>
+<Object Path="InternetGatewayDevice.X_HW_EAIInfo.PingAcceleration"/>
+<Object Path="InternetGatewayDevice.X_HW_EAIInfo.EduAcceleration"/>
+<Object Path="InternetGatewayDevice.X_HW_EAIInfo.OfficeAcceleration"/>
+<Object Path="InternetGatewayDevice.X_HW_EAIInfo.VideoAcceleration"/>
+<Object Path="InternetGatewayDevice.X_HW_EAIInfo.StreamAcceleration"/>
+</Plugin>
+</ObjPerm>

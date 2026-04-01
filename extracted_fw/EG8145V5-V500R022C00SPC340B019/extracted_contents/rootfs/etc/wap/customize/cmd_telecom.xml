@@ -1,0 +1,23 @@
+<CusCliRoot>
+<SetTr069info CmdStr="set tr069 info" CmdGroup=""/>
+<SwmLoadCfg CmdStr="load cfg" CmdGroup=""/>
+<SwmBackupCfg CmdStr="backup cfg" CmdGroup=""/>
+<SetWanWhite CmdStr="set wan white" CmdGroup=""/>
+<SetWanWhiteList CmdStr="set the wan white list" CmdGroup=""/>
+<AddWanWhiteList CmdStr="add wan white list" CmdGroup=""/>
+<DelWanWhiteList CmdStr="del wan white list" CmdGroup=""/>
+<DnsserverAddStatic CmdStr="dnsserver add static" CmdGroup=""/>
+<DnsserverDeleteStatic CmdStr="dnsserver delete static" CmdGroup=""/>
+<FirewallRuleAdd CmdStr="firewall rule add" CmdGroup=""/>
+<FirewallRuleDelete CmdStr="firewall rule delete" CmdGroup=""/>
+<FirewallRuleFlush CmdStr="firewall rule flush" CmdGroup=""/>
+<IpNeighAdd CmdStr="ip neigh add" CmdGroup=""/>
+<IpNeighDelete CmdStr="ip neigh delete" CmdGroup=""/>
+<IpNeighFlush CmdStr="ip neigh flush" CmdGroup=""/>
+<IpRouteAdd CmdStr="ip route add" CmdGroup=""/>
+<IpRouteDelete CmdStr="ip route delete" CmdGroup=""/>
+<AddPortmapping CmdStr="nat port mapping add" CmdGroup=""/>
+<DelPortmapping CmdStr="nat port mapping delete" CmdGroup=""/>
+<FlushPortmapping CmdStr="nat port mapping flush" CmdGroup=""/>
+<SetAclServicesRule CmdStr="set aclservicesrule" CmdGroup=""/>
+</CusCliRoot>

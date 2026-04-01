@@ -1,0 +1,46 @@
+SHELL:cat /var/wifipmlog
+SHELL:sleep 0.5
+SHELL:cat /var/hilink/topodebug*
+SHELL:sleep 1
+SHELL:touch /var/cli_mask_file
+WAP:display wifi information
+SHELL:sleep 0.5
+WAP:display wifi associate
+SHELL:sleep 0.5
+WAP:display wifi neighbor
+SHELL:sleep 2
+SHELL:rm -rf /var/cli_mask_file
+SHELL:head -n 10 /mnt/jffs2/fem_init_par.bin
+SHELL:cat /var/board_cfg.txt
+SHELL:cat /proc/bus/pci/devices
+WAP:get wlan enable laninst 1
+WAP:get wlan basic laninst 1 wlaninst 1
+WAP:get wlan basic laninst 1 wlaninst 2
+WAP:get wlan basic laninst 1 wlaninst 3
+WAP:get wlan basic laninst 1 wlaninst 4
+WAP:get wlan basic laninst 1 wlaninst 5
+WAP:get wlan basic laninst 1 wlaninst 6
+WAP:get wlan basic laninst 1 wlaninst 7
+WAP:get wlan basic laninst 1 wlaninst 8
+WAP:get wlan stats laninst 1 wlaninst 1
+WAP:get wlan stats laninst 1 wlaninst 5
+WAP:get wlan advance laninst 1 wlaninst 1
+WAP:get wlan advance laninst 1 wlaninst 5
+SHELL:wlancmd show log
+SHELL:sleep 0.5
+SHELL:wlancmd show xlinkerrlog
+SHELL:sleep 0.5
+SHELL:wlancmd debug ap log
+SHELL:wlancmd debug scn show sta
+SHELL:wlancmd debug scn show ap
+SHELL:wlancmd debug scn show friend_sta
+SHELL:wlancmd debug scn show friend_rule
+SHELL:wlancmd debug scn show log
+SHELL:sleep 0.5
+WAP:display wifi ap
+WAP:udm show log
+SHELL:cat /proc/wap_proc/keyinfoget_log
+SHELL:cat /proc/wifilog/debug/All
+SHELL:getcustomize.sh
+SHELL:wifi_collect.sh
+

@@ -1,0 +1,38 @@
+<InternetGatewayDevice>
+<Services>
+<X_HW_Printer setconfig = "0x00000007" getconfig = "0x00000007">
+<Enable setconfig = "0x00000007" getconfig = "0x00000007"/>
+<Name setconfig = "0x00000007" getconfig = "0x00000007"/>
+</X_HW_Printer>
+<StorageService setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<UserAccount setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<Enable setconfig = "0x00000007" getconfig = "0x00000007"/>
+<Username setconfig = "0x00000007" getconfig = "0x00000007"/>
+<Password setconfig = "0x00000007" getconfig = "0x00000007"/>
+<X_HW_AllPath setconfig = "0x00000007" getconfig = "0x00000007"/>
+<X_HW_Permissions setconfig = "0x00000007" getconfig = "0x00000007"/>
+</UserAccount>
+<LogicalVolume setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<Folder setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<Name setconfig = "0x00000007" getconfig = "0x00000007"/>
+<X_HW_NameNative setconfig = "0x00000007" getconfig = "0x00000007"/>
+<Enable setconfig = "0x00000007" getconfig = "0x00000007"/>
+<UserAccountAccess setconfig = "0x00000007" getconfig = "0x00000007"/>
+<UserAccessNumberOfEntries setconfig = "0x00000007" getconfig = "0x00000007"/>
+<UserAccess setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<UserReference setconfig = "0x00000007" getconfig = "0x00000007"/>
+<Permissions setconfig = "0x00000007" getconfig = "0x00000007"/>
+</UserAccess>
+</Folder>
+</LogicalVolume>
+<NetworkServer setconfig = "0x00000007" getconfig = "0x00000007">
+<SMBEnable setconfig = "0x00000007" getconfig = "0x00000007"/>
+<NetworkProtocolAuthReq setconfig = "0x00000007" getconfig = "0x00000007"/>
+</NetworkServer>
+<Enable setconfig = "0x00000007" getconfig = "0x00000007"/>
+<PhysicalMediumNumberOfEntries setconfig = "0x00000007" getconfig = "0x00000007"/>
+<LogicalVolumeNumberOfEntries setconfig = "0x00000007" getconfig = "0x00000007"/>
+<UserAccountNumberOfEntries setconfig = "0x00000007" getconfig = "0x00000007"/>
+</StorageService>
+</Services>
+</InternetGatewayDevice>

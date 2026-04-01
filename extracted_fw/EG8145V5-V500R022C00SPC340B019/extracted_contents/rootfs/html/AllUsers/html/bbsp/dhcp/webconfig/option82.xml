@@ -1,0 +1,7 @@
+<InternetGatewayDevice> 
+<LANDevice setconfig="0x00000003" getconfig = "0x00000003">
+<LANHostConfigManagement setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<X_HW_DHCPOption82Enable setconfig = "0x00000003" getconfig = "0x00000003"/>
+</LANHostConfigManagement>
+</LANDevice>
+</InternetGatewayDevice>

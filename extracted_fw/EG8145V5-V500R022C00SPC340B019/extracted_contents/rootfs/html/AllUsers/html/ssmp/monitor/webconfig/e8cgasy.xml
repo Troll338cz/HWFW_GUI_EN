@@ -1,0 +1,10 @@
+<InternetGatewayDevice> 
+<DeviceInfo setconfig = "0x00000003" getconfig = "0x00000003"> 
+<GASY setconfig = "0x00000002" getconfig = "0x00000002">
+<White_list setconfig = "0x00000002" getconfig = "0x00000002">
+<status setconfig = "0x00000002"/>
+<URL setconfig = "0x00000002"/>
+</White_list>
+</GASY>
+</DeviceInfo>
+</InternetGatewayDevice> 

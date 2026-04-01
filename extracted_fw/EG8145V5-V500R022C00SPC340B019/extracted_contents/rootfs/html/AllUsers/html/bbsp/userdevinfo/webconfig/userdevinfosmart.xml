@@ -1,0 +1,35 @@
+<InternetGatewayDevice>
+<LANDevice setconfig="0x00000003" getconfig="0x00000003">
+<X_HW_UserDev setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<IpAddr setconfig = "0x00000003" getconfig = "0x00000003"/>
+<MacAddr setconfig = "0x00000003" getconfig = "0x00000003"/>
+<time setconfig = "0x00000003" getconfig = "0x00000003"/>
+<HostName setconfig = "0x00000003" getconfig = "0x00000003"/>    
+<PortID setconfig = "0x00000003" getconfig = "0x00000003"/>
+<IpType setconfig = "0x00000003" getconfig = "0x00000003"/>
+<DevType setconfig = "0x00000003" getconfig = "0x00000003"/>
+<DevStatus setconfig = "0x00000003" getconfig = "0x00000003"/>
+<PortType setconfig = "0x00000003" getconfig = "0x00000003"/>    
+</X_HW_UserDev>
+</LANDevice> 
+<X_HW_HOMENET_NAME setconfig="0x00000003" getconfig="0x00000003">
+<hosts setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<MACAddress setconfig = "0x00000003" getconfig = "0x00000003"/> 
+<Name setconfig = "0x00000003" getconfig = "0x00000003"/> 
+</hosts>
+</X_HW_HOMENET_NAME>
+<X_HW_Security setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<MacFilterPolicy setconfig = "0x00000003" getconfig = "0x00000003"/>
+<MacFilterRight setconfig = "0x00000003" getconfig = "0x00000003"/>
+<MacFilter setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<SourceMACAddress setconfig = "0x00000003" getconfig = "0x00000003"/>
+</MacFilter>
+<WlanMacFilterPolicy setconfig = "0x00000003" getconfig = "0x00000003"/>
+<WlanMacFilterRight setconfig = "0x00000003" getconfig = "0x00000003"/>
+<WLANMacFilter setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<Enable setconfig = "0x00000003" getconfig = "0x00000003"/>
+<SSIDName setconfig = "0x00000003" getconfig = "0x00000003"/>
+<SourceMACAddress setconfig = "0x00000003" getconfig = "0x00000003"/>
+</WLANMacFilter>
+</X_HW_Security>
+</InternetGatewayDevice> 

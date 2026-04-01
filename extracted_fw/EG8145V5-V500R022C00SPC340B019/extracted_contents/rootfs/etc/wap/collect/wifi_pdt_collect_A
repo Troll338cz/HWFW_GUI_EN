@@ -1,0 +1,33 @@
+SHELL:cat /var/wifipmlog
+SHELL:sleep 0.5
+SHELL:cat /var/hilink/topodebug*
+SHELL:sleep 1
+SHELL:touch /var/cli_mask_file
+SHELL:rm -rf /var/cli_mask_file
+SHELL:head -n 10 /mnt/jffs2/fem_init_par.bin
+SHELL:cat /var/board_cfg.txt
+SHELL:cat /proc/bus/pci/devices
+WAP:get wlan enable laninst 1
+WAP:get wlan basic laninst 1 wlaninst 1
+WAP:get wlan basic laninst 1 wlaninst 5
+WAP:get wlan stats laninst 1 wlaninst 1
+WAP:get wlan stats laninst 1 wlaninst 5
+WAP:get wlan advance laninst 1 wlaninst 1
+WAP:get wlan advance laninst 1 wlaninst 5
+SHELL:wlancmd show log
+SHELL:sleep 0.5
+SHELL:wlancmd show vitranslog |sed 's/\<\(\([a-f0-9A-F*][a-f0-9A-F*][.-:]\)\{4\}\)[a-f0-9A-F*][a-f0-9A-F*][.-:][a-f0-9A-F*][a-f0-9A-F*]/\1**-**/g' |sed 's/\(\([0-9]\{1,3\}[.]\)\{2\}\)[0-9]\{1,3\}[.][0-9]\{1,3\}/\1*.*/g'
+SHELL:sleep 0.5
+SHELL:wlancmd show xlinkerrlog
+SHELL:sleep 0.5
+SHELL:wlancmd debug ap log
+SHELL:wlancmd debug scn show sta
+SHELL:wlancmd debug scn show ap
+SHELL:wlancmd debug scn show friend_sta
+SHELL:wlancmd debug scn show friend_rule
+SHELL:wlancmd debug scn show log
+SHELL:sleep 0.5
+WAP:display wifi ap
+SHELL:getcustomize.sh
+SHELL:cat /proc/wifilog/debug/All
+SHELL:wifi_collect.sh |sed 's/\<\(\([a-f0-9A-F*][a-f0-9A-F*][.-:]\)\{4\}\)[a-f0-9A-F*][a-f0-9A-F*][.-:][a-f0-9A-F*][a-f0-9A-F*]/\1**-**/g' |sed 's/\(\([0-9]\{1,3\}[.]\)\{2\}\)[0-9]\{1,3\}[.][0-9]\{1,3\}/\1*.*/g'

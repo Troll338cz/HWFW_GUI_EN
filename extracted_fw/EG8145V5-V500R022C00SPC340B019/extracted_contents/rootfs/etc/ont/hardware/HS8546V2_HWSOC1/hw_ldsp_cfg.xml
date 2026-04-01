@@ -1,0 +1,500 @@
+<X_HW_SystemConfig>
+  <CommonCfg>
+    <GPIO>
+      <!-- ********************************************
+        <NormalUse NumberOfInstances="33">
+        -->
+      <!-- ********************************************
+           <NormalUseInstance InstanceID="1"
+                             AccessMode="0x200000ff"          
+                             Cmd="0x20012000"
+                             PinId="7"
+                             Invalid="0xff"
+                             Mode="1"
+                             Direct="1"
+                             InitValue="0" />
+          -->      
+      <Cfg1>
+        <Cmd type="long" length="4">0x20012000</Cmd>
+        <para1 type="long" length="4">1</para1>    
+        <para2 type="long" length="4">0xff</para2>
+        <para3 type="long" length="4">0</para3>
+        <para4 type="long" length="4">1</para4>
+        <para5 type="long" length="4">1</para5>
+      </Cfg1>    
+      <Cfg10>
+        <Cmd type="long" length="4">0x20012000</Cmd>
+        <para1 type="long" length="4">10</para1>    
+        <para2 type="long" length="4">0xff</para2>
+        <para3 type="long" length="4">0</para3>
+        <para4 type="long" length="4">1</para4>
+        <para5 type="long" length="4">1</para5>
+      </Cfg10>    
+      <Cfg11>
+        <Cmd type="long" length="4">0x20012000</Cmd>
+        <para1 type="long" length="4">11</para1>
+        <para2 type="long" length="4">0xff</para2>
+        <para3 type="long" length="4">0</para3>
+        <para4 type="long" length="4">1</para4>
+        <para5 type="long" length="4">1</para5>
+      </Cfg11>
+	  <Cfg12>
+        <Cmd type="long" length="4">0x20012000</Cmd>
+        <para1 type="long" length="4">12</para1>
+        <para2 type="long" length="4">0xff</para2>
+        <para3 type="long" length="4">0</para3>
+        <para4 type="long" length="4">0</para4>
+        <para5 type="long" length="4">0</para5>
+      </Cfg12>
+	  <Cfg13>
+        <Cmd type="long" length="4">0x20012000</Cmd>
+        <para1 type="long" length="4">13</para1>
+        <para2 type="long" length="4">0xff</para2>
+        <para3 type="long" length="4">0</para3>
+        <para4 type="long" length="4">1</para4>
+        <para5 type="long" length="4">1</para5>
+      </Cfg13>
+	  <Cfg19>
+        <Cmd type="long" length="4">0x20012000</Cmd>
+        <para1 type="long" length="4">19</para1>
+        <para2 type="long" length="4">0xff</para2>
+        <para3 type="long" length="4">0</para3>
+        <para4 type="long" length="4">1</para4>
+        <para5 type="long" length="4">0</para5>
+      </Cfg19>
+      <Cfg28>
+        <Cmd type="long" length="4">0x20012000</Cmd>
+        <para1 type="long" length="4">28</para1>
+        <para2 type="long" length="4">0xff</para2>
+        <para3 type="long" length="4">0</para3>
+        <para4 type="long" length="4">1</para4>
+        <para5 type="long" length="4">1</para5>
+      </Cfg28>  	  
+      <Cfg29>
+        <Cmd type="long" length="4">0x20012000</Cmd>
+        <para1 type="long" length="4">29</para1>
+        <para2 type="long" length="4">0xff</para2>
+        <para3 type="long" length="4">0</para3>
+        <para4 type="long" length="4">1</para4>
+        <para5 type="long" length="4">1</para5>
+      </Cfg29>  
+      <Cfg30>
+        <Cmd type="long" length="4">0x20012000</Cmd>
+        <para1 type="long" length="4">30</para1>
+        <para2 type="long" length="4">0xff</para2>
+        <para3 type="long" length="4">0</para3>
+        <para4 type="long" length="4">1</para4>
+        <para5 type="long" length="4">1</para5>
+      </Cfg30> 
+      <Cfg32>
+        <Cmd type="long" length="4">0x20012000</Cmd>
+        <para1 type="long" length="4">32</para1>
+        <para2 type="long" length="4">0xff</para2>
+        <para3 type="long" length="4">0</para3>
+        <para4 type="long" length="4">1</para4>
+        <para5 type="long" length="4">1</para5>
+      </Cfg32> 
+      <Cfg36>
+        <Cmd type="long" length="4">0x20012000</Cmd>
+        <para1 type="long" length="4">36</para1>
+        <para2 type="long" length="4">0xff</para2>
+        <para3 type="long" length="4">0</para3>
+        <para4 type="long" length="4">1</para4>
+        <para5 type="long" length="4">0</para5>
+      </Cfg36> 
+      <Cfg47>
+        <Cmd type="long" length="4">0x20012000</Cmd>
+        <para1 type="long" length="4">47</para1>
+        <para2 type="long" length="4">0xff</para2>
+        <para3 type="long" length="4">0</para3>
+        <para4 type="long" length="4">0</para4>
+        <para5 type="long" length="4">0</para5>
+      </Cfg47>
+      <Cfg31>
+        <Cmd type="long" length="4">0x20012000</Cmd>
+        <para1 type="long" length="4">31</para1>
+        <para2 type="long" length="4">0xff</para2>
+        <para3 type="long" length="4">0</para3>
+        <para4 type="long" length="4">1</para4>
+        <para5 type="long" length="4">0</para5>
+      </Cfg31>
+      <Cfg48>
+        <Cmd type="long" length="4">0x20012000</Cmd>
+        <para1 type="long" length="4">48</para1>
+        <para2 type="long" length="4">0xff</para2>
+        <para3 type="long" length="4">0</para3>
+        <para4 type="long" length="4">1</para4>
+        <para5 type="long" length="4">1</para5>
+      </Cfg48>
+      <Cfg49>
+        <Cmd type="long" length="4">0x20012000</Cmd>
+        <para1 type="long" length="4">49</para1>
+        <para2 type="long" length="4">0xff</para2>
+        <para3 type="long" length="4">0</para3>
+        <para4 type="long" length="4">0</para4>
+        <para5 type="long" length="4">0</para5>
+      </Cfg49>
+      <Cfg52>
+        <Cmd type="long" length="4">0x20012001</Cmd>
+      </Cfg52>
+    </GPIO>    
+    <DEV>
+      <!-- ********************************************
+           <NormalCfg NumberOfInstances="2">       
+        -->
+      <!-- ********************************************
+           <NormalCfgInstance InstanceID="1"     
+                             Cmd="0x20004000"
+                             index = "0"
+                             uc_slic1_reset_gpio="0xff"
+                             uc_slic2_reset_gpio="0xff"
+                             uc_usb1_power_en_gpio="48"
+                             uc_usb2_power_en_gpio="0xff"
+                             uc_optic_reset_gpio="0xff"
+                             uc_wifi1_reset_gpio="5"
+                             uc_wifi2_reset_gpio="3"
+                             uc_flash_lock_gpio="0xff"
+                             uc_extphy_reset_gpio="0xff"
+                             uc_antenna1_check_gpio="0xff"
+                             uc_antenna2_check_gpio="0xff"
+                             us_antenna1_gpio="0xff"
+                             us_antenna2_gpio="0xff"
+                             uc_datacard_power_gpio="0xff"
+                             uc_dect_power_gpio="0xff"
+                             uc_z_reset_gpio="0xff"
+                             uc_z_test_gpio="0xff"
+                             uc_z_check_gpio="0xff"
+                             uc_pfi_pwroff_gpio="0xff"
+                             uc_reset_media_gpio="0xff"
+                             uc_media_state_gpio="0xff"/>
+          -->
+      <Cfg1>
+        <Cmd type="long" length="4">0x20004000</Cmd>
+        <para1 type="long" length="4">0x0</para1>
+        <para2 type="long" length="4">0xff</para2>
+        <para3 type="long" length="4">0xff</para3>
+        <para4 type="long" length="4">48</para4>
+        <para5 type="long" length="4">0xff</para5>
+        <para6 type="long" length="4">0xff</para6>
+        <para7 type="long" length="4">5</para7>
+        <para8 type="long" length="4">3</para8>
+        <para9 type="long" length="4">0xff</para9>
+        <para10 type="long" length="4">0xff</para10>
+        <para11 type="long" length="4">0xff</para11>
+        <para12 type="long" length="4">0xff</para12>
+        <para13 type="long" length="4">0xff</para13>
+        <para14 type="long" length="4">0xff</para14>
+        <para15 type="long" length="4">0xff</para15>
+        <para16 type="long" length="4">0xff</para16>
+        <para17 type="long" length="4">0xff</para17>
+        <para18 type="long" length="4">0xff</para18>
+        <para19 type="long" length="4">0xff</para19>
+        <para20 type="long" length="4">0xff</para20>
+        <para21 type="long" length="4">0xff</para21>
+        <para22 type="long" length="4">0xff</para22>
+      </Cfg1>
+      <!-- ********************************************
+           <NormalCfgInstance InstanceID="2"
+                             AccessMode="0x200000ff"          
+                             Cmd="0x20004013"
+                             ui_chip_type = "4"
+                             WLAN="2"
+                             USB="2"
+                             RF="0"
+                             POTS="1"
+                             EXT_PHY_NUM="0"
+                             MAX_SPEED="2"
+                             ETH_NUM="4"
+                             SLIC_TYPE="9"
+			     RF_FILTER="0"
+		             EXT_PHY_TYPE="0"
+		             SD_NUM="0"/>
+          -->
+      <Cfg2>
+        <Cmd type="long" length="4">0x20004013</Cmd>
+        <para1 type="long" length="4">0x4</para1>
+        <para2 type="long" length="4">0x2</para2>
+        <para3 type="long" length="4">0x2</para3>
+        <para4 type="long" length="4">0x0</para4>
+        <para5 type="long" length="4">0x1</para5>
+        <para6 type="long" length="4">0x0</para6>
+        <para7 type="long" length="4">0x2</para7>
+        <para8 type="long" length="4">0x4</para8>
+        <para9 type="long" length="4">0x9</para9>
+	<para10 type="long" length="4">0x0</para10>
+	<para11 type="long" length="4">0x0</para11>
+	<para12 type="long" length="4">0x0</para12>
+       </Cfg2>
+       <!-- ********************************************
+           <NormalCfgInstance InstanceID="2"
+                             AccessMode="0x200000ff"          
+                             Cmd="0x20004013"
+                             ui_chip_type = "2"
+                             SOC_TYPE="12"
+                             GPIO_NUM="51"
+                             USB_NUM="2"
+                             PCI_NUM="2"
+                             PCIE_NUM="2"
+                             SPI_NUM="1"
+                             GE_NUM="4"
+                             FE_NUM="0"
+                             PHY_SUPPORT="0"
+							 10G_NUM ="0"/>
+          -->
+      <Cfg3>
+        <Cmd type="long" length="4">0x20004013</Cmd>
+        <para1 type="long" length="4">0x2</para1>
+        <para2 type="long" length="4">12</para2>
+        <para3 type="long" length="4">51</para3>
+        <para4 type="long" length="4">0x2</para4>
+        <para5 type="long" length="4">0x2</para5>
+        <para6 type="long" length="4">0x2</para6>
+        <para7 type="long" length="4">0x1</para7>
+        <para8 type="long" length="4">0x4</para8>
+        <para9 type="long" length="4">0x0</para9>
+        <para10 type="long" length="4">0x0</para10>
+	<para11 type="long" length="4">0x0</para11>
+       </Cfg3>
+       <!-- ********************************************
+           <NormalCfgInstance InstanceID="2"
+                             AccessMode="0x200000ff"          
+                             Cmd="0x20004013"
+                             ui_chip_type = "3"
+                             SLIC_DU_DC="0"
+			     SLIC_CROSS="0"
+			     SLIC_1A_DC ="0"
+			     SLIC_5REN ="0"
+                            SLIC_2A_LOWPOWER ="0"
+			    SLIC_SLOT="0"
+                            SLIC_SPI_MODE="1"/>
+          -->
+       <Cfg4>
+         <Cmd type="long" length="4">0x20004013</Cmd>
+         <para1 type="long" length="4">0x3</para1>
+         <para2 type="long" length="4">0x0</para2>
+         <para3 type="long" length="4">0x0</para3>
+         <para4 type="long" length="4">0x0</para4>
+         <para5 type="long" length="4">0x0</para5>
+        <para6 type="long" length="4">0x0</para6>
+        <para7 type="long" length="4">0x0</para7>
+        <para8 type="long" length="4">0x1</para8>
+       </Cfg4>
+	   	<!-- ********************************************
+           <NormalCfgInstance InstanceID="2"
+                             AccessMode="0x200000ff"          
+                             Cmd="0x20004034"
+                             lan1_enhance_type = "1"
+                             lan2_enhance_type = "1"
+			                 lan3_enhance_type = "1"
+			                 lan4_enhance_type = "1"/>
+          -->
+       <Cfg5>
+         <Cmd type="long" length="4">0x20004034</Cmd>
+         <para1 type="long" length="4">0x1</para1>
+         <para2 type="long" length="4">0x1</para2>
+         <para3 type="long" length="4">0x1</para3>
+         <para4 type="long" length="4">0x1</para4>
+       </Cfg5>
+       <Cfg6>
+        <Cmd type="long" length="4">0x20004001</Cmd>
+      </Cfg6>
+    </DEV>
+    <KEY>
+      <!-- ********************************************
+               Cmd="0x20007000"
+               ResetKeyGpio="47"
+               WlanKeyGpio="49"
+               WpsKeyGpio="12"
+               LedKeyGpio="0xffffffff" 
+               2.4GWifiKeyGpio="0xffffffff"
+               5GWifiKeyGpio="0xffffffff"
+               DecPairKeyGpio="0xffffffff"
+               DecPageKeyGpio="0xffffffff"/>   
+        -->
+      <Cfg1>
+        <Cmd type="long" length="4">0x20007000</Cmd>
+        <para1 type="long" length="4">47</para1>
+        <para2 type="long" length="4">49</para2>
+        <para3 type="long" length="4">12</para3>
+        <para4 type="long" length="4">0xffffffff</para4>
+        <para5 type="long" length="4">0xffffffff</para5>
+        <para6 type="long" length="4">0xffffffff</para6>
+        <para7 type="long" length="4">0xffffffff</para7>
+        <para8 type="long" length="4">0xffffffff</para8>
+      </Cfg1>
+      <Cfg2>
+        <Cmd type="long" length="4">0x20007001</Cmd>
+      </Cfg2>
+    </KEY>
+    <LED>
+      <!-- ********************************************
+           <NormalCfg NumberOfInstances="12">       
+        -->
+      <!-- ********************************************
+           <NormalCfgInstance InstanceID="1"
+                             AccessMode="0x200000ff"           
+                             Cmd="0x20008000"                             
+                             Index="0"
+                             LedID="0"
+                             LedName="powerled"
+                             RedLedGpio="0xffffffff"
+                             GreenLedGpio="0xffff0008"
+                             YellowLedGpio="0xffffffff" />   
+          -->
+      <Cfg0>
+        <Cmd type="long" length="4">0x20008000</Cmd>
+        <para1 type="long" length="4">0</para1>
+        <para2 type="long" length="4">0</para2>
+        <para3 type="string" length="16">powerled</para3>
+        <para4 type="long" length="4">0xffffffff</para4>
+        <para5 type="long" length="4">0xffff0024</para5>
+        <para6 type="long" length="4">0xffffffff</para6>
+      </Cfg0>
+      <Cfg1>
+        <Cmd type="long" length="4">0x20008000</Cmd>
+        <para1 type="long" length="4">1</para1>
+        <para2 type="long" length="4">1</para2>
+        <para3 type="string" length="16">ponlos</para3>
+        <para4 type="long" length="4">0xffff001e</para4>
+        <para5 type="long" length="4">0xffffffff</para5>
+        <para6 type="long" length="4">0xffffffff</para6>
+      </Cfg1>
+      <Cfg2>
+        <Cmd type="long" length="4">0x20008000</Cmd>
+        <para1 type="long" length="4">2</para1>
+        <para2 type="long" length="4">2</para2>
+        <para3 type="string" length="16">pon</para3>
+        <para4 type="long" length="4">0xffff0020</para4>
+        <para5 type="long" length="4">0xffff001c</para5>
+        <para6 type="long" length="4">0xffffffff</para6>
+      </Cfg2>
+      <Cfg3>
+        <Cmd type="long" length="4">0x20008000</Cmd>
+        <para1 type="long" length="4">3</para1>
+        <para2 type="long" length="4">3</para2>
+        <para3 type="string" length="16">wlanled</para3>
+        <para4 type="long" length="4">0xffffffff</para4>
+        <para5 type="long" length="4">0xffff001d</para5>
+        <para6 type="long" length="4">0xffffffff</para6>
+      </Cfg3>
+      <Cfg4>
+        <Cmd type="long" length="4">0x20008000</Cmd>
+        <para1 type="long" length="4">4</para1>
+        <para2 type="long" length="4">4</para2>
+        <para3 type="string" length="16">usbled</para3>
+        <para4 type="long" length="4">0xffffffff</para4>
+        <para5 type="long" length="4">0xffff000a</para5>
+        <para6 type="long" length="4">0xffffffff</para6>
+      </Cfg4>
+      <Cfg6>
+        <Cmd type="long" length="4">0x20008000</Cmd>
+        <para1 type="long" length="4">6</para1>
+        <para2 type="long" length="4">6</para2>
+        <para3 type="string" length="16">potsled1</para3>
+        <para4 type="long" length="4">0xffffffff</para4>
+        <para5 type="long" length="4">0xffff000b</para5>
+        <para6 type="long" length="4">0xffffffff</para6>
+      </Cfg6>
+      <Cfg10>
+        <Cmd type="long" length="4">0x20008000</Cmd>
+        <para1 type="long" length="4">10</para1>
+        <para2 type="long" length="4">10</para2>
+        <para3 type="string" length="16">usb2led</para3>
+        <para4 type="long" length="4">0xffffffff</para4>
+        <para5 type="long" length="4">0xffff0001</para5>
+        <para6 type="long" length="4">0xffffffff</para6>
+      </Cfg10>
+      <Cfg11>
+        <Cmd type="long" length="4">0x20008000</Cmd>
+        <para1 type="long" length="4">11</para1>
+        <para2 type="long" length="4">11</para2>
+        <para3 type="string" length="16">wpsled</para3>
+        <para4 type="long" length="4">0xffffffff</para4>
+        <para5 type="long" length="4">0xffff000d</para5>
+        <para6 type="long" length="4">0xffffffff</para6>
+      </Cfg11>
+      <Cfg22>
+        <Cmd type="long" length="4">0x20008001</Cmd>
+      </Cfg22>
+    </LED>
+    <OPTIC>
+      <!-- ********************************************
+            <OpticInfo AccessMode="0x20000001"
+                       Cmd="0x20005000"
+                       Para0="0xffff00ff"
+                       Para1="0x3c04ffff"
+                       TxLevel="0xffffffff"
+                       ControlMode="0xffff23ff" />   
+            -->
+      <Cfg1>
+        <Cmd type="long" length="4">0x20005000</Cmd>
+        <para1 type="long" length="4">0xffff0014</para1>
+        <para2 type="long" length="4">0x3c12ffff</para2>
+        <para3 type="long" length="4">0xffff13ff</para3>
+        <para4 type="long" length="4">0xffffffff</para4>
+      </Cfg1>
+	  <!-- ********************************************
+            M02103 common bosa
+      -->
+      <Cfg2>
+        <Cmd length="4"
+             type="long">0x20005001</Cmd>
+        <para1 length="32"
+               type="string"></para1>
+        <para2 length="16"
+               type="string">HW-BOB-0018</para2>
+        <para3 length="1"
+               type="uchar">0x4</para3>
+        <para4 length="1"
+               type="uchar">0x2</para4>
+        <para5 length="1"
+               type="uchar">0x1</para5>
+        <para6 length="1"
+               type="uchar">0x0</para6>
+        <para7 length="4"
+               type="long">0x0</para7>
+        <para8 length="4"
+               type="long">0x605456</para8>
+        <para9 length="4"
+               type="long">0x62585A</para9>
+        <para10 length="4"
+                type="long">0x644C4E</para10>
+        <para11 length="4"
+                type="long">0x665052</para11>
+        <para12 length="4"
+                type="long">0x683800</para12>
+        <para13 length="4"
+                type="long">0x32595a</para13>
+        <para14 length="4"
+                type="long">0x646532</para14>
+      </Cfg2>
+
+      <!-- ********************************************
+            default 2*10¹âÄ£¿é
+      -->      
+      <Cfg19>
+        <Cmd type="long" length="4">0x20005001</Cmd>
+             <para1 type="string" length="32">default-optic</para1>
+             <para2 type="string" length="16">default-optic</para2>
+             <para3 type="uchar" length="1">0x1</para3>
+             <para4 type="uchar" length="1">0x2</para4>
+             <para5 type="uchar" length="1">0x1</para5>
+             <para6 type="uchar" length="1">0x0</para6>
+             <para7 type="long" length="4">0x0</para7>
+             <para8 type="long" length="4">0x605456</para8>
+             <para9 type="long" length="4">0x62585A</para9>
+             <para10 type="long" length="4">0x644C4E</para10>
+             <para11 type="long" length="4">0x665052</para11>
+             <para12 type="long" length="4">0x683800</para12>
+             <para13 type="long" length="4">0x32595a</para13>
+             <para14 type="long" length="4">0x646532</para14>             
+      </Cfg19>     
+    </OPTIC>    
+    <USB>
+      <Cfg1>
+        <Cmd type="long" length="4">0x2000C002</Cmd>
+		<para1 type="long" length="4">1</para1>
+      </Cfg1> 
+    </USB>
+  </CommonCfg>
+</X_HW_SystemConfig>

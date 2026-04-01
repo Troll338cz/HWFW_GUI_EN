@@ -1,0 +1,43 @@
+<InternetGatewayDevice>
+    <Services>
+        <VoiceService setconfig = "0x00000003">
+            <VoiceProfile setconfig = "0x00000003">
+                <Region setconfig = "0x00000003" />
+                <X_HW_DigitMapMatchMode setconfig = "0x00000003" />
+                <X_HW_PortName setconfig = "0x00000003" />
+                <SIP setconfig = "0x00000003">
+                    <OutboundProxy setconfig = "0x00000003" />
+                    <OutboundProxyPort setconfig = "0x00000003" />
+                    <X_HW_SecondaryProxyServerPort setconfig = "0x00000003" />
+                    <X_HW_SecondaryOutboundProxy setconfig = "0x00000003" />
+                    <X_HW_SecondaryOutboundProxyPort setconfig = "0x00000003" />
+                    <RegistrarServer setconfig = "0x00000003" />
+                    <UserAgentDomain setconfig = "0x00000003" />
+                    <ProxyServer setconfig = "0x00000003" />
+                    <ProxyServerPort setconfig = "0x00000003" />
+                    <X_HW_SecondaryProxyServer setconfig = "0x00000003" />
+                    <RegistrationPeriod setconfig = "0x00000003" />
+                    <UserAgentPort setconfig = "0x00000003" />
+                    <X_HW_SIPDigitmap setconfig = "0x00000003">
+                        <DigitMap setconfig = "0x00000003" />
+                    </X_HW_SIPDigitmap>
+                </SIP>
+                <RTP  setconfig = "0x00000003">
+                    <X_HW_PortName setconfig = "0x00000003" />
+                </RTP>
+                <Line  setconfig = "0x00000003" addconfig = "0x00000003" delconfig="0x00000003">
+                    <DirectoryNumber setconfig = "0x00000003" addconfig = "0x00000003" delconfig="0x00000003"/>
+                    <PhyReferenceList setconfig = "0x00000003" addconfig = "0x00000003" delconfig="0x00000003"/>
+                    <Enable setconfig = "0x00000003" addconfig = "0x00000003" delconfig="0x00000003"/>
+                    <SIP  setconfig = "0x00000003" addconfig = "0x00000003" delconfig="0x00000003">
+                        <AuthUserName setconfig = "0x00000003" addconfig = "0x00000003" delconfig="0x00000003"/>
+                        <AuthPassword setconfig = "0x00000003" addconfig = "0x00000003" delconfig="0x00000003"/>
+                        <URI setconfig = "0x00000003" addconfig = "0x00000003" delconfig="0x00000003"/>
+                    </SIP>
+                </Line>
+            </VoiceProfile>
+            <PhyInterface setconfig = "0x00000003">
+            </PhyInterface>
+        </VoiceService>
+    </Services>
+</InternetGatewayDevice>

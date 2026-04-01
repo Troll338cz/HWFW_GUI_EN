@@ -1,0 +1,15 @@
+<InternetGatewayDevice> 
+<X_HW_DNS setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<SearList setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<DomainName setconfig = "0x00000003" getconfig = "0x00000003"/>
+<DNSServer setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Interface setconfig = "0x00000003" getconfig = "0x00000003"/>
+</SearList>
+<AntiDNSRebind setconfig = "0x00000003" getconfig = "0x00000003">
+<Enable  setconfig = "0x00000003" getconfig = "0x00000003"/>
+<SafeDomainName setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<DomainName setconfig = "0x00000003" getconfig = "0x00000003"/>
+</SafeDomainName>
+</AntiDNSRebind>
+</X_HW_DNS> 
+</InternetGatewayDevice> 

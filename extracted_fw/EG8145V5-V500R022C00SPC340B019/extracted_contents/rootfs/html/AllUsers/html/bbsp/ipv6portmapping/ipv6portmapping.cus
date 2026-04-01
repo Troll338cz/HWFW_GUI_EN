@@ -1,0 +1,21 @@
+﻿var IsTelmexCfg = '<%HW_WEB_GetFeatureSupport(BBSP_FT_TELMEX);%>';
+
+if("1" == IsTelmexCfg)
+{
+	var PortMappingReload = 
+	[
+		{ReloadId:"PortMappingDescription", ReloadValue:[{Require:"TRUE"}]},
+	]
+}
+else
+{
+	var PortMappingReload = 
+	[
+		
+	]
+}
+
+function CusLoadFrame()
+{
+
+}

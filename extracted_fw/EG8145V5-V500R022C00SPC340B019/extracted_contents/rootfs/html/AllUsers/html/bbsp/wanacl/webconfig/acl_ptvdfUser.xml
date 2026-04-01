@@ -1,0 +1,24 @@
+<InternetGatewayDevice>
+<X_HW_Security setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<AclServices setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<HTTPWifiEnable setconfig = "0x00000007" getconfig = "0x00000007"/>
+<TELNETWifiEnable setconfig = "0x00000007" getconfig = "0x00000007"/>
+<HTTPLanEnable setconfig = "0x00000007" getconfig = "0x00000007"/>
+<HTTPWanEnable setconfig = "0x00000007" getconfig = "0x00000007"/>
+<HTTPSWanEnable setconfig = "0x00000007" getconfig = "0x00000007"/>
+<FTPLanEnable setconfig = "0x00000007" getconfig = "0x00000007"/>
+<FTPWanEnable setconfig = "0x00000007" getconfig = "0x00000007"/>
+<TELNETLanEnable setconfig = "0x00000007" getconfig = "0x00000007"/>
+<TELNETWanEnable setconfig = "0x00000007" getconfig = "0x00000007"/>
+<SSHWanEnable setconfig = "0x00000007" getconfig = "0x00000007"/>
+<SSHLanEnable setconfig = "0x00000007" getconfig = "0x00000007"/>
+<WebPermanentCloseControl setconfig = "0x00000007" getconfig = "0x00000007"/>
+<WanAccess setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<Enable setconfig = "0x00000007" getconfig = "0x00000007"/>
+<Protocol setconfig = "0x00000007" getconfig = "0x00000007"/>
+<WanName setconfig = "0x00000007" getconfig = "0x00000007"/>
+<SrcIPPrefix setconfig = "0x00000007" getconfig = "0x00000007"/>
+</WanAccess>
+</AclServices>
+</X_HW_Security> 
+</InternetGatewayDevice> 

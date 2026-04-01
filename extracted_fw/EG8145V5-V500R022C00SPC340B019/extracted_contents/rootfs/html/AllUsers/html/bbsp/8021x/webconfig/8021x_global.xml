@@ -1,0 +1,27 @@
+<InternetGatewayDevice>
+<X_HW_IEEE8021X setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003">
+<Enable setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<AutoDetect setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<VoiceNotCtrol setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<Radius setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003">
+<Authserver1 setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<SharedSecretAuth1 setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<Authserver2 setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<SharedSecretAuth2 setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<AuthUserNameFormat setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<AccountingServer setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<NasPortID setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<FallbackPolicy setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<AccountServer1 setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<AccountServer2 setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<DASServerPort setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<SerDetName setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<SerDetPass setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<SerDetPeriod setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+<AuthorizationClient setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003">
+ <ClientAddress setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>
+ <SharedSecret setconfig="0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003"/>   
+</AuthorizationClient>
+</Radius>
+</X_HW_IEEE8021X>
+</InternetGatewayDevice>

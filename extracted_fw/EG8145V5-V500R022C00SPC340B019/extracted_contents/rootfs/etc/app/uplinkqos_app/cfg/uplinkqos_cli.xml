@@ -1,0 +1,111 @@
+<CliRoot>
+<AddUplinkQosApp CmdStr="uplinkqos app add" ObjPath="InternetGatewayDevice.X_HW_UplinkQos.App" OpType="3" Help="uplinkqos app add appname[str] classqueue[int]" OutPut="" CmdGroup="">
+<para ParaName="appname" AttName="AppName" ParaAtt="0"/>
+<para ParaName="classqueue" AttName="ClassQueue" ParaAtt="0"/>
+</AddUplinkQosApp>
+<DelUplinkQosApp CmdStr="uplinkqos app del" ObjPath="InternetGatewayDevice.X_HW_UplinkQos.App" OpType="2" Help="uplinkqos app del inst[int]" OutPut="" CmdGroup="">
+<para ParaName="inst" AttName="App" ParaAtt="1"/>
+</DelUplinkQosApp>
+<GetUplinkQosApp CmdStr="uplinkqos app get" ObjPath="InternetGatewayDevice.X_HW_UplinkQos.App" OpType="1" Help="uplinkqos app get inst[int]" OutPut="************ UplinkQos APP Infomation ************
+AppName  : %AppName%
+QueueID  : %ClassQueue%
+*************************************************" CmdGroup="">
+<para ParaName="inst" AttName="App" ParaAtt="1"/>
+</GetUplinkQosApp>
+<SetUplinkQosApp CmdStr="uplinkqos app set" ObjPath="InternetGatewayDevice.X_HW_UplinkQos.App" OpType="0" Help="uplinkqos app set inst[int] appname[str] classqueue[str]" OutPut="" CmdGroup="">
+<para ParaName="inst" AttName="App" ParaAtt="1"/>
+<para ParaName="appname" AttName="AppName" ParaAtt="0"/>
+<para ParaName="classqueue" AttName="ClassQueue" ParaAtt="0"/>
+</SetUplinkQosApp>
+<AddUplinkQosClassification CmdStr="uplinkqos classification add" ObjPath="InternetGatewayDevice.X_HW_UplinkQos.Classification" OpType="3" Help="uplinkqos classification add classqueue[int] dscpmarkvalue[int] priorityvalue[int]" OutPut="" CmdGroup="">
+<para ParaName="classqueue" AttName="ClassQueue" ParaAtt="0"/>
+<para ParaName="dscpmarkvalue" AttName="DSCPMarkValue" ParaAtt="0"/>
+<para ParaName="priorityvalue" AttName="PriorityValue" ParaAtt="0"/>
+</AddUplinkQosClassification>
+<DelUplinkQosClassification CmdStr="uplinkqos classification del" ObjPath="InternetGatewayDevice.X_HW_UplinkQos.Classification" OpType="2" Help="uplinkqos classification del inst[int]" OutPut="" CmdGroup="">
+<para ParaName="inst" AttName="Classification" ParaAtt="1"/>
+</DelUplinkQosClassification>
+<GetUplinkQosClassification CmdStr="uplinkqos classification get" ObjPath="InternetGatewayDevice.X_HW_UplinkQos.Classification" OpType="1" Help="uplinkqos classification get inst[int]" OutPut="****** UplinkQos CLASSIFICATION Infomation *******
+QueueID  : %ClassQueue%
+DSCP     : %DSCPMarkValue%
+Priority : %PriorityValue%
+*************************************************" CmdGroup="">
+<para ParaName="inst" AttName="Classification" ParaAtt="1"/>
+</GetUplinkQosClassification>
+<SetUplinkQosClassification CmdStr="uplinkqos classification set" ObjPath="InternetGatewayDevice.X_HW_UplinkQos.Classification" OpType="0" Help="uplinkqos classification set inst[int] classqueue[int] dscpmarkvalue[int] priorityvalue[int]" OutPut="" CmdGroup="">
+<para ParaName="inst" AttName="Classification" ParaAtt="1"/>
+<para ParaName="classqueue" AttName="ClassQueue" ParaAtt="0"/>
+<para ParaName="dscpmarkvalue" AttName="DSCPMarkValue" ParaAtt="0"/>
+<para ParaName="priorityvalue" AttName="PriorityValue" ParaAtt="0"/>
+</SetUplinkQosClassification>
+<AddUplinkQosClassificationType CmdStr="uplinkqos classification type add" ObjPath="InternetGatewayDevice.X_HW_UplinkQos.Classification.type" OpType="3" Help="uplinkqos classification type add classid[int] type[str] max[str] min[str] protocolList[str]" OutPut="" CmdGroup="">
+<para ParaName="classid" AttName="Classification" ParaAtt="1"/>
+<para ParaName="type" AttName="Type" ParaAtt="0"/>
+<para ParaName="max" AttName="Max" ParaAtt="0"/>
+<para ParaName="min" AttName="Min" ParaAtt="0"/>
+<para ParaName="protocolList" AttName="ProtocolList" ParaAtt="0"/>
+</AddUplinkQosClassificationType>
+<DelUplinkQosClassificationType CmdStr="uplinkqos classification type del" ObjPath="InternetGatewayDevice.X_HW_UplinkQos.Classification.type" OpType="2" Help="uplinkqos classification type del classid[int] typeid[int]" OutPut="" CmdGroup="">
+<para ParaName="classid" AttName="Classification" ParaAtt="1"/>
+<para ParaName="typeid" AttName="type" ParaAtt="1"/>
+</DelUplinkQosClassificationType>
+<GetUplinkQosClassificationType CmdStr="uplinkqos classification type get" ObjPath="InternetGatewayDevice.X_HW_UplinkQos.Classification.type" OpType="1" Help="uplinkqos classification type get classid[int] typeid[int]" OutPut="**** UplinkQos CLASSIFICATION Type Infomation ****
+Type         : %Type%
+Max          : %Max%
+Min          : %Min%
+ProtocolList : %ProtocolList%
+*************************************************" CmdGroup="">
+<para ParaName="classid" AttName="Classification" ParaAtt="1"/>
+<para ParaName="typeid" AttName="type" ParaAtt="1"/>
+</GetUplinkQosClassificationType>
+<SetUplinkQosClassificationType CmdStr="uplinkqos classification type set" ObjPath="InternetGatewayDevice.X_HW_UplinkQos.Classification.type" OpType="0" Help="uplinkqos classification type set classid[int] typeid[int] type[str] max[str] min[str] protocolList[str]" OutPut="" CmdGroup="">
+<para ParaName="classid" AttName="Classification" ParaAtt="1"/>
+<para ParaName="typeid" AttName="type" ParaAtt="1"/>
+<para ParaName="type" AttName="Type" ParaAtt="0"/>
+<para ParaName="max" AttName="Max" ParaAtt="0"/>
+<para ParaName="min" AttName="Min" ParaAtt="0"/>
+<para ParaName="protocolList" AttName="ProtocolList" ParaAtt="0"/>
+</SetUplinkQosClassificationType>
+<AddUplinkQosPriorityQueue CmdStr="uplinkqos priorityqueue add" ObjPath="InternetGatewayDevice.X_HW_UplinkQos.PriorityQueue" OpType="3" Help="uplinkqos priorityqueue add enable[int] priority[int] weight[int]" OutPut="" CmdGroup="">
+<para ParaName="enable" AttName="Enable" ParaAtt="0"/>
+<para ParaName="priority" AttName="Priority" ParaAtt="0"/>
+<para ParaName="weight" AttName="Weight" ParaAtt="0"/>
+</AddUplinkQosPriorityQueue>
+<DelUplinkQosPriorityQueue CmdStr="uplinkqos priorityqueue del" ObjPath="InternetGatewayDevice.X_HW_UplinkQos.PriorityQueue" OpType="2" Help="uplinkqos priorityqueue del inst[int]" OutPut="" CmdGroup="">
+<para ParaName="inst" AttName="PriorityQueue" ParaAtt="1"/>
+</DelUplinkQosPriorityQueue>
+<GetUplinkQosPriorityQueue CmdStr="uplinkqos priorityqueue get" ObjPath="InternetGatewayDevice.X_HW_UplinkQos.PriorityQueue" OpType="1" Help="uplinkqos priorityqueue get inst[int]" OutPut="**** UplinkQos PRIORITYQUEUE Infomation ****
+Enable       : %Enable%
+Priority     : %Priority%
+Weight       : %Weight%
+*************************************************" CmdGroup="">
+<para ParaName="inst" AttName="PriorityQueue" ParaAtt="1"/>
+</GetUplinkQosPriorityQueue>
+<SetUplinkQosPriorityQueue CmdStr="uplinkqos priorityqueue set" ObjPath="InternetGatewayDevice.X_HW_UplinkQos.PriorityQueue" OpType="0" Help="uplinkqos priorityqueue set inst[int] enable[int] priority[int] weight[int]" OutPut="" CmdGroup="">
+<para ParaName="inst" AttName="PriorityQueue" ParaAtt="1"/>
+<para ParaName="enable" AttName="Enable" ParaAtt="0"/>
+<para ParaName="priority" AttName="Priority" ParaAtt="0"/>
+<para ParaName="weight" AttName="Weight" ParaAtt="0"/>
+</SetUplinkQosPriorityQueue>
+<SetUplinkQos CmdStr="uplinkqos set" ObjPath="InternetGatewayDevice.QueueManagement" OpType="0" Help="uplinkqos set enable[0|1] prioritymark[int] mode[str] bandwidth[int] plan[str] enableforceweight[0|1] enabledscpmark[0|1] enable8021p[0|1|2]" OutPut="" CmdGroup="">
+<para ParaName="enable" AttName="Enable" ParaAtt="0"/>
+<para ParaName="prioritymark" AttName="DefaultEthernetPriorityMark" ParaAtt="0"/>
+<para ParaName="mode" AttName="X_HW_Mode" ParaAtt="0"/>
+<para ParaName="bandwidth" AttName="X_HW_Bandwidth" ParaAtt="0"/>
+<para ParaName="plan" AttName="X_HW_Plan" ParaAtt="0"/>
+<para ParaName="enableforceweight" AttName="X_HW_EnableForceWeight" ParaAtt="0"/>
+<para ParaName="enabledscpmark" AttName="X_HW_EnableDSCPMark" ParaAtt="0"/>
+<para ParaName="enable8021p" AttName="X_HW_Enable8021p" ParaAtt="0"/>
+</SetUplinkQos>
+<GetUplinkQos CmdStr="uplinkqos get" ObjPath="InternetGatewayDevice.QueueManagement" OpType="1" Help="uplinkqos get" OutPut="*************** UplinkQos Infomation ************
+enable                : %Enable%
+prioritymark          : %DefaultEthernetPriorityMark%
+mode                  : %X_HW_Mode%
+ClassificationEnable  : %X_HW_ClassificationEnable%
+bandwidth             : %X_HW_Bandwidth%
+plan                  : %X_HW_Plan%
+EnableForceWeight     : %X_HW_EnableForceWeight%
+EnableDSCPMark        : %X_HW_EnableDSCPMark%
+Enable8021p           : %X_HW_Enable8021p%
+*************************************************" CmdGroup=""/>
+</CliRoot>

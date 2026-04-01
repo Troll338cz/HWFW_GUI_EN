@@ -1,0 +1,14 @@
+<InternetGatewayDevice>
+<LANDevice setconfig="0x00000007">
+<LANEthernetInterfaceConfig setconfig = "0x00000006" addconfig = "0x00000006" delconfig = "0x00000006" getconfig = "0x00000006">
+<X_HW_Mode setconfig = "0x00000006" getconfig = "0x00000006"/>
+<X_HW_VLAN setconfig = "0x00000006" getconfig = "0x00000006"/>
+<X_HW_MultiCastVlanAct setconfig = "0x00000006" getconfig = "0x00000006"/>
+<X_HW_MultiCastVlan setconfig = "0x00000006" getconfig = "0x00000006"/>
+</LANEthernetInterfaceConfig>
+<WLANConfiguration addconfig="0x00000006" delconfig="0x00000006" setconfig="0x00000006" getconfig = "0x00000006">
+<X_HW_Mode setconfig="0x00000006" getconfig = "0x00000006"/>	
+<X_HW_VLAN setconfig="0x00000006" getconfig = "0x00000006"/>	
+</WLANConfiguration>
+</LANDevice> 
+</InternetGatewayDevice> 

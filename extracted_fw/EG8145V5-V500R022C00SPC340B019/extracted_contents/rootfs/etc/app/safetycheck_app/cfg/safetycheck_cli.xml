@@ -1,0 +1,4 @@
+<CliRoot>
+<CheckSafetyConfig CmdStr="check security config" ObjPath="InternetGatewayDevice.X_HW_CheckSafety" OpType="1" Help="USAGE:check security config and display the result." OutPut="check result:
+%Result%" CmdGroup="0x00000010"/>
+</CliRoot>

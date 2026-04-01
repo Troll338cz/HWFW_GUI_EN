@@ -1,0 +1,15 @@
+<CusCliRoot>
+<SetIPInterface CmdStr="ip-interface config" CmdGroup=""/>
+<DisplayIPInterface CmdStr="display ip-interface" CmdGroup=""/>
+<DispUserDevice CmdStr="display user device" CmdGroup=""/>
+<DisplayConnectionStats CmdStr="display connection stats" CmdGroup=""/>
+<SetWifiBandEnableChannel CmdStr="set wifi radio" CmdGroup=""/>
+<SetSSIDInfo CmdStr="set ssid" CmdGroup=""/>
+<SetVoipCoreProxy CmdStr="set voip core" CmdGroup=""/>
+<SetVoipCoreReg CmdStr="set voip register" CmdGroup=""/>
+<SetVoiceSIPAccount CmdStr="set voice sip-account" CmdGroup=""/>
+<SetWifiFilter CmdStr="set wifi filter" CmdGroup=""/>
+<DisplayWlanMacFilterIndexAMP CmdStr="display wifi filter" CmdGroup=""/>
+<AddWlanMacFilterIndexAMP CmdStr="add wifi filter" CmdGroup=""/>
+<DelWlanMacFilterIndexAMP CmdStr="del wifi filter" CmdGroup=""/>
+</CusCliRoot>

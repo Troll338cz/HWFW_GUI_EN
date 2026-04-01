@@ -1,0 +1,8 @@
+<InternetGatewayDevice> 
+<DeviceInfo setconfig = "0x00000003" getconfig = "0x00000003" > 
+<X_HW_SyslogConfig setconfig = "0x00000002" getconfig = "0x00000003"> 
+<LogServerEnable  setconfig = "0x00000002" getconfig = "0x00000003"/> 
+<ServerAddress  setconfig = "0x00000002" getconfig = "0x00000003"/> 
+</X_HW_SyslogConfig> 
+</DeviceInfo> 
+</InternetGatewayDevice> 

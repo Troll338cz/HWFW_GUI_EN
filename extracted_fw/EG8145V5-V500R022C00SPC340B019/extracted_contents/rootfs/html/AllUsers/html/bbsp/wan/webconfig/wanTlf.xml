@@ -1,0 +1,10 @@
+<InternetGatewayDevice>
+<WANDevice>
+<WANConnectionDevice setconfig = "0x00000003">
+<WANPPPConnection setconfig = "0x00000003">
+<Username setconfig = "0x00000003"/>
+<Password setconfig = "0x00000003"/>
+</WANPPPConnection>
+</WANConnectionDevice>
+</WANDevice>
+</InternetGatewayDevice>

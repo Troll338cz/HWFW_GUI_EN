@@ -1,0 +1,10 @@
+<InternetGatewayDevice>
+    <X_CATVConfiguration setconfig = "0x00000006">
+        <RFOutputAdjustment setconfig = "0x00000006" />
+    </X_CATVConfiguration>
+    <WANDevice setconfig = "0x00000006">
+        <WANSFPInterfaceConfig setconfig = "0x00000006">
+            <Enable setconfig = "0x00000006" />
+        </WANSFPInterfaceConfig>
+    </WANDevice>
+</InternetGatewayDevice>

@@ -1,0 +1,42 @@
+<InternetGatewayDevice>
+<LANDevice getconfig = "0x00000007">
+<X_HW_UserDev getconfig = "0x00000007">
+<time getconfig = "0x00000007"/>
+<HostName getconfig = "0x00000007"/>    
+<DevStatus getconfig = "0x00000007"/>
+<IpAddr getconfig = "0x00000007"/>
+<IpType getconfig = "0x00000007"/>
+<DevType getconfig = "0x00000007"/>
+<MacAddr getconfig = "0x00000007"/>
+<PortType getconfig = "0x00000007"/> 
+<PortID getconfig = "0x00000007"/>
+<BrandName getconfig = "0x00000007"/>
+<OsName getconfig = "0x00000007"/>
+<DeviceType getconfig = "0x00000007"/>
+<TrafficSend getconfig = "0x00000007"/>
+<TrafficRecv getconfig = "0x00000007"/> 
+<IPv4Enabled getconfig = "0x00000007"/> 
+<IPv6Enabled getconfig = "0x00000007"/> 
+</X_HW_UserDev>
+</LANDevice>
+<X_HW_Security setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<MacFilterPolicy setconfig = "0x00000007" getconfig = "0x00000007"/>
+<MacFilterRight setconfig = "0x00000007" getconfig = "0x00000007"/>
+<WlanMacFilterPolicy setconfig = "0x00000007" getconfig = "0x00000007"/>
+<WlanMacFilterRight setconfig = "0x00000007" getconfig = "0x00000007"/>
+<AttachControl setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<MACAddress setconfig = "0x00000007" getconfig = "0x00000007"/>
+<InternetAccessRight setconfig = "0x00000007" getconfig = "0x00000007"/>
+<StorageAccessRight setconfig = "0x00000007" getconfig = "0x00000007"/>
+<UsBandwidth setconfig = "0x00000007" getconfig = "0x00000007"/>
+<DsBandwidth setconfig = "0x00000007" getconfig = "0x00000007"/>
+</AttachControl>
+</X_HW_Security>
+<X_HW_HOMENET_NAME setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<name setconfig = "0x00000007" getconfig = "0x00000007"/>
+<hosts setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<MACAddress setconfig = "0x00000007" getconfig = "0x00000007"/>
+<Name setconfig = "0x00000007" getconfig = "0x00000007"/>
+</hosts>
+</X_HW_HOMENET_NAME>
+</InternetGatewayDevice> 

@@ -1,0 +1,13 @@
+<InternetGatewayDevice>
+<Services>
+<X_HW_DmsService setconfig = "0x00000003" getconfig = "0x00000003">
+<Enable setconfig = "0x00000003" getconfig = "0x00000003"/> 
+<ShareAllPath setconfig = "0x00000003" getconfig = "0x00000003"/> 
+<Directory setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<Active  setconfig = "0x00000003" getconfig = "0x00000003"/> 
+<ContentDirectory  setconfig = "0x00000003" getconfig = "0x00000003"/> 
+<ContentDirectoryUTF  setconfig = "0x00000003" getconfig = "0x00000003"/> 
+</Directory>  
+</X_HW_DmsService>
+</Services>
+</InternetGatewayDevice>

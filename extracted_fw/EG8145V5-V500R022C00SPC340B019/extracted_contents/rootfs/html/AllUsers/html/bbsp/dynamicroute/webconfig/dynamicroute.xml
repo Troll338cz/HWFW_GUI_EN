@@ -1,0 +1,13 @@
+<InternetGatewayDevice>
+<X_HW_RIP setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<InterfaceSetting setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<Enable  setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Interface  setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Protocol setconfig = "0x00000003" getconfig = "0x00000003"/>
+<SendRA setconfig = "0x00000003" getconfig = "0x00000003"/>
+<ReceiveRA setconfig = "0x00000003" getconfig = "0x00000003"/>
+<AuthMode setconfig = "0x00000003" getconfig = "0x00000003"/>
+<AuthKey setconfig = "0x00000003" getconfig = "0x00000003"/>
+</InterfaceSetting>
+</X_HW_RIP>
+</InternetGatewayDevice> 

@@ -1,0 +1,96 @@
+<CliRoot>
+<GetEthoamMepPerf CmdStr="display ethoam mep perf" ObjPath="InternetGatewayDevice.X_HW_DEBUG.BBSP.EthoamMepPerf" OpType="1" Help="display ethoam mep perf mdinst [int] mainst [int] mepinst [int]" OutPut="mep perf=%VALID%" CmdGroup="0x00004010">
+<para ParaName="mdinst" AttName="MDINST" ParaAtt="0"/>
+<para ParaName="mainst" AttName="MAINST" ParaAtt="0"/>
+<para ParaName="mepinst" AttName="MEPINST" ParaAtt="0"/>
+</GetEthoamMepPerf>
+<!-- NOT_SUPPORT_CM_END-->
+<SetEthoamCfmStat CmdStr="set ethoam cfm" ObjPath="InternetGatewayDevice.X_HW_DEBUG.BBSP.EthoamCfmStat" OpType="0" Help="set ethoam cfm stat {0,1}" OutPut="" CmdGroup="">
+<para ParaName="stat" AttName="ENABLE" ParaAtt="0"/>
+</SetEthoamCfmStat>
+<GetEthoamCfmInfo CmdStr="get ethoam cfm stat" ObjPath="InternetGatewayDevice.X_HW_DEBUG.BBSP.EthoamCfmStat" OpType="1" Help="get ethoam cfm stat" OutPut="stat=%ENABLE%" CmdGroup=""/>
+<SetEthoamMepStat CmdStr="set ethoam mep stat" ObjPath="InternetGatewayDevice.X_HW_DEBUG.BBSP.EthoamMepStat" OpType="0" Help="set ethoam mep stat mdinst [int] mainst [int] mepinst [int] enable {0,1}" OutPut="" CmdGroup="">
+<para ParaName="mdinst" AttName="MDINST" ParaAtt="0"/>
+<para ParaName="mainst" AttName="MAINST" ParaAtt="0"/>
+<para ParaName="mepinst" AttName="MEPINST" ParaAtt="0"/>
+<para ParaName="enable" AttName="ENABLE" ParaAtt="0"/>
+</SetEthoamMepStat>
+<GetEthoamMepStat CmdStr="get ethoam mep stat" ObjPath="InternetGatewayDevice.X_HW_DEBUG.BBSP.EthoamMepStat" OpType="1" Help="get ethoam mep stat mdinst [int] mainst [int] mepinst [int]" OutPut="stat=%ENABLE%" CmdGroup="">
+<para ParaName="mdinst" AttName="MDINST" ParaAtt="1"/>
+<para ParaName="mainst" AttName="MAINST" ParaAtt="1"/>
+<para ParaName="mepinst" AttName="MEPINST" ParaAtt="1"/>
+</GetEthoamMepStat>
+<SetEthoamDbg CmdStr="set ethoam debug" ObjPath="InternetGatewayDevice.X_HW_DEBUG.BBSP.EthoamDebugSwitch" OpType="0" Help="set ethoam debug switch {0,1,2,3,4,5,6,7,8}" OutPut="" CmdGroup="">
+<para ParaName="switch" AttName="ENABLE" ParaAtt="0"/>
+</SetEthoamDbg>
+<GetEthoamDbg CmdStr="get ethoam debug switch" ObjPath="InternetGatewayDevice.X_HW_DEBUG.BBSP.EthoamDebugSwitch" OpType="1" Help="get ethoam debug switch" OutPut="switch=%8 ENABLE%" CmdGroup=""/>
+<DelEthoamMaInfo CmdStr="del ethoam ma info" ObjPath="InternetGatewayDevice.X_HW_Dot1agCfm.dot1agCfmMd.dot1agCfmMa" OpType="2" Help="del ethoam ma info mdins[int] mains[int]" OutPut="" CmdGroup="">
+<para ParaName="mdins" AttName="dot1agCfmMd" ParaAtt="1"/>
+<para ParaName="mains" AttName="dot1agCfmMa" ParaAtt="1"/>
+</DelEthoamMaInfo>
+<AddEthoamMaInfo CmdStr="add ethoam ma info" ObjPath="InternetGatewayDevice.X_HW_Dot1agCfm.dot1agCfmMd.dot1agCfmMa" OpType="3" Help="add ethoam ma info mdins[int] MaIndex[int] MaNameFormat[int] MaNameValue[string] VlanId[int] CcmInterval[int] MhfCreation[int]" OutPut="" CmdGroup="">
+<para ParaName="mdins" AttName="dot1agCfmMd" ParaAtt="1"/>
+<para ParaName="MaIndex" AttName="MaIndex" ParaAtt="0"/>
+<para ParaName="MaNameFormat" AttName="MaNameFormat" ParaAtt="0"/>
+<para ParaName="MaNameValue" AttName="MaNameValue" ParaAtt="0"/>
+<para ParaName="VlanId" AttName="VlanId" ParaAtt="0"/>
+<para ParaName="CcmInterval" AttName="CcmInterval" ParaAtt="0"/>
+<para ParaName="MhfCreation" AttName="MhfCreation" ParaAtt="0"/>
+</AddEthoamMaInfo>
+<SetEthoamMepInfo CmdStr="set ethoam mep info" ObjPath="InternetGatewayDevice.X_HW_Dot1agCfm.dot1agCfmMd.dot1agCfmMa.dot1agCfmMep" OpType="0" Help="set ethoam mep info mdins[int] mains[int] mepins[int] RemoteMepId {1~8191} CcStatus {enable,disable}" OutPut="" CmdGroup="">
+<para ParaName="mdins" AttName="mdins" ParaAtt="1"/>
+<para ParaName="mains" AttName="mains" ParaAtt="1"/>
+<para ParaName="mepins" AttName="mepins" ParaAtt="1"/>
+<para ParaName="RemoteMepId" AttName="RemoteMepId" ParaAtt="0"/>
+<para ParaName="CcStatus" AttName="CcStatus" ParaAtt="0"/>
+</SetEthoamMepInfo>
+<!-- NOT_SUPPORT_CM_START-->
+<GetEthoamMepInfo CmdStr="display ethoam mep info" ObjPath="InternetGatewayDevice.X_HW_Dot1agCfm.dot1agCfmMd.dot1agCfmMa.dot1agCfmMep" OpType="1" Help="display ethoam mep info mdins[int] mains [int] mepins [int]" OutPut="MepId=%9 MepId% Direction=%25 Direction% PortType=%25 PortType% PortId=%10 PortId% L2Priority=%13 L2Priority% RemoteMepId=%13 RemoteMepId% RemoteMepMacAddr=%50 RemoteMepMacAddr% CcStatus=%25 CcStatus% AlarmStatus=%27 AlarmStatus% ActiveStatus=%30 ActiveStatus% CcmSendStatistics=%25 CcmSendStatistics% LbrSendStatistics=%25 LbrSendStatistics%" CmdGroup="0x00004010">
+<para ParaName="mdins" AttName="mdins" ParaAtt="1"/>
+<para ParaName="mains" AttName="mains" ParaAtt="1"/>
+<para ParaName="mepins" AttName="mepins" ParaAtt="1"/>
+</GetEthoamMepInfo>
+<!-- NOT_SUPPORT_CM_END-->
+<DelEthoamMepInfo CmdStr="del ethoam mep info" ObjPath="InternetGatewayDevice.X_HW_Dot1agCfm.dot1agCfmMd.dot1agCfmMa.dot1agCfmMep" OpType="2" Help="del ethoam mep info mdins[int] mains[int] mepins[int]" OutPut="" CmdGroup="">
+<para ParaName="mdins" AttName="mdins" ParaAtt="1"/>
+<para ParaName="mains" AttName="mains" ParaAtt="1"/>
+<para ParaName="mepins" AttName="mepins" ParaAtt="1"/>
+</DelEthoamMepInfo>
+<AddEthoamMepInfo CmdStr="add ethoam mep info" ObjPath="InternetGatewayDevice.X_HW_Dot1agCfm.dot1agCfmMd.dot1agCfmMa.dot1agCfmMep" OpType="3" Help="add ethoam mep info mdins[int] mains[int] MepId {1~8191} Direction {up,down}" OutPut="" CmdGroup="">
+<para ParaName="mdins" AttName="mdins" ParaAtt="1"/>
+<para ParaName="mains" AttName="mains" ParaAtt="1"/>
+<para ParaName="MepId" AttName="MepId" ParaAtt="0"/>
+<para ParaName="Direction" AttName="Direction" ParaAtt="0"/>
+<para ParaName="PortType" AttName="PortType" ParaAtt="0"/>
+<para ParaName="PortId" AttName="PortId" ParaAtt="0"/>
+<para ParaName="L2Priority " AttName="L2Priority " ParaAtt="0"/>
+<para ParaName="RemoteMepId" AttName="RemoteMepId" ParaAtt="0"/>
+<para ParaName="RemoteMepMacAddr" AttName="RemoteMepMacAddr" ParaAtt="0"/>
+<para ParaName="CcStatus" AttName="CcStatus" ParaAtt="0"/>
+<para ParaName="AlarmStatus" AttName="AlarmStatus" ParaAtt="0"/>
+<para ParaName="ActiveStatus" AttName="ActiveStatus" ParaAtt="0"/>
+<para ParaName="CcmSendStatistics" AttName="CcmSendStatistics" ParaAtt="0"/>
+<para ParaName="LbrSendStatistics" AttName="LbrSendStatistics" ParaAtt="0"/>
+</AddEthoamMepInfo>
+<!-- NOT_SUPPORT_CM_START-->
+<GetEthoamMdInfo CmdStr="display ethoam md info" ObjPath="InternetGatewayDevice.X_HW_Dot1agCfm.dot1agCfmMd" OpType="1" Help="display ethoam md info mdins [int]" OutPut="MdIndex=%9 MdIndex% MdNameFormat=%14 MdNameFormat% MdNameValue=%57 MdNameValue% MdLevel=%9 MdLevel% MhfCreation=%13 MhfCreation%" CmdGroup="0x00004010">
+<para ParaName="mdins" AttName="dot1agCfmMd" ParaAtt="1"/>
+</GetEthoamMdInfo>
+<!-- NOT_SUPPORT_CM_END-->
+<DelEthoamMdInfo CmdStr="del ethoam md info" ObjPath="InternetGatewayDevice.X_HW_Dot1agCfm.dot1agCfmMd" OpType="2" Help="del ethoam md info mdins[int]" OutPut="" CmdGroup="">
+<para ParaName="mdins" AttName="dot1agCfmMd" ParaAtt="1"/>
+</DelEthoamMdInfo>
+<AddEthoamMdInfo CmdStr="add ethoam md info" ObjPath="InternetGatewayDevice.X_HW_Dot1agCfm.dot1agCfmMd" OpType="3" Help="add ethoam md info MdIndex[int] MdNameFormat[int] MdNameValue[string] MdLevel[int] MhfCreation[int]" OutPut="" CmdGroup="">
+<para ParaName="MdIndex" AttName="MdIndex" ParaAtt="0"/>
+<para ParaName="MdNameFormat" AttName="MdNameFormat" ParaAtt="0"/>
+<para ParaName="MdNameValue" AttName="MdNameValue" ParaAtt="0"/>
+<para ParaName="MdLevel" AttName="MdLevel" ParaAtt="0"/>
+<para ParaName="MhfCreation" AttName="MhfCreation" ParaAtt="0"/>
+</AddEthoamMdInfo>
+<!-- NOT_SUPPORT_CM_START-->
+<GetEthoamMaInfo CmdStr="display ethoam ma info" ObjPath="InternetGatewayDevice.X_HW_Dot1agCfm.dot1agCfmMd.dot1agCfmMa" OpType="1" Help="display ethoam ma info mdins [int] mains [int]" OutPut="MaIndex=%9 MaIndex% MaNameFormat=%14 MaNameFormat% MaNameValue=%57 MaNameValue% VlanId=%11 VlanId% CcmInterval=%13 CcmInterval% MhfCreation=%13 MhfCreation%" CmdGroup="0x00004010">
+<para ParaName="mdins" AttName="dot1agCfmMd" ParaAtt="1"/>
+<para ParaName="mains" AttName="dot1agCfmMa" ParaAtt="1"/>
+</GetEthoamMaInfo>
+<!-- NOT_SUPPORT_CM_END-->
+</CliRoot>

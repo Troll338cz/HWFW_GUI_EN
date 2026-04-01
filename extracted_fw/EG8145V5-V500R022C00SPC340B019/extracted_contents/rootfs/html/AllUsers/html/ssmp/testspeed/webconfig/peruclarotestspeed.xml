@@ -1,0 +1,20 @@
+<InternetGatewayDevice>
+    <DownloadDiagnostics setconfig = "0x00000006" getconfig = "0x00000006">
+        <DiagnosticsState setconfig ="0x00000006" getconfig = "0x00000006"/>
+        <Interface setconfig ="0x00000006" getconfig = "0x00000006"/>
+        <TimeBasedTestDuration setconfig ="0x00000006" getconfig = "0x00000006"/>
+        <DownloadURL setconfig ="0x00000006" getconfig = "0x00000006"/>
+        <NumberOfConnections setconfig ="0x00000006" getconfig = "0x00000006"/>
+    </DownloadDiagnostics>
+    <UploadDiagnostics setconfig = "0x00000006" getconfig = "0x00000006">
+        <DiagnosticsState setconfig ="0x00000006" getconfig = "0x00000006"/>
+        <Interface setconfig ="0x00000006" getconfig = "0x00000006"/>
+        <TimeBasedTestDuration setconfig ="0x00000006" getconfig = "0x00000006"/>
+        <UploadURL setconfig ="0x00000006" getconfig = "0x00000006"/>
+        <NumberOfConnections setconfig ="0x00000006" getconfig = "0x00000006"/>
+    </UploadDiagnostics>
+    <X_HW_PPPOE_EMLUATOR setconfig ="0x00000006" getconfig = "0x00000006">
+        <Username setconfig ="0x00000006" getconfig = "0x00000006"/>
+        <Password setconfig ="0x00000006" getconfig = "0x00000006"/>
+    </X_HW_PPPOE_EMLUATOR>
+</InternetGatewayDevice>

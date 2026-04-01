@@ -1,0 +1,31 @@
+<InternetGatewayDevice> 
+<X_HW_APDevice setconfig = "0x00000003" getconfig = "0x00000003">
+<RadioResourceManagement setconfig = "0x00000003" getconfig = "0x00000003">
+<ApInst setconfig = "0x00000003" getconfig = "0x00000003"/>
+<APMacAddr setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Ieee802Standard2G setconfig = "0x00000003" getconfig = "0x00000003"/>
+<RadioEnable2G setconfig = "0x00000003" getconfig = "0x00000003"/>
+<TxPower2G setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Channel2G setconfig = "0x00000003" getconfig = "0x00000003"/>
+<RfBandWidth2G setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Ieee802Standard5G setconfig = "0x00000003" getconfig = "0x00000003"/>
+<RadioEnable5G setconfig = "0x00000003" getconfig = "0x00000003"/>
+<TxPower5G setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Channel5G setconfig = "0x00000003" getconfig = "0x00000003"/>
+<RfBandWidth5G setconfig = "0x00000003" getconfig = "0x00000003"/>
+<SetRadioType setconfig = "0x00000003" getconfig = "0x00000003"/>
+<AutoChannel2G setconfig = "0x00000003" getconfig = "0x00000003"/>
+<AutoChannel5G setconfig = "0x00000003" getconfig = "0x00000003"/>
+</RadioResourceManagement>
+</X_HW_APDevice>
+<LANDevice setconfig = "0x00000003"  getconfig = "0x00000003">
+<X_HW_WifiScenario setconfig = "0x00000003">
+<ScenarioType setconfig = "0x00000003"/>
+</X_HW_WifiScenario>
+<WiFi setconfig = "0x00000003" getconfig = "0x00000003">
+<FttrDcaConfig setconfig = "0x00000003" getconfig = "0x00000003">
+<dacEnable setconfig = "0x00000003" getconfig = "0x00000003"/>
+</FttrDcaConfig>
+</WiFi>
+</LANDevice>
+</InternetGatewayDevice> 

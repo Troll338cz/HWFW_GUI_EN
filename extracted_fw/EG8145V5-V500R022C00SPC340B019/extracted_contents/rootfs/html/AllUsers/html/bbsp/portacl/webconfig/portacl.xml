@@ -1,0 +1,16 @@
+<InternetGatewayDevice>
+<X_HW_Security setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<AclServices setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<AccessControl setconfig = "0x00000002" addconfig = "0x00000002" delconfig = "0x00000002" getconfig = "0x00000002">
+<AccessControlListEnable setconfig = "0x00000002" getconfig = "0x00000002"/>
+<List setconfig = "0x00000002" addconfig = "0x00000002" delconfig = "0x00000002" getconfig = "0x00000002">
+<SrcPortType setconfig = "0x00000002" getconfig = "0x00000002"/>
+<SrcPortName setconfig = "0x00000002" getconfig = "0x00000002"/>
+<SrcIp setconfig = "0x00000002" getconfig = "0x00000002"/>
+<ServicePort setconfig = "0x00000002" getconfig = "0x00000002"/>
+<SrcMac setconfig = "0x00000002" getconfig = "0x00000002"/>
+</List>
+</AccessControl>
+</AclServices>
+</X_HW_Security> 
+</InternetGatewayDevice> 

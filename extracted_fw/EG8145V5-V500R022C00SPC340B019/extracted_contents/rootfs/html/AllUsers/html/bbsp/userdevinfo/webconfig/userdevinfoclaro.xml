@@ -1,0 +1,15 @@
+<InternetGatewayDevice>
+<LANDevice setconfig="0x00000007" getconfig="0x00000007">
+<X_HW_UserDev setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<IpAddr setconfig = "0x00000007" getconfig = "0x00000007"/>
+<MacAddr setconfig = "0x00000007" getconfig = "0x00000007"/>
+<time setconfig = "0x00000007" getconfig = "0x00000007"/>
+<HostName setconfig = "0x00000007" getconfig = "0x00000007"/>    
+<PortID setconfig = "0x00000007" getconfig = "0x00000007"/>
+<IpType setconfig = "0x00000007" getconfig = "0x00000007"/>
+<DevType setconfig = "0x00000007" getconfig = "0x00000007"/>
+<DevStatus setconfig = "0x00000007" getconfig = "0x00000007"/>
+<PortType setconfig = "0x00000007" getconfig = "0x00000007"/>    
+</X_HW_UserDev>
+</LANDevice> 
+</InternetGatewayDevice> 

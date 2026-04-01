@@ -1,0 +1,12 @@
+<InternetGatewayDevice>
+    <X_HW_Security setconfig = "0x00000006" addconfig = "0x00000006" delconfig = "0x00000006" getconfig = "0x00000006">
+        <FirewallLog setconfig = "0x00000006" addconfig = "0x00000006" delconfig = "0x00000006" getconfig = "0x00000006">
+            <FirewallLogRight setconfig = "0x00000006" getconfig = "0x00000006"/>
+            <Rules setconfig = "0x00000006" addconfig = "0x00000006" delconfig = "0x00000006" getconfig = "0x00000006">
+                <Enable setconfig = "0x00000006" getconfig = "0x00000006"/>
+                <Direction setconfig = "0x00000006" getconfig = "0x00000006"/>
+                <Action setconfig = "0x00000006" getconfig = "0x00000006"/>
+            </Rules>
+        </FirewallLog>
+    </X_HW_Security>
+</InternetGatewayDevice> 

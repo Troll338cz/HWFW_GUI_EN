@@ -1,0 +1,11 @@
+<Firewall Enable="1" ChainNumberOfEntries="1" LevelNumberOfEntries="1" LastChange="" Version="" Type="Stateful" AdvancedLevel="InternetGatewayDevice.X_HW_Security.Firewall.Level.1" Config="Advanced" >
+<Level NumberOfInstances="1">
+<LevelInstance InstanceID="1" Alias="Standard" Name="Standard" Description="All outgoing from LAN accept,and incoming to WAN is drop" Order="1" Chain="InternetGatewayDevice.X_HW_Security.Firewall.Chain.1" PortMappingEnabled="1" DefaultPolicy="Drop" DefaultLogPolicy="0"/>
+</Level>
+<Chain NumberOfInstances="1">
+<ChainInstance InstanceID="1" Enable="1" Name="StandardChain" Alias="StandardChain"  Creator="Defaults" RuleNumberOfEntries="0" >
+<Rule NumberOfInstances="0">
+</Rule>
+</ChainInstance>
+</Chain>
+</Firewall>

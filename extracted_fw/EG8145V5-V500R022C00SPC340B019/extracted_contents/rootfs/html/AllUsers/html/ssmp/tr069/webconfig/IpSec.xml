@@ -1,0 +1,20 @@
+<InternetGatewayDevice> 
+<X_HW_DataModel setconfig = "0x00000002" addconfig = "0x00000002" delconfig = "0x00000002" getconfig = "0x00000002" > 
+<Security setconfig = "0x00000002" addconfig = "0x00000002" delconfig = "0x00000002"  getconfig = "0x00000002"> 
+<Certificate setconfig = "0x00000002" addconfig = "0x00000002" delconfig = "0x00000002" getconfig = "0x00000002">
+<X_HW_Type setconfig = "0x00000002" getconfig = "0x00000002" />
+<X_HW_Usage setconfig = "0x00000002" getconfig = "0x00000002" />
+<X_HW_Password setconfig = "0x00000002" getconfig = "0x00000002" />
+<X_HW_Thumbprint setconfig = "0x00000002" getconfig = "0x00000002" />
+<X_HW_Priority setconfig = "0x00000002" getconfig = "0x00000002" />
+<X_HW_Alias setconfig = "0x00000002" getconfig = "0x00000002" />
+<X_HW_CRLPath setconfig = "0x00000002" getconfig = "0x00000002" />
+</Certificate>
+</Security> 
+</X_HW_DataModel>
+<X_HW_VPN setconfig = "0x00000002" getconfig = "0x00000002" > 
+<A8C_IPSecVPN setconfig = "0x00000002" getconfig = "0x00000002"> 
+<IKECertificate setconfig = "0x00000002" getconfig = "0x00000002" />
+</A8C_IPSecVPN> 
+</X_HW_VPN> 
+</InternetGatewayDevice>

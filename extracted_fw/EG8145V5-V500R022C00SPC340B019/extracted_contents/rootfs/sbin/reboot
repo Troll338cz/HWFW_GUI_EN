@@ -1,0 +1,47 @@
+#! /bin/sh
+login_user=$(whoami)
+if [ $login_user != "root" ]; then
+	echo "Please switch to the su mode, then run reboot command!"
+	exit 0
+fi
+
+var_pid=$$;
+var_ppid_str=`cat /proc/$var_pid/status | grep PPid | cut -d: -f2`;
+var_ppid=`echo $var_ppid_str | sed 's/ //g'`;
+var_ppid_name=`cat /proc/$var_ppid/cmdline`;
+
+var_caller_str=`cat /proc/$var_ppid/status | grep PPid | cut -d: -f2`;
+var_caller=`echo $var_caller_str | sed 's/ //g'`;
+var_caller_name=`cat /proc/$var_caller/cmdline`;
+
+echo "pid:$var_pid; ppid:$var_ppid($var_ppid_name), caller:$var_caller($var_caller_name)";
+
+if [ -f /bin/date ]; then
+    date > /mnt/jffs2/reboot.log;
+else
+    echo > /mnt/jffs2/reboot.log;
+fi
+chmod 640 /mnt/jffs2/reboot.log && chown -h :service /mnt/jffs2/reboot.log
+
+echo "process $var_caller($var_caller_name) call reboot." >> /mnt/jffs2/reboot.log;
+var_xpon_mode=`getboardinfo 0x00000001`
+aishumax_enble=`GetFeature FT_SSMP_AIS_HUMAX`
+if [ $aishumax_enble == 1 ] && [ ${var_xpon_mode} == "1" ];then
+	/bin/closeeth0
+fi
+
+umount -f /mnt/jffs2 > /dev/null
+
+if [ -f /bin/ctrg_m ]; then
+    release.sh reboot 1> /dev/null 2> /dev/null
+else
+    release.sh 1> /dev/null 2> /dev/null
+fi
+
+sleep 2
+
+if [ $# -eq 0  ]; then
+    busybox reboot -f
+else
+    busybox reboot $* -f
+fi

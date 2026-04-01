@@ -1,0 +1,706 @@
+<ErrRoot>
+<HW_RET_LDSP_DEV_BUSY CMO="0xf750000a" InfoStr="ERROR::The device is busy." Output="0x80000000"/>
+<HW_RET_AMP_TABLE_FULL CMO="0xf7600006" InfoStr="ERROR::The table is full." Output="0x84000000"/>
+<HW_RET_AMP_RFFILTER_NODEVICEERR CMO="0xF760000d" InfoStr="ERROR::PCB don't support RF filter!" Output="0x80000000"/>
+<HW_RET_AMP_RFFILTER_NODEVICEERR CMO="0xF760000e" InfoStr="Not support POE fail info query" Output="0x80000000"/>
+<HW_RET_BBSP_IFM_EXCEED_MAX_INSTNUM CMO="0xf710e033" InfoStr="ERROR::Exceeded the limit on the number of instance." Output="0x84000000"/>
+<HW_RET_VOICE_BASE CMO="0xf7400000" InfoStr="ATTENTION::Some of configuration parameters have been delayed because the call in progress." Output="0x84000000"/>
+<HW_RET_VOICE_UNION_CHECK_ERR_VAG_4PARA CMO="0xf7400001" InfoStr="ERROR::Multi VAGs(ATAs) parameters conflicts." Output="0x84000000"/>
+<HW_RET_VOICE_OPER_ERR_SET_USER_IN_CALL CMO="0xf7400002" InfoStr="ERROR::Not allowed to modify the key parameters when the user is busy." Output="0x84000000"/>
+<HW_RET_VOICE_UNION_CHECK_ERR_DIRECTORY_NUMBER CMO="0xf7400003" InfoStr="ERROR::Repeated directory number." Output="0x84000000"/>
+<HW_RET_VOICE_OPER_ERR_DEL_USER_IN_CALL CMO="0xf7400004" InfoStr="ERROR::Not allowed to delete when the user is busy." Output="0x84000000"/>
+<HW_RET_VOICE_UNION_CHECK_ERR_JB CMO="0xf7400005" InfoStr="ERROR::Jitter buffer value conflicts." Output="0x84000000"/>
+<HW_RET_VOICE_OPER_ERR_PORT_BUSY_4TEST CMO="0xf7400006" InfoStr="ERROR::The POTS ports are occupied." Output="0x84000000"/>
+<HW_RET_VOICE_OPER_ERR_OTHER_PORT_IN_TEST CMO="0xf7400007" InfoStr="ERROR::Another POTS port is in test already." Output="0x84000000"/>
+<HW_RET_VOICE_OPER_ERR_PORT_IN_OTHER_TEST CMO="0xf7400008" InfoStr="ERROR::Another test of the POTS port is in progress." Output="0x84000000"/>
+<HW_RET_VSPA_DB_UNION_CHECK_28332198VBD_PTYPE_CONFLICT CMO="0xf7400009" InfoStr="ERROR::PT value of RFC2833 and RFC2198 conflicts." Output="0x84000000"/>
+<HW_RET_VSPA_DB_UNION_CHECK_2198FAXMODEMVBD_PTYPE_CONFLICT CMO="0xf740000a" InfoStr="ERROR::PT value of RFC2198 and VBD conflicts." Output="0x84000000"/>
+<HW_RET_VSPA_DB_UNION_CHECK_2833FAXMODEMVBD_PTYPE_CONFLICT CMO="0xf740000b" InfoStr="ERROR::PT value of VBD and RFC2833 conflicts." Output="0x84000000"/>
+<HW_RET_VSPA_DB_UNION_CHECK_FLASH_TIME_CONFLICT CMO="0xf740000c" InfoStr="ERROR::." Output="0x84000000"/>
+<HW_RET_VOICE_UNION_CHECK_ERR_URI CMO="0xf740000d" InfoStr="ERROR::Repeated directory number(URI)!" Output="0x84000000"/>
+<HW_RET_VOICE_UNION_CHECK_ERR_USERNAME CMO="0xf740000e" InfoStr="ERROR::Repeated directory number(UserName)!" Output="0x84000000"/>
+<HW_RET_VSPA_DB_UNION_CHECK_FLASH_ONHOOK_TIME_CONFLICT CMO="0xf740000f" InfoStr="ERROR::onhook time erro." Output="0x84000000"/>
+<HW_RET_VSPA_DB_UNION_CHECK_IPSPC_CAP_UDPPORT_CONFLICT CMO="0xf7400010" InfoStr="ERROR::Repeated IpSpc port!" Output="0x84000000"/>
+<HW_RET_VSPA_DB_UNION_CHECK_RTP_UDPPORT_CONFLICT CMO="0xf7400011" InfoStr="ERROR::rtp port erro!" Output="0x84000000"/>
+<HW_RET_VSPA_DB_UNION_CHECK_RTP_IPSPC_CAP_UDPPORT_CONFLICT CMO="0xf7400012" InfoStr="ERROR::IpSpc udpport erro." Output="0x84000000"/>
+<HW_RET_VSPA_DB_UNION_CHECK_DIALSN_INNCALL_PRE_CONFLICT CMO="0xf7400013" InfoStr="ERROR::DIALSN_INNCALL_PRE_CONFLICT!" Output="0x84000000"/>
+<HW_RET_VSPA_DB_UNION_CHECK_CODEC_DISABLE_ALL CMO="0xf7400014" InfoStr="ERROR::CODEC disable!" Output="0x84000000"/>
+<HW_RET_VSPA_DB_UNION_CHECK_USERNAME_CONFLICT CMO="0xf7405000" InfoStr="" Output="0x80000000"/>
+<HW_RET_VSPA_DB_UNION_CHECK_TELNO_CONFLICT CMO="0xf7405001" InfoStr="ERROR::Repeated directory number!" Output="0x80000000"/>
+<HW_RET_VSPA_DB_UNION_CHECK_STATIC_JB_CONFLICT CMO="0xf7405002" InfoStr="" Output="0x80000000"/>
+<HW_RET_VSPA_DB_UNION_CHECK_DYNAMIC_JB_CONFLICT CMO="0xf7405003" InfoStr="" Output="0x80000000"/>
+<HW_RET_VSPA_DB_UNION_CHECK_FLASH_ONHOOK_TIME_CONFLICT CMO="0xf7405004" InfoStr="" Output="0x80000000"/>
+<HW_RET_VSPA_DB_UNION_CHECK_RTP_IPSPC_CAP_UDPPORT_CONFLICT CMO="0xf7405005" InfoStr="" Output="0x80000000"/>
+<HW_RET_VSPA_DB_UNION_CHECK_DIALSN_INNCALL_PRE_CONFLICT CMO="0xf7405006" InfoStr="" Output="0x80000000"/>
+<HW_RET_VSPA_DB_UNION_CHECK_CODEC_DISABLE_ALL CMO="0xf7405007" InfoStr="" Output="0x80000000"/>
+<HW_RET_VSPA_DB_UNION_CHECK_VAG_CONFLICT CMO="0xf7405008" InfoStr="" Output="0x80000000"/>
+<HW_WAN_ERR_TR069_MODIFY_VOICE_WAN CMO="0xf7301051" InfoStr="ERROR::Not allowed to modify the key parameters of WAN because the call in progress" Output="0x84000000"/>
+<HW_WAN_ERR_TR069_DELETE_VOICE_WAN CMO="0xf7301052" InfoStr="ERROR::Not allowed to delete the WAN because the call in progress" Output="0x84000000"/>
+<HW_VSPA_ERR CMO="0x1" InfoStr="ERROR::The requested operation can not be performed. Please check whether the related parameters are correct!" Output="0x84000000"/>
+<HW_VSPA_ERR CMO="0xf7400015" InfoStr="ERROR::The requested operation can not be performed. Please check whether the related parameters are correct!" Output="0x84000000"/>
+<HW_RET_VOICE_CFG_SNAP_SIGNAL_START_ERROR CMO="0xf7400016" InfoStr="success!::Safety media mirroring is enabled, but signaling mirroring is not authenticated and is disabled!" Output="0x84000000"/>
+<HW_RET_VOICE_VAGS_PORT_CONFLICT CMO="0xf7400017" InfoStr="ERROR::The Port have used by other VAG(ATA)." Output="0x84000000"/>
+<HW_RET_VOICE_REPETITIVE_COMMAND CMO="0xf7400018" InfoStr="INFO::Duplicate operation. The command is under execution." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_PORT_NO_OFFHOOK CMO="0xf740001a" InfoStr="ERROR::The port is not in off-hook state." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_PORT_NO_INCALL CMO="0xf740001b" InfoStr="ERROR::The port is not in a call." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_LOOP_TDM_CONFLICT CMO="0xf740001c" InfoStr="ERROR::Operation conflict. A local loopback is in progress." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_LOOP_IP_CONFLICT CMO="0xf740001d" InfoStr="ERROR::Operation conflict. A remote loopback is in progress." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_ERR_REMOTESERVER CMO="0xf740001e" InfoStr="ERROR::Incorrect parameter settings of the remote diagnosis server." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_ERR_PORT CMO="0xf7400020" InfoStr="ERROR::Invalid value of the port parameter." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_ERR_ENABLE CMO="0xf7400021" InfoStr="ERROR::Invalid value of the enable parameter." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_ERR_SWITCH CMO="0xf7400022" InfoStr="ERROR::Invalid value of the switch parameter." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_ERR_DIAGTYPE CMO="0xf7400023" InfoStr="ERROR::Invalid value of the diagtype parameter." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_ERR_AUTOSTOP CMO="0xf7400024" InfoStr="ERROR::Invalid value of the autostop parameter." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_ERR_DIR CMO="0xf7400025" InfoStr="ERROR::Invalid value of the dir parameter." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_ERR_DISPLAYTELNO CMO="0xf7400026" InfoStr="ERROR::Invalid value of the displaytelno parameter." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_ERR_TYPE CMO="0xf7400027" InfoStr="ERROR::Invalid value of the type parameter." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_ERR_VOICESERVICE CMO="0xf7400028" InfoStr="ERROR::Invalid value of the voiceservice parameter." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_ERR_TIMERAUTOSTOP CMO="0xf7400029" InfoStr="ERROR::Invalid value of the timerautostop parameter." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_ERR_MODE CMO="0xf740002a" InfoStr="ERROR::Invalid value of the mode parameter." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_ERR_MG CMO="0xf740002b" InfoStr="ERROR::Invalid value of the mg parameter." Output="0x84000000"/>
+<HW_RET_VOICE_PORT_ERR CMO="0xf7400019" InfoStr="ERROR::Parameter error:port" Output="0x84000000"/>
+<HW_RET_VOICE_AUTOSTOP_ERR CMO="0xf740001a" InfoStr="ERROR::Parameter error:autostop" Output="0x84000000"/>
+<HW_RET_VOICE_DIAGNOSE_TYPE_ERR CMO="0xf740001b" InfoStr="ERROR::Parameter error:diagnosetype" Output="0x84000000"/>
+<HW_RET_VOICE_DISPLAY_NO_ERR CMO="0xf740001c" InfoStr="ERROR::Parameter error:displayno" Output="0x84000000"/>
+<HW_RET_VOICE_CFG_ERR_CHANNEL CMO="0xf740002c" InfoStr="ERROR::Invalid value of the channel parameter." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_ERR_TELNO CMO="0xf740002d" InfoStr="ERROR::Invalid value of the dest_number parameter." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_ERR_STOPTIME CMO="0xf740002e" InfoStr="ERROR::Invalid value of the stoptime parameter." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_DSPDEBUG_EXITING CMO="0xf7400030" InfoStr="ERROR::The operation is being stopped. Please try later." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_DSPDEBUG_PORT_CONFLICT CMO="0xf7400031" InfoStr="ERROR::Operation conflict. The operation is being executed on another port." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_DSPDEBUG_NOT_ENABLE CMO="0xf7400032" InfoStr="ERROR::DSP record debugging is not enabled." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_TDEP_GET_CONFLICT CMO="0xf7400033" InfoStr="ERROR::Operation conflict. Please try after you hang up." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_TDEP_GET_TIME_ERR CMO="0xf7400034" InfoStr="ERROR::Operation conflict. The interval between queries must be greater than 1 minute." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_UNKNOW_ERR CMO="0xf7400035" InfoStr="ERROR::Unknown error." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_DSPPARA_GET_TIME_ERR CMO="0xf7400036" InfoStr="ERROR::Operation conflict. The interval between queries must be greater than 10 seconds." Output="0x84000000"/>
+<HW_RET_VOICE_CLI_REVERPOLAR_ERR CMO="0xf7400037" InfoStr="ERROR::polarity reversal on the POTS port failed." Output="0x84000000"/>
+<HW_RET_VOICE_CLI_REVERPOLAR_OK CMO="0xf7400038" InfoStr="Polarity reversal on all POTS ports successful." Output="0x84000000"/>
+<HW_RET_VOICE_CLI_RESTOREPOLAR_ERR CMO="0xf7400039" InfoStr="ERROR::polarity recovery on the POTS port failed." Output="0x84000000"/>
+<HW_RET_VOICE_CLI_RESTOREPOLAR_OK CMO="0xf740003a" InfoStr="Polarity recovery on all POTS ports successful." Output="0x84000000"/>
+<HW_RET_VOICE_CLI_NOT_SURPPORT_CURRENT_VERSION CMO="0xf740003c" InfoStr="ERROR::Your used version does not support this function." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_ERR_THRESHOLD CMO="0xf740003d" InfoStr="ERROR::Invalid value of the threshold parameter." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_RTPDIAG_NOT_ENABLE CMO="0xf740003e" InfoStr="ERROR::RTP diag is not enabled." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_ERR_INDEX CMO="0xf740003f" InfoStr="ERROR::Invalid value of the index parameter." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_ERR_TEMPLATENAME CMO="0xf7400040" InfoStr="ERROR::Invalid value of the templatename parameter." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_ERR_CODEC CMO="0xf7400041" InfoStr="ERROR::Invalid value of the codec parameter." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_ERR_PACKETPERIOD CMO="0xf7400042" InfoStr="ERROR::Invalid value of the packet-period parameter." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_ERR_PRIORITY CMO="0xf7400043" InfoStr="ERROR::Invalid value of the priority parameter." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_ERR_PROVIDERNAME CMO="0xf7400044" InfoStr="ERROR::Invalid value of the provider name parameter." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_ERR_USERNAME CMO="0xf7400045" InfoStr="ERROR::Invalid value of the username parameter." Output="0x84000000"/>
+<HW_RET_VOICE_DTMFDIAG_NOT_START CMO="0xf7400046" InfoStr="ERROR::DTMF diagnose switch is not enabled." Output="0x84000000"/>
+<HW_RET_VOICE_DTMFDIAG_IS_STARTING CMO="0xf7400047" InfoStr="ERROR::DTMF diagnose switch is enabled." Output="0x84000000"/>
+<HW_RET_VOICE_DTMFDIAG_IS_NOT_RECORDSTATE CMO="0xf7400048" InfoStr="ERROR::DTMF diagnose is not in diagnosing state." Output="0x84000000"/>
+<HW_RET_VOICE_DTMFDIAG_IS_NOT_SIMUSTATE CMO="0xf7400049" InfoStr="ERROR::DTMF diagnose is not in simulating state." Output="0x84000000"/>
+<HW_RET_VOICE_DTMFDIAG_IS_IN_OTHER_ACTION CMO="0xf7400050" InfoStr="ERROR::DTMF diagnose is in other action or the tone is not ready." Output="0x84000000"/>
+<HW_RET_VOICE_DTMFDIAG_MODE_NOT_MATCH_CHANNEL CMO="0xf7400051" InfoStr="ERROR::DTMF diagnose is in other action or the mode is not matched with channel state." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_ERR_LOCALPORT CMO="0xf7400052" InfoStr="ERROR::Invalid value of the localport parameter." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_ERR_REMOTEPORT CMO="0xf7400053" InfoStr="ERROR::Invalid value of the remoteport parameter." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_ERR_REMOTEIP CMO="0xf7400054" InfoStr="ERROR::Invalid value of the remoteip parameter." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_ERR_WANNAME CMO="0xf7400055" InfoStr="ERROR::Invalid value of the wanname parameter." Output="0x84000000"/>
+<HW_RET_VOICE_CFG_ERR_NO_LINE_CONFIG CMO="0xf7400056" InfoStr="ERROR::No line configured on the port." Output="0x84000000"/>
+<RET_BLL_INVALID_PARA CMO="0xf7605001" InfoStr="ERROR::Input para is not right!" Output="0x80000000"/>
+<RET_MACBRIDGE_OBJ_ENTRY_EMPTY CMO="0xf760501E" InfoStr="ERROR::The flow is not exist!" Output="0x80000000"/>
+<RET_FLOW_ENTRY_NOTEXIST CMO="0xf7605017" InfoStr="ERROR::The flow is not exist!" Output="0x80000000"/>
+<HW_BBSP_SEC_PORTMAP_INPUT_PARA_ERR CMO="0xf7309000" InfoStr="ERROR::invalid input parameter, must input parameter ExternalPort[int],ExternalEndPort[int],InternalPort[int],Protocol[string],InternalClientIp[string],and 
+InternalEndPort[int], other parameter is optional!" Output="0x80000000"/>
+<HW_BBSP_SEC_PORTTRIGGER_INPUT_PARA_ERR CMO="0xf7309001" InfoStr="ERROR::invalid input parameter, must input all the parameter!" Output="0x80000000"/>
+<HW_BBSP_WAN_NAT_CONFIG_INPUT_INTERFACE_NO_EXIST CMO="0xf7309003" InfoStr="ERROR::invalid input parameter, interface does not exist!" Output="0x80000000"/>
+<HW_BBSP_WAN_NAT_CONFIG_INPUT_STATUS_INVALID CMO="0xf7309004" InfoStr="ERROR::invalid input parameter, status value invalid!" Output="0x80000000"/>
+<HW_BBSP_WAN_IPV6_NOT_CONFIG_NAT CMO="0xf7309005" InfoStr="ERROR::invalid input parameter, ipv6 wan does not support nat!" Output="0x80000000"/>
+<HW_SEC_COMMON_NULL_POINTER CMO="0xf7307002" InfoStr="ERROR::null pointer!" Output="0x80000000"/>
+<HW_SEC_COMMON_INPUT_PARA_LEN_INVALID CMO="0xf7307003" InfoStr="ERROR::input para len invalid!" Output="0x80000000"/>
+<HW_SEC_COMMON_INPUT_PARA_VALUE_INVALID CMO="0xf7307004" InfoStr="ERROR::input para value invalid!" Output="0x80000000"/>
+<HW_SEC_COMMON_EXCEED_NODE_NUM_MAX CMO="0xf7307005" InfoStr="ERROR::exceed node num max!" Output="0x80000000"/>
+<HW_SEC_COMMON_NOT_FIND_RULE CMO="0xf7307006" InfoStr="ERROR::not find rule!" Output="0x80000000"/>
+<HW_SEC_COMMON_GET_CFG_MASK_FAILED CMO="0xf7307007" InfoStr="ERROR::get cfg mask failed!" Output="0x80000000"/>
+<HW_SEC_COMMON_FALSE CMO="0xf7307001" InfoStr="ERROR::false!" Output="0x80000000"/>
+<HW_SEC_COMMON_SET_RULE_REPEAT CMO="0xf7307008" InfoStr="ERROR::set rule repeat" Output="0x80000000"/>
+<HW_SEC_COMMON_GET_WANNAME_FAILED CMO="0xf7307009" InfoStr="ERROR::get wanname failed" Output="0x80000000"/>
+<HW_SEC_COMMON_GET_NODE_INFO_FAILED CMO="0xf730700a" InfoStr="ERROR::get node info failed" Output="0x80000000"/>
+<HW_SEC_COMMON_WAN_NAME_REPEAT CMO="0xf730700b" InfoStr="ERROR::wan name repeat" Output="0x80000000"/>
+<HW_SEC_COMMON_GET_WAN_STATUS_FALIED CMO="0xf730700c" InfoStr="ERROR::get wan status failed" Output="0x80000000"/>
+<HW_SEC_COMMON_GET_WAN_STATUS_NOT_RIGHT CMO="0xf730700d" InfoStr="ERROR::get wan status not right" Output="0x80000000"/>
+<HW_SEC_COMMON_GET_WAN_CONNTYPE_FAILED CMO="0xf730700e" InfoStr="ERROR::get wan conntype failed" Output="0x80000000"/>
+<HW_SEC_COMMON_GET_NAT_STATUS_FALIED CMO="0xf730700f" InfoStr="ERROR::get nat status failed" Output="0x80000000"/>
+<HW_SEC_COMMON_GET_WAN_IFNAME_FALIED CMO="0xf7307010" InfoStr="ERROR::get wan ifname failed" Output="0x80000000"/>
+<HW_SEC_COMMON_RULE_EFFECT_FAILED CMO="0xf7307011" InfoStr="ERROR::rule effect failed" Output="0x80000000"/>
+<HW_SEC_COMMON_UPDATE_NODE_INFO_FAILED CMO="0xf7307012" InfoStr="ERROR::update node info failed" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_NODE_INFO_FAILED CMO="0xf7307013" InfoStr="ERROR::check node info failed" Output="0x80000000"/>
+<HW_SEC_COMMON_ADD_NODE_FAILED CMO="0xf7307014" InfoStr="ERROR::add node failed" Output="0x80000000"/>
+<HW_SEC_COMMON_DEL_NODE_FAILED CMO="0xf7307015" InfoStr="ERROR::del node failed" Output="0x80000000"/>
+<HW_SEC_COMMON_SAVE_NODE_FAILED CMO="0xf7307016" InfoStr="ERROR::save node failed" Output="0x80000000"/>
+<HW_SEC_COMMON_ADD_XML_OBJ_FAILED CMO="0xf7307017" InfoStr="ERROR::add xml obj failed" Output="0x80000000"/>
+<HW_SEC_COMMON_DEL_XML_OBJ_FAILED CMO="0xf7307018" InfoStr="ERROR::del xml obj failed" Output="0x80000000"/>
+<HW_SEC_COMMON_ALLOC_PARALIST_FAILED CMO="0xf7307019" InfoStr="ERROR::alloc paralist" Output="0x80000000"/>
+<HW_SEC_COMMON_APPEND_PARALIST_FAILED CMO="0xf730701a" InfoStr="ERROR::append paralist failed" Output="0x80000000"/>
+<HW_SEC_COMMON_SET_DB_FAILED CMO="0xf730701b" InfoStr="ERROR::set db failed" Output="0x80000000"/>
+<HW_SEC_COMMON_ADD_DB_OBJ_FAILED CMO="0xf730701c" InfoStr="ERROR::add db obj failed" Output="0x80000000"/>
+<HW_SEC_COMMON_DEL_DB_OBJ_FAILED CMO="0xf730701d" InfoStr="ERROR::del db obj failed" Output="0x80000000"/>
+<HW_SEC_COMMON_GET_DB_OBJ_NUM_FAILED CMO="0xf730701e" InfoStr="ERROR::get db obj num failed" Output="0x80000000"/>
+<HW_SEC_COMMON_MALLOC_FAILED CMO="0xf730701f" InfoStr="ERROR::malloc failed" Output="0x80000000"/>
+<HW_SEC_COMMON_OPEN_FILE_FAILED CMO="0xf7307020" InfoStr="ERROR::open file failed" Output="0x80000000"/>
+<HW_SEC_COMMON_CLOSE_FILE_FAILED CMO="0xf7307021" InfoStr="ERROR::close file failed" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_IP_INFO_INVALID CMO="0xf7307022" InfoStr="ERROR::check ip info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_PROTO_INFO_INVALID CMO="0xf7307023" InfoStr="ERROR::check proto info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_PROTO_PORT_INFO_INVALID CMO="0xf7307024" InfoStr="ERROR::check proto port info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_ENABLE_INFO_INVALID CMO="0xf7307025" InfoStr="ERROR::check enable info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_SYNATTACK_INFO_INVALID CMO="0xf7307026" InfoStr="ERROR::check synattack info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_ICMPECHO_INFO_INVALID CMO="0xf7307027" InfoStr="ERROR::check icmpecho info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_ICMPREDIRECT_INFO_INVALID CMO="0xf7307028" InfoStr="ERROR::check icmpredirect info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_HTTPLEN_INFO_INVALID CMO="0xf7307029" InfoStr="ERROR::check httplan info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_HTTPWAN_INFO_INVALID CMO="0xf730702a" InfoStr="ERROR::check httpwan info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_FTPLAN_INFO_INVALID CMO="0xf730702b" InfoStr="ERROR::check ftplan info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_FTPWAN_INFO_INVALID CMO="0xf730702d" InfoStr="ERROR::check ftpwan info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_TFTPLAN_INFO_INVALID CMO="0xf730702e" InfoStr="ERROR::check tftplan info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_TFTPWAN_INFO_INVALID CMO="0xf730702f" InfoStr="ERROR::check tftpwan info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_SSHLAN_INFO_INVALID CMO="0xf7307030" InfoStr="ERROR::check sshlan info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_SSHWAN_INFO_INVALID CMO="0xf7307031" InfoStr="ERROR::check sshwan info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_TFTPENABLE_INFO_INVALID CMO="0xf7307032" InfoStr="ERROR::check tftpenable info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_H323ENABLE_INFO_INVALID CMO="0xf7307033" InfoStr="ERROR::check h323enable info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_SIPENABLE_INFO_INVALID CMO="0xf7307034" InfoStr="ERROR::check sipenable info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_RTSPENABLE_INFO_INVALID CMO="0xf7307035" InfoStr="ERROR::check rtspenable info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_L2TPENABLE_INFO_INVALID CMO="0xf7307036" InfoStr="ERROR::check l2tpenable info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_IPSECENABLE_INFO_INVALID CMO="0xf7307037" InfoStr="ERROR::check ipsecenable info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_PPTPENABLE_INFO_INVALID CMO="0xf7307038" InfoStr="ERROR::check pptpenable info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_FTPENABLE_INFO_INVALID CMO="0xf7307039" InfoStr="ERROR::check ftpenable info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_ADD_PORT_INFO_FAILED CMO="0xf730703a" InfoStr="ERROR::check add port info failed" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_REMOTEHOST_INFO_INVALID CMO="0xf730703b" InfoStr="ERROR::check remotehost info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_INTERNALCLIENT_INFO_INVALID CMO="0xf730703c" InfoStr="ERROR::check internalclient info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_PORT_INFO_INVALID CMO="0xf730703d" InfoStr="ERROR::check port info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_COMBIN_INFO_INVALID CMO="0xf730703e" InfoStr="ERROR::check combin info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_INTEGRITY_INFO_INVALID CMO="0xf730703f" InfoStr="ERROR::check integrity invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_DAY_INFO_INVALID CMO="0xf7307040" InfoStr="ERROR::check day info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_TIME_INFO_INVALID CMO="0xf7307041" InfoStr="ERROR::check time info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_MAC_INFO_INVALID CMO="0xf7307042" InfoStr="ERROR::check mac info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_GET_TRIGGER_PORT_TOTAL_NUM_FAILED CMO="0xf7307043" InfoStr="ERROR::get trigger port total num failed" Output="0x80000000"/>
+<HW_SEC_COMMON_TRIGGER_PORT_TOTAL_NUM_EXCEED CMO="0xf7307044" InfoStr="ERROR::trigger port total num exceed" Output="0x80000000"/>
+<HW_SEC_COMMON_GET_OPEN_PORT_TOTAL_NUM_FAILED CMO="0xf7307045" InfoStr="ERROR::get open port total num failed" Output="0x80000000"/>
+<HW_SEC_COMMON_OPEN_PORT_TOTAL_NUM_EXCEED CMO="0xf7307046" InfoStr="ERROR::open port total num exceed" Output="0x80000000"/>
+<HW_SEC_COMMON_INITIAL_ACLFLT_FAILED CMO="0xf7307047" InfoStr="ERROR::initial aclflt failed" Output="0x80000000"/>
+<HW_SEC_COMMON_INITIAL_DOSFLT_FAILED CMO="0xf7307048" InfoStr="ERROR::initial dosflt failed" Output="0x80000000"/>
+<HW_SEC_COMMON_CONFIG_FIREWALL_FAILED CMO="0xf7307049" InfoStr="ERROR::config firewall failed" Output="0x80000000"/>
+<HW_SEC_COMMON_CLEAR_IPFLTIN_NODE_INFO_FAILED CMO="0xf730704a" InfoStr="ERROR::clear ipfltin node info failed" Output="0x80000000"/>
+<HW_SEC_COMMON_CLEAR_IPFLTOUT_NODE_INFO_FAILED CMO="0xf730704b" InfoStr="ERROR::clear ipfltout node info failed" Output="0x80000000"/>
+<HW_SEC_COMMON_CLEAR_MACFLT_NODE_INFO_FAILED CMO="0xf730704c" InfoStr="ERROR::clear macflt node info failed" Output="0x80000000"/>
+<HW_SEC_COMMON_CLEAR_ACLFLT_NODE_INFO_FAILED CMO="0xf730704d" InfoStr="ERROR::clear aclflt node info failed" Output="0x80000000"/>
+<HW_SEC_COMMON_CLEAR_DOSFLT_NODE_INFO_FAILED CMO="0xf730704e" InfoStr="ERROR::clear dosflt node info failed" Output="0x80000000"/>
+<HW_SEC_COMMON_WAN_UP_DOWM_REGISTER_FAILED CMO="0xf730704f" InfoStr="ERROR::wan up down register failed" Output="0x80000000"/>
+<HW_SEC_COMMON_INIT_NAT_FAILED CMO="0xf7307050" InfoStr="ERROR::init nat failed" Output="0x80000000"/>
+<HW_SEC_COMMON_INIT_DMZ_FAILED CMO="0xf7307051" InfoStr="ERROR::init dmz failed" Output="0x80000000"/>
+<HW_SEC_COMMON_INIT_PORTMAP_FAILED CMO="0xf7307052" InfoStr="ERROR::init portmap failed" Output="0x80000000"/>
+<HW_SEC_COMMON_INIT_PORTTRIGGER_FAILED CMO="0xf7307053" InfoStr="ERROR::init porttrigger failed" Output="0x80000000"/>
+<HW_SEC_COMMON_WAN_UP_PRO_FAILED CMO="0xf7307054" InfoStr="ERROR::wan ip pro failed" Output="0x80000000"/>
+<HW_SEC_COMMON_WAN_DOWN_PRO_FAILED CMO="0xf7307055" InfoStr="ERROR::wan down pro failed" Output="0x80000000"/>
+<HW_SEC_COMMON_WAN_DELETE_PRO_FAILED CMO="0xf7307056" InfoStr="ERROR::wan delete pro failed" Output="0x80000000"/>
+<HW_SEC_COMMON_CLEAR_ALL_NAPT_TABLE_FAILED CMO="0xf7307057" InfoStr="ERROR::clear all napt table failed" Output="0x80000000"/>
+<HW_SEC_COMMON_GET_FEATURE_SPC_FAIL CMO="0xf7307058" InfoStr="ERROR::get feature spc fail" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_WANSRCWHITELIST_ENABLE_INFO_INVALID CMO="0xf7307065" InfoStr="ERROR::check wansrcwhitelist enable info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_WANSRCWHITELIST_NUM_INFO_INVALID CMO="0xf7307066" InfoStr="ERROR::check wansrcwhitelist num for entries info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_SRCIPPREFIX_INFO_INVALID CMO="0xf730705f" InfoStr="ERROR::check srcipprefix info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_WIFIHTTP_INFO_INVALID CMO="0xf7307073" InfoStr="ERROR::check wifi-http enable info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_WIFITELNET_INFO_INVALID CMO="0xf7307074" InfoStr="ERROR::check wifi-telnet enable info invalid" Output="0x80000000"/>
+<HW_SEC_FIREWALl_RULE_INPUT_PARA_ERR CMO="0xf7307081" InfoStr="ERROR::Input para is not right " Output="0x80000000"/>
+<HW_SEC_FIREWALl_RULE_INDEX_INVALID CMO="0xf7307082" InfoStr="ERROR::invalid index, it should be 1-256 " Output="0x80000000"/>
+<HW_SEC_FIREWALl_RULE_INTERFACE_INVALID CMO="0xf7307083" InfoStr="ERROR::interface does not exist " Output="0x80000000"/>
+<HW_SEC_MACFILTER_EXCEED_INST_NUM_MAX CMO="0xf7307093" InfoStr="ERROR::Cannot configure more than eight MAC filter rules. " Output="0x80000000"/>
+<HW_SEC_MACFILTER_CHECK_MAC_INFO_INVALID CMO="0xf7307094" InfoStr="ERROR::Check MAC address info invalid. " Output="0x80000000"/>
+<HW_SEC_MACFILTER_ADD_MAC_RULE_REPEAT CMO="0xf7307095" InfoStr="ERROR::The MAC address has been configured. " Output="0x80000000"/>
+<HW_SEC_MACFILTER_SET_POLICY_INVALID CMO="0xf7307096" InfoStr="ERROR::Input policy para value invalid. " Output="0x80000000"/>
+<HW_SEC_MACFILTER_UNKNOWN_ERROR CMO="0xf7307097" InfoStr="ERROR::Unknown error. " Output="0x80000000"/>
+<HW_RET_DNS_NULL_POINTER CMO="0xf730b002" InfoStr="ERROR::input null pointer!!" Output="0x80000000"/>
+<HW_RET_DNS_INVALID_PARA CMO="0xf730b003" InfoStr="ERROR::Input para is not right!" Output="0x80000000"/>
+<HW_RET_IGMP_INVALID_PARAMETER CMO="0xf7305001" InfoStr="ERROR::Command is not right" Output="0x80000000"/>
+<HW_RET_DNS_INVALID_IP CMO="0xf730b006" InfoStr="ERROR::Invalid ip address" Output="0x80000000"/>
+<HW_RET_DNS_GET_WAN_LINE_BIND_ERR CMO="0xf730b010" InfoStr="ERROR::fail to get wan or lan info" Output="0x80000000"/>
+<HW_RET_DNS_GET_WAN_DNS_ADDR_ERR CMO="0xf730b00d" InfoStr="ERROR::fail to get dns address of wan" Output="0x80000000"/>
+<HW_RET_DNS_GET_WAN_NAME_ERR CMO="0xf730b00e" InfoStr="ERROR::fail to get wan name" Output="0x80000000"/>
+<HW_RET_DNS_OPEN_FILE_ERR CMO="0xf730b00f" InfoStr="ERROR::fail to open file" Output="0x80000000"/>
+<HW_RET_DNS_GET_DNS_NUMS_ERR CMO="0xf730b010" InfoStr="ERROR::the number of dns is error" Output="0x80000000"/>
+<HW_RET_DNS_INVALID_DOMAIN CMO="0xf730b011" InfoStr="ERROR::Invalid domain name" Output="0x80000000"/>
+<HW_RET_DNS_STATIC_ENTRY_EXISTED CMO="0xf730b012" InfoStr="ERROR::Static entry already exists" Output="0x80000000"/>
+<HW_RET_DNS_STATIC_ENTRY_NOT_EXISTED CMO="0xf730b013" InfoStr="ERROR::Static entry does not exist" Output="0x80000000"/>
+<HW_RET_DNS_INTERFACE_NOT_EXISTED CMO="0xf730b014" InfoStr="ERROR::Interface does not exist" Output="0x80000000"/>
+<HW_RET_DNS_INVALID_PRIORITY CMO="0xf730b015" InfoStr="ERROR::Invalid priority" Output="0x80000000"/>
+<HW_RET_DNS_STATIC_ENTRY_IS_FULL CMO="0xf730b016" InfoStr="ERROR::Static entry is full" Output="0x80000000"/>
+<HW_RET_DNS_DOMAIN_CONFLICT CMO="0xf730b017" InfoStr="ERROR::Domain name conflict" Output="0x80000000"/>
+<HW_RET_DNS_SERVER_EXISTED CMO="0xf730b018" InfoStr="ERROR::Server already exists" Output="0x80000000"/>
+<HW_RET_DNS_SERVER_NOT_EXISTED CMO="0xf730b019" InfoStr="ERROR::Server does not exist" Output="0x80000000"/>
+<HW_RET_DNS_SERVER_EXCEED_MAX CMO="0xf730b01a" InfoStr="ERROR::Exceeded the limit on the number of dns server" Output="0x80000000"/>
+<HW_RET_DNS_CLIENT_PARA_ERROR CMO="0xf730b01b" InfoStr="ERROR::Invalid para,timeout should be 1-10, retrytimes should be 1-3" Output="0x80000000"/>
+<HW_RET_DNS_INVALID_INTERFACE CMO="0xf730b01c" InfoStr="ERROR::Invalid interface" Output="0x80000000"/>
+<HW_RET_DNS_INTERFACE_NOT_SUPPORT_ERR CMO="0xf730b01e" InfoStr="ERROR::Interface is not supported" Output="0x80000000"/>
+<HW_RET_DNS_INVALID_IPV4_IP CMO="0xf730b01f" InfoStr="ERROR::Invalid IPv4 address" Output="0x80000000"/>
+<HW_RET_DNS_INVALID_IPV6_IP CMO="0xf730b020" InfoStr="ERROR::Invalid IPv6 address" Output="0x80000000"/>
+<HW_RET_DNS_IP_NOT_IN_LAN_SUBNET CMO="0xf730b023" InfoStr="ERROR::ip address is not LAN ip" Output="0x80000000"/>
+<HW_RET_DNS_COMMAND_IS_NOT_RIGHT CMO="0xf730b024" InfoStr="ERROR:: Command is not right" Output="0x80000000"/>
+<HW_RET_DNS_INPUT_PARA_IS_NOT_RIGHT CMO="0xf730b025" InfoStr="ERROR::input para is not right!" Output="0x80000000"/>
+<HW_RET_DNS_IS_LOCKED CMO="0xf730b026" InfoStr="ERROR::DNS is locked" Output="0x80000000"/>
+<HW_IFM_ERR_PAPRERR CMO="0xf7301001" InfoStr="ERROR::ifm check parameter error" Output="0x80000000"/>
+<HW_IFM_ERR_IF_EXISTED CMO="0xf7301002" InfoStr="ERROR::interface already exists" Output="0x80000000"/>
+<HW_IFM_ERR_IF_NOT_EXIST CMO="0xf7301003" InfoStr="ERROR::interface does not exist" Output="0x80000000"/>
+<HW_IFM_ERR_ALLOCERR CMO="0xf7301004" InfoStr="ERROR::ifm memory alloction failed" Output="0x80000000"/>
+<HW_IFM_ERR_IFNAMEERR CMO="0xf7301005" InfoStr="ERROR::interface name is error" Output="0x80000000"/>
+<HW_IFM_ERR_WANCTLNULL CMO="0xf7301006" InfoStr="ERROR::wan control block is null" Output="0x80000000"/>
+<HW_IFM_ERR_LANCTLNULL CMO="0xf7301007" InfoStr="ERROR::lan control block is null" Output="0x80000000"/>
+<HW_IFM_ERR_IP_EXISTED CMO="0xf7301008" InfoStr="ERROR::interface ip address already exists" Output="0x80000000"/>
+<HW_IFM_ERR_IP_NOT_EXISTED CMO="0xf7301009" InfoStr="ERROR::interface ip address does not exist" Output="0x80000000"/>
+<HW_IFM_ERR_SOCK_CREATE_ERR CMO="0xf730100a" InfoStr="ERROR::ifm create sock failed" Output="0x80000000"/>
+<HW_IFM_ERR_GET_NETDEVIFINDEX_ERR CMO="0xf730100b" InfoStr="ERROR::get netdevice index failed" Output="0x80000000"/>
+<HW_IFM_ERR_GET_NETDEVFLAG_ERR CMO="0xf730100c" InfoStr="ERROR::get netdevice flag failed" Output="0x80000000"/>
+<HW_IFM_ERR_IFSTATUSCHAGCTRL_NULL CMO="0xf730100d" InfoStr="ERROR::if statuc ctrl block is null" Output="0x80000000"/>
+<HW_IFM_ERR_GET_WANNAME_BY_INSTANCEID_ERR CMO="0xf730100e" InfoStr="ERROR::get wan name by instance error" Output="0x80000000"/>
+<HW_IFM_ERR_OPENFILE_ERR CMO="0xf730100f" InfoStr="ERROR::ifm open file failed" Output="0x80000000"/>
+<HW_IFM_ERR_READFILE_ERR CMO="0xf7301010" InfoStr="ERROR::ifm read file failed" Output="0x80000000"/>
+<HW_IFM_ERR_SEEKFILE_ERR CMO="0xf7301011" InfoStr="ERROR::ifm seek file failed" Output="0x80000000"/>
+<HW_IFM_ERR_WRITEFILE_ERR CMO="0xf7301012" InfoStr="ERROR::ifm write file failed" Output="0x80000000"/>
+<HW_IFM_ERR_DNS_DISABLE CMO="0xf7301013" InfoStr="ERROR::ifm dns is disable" Output="0x80000000"/>
+<HW_IFM_ERR_MSGTYPE_ERR CMO="0xf7301014" InfoStr="ERROR::ifm msgtyep is error" Output="0x80000000"/>
+<HW_IFM_ERR_GET_WAN_MAC_ERR CMO="0xf7301015" InfoStr="ERROR::ifm get wan mac failed" Output="0x80000000"/>
+<HW_IFM_ERR_SKB_NO_ENOUGH_HEADROOM CMO="0xf7301016" InfoStr="ERROR::ifmdev no enough headroom" Output="0x80000000"/>
+<HW_IFM_ERR_NO_DEV CMO="0xf7301017" InfoStr="ERROR::no such ifm dev" Output="0x80000000"/>
+<HW_IFM_ERR_DEV_DOWN CMO="0xf7301018" InfoStr="ERROR::ifm device down" Output="0x80000000"/>
+<HW_IFM_ERR_REGISTER_DEV_ERR CMO="0xf7301019" InfoStr="ERROR::register ifm device failed" Output="0x80000000"/>
+<HW_IFM_ERR_GET_WANSTATUS_ERR CMO="0xf730101a" InfoStr="ERROR::get wan status failed" Output="0x80000000"/>
+<HW_IFM_ERR_WAN_PATH_ERR CMO="0xf730101b" InfoStr="ERROR::wan file path error" Output="0x80000000"/>
+<HW_IFM_ERR_DELETE_FILE_ERR CMO="0xf730101c" InfoStr="ERROR::delete ifm file failed" Output="0x80000000"/>
+<HW_IFM_ERR_CREATE_DIR_ERR CMO="0xf730101d" InfoStr="ERROR::create ifm dir failed" Output="0x80000000"/>
+<HW_IFM_ERR_WAN_TYPE_ERR CMO="0xf730101e" InfoStr="ERROR::wan type error" Output="0x80000000"/>
+<HW_IFM_ERR_GET_LANNAME_ERR CMO="0xf730101f" InfoStr="ERROR::fail to get lanname " Output="0x80000000"/>
+<HW_IFM_ERR_SET_LAN_MODE_ERR CMO="0xf7301020" InfoStr="ERROR::fail to set lanmode" Output="0x80000000"/>
+<HW_IFM_ERR_SAVE_DB_ERR CMO="0xf7301021" InfoStr="ERROR::fail to save db " Output="0x80000000"/>
+<HW_IFM_ERR_GET_BIND_INFO_ERR CMO="0xf7301022" InfoStr="ERROR::fail to get bindinfo" Output="0x80000000"/>
+<HW_IFM_ERR_ADD_XML_OBJ_ERR CMO="0xf7301023" InfoStr="ERROR::fail to add xml obj" Output="0x80000000"/>
+<HW_IFM_ERR_LAN_BIND_MANYWAN_ERR CMO="0xf7301024" InfoStr="ERROR::lan has been binded a wan" Output="0x80000000"/>
+<HW_IFM_ERR_LAN_WAN_BIND_ERR CMO="0xf7301025" InfoStr="ERROR::lan wan bind err " Output="0x80000000"/>
+<HW_IFM_ERR_GET_WAN_STATUS_ERR CMO="0xf7301026" InfoStr="ERROR::fail to get wan status" Output="0x80000000"/>
+<HW_IFM_ERR_NOT_L3PORT_ERR CMO="0xf7301027" InfoStr="ERROR::l2 lan can not be binded" Output="0x80000000"/>
+<HW_IFM_ERR_L3PORT_BINDED_ERR CMO="0xf7301028" InfoStr="ERROR::l3 port has been binded" Output="0x80000000"/>
+<HW_IFM_ERR_MAX_SPEC_EXCEEDED CMO="0xf7301029" InfoStr="ERROR::max if number exceeded" Output="0x80000000"/>
+<HW_IFM_ERR_BRIDGED_WAN_NOT_CONFIG CMO="0xf730102a" InfoStr="bridged wan doesn't support this configuration" Output="0x80000000"/>
+<HW_IFM_ERR_WAN_VLAN_CONFLICT CMO="0xf730102b" InfoStr="ERROR::vlan of tr069 wan conflicts with another wan " Output="0x80000000"/>
+<HW_IFM_ERR_TR069_WAN_TYPE_ERR CMO="0xf730102c" InfoStr="ERROR::type of tr069 wan is pppoe " Output="0x80000000"/>
+<HW_IFM_ERR_TR069_WAN_NUM_ERR CMO="0xf730102d" InfoStr="ERROR::tr069 wan can be created once " Output="0x80000000"/>
+<HW_IFM_ERR_TR069_WAN_NOT_EXIST CMO="0xf730102e" InfoStr="ERROR::tr069 wan doesn't exist " Output="0x80000000"/>
+<HW_RET_IGMP_MODE_CONFLICT CMO="0xf7305023" InfoStr="Error:current mode is controllable " Output="0x80000000"/>
+<HW_RET_IGMP_MULTICAST_MODE_CONFLICT CMO="0xf7305024" InfoStr="Error:Global multicast forward mode conflict in GPON!" Output="0x80000000"/>
+<HW_RET_IGMP_PORT_MVLAN_IS_CONFIGED CMO="0xf7305025" InfoStr="Error:Port multicast vlan is already configured in EPON !" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_LAND_INFO_INVALID CMO="0xf7307059" InfoStr="ERROR::check land info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_SMURF_INFO_INVALID CMO="0xf730705a" InfoStr="ERROR::check land info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_CHECK_WINNUKE_INFO_INVALID CMO="0xf730705b" InfoStr="ERROR::check land info invalid" Output="0x80000000"/>
+<HW_SEC_COMMON_TYPE_INVALID CMO="0xf730708f" InfoStr="ERROR::Invalid type" Output="0x80000000"/>
+<HW_SEC_COMMON_VERSION_INVALID CMO="0xf7307090" InfoStr="ERROR::Invalid version" Output="0x80000000"/>
+<HW_SEC_COMMON_PROTOCOL_INVALID CMO="0xf7307091" InfoStr="ERROR::Invalid protocol" Output="0x80000000"/>
+<HW_SEC_COMMON_ACTION_INVALID CMO="0xf7307092" InfoStr="ERROR::Invalid action" Output="0x80000000"/>
+<HW_SEC_COMMON_REJECTTYPE_INVALID CMO="0xf730707f" InfoStr="ERROR::Invalid reject-type" Output="0x80000000"/>
+<HW_SEC_COMMON_ICMPTYPE_INVALID CMO="0xf730707d" InfoStr="ERROR::Invalid icmp-type" Output="0x80000000"/>
+<HW_RET_IPV6_RT_STATIC_ROUTE_DUPLICATED CMO="0xf7334000" InfoStr="ERROR::static route duplicated!" Output="0x80000000"/>
+<HW_RET_IPV6_RT_DEST_PREFIX_INVALID CMO="0xf7307061" InfoStr="ERROR::dest prefix format invalid!" Output="0x80000000"/>
+<HW_RET_IPV6_RT_DEST_PREFIX_LEN_CHECK_FAIL CMO="0xf7307062" InfoStr="ERROR::dest prefix and length do not match!" Output="0x80000000"/>
+<HW_RET_IPV6_RT_DEST_PREFIX_NON_UNICAST CMO="0xf7307063" InfoStr="ERROR::dest prefix is not unicast!" Output="0x80000000"/>
+<HW_RET_IPV6_RT_DEST_PREFIX_LINKLOCAL CMO="0xf7307064" InfoStr="ERROR::dest prefix is linklocal!" Output="0x80000000"/>
+<HW_RET_IPV6_RT_NEXT_HOP_INVALID CMO="0xf730706a" InfoStr="ERROR::next hop format invalid!" Output="0x80000000"/>
+<HW_RET_IPV6_RT_NEXT_HOP_NON_UNICAST CMO="0xf730706b" InfoStr="ERROR::next hop is not unicast!" Output="0x80000000"/>
+<HW_ERR_FEATURE_NOT_SUPPORT CMO="0xf7301031" InfoStr="The feature doesn't support" Output="0x80000000"/>
+<HW_ERR_NO_RIP_PROCESS CMO="0xf7301033" InfoStr="ERROR::The Rip Process not start " Output="0x80000000"/>
+<HW_WAN_ERR_PAPRERR CMO="0xf7301050" InfoStr="ERROR::Invalid WAN parameters" Output="0x84000000"/>
+<HW_RET_CNTACK_INPUT_PARA_IS_NULL CMO="0xf7343001" InfoStr="ERROR::Input parameters is null" Output="0x80000000"/>
+<HW_RET_CNTACK_INPUT_PARA_IS_ERROR CMO="0xf7343002" InfoStr="ERROR::Input parameters is error" Output="0x80000000"/>
+<HW_RET_IPV6_DHCPC_INPUT_PARA_ERR CMO="0xf7330001" InfoStr="ERROR::Invalid parameters" Output="0x80000000"/>
+<HW_RET_IPV6_DHCPC_WAN_NOT_SUPPORT CMO="0xf7330002" InfoStr="ERROR::interface is not supported" Output="0x80000000"/>
+<HW_RET_DHCP6S_POOL_NOT_EXIST CMO="0xf730200c"     InfoStr="ERROR::pool does not exist" Output="0x80000000"/>
+<HW_RET_DHCP6S_USER_NOT_EXIST CMO="0xf730200d"     InfoStr="ERROR::user does not exist" Output="0x80000000"/>
+<HW_RET_IPV6_DHCPC_WAN_NOT_SUPPORT CMO="0xf7330002" InfoStr="ERROR::interface is not supported" Output="0x80000000"/>
+<HW_RET_DHCP6S_POOL_NOT_EXIST CMO="0xf730200c"     InfoStr="ERROR::pool does not exist" Output="0x80000000"/>
+<HW_RET_DHCP6S_USER_NOT_EXIST CMO="0xf730200d"     InfoStr="ERROR::user does not exist" Output="0x80000000"/>
+<HW_RET_DHCP_INVALID_PARAMETER CMO="0xF7302003" InfoStr="ERROR::Invalid parameters" Output="0x80000000"/>
+<HW_RET_DHCP_SET_TRACE_FAIL CMO="0xF730200e" InfoStr="ERROR::set trace failed" Output="0x80000000"/>
+<HW_RET_DHCP_QUERY_LEASE_FILE_FAIL CMO="0xF730200f" InfoStr="ERROR::query lease failed" Output="0x80000000"/>
+<HW_RET_DHCP_WAN_UNSUPPORT CMO="0xF7302010" InfoStr="ERROR::interface is not supported" Output="0x80000000"/>
+<HW_RET_DHCP_WAN_NO_EXIST CMO="0xF7302011" InfoStr="ERROR::interface does not exist" Output="0x80000000"/>
+<HW_RET_DHCP_POOL_NO_EXIST CMO="0xF7302012" InfoStr="ERROR::pool does not exist" Output="0x80000000"/>
+<HW_RET_DHCP_USER_NO_EXIST CMO="0xF7302013" InfoStr="ERROR::user does not exist" Output="0x80000000"/>
+<HW_RET_ERR_DEV_DOWN CMO="0xF7302014" InfoStr="ERROR::Interface is down" Output="0x80000000"/>
+<HW_ALG_INVALID_INPUT_PROTOCOL CMO="0xF7308001" InfoStr="ERROR::Invalid input protocol" Output="0x80000000"/>
+<HW_ALG_INVALID_INPUT_PARAMETER_INVALID CMO="0xf7308002" InfoStr="ERROR::input parameter invalid" Output="0x80000000"/>
+<HW_ALG_INVALID_INPUT_INTERFACE CMO="0xf7308003" InfoStr="ERROR::ALGName invalid" Output="0x80000000"/>
+<HW_ALG_INVALID_INPUT_STATUS_INVALID CMO="0xf7308004" InfoStr="ERROR::input status invalid" Output="0x80000000"/>
+<HW_ALG_INVALID_INPUT_PORTRANGE_INVALID CMO="0xf7308005" InfoStr="ERROR::input portrange invalid" Output="0x80000000"/>
+<HW_RET_DHCP_ITEM_EXCEED_THE_MAX CMO="0xF7302016" InfoStr="ERROR::The maximum number was exceeded" Output="0x80000000"/>
+<HW_RET_DHCP_ITEM_IS_REPEATED CMO="0xF7302015" InfoStr="ERROR::Duplicate configuration" Output="0x80000000"/>
+<HW_RET_DHCP_ITEM_NOT_EXIST CMO="0xF7302017" InfoStr="ERROR::Item does not exist" Output="0x80000000"/>
+<HW_RET_DHCP_WAN_ALREDY_DETACHED CMO="0xF7302019" InfoStr="ERROR::The wan is already detached" Output="0x80000000"/>
+<HW_RET_DHCP_WAN_ALREDY_ATTACHED CMO="0xF730201a" InfoStr="ERROR::The wan is already attached" Output="0x80000000"/>
+<HW_RET_DHCP_WAN_NEED_DETTACHED CMO="0xF730201b" InfoStr="ERROR::Please detach the wan first" Output="0x80000000"/>
+<HW_RET_DHCP_INVALID_STATICIP CMO="0xF730201c" InfoStr="ERROR::The static IP address is out of range of the address pool" Output="0x80000000"/>
+<HW_RET_DHCP_INVALID_ADDR_POOL CMO="0xF730201d" InfoStr="ERROR::The range of the address pool is modified, leading to out of range of the static IP address" Output="0x80000000"/>
+<HW_RET_DHCP_INVALID_BRx_ADDR CMO="0xF730201e" InfoStr="ERROR::The primary IP address or secondary IP address is modified, leading to out of range of the static IP address" Output="0x80000000"/>
+<HW_RET_DHCPD_MACADDR_AGETIME_ERR CMO="0xF733e001" InfoStr="ERROR::Invalid para, Age time should be 0 or [10-86400]" Output="0x80000000"/>
+<HW_RET_USERDEV_INVALID_PARAMETER CMO="0xf733c001" InfoStr="ERROR::Invalid parameters" Output="0x80000000"/>
+<HW_RET_USERDEV_USER_NOT_FOUND CMO="0xf733c002" InfoStr="ERROR::User does not exist" Output="0x80000000"/>
+<HW_RET_ROUTE_NOT_EXIST CMO="0xf7304023" InfoStr="ERROR::Route does not exist" Output="0x80000000"/>
+<HW_RET_PORTMAP_MISS_KEY_VALUE CMO="0xf732c001" InfoStr="ERROR::Missing key value." Output="0x80000000"/>
+<HW_RET_PPPOE_SET_TRACE_FAIL CMO="0xf7303001" InfoStr="ERROR::set trace failed" Output="0x80000000"/>
+<HW_RET_PPPOE_INVALID_PARAMETER CMO="0xf7303002" InfoStr="ERROR::Invalid parameters" Output="0x80000000"/>
+<HW_RET_PPPOE_WAN_UNSUPPORT CMO="0xf7303003" InfoStr="ERROR::interface is not supported" Output="0x80000000"/>
+<HW_RET_PPPOE_WAN_NO_EXIST CMO="0xf7303004" InfoStr="ERROR::interface does not exist" Output="0x80000000"/>
+<HW_RET_PPPOE_WAN_ALREDY_DETACHED CMO="0xf7303005" InfoStr="ERROR::The wan is already detached" Output="0x80000000"/> 
+<HW_RET_PPPOE_WAN_ALREDY_ATTACHED CMO="0xf7303006" InfoStr="ERROR::The wan is already attached" Output="0x80000000"/>
+<HW_RET_PPPOE_INPUT_PARA_ERROR CMO="0xf7303007" InfoStr="ERROR::input para is not right!" Output="0x80000000"/>
+<HW_RET_ERR_WAN_ENABLE_INVALID CMO="0xf8344001" InfoStr="ERROR::Invalid enable value, must be enable or disable" Output="0x80000000"/>
+<HW_RET_ERR_WAN_VLAN_INVALID CMO="0xf8344008" InfoStr="ERROR::Invalid vlan value, must be 1~4094 or untagged" Output="0x80000000"/>
+<HW_RET_ERR_WAN_PRI_INVALID CMO="0xf8344009" InfoStr="ERROR::Invalid priority value, must be 0~7" Output="0x80000000"/>
+<HW_RET_ERR_WAN_PRIPOLICY_INVALID CMO="0xf8344012" InfoStr="ERROR::Invalid pri-policy value, must be specified-value or copy-IP-Prec" Output="0x80000000"/>
+<HW_RET_ERR_WAN_NULL_WAN_INVALID CMO="0xf8344013" InfoStr="ERROR::check whether interface is not null" Output="0x80000000"/>
+<HW_RET_ERR_WAN_USERNAME_INVALID CMO="0xf834400e" InfoStr="ERROR::Invalid user name" Output="0x80000000"/>
+<HW_RET_ERR_WAN_PASSWORD_INVALID CMO="0xf834400f" InfoStr="ERROR::Invalid password" Output="0x80000000"/>
+<HW_RET_ARP_INVALID_PARAMETER CMO="0xf7314002" InfoStr="ERROR::input para is not right!" Output="0x80000000"/>
+<HW_RET_ARP_GET_ARINGTIME_FAIL CMO="0xf731400b" InfoStr="ERROR::get aging time failed!" Output="0x80000000"/>
+<HW_RET_ARP_SET_ARINGTIME_FAIL CMO="0xf731400c" InfoStr="ERROR::set aging time failed!" Output="0x80000000"/>
+<HW_RET_ARP_EXCEED_MAX_INST CMO="0xf731400d" InfoStr="ERROR::the maximum number was exceeded!" Output="0x80000000"/>
+<HW_RET_ARP_NOT_EXIST CMO="0xf731400e" InfoStr="ERROR::instance does not exist!" Output="0x80000000"/>
+<HW_RET_ARP_INTERFACE_NULL CMO="0xf731400f" InfoStr="ERROR:interface is null!" Output="0x80000000"/>
+<HW_RET_ARP_INTERFACE_NOT_SUPPORT_ERR CMO="0xf7314010" InfoStr="ERROR::Interface is not supported" Output="0x80000000"/>
+<HW_RET_ARP_INVALID_INPUT_ADDRESSFAMILY CMO="0xf7314011" InfoStr="ERROR::address-family is not right!" Output="0x80000000"/>
+<HW_RET_ARP_OVER_CFG CMO="0xf7314009" InfoStr="ERROR::The maximum number was exceeded!" Output="0x80000000"/>
+<HW_RET_ROUTE_INVALID_WANNAME CMO="0xf7304025" InfoStr="ERROR::the interface is not supported!" Output="0x80000000"/>
+<HW_RET_ROUTE_EXIST CMO="0xf730400a" InfoStr="ERROR::static route duplicated!" Output="0x80000000"/>
+<HW_RET_ROUTE_DEL_FAIL CMO="0xf7304005" InfoStr="ERROR::delete route failed!" Output="0x80000000"/>
+<HW_RET_ROUTE_ADD_FAIL CMO="0xf7304007" InfoStr="ERROR::add route failed!" Output="0x80000000"/>
+<HW_ETHOAM_RET_GET_NODE_INFO_FAILED CMO="0xf7311015" InfoStr="ERROR::get node info failed!" Output="0x80000000"/>
+<HW_RET_NEW_PARENTALCTRL_APPMANAGE_APPLY_INVALID CMO="0xf7382001" InfoStr="ERROR::when the global switch is off, do not set data!" Output="0x80000000"/>
+<HW_RET_ROUTE_VLAN_INVALID CMO="0xf7304032" InfoStr="ERROR::VLAN 4094 is a dedicated VLAN for Wi-Fi management. Do not use this VLAN." Output="0x80000000"/>
+<HW_RET_MSG_MSGSEND_ERR CMO="0xf7104022" InfoStr="ERROR::message send error." Output="0x80000000"/>
+<HW_RET_MSG_RPC_NOTEXIST CMO="0xf7104024" InfoStr="ERROR::method is not exist." Output="0x80000000"/>
+<HW_RET_TIME_UNKNOW_TM_TYPE CMO="0xf710d025" InfoStr="ERROR::unknow timer type." Output="0x80000000"/>
+<HW_RET_DM_INPUT_PARA_ERR CMO="0xf7205001" InfoStr="ERROR::invalid input parameter, such as NULL ptr!" Output="0x80000000"/>
+<HW_RET_DM_PTR_NULL CMO="0xf7205403" InfoStr="ERROR::invalid input parameter, it is NULL ptr!" Output="0x80000000"/>
+<HW_RET_DM_MEM_MALLOC_ERR CMO="0xf7205002" InfoStr="ERROR::insufficient memory!" Output="0x80000000"/>
+<HW_RET_DM_SN_ERR CMO="0xf7205003" InfoStr="ERROR::invalid sn, which must be 16 hex digits, or 12 characters end with 8 hex characters." Output="0x80000000"/>
+<HW_RET_DM_SN_PWD_ERR CMO="0xf7205004" InfoStr="ERROR::invalid sn password. It should be less than 10 char in GPON mode, or 32 char in EPON mode" Output="0x80000000"/>
+<HW_RET_DM_ONLINE_SET_SNPASSWD_ERR CMO="0xf720502f" InfoStr="ERROR::the ont is online, you are not allowed to change the password!" Output="0x80000000"/>
+<HW_RET_DM_PRODUCT_ID_ERR CMO="0xf7205005" InfoStr="ERROR::invalid product ID, its value must be 4 char!" Output="0x80000000"/>
+<HW_RET_DM_EQUIP_ID_ERR CMO="0xf7205006" InfoStr="ERROR::invalid equipment id, which must be less than 64 characters!" Output="0x80000000"/>
+<HW_RET_DM_BOARD_ITEM_ERR CMO="0xf7205007" InfoStr="ERROR::invalid board item, it must be less than 33 chars and composed of digital or upper Alpha characters!" Output="0x80000000"/>
+<HW_RET_DM_MACHINE_ITEM_ERR CMO="0xf7205008" InfoStr="ERROR::invalid machine item, it must be composed of 20 digital or upper Alpha characters!" Output="0x80000000"/>
+<HW_RET_DM_MAC_ADDR_ERR CMO="0xf7205009" InfoStr="ERROR::invalid mac address, it should follow the format: XX:XX:XX:XX:XX:XX" Output="0x80000000"/>
+<HW_RET_DM_REBOOT_ON_UPDATE_ERR CMO="0xf720500a" InfoStr="ERROR::Reset is not successful because board is updating now, please try it later!" Output="0x80000000"/>
+<HW_RET_DM_BOOT_TYPE_ERR CMO="0xf720500b" InfoStr="ERROR::invalid boot type, it should be main(0) or slave(1)!" Output="0x80000000"/>
+<HW_RET_DM_PROVISION_CODE_ERR CMO="0xf720500e" InfoStr="ERROR::invalid provisioning code, whichi must be less than 64 chars!" Output="0x80000000"/>
+<HW_RET_DM_INVALID_SOFTWARE_VERSION_ERR CMO="0xf720500f" InfoStr="ERROR::invalid software version!" Output="0x80000000"/>
+<HW_RET_DM_VENDOR_ID_ERR CMO="0xf7205010" InfoStr="ERROR::invalid vendor id, which must be composed of 4 chars!" Output="0x80000000"/>
+<HW_RET_DM_UP_PORT_ERR CMO="0xf7205011" InfoStr="ERROR::invalid up port mode" Output="0x80000000"/>
+<HW_RET_DM_GET_RELEASE_TIME_ERR CMO="0xf7205012" InfoStr="ERROR::fail to get release time" Output="0x80000000"/>
+<HW_RET_DM_GLOBAL_DATA_NOT_INIT_ERR CMO="0xf7205013" InfoStr="ERROR::Global data of dm has not been initiated" Output="0x80000000"/>
+<HW_RET_DM_GET_CUR_RPOC_NAME_ERR CMO="0xf7205014" InfoStr="ERROR::fail to get current process name" Output="0x80000000"/>
+<HW_RET_DM_UNEXCEPTED_MSG_ERR CMO="0xf7205015" InfoStr="ERROR::unexpected msg type" Output="0x80000000"/>
+<HW_RET_DM_INVALID_USERNAME_ERR CMO="0xf7205016" InfoStr="ERROR::Invalid FTP user name" Output="0x80000000"/>
+<HW_RET_DM_INVALID_USEPASSWD_ERR CMO="0xf7205017" InfoStr="ERROR::Invalid FTP user password" Output="0x80000000"/>
+<HW_RET_DM_INVALID_FTP_PORT_ERR CMO="0xf7205018" InfoStr="ERROR::Invalid ftp port number" Output="0x80000000"/>
+<HW_RET_DM_INVALID_FTP_URL_ERR CMO="0xf7205019" InfoStr="ERROR::Invalid FTP url" Output="0x80000000"/>
+<HW_RET_DM_INVALID_DEVICE_NAME_ERR CMO="0xf720501a" InfoStr="ERROR::Invalid device name" Output="0x80000000"/>
+<HW_RET_DM_INVALID_LOG_NUM_ERR CMO="0xf720501b" InfoStr="ERROR::Invalid log number" Output="0x80000000"/>
+<HW_RET_DM_FTP_LOG_NOT_EXIST_ERR CMO="0xf720501c" InfoStr="ERROR::Log record does not exists!" Output="0x80000000"/>
+<HW_RET_DM_INVALID_LOCAL_PATH_ERR CMO="0xf720501d" InfoStr="ERROR::Invalid local path" Output="0x80000000"/>
+<HW_RET_DM_FTP_DOWNLOADING_ERR CMO="0xf720501e" InfoStr="ERROR::Ftp is downloading, please try it later!" Output="0x80000000"/>
+<HW_RET_DM_LOCAL_FILE_EXIST_ERR CMO="0xf720501f" InfoStr="ERROR::Local file does exist, please input again!" Output="0x80000000"/>
+<HW_RET_DM_GET_USB_DEVICE_INFO_ERR CMO="0xf7205020" InfoStr="ERROR::Fail to get usb device list" Output="0x80000000"/>
+<HW_RET_DM_GET_MNT_INFO_ERR CMO="0xf7205021" InfoStr="ERROR::Fail to get mount info!" Output="0x80000000"/>
+<HW_RET_DM_REMOVE_USB_ERR CMO="0xf7205022" InfoStr="ERROR::Fail to remove usb device, may be device or resource busy!" Output="0x80000000"/>
+<HW_RET_DM_COPY_ERR_OVERSIZE CMO="0xf7205023" InfoStr="ERROR::block over size" Output="0x80000000"/>
+<HW_RET_DM_COPY_ERR_OVERLAP CMO="0xf7205024" InfoStr="ERROR::block over lap" Output="0x80000000"/>
+<HW_RET_DM_CAN_NOT_CPY CMO="0xf7205025" InfoStr="ERROR::can not copy single block" Output="0x80000000"/>
+<HW_RET_DM_CREATE_TEST_FILE_ERR CMO="0xf7205026" InfoStr="ERROR::Fail to create usb equipment test file!" Output="0x80000000"/>
+<HW_RET_DM_EQUIP_USB_TEST_ERR CMO="0xf7205027" InfoStr="ERROR::usb test failed!" Output="0x80000000"/>
+<HW_RET_DM_OPERATION_NOT_SUPPORTTED CMO="0xf7205028" InfoStr="ERROR::The board don't support this operation!" Output="0x80000000"/>
+<HW_RET_DM_SN_HEX_PWD_ERR CMO="0xf7205030" InfoStr="Error: invalid hex password, the format is ABCD12" Output="0x80000000"/>
+<HW_RET_DM_SN_HEX_PWD_LEN_ERR CMO="0xf7205042" InfoStr="Error: invalid hex password, the length should be 14 or 20" Output="0x80000000"/>
+<HW_RET_DM_SN_PWD_LEN_ERR CMO="0xf7205043" InfoStr="Error: invalid password, the length should be 7 or 10" Output="0x80000000"/>
+<HW_RET_DM_INVALID_FF_MAC_ADDR CMO="0xf720502c" InfoStr="ERROR::invalid mac address, it can not include broadcast or multicast mac address!" Output="0x80000000"/>
+<HW_RET_DM_ONLINE_SET_SNPASSWD_ERR CMO="0xf720502d" InfoStr="ERROR:the ont is online, you are not allowed to change the password!" Output="0x80000000"/>
+<HW_RET_DM_STBID_ERR CMO="0xf7205046" InfoStr="ERROR::invalid stbid, which must be 32 hex digits!" Output="0x80000000"/>
+<HW_LOG_CLI_ERR_INPUT CMO="0xf7102500" InfoStr="ERROR::the input is invalid." Output="0x80000000"/>
+<HW_LOG_CLI_ERR_SETSRVINPUT CMO="0xf7102501" InfoStr="ERROR::IP or Port invalid." Output="0x80000000"/>
+<HW_LOG_CLI_ERR_SETSRVFAIL CMO="0xf7102502" InfoStr="ERROR::Fail to set the logsrv." Output="0x80000000"/>
+<HW_LOG_CLI_ERR_SAVELOGERR CMO="0xf7102505" InfoStr="ERROR::Fail to save log." Output="0x80000000"/>
+<HW_LOG_CLI_ERR_LOGTYPEERR CMO="0xf7102507" InfoStr="ERROR::Failure: the input logtype is invalid." Output="0x80000000"/>
+<HW_LOG_CLI_ERR_CLRLOGERR CMO="0xf7102508" InfoStr="ERROR::Fail to clear log." Output="0x80000000"/>
+<HW_LOG_CLI_ERR_SETTYPEFILERR CMO="0xf710250a" InfoStr="ERROR::Fail to set logtype filter." Output="0x80000000"/>
+<HW_LOG_CLI_ERR_SETMIDFILERR CMO="0xf710250c" InfoStr="ERROR::Fail to set Mid filter." Output="0x80000000"/>
+<HW_LOG_CLI_ERR_SETRTOERR CMO="0xf710250f" InfoStr="ERROR::Fail to set realtime output." Output="0x80000000"/>
+<HW_LOG_CLI_ERR_SETRTOSAVEERR CMO="0xf7102511" InfoStr="ERROR::Fail to set realtime output save." Output="0x80000000"/>
+<HW_LOG_CLI_ERR_SETDBGERR CMO="0xf7102513" InfoStr="ERROR::Fail to set debug output." Output="0x80000000"/>
+<HW_LOG_CLI_ERR_GETSRVERR CMO="0xf7102514" InfoStr="ERROR::Fail to get the logsrv." Output="0x80000000"/>
+<HW_LOG_CLI_ERR_SETSAVETIME5 CMO="0xf7102515" InfoStr="ERROR::the input save time cannot less than 60 min." Output="0x80000000"/>
+<HW_LOG_CLI_ERR_STARTSAVETIMERERR CMO="0xf7102516" InfoStr="ERROR::Fail to start the timer." Output="0x80000000"/>
+<HW_LOG_CLI_ERR_SAVETIMER2FLASHERR CMO="0xf7102517" InfoStr="ERROR::Fail to save the timer." Output="0x80000000"/>
+<HW_LOG_CLI_ERR_SETMIDFILFULL CMO="0xf7102518" InfoStr="ERROR::Mid filter condition full." Output="0x80000000"/>
+<HW_LOG_CLI_ERR_RTOOJBERR CMO="0xf7102519" InfoStr="ERROR::the input Rto object is invalid." Output="0x80000000"/>
+<HW_LOG_CLI_ERR_NOMID CMO="0xf710251a" InfoStr="ERROR::There is no mid filter." Output="0x80000000"/>
+<HW_RET_SWM_FAILD CMO="0xf7204001" InfoStr="ERROR::[SWM]FAILD!" Output="0x80000000"/>
+<HW_RET_SWM_BUZY CMO="0xf7204002" InfoStr="ERROR::[SWM]SYSTEM BUSY!" Output="0x80000000"/>
+<HW_RET_SWM_UNKNOWN_TYPE CMO="0xf7204003" InfoStr="ERROR::[SWM]UNKNOWN TYPE!" Output="0x80000000"/>
+<HW_RET_SWM_NULL_PTR CMO="0xf7204004" InfoStr="ERROR::[SWM]NULL PTR!" Output="0x80000000"/>
+<HW_RET_SWM_NOT_PACK CMO="0xf7204005" InfoStr="ERROR::[SWM]NOT A PACK!" Output="0x80000000"/>
+<HW_RET_SWM_SHORT_PACK CMO="0xf7204006" InfoStr="ERROR::[SWM]PACK TOO SHORT!" Output="0x80000000"/>
+<HW_RET_SWM_WRONG_ITEMNUM CMO="0xf7204007" InfoStr="ERROR::[SWM]WRONG ITEMNUM!" Output="0x80000000"/>
+<HW_RET_SWM_MALLOC_FAILD CMO="0xf7204008" InfoStr="ERROR::[SWM]LACK MEMORY!" Output="0x80000000"/>
+<HW_RET_SWM_WRONG_HEADCRC CMO="0xf7204009" InfoStr="ERROR::[SWM]WRONG HEAD CRC!" Output="0x80000000"/>
+<HW_RET_SWM_CHNL_INITFAILD CMO="0xf720400a" InfoStr="ERROR::[SWM]CHANNEL INIT FAILD!" Output="0x80000000"/>
+<HW_RET_SWM_DEV_INITFAILD CMO="0xf720400b" InfoStr="ERROR::[SWM]DEV INIT FAILD!" Output="0x80000000"/>
+<HW_RET_SWM_THREAD_CREATEFAILD CMO="0xf720400c" InfoStr="ERROR::[SWM]THREAD CREATE FAILD!" Output="0x80000000"/>
+<HW_RET_SWM_THREAD_DETACHFAILD CMO="0xf720400d" InfoStr="ERROR::[SWM]THREAD DETACH FAILD!" Output="0x80000000"/>
+<HW_RET_SWM_CHNL_FULL CMO="0xf720400e" InfoStr="ERROR::[SWM]CHANNEL IS FULL!" Output="0x80000000"/>
+<HW_RET_SWM_INVAILID_CHNL CMO="0xf720400f" InfoStr="ERROR::[SWM]INVAILID CHANNEL!" Output="0x80000000"/>
+<HW_RET_SWM_INVAILID_NAME CMO="0xf7204010" InfoStr="ERROR::[SWM]INVAILID NAME!" Output="0x80000000"/>
+<HW_RET_SWM_NO_CHNL CMO="0xf7204011" InfoStr="ERROR::[SWM]NO CHANNEL!" Output="0x80000000"/>
+<HW_RET_SWM_CHNL_NOTEXIST CMO="0xf7204012" InfoStr="ERROR::[SWM]CHANNEL NOT EXIST!" Output="0x80000000"/>
+<HW_RET_SWM_CREATEBOOT_FAILD CMO="0xf7204013" InfoStr="ERROR::[SWM]CREATE BOOT FAILD!" Output="0x80000000"/>
+<HW_RET_SWM_CREATEBOOT_EXIST CMO="0xf7204014" InfoStr="ERROR::[SWM]BOOT EXIST!" Output="0x80000000"/>
+<HW_RET_SWM_NODE_NOTEXIST CMO="0xf7204015" InfoStr="ERROR::[SWM]NODE NOT EXIST!" Output="0x80000000"/>
+<HW_RET_SWM_DEV_FULL CMO="0xf7204016" InfoStr="ERROR::[SWM]DEV FULL!" Output="0x80000000"/>
+<HW_RET_SWM_INVAILID_DEV CMO="0xf7204017" InfoStr="ERROR::[SWM]INVAILID DEV!" Output="0x80000000"/>
+<HW_RET_SWM_NO_DEV CMO="0xf7204018" InfoStr="ERROR::[SWM]NO DEV!" Output="0x80000000"/>
+<HW_RET_SWM_DEV_NOTEXIST CMO="0xf7204019" InfoStr="ERROR::[SWM]DEV NOT EXIST!" Output="0x80000000"/>
+<HW_RET_SWM_CREATEFIFO_FAILD CMO="0xf720401a" InfoStr="ERROR::[SWM]CREATE FIFO FAILD!" Output="0x80000000"/>
+<HW_RET_SWM_OPENFILE_FAILD CMO="0xf720401c" InfoStr="ERROR::[SWM]OPEN FILE FAILD!" Output="0x80000000"/>
+<HW_RET_SWM_UNKNOWN_OPR CMO="0xf720401d" InfoStr="ERROR::[SWM]UNKNOWN OPR!" Output="0x80000000"/>
+<HW_RET_SWM_CANNOT_FREE CMO="0xf720401e" InfoStr="ERROR::[SWM]CAN NOT FREE!" Output="0x80000000"/>
+<HW_RET_SWM_WRONG_FILESIZE CMO="0xf720401f" InfoStr="ERROR::[SWM]WRONG FILE SIZE!" Output="0x80000000"/>
+<HW_RET_SWM_READFILE_FAILD CMO="0xf7204020" InfoStr="ERROR::[SWM]READ FILE FAILD!" Output="0x80000000"/>
+<HW_RET_SWM_WRITEFILE_FAILD CMO="0xf7204021" InfoStr="ERROR::[SWM]WRITE FILE FAILD!" Output="0x80000000"/>
+<HW_RET_SWM_WRONG_FILECRC CMO="0xf7204022" InfoStr="ERROR::[SWM]WRONG FILE CRC!" Output="0x80000000"/>
+<HW_RET_SWM_UNSUPPORT_TYPE CMO="0xf7204023" InfoStr="ERROR::[SWM]UNSUPPORTED TYPE!" Output="0x80000000"/>
+<HW_RET_SWM_NULL_HANDLE CMO="0xf7204024" InfoStr="ERROR::[SWM]NULL HANDLE!" Output="0x80000000"/>
+<HW_RET_SWM_UNSUPPORT_OPR CMO="0xf7204025" InfoStr="ERROR::[SWM]UNSUPPORTED OPR!" Output="0x80000000"/>
+<HW_RET_SWM_DEV_WRITEERROR CMO="0xf7204026" InfoStr="ERROR::[SWM]DEV WRITE ERROR!" Output="0x80000000"/>
+<HW_RET_SWM_VALID_BUFFER CMO="0xf7204027" InfoStr="ERROR::[SWM]VALID BUFFER!" Output="0x80000000"/>
+<HW_RET_SWM_BUF_FULL CMO="0xf7204028" InfoStr="ERROR::[SWM]BUFFER FULL!" Output="0x80000000"/>
+<HW_RET_SWM_BUF_EMPTY CMO="0xf7204029" InfoStr="ERROR::[SWM]BUFFER EMPTY!" Output="0x80000000"/>
+<HW_RET_SWM_UNKNOWN_STATE CMO="0xf720402a" InfoStr="ERROR::[SWM]UNKNOWN STATE!" Output="0x80000000"/>
+<HW_RET_SWM_SHORT_DATA CMO="0xf720402b" InfoStr="ERROR::[SWM]SHORT DATA!" Output="0x80000000"/>
+<HW_RET_SWM_NEXTITEM_NOTEXIST CMO="0xf720402c" InfoStr="ERROR::[SWM]NEXT ITEM NOT EXIST!" Output="0x80000000"/>
+<HW_RET_SWM_NOITEM CMO="0xf720402d" InfoStr="ERROR::[SWM]NO ITEM!" Output="0x80000000"/>
+<HW_RET_SWM_WRONG_STATE CMO="0xf720402e" InfoStr="ERROR::[SWM]WRONG STATE!" Output="0x80000000"/>
+<HW_RET_SWM_UNKNOWN_FILETYPE CMO="0xf720402f" InfoStr="ERROR::[SWM]UNKNOWN FILE TYPE!" Output="0x80000000"/>
+<HW_RET_SWM_LOAD_TIME_OUT CMO="0xf7204030" InfoStr="ERROR::[SWM]LOAD TIME OUT!" Output="0x80000000"/>
+<HW_RET_SWM_LOAD_FINISH CMO="0xf7204031" InfoStr="ERROR::[SWM]LOAD FINISH!" Output="0x80000000"/>
+<HW_RET_SWM_NOTNEED_RESUME CMO="0xf7204032" InfoStr="ERROR::[SWM]NOT NEED RESUME!" Output="0x80000000"/>
+<HW_RET_SWM_RESUME_FAILD CMO="0xf7204033" InfoStr="ERROR::[SWM]RESUME FAILD!" Output="0x80000000"/>
+<HW_RET_SWM_NO_FILEHEAD CMO="0xf7204034" InfoStr="ERROR::[SWM]NO FILEHEAD!" Output="0x80000000"/>
+<HW_RET_SWM_WRONG_LEN CMO="0xf7204035" InfoStr="ERROR::[SWM]WRONG LEN!" Output="0x80000000"/>
+<HW_RET_SWM_DB_GETFAILD CMO="0xf7204036" InfoStr="ERROR::[SWM]DB GET FAILD!" Output="0x80000000"/>
+<HW_RET_SWM_DB_SETFAILD CMO="0xf7204037" InfoStr="ERROR::[SWM]DB SET FAILD!" Output="0x80000000"/>
+<HW_RET_SWM_WRONG_FILENAME CMO="0xf7204038" InfoStr="ERROR::[SWM]WRONG FILENAME!" Output="0x80000000"/>
+<HW_RET_SWM_WRONG_CRC CMO="0xf7204039" InfoStr="ERROR::[SWM]WRONG CRC!" Output="0x80000000"/>
+<HW_RET_SWM_NODATA_VALID CMO="0xf720403a" InfoStr="ERROR::[SWM]NO DATA VALID!" Output="0x80000000"/>
+<HW_RET_SWM_WRONG_CHNLNAME CMO="0xf720403b" InfoStr="ERROR::[SWM]WRONG CHANNEL NAME!" Output="0x80000000"/>
+<HW_RET_SWM_INVALID_IPADDR CMO="0xf720403c" InfoStr="ERROR::[SWM]INVALID IP ADDRESS!" Output="0x80000000"/>
+<HW_RET_SWM_INVALID_LOGTYPE CMO="0xf720403d" InfoStr="ERROR::[SWM]INVALID LOG TYPE!" Output="0x80000000"/>
+<HW_RET_SWM_SAME_VERSION CMO="0xf720403e" InfoStr="ERROR::[SWM]SAME VERSION!" Output="0x80000000"/>
+<HW_RET_SWM_OVER_SIZE CMO="0xf720403f" InfoStr="ERROR::[SWM]ITEM OVER SIZE!" Output="0x80000000"/>
+<HW_RET_SWM_MAX_FACTORS CMO="0xf7204040" InfoStr="ERROR::MAX [SWM]FACTORS!" Output="0x80000000"/>
+<HW_RET_SWM_REREGIST_FACTOR CMO="0xf7204041" InfoStr="ERROR::[SWM]REREGIST FACTOR!" Output="0x80000000"/>
+<HW_RET_SWM_SERVER_PROBLEM CMO="0xf7204042" InfoStr="ERROR::[SWM]SERVER PROBLEM!" Output="0x80000000"/>
+<HW_RET_SWM_TERMINATE_TASK CMO="0xf7204043" InfoStr="ERROR::[SWM]TERMINATE TASK!" Output="0x80000000"/>
+<HW_RET_SWM_BAD_PACK_SEQUENCE CMO="0xf7204044" InfoStr="ERROR::[SWM]BAD PACK SEQUENCE!" Output="0x80000000"/>
+<HW_RET_SWM_UNSUPPORT_PRODUCT CMO="0xf7204045" InfoStr="ERROR::[SWM]UNSUPPORT PRODUCT!" Output="0x80000000"/>
+<SWM_RET_UNSUPPORT_MAC CMO="0xf7204058" InfoStr="ERROR::[SWM]UNSUPPORT MAC!" Output="0x80000000"/>
+<SWM_RET_MACFILE_TOO_LARGE CMO="0xf7204059" InfoStr="ERROR::[SWM]MACFILE TOO LARGE!" Output="0x80000000"/>
+<SWM_RET_LTE_UPGRADE_ERROR CMO="0xf720405a" InfoStr="ERROR::[SWM]LTE UPLOAD ERROR!" Output="0x80000000"/>
+<HW_RET_SWM_MS_OVERSIZE CMO="0xf7204048" InfoStr="ERROR::[SWM]OVER SIZE BIN FOR MS!" Output="0x80000000"/>
+<HW_RET_SWM_PATCH_ACTIVE_FAIL CMO="0xf7204049" InfoStr="ERROR::[SWM]Failed to active patch!" Output="0x80000000"/>
+<HW_RET_SWM_INVALID_INTERFACE CMO="0xf720404d" InfoStr="ERROR::[SWM]INVALID INTERFACE!" Output="0x80000000"/>
+<HW_RET_SWM_INVALID_REMOTEFILE CMO="0xf7204051" InfoStr="ERROR::[SWM]INVALID REMOTEFILE!" Output="0x80000000"/>
+<HW_TIMER_ERR_UNKNOW CMO="0xf7103001" InfoStr="ERROR::unknow error" Output="0x80000000"/>
+<HW_TIMER_ERR_MEM CMO="0xf7103002" InfoStr="ERROR::error on mem alocate" Output="0x80000000"/>
+<HW_TIMER_ERR_SET_TICK CMO="0xf7103003" InfoStr="ERROR::error on set system ticker" Output="0x80000000"/>
+<HW_TIMER_ERR_THREAD_RUNNING CMO="0xf7103004" InfoStr="ERROR::thread is already running" Output="0x80000000"/>
+<HW_TIMER_ERR_THREAD_CREATE CMO="0xf7103005" InfoStr="ERROR::error on create thread" Output="0x80000000"/>
+<HW_TIMER_ERR_DATA_EXISTED CMO="0xf7103006" InfoStr="ERROR::data is already existed" Output="0x80000000"/>
+<HW_TIMER_ERR_REAL_FULL CMO="0xf7103007" InfoStr="ERROR::real timer is full" Output="0x80000000"/>
+<HW_TIMER_ERR_NULL_POINTER CMO="0xf7103008" InfoStr="ERROR::NULL pointer error" Output="0x80000000"/>
+<HW_TIMER_ERR_OUTOF_INDEX CMO="0xf7103009" InfoStr="ERROR::timer handler out of index" Output="0x80000000"/>
+<HW_TIMER_ERR_HANDL_ERR CMO="0xf710300A" InfoStr="ERROR::timer handler error" Output="0x80000000"/>
+<HW_TIMER_ERR_MSG_CREATE CMO="0xf710300B" InfoStr="ERROR::create message queue error" Output="0x80000000"/>
+<HW_TIMER_ERR_MSG_EXISTED CMO="0xf710300C" InfoStr="ERROR::create message queue error" Output="0x80000000"/>
+<HW_TIMER_ERR_MSG_DATA_SIZE CMO="0xf710300D" InfoStr="ERROR::message data size error" Output="0x80000000"/>
+<HW_TIMER_ERR_MSG_TIMER_TYPE CMO="0xf710300E" InfoStr="ERROR::message timer type error" Output="0x80000000"/>
+<HW_TIMER_ERR_MSG_SEND CMO="0xf710300F" InfoStr="ERROR::message send error" Output="0x80000000"/>
+<HW_TIMER_ERR_TIMER_FULL CMO="0xf7103010" InfoStr="ERROR::local timer is full" Output="0x80000000"/>
+<HW_TIMER_ERR_MSG_RECV CMO="0xf7103011" InfoStr="ERROR::message recv error" Output="0x80000000"/>
+<HW_TIMER_ERR_THREAD_CANCEL CMO="0xf7103012" InfoStr="ERROR::cancel thread error" Output="0x80000000"/>
+<HW_TIMER_ERR_ABS_FULL CMO="0xf7103013" InfoStr="ERROR::abs timer is full" Output="0x80000000"/>
+<HW_TIMER_ERR_TIMER_NOT_EXIST CMO="0xf7103014" InfoStr="ERROR::timer is not exist" Output="0x80000000"/>
+<HW_TIMER_ERR_GROUP_FULL CMO="0xf7103015" InfoStr="ERROR::group timer is full" Output="0x80000000"/>
+<HW_TIMER_ERR_GROUP_NOT_EXIST CMO="0xf7103016" InfoStr="ERROR::group is not exist" Output="0x80000000"/>
+<HW_TIMER_ERR_PID_ERR CMO="0xf7103017" InfoStr="ERROR::timer`s PID error" Output="0x80000000"/>
+<HW_TIMER_ERR_TOO_MANY_TIMER CMO="0xf7103018" InfoStr="ERROR::too mnay timer add to the group" Output="0x80000000"/>
+<HW_TIMER_ERR_OUT_OF_GROUP CMO="0xf7103019" InfoStr="ERROR::timer index out of the gorup" Output="0x80000000"/>
+<HW_TIMER_ERR_TIMER_EXISTED CMO="0xf710301A" InfoStr="ERROR::timer is already existed" Output="0x80000000"/>
+<HW_TIMER_ERR_INDEX_ERROR CMO="0xf710301B" InfoStr="ERROR::index error" Output="0x80000000"/>
+<HW_TIMER_ERR_NO_MSG_RECV CMO="0xf710301C" InfoStr="ERROR::no message recv" Output="0x80000000"/>
+<HW_TIMER_ERR_UNKNOW_MSG_TYPE CMO="0xf710301D" InfoStr="ERROR::no message recv" Output="0x80000000"/>
+<HW_TIMER_ERR_MSG_DATA_LONG CMO="0xf710301E" InfoStr="ERROR::message data too long to send" Output="0x80000000"/>
+<HW_TIMER_ERR_APPNAME_TOO_LONG CMO="0xf710301F" InfoStr="ERROR::message data too long to send" Output="0x80000000"/>
+<HW_TIMER_ERR_RPC_BUFF_SIZE_ERR CMO="0xf7103020" InfoStr="ERROR::out message lenght error for timer`s RPC call" Output="0x80000000"/>
+<HW_TIMER_ERR_NO_APP_NAME CMO="0xf7103021" InfoStr="ERROR::out message lenght error for timer`s RPC call" Output="0x80000000"/>
+<HW_TIMER_ERR_MSG_TYPE_ERR CMO="0xf7103022" InfoStr="ERROR::message type error" Output="0x80000000"/>
+<HW_TIMER_ERR_TIMER_TYPE_ERR CMO="0xf7103023" InfoStr="ERROR::timer`s type error" Output="0x80000000"/>
+<HW_TIMER_ERR_CREATE_CLIENT_ID CMO="0xf7103024" InfoStr="ERROR::create local timer ID error" Output="0x80000000"/>
+<HW_TIMER_ERR_UNKNOW_TM_TYPE CMO="0xf7103025" InfoStr="ERROR::unknow the timer type" Output="0x80000000"/>
+<HW_TIMER_ERR_QUEUE_FULL CMO="0xf7103026" InfoStr="ERROR::the timer queue is full" Output="0x80000000"/>
+<HW_TIMER_ERR_CLI_COM CMO="0xf7103027" InfoStr="ERROR::unknow the CLI CMO" Output="0x80000000"/>
+<HW_TIMER_ERR_OUT_STRING CMO="0xf7103028" InfoStr="ERROR::unknow error on out put string" Output="0x80000000"/>
+<HW_TIMER_ERR_TIMER_COUNT CMO="0xf7103029" InfoStr="ERROR::Timer count in group error" Output="0x80000000"/>
+<HW_TIMER_ERR_LOCAL_TIMER_FULL CMO="0xf710302A" InfoStr="ERROR::Timer count in local error" Output="0x80000000"/>
+<HW_TIMER_ERR_ABS_TIMER_VAR CMO="0xf710302B" InfoStr="ERROR::Abs timer`s value error" Output="0x80000000"/>
+<HW_TIMER_ERR_TICK_OVERFLOW CMO="0xf7103030" InfoStr="ERROR::Timer tick overflow" Output="0x80000000"/>
+<HW_TIMER_FORMAT_ERROR CMO="0xf7103031" InfoStr="ERROR::The time formate error" Output="0x80000000"/>
+<HW_TIMER_RELEASE_ERROR CMO="0xf7103032" InfoStr="ERROR::Error on release timer" Output="0x80000000"/>
+<HW_RET_PATCH_DISABLE CMO="0xf710f207" InfoStr="ERROR::Does not support the patch feature" Output="0x80000000"/>
+<HW_RET_PATCH_NO_PATCH CMO="0xf710f208" InfoStr="ERROR::No patch exist"  Output="0x80000000"/>
+<HW_RET_PATCH_NOT_EXIST CMO="0xf710f209" InfoStr="ERROR::The patch does not exist" Output="0x80000000"/>
+<HW_RET_PATCH_PROCESSING CMO="0xf710f20a" InfoStr="ERROR::The patch is in the process, can not be deleted" Output="0x80000000"/>
+<HW_RET_PATCH_DELETE_FAIL CMO="0xf710f20b" InfoStr="ERROR::Fail to delete the patch"  Output="0x80000000"/>
+<HW_RET_DM_NETLINK_CREATE_FAIL CMO="0xf7205000" InfoStr="ERROR::netlink create fail!" Output="0x80000000"/>
+<HW_RET_DM_NETLINK_CONNECT_FAIL CMO="0xf720500c" InfoStr="ERROR::netlink connect fail!" Output="0x80000000"/>
+<HW_RET_DM_NETLINK_MSGTYPE_ERR CMO="0xf720500d" InfoStr="ERROR::invalid netlink msg type!" Output="0x80000000"/>
+<HW_RET_DM_DSL_SN_LEN_ERR CMO="0xf7205045" InfoStr="ERROR::invalid sn, it must be composed of 20 digital or upper alpha characters!" Output="0x80000000"/>
+<HW_RET_CLI_NULL_PTR_ERR CMO="0xf7202000" InfoStr="ERROR::Input para is NULL pointer" Output="0x80000000"/>
+<HW_RET_CLI_INPUT_PARA_ERR CMO="0xf7202001" InfoStr="ERROR::Input para is not right" Output="0x80000000"/>
+<HW_RET_CLI_MEM_MALLOC_ERR CMO="0xf7202002" InfoStr="ERROR::Memory is insufficient" Output="0x80000000"/>
+<HW_RET_CLI_TOO_MANY_CLI_CMD_ERR CMO="0xf7202003" InfoStr="ERROR::Too many command, it must be less than 300" Output="0x80000000"/>
+<HW_RET_CLI_INIT_CMD_TREE_ERR CMO="0xf7202004" InfoStr="ERROR::Fail to init command tree" Output="0x80000000"/>
+<HW_RET_CLI_INIT_HELP_TREE_ERR CMO="0xf7202005" InfoStr="ERROR::Fail to init help tree" Output="0x80000000"/>
+<HW_RET_CLI_INIT_ERR_TREE_ERR CMO="0xf7202006" InfoStr="ERROR::Fail to init err tree" Output="0x80000000"/>
+<HW_RET_CLI_CLIENT_ID_ERR CMO="0xf7202007" InfoStr="ERROR::Invalid client ID" Output="0x80000000"/>
+<HW_RET_CLI_GET_HELP_ERR CMO="0xf7202008" InfoStr="ERROR::Fail to get help info" Output="0x80000000"/>
+<HW_RET_CLI_GET_OUTPUT_ERR CMO="0xf7202009" InfoStr="ERROR::Fail to get output info" Output="0x80000000"/>
+<HW_RET_CLI_GET_ERRCODE_ERR CMO="0xf720200A" InfoStr="ERROR::Fail to get error info" Output="0x80000000"/>
+<HW_RET_CLI_PEER_SHUTDOWN_ERR CMO="0xf720200B" InfoStr="ERROR::Peer has been shut down, which often occur in telnet connection" Output="0x80000000"/>
+<HW_RET_CLI_PARTIAL_HELP_ERR CMO="0xf720200C" InfoStr="ERROR::partial help is not successful" Output="0x80000000"/>
+<HW_RET_CLI_COMPLETE_HELP_ERR CMO="0xf720200D" InfoStr="ERROR::complete help is not successful" Output="0x80000000"/>
+<HW_RET_CLI_INST_VALUE_ERR CMO="0xf720200E" InfoStr="ERROR::invalid instance value" Output="0x80000000"/>
+<HW_RET_CLI_INST_PARA_NOT_MATCH_ERR CMO="0xf720200F" InfoStr="ERROR::Instance para from CLI is not matched to para in command tree" Output="0x80000000"/>
+<HW_RET_CLI_PARA_NAME_TOO_LONG CMO="0xf7202010" InfoStr="ERROR::Para name is too long, which should be less than 32 char" Output="0x80000000"/>
+<HW_RET_CLI_PARA_VALUE_TOO_LONG CMO="0xf7202011" InfoStr="ERROR::Para value is too long, which should be less than 513 char" Output="0x80000000"/>
+<HW_RET_CLI_PARA_TYPE_ERR CMO="0xf7202012" InfoStr="ERROR::Invalid para type" Output="0x80000000"/>
+<HW_RET_CLI_OUTPUT_FMT_ERR CMO="0xf7202013" InfoStr="ERROR::Format of output info is not correct" Output="0x80000000"/>
+<HW_RET_CLI_CMD_NOT_EXIST_ERR CMO="0xf7202014" InfoStr="ERROR::Command is not existed" Output="0x80000000"/>
+<HW_RET_CLI_CMD_ERR CMO="0xf7202015" InfoStr="ERROR::Command is not right" Output="0x80000000"/>
+<HW_RET_CLI_TOO_MANY_USERS_ERR CMO="0xf7202016" InfoStr="ERROR::Too many user" Output="0x80000000"/>
+<HW_RET_CLI_CLIENT_TYPE_ERR CMO="0xf7202017" InfoStr="ERROR::Invalid client type" Output="0x80000000"/>
+<HW_RET_CLI_CLIENT_NOT_EXIST CMO="0xf7202018" InfoStr="ERROR::Client is not exist" Output="0x80000000"/>
+<HW_RET_CLI_TELNET_SVR_EXIST CMO="0xf7202019" InfoStr="ERROR::Telnet server has been started" Output="0x80000000"/>
+<HW_RET_CLI_TIMEOUT_ERR CMO="0xf720201A" InfoStr="ERROR::connect is timeout" Output="0x80000000"/>
+<HW_RET_CLI_UNDEFINED_ESC_STATE_ERR CMO="0xf720201B" InfoStr="ERROR::undefined ESC state" Output="0x80000000"/>
+<HW_RET_CLI_UNRECOGNIZED_CHAR_ESC1_ERR CMO="0xf720201C" InfoStr="ERROR::unrecognized char in ESC1 state" Output="0x80000000"/>
+<HW_RET_CLI_UNRECOGNIZED_CHAR_ESC2_ERR CMO="0xf720201D" InfoStr="ERROR::unrecognized char in ESC2 state" Output="0x80000000"/>
+<HW_RET_CLI_UNRECOGNIZED_CHAR_ESC3_ERR CMO="0xf720201E" InfoStr="ERROR::Char is not recognized in ESC3 state!" Output="0x80000000"/>
+<HW_RET_CLI_ESC_STATE_MATCH_ERR CMO="0xf720201F" InfoStr="ERROR::Esc state is not matched!" Output="0x80000000"/>
+<HW_RET_CLI_EDITBUFF_OVERFLOW_ERR CMO="0xf7202020" InfoStr="ERROR::Edit buffer is overflowed, it must be less than 512 chars!" Output="0x80000000"/>
+<HW_RET_CLI_ECHO_MODE_ERR CMO="0xf7202021" InfoStr="ERROR::Invalid echo mode!" Output="0x80000000"/>
+<HW_RET_CLI_EDITBUF_EMPTY_ERR CMO="0xf7202022" InfoStr="ERROR::Edit buffer is empty!" Output="0x80000000"/>
+<HW_RET_CLI_CURSOR_LINEHEAD_ERR CMO="0xf7202023" InfoStr="ERROR::Cursor has been in the line head!" Output="0x80000000"/>
+<HW_RET_CLI_CURSOR_LINEEND_ERR CMO="0xf7202024" InfoStr="ERROR::Cursor has been in the line end!" Output="0x80000000"/>
+<HW_RET_CLI_UNDEFINED_DELTYPE_ERR CMO="0xf7202025" InfoStr="ERROR::invalid delete type!" Output="0x80000000"/>
+<HW_RET_CLI_SUBMIT_STATE_ERR CMO="0xf7202026" InfoStr="ERROR::invalid submit state!" Output="0x80000000"/>
+<HW_RET_CLI_CTRL_CHAR_NOT_SUPPORT_ERR CMO="0xf7202027" InfoStr="ERROR::The ctrl char is not supported!" Output="0x80000000"/>
+<HW_RET_CLI_NOT_SUPPORT_CHAR CMO="0xf7202028" InfoStr="ERROR::Char is not supported!" Output="0x80000000"/>
+<HW_RET_CLI_HISTORY_BUFF_EMPTY_ERR CMO="0xf7202029" InfoStr="ERROR::There is no history command!" Output="0x80000000"/>
+<HW_RET_CLI_RECV_BUF_OVERFLOW_ERR CMO="0xf720202A" InfoStr="ERROR::Recv buffer is overflowed!" Output="0x80000000"/>
+<HW_RET_CLI_USER_NAME_REPEAT_ERR CMO="0xf720202B" InfoStr="ERROR::User name has been existed!" Output="0x80000000"/>
+<HW_RET_CLI_PASSWORD_MATCH_ERR CMO="0xf720202C" InfoStr="ERROR::Password is not matched!" Output="0x80000000"/>
+<HW_RET_CLI_TIMEOUT_VALUE_ERR CMO="0xf720202D" InfoStr="ERROR::invalid timeout value, which must be [1, 255]" Output="0x80000000"/>
+<HW_RET_CLI_USER_PASSWORD_ERR CMO="0xf720202E" InfoStr="ERROR::password is not right!" Output="0x80000000"/>
+<HW_RET_CLI_USER_NOT_EXIST_ERR CMO="0xf720202F" InfoStr="ERROR::User is not exist!" Output="0x80000000"/>
+<HW_RET_CLI_CREATE_SERIAL_THREAD_ERR CMO="0xf7202030" InfoStr="ERROR::Fail to create serial thread!" Output="0x80000000"/>
+<HW_RET_CLI_CREATE_TELNET_SVR_THREAD_ERR CMO="0xf7202031" InfoStr="ERROR::Fail to create telnet server thread!" Output="0x80000000"/>
+<HW_RET_CLI_NOT_SUPPORT_OP_TYPE_ERR CMO="0xf7202032" InfoStr="ERROR::Invalid operate type!" Output="0x80000000"/>
+<HW_RET_CLI_PARA_LACK_ERR CMO="0xf7202033" InfoStr="ERROR::Some para is not inputted" Output="0x80000000"/>
+<HW_RET_CLI_PARA_REDUNDANT_ERR CMO="0xf7202034" InfoStr="ERROR::Redundant para is inputted in CLI" Output="0x80000000"/>
+<HW_RET_CLI_TIMEOUT_OUT_OF_RANGE_ERR CMO="0xf7202035" InfoStr="ERROR::Redundant para is inputted in CLI" Output="0x80000000"/>
+<HW_RET_CLI_CMD_KEY_REPEATED_ERR CMO="0xf7202036" InfoStr="ERROR::Command key is repeated!" Output="0x80000000"/>
+<HW_RET_CLI_UNEXCEPTED_MSG_ERR CMO="0xf7202037" InfoStr="ERROR::Unexcepted message!" Output="0x80000000"/>
+<HW_RET_CLI_SSH_CTRL_FIFO_RECV_ERR CMO="0xf7202038" InfoStr="ERROR::Invalid message is recieved from SSH ctrl fifo!" Output="0x80000000"/>
+<HW_RET_CLI_CMD_KEY_TOO_LONG_ERR CMO="0xf7202039" InfoStr="ERROR::Command key is too long, it must be less than 512!" Output="0x80000000"/>
+<HW_RET_CLI_OBJ_PATH_TOO_LONG_ERR CMO="0xf720203A" InfoStr="ERROR::Object path is too long!" Output="0x80000000"/>
+<HW_RET_CLI_DEBUG_SVR_EXIST CMO="0xf720203B" InfoStr="ERROR::Debug server has been started!" Output="0x80000000"/>
+<HW_RET_CLI_CREATE_SSH_SVR_THREAD_ERR CMO="0xf720203C" InfoStr="ERROR::Fail to create SSH server thread!" Output="0x80000000"/>
+<HW_RET_CLI_CREATE_DEBUG_SVR_THREAD_ERR CMO="0xf720203D" InfoStr="ERROR::Fail to create debug server thread!" Output="0x80000000"/>
+<HW_RET_CLI_USER_OUT_OF_RANGE_ERR CMO="0xf720203E" InfoStr="ERROR::too many cli users, it should be less than 5" Output="0x80000000"/>
+<HW_RET_CLI_DEL_ROOT_USER_ERR CMO="0xf720203F" InfoStr="ERROR::root can not be deleted!" Output="0x80000000"/>
+<HW_RET_CLI_DEL_USER_MYSELF_ERR CMO="0xf7202040" InfoStr="ERROR::user should not be deleted by itself" Output="0x80000000"/>
+<HW_RET_CLI_USER_NAME_TOO_LONG_ERR CMO="0xf7202041" InfoStr="ERROR::user name is too long, it must be less than 32 chars" Output="0x80000000"/>
+<HW_RET_CLI_USER_PASSWD_TOO_LONG_ERR CMO="0xf7202042" InfoStr="ERROR::user password is too long, it must be less than 64 chars" Output="0x80000000"/>
+<HW_RET_CLI_TELNET_IN_USE_ERR CMO="0xf7202043" InfoStr="ERROR::Failed to disable telnet, there is someone using telnet!" Output="0x80000000"/>
+<HW_RET_CLI_TELNET_ENABLEERR CMO="0xf7202044" InfoStr="ERROR::set telnet access failure." Output="0x80000000"/>
+<HW_RET_CLI_INADEQUATE_PARAERR CMO="0xf7202045" InfoStr="ERROR::parameters input are inadequate." Output="0x80000000"/>
+<HW_RET_CLI_INVALID_PARAERR CMO="0xf7202046" InfoStr="ERROR::parameter input is invalid." Output="0x80000000"/>
+<HW_RET_CLI_NOT_IN_EQUIP_STATEERR CMO="0xf7202047" InfoStr="ERROR::equiptest should be started firstly." Output="0x80000000"/>
+<HW_RET_CLI_POTS_NOT_ONHOOKERR CMO="0xf7202048" InfoStr="ERROR::all the ports should be in ONHOOK state." Output="0x80000000"/>
+<HW_RET_CLI_TEST_CONFLICT_ERR CMO="0xf7202049" InfoStr="ERROR::other test has been started." Output="0x80000000"/>
+<HW_RET_CLI_NOT_IN_SPC_TESTERR CMO="0xf7202050" InfoStr="ERROR::pots are not in SPC test state." Output="0x80000000"/>
+<HW_RET_CLI_ERR_NOAPP CMO="0xf7202051" InfoStr="ERROR::There is no process to handle this command." Output="0x80000000"/>
+<HW_RET_CLI_SLIC_NOT_INIT CMO="0xf7202052" InfoStr="ERROR::SLIC has not initialised." Output="0x80000000"/>
+<HW_RET_CLI_USERPWD_NULL_ERR CMO="0xf7202058" InfoStr="ERROR::User password is empty." Output="0x80000000"/>
+<HW_RET_CLI_USER_NAME_NULL_ERR CMO="0xf720205A" InfoStr="ERROR::User name is empty." Output="0x80000000"/>
+<HW_RET_CLI_DEVICE_TRANS_REFUSE_ERR CMO="0xf720205B" InfoStr="ERROR::Refuse to transparent on the device." Output="0x80000000"/>
+<HW_RET_CLI_EQUIP_TESTMONITOR_ERROR CMO="0xf720205F" InfoStr="ERROR::monitor test failed!" Output="0x80000000"/>
+<HW_RET_CLI_BUSY CMO="0xf7202061" InfoStr="ERROR::System busy!" Output="0x80000000"/>
+<HW_RET_CLI_INPUT_PERIOD_OUT_RANGE_ERR CMO="0xf7202063" InfoStr="ERROR::Input period value is out of range(6~60 minutes)" Output="0x80000000"/>
+<HW_RET_DM_FTP_GETUSBSTATUS_ERR CMO="0xf720502a" InfoStr="ERROR::get usb status fail!" Output="0x80000000"/>
+<HW_RET_DM_FTP_USB_STATUS_ERR CMO="0xf720502b" InfoStr="ERROR:: maybe the power saving mode have set usb off, please downing under the correcrt mode" Output="0x80000000"/>
+<HW_RET_QUICK_FAIL_TO_GZIP CMO="0xf720a001" InfoStr="Error::Faild to GZip!" Output="0x80000000"/>
+<HW_RET_QUICK_FAIL_TO_UNGZIP CMO="0xf720a002" InfoStr="Error::Faild to UNGZip!" Output="0x80000000"/>
+<HW_RET_QUICK_BUFFER_IS_SHORT CMO="0xf720a003" InfoStr="ERROR::buffer is too short" Output="0x80000000"/>
+<HW_RET_QUICK_RESTORE_FILE_INVALID CMO="0xf720a004" InfoStr="ERROR:: restore file is invalid!" Output="0x80000000"/>
+<HW_RET_QUICK_FAIL_TO_MV CMO="0xf720a005" InfoStr="ERROR::fail to gzip file!" Output="0x80000000"/>
+<HW_RET_QUICK_NULL_PTR CMO="0xf720a006" InfoStr="Error::ERROR::null ptr !" Output="0x80000000"/>
+<HW_RET_QUICK_OPENFILE_FAILD CMO="0xf720a007" InfoStr="ERROR::fail to open file" Output="0x80000000"/>
+<HW_RET_QUICK_READFILE_FAILD CMO="0xf720a008" InfoStr="ERROR::fail to read file" Output="0x80000000"/>
+<HW_RET_QUICK_WRITEFILE_FAILD CMO="0xf720a009" InfoStr="ERROR::fail to write file" Output="0x80000000"/>
+<HW_RET_QUICK_SETDEFAULTNAME_FAILD CMO="0xf720a00a" InfoStr="ERROR::fail to set default file name " Output="0x80000000"/>
+<HW_RET_QUICK_ADDZIPHEAD_FAILD CMO="0xf720a00b" InfoStr="ERROR::fail to add ziphead!" Output="0x80000000"/>
+<HW_RET_QUICK_CUTZIPHEAH_FAILD CMO="0xf720a00c" InfoStr="ERROR::fail to cut ziphead!" Output="0x80000000"/>
+<HW_RET_QUICK_FAIL_TO_EXECUTE_CMD CMO="0xf720a00d" InfoStr="ERROR::fail to execute cmd!" Output="0x80000000"/>
+<HW_RET_QUICK_WRONG_FILE CMO="0xf720a00e" InfoStr="ERROR::wrong file!" Output="0x80000000"/>
+<HW_RET_QUICK_MALLOC_FAILD CMO="0xf720a00f" InfoStr="ERROR::malloc faild !" Output="0x80000000"/>
+<HW_RET_QUICK_GETFILEPATH_FAILD CMO="0xf720a010" InfoStr="ERROR::fail to get file path!" Output="0x80000000"/>
+<HW_RET_QUICK_GETFILENAME_FAILD CMO="0xf720a011" InfoStr="ERROR::fail to get file name!" Output="0x80000000"/>
+<HW_RET_QUICK_GETUSBFILEEXSIT_FAILD CMO="0xf720a012" InfoStr="ERROR::get usb device list fail" Output="0x80000000"/>
+<HW_RET_QUICK_GET_USB_DEVICE_INFO_ERR CMO="0xf720a013" InfoStr="ERROR::get usb info fail" Output="0x80000000"/>
+<HW_RET_QUICK_USB_BACKUP_FAILED CMO="0xf720a014" InfoStr="ERROR::backup fail!maybe no more space for backup!" Output="0x80000000"/>
+<HW_RET_QUICK_GETFILESIZE_FAILED CMO="0xf720a015" InfoStr="ERROR::fail to get file size!" Output="0x80000000"/>
+<HW_RET_QUICK_BACKUP_OPENFILE_FAILD CMO="0xf720a016" InfoStr="ERROR::fail to open file,maybe no more space for backup!" Output="0x80000000"/>
+<HW_RET_QUICK_BACKUP_READFILE_FAILD CMO="0xf720a017" InfoStr="ERROR::fail to read file,maybe no more space for backup!" Output="0x80000000"/>
+<HW_RET_QUICK_BACKUP_WRITEFILE_FAILD CMO="0xf720a018" InfoStr="ERROR::fail to write file,maybe no more space for backup!" Output="0x80000000"/>
+
+<HW_WEB_PASSWORD_NOSPEC CMO="0xf720011c" InfoStr="ERROR::The password has no special charater" Output="0x80000000"/>
+<HW_RET_LAN_BIND_WITH_DUAL_WAN CMO="0xf720011d" InfoStr="Bind Error::The lan has been bound with another dual stack WAN or the current WAN type is incorrect"  Output="0x80000000"/>
+<HW_RET_ILLEGAL_PARAMETER CMO="0xf7203012" InfoStr="ERROR::illegal parameter please check the value! " Output="0x80000000"/>
+
+<HW_RET_DCOM_INVALID_PARA CMO="0xf7210003" InfoStr="ERROR::illegal parameter please check the value! " Output="0x80000000"/>
+<HW_RET_DCOM_GET_SYN_RES_ERROR CMO="0xf7210004" InfoStr="ERROR::fail to get sync resource! " Output="0x80000000"/>
+<HW_RET_DCOM_NOT_PERMIT_SEND_HLP CMO="0xf7210006" InfoStr="ERROR::failed to send hlp, please check board info! " Output="0x80000000"/>
+<HW_RET_DCOM_IOCTR_FAILED CMO="0xf721000c" InfoStr="ERROR::failed to send hlp, please check board info! " Output="0x80000000"/>
+<HW_RET_DCOM_SYN_SEND_TIME_OUT CMO="0xf7210007" InfoStr="ERROR::time out ! " Output="0x80000000"/>
+<HW_RET_DCOM_MALLOC_FAILED CMO="0xf7210008" InfoStr="ERROR::malloc faild ! " Output="0x80000000"/>
+<HW_RET_DCOM_BOARD_NOT_EXISTS CMO="0xf72100010" InfoStr="ERROR::board not exist ! " Output="0x80000000"/>
+<HW_RET_DCOM_CMD_NOT_EXISTS CMO="0xf72100012" InfoStr="ERROR::cmd not exist ! " Output="0x80000000"/>
+<HW_RET_DCOM_INVALID_MSG CMO="0xf7210014" InfoStr="ERROR::illegal message ! " Output="0x80000000"/>
+<HW_RET_DCOM_GET_VALUE_FAILURE CMO="0xf7210017" InfoStr="ERROR::fail to get value ! " Output="0x80000000"/>
+<HW_WEB_ERR_CHECK_OLDPAAWORD_FAIL CMO="0xf7200040" InfoStr="ERROR::fail to check old password ! " Output="0x80000000"/>
+<HW_RET_USD_BACKUP_FILE_EXIST CMO="0xF8203001" InfoStr="ERROR::Backup file exist! " Output="0x80000000"/>
+<HW_RET_SWM_NO_SUCH_KIND_OF_OPERATION CMO="0xf720404c" InfoStr="ERROR::[SWM]No such kind of operation is running!" Output="0x80000000"/>
+<HW_RET_CFG_LEN_EXCEED CMO="0xf7203006" InfoStr="ERROR::invalid input, wrong parameters or too long!" Output="0x80000000"/>
+<HW_RET_SETTR069INFO_FAIL CMO="0xf7201002" InfoStr="ERROR::Invalid parameters " Output="0x80000000"/>
+<HW_RET_OSGI_BUNDEL_NOTEXIST CMO="0xf721300a" InfoStr="ERROR::Bundle not exist!" Output="0x80000000"/>
+<HW_RET_OSGI_SEND_DEBUG_INFO_FAILED CMO="0xf7213011" InfoStr="ERROR::Send Debug info failed!" Output="0x80000000" />
+<HW_RET_OSGI_CLI_NO_PLUGIN_FOUND CMO="0xf7213012" InfoStr="ERROR::No plugin found." Output="0x80000000" />
+<HW_RET_OSGI_CLI_PLUGIN_PROCESS_FAIL CMO="0xf7213013" InfoStr="ERROR::Plugin processing failed." Output="0x80000000" />
+<HW_RET_OSGI_CLI_PLUGIN_NO_PERM CMO="0xf7213014" InfoStr="ERROR::The plugin don't found permission." Output="0x80000000" />
+<HW_RET_OSGI_CLI_PLUGIN_IS_IDLE CMO="0xf7213015" InfoStr="ERROR::The plugin is idle, no need to stop it." Output="0x80000000" />
+<HW_RET_OSGI_CLI_PLUGIN_IS_ACTIVE CMO="0xf7213016" InfoStr="ERROR::The plugin is active, no need to start it." Output="0x80000000" />
+<HW_RET_OSGI_CLI_INVALID_PARA CMO="0xf7213018" InfoStr="ERROR::para is invalid" Output="0x80000000" />
+<HW_RET_OSGI_CLI_JVMLIMIT_FAILED CMO="0xf7213019" InfoStr="ERROR::jvmlimit exe failed" Output="0x80000000" />
+</ErrRoot>

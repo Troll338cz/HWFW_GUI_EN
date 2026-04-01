@@ -1,0 +1,7 @@
+<InternetGatewayDevice>
+<X_HW_AppManage setconfig = "0x00000003">
+<LinkappName setconfig = "0x00000003"/>
+<LinkappEnable setconfig = "0x00000003"/>
+<LinkappState setconfig = "0x00000003"/>
+</X_HW_AppManage>
+</InternetGatewayDevice>

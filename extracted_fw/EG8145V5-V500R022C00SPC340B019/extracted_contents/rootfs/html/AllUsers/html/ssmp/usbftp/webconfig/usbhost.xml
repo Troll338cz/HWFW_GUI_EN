@@ -1,0 +1,43 @@
+<InternetGatewayDevice>
+<X_HW_ServiceManage setconfig = "0x00000003" getconfig = "0x00000003"> 
+<FtpEnable setconfig = "0x00000003" getconfig = "0x00000003"/> 
+<FtpUserName setconfig = "0x00000003" getconfig = "0x00000003"/> 
+<FtpPassword setconfig = "0x00000003" getconfig = "0x00000003"/> 
+<FtpPort setconfig = "0x00000003" getconfig = "0x00000003"/> 
+<FtpRoorDir setconfig = "0x00000003" getconfig = "0x00000003"/> 
+</X_HW_ServiceManage> 
+<X_HW_DEBUG setconfig = "0x00000003" getconfig = "0x00000003">
+<SMP> 
+<DM setconfig = "0x00000003" getconfig = "0x00000003">
+<FtpClient setconfig = "0x00000003" addconfig = "0x00000003" getconfig = "0x00000003"> 
+<Username setconfig = "0x00000003" getconfig = "0x00000003"/> 
+<Userpassword setconfig = "0x00000003" getconfig = "0x00000003"/> 
+<URL setconfig = "0x00000003" getconfig = "0x00000003"/> 
+<Port setconfig = "0x00000003" getconfig = "0x00000003"/> 
+<Device setconfig = "0x00000003" getconfig = "0x00000003"/> 
+<LocalPath setconfig = "0x00000003" getconfig = "0x00000003"/>
+</FtpClient> 
+</DM> 
+</SMP>
+</X_HW_DEBUG>
+<X_HW_SFTP setconfig = "0x00000003" getconfig = "0x00000003">
+<X_HW_SFTP_ServerInfo setconfig = "0x00000003" getconfig = "0x00000003">
+    <SftpEnable setconfig = "0x00000003" getconfig = "0x00000003" />
+    <SftpPort setconfig = "0x00000003" getconfig = "0x00000003" />
+    <SftpLANEnable setconfig = "0x00000003" getconfig = "0x00000003" />
+    <SftpWANEnable setconfig = "0x00000003" getconfig = "0x00000003" />
+    <SftpStatus setconfig = "0x00000003" getconfig = "0x00000003" />
+    <SftpMaxDuration setconfig = "0x00000003" getconfig = "0x00000003" /> 
+    <SftpEnableTime setconfig = "0x00000003" getconfig = "0x00000003" /> 
+    <SftpMaxIdleDur setconfig = "0x00000003" getconfig = "0x00000003" /> 
+</X_HW_SFTP_ServerInfo>
+<X_HW_SFTP_ClientInfo setconfig = "0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003">
+    <SftpEnable setconfig = "0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" />
+    <SftpUserName setconfig = "0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" />
+    <SftpPassword setconfig = "0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" />
+    <SftpRoorDir setconfig = "0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" /> 
+    <EncryptMode setconfig = "0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" />
+    <Permission setconfig = "0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" />
+</X_HW_SFTP_ClientInfo>
+</X_HW_SFTP>
+</InternetGatewayDevice> 

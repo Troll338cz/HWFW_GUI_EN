@@ -1,0 +1,10 @@
+<InternetGatewayDevice> 
+<X_HW_DEBUG> 
+<BBSP>
+<QosMirror setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<dip setconfig = "0x00000003" getconfig = "0x00000003"/>
+<sip setconfig = "0x00000003" getconfig = "0x00000003"/>
+</QosMirror>
+</BBSP>
+</X_HW_DEBUG> 
+</InternetGatewayDevice> 

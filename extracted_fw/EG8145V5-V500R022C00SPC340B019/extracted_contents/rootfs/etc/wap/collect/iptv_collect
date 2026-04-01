@@ -1,0 +1,8 @@
+WAP:igmp get debug switch
+WAP:igmp get flow info
+WAP:igmp get global cfg
+WAP:igmp get iptv
+WAP:igmp get multilmac
+WAP:igmp get port multicast config
+WAP:igmp get statistics
+

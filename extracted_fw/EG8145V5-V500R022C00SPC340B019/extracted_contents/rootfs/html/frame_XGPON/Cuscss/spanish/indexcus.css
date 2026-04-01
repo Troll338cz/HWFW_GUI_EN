@@ -1,0 +1,262 @@
+﻿html,body {
+	height:100%;
+}
+
+body{
+	text-align: center;
+	margin: 0px auto;
+	width: 100%;
+	min-width:960px;
+}
+
+#pagetophead{
+	height:80px;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#0069A5;
+}
+
+#headerbg{
+	width:960px;
+	height:80px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#headerbg div#Menuinfo{
+	float:left;
+	height:30px;
+	width:250px;
+	margin:20px 0px 20px 30px;
+	background-color:#E6EAED;
+	position:relative;
+	cursor:pointer;	
+}
+
+#headerbg div#Menuinfo div#Menuinfotext{
+	float:left;
+	width:200px;
+}
+
+.HeaderMenuTextcss
+{
+	text-align:center;
+	font-size:18px;
+	font-family:"微软雅黑";
+	color:#005D8C;
+	line-height:30px;
+	cursor:pointer;	
+}
+
+#headerbg div#Menuinfo div#Menuinfolog{
+	float:right;
+	width:30px;
+	height:30px;
+	margin:1px 10px 1px 0px;
+	background:url(../../images/cus_images/menu.png)  no-repeat center;
+}
+
+#MenuAppendArea{
+	top:30px;
+	left:-1px;
+	width:250px;
+	border:1px solid #A6A6A6;
+	z-index:100px;
+	position:absolute;
+	cursor:pointer;
+	background-color:#E6EAED;
+	display:none;
+}
+
+.MenuCss{
+	float:left;
+	width:100%;
+	height:25px;
+	line-height:25px;
+	font-size:14px;
+	font-family:"微软雅黑";
+	color:#638AAD;
+	background-color:#E6EAED;
+	text-align:center;
+	border-bottom:1px solid #A6A6A6;
+}
+
+.MenuLeftCss{
+	float:left;
+	width:90%;
+	height:25px;
+	line-height:25px;
+	font-size:14px;
+	font-family:"微软雅黑";
+	color:#638AAD;
+	background-color:#E6EAED;
+	text-align:center;
+	border-bottom:1px solid #A6A6A6;
+}
+
+.MenuChildCss{
+	float:right;
+	width:10%;
+	height:25px;
+	line-height:25px;
+	font-size:14px;
+	font-family:"微软雅黑";
+	color:#638AAD;
+	background-color:#E6EAED;
+	text-align:center;
+	border-bottom:1px solid #A6A6A6;
+}
+
+.MenuSecondCss{
+	width:200px;
+	height:25px;
+	line-height:25px;
+	font-size:14px;
+	font-family:"微软雅黑";
+	color:#638AAD;
+	background-color:#E6EAED;
+	text-align:left;
+	padding-left:20px;
+	border-bottom:1px solid #A6A6A6;
+}
+
+.MenuCss:hover, .secondParent:hover, .MenuSecondCss:hover {
+	background-color:#F7F7F7;
+}
+
+#MenuAppendArea > div{
+	height:26px;
+}
+
+.secondParent{
+	position:relative;
+	top: 0px;
+	background-color:#E6EAED;
+}
+
+.SecondAppendArea{
+	position:absolute;
+	width:220px;
+	left: 252px;
+	background-color:#E6EAED;
+	border:1px solid #A6A6A6;
+	display:none;
+}
+
+.SecondMenuLineCss{
+	height:25px;
+	line-height:25px;
+	font-size:14px;
+	font-family:"微软雅黑";
+	color:#638AAD;
+	background-color:#E6EAED;
+	text-align:center;
+	border-bottom:1px solid #A6A6A6;
+}
+
+#headerTitleInfo{
+	float:left;
+	width:480px;
+	padding:15px 0px 15px 0px;
+	text-align:center;
+}
+
+.indexheadtitle
+{
+	text-align:center;
+	font-size:24px;
+	font-family:"微软雅黑";
+	color:#FFFFFF;
+}
+
+#headerbg div#IndexLogArea{
+	float:left;
+	height:80px;
+	width:174px;
+	margin:0px 26px 0px 0px;
+	text-align:center;
+}
+
+#headerbg div#IndexLogArea div#IndexAreaLog{
+	width:174px;
+	height:41px;
+	padding-top:9px;
+	background:url(../../images/cus_images/logo.jpg)  no-repeat center;
+
+}
+
+#headerbg div#IndexLogArea div#headerLogout{
+	text-align:right;
+}
+
+.HeaderSpanTextGuide {
+	height: 30px;
+	line-height:30px;
+	font-size:12px;
+	font-family:"微软雅黑";
+	text-align:right;
+	color:#FFFFFF;
+	cursor:pointer;	
+}
+
+#indexpage {
+	width:960px;
+	height:auto;
+	border-width: 0px;
+	text-align: left;
+	vertical-align: top;
+	margin-left: auto;
+	margin-right: auto;
+	background:url(../../images/cus_images/bg.jpg)  no-repeat top;
+}
+
+#indexpage div#maincenter{
+	width:910px;
+	height:auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#FFFFFF;
+}
+
+#guidetitleinfo{
+	width:100%;
+	height:30px;
+	border-bottom:1px solid #A6A6A6;
+}
+.spanguidetitleinfocss{
+	padding-left:15px;
+	font-size:14px;
+	font-family:"微软雅黑";
+	color:#266B94;
+	font-weight:bold;
+	line-height:30px;
+}
+
+div#indexpage div#fresh {
+	display: none;
+}
+
+.AspWidth{
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#pagecopyright{
+	height:60px;
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#0069A5;
+	bottom:0; 
+}
+
+.spancopyrighttextinfo{
+	text-align:center;
+	font-size:18px;
+	font-family:"微软雅黑";
+	color:#FFFFFF;
+	line-height:60px;
+}
+

@@ -1,0 +1,9 @@
+=== Kernel Information ===
+Linux version 5.10.0 (ARM, musl libc, SMP)
+Compiler: arm-euler-linux-musleabi-gcc 7.3.0
+Build date: Wed Sep 27 00:43:40 CST 2023
+Decompressed size: 4238200 bytes (4.04 MB)
+Compression: LZMA (inside ARM zImage)
+
+=== Key modules/drivers ===
+Linux version 5.10.0 (oe-user@oe-host) (arm-euler-linux-musleabi-gcc 7.3.0, GNU ld (Compiler CPU V200R007C10B015) 2.34) #1 SMP Wed Sep 27 00:43:40 CST 2023

@@ -1,0 +1,6 @@
+<InternetGatewayDevice> 
+<Services>
+<VoiceService setconfig = "0x00000003">
+</VoiceService>
+</Services>
+</InternetGatewayDevice>

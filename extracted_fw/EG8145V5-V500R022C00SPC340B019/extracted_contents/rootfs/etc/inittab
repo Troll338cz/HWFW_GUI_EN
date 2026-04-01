@@ -1,0 +1,13 @@
+#
+# inittab       This file describes how the INIT process should set up
+#               the system during the initial booting process.
+
+# Ssystem initialization starts here
+
+::sysinit:/etc/rc.d/rc.ttyinit
+
+#ttyAMA1::respawn:-/bin/sh
+ttyAMA1::respawn:/bin/sh -c "su -s /bin/sh srv_clid -c /bin/console.sh"
+
+::shutdown:/etc/rc.d/rc.shutdown
+::ctrlaltdel:/bin/false

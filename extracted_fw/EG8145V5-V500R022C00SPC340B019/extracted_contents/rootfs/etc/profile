@@ -1,0 +1,114 @@
+# /etc/profile
+# init bash prompt and enviroment.
+
+alias ll="ls -l"
+alias ..="cd .."
+
+PATH="/bin:/usr/bin:/sbin:/usr/sbin"
+export LD_LIBRARY_PATH=/lib:/lib/omci_module:/lib/oam_module
+
+export DBUS_SESSION_BUS_ADDRESS=unix:path=/var/run/dbus/system_bus_socket
+
+export LANG=zh_CN.UTF-8
+export LC_ALL=zh_CN.UTF-8
+
+if [ -f /usr/osgi/java ]; then
+	export PATH=$PATH:/usr/osgi/bin
+	export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/osgi/lib:/usr/osgi/lib/aarch32:/usr/osgi/lib/aarch32/jli:/usr/osgi/lib/aarch32/server
+fi
+
+if [ -f /mnt/jffs2/Equip.sh ]; then
+	export PATH=$PATH:/mnt/jffs2/equipment/QCA
+fi
+
+PS1="WAP(Dopra Linux) # "
+
+aiscli_enble=`GetFeature HW_FT_AIS_APP_TELNET_ONT`
+var_xpon_mode=`getboardinfo 0x00000001`
+if [ -e /bin/aiscli ] && [ $aiscli_enble = 1 ] && [ ${var_xpon_mode} == "1" ];then
+	spec_ps1=`GetSpec SSMP_SPEC_CLI_SHELL_PROMPT_STR`
+	PS1=$spec_ps1
+fi
+
+#set core dump according to the hw_wap_debug.config file
+var_file_name=/proc/wap_proc/debug_config
+if [ -e $var_file_name ]; then
+	var_find_core_flag=HW_WAP_AUTO_CORE_DUMP
+	var_find_mount=HW_WAP_AUTO_MOUNT
+	var_core_flag=`grep $var_find_core_flag $var_file_name | sed 's/[^0]*//' | sed 's/0x//'`
+	var_core_mount=`grep $var_find_mount $var_file_name | sed 's/[^\"]*//' | sed 's/"//' | cut -f 1 -d '"'`
+	if [ "$var_core_flag" != "" ] && [ "$var_core_flag" != "FFFFFFFF" ] && [ $var_core_flag -eq 1 ]; then
+		ulimit -c unlimited
+		echo "profile open core dump, flag=$var_core_flag"
+		if [ "$var_core_mount" != "" ];then
+			mount $var_core_mount
+			if [ $? = 0 ];then
+				echo "/mnt/nfs/core-%e-%p-%t" > /proc/sys/kernel/core_pattern
+				echo "profile 'mount $var_core_mount' successful"
+			else
+				echo "/var/core-%e-%p-%t" > /proc/sys/kernel/core_pattern
+				echo "profile 'mount $var_core_mount' failed"
+				route
+				ifconfig
+			fi
+		else
+			echo "/var/core-%e-%p-%t" > /proc/sys/kernel/core_pattern
+			echo "profile 'mount $var_core_mount' failed"
+		fi
+	else
+		ulimit -c 0
+                echo "profile close core dump, flag=$var_core_flag"
+        fi
+else
+        ulimit -c 0
+        echo  ""
+        echo "profile close core dump"
+fi
+
+umask 077
+
+LOGNAME=root
+
+HOSTNAME=`/bin/hostname`
+HISTSIZE=0
+
+TMOUT=300
+
+PAGER=more
+
+export PATH PS1 USER LOGNAME HOSTNAME HISTSIZE PAGER TMOUT
+
+ft_no_boot_wifi=`GetFeature FT_WLAN_NO_BOOT_WIFI`
+
+if [ -d /usr/lib/cl2400_host_pkg ]; then
+	if [ -f /etc/wap/DebugVersionFlag ] && [ -f /mnt/jffs2/replace_celeno_ko ]; then
+	export cl2400_root=/var/cl2400_host_pkg/cl2400
+	elif [ -f /etc/wap/DebugVersionFlag ] && [ $ft_no_boot_wifi -eq 1 ]; then
+	export cl2400_root=/mnt/jffs2/app/cl2400_host_pkg/cl2400
+	else
+	export cl2400_root=/usr/lib/cl2400_host_pkg/cl2400
+	fi
+	export clr_install_dir_cl2400=$cl2400_root
+	export PATH=$PATH:$cl2400_root/bin:$cl2400_root/scripts
+	export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$cl2400_root/lib
+	export clr_cfg_dir_cl2400_24g=/var/cl2400_24g
+	export clr_cfg_dir_cl2400=/var/cl2400
+fi
+
+ft_support_ubus=`GetFeature FT_SMART_UBUS_SUPPORT`
+if [ $ft_support_ubus -eq 1 ]; then
+	export LD_LIBRARY_PATH=/mnt/jffs2/eos_framework/lib:$LD_LIBRARY_PATH
+fi
+
+#Deal serial parameter
+if [ -f /bin/stty ]; then
+    stty -ixon
+fi
+
+# Running the local scripts from the user
+for i in /etc/profile.d/*.sh ; do
+	if [ -x $i ]; then
+		. $i
+	fi
+done
+unset i
