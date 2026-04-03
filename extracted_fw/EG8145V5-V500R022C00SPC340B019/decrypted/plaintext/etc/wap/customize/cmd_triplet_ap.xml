@@ -1,0 +1,16 @@
+<CusCliRoot>
+<DisplaySntpInfo CmdStr="display sntp info" CmdGroup="0x80004010"/>
+<SntpServerAdd CmdStr="sntp server add" CmdGroup="0x80004010"/>
+<SntpServerDel CmdStr="sntp server delete" CmdGroup="0x80004010"/>
+<SntpInterface CmdStr="sntp service source-interface" CmdGroup="0x80004010"/>
+<SntpServerEnable CmdStr="sntp service" CmdGroup="0x80004010"/>
+<SntpServerDelAll CmdStr="sntp server delete all" CmdGroup="0x80004010"/>
+<SetPPPWanNamePsw CmdStr="set pppwan" CmdGroup="0x80004010"/>
+<ShowFireWallLevel CmdStr="display firewall level" CmdGroup="0x80004010"/>
+<NatInterfaceSet CmdStr="nat config" CmdGroup="0x80004010"/>
+<SetIPInterface CmdStr="set ip address dev br0" CmdGroup="0x80004010"/>
+<SetWanWhite CmdStr="set wan white" CmdGroup="0x80004010"/>
+<SetWanWhiteList CmdStr="set the wan white list" CmdGroup="0x80004010"/>
+<AddWanWhiteList CmdStr="add wan white list" CmdGroup="0x80004010"/>
+<DelWanWhiteList CmdStr="del wan white list" CmdGroup="0x80004010"/>
+</CusCliRoot>

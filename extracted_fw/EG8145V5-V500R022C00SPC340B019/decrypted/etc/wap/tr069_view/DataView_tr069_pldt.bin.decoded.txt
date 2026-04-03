@@ -1,0 +1,20 @@
+# Decoded from: etc/wap/tr069_view/DataView_tr069_pldt.bin
+# Magic: 0xa1b3c2d4
+# Size: 222 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  HW_AMP_FEATURE_WLAN
+  IGD.LANDevice.WLANConfiguration.
+  IsolationEnable
+  Y!v
+  Y!v
+
+## All Strings (offset, value):
+
+  @0x0056: HW_AMP_FEATURE_WLAN
+  @0x006b: IGD.LANDevice.WLANConfiguration.
+  @0x008c: IsolationEnable
+  @0x009c: Y!v
+  @0x00ae: Y!v

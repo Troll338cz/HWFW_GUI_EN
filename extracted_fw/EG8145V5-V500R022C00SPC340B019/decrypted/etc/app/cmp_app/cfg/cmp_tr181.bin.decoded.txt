@@ -1,0 +1,80 @@
+# Decoded from: etc/app/cmp_app/cfg/cmp_tr181.bin
+# Magic: 0xa1b3c2d4
+# Size: 1564 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  Device.Security.
+  IGD.X_HW_DataModel.Security.
+  CertificateNumberOfEntries
+  Device.Security.Certificate.
+  IGD.X_HW_DataModel.Security.Certificate.
+  Enable
+  LastModif
+  SerialNumber
+  Issuer
+  NotBefore
+  NotAfter
+  Subject
+  SubjectAlt
+  SignatureAlgorithm
+  X_HW_Action
+  X_HW_Interface
+  X_HW_UploadURL
+  X_HW_CertContext
+  X_HW_Status
+  X_HW_Type
+  X_HW_Usage
+  X_HW_Priority
+  X_HW_Password
+  X_HW_Thumbprint
+  X_HW_Notify
+  X_HW_IsImportedCert
+  X_HW_Alias
+  79b
+  Ca,[
+  B`N
+  (5~
+  }@K
+  kU7
+  xv]
+  gRg
+
+## All Strings (offset, value):
+
+  @0x0132: Device.Security.
+  @0x0143: IGD.X_HW_DataModel.Security.
+  @0x0160: CertificateNumberOfEntries
+  @0x017b: Device.Security.Certificate.
+  @0x0198: IGD.X_HW_DataModel.Security.Certificate.
+  @0x01c1: Enable
+  @0x01c8: LastModif
+  @0x01d2: SerialNumber
+  @0x01df: Issuer
+  @0x01e6: NotBefore
+  @0x01f0: NotAfter
+  @0x01f9: Subject
+  @0x0201: SubjectAlt
+  @0x020c: SignatureAlgorithm
+  @0x021f: X_HW_Action
+  @0x022b: X_HW_Interface
+  @0x023a: X_HW_UploadURL
+  @0x0249: X_HW_CertContext
+  @0x025a: X_HW_Status
+  @0x0266: X_HW_Type
+  @0x0270: X_HW_Usage
+  @0x027b: X_HW_Priority
+  @0x0289: X_HW_Password
+  @0x0297: X_HW_Thumbprint
+  @0x02a7: X_HW_Notify
+  @0x02b3: X_HW_IsImportedCert
+  @0x02c7: X_HW_Alias
+  @0x02d2: 79b
+  @0x02db: Ca,[
+  @0x031c: B`N
+  @0x038b: (5~
+  @0x03cb: }@K
+  @0x0408: kU7
+  @0x0422: xv]
+  @0x0434: gRg

@@ -1,0 +1,252 @@
+# Decoded from: etc/app/pcp_c_app/cfg/pcp_c_tr181.bin
+# Magic: 0xa1b3c2d4
+# Size: 5100 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  +Device.PCP.
+  IGD.X_HW_DataModel.PCP.
+  SupportedVersions
+  PreferredVersion
+  OptionList
+  ClientNumberOfEntries
+  Device.PCP.Client.
+  IGD.X_HW_DataModel.PCP.Client.
+  Enable
+  Alias
+  WANInterface
+  Status
+  MAPEnable
+  PEEREnable
+  ANNOUNCEEnable
+  THIRDPARTYEnable
+  THIRDPARTYStatus
+  FILTEREnable
+  ServerNumberOfEntries
+  X_HW_PlainMode
+  Device.PCP.Client.PCPProxy.
+  IGD.X_HW_DataModel.PCP.Client.PCPProxy.
+  HighestVersion
+  Device.PCP.Client.Server.
+  IGD.X_HW_DataModel.PCP.Client.Server.
+  Origin
+  ServerNameOrAddress
+  ServerAddressInUse
+  AdditionalServerAddresses
+  ExternalIPAddress
+  CurrentVersion
+  MaximumFilters
+  PortQuota
+  PreferredLifetime
+  Capabilities
+  InboundMappingNumberOfEntries
+  OutboundMappingNumberOfEntries
+  Device.PCP.Client.Server.InboundMapping.
+  IGD.X_HW_DataModel.PCP.Client.Server.InboundMapping.
+  ErrorCode
+  Lifetime
+  SuggestedExternalIPAddress
+  SuggestedExternalPort
+  SuggestedExternalPortEndRange
+  InternalPort
+  ProtocolNumber
+  ThirdPartyAddress
+  Description
+  AssignedExternalIPAddress
+  AssignedExternalPort
+  AssignedExternalPortEndRange
+  FilterNumberOfEntries
+  X_HW_AllowProposal
+  Device.PCP.Client.Server.InboundMapping.Filter.
+  IGD.X_HW_DataModel.PCP.Client.Server.InboundMapping.Filter.
+  RemoteHostIPAddress
+  PrefixLength
+  RemotePort
+  RemotePortEndRange
+  Device.PCP.Client.Server.OutboundMapping.
+  IGD.X_HW_DataModel.PCP.Client.Server.OutboundMapping.
+  Device.PCP.Client.UPnPIWF.
+  IGD.X_HW_DataModel.PCP.Client.UPnPIWF.
+  . 5
+  Y@Wk
+  zp{>@
+  <xY
+  {1<
+  w4u
+  }u3
+  q}I
+  \n+
+  [oR
+  Bbi
+  ",I
+  ~;.
+  "KL-
+  IdG$
+  MU1
+  R0B
+  )8$
+  ``vo
+  nK?
+  W%4
+  H/;
+  RJ/
+  oSL
+  Tdg(
+  n89
+  :u8
+  Vz*"
+  j,G
+  g?,
+  apF
+  Xy:
+  ?yb
+  HC9/
+  [ti
+  |Ek
+  7A4
+  J7,
+  `'C-
+  o)i(.
+  q&/
+  rB+
+  <(!
+  D|>
+  >f:
+  ~I7
+  kw<@
+  k8@
+  1weI
+  .d0
+  k@=
+  4T<G
+  #=~A
+  =\i"
+  j3D
+  _^
+  !'M
+  1n)1
+
+## All Strings (offset, value):
+
+  @0x03b4: +Device.PCP.
+  @0x03c1: IGD.X_HW_DataModel.PCP.
+  @0x03d9: SupportedVersions
+  @0x03eb: PreferredVersion
+  @0x03fc: OptionList
+  @0x0407: ClientNumberOfEntries
+  @0x041d: Device.PCP.Client.
+  @0x0430: IGD.X_HW_DataModel.PCP.Client.
+  @0x044f: Enable
+  @0x0456: Alias
+  @0x045c: WANInterface
+  @0x0469: Status
+  @0x0470: MAPEnable
+  @0x047a: PEEREnable
+  @0x0485: ANNOUNCEEnable
+  @0x0494: THIRDPARTYEnable
+  @0x04a5: THIRDPARTYStatus
+  @0x04b6: FILTEREnable
+  @0x04c3: ServerNumberOfEntries
+  @0x04d9: X_HW_PlainMode
+  @0x04e8: Device.PCP.Client.PCPProxy.
+  @0x0504: IGD.X_HW_DataModel.PCP.Client.PCPProxy.
+  @0x052c: HighestVersion
+  @0x053b: Device.PCP.Client.Server.
+  @0x0555: IGD.X_HW_DataModel.PCP.Client.Server.
+  @0x057b: Origin
+  @0x0582: ServerNameOrAddress
+  @0x0596: ServerAddressInUse
+  @0x05a9: AdditionalServerAddresses
+  @0x05c3: ExternalIPAddress
+  @0x05d5: CurrentVersion
+  @0x05e4: MaximumFilters
+  @0x05f3: PortQuota
+  @0x05fd: PreferredLifetime
+  @0x060f: Capabilities
+  @0x061c: InboundMappingNumberOfEntries
+  @0x063a: OutboundMappingNumberOfEntries
+  @0x0659: Device.PCP.Client.Server.InboundMapping.
+  @0x0682: IGD.X_HW_DataModel.PCP.Client.Server.InboundMapping.
+  @0x06b7: ErrorCode
+  @0x06c1: Lifetime
+  @0x06ca: SuggestedExternalIPAddress
+  @0x06e5: SuggestedExternalPort
+  @0x06fb: SuggestedExternalPortEndRange
+  @0x0719: InternalPort
+  @0x0726: ProtocolNumber
+  @0x0735: ThirdPartyAddress
+  @0x0747: Description
+  @0x0753: AssignedExternalIPAddress
+  @0x076d: AssignedExternalPort
+  @0x0782: AssignedExternalPortEndRange
+  @0x079f: FilterNumberOfEntries
+  @0x07b5: X_HW_AllowProposal
+  @0x07c8: Device.PCP.Client.Server.InboundMapping.Filter.
+  @0x07f8: IGD.X_HW_DataModel.PCP.Client.Server.InboundMapping.Filter.
+  @0x0834: RemoteHostIPAddress
+  @0x0848: PrefixLength
+  @0x0855: RemotePort
+  @0x0860: RemotePortEndRange
+  @0x0873: Device.PCP.Client.Server.OutboundMapping.
+  @0x089d: IGD.X_HW_DataModel.PCP.Client.Server.OutboundMapping.
+  @0x08d3: Device.PCP.Client.UPnPIWF.
+  @0x08ee: IGD.X_HW_DataModel.PCP.Client.UPnPIWF.
+  @0x0915: . 5
+  @0x091e: Y@Wk
+  @0x0928: zp{>@
+  @0x0939: <xY
+  @0x094a: {1<
+  @0x098e: w4u
+  @0x0997: }u3
+  @0x09ad: q}I 
+  @0x09b6: \n+
+  @0x09ce: [oR
+  @0x09f6: Bbi
+  @0x0a08: ",I
+  @0x0a28: ~;.
+  @0x0a30: "KL-
+  @0x0a39: IdG$
+  @0x0a62: MU1
+  @0x0a80: R0B
+  @0x0aad: )8$
+  @0x0abf: ``vo
+  @0x0ad8: nK?
+  @0x0ae8: W%4
+  @0x0b05: H/;
+  @0x0b0d: RJ/
+  @0x0b25: oSL
+  @0x0b47: Tdg(
+  @0x0b50: n89
+  @0x0b59: :u8
+  @0x0b80: Vz*"
+  @0x0b89: j,G
+  @0x0b99: g?,
+  @0x0bb9: apF
+  @0x0bc1: Xy:
+  @0x0bcf: ?yb
+  @0x0c0f: HC9/
+  @0x0c2f: [ti
+  @0x0c4b: |Ek
+  @0x0c64: 7A4
+  @0x0c7d: J7,
+  @0x0c87: `'C-
+  @0x0c97: o)i(.
+  @0x0ca1: q&/
+  @0x0cc1: rB+
+  @0x0cda: <(!
+  @0x0cec: D|>
+  @0x0d1e: >f:
+  @0x0d27: ~I7
+  @0x0d2f: kw<@
+  @0x0d49: k8@
+  @0x0d78: 1weI
+  @0x0d81: .d0
+  @0x0db4: k@=
+  @0x0dcc: 4T<G
+  @0x0de3: #=~A
+  @0x0dfa: =\i"
+  @0x0e1d: j3D
+  @0x0e27: _^ 
+  @0x0e2f: !'M
+  @0x0e38: 1n)1

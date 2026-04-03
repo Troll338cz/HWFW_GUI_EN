@@ -1,0 +1,34 @@
+<CliRoot>
+<SntpServerAdd CmdStr="sntp server add" ObjPath="InternetGatewayDevice.X_HW_DEBUG.SMP.SNTP.SntpAdd" OpType="0" Help="USAGE:
+    sntp server add domain {value}" OutPut="" CmdGroup="0x80000000">
+    <para ParaName="domain" AttName="Domain" ParaAtt="0"/>
+</SntpServerAdd>
+<SntpServerDel CmdStr="sntp server delete" ObjPath="InternetGatewayDevice.X_HW_DEBUG.SMP.SNTP.SntpDel" OpType="0" Help="USAGE:
+    sntp server delete {all | [domain {value}]}" OutPut="" CmdGroup="0x80000000">
+    <para ParaName="domain" AttName="Domain" ParaAtt="0"/>
+</SntpServerDel>
+<SntpServerDelAll CmdStr="sntp server delete all" ObjPath="InternetGatewayDevice.X_HW_DEBUG.SMP.SNTP.DelAllServer" OpType="0" Help="USAGE:
+    sntp server delete {all | [domain {value}]}" OutPut="" CmdGroup="0x80000000">
+</SntpServerDelAll>
+<SntpServerEnable CmdStr="sntp service" ObjPath="InternetGatewayDevice.Time" OpType="0" Help="USAGE:
+    sntp service {[enable {value}] | [source-interface interface {value}]}" OutPut="" CmdGroup="0x80000000">
+    <para ParaName="enable" AttName="Enable" ParaAtt="0"/>
+</SntpServerEnable>
+<SntpInterface CmdStr="sntp service source-interface" ObjPath="InternetGatewayDevice.X_HW_DEBUG.SMP.SNTP.SetInterface" OpType="0" Help="USAGE:
+    sntp service {[source-interface interface {value}] | [enable {value}]}" OutPut="" CmdGroup="0x80000000">
+    <para ParaName="interface" AttName="Interface" ParaAtt="0"/>
+</SntpInterface>
+<DisplaySntpInfo CmdStr="display sntp info" ObjPath="InternetGatewayDevice.X_HW_DEBUG.SMP.DisplaySntpInfo" OpType="5" Help="display sntp info" OutPut="" CmdGroup="0x80000000">
+</DisplaySntpInfo>
+<DisplaySntpStatistics CmdStr="display sntp statistics" ObjPath="InternetGatewayDevice.Time.X_HW_NtpStatus" OpType="1" Help="display sntp statistics" OutPut="
+IP address : %X_HW_IPAddress%
+Version    : %X_HW_Version%
+Status     : %X_HW_Status%
+Name       : %X_HW_Name%
+Statistics : %X_HW_Statistics%
+" CmdGroup="0x80000000">
+</DisplaySntpStatistics>
+<SntpSetInterval CmdStr="set sntp syninterval" ObjPath="InternetGatewayDevice.Time" OpType="5" Help="set sntp syninterval value {1,4294967295}" OutPut="" CmdGroup="0x80000000">
+<para ParaName="value" AttName="X_HW_SynInterval" ParaAtt="0"/>
+</SntpSetInterval>
+</CliRoot>

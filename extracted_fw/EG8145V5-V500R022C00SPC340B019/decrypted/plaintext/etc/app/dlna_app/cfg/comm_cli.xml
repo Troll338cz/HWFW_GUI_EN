@@ -1,0 +1,9 @@
+<CliRoot>
+<SetFlashLockStatus CmdStr="set flashlock" ObjPath="InternetGatewayDevice.X_HW_FLASH_LOCK" OpType="0" Help="USAGE:
+     set flashlock {status [0,1]}
+OPTIONS:
+     status: Between 0 and 1. 0 means disable flash lock; 1 means enable flash lock." OutPut="set flashlock status" CmdGroup="0x00000010">
+<para ParaName="status" AttName="X_HW_LOCK_STATUS" ParaAtt="0"/>
+</SetFlashLockStatus>
+<GetFlashLockStatus CmdStr="display flashlock status" ObjPath="InternetGatewayDevice.X_HW_FLASH_LOCK" OpType="1" Help="USAGE:display flashlock status" OutPut="current flash protect status: %X_HW_LOCK_STATUS%" CmdGroup="0x00004010"/>
+</CliRoot>

@@ -1,0 +1,75 @@
+# Decoded from: etc/app/dlna_app/cfg/dlna_ttree.bin
+# Magic: 0xa4b6c5d7
+# Size: 877 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  %)&
+  ').
+  %)&
+  %)&
+  %)&
+  %)&
+  ').
+  ').
+  ').
+  InternetGatewayDevice
+  Services
+  X_HW_DmsService
+  HW_SSMP_FEATURE_DLNA
+  Enable
+  ShareAllPath
+  EnableIPv6
+  Alias
+  Directory
+  Active
+  ContentDirectory
+  ContentDirectoryUTF
+  cwmp
+  ssmp
+  ').
+  ').
+  ').
+  ').
+  %)&
+  %)&
+  %)&
+  %)&
+  %)&
+
+## All Strings (offset, value):
+
+  @0x008f: %)&
+  @0x00b7: ').
+  @0x00db: %)&
+  @0x00ef: %)&
+  @0x0103: %)&
+  @0x0118: %)&
+  @0x012b: ').
+  @0x013f: ').
+  @0x0151: ').
+  @0x015b: InternetGatewayDevice
+  @0x0171: Services
+  @0x017a: X_HW_DmsService
+  @0x018a: HW_SSMP_FEATURE_DLNA
+  @0x019f: Enable
+  @0x01a6: ShareAllPath
+  @0x01b3: EnableIPv6
+  @0x01be: Alias
+  @0x01c4: Directory
+  @0x01ce: Active
+  @0x01d5: ContentDirectory
+  @0x01e6: ContentDirectoryUTF
+  @0x01fa: cwmp
+  @0x01ff: ssmp
+  @0x0209: 0xFFFFFFFF
+  @0x0267: ').
+  @0x0271: ').
+  @0x027b: ').
+  @0x0285: ').
+  @0x02a3: %)&
+  @0x02ad: %)&
+  @0x02b7: %)&
+  @0x02c1: %)&
+  @0x02cb: %)&

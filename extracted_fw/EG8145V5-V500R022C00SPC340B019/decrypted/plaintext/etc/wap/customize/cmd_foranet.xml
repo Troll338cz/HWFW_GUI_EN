@@ -1,0 +1,3 @@
+<CusCliRoot>
+<RenewDhcpClient CmdStr="dhcp client renew" CmdGroup=""/>
+</CusCliRoot>

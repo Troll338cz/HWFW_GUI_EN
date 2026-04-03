@@ -1,0 +1,164 @@
+# Decoded from: etc/app/uplinkqos_app/cfg/uplinkqos_tr098.bin
+# Magic: 0xa1b3c2d4
+# Size: 3834 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  BBSP_FT_QOS_SPDLMT
+  BBSP_FT_UPLINKQOS
+  IGD.LANDevice.
+  IGD.LANDevice.X_HW_DataSpeedLimit.
+  SpeedLimitMode_UP
+  SpeedLimitMode_DOWN
+  InterfaceLimit_UP
+  InterfaceLimit_DOWN
+  VlanTagLimit_UP
+  VlanTagLimit_DOWN
+  IPLimit_UP
+  IPLimit_DOWN
+  IGD.X_HW_UplinkQos.
+  Enable
+  X_HW_Mode
+  X_HW_Bandwidth
+  X_HW_Plan
+  X_HW_EnableForceWeight
+  X_HW_EnableDSCPMark
+  X_HW_Enable8021p
+  IGD.X_HW_UplinkQos.PeakRate.
+  Upstream
+  Downstream
+  IGD.X_HW_UplinkQos.App.
+  AppName
+  ClassQueue
+  IGD.X_HW_UplinkQos.Classification.
+  DSCPMarkValue
+  PriorityValue
+  ClassQueueEnable
+  IGD.X_HW_UplinkQos.Classification.type.
+  Type
+  Max
+  Min
+  ProtocolList
+  IGD.X_HW_UplinkQos.PriorityQueue.
+  Priority
+  Weight
+  Car
+  IGD.X_CU_Function.
+  IGD.X_CU_Function.X_HW_UplinkQos.
+  IGD.X_CU_Function.X_HW_UplinkQos.App.
+  IGD.X_CU_Function.X_HW_UplinkQos.Classification.
+  IGD.X_CU_Function.X_HW_UplinkQos.Classification.type.
+  IGD.X_CU_Function.X_HW_UplinkQos.PriorityQueue.
+  ^Ha
+  dY&
+  7Ry&
+  $>%
+  z<5
+  !=N
+  m6
+  \fx)
+  F?20
+  PO,
+  ib9.
+  k2!
+  {uP
+  MVKr
+  }}*
+  eT^
+  ^Ha
+  dY&
+  7Ry&
+  $>%
+  z<5
+  !=N
+  m6
+  \fx)
+  F?20
+  PO,
+  ib9.
+  k2!
+  {uP
+  MVKr
+  }}*
+  eT^
+
+## All Strings (offset, value):
+
+  @0x035e: BBSP_FT_QOS_SPDLMT
+  @0x0371: BBSP_FT_UPLINKQOS
+  @0x0383: IGD.LANDevice.
+  @0x0392: IGD.LANDevice.X_HW_DataSpeedLimit.
+  @0x03b5: SpeedLimitMode_UP
+  @0x03c7: SpeedLimitMode_DOWN
+  @0x03db: InterfaceLimit_UP
+  @0x03ed: InterfaceLimit_DOWN
+  @0x0401: VlanTagLimit_UP
+  @0x0411: VlanTagLimit_DOWN
+  @0x0423: IPLimit_UP
+  @0x042e: IPLimit_DOWN
+  @0x043b: IGD.X_HW_UplinkQos.
+  @0x044f: Enable
+  @0x0456: X_HW_Mode
+  @0x0460: X_HW_Bandwidth
+  @0x046f: X_HW_Plan
+  @0x0479: X_HW_EnableForceWeight
+  @0x0490: X_HW_EnableDSCPMark
+  @0x04a4: X_HW_Enable8021p
+  @0x04b5: IGD.X_HW_UplinkQos.PeakRate.
+  @0x04d2: Upstream
+  @0x04db: Downstream
+  @0x04e6: IGD.X_HW_UplinkQos.App.
+  @0x04fe: AppName
+  @0x0506: ClassQueue
+  @0x0511: IGD.X_HW_UplinkQos.Classification.
+  @0x0534: DSCPMarkValue
+  @0x0542: PriorityValue
+  @0x0550: ClassQueueEnable
+  @0x0561: IGD.X_HW_UplinkQos.Classification.type.
+  @0x0589: Type
+  @0x058e: Max
+  @0x0592: Min
+  @0x0596: ProtocolList
+  @0x05a3: IGD.X_HW_UplinkQos.PriorityQueue.
+  @0x05c5: Priority
+  @0x05ce: Weight
+  @0x05d5: Car
+  @0x05d9: IGD.X_CU_Function.
+  @0x05ec: IGD.X_CU_Function.X_HW_UplinkQos.
+  @0x060e: IGD.X_CU_Function.X_HW_UplinkQos.App.
+  @0x0634: IGD.X_CU_Function.X_HW_UplinkQos.Classification.
+  @0x0665: IGD.X_CU_Function.X_HW_UplinkQos.Classification.type.
+  @0x069b: IGD.X_CU_Function.X_HW_UplinkQos.PriorityQueue.
+  @0x06d3: ^Ha
+  @0x06eb: dY&
+  @0x06fd: 7Ry&
+  @0x0707: $>%
+  @0x070f: z<5
+  @0x0727: !=N
+  @0x0730: m6 
+  @0x0750: \fx)
+  @0x0761: F?20
+  @0x0791: PO,
+  @0x07a4: ib9.
+  @0x07bc: k2!
+  @0x07c4: {uP
+  @0x080e: MVKr
+  @0x0847: }}*
+  @0x0899: eT^
+  @0x08db: ^Ha
+  @0x08f3: dY&
+  @0x0905: 7Ry&
+  @0x090f: $>%
+  @0x0917: z<5
+  @0x092f: !=N
+  @0x0938: m6 
+  @0x0958: \fx)
+  @0x0969: F?20
+  @0x0999: PO,
+  @0x09ac: ib9.
+  @0x09c4: k2!
+  @0x09cc: {uP
+  @0x0a16: MVKr
+  @0x0a4f: }}*
+  @0x0aa1: eT^

@@ -1,0 +1,27 @@
+# Decoded from: etc/app/safetycheck_app/cfg/safetycheck_ttree.bin
+# Magic: 0xa4b6c5d7
+# Size: 438 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  InternetGatewayDevice
+  X_HW_CheckSafety
+  Enable
+  Status
+  Result
+  cwmp
+  cms
+  Idle
+
+## All Strings (offset, value):
+
+  @0x00ba: InternetGatewayDevice
+  @0x00d0: X_HW_CheckSafety
+  @0x00e1: Enable
+  @0x00e8: Status
+  @0x00ef: Result
+  @0x00f6: cwmp
+  @0x00fb: cms
+  @0x0104: 0xFFFFFFFF
+  @0x010f: Idle

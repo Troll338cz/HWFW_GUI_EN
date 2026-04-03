@@ -1,0 +1,2670 @@
+<InternetGatewayDevice>
+<Services>
+<X_HW_IPTV type="object" policy="Ignore" maxnumber="1">
+<IGMPEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<ProxyEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<PPPoEWanSnoopingMode type="Enumer" policy="Default">
+<item id="IPoEAndPPPoE" en="IPoeAndPPPoE" />
+<item id="IPoE" en="IPoE" />
+<item id="PPPoE" en="PPPoE" />
+</PPPoEWanSnoopingMode>
+<BridgeWanProxyEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<PPPoEWanProxyMode type="Enumer" policy="Default">
+<item id="IPoEAndPPPoE" en="IPoeAndPPPoE" />
+<item id="IPoE" en="IPoE" />
+<item id="PPPoE" en="PPPoE" />
+</PPPoEWanProxyMode>
+<Robustness type="UNSIGNEDINT" min="1" max="10" policy="Error" />
+<GenQueryInterval type="UNSIGNEDINT" min="1" max="5000" policy="Error" />
+<GenResponseTime type="UNSIGNEDINT" min="1" max="255" policy="Error" />
+<SpQueryNumber type="UNSIGNEDINT" min="1" max="10" policy="Error" />
+<SpQueryInterval type="UNSIGNEDINT" min="1" max="5000" policy="Error" />
+<SpResponseTime type="UNSIGNEDINT" min="1" max="255" policy="Error" />
+<RemarkIPPrecedence type="INT" min="-1" max="7" policy="Ignore" />
+<RemarkPri type="INT" min="-1" max="7" policy="Ignore" />
+<IGMPVersion type="UNSIGNEDINT" min="2" max="3" policy="Ignore" />
+<MLDVersion type="Enumer" policy="Error">
+<item id="1" en="MLDV1" />
+<item id="2" en="MLDV2" />
+</MLDVersion>
+</X_HW_IPTV>
+<X_HW_PortalManagement type="object" policy="Ignore" maxnumber="1">
+<Enable type="BOOLEAN" min="0" max="1" policy="Error" />
+<DefaultUrl type="STRING" min="0" max="256" policy="Error" />
+<TypePortal type="object" policy="Ignore" maxnumber="3">
+<DeviceTypeName type="STRING" min="0" max="256" policy="Error" />
+<PortalUrl type="STRING" min="0" max="256" policy="Error" />
+</TypePortal>
+</X_HW_PortalManagement>
+<X_HW_WebServerConfig type="object" policy="Ignore" maxnumber="1">
+<ListenMode type="UNSIGNEDINT" min="0" max="2" policy="Error" />
+<ListenInnerPort type="UNSIGNEDINT" min="1" max="65535" policy="Error" />
+<ListenOuterPort type="UNSIGNEDINT" min="1" max="65535" policy="Error" />
+<HttpsListenInnerPort type="UNSIGNEDINT" min="1" max="65535" policy="Error" />
+<HttpsListenOuterPort type="UNSIGNEDINT" min="1" max="65535" policy="Error" />
+</X_HW_WebServerConfig>
+<X_HW_WebExternalAccess type="object" policy="Ignore" maxnumber="1">
+<Enable type="BOOLEAN" min="0" max="1" policy="Error" />
+<OpenTime type="UNSIGNEDINT" min="0" max="65535" policy="Ignore" />
+</X_HW_WebExternalAccess>
+<VoiceService>
+<VoiceProfile type="object" policy="Ignore" maxnumber="2">
+<Name type="STRING" min="0" max="64" policy="Default" />
+<SignalingProtocol type="Enumer" policy="Default">
+<item id="H248" en="H248" />
+<item id="SIP" en="SIP" />
+<item id="H.248" en="H.248" />
+</SignalingProtocol>
+<X_HW_SignalingProtocolRunning type="Enumer" policy="Ignore">
+<item id="H248" en="H248" />
+<item id="SIP" en="SIP" />
+<item id="H.248" en="H.248" />
+</X_HW_SignalingProtocolRunning>
+<Region type="Enumer" policy="Default">
+<item id="AD" en="Andorra" />
+<item id="AE" en="United Arab Emirates" />
+<item id="AF" en="Afghanistan" />
+<item id="AG" en="Antigua and Barbuda " />
+<item id="AI" en="Anguilla" />
+<item id="AL" en="Albania" />
+<item id="AM" en="Armenia" />
+<item id="AO" en="Angola" />
+<item id="AQ" en="Antarctica" />
+<item id="AR" en="Argentina" />
+<item id="AS" en="American Samoa " />
+<item id="AT" en="Austria" />
+<item id="AU" en="Australia" />
+<item id="AW" en="Aruba" />
+<item id="AX" en="Aland Islands" />
+<item id="AZ" en="Azerbaijan" />
+<item id="BA" en="Bosnia and Herzegovina " />
+<item id="BB" en="Barbados" />
+<item id="BD" en="Bangladesh" />
+<item id="BE" en="Belgium" />
+<item id="BF" en="Burkina Faso" />
+<item id="BG" en="Bulgaria" />
+<item id="BH" en="Bahrain" />
+<item id="BI" en="Burundi" />
+<item id="BJ" en="Benin" />
+<item id="BL" en="Saint Barthelemy" />
+<item id="BM" en="Bermuda" />
+<item id="BN" en="Brunei Darussalam" />
+<item id="BO" en="Bolivia" />
+<item id="BQ" en="Bonaire, Saint Eustatius and Saba " />
+<item id="BR" en="Brazil" />
+<item id="BS" en="Bahamas" />
+<item id="BT" en="Bhutan" />
+<item id="BV" en="Bouvet Island" />
+<item id="BW" en="Botswana" />
+<item id="BY" en="Belarus" />
+<item id="BZ" en="Belize" />
+<item id="CA" en="Canada" />
+<item id="CC" en="Cocos (Keeling) Islands " />
+<item id="CD" en="The Democratic Republic of the Congo " />
+<item id="CF" en="Central Africa" />
+<item id="CG" en="Congo" />
+<item id="CH" en="Switzerland" />
+<item id="CI" en="Cote d'Ivoire" />
+<item id="CK" en="Cook Islands " />
+<item id="CL" en="Chile" />
+<item id="CM" en="Cameroon" />
+<item id="CN" en="China" />
+<item id="CO" en="Colombia" />
+<item id="CR" en="Costa Rica" />
+<item id="CU" en="Cuba" />
+<item id="CV" en="Cape Verde" />
+<item id="CW" en="Curacao" />
+<item id="CX" en="Christmas Island " />
+<item id="CY" en="Cyprus" />
+<item id="CZ" en="Czech Republic" />
+<item id="DE" en="Germany" />
+<item id="DJ" en="Djibouti" />
+<item id="DK" en="Denmark" />
+<item id="DM" en="Dominica" />
+<item id="DO" en="Dominican Republic" />
+<item id="DZ" en="Algeria" />
+<item id="EC" en="Ecuador" />
+<item id="EE" en="Estonia" />
+<item id="EG" en="Egypt" />
+<item id="EH" en="Western Sahara" />
+<item id="ER" en="Eritrea" />
+<item id="ES" en="Spain" />
+<item id="ET" en="Ethiopia" />
+<item id="FI" en="Finland" />
+<item id="FJ" en="Fiji" />
+<item id="FK" en="Falkland Islands (Malvinas) " />
+<item id="FM" en="Micronesia" />
+<item id="FO" en="Faroe Islands " />
+<item id="FR" en="France" />
+<item id="GA" en="Gabon" />
+<item id="GB" en="Great Britain" />
+<item id="GD" en="Grenada" />
+<item id="GE" en="Georgia" />
+<item id="GF" en="French Guiana " />
+<item id="GG" en="Guernsey " />
+<item id="GH" en="Ghana" />
+<item id="GI" en="Gibraltar" />
+<item id="GL" en="Greenland" />
+<item id="GM" en="Gambia" />
+<item id="GN" en="Guinea" />
+<item id="GP" en="Guadeloupe" />
+<item id="GQ" en="Equatorial Guinea" />
+<item id="GR" en="Greece" />
+<item id="GS" en="South Georgia and the South Sandwich Islands " />
+<item id="GT" en="Guatemala" />
+<item id="GU" en="Guam" />
+<item id="GW" en="Guinea-Bissau" />
+<item id="GY" en="Guyana" />
+<item id="HK" en="Hong Kong" />
+<item id="HM" en="Heard Island and McDonald Islands " />
+<item id="HN" en="Honduras" />
+<item id="HR" en="Croatia" />
+<item id="HT" en="Haiti" />
+<item id="HU" en="Hungary" />
+<item id="ID" en="Indonesia" />
+<item id="IE" en="Ireland" />
+<item id="IL" en="Israel" />
+<item id="IM" en="Isle of Man " />
+<item id="IN" en="India" />
+<item id="IO" en="British Indian Ocean Territory " />
+<item id="IQ" en="Iraq" />
+<item id="IR" en="Iran" />
+<item id="IS" en="Iceland" />
+<item id="IT" en="Italy" />
+<item id="JE" en="Jersey " />
+<item id="JM" en="Jamaica" />
+<item id="JO" en="Jordan" />
+<item id="JP" en="Japan" />
+<item id="KE" en="Kenya" />
+<item id="KG" en="Kyrgyzstan" />
+<item id="KH" en="Cambodia" />
+<item id="KI" en="Kiribati" />
+<item id="KM" en="Comoros" />
+<item id="KN" en="Saint Kitts and Nevis" />
+<item id="KP" en="Democratic People's Republic of Korea" />
+<item id="KR" en="Republic of Korea" />
+<item id="KW" en="Kuwait" />
+<item id="KY" en="Cayman Islands " />
+<item id="KZ" en="Kazakhstan" />
+<item id="LA" en="Lao" />
+<item id="LB" en="Lebanon" />
+<item id="LC" en="Saint Lucia" />
+<item id="LI" en="Liechtenstein" />
+<item id="LK" en="Sri Lanka" />
+<item id="LR" en="Liberia" />
+<item id="LS" en="Lesotho" />
+<item id="LT" en="Lithuania" />
+<item id="LU" en="Luxembourg" />
+<item id="LV" en="Latvia" />
+<item id="LY" en="Libya" />
+<item id="MA" en="Morocco" />
+<item id="MC" en="Monaco" />
+<item id="MD" en="Moldova" />
+<item id="ME" en="Montenegro " />
+<item id="MF" en="Saint Martin " />
+<item id="MG" en="Madagascar" />
+<item id="MH" en="Marshall Islands " />
+<item id="MK" en="Macedonia" />
+<item id="ML" en="Mali" />
+<item id="MM" en="Myanmar" />
+<item id="MN" en="Mongolia" />
+<item id="MO" en="Macau" />
+<item id="MP" en="Northern Mariana" />
+<item id="MQ" en="Martinique" />
+<item id="MR" en="Mauritania" />
+<item id="MS" en="Montserrat" />
+<item id="MT" en="Malta" />
+<item id="MU" en="Mauritius" />
+<item id="MV" en="Maldives" />
+<item id="MW" en="Malawi" />
+<item id="MX" en="Mexico" />
+<item id="MY" en="Malaysia" />
+<item id="MZ" en="Mozambique" />
+<item id="NA" en="Namibia" />
+<item id="NC" en="New Caledonia" />
+<item id="NE" en="Niger" />
+<item id="NF" en="Norfolk Island" />
+<item id="NG" en="Nigeria" />
+<item id="NI" en="Nicaragua" />
+<item id="NL" en="Netherlands" />
+<item id="NO" en="Norway" />
+<item id="NP" en="Nepal" />
+<item id="NR" en="Nauru" />
+<item id="NU" en="Niue" />
+<item id="NZ" en="New Zealand" />
+<item id="OM" en="Oman" />
+<item id="PA" en="Panama" />
+<item id="PE" en="Peru" />
+<item id="PF" en="French Polynesia " />
+<item id="PG" en="Papua New Guinea" />
+<item id="PH" en="Philippines" />
+<item id="PK" en="Pakistan" />
+<item id="PL" en="Poland" />
+<item id="PM" en="Saint Pierre and Miquelon " />
+<item id="PN" en="Pitcairn " />
+<item id="PR" en="Puerto Rico" />
+<item id="PS" en="Palestine" />
+<item id="PT" en="Portugal" />
+<item id="PW" en="Palau" />
+<item id="PY" en="Paraguay" />
+<item id="QA" en="Qatar" />
+<item id="RE" en="Reunion" />
+<item id="RO" en="Romania" />
+<item id="RS" en="Serbia " />
+<item id="RU" en="Russia" />
+<item id="RW" en="Rwanda" />
+<item id="SA" en="Saudi Arabia" />
+<item id="SB" en="Solomon Islands" />
+<item id="SC" en="Seychelles" />
+<item id="SD" en="Sudan" />
+<item id="SE" en="Sweden" />
+<item id="SG" en="Singapore" />
+<item id="SH" en="Saint Helena" />
+<item id="SI" en="Slovenia" />
+<item id="SJ" en="Svalbard and Jan Mayen " />
+<item id="SK" en="Slovakia" />
+<item id="SL" en="Sierra Leone" />
+<item id="SM" en="San Marino" />
+<item id="SN" en="Senegal" />
+<item id="SO" en="Somalia" />
+<item id="SR" en="Suriname" />
+<item id="SS" en="South Sudan " />
+<item id="ST" en="Sao Tome and Principe " />
+<item id="SV" en="El Salvador" />
+<item id="SX" en="Sint Maarten " />
+<item id="SY" en="Syria" />
+<item id="SZ" en="Swaziland" />
+<item id="TC" en="Turks and Caicos Islands " />
+<item id="TD" en="Chad" />
+<item id="TF" en="French Southern Territories" />
+<item id="TG" en="Togo" />
+<item id="TH" en="Thailand" />
+<item id="TJ" en="Tajikistan" />
+<item id="TK" en="Tokelau" />
+<item id="TL" en="Timor-Leste " />
+<item id="TM" en="Turkmenistan" />
+<item id="TN" en="Tunisia" />
+<item id="TO" en="Tonga" />
+<item id="TR" en="Turkey" />
+<item id="TT" en="Trinidad and Tobago " />
+<item id="TV" en="Tuvalu" />
+<item id="TW" en="Taiwan" />
+<item id="TZ" en="Tanzania" />
+<item id="UA" en="Ukraine" />
+<item id="UG" en="Uganda" />
+<item id="UM" en="United States Minor Outlying Islands " />
+<item id="US" en="United States" />
+<item id="UY" en="Uruguay" />
+<item id="UZ" en="Uzbekistan" />
+<item id="VA" en="Vatican" />
+<item id="VC" en="Saint Vincent and the Grenadines " />
+<item id="VE" en="Venezuela" />
+<item id="VG" en="Virgin Islands, British " />
+<item id="VI" en="Virgin Islands, U.S. " />
+<item id="VN" en="Vietnam" />
+<item id="VU" en="Vanuatu" />
+<item id="WF" en="Wallis and Futuna " />
+<item id="WS" en="Samoa" />
+<item id="YE" en="Yemen" />
+<item id="YT" en="Mayotte" />
+<item id="ZA" en="South Africa" />
+<item id="ZM" en="Zambia" />
+<item id="ZW" en="Zimbabwe" />
+<item id="" en="Non-specific" />
+</Region>
+<DTMFMethod type="Enumer" policy="Default">
+<item id="InBand" en="InBand" />
+<item id="RFC2833" en="RFC2833" />
+<item id="SIPInfo" en="SIPInfo" />
+</DTMFMethod>
+<X_HW_DigitMapMatchMode type="Enumer" policy="Default">
+<item id="Min" en="Min" />
+<item id="Max" en="Max" />
+</X_HW_DigitMapMatchMode>
+<X_HW_PortName type="STRING" min="0" max="32" policy="Default" />
+<X_HW_OverseaVer type="Enumer" policy="Default">
+<item id="1" en="HongKong" />
+<item id="2" en="Brazil" />
+<item id="3" en="Egypt" />
+<item id="4" en="Singapore" />
+<item id="5" en="Thailand" />
+<item id="6" en="France" />
+<item id="7" en="England MSFUK" />
+<item id="8" en="England ETSI" />
+<item id="9" en="Bulgaria" />
+<item id="0" en="Non-specific" />
+</X_HW_OverseaVer>
+<X_HW_HowlerSendFlag type="BOOLEAN" min="0" max="1" policy="Default" />
+<X_HW_Option15PriorityMode type="Enumer" policy="Default">
+<item id="0" en="Ignore " />
+<item id="1" en="Highest Priority" />
+<item id="2" en="Lowest Priority" />
+</X_HW_Option15PriorityMode>
+<Enable type="Enumer" policy="Default">
+<item id="Disabled" en="Disabled" />
+<item id="Quiescent" en="Quiescent" />
+<item id="Enabled" en="Enabled" />
+</Enable>
+<X_HW_KeepTransferActivePeriod type="UNSIGNEDINT" min="0" max="3600" policy="Default" />
+<X_HW_ServerType type="Enumer" policy="Default">
+<item id="0" en="IMS SIP" />
+<item id="1" en="NGN SIP" />
+<item id="2" en="H.248" />
+</X_HW_ServerType>
+<FaxPassThrough type="Enumer" policy="Default">
+<item id="Disable" en="Disable" />
+<item id="Auto" en="Auto" />
+<item id="Force" en="Force" />
+</FaxPassThrough>
+<SIP type="object" policy="Ignore" maxnumber="1">
+<ProxyServer type="STRING" min="0" max="64" policy="Default" />
+<ProxyServerPort type="UNSIGNEDINT" min="0" max="65535" policy="Default" />
+<ProxyServerTransport type="Enumer" policy="Default">
+<item id="UDP" en="UDP" />
+<item id="TCP" en="TCP" />
+<item id="TLS" en="TLS" />
+<item id="SCTP" en="SCTP" />
+</ProxyServerTransport>
+<X_HW_SecondaryProxyServer type="STRING" min="0" max="64" policy="Default" />
+<X_HW_SecondaryProxyServerPort type="UNSIGNEDINT" min="0" max="65535" policy="Default" />
+<RegistrarServer type="STRING" min="0" max="64" policy="Default" />
+<UserAgentDomain type="STRING" min="0" max="64" policy="Default" />
+<UserAgentPort type="UNSIGNEDINT" min="0" max="65535" policy="Default" />
+<DSCPMark type="UNSIGNEDINT" min="0" max="63" policy="Default" />
+<Organization type="STRING" min="0" max="64" policy="Default" />
+<RegistrationPeriod type="UNSIGNEDINT" min="1" max="65534" policy="Default" />
+<RegisterExpires type="UNSIGNEDINT" min="1" max="65534" policy="Default" />
+<TimerT1 type="UNSIGNEDINT" min="200" max="10000" policy="Default" />
+<TimerT2 type="UNSIGNEDINT" min="200" max="10000" policy="Default" />
+<TimerT4 type="UNSIGNEDINT" min="200" max="10000" policy="Default" />
+<RegisterRetryInterval type="UNSIGNEDINT" min="1" max="65534" policy="Default" />
+<InboundAuthUsername type="STRING" min="0" max="256" policy="Default" />
+<InboundAuthPassword type="STRING" min="0" max="256" policy="Default" />
+<UseCodecPriorityInSDPResponse type="BOOLEAN" min="0" max="1" policy="Default" />
+<X_HW_EmergencyDSCPMark type="INT" min="-1" max="63" policy="Default" />
+<X_HW_KeepSilenceNoUser type="UNSIGNEDINT" min="0" max="1" policy="Default" />
+<X_HW_SessionUpdateRetry type="UNSIGNEDINT" min="0" max="65535" policy="Default" />
+<X_HW_ByeWhenSessionUpdateRetryFail type="UNSIGNEDINT" min="0" max="1" policy="Default" />
+<ResponseMap type="object" policy="Ignore" maxnumber="600">
+<SIPResponseNumber type="UNSIGNEDINT" min="100" max="999" policy="Default" />
+<Tone type="UNSIGNEDINT" min="0" max="999" policy="Default" />
+<X_HW_Duration type="UNSIGNEDINT" min="0" max="65535" policy="Default" />
+<TextMessage type="STRING" min="0" max="64" policy="Default" />
+</ResponseMap>
+<X_HW_StatusCodeMap type="object" policy="Ignore" maxnumber="32">
+<Scene type="UNSIGNEDINT" min="0" max="31" policy="Default" />
+<StatusCode type="UNSIGNEDINT" min="0,400" max="699" policy="Default" />
+<Q850Code type="UNSIGNEDINT" min="0" max="127" policy="Default" />
+</X_HW_StatusCodeMap>
+<X_HW_SIPProfile type="object" policy="Ignore" maxnumber="1">
+<ProfileName type="STRING" min="0" max="64" policy="Default" />
+<ProfileBody type="STRING" min="0" max="8192" policy="Default" />
+</X_HW_SIPProfile>
+<X_HW_SIPDigitmap type="object" policy="Ignore" maxnumber="3">
+<DMName type="STRING" min="0" max="64" policy="Default" />
+<DigitmapType type="Enumer" policy="Default">
+<item id="Normal" en="Normal" />
+<item id="Emergent" en="Emergent" />
+<item id="SCC" en="SCC" />
+</DigitmapType>
+<DigitMap type="STRING" min="0" max="8000" policy="Default" />
+<DigitMapStartTimer type="UNSIGNEDINT" min="0" max="900" policy="Default" />
+<DigitMapShortTimer type="UNSIGNEDINT" min="0" max="900" policy="Default" />
+<DigitMapLongTimer type="UNSIGNEDINT" min="0" max="900" policy="Default" />
+<MatchMode type="Enumer" policy="Default">
+<item id="Min" en="Min" />
+<item id="Max" en="Max" />
+<item id="Default" en="Default" />
+</MatchMode>
+</X_HW_SIPDigitmap>
+<X_HW_SIPStringDefine type="object" policy="Ignore" maxnumber="1024">
+<StringBody type="STRING" min="0" max="64" policy="Default" />
+</X_HW_SIPStringDefine>
+<X_HW_SIPSrvPri type="object" policy="Ignore" maxnumber="1024">
+<ServiceID type="UNSIGNEDINT" min="0" max="2147483647" policy="Default" />
+</X_HW_SIPSrvPri>
+<X_HW_SIPSrvLogic type="object" policy="Ignore" maxnumber="1024">
+<SrvLogicBody type="STRING" min="0" max="128" policy="Default" />
+</X_HW_SIPSrvLogic>
+<X_HW_SIPExtend type="object" policy="Ignore" maxnumber="1">
+<PhoneContext type="STRING" min="0" max="32" policy="Default" />
+<ConferenceFactoryUri type="STRING" min="0" max="64" policy="Default" />
+<PortFilterFlag type="BOOLEAN" min="0" max="1" policy="Default" />
+<Server type="STRING" min="0" max="256" policy="Default" />
+<MaxForwards type="UNSIGNEDINT" min="0" max="255" policy="Default" />
+<TimerTD type="UNSIGNEDINT" min="0" max="300000" policy="Default" />
+<TimerMinSe type="UNSIGNEDINT" min="90" max="65535" policy="Default" />
+<TimerSessionProgress type="UNSIGNEDINT" min="0" max="65535" policy="Default" />
+<TimerSessionRelProgress type="UNSIGNEDINT" min="0" max="65535" policy="Default" />
+<EntityBasedSessionsTimerFlag type="BOOLEAN" min="0" max="1" policy="Default" />
+<AuthHeaderFoldingEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<SoftwareParameters type="STRING" min="0" max="8192" policy="Default" />
+<ThreeWayMixType type="Enumer" policy="Default">
+<item id="ATABased" en="ATABased" />
+<item id="NetworkBased" en="NetworkBased" />
+</ThreeWayMixType>
+<ToHeaderStrickFlag type="BOOLEAN" min="0" max="1" policy="Default" />
+<DomainDNSGetMode type="Enumer" policy="Default">
+<item id="DNS-A" en="DNS-A" />
+<item id="DNS-SRV" en="DNS-SRV" />
+</DomainDNSGetMode>
+<ProxyRefreshMode type="Enumer" policy="Default">
+<item id="Immediate" en="Immediate" />
+<item id="Defer" en="Defer" />
+<item id="NoSwitch" en="NoSwitch" />
+</ProxyRefreshMode>
+<DNSACheckTTLEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<DNSAStoreLimit type="UNSIGNEDINT" min="0" max="65535" policy="Default" />
+<MultiHomeMode type="Enumer" policy="Default">
+<item id="Disabled" en="Disabled" />
+<item id="DualHome" en="Dual Home" />
+<item id="DualHomeAutoSwitchOver" en="Dual Home Auto Switch Over" />
+<item id="LoadSharing" en="Load Sharing" />
+<item id="" en=" " />
+</MultiHomeMode>
+<SharedUserMode type="Enumer" policy="Default">
+<item id="Disabled" en="Disabled" />
+<item id="RingParallel" en="Ring Parallel" />
+</SharedUserMode>
+<Q850CauseWhenPark type="Enumer" policy="Default">
+<item id="0" en="Default" />
+<item id="1" en="Return 17   User Busy" />
+<item id="2" en="Return 41   Temporary failure" />
+</Q850CauseWhenPark>
+<ReregisterResponseCode type="STRING" min="" max="" policy="Default" />
+</X_HW_SIPExtend>
+</SIP>
+<X_HW_H248 type="object" policy="Ignore" maxnumber="1">
+<CallAgent1 type="STRING" min="0" max="64" policy="Default" />
+<CallAgentPort1 type="UNSIGNEDINT" min="0" max="65535" policy="Default" />
+<CallAgent2 type="STRING" min="0" max="64" policy="Default" />
+<CallAgentPort2 type="UNSIGNEDINT" min="0" max="65535" policy="Default" />
+<LocalPort type="UNSIGNEDINT" min="0" max="65535" policy="Default" />
+<Domain type="STRING" min="0" max="64" policy="Default" />
+<DeviceName type="STRING" min="0" max="64" policy="Default" />
+<MIDFormat type="Enumer" policy="Default">
+<item id="DomainName" en="DomainName" />
+<item id="IP" en="IP" />
+<item id="DeviceName" en="DeviceName" />
+</MIDFormat>
+<DSCPMark type="UNSIGNEDINT" min="0" max="63" policy="Default" />
+<auth type="object" policy="Ignore" maxnumber="1">
+<auth type="BOOLEAN" min="0" max="1" policy="Default" />
+<authInitKey type="STRING" min="0" max="64" policy="Default" />
+<authmgid type="STRING" min="0" max="64" policy="Default" />
+<authHeader type="BOOLEAN" min="0" max="1" policy="Default" />
+<HeaderSecurityType type="Enumer" policy="Default">
+<item id="noah" en="No Auth" />
+<item id="sha1" en="SHA1" />
+<item id="md5" en="MD5" />
+</HeaderSecurityType>
+<Rfc2833EncryptKey type="STRING" min="0" max="64" policy="Default" />
+</auth>
+<StackInfo type="object" policy="Ignore" maxnumber="1">
+<MsgFormat type="Enumer" policy="Default">
+<item id="Short" en="Short" />
+<item id="Long" en="Long" />
+</MsgFormat>
+<ResponseAckCtrl type="BOOLEAN" min="0" max="1" policy="Default" />
+<LongTimer type="UNSIGNEDINT" min="10000" max="30000" policy="Default" />
+<MaxreTransTime type="UNSIGNEDINT" min="3000" max="10000" policy="Default" />
+<MinreTransTime type="UNSIGNEDINT" min="1000" max="2000" policy="Default" />
+<MGProvisionalRespTime type="UNSIGNEDINT" min="6000" max="8000" policy="Default" />
+<Retransfailoption type="Enumer" policy="Default">
+<item id="Times" en="Times" />
+<item id="Duration" en="Duration" />
+</Retransfailoption>
+<MaxreTransTimes type="UNSIGNEDINT" min="1" max="9" policy="Default" />
+<MaxreTransDuration type="UNSIGNEDINT" min="10000" max="30000" policy="Default" />
+<RetransMode type="Enumer" policy="Default">
+<item id="Auto" en="Auto" />
+<item id="Fixed" en="Fixed" />
+</RetransMode>
+<FixedRetransTime type="UNSIGNEDINT" min="1000" max="3000" policy="Default" />
+<MTUValue type="UNSIGNEDINT" min="1" max="5000" policy="Default" />
+<MsgSegmentation type="BOOLEAN" min="0" max="1" policy="Default" />
+</StackInfo>
+<Digitmap type="object" policy="Ignore" maxnumber="1">
+<DMName type="STRING" min="0" max="64" policy="Default" />
+<DigitMap type="STRING" min="0" max="8000" policy="Default" />
+<DigitMapStartTimer type="UNSIGNEDINT" min="0" max="900" policy="Default" />
+<DigitMapShortTimer type="UNSIGNEDINT" min="0" max="900" policy="Default" />
+<DigitMapLongTimer type="UNSIGNEDINT" min="0" max="900" policy="Default" />
+</Digitmap>
+<Profile type="object" policy="Ignore" maxnumber="1">
+<ProfileName type="STRING" min="0" max="64" policy="Default" />
+<ProfileBody type="STRING" min="0" max="8192" policy="Default" />
+</Profile>
+<Extend type="object" policy="Ignore" maxnumber="1">
+<HeartBeatTimer type="UNSIGNEDINT" min="5" max="65535" policy="Default" />
+<HeartBeatRetransTimer type="UNSIGNEDINT" min="5" max="65535" policy="Default" />
+<HeartBeatRetransTimes type="UNSIGNEDINT" min="1" max="20" policy="Default" />
+<MWDBaseTime type="UNSIGNEDINT" min="0" max="180" policy="Default" />
+<MWD type="UNSIGNEDINT" min="0" max="900" policy="Default" />
+<CallholdTimer type="UNSIGNEDINT" min="0" max="65535" policy="Default" />
+<Topversion type="UNSIGNEDINT" min="0" max="3" policy="Default" />
+<ProfileNego type="BOOLEAN" min="0" max="1" policy="Default" />
+<ProfileIndex type="Enumer" policy="Default">
+<item id="0" en="User Define" />
+<item id="1" en="Profile Default " />
+<item id="2" en="BT" />
+<item id="3" en="FT" />
+<item id="4" en="KPN" />
+<item id="5" en="PCCW" />
+<item id="6" en="ZTE" />
+<item id="7" en="BELL" />
+</ProfileIndex>
+<ProfileName type="STRING" min="0" max="64" policy="Default" />
+<MgcSwitchMethod type="Enumer" policy="Default">
+<item id="NotSupport" en="NotSupport" />
+<item id="SupportSwitch" en="SupportSwitch" />
+<item id="AutoSwitchBack" en="AutoSwitchBack" />
+</MgcSwitchMethod>
+<PortFilterFlag type="BOOLEAN" min="0" max="1" policy="Default" />
+<PortFilterTime type="UNSIGNEDINT" min="1" max="30" policy="Default" />
+<DisconnectToneType type="Enumer" policy="Default">
+<item id="BusyTone" en="BusyTone" />
+<item id="CongestionTone" en="CongestionTone" />
+</DisconnectToneType>
+<DigitMapAutoMatchEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<SoftwareParameters type="STRING" min="0" max="8192" policy="Default" />
+<OffhookEventID type="Enumer" policy="Default">
+<item id="0" en="*(Huawei)" />
+<item id="1" en="2000(ZTE) " />
+<item id="2" en="589829(Bell)" />
+<item id="3" en="FFFFFFFF(Ericsson)" />
+</OffhookEventID>
+<MgDomainCheck type="UNSIGNEDINT" min="0" max="1" policy="Default" />
+</Extend>
+</X_HW_H248>
+<RTP type="object" policy="Ignore" maxnumber="1">
+<LocalPortMin type="UNSIGNEDINT" min="0" max="65535" policy="Default" />
+<LocalPortMax type="UNSIGNEDINT" min="0" max="65535" policy="Default" />
+<DSCPMark type="UNSIGNEDINT" min="0" max="63" policy="Default" />
+<TelephoneEventPayloadType type="UNSIGNEDINT" min="96" max="127" policy="Default" />
+<X_HW_2833FaxEventFlag type="Enumer" policy="Default">
+<item id="NegoStart" en="NegoStart" />
+<item id="FixedStart" en="FixedStart" />
+<item id="NoInitiativeStart" en="NoInitiativeStart" />
+<item id="Disable" en="Disable" />
+</X_HW_2833FaxEventFlag>
+<X_HW_PortName type="STRING" min="0" max="32" policy="Default" />
+<X_HW_2833FlashHook type="BOOLEAN" min="0" max="1" policy="Default" />
+<X_HW_EmergencyDSCPMark type="INT" min="-1" max="63" policy="Default" />
+<RTCP type="object" policy="Ignore" maxnumber="1">
+<Enable type="BOOLEAN" min="0" max="1" policy="Default" />
+<TxRepeatInterval type="UNSIGNEDINT" min="1" max="65535" policy="Default" />
+<X_HW_RtcpxrFlag type="BOOLEAN" min="0" max="1" policy="Default" />
+<X_HW_VqmFlag type="BOOLEAN" min="0" max="1" policy="Default" />
+</RTCP>
+<Redundancy type="object" policy="Ignore" maxnumber="1">
+<Enable type="BOOLEAN" min="0" max="1" policy="Default" />
+<PayloadType type="UNSIGNEDINT" min="96" max="127" policy="Default" />
+<X_HW_EnableAuto type="BOOLEAN" min="0" max="1" policy="Default" />
+<X_HW_EnableFixedStart type="BOOLEAN" min="0" max="1" policy="Default" />
+<X_HW_Rfc2198For2833 type="BOOLEAN" min="0" max="1" policy="Default" />
+</Redundancy>
+<X_HW_JitBuffer type="object" policy="Ignore" maxnumber="1">
+<MaxAdaptJB type="UNSIGNEDINT" min="0" max="200" policy="Default" />
+<MinAdaptJB type="UNSIGNEDINT" min="0" max="200" policy="Default" />
+<IniAdaptJB type="UNSIGNEDINT" min="0" max="200" policy="Default" />
+<MaxFixedJB type="UNSIGNEDINT" min="0" max="200" policy="Default" />
+<MinFixedJB type="UNSIGNEDINT" min="0" max="200" policy="Default" />
+<IniFixedJB type="UNSIGNEDINT" min="0" max="200" policy="Default" />
+</X_HW_JitBuffer>
+<X_HW_Extend type="object" policy="Ignore" maxnumber="1">
+<EchoCancellationEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<SilenceSuppression type="BOOLEAN" min="0" max="1" policy="Default" />
+<DefaultCodec type="Enumer" policy="Default">
+<item id="G.711MuLaw" en="G.711MuLaw" />
+<item id="G.711ALaw" en="G.711ALaw" />
+<item id="G.729" en="G.729" />
+<item id="G.722" en="G.722" />
+</DefaultCodec>
+<DefaultPktLen type="Enumer" policy="Default">
+<item id="10" en="10" />
+<item id="20" en="20" />
+<item id="30" en="30" />
+</DefaultPktLen>
+<PlcFlag type="BOOLEAN" min="0" max="1" policy="Default" />
+<PktLostThreshold type="UNSIGNEDINT" min="0" max="65535" policy="Default" />
+<OnhookDtaLevel type="Enumer" policy="Default">
+<item id="-5.5dbm0" en="-5.5dbm0" />
+<item id="-6.5dbm0" en="-6.5dbm0" />
+<item id="-7.5dbm0" en="-7.5dbm0" />
+<item id="-8.5dbm0" en="-8.5dbm0" />
+<item id="-9.5dbm0" en="-9.5dbm0" />
+<item id="-10.5dbm0" en="-10.5dbm0" />
+<item id="-11.5dbm0" en="-11.5dbm0" />
+<item id="-12.5dbm0" en="-12.5dbm0" />
+<item id="-13.5dbm0" en="-13.5dbm0" />
+<item id="-14.5dbm0" en="-14.5dbm0" />
+<item id="-15.5dbm0" en="-15.5dbm0" />
+<item id="-16.5dbm0" en="-16.5dbm0" />
+<item id="-17.5dbm0" en="-17.5dbm0" />
+<item id="-18.5dbm0" en="-18.5dbm0" />
+<item id="-19.5dbm0" en="-19.5dbm0" />
+<item id="-20.5dbm0" en="-20.5dbm0" />
+</OnhookDtaLevel>
+<OnhookFskLevel type="Enumer" policy="Default">
+<item id="-5.5dbm0" en="-5.5dbm0" />
+<item id="-6.5dbm0" en="-6.5dbm0" />
+<item id="-7.5dbm0" en="-7.5dbm0" />
+<item id="-8.5dbm0" en="-8.5dbm0" />
+<item id="-9.5dbm0" en="-9.5dbm0" />
+<item id="-10.5dbm0" en="-10.5dbm0" />
+<item id="-11.5dbm0" en="-11.5dbm0" />
+<item id="-12.5dbm0" en="-12.5dbm0" />
+<item id="-13.5dbm0" en="-13.5dbm0" />
+<item id="-14.5dbm0" en="-14.5dbm0" />
+<item id="-15.5dbm0" en="-15.5dbm0" />
+<item id="-16.5dbm0" en="-16.5dbm0" />
+<item id="-17.5dbm0" en="-17.5dbm0" />
+<item id="-18.5dbm0" en="-18.5dbm0" />
+<item id="-19.5dbm0" en="-19.5dbm0" />
+<item id="-20.5dbm0" en="-20.5dbm0" />
+</OnhookFskLevel>
+<OnhookChannelSeizeBit type="UNSIGNEDINT" min="0" max="1000" policy="Default" />
+<OnhookMarkSignalBit type="UNSIGNEDINT" min="0" max="1000" policy="Default" />
+<OnhookDtasFskInterval type="UNSIGNEDINT" min="0" max="1000" policy="Default" />
+<OnhookDtasDuration type="UNSIGNEDINT" min="0" max="1000" policy="Default" />
+<OffhookDtaLevel type="Enumer" policy="Default">
+<item id="-5.5dbm0" en="-5.5dbm0" />
+<item id="-6.5dbm0" en="-6.5dbm0" />
+<item id="-7.5dbm0" en="-7.5dbm0" />
+<item id="-8.5dbm0" en="-8.5dbm0" />
+<item id="-9.5dbm0" en="-9.5dbm0" />
+<item id="-10.5dbm0" en="-10.5dbm0" />
+<item id="-11.5dbm0" en="-11.5dbm0" />
+<item id="-12.5dbm0" en="-12.5dbm0" />
+<item id="-13.5dbm0" en="-13.5dbm0" />
+<item id="-14.5dbm0" en="-14.5dbm0" />
+<item id="-15.5dbm0" en="-15.5dbm0" />
+<item id="-16.5dbm0" en="-16.5dbm0" />
+<item id="-17.5dbm0" en="-17.5dbm0" />
+<item id="-18.5dbm0" en="-18.5dbm0" />
+<item id="-19.5dbm0" en="-19.5dbm0" />
+<item id="-20.5dbm0" en="-20.5dbm0" />
+</OffhookDtaLevel>
+<OffhookFskLevel type="Enumer" policy="Default">
+<item id="-5.5dbm0" en="-5.5dbm0" />
+<item id="-6.5dbm0" en="-6.5dbm0" />
+<item id="-7.5dbm0" en="-7.5dbm0" />
+<item id="-8.5dbm0" en="-8.5dbm0" />
+<item id="-9.5dbm0" en="-9.5dbm0" />
+<item id="-10.5dbm0" en="-10.5dbm0" />
+<item id="-11.5dbm0" en="-11.5dbm0" />
+<item id="-12.5dbm0" en="-12.5dbm0" />
+<item id="-13.5dbm0" en="-13.5dbm0" />
+<item id="-14.5dbm0" en="-14.5dbm0" />
+<item id="-15.5dbm0" en="-15.5dbm0" />
+<item id="-16.5dbm0" en="-16.5dbm0" />
+<item id="-17.5dbm0" en="-17.5dbm0" />
+<item id="-18.5dbm0" en="-18.5dbm0" />
+<item id="-19.5dbm0" en="-19.5dbm0" />
+<item id="-20.5dbm0" en="-20.5dbm0" />
+</OffhookFskLevel>
+<OffhookMarkSignalBit type="UNSIGNEDINT" min="0" max="1000" policy="Default" />
+<OffhookDtasAckInterval type="UNSIGNEDINT" min="0" max="1000" policy="Default" />
+<OffhookDtasAckFskInterval type="UNSIGNEDINT" min="0" max="1000" policy="Default" />
+<OffhookDtasDuration type="UNSIGNEDINT" min="0" max="1000" policy="Default" />
+<RTPTermIDPrefix type="STRING" min="0" max="48" policy="Default" />
+<RTPTermIDStartNum type="UNSIGNEDINT" min="0" max="2147483647" policy="Default" />
+<RTPTermIDNumWidth type="UNSIGNEDINT" min="0" max="16" policy="Default" />
+<DualSilenceDetTime type="UNSIGNEDINT" min="100" max="10000" policy="Default" />
+<DTMFClipStartCode type="Enumer" policy="Default">
+<item id="12" en="DTMF A" />
+<item id="13" en="DTMF B" />
+<item id="14" en="DTMF C" />
+<item id="15" en="DTMF D" />
+</DTMFClipStartCode>
+<VbdJbAdjustMode type="Enumer" policy="Default">
+<item id="0" en="Immediate Mode" />
+<item id="1" en="Smoothness Mode" />
+</VbdJbAdjustMode>
+<DtmfDetectAlgorithmMode type="Enumer" policy="Default">
+<item id="0" en="Normal Mode" />
+<item id="1" en="Anti-voice Mode" />
+<item id="2" en="Meishan Mode" />
+<item id="3" en="Russian Mode" />
+</DtmfDetectAlgorithmMode>
+<DtmfDetectNegativeTwistAdjust type="INT" min="-100" max="100" policy="Default" />
+<DtmfDetectPositiveTwistAdjust type="INT" min="-100" max="100" policy="Default" />
+<DtmfDetectLevelLowerAdjust type="INT" min="-200" max="600" policy="Default" />
+<DtmfDetectSnrAdjust type="INT" min="-200" max="200" policy="Default" />
+<DTMFEraseBeforeEnd type="BOOLEAN" min="0" max="1" policy="Default" />
+<DTMFBufferMode type="Enumer" policy="Default">
+<item id="0" en="Disable Buffer" />
+<item id="1" en="Enable Buffer" />
+<item id="2" en="Adapt" />
+</DTMFBufferMode>
+<DtmfDetectSnrDialAdjust type="INT" min="-200" max="200" policy="Default" />
+<DtmfDetectSnrDialup_900Adjust type="INT" min="-200" max="200" policy="Default" />
+<DtmfDetectSnr900_1250Adjust type="INT" min="-200" max="200" policy="Default" />
+<DtmfDetectSnr1250_1800Adjust type="INT" min="-200" max="200" policy="Default" />
+<DtmfDetectSnr1800_4000Adjust type="INT" min="-200" max="200" policy="Default" />
+</X_HW_Extend>
+</RTP>
+<Tone type="object" policy="Default" maxnumber="1">
+<Event type="object" policy="Ignore" maxnumber="60">
+<Function type="Enumer" policy="Default">
+<item id="Busy" en="Busy Tone" />
+<item id="X_HW_Tone_Howler" en="Howl Tone" />
+<item id="Dial" en="Dial Tone" />
+<item id="RingBack" en="Ringback Tone" />
+<item id="X_HW_Tone_DualDial" en="Dual Dial Tone" />
+<item id="SpecialDial" en="Specail Dial Tone" />
+<item id="X_HW_Tone_ShortBusy" en="Short Busy Tone" />
+<item id="CallWaiting1" en="Call Waiting Tone" />
+<item id="X_HW_Tone_Mute" en="Mute Tone" />
+<item id="X_HW_Tone_CAS" en="CAS Tone" />
+<item id="X_HW_Tone_SAS" en="SAS Tone" />
+<item id="X_HW_Tone_VoiceMailOn" en="Voicemail On Tone" />
+<item id="X_HW_Tone_VoiceMailOff" en="Voicemail Off Tone" />
+<item id="Confirmation" en="Confirmation Tone" />
+<item id="Congestion" en="Congestion Tone" />
+<item id="X_HW_Tone_NegativeAck" en="Negative Ack Tone" />
+<item id="UserDefined1" en="User Define Tone 1" />
+<item id="UserDefined2" en="User Define Tone 2" />
+<item id="UserDefined3" en="User Define Tone 3" />
+<item id="UserDefined4" en="User Define Tone 4" />
+<item id="X_HW_Tone_UserDefine5" en="User Define Tone 5" />
+<item id="X_HW_Tone_MessageWaiting" en="Message Waiting Tone" />
+<item id="X_HW_Tone_CallWaiting2" en="Call Waiting Tone 2" />
+<item id="X_HW_Tone_NumberUnobtain" en="Number Unobtainable Tone" />
+<item id="X_HW_Tone_EquipmentEngaged" en="Equipment Engaged Tone" />
+<item id="X_HW_Tone_AN_UNRECNUMAN" en="Unrecognised Number Announcement Tone" />
+<item id="X_HW_Tone_AN_FLTAN" en="Fault Announcemnet Tone" />
+<item id="X_HW_Tone_AN_NUMTOOAN" en="Number temporarily out of order Announcemnet Tone" />
+<item id="X_HW_Tone_AN_NOREPLYAN" en="No Reply Announcemnet Tone" />
+<item id="X_HW_Tone_AN_LINESBUSYAN" en="All lines Busy Announcemnet Tone" />
+<item id="X_HW_Tone_AN_NUAN" en="Number Unavailable Announcemnet Tone" />
+<item id="X_HW_Tone_AN_OPCAN" en="Other Party Cleared Announcemnet Tone" />
+<item id="X_HW_Tone_AN_ALLNOTCONAN" en="Call cannot be connected Announcemnet Tone" />
+<item id="X_HW_Tone_AN_CALLGAPAN" en="Call Gapping Announcemnet Tone" />
+<item id="X_HW_Tone_AN_ICBAN" en="Incoming Calls Barred Announcemnet Tone" />
+<item id="X_HW_Tone_AN_NODIGITSAN" en="No Digits Announcemnet Tone" />
+<item id="X_HW_Tone_AN_SERVTERMAN" en="Service Termination Announcemnet Tone" />
+<item id="X_HW_Tone_RO1" en="Reorder Tone(part 1)" />
+<item id="X_HW_Tone_RO2" en="Reorder Tone(part 2)" />
+<item id="X_HW_Tone_CallWaiting3" en="Call Waiting Tone 3" />
+<item id="X_HW_Tone_CallWaiting4" en="Call Waiting Tone 4" />
+<item id="X_HW_Tone_CallWaiting5" en="Call Waiting Tone 5" />
+<item id="X_HW_Tone_Stt" en="Stutter Dial Tone" />
+<item id="X_HW_Tone_Ct" en="Congestion Tone 2" />
+<item id="X_HW_Tone_Nut" en="Number Unobtainable Tone" />
+<item id="X_HW_Tone_Sat" en="Service Acceptance Tone" />
+<item id="X_HW_Tone_LineLock" en="Bulgarian Line Lock Tone" />
+<item id="X_HW_Tone_Leave" en="Argentine Message Waiting Tone" />
+<item id="X_HW_Tone_SrvtnHt" en="Held Tone" />
+<item id="X_HW_Tone_Pt" en="Confirmation Tone" />
+<item id="X_HW_Tone_AllTruckBusy" en="All Trunks Busy Tone" />
+<item id="X_HW_Tone_Warning" en="Warning Tone" />
+<item id="X_HW_Tone_SpecialInfo" en="Special Information Tone" />
+<item id="X_HW_Tone_Locating" en="Locating Tone" />
+<item id="X_HW_Tone_Cw_Announcement" en="Call Waiting Announcement Tone" />
+<item id="X_HW_Tone_PowerOverload" en="Power Overload Tone" />
+<item id="X_HW_Tone_RingBackAlways" en="RingBack Always Tone" />
+<item id="X_HW_Tone_Reserved1" en="Reserved1 Tone" />
+<item id="X_HW_Tone_Message_Info" en="Message Info Tone" />
+<item id="X_HW_Tone_Message" en="Message Tone" />
+<item id="X_HW_Tone_Number" en="Number Tone" />
+<item id="X_HW_Tone_AN_LINESBUSYANCallWaiting1" en="Lines Busy  CallWaiting1 Tone" />
+<item id="MessageWaiting" en="Message Waiting" />
+<item id="OffHookWarning" en="OffHook Warning" />
+<item id="ReOrder" en="ReOrder" />
+<item id="Stutterdial" en="Stutter dial" />
+<item id="CallWaiting2" en="Call Waiting2" />
+<item id="CallWaiting3" en="Call Waiting3" />
+<item id="CallWaiting4" en="Call Waiting4" />
+<item id="AlertingSignal" en="Alerting Signal" />
+<item id="SpecialInfo" en="Special Info" />
+<item id="Release" en="Release" />
+</Function>
+<ToneID type="UNSIGNEDINT" min="1" max="2147483647" policy="Default" />
+</Event>
+<Description type="object" policy="Ignore" maxnumber="90">
+<EntryID type="UNSIGNEDINT" min="1" max="65535" policy="Default" />
+<ToneEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<ToneName type="STRING" min="0" max="64" policy="Default" />
+<TonePattern type="UNSIGNEDINT" min="0" max="65535" policy="Default" />
+<ToneFile type="STRING" min="0" max="256" policy="Default" />
+<ToneRepetitions type="UNSIGNEDINT" min="0" max="255" policy="Default" />
+<ToneText type="STRING" min="0" max="64" policy="Default" />
+</Description>
+<TonePattern type="object" policy="Ignore" maxnumber="200">
+<EntryID type="UNSIGNEDINT" min="1" max="65535" policy="Default" />
+<ToneOn type="BOOLEAN" min="0" max="1" policy="Default" />
+<Frequency1 type="UNSIGNEDINT" min="0" max="4095" policy="Default" />
+<Power1 type="INT" min="-400" max="400" policy="Default" />
+<Frequency2 type="UNSIGNEDINT" min="0" max="4095" policy="Default" />
+<Power2 type="INT" min="-400" max="400" policy="Default" />
+<Frequency3 type="UNSIGNEDINT" min="0" max="4095" policy="Default" />
+<Power3 type="INT" min="-400" max="400" policy="Default" />
+<Frequency4 type="UNSIGNEDINT" min="0" max="4095" policy="Default" />
+<Power4 type="INT" min="-400" max="400" policy="Default" />
+<Duration type="UNSIGNEDINT" min="0" max="65535" policy="Default" />
+<NextEntryID type="UNSIGNEDINT" min="0" max="65535" policy="Default" />
+</TonePattern>
+</Tone>
+<FaxT38 type="object" policy="Ignore" maxnumber="1">
+<Enable type="BOOLEAN" min="0" max="1" policy="Default" />
+<BitRate type="UNSIGNEDINT" min="0" max="14400" policy="Default" />
+<TCFMethod type="Enumer" policy="Default">
+<item id="Local" en="Local" />
+<item id="Network" en="Network" />
+</TCFMethod>
+<X_HW_PortAdd2 type="BOOLEAN" min="0" max="1" policy="Default" />
+<HighSpeedRedundancy type="UNSIGNEDINT" min="0" max="3" policy="Default" />
+<LowSpeedRedundancy type="UNSIGNEDINT" min="0" max="7" policy="Default" />
+<X_HW_NegoAcceptWhenDisabled type="BOOLEAN" min="0" max="1" policy="Default" />
+<X_HW_V21PreProcessMode type="Enumer" policy="Default">
+<item id="0" en="Normal Mode" />
+<item id="1" en="Cheating Mode" />
+</X_HW_V21PreProcessMode>
+<X_HW_T38TrainingComplement type="Enumer" policy="Default">
+<item id="0" en="Disable Complement " />
+<item id="1" en="Enable Complement" />
+</X_HW_T38TrainingComplement>
+<X_HW_V21FlagMaxLen type="UNSIGNEDINT" min="100" max="5000" policy="Default" />
+<X_HW_V21FlagMinLen type="UNSIGNEDINT" min="100" max="4900" policy="Default" />
+</FaxT38>
+<X_HW_FaxModem type="object" policy="Ignore" maxnumber="1">
+<FaxNego type="BOOLEAN" min="0" max="1" policy="Default" />
+<FaxModemPktFix10ms type="BOOLEAN" min="0" max="1" policy="Default" />
+<FaxNegoFlow type="Enumer" policy="Default">
+<item id="V2" en="V2" />
+<item id="V3" en="V3" />
+<item id="V5" en="V5" />
+</FaxNegoFlow>
+<ModemEventMode type="Enumer" policy="Default">
+<item id="Cache" en="Cache" />
+<item id="Direct" en="Direct" />
+</ModemEventMode>
+<FaxModemVbdCodec type="Enumer" policy="Default">
+<item id="G.711MuLaw" en="G.711MuLaw" />
+<item id="G.711ALaw" en="G.711ALaw" />
+</FaxModemVbdCodec>
+<FaxModemVbdPTMode type="Enumer" policy="Default">
+<item id="Static" en="Static" />
+<item id="Dynamic" en="Dynamic" />
+</FaxModemVbdPTMode>
+<FaxModemVbdPayload type="UNSIGNEDINT" min="96" max="127" policy="Default" />
+<IpDtmfFallbackVoice type="BOOLEAN" min="0" max="1" policy="Default" />
+</X_HW_FaxModem>
+<X_HW_Ring>
+<Mapping type="object" policy="Ignore" maxnumber="16">
+<Pattern type="UNSIGNEDINT" min="0" max="15" policy="Default" />
+<CadenceType type="UNSIGNEDINT" min="0" max="47,255" policy="Default" />
+<InitialRing type="UNSIGNEDINT" min="0" max="47,255" policy="Default" />
+<RingName type="STRING" min="0" max="32" policy="Default" />
+</Mapping>
+<UserDefine type="object" policy="Ignore" maxnumber="16">
+<RingType type="UNSIGNEDINT" min="32" max="47" policy="Default" />
+<RingPara1 type="UNSIGNEDINT" min="0" max="12570" policy="Default" />
+<RingPara2 type="UNSIGNEDINT" min="0" max="12570" policy="Default" />
+<RingPara3 type="UNSIGNEDINT" min="0" max="12570" policy="Default" />
+<RingPara4 type="UNSIGNEDINT" min="0" max="12570" policy="Default" />
+<RingPara5 type="UNSIGNEDINT" min="0" max="12570" policy="Default" />
+<RingPara6 type="UNSIGNEDINT" min="0" max="12570" policy="Default" />
+</UserDefine>
+</X_HW_Ring>
+<X_HW_Signal>
+<List type="object" policy="Ignore" maxnumber="128">
+<SignalName type="STRING" min="0" max="20" policy="Default" />
+<Unit type="object" policy="Ignore" maxnumber="8">
+<UnitType type="STRING" min="0" max="15" policy="Default" />
+<UnitDuration type="UNSIGNEDINT" min="0" max="2147483647" policy="Default" />
+<UnitRepetitions type="UNSIGNEDINT" min="0" max="255" policy="Default" />
+<UnitStartCondition type="STRING" min="0" max="35" policy="Default" />
+<UnitEndCondition type="STRING" min="0" max="35" policy="Default" />
+</Unit>
+</List>
+<Mapping type="object" policy="Ignore" maxnumber="128">
+<Scene type="STRING" min="0" max="25" policy="Default" />
+<SignalName type="STRING" min="0" max="20" policy="Default" />
+</Mapping>
+</X_HW_Signal>
+<Line type="object" policy="Ignore" maxnumber="34">
+<Enable type="Enumer" policy="Default">
+<item id="Disabled" en="Disabled" />
+<item id="Quiescent" en="Quiescent" />
+<item id="Enabled" en="Enabled" />
+</Enable>
+<DirectoryNumber type="STRING" min="0" max="64" policy="Default" />
+<PhyReferenceList type="STRING" min="0" max="32" policy="Default" />
+<X_HW_Priority type="BOOLEAN" min="0" max="1" policy="Default" />
+<X_HW_Description type="STRING" min="0" max="32" policy="Default" />
+<X_HW_SubsRegState type="BOOLEAN" min="0" max="1" policy="Default" />
+<X_HW_SubsUAProfile type="BOOLEAN" min="0" max="1" policy="Default" />
+<SIP type="object" policy="Ignore" maxnumber="1">
+<AuthUserName type="STRING" min="0" max="64" policy="Default" />
+<AuthPassword type="STRING" min="0" max="64" policy="Default" />
+<URI type="STRING" min="0" max="64" policy="Default" />
+<X_HW_Digitmap type="object" policy="Ignore" maxnumber="1">
+<DMName type="STRING" min="0" max="64" policy="Default" />
+<DigitMap type="STRING" min="0" max="4000" policy="Default" />
+<DigitMapStartTimer type="UNSIGNEDINT" min="0" max="900" policy="Default" />
+<DigitMapShortTimer type="UNSIGNEDINT" min="0" max="900" policy="Default" />
+<DigitMapLongTimer type="UNSIGNEDINT" min="0" max="900" policy="Default" />
+</X_HW_Digitmap>
+</SIP>
+<X_HW_H248 type="object" policy="Ignore" maxnumber="1">
+<LineName type="STRING" min="0" max="64" policy="Default" />
+</X_HW_H248>
+<CallingFeatures type="object" policy="Ignore" maxnumber="1">
+<CallerIDEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<CallerIDNameEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<CallerIDName type="STRING" min="0" max="256" policy="Default" />
+<CallWaitingEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<CallForwardUnconditionalEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<CallForwardUnconditionalNumber type="STRING" min="0" max="32" policy="Default" />
+<CallForwardOnBusyEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<CallForwardOnBusyNumber type="STRING" min="0" max="32" policy="Default" />
+<CallForwardOnNoAnswerEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<CallForwardOnNoAnswerNumber type="STRING" min="0" max="32" policy="Default" />
+<CallForwardOnNoAnswerRingCount type="UNSIGNEDINT" min="1" max="64" policy="Default" />
+<CallTransferEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<MWIEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<X_HW_HotlineEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<X_HW_HotlineNumber type="STRING" min="0" max="32" policy="Default" />
+<X_HW_HotlineTimer type="UNSIGNEDINT" min="0" max="255" policy="Default" />
+<X_HW_3WayEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<X_HW_CallHoldEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<X_HW_ConferenceEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<X_HW_CentrexPrefix type="STRING" min="0" max="7" policy="Default" />
+<X_HW_CentrexDialSecondaryEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<X_HW_MCIDEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<X_HW_DigitsSendingMethod type="Enumer" policy="Default">
+<item id="En-Bloc" en="En-Bloc" />
+<item id="OverlapMultipleInvites" en="OverlapMultipleInvites" />
+<item id="OverlapInDialogue" en="OverlapInDialogue" />
+</X_HW_DigitsSendingMethod>
+<X_HW_CancelCallWaitingDuringCallEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<DoNotDisturbEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<X_HW_HotlineMode type="Enumer" policy="Default">
+<item id="0" en="Defered Hotline" />
+<item id="1" en="Instant Hotline" />
+</X_HW_HotlineMode>
+<X_HW_PBXPrefixEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<X_HW_SccClassEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+</CallingFeatures>
+<VoiceProcessing type="object" policy="Ignore" maxnumber="1">
+<TransmitGain type="INT" min="-100" max="50" policy="Default" />
+<ReceiveGain type="INT" min="-100" max="100" policy="Default" />
+</VoiceProcessing>
+<Codec>
+<List type="object" policy="Ignore" maxnumber="4">
+<PacketizationPeriod type="Enumer" policy="Default">
+<item id="10" en="10" />
+<item id="20" en="20" />
+<item id="30" en="30" />
+</PacketizationPeriod>
+<Enable type="BOOLEAN" min="0" max="1" policy="Default" />
+<Priority type="UNSIGNEDINT" min="1" max="100" policy="Default" />
+<Codecs type="Enumer" policy="Default">
+<item id="G.711MuLaw" en="G.711MuLaw" />
+<item id="G.711ALaw" en="G.711ALaw" />
+<item id="G.729" en="G.729" />
+<item id="G.722" en="G.722" />
+</Codecs>
+<BitRate type="UNSIGNEDINT" min="0" max="4294967295" policy="Default" />
+<SilenceSuppression type="UNSIGNEDINT" min="0" max="1" policy="Default" />
+</List>
+</Codec>
+</Line>
+<ServiceProviderInfo type="object" policy="Ignore" maxnumber="1">
+<Name type="STRING" min="0" max="256" policy="Default" />
+</ServiceProviderInfo>
+</VoiceProfile>
+<PhyInterface>
+<X_HW_IPSpc type="object" policy="Ignore" maxnumber="1">
+<Enable type="BOOLEAN" min="0" max="1" policy="Default" />
+<PortName type="STRING" min="0" max="32" policy="Default" />
+<LocalTransport type="UNSIGNEDINT" min="0" max="65535" policy="Default" />
+<RemoteIP type="STRING" min="0" max="16" policy="Default" />
+<RemoteTransport type="UNSIGNEDINT" min="0" max="65535" policy="Default" />
+<Codecs type="Enumer" policy="Default">
+<item id="G.711MuLaw" en="G.711MuLaw" />
+<item id="G.711ALaw" en="G.711ALaw" />
+<item id="G.729" en="G.729" />
+<item id="G.722" en="G.722" />
+</Codecs>
+<PacketizationPeriod type="Enumer" policy="Default">
+<item id="10" en="10" />
+<item id="20" en="20" />
+<item id="30" en="30" />
+</PacketizationPeriod>
+<MediaMode type="Enumer" policy="Default">
+<item id="SendReceive" en="SendReceive" />
+<item id="SendOnly" en="SendOnly" />
+<item id="ReceiveOnly" en="ReceiveOnly" />
+</MediaMode>
+<EchoCancellationEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<SilenceSuppression type="BOOLEAN" min="0" max="1" policy="Default" />
+<JbMode type="Enumer" policy="Default">
+<item id="Static" en="Static" />
+<item id="Dynamic" en="Dynamic" />
+</JbMode>
+</X_HW_IPSpc>
+<X_HW_DspTemplate type="object" policy="Ignore" maxnumber="1">
+<Enable type="BOOLEAN" min="0" max="1" policy="Default" />
+<EchoCancellationEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<SilenceSuppression type="BOOLEAN" min="0" max="1" policy="Default" />
+<JbMode type="Enumer" policy="Default">
+<item id="Static" en="Static" />
+<item id="Dynamic" en="Dynamic" />
+</JbMode>
+<NLP type="Enumer" policy="Default">
+<item id="Closed" en="Closed" />
+<item id="Normal" en="Normal" />
+<item id="Enhanced" en="Enhanced" />
+</NLP>
+<WorkMode type="Enumer" policy="Default">
+<item id="Voice" en="Voice" />
+<item id="Fax" en="Fax" />
+<item id="Modem" en="Modem" />
+</WorkMode>
+</X_HW_DspTemplate>
+<X_HW_Extend type="object" policy="Ignore" maxnumber="1">
+<DialMode type="Enumer" policy="Default">
+<item id="First" en="First" />
+<item id="DTMF" en="DTMF" />
+<item id="Pulse" en="Pulse" />
+</DialMode>
+<DialPulseInterval type="UNSIGNEDINT" min="100" max="2550" policy="Default" />
+<DialPulsePeriodUpperLimit type="UNSIGNEDINT" min="20" max="500" policy="Default" />
+<DialPulsePeriodLowerLimit type="UNSIGNEDINT" min="20" max="500" policy="Default" />
+<DialPulseMakeUpperLimit type="UNSIGNEDINT" min="20" max="200" policy="Default" />
+<DialPulseBreakUpperLimit type="UNSIGNEDINT" min="20" max="200" policy="Default" />
+<CallerOffhookShakeTime type="UNSIGNEDINT" min="50" max="2550" policy="Default" />
+<CalledOffhookShakeTime type="UNSIGNEDINT" min="50" max="2550" policy="Default" />
+<HookFlashUpTime type="UNSIGNEDINT" min="0" max="1400" policy="Default" />
+<HookFlashDownTime type="UNSIGNEDINT" min="0" max="1400" policy="Default" />
+<OnhookConfirmTime type="UNSIGNEDINT" min="0" max="1400" policy="Default" />
+<Impedance type="Enumer" policy="Default">
+<item id="0" en="BureaumachineinChina(200+680||100nf)" />
+<item id="1" en="UserMachineinChina(200+560||100nf)" />
+<item id="2" en="600Ohm Interface" />
+<item id="3" en="Interface of Russian(150+510||47nf)" />
+<item id="4" en="(220+820||115nf)" />
+<item id="5" en="(220+820||120nf)" />
+<item id="6" en="900Ohm Interface" />
+<item id="7" en="Interface of Brazil(800||50nf)" />
+<item id="8" en="BT0(Zin=87+1052||228nF+229||28.4nF,Zload=93+615||471nF+179||495nF+244||32nF)" />
+<item id="9" en="HK_BT3(Zin=370+620||310nf,Zload=600)" />
+<item id="10" en="HK_BT5(Zin=270+264||357nf+1434||265nf,Zload=600)" />
+<item id="11" en="BT1(BT0 without AGC)" />
+<item id="12" en="BT2(Zin=87+1052||228nF+229||28.4nF,Zload=270+264||357nF+1434||265nF)" />
+<item id="13" en="BT3(Zin=87+1052||228nF+229||28.4nF,Zload=164+162||363nF+1227||350nF)" />
+<item id="14" en="Commonly used in Europe(Zin=270+750||150nf)" />
+<item id="15" en="New Zealand(Zin=370+620||310nf)" />
+</Impedance>
+<Current type="UNSIGNEDINT" min="16" max="49" policy="Default" />
+<CurrentOnPark type="UNSIGNEDINT" min="0" max="49" policy="Default" />
+<DCTime type="UNSIGNEDINT" min="0" max="1000" policy="Default" />
+<SendGain type="Enumer" policy="Default">
+<item id="-6db" en="-6db" />
+<item id="-5.5db" en="-5.5db" />
+<item id="-5db" en="-5db" />
+<item id="-4.5db" en="-4.5db" />
+<item id="-4db" en="-4db" />
+<item id="-3.5db" en="-3.5db" />
+<item id="-3db" en="-3db" />
+<item id="-2.5db" en="-2.5db" />
+<item id="-2db" en="-2db" />
+<item id="-1.5db" en="-1.5db" />
+<item id="-1db" en="-1db" />
+<item id="-0.5db" en="-0.5db" />
+<item id="0db" en="0db" />
+<item id="0.5db" en="0.5db" />
+<item id="1db" en="1db" />
+<item id="1.5db" en="1.5db" />
+<item id="2db" en="2db" />
+<item id="2.5db" en="2.5db" />
+<item id="3db" en="3db" />
+<item id="3.5db" en="3.5db" />
+<item id="4db" en="4db" />
+<item id="4.5db" en="4.5db" />
+<item id="5db" en="5db" />
+<item id="5.5db" en="5.5db" />
+<item id="6db" en="6db" />
+</SendGain>
+<ReceiveGain type="Enumer" policy="Default">
+<item id="0db" en="0db" />
+<item id="-0.5db" en="-0.5db" />
+<item id="-1db" en="-1db" />
+<item id="-1.5db" en="-1.5db" />
+<item id="-2db" en="-2db" />
+<item id="-2.5db" en="-2.5db" />
+<item id="-3db" en="-3db" />
+<item id="-3.5db" en="-3.5db" />
+<item id="-4db" en="-4db" />
+<item id="-4.5db" en="-4.5db" />
+<item id="-5db" en="-5db" />
+<item id="-5.5db" en="-5.5db" />
+<item id="-6db" en="-6db" />
+<item id="-6.5db" en="-6.5db" />
+<item id="-7db" en="-7db" />
+<item id="-7.5db" en="-7.5db" />
+<item id="-8db" en="-8db" />
+<item id="-8.5db" en="-8.5db" />
+<item id="-9db" en="-9db" />
+<item id="-9.5db" en="-9.5db" />
+<item id="-10db" en="-10db" />
+<item id="-10.5db" en="-10.5db" />
+<item id="-11db" en="-11db" />
+<item id="-11.5db" en="-11.5db" />
+<item id="-12db" en="-12db" />
+</ReceiveGain>
+<ReversePolePulse type="BOOLEAN" min="0" max="1" policy="Default" />
+<ReversePolePulseLevel type="UNSIGNEDINT" min="20" max="2560" policy="Default" />
+<KcType type="Enumer" policy="Default">
+<item id="16Kc" en="16Kc" />
+<item id="12Kc" en="12Kc" />
+</KcType>
+<KcHighLevel type="UNSIGNEDINT" min="20" max="500" policy="Default" />
+<KcLowLevel type="UNSIGNEDINT" min="20" max="500" policy="Default" />
+<KcVoltage type="Enumer" policy="Default">
+<item id="0" en="0.45Vrms" />
+<item id="1" en="0.775Vrms" />
+<item id="2" en="1.0Vrms" />
+<item id="3" en="1.5Vrms" />
+<item id="4" en="2.0Vrms" />
+<item id="5" en="2.5Vrms" />
+<item id="6" en="3.0Vrms" />
+<item id="7" en="3.5Vrms" />
+<item id="8" en="4.0Vrms" />
+<item id="9" en="4.5Vrms" />
+</KcVoltage>
+<FskTime type="UNSIGNEDINT" min="0" max="2000" policy="Default" />
+<ClipTransWhen type="Enumer" policy="Default">
+<item id="AfterRing" en="AfterRing" />
+<item id="BeforeRing" en="BeforeRing" />
+</ClipTransWhen>
+<ClipFormat type="Enumer" policy="Default">
+<item id="Sdmf-fsk" en="SDMF" />
+<item id="Mdmf-fsk" en="MDMF" />
+<item id="Dtmf" en="DTMF" />
+<item id="R1.5" en="R1.5" />
+<item id="etsi" en="ETSI" />
+</ClipFormat>
+<ClipReversePole type="BOOLEAN" min="0" max="1" policy="Default" />
+<ClipFskMode type="Enumer" policy="Default">
+<item id="BELL_202" en="BELL_202" />
+<item id="CCITT_V23" en="CCITT_V23" />
+<item id="NTT" en="NTT" />
+</ClipFskMode>
+<ClipTasPattern type="Enumer" policy="Default">
+<item id="NO-TAS" en="NO-TAS" />
+<item id="DT-AS" en="DT-TAS" />
+</ClipTasPattern>
+<ClipForceSendFsk type="BOOLEAN" min="0" max="1" policy="Default" />
+<BellAnsEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<DetectAnsbarBySingleToneEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<MWIRingFlag type="BOOLEAN" min="0" max="1" policy="Default" />
+<ReversePoleOnAnswer type="BOOLEAN" min="0" max="1" policy="Default" />
+<ToneIdForNoLineConfig type="UNSIGNEDINT" min="1" max="65535" policy="Default" />
+<DspTemplateName type="STRING" min="0" max="32" policy="Default" />
+<RingDCVoltageOverlapped type="UNSIGNEDINT" min="0" max="25" policy="Default" />
+<UserDefineRingVoltage type="UNSIGNEDINT" min="0" max="74" policy="Default" />
+<DspHighPassFilterEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<DspDtmfDetHighPassFilterValue type="UNSIGNEDINT" min="0" max="3400" policy="Default" />
+<ClipNormalPoleAfterFsk type="BOOLEAN" min="0" max="1" policy="Default" />
+<PowerDenyForOutOfService type="BOOLEAN" min="0" max="1" policy="Default" />
+<V21lANSEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<V21hANSEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<Bell103MarkANSEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<V22usb1DualFreqANSEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<V22usb1TriFreqANSEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<V25ctANSEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<V32aaANSEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<V18aANSEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<V8bisCReANSEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+</X_HW_Extend>
+</PhyInterface>
+<X_HW_RemoteCapServer type="object" policy="Ignore" maxnumber="1">
+<PortName type="STRING" min="0" max="32" policy="Default" />
+<LocalTransport type="UNSIGNEDINT" min="0" max="65535" policy="Default" />
+<RemoteIP type="STRING" min="0" max="16" policy="Default" />
+<RemoteTransport type="UNSIGNEDINT" min="0" max="65535" policy="Default" />
+</X_HW_RemoteCapServer>
+<X_HW_DialSN type="object" policy="Ignore" maxnumber="1">
+<Prefix type="STRING" min="0" max="8" policy="Default" />
+<TimerWaitInput type="UNSIGNEDINT" min="1" max="180" policy="Default" />
+<TimerCompleteInput type="UNSIGNEDINT" min="1" max="180" policy="Default" />
+<InputToneId type="UNSIGNEDINT" min="1" max="2147483647" policy="Default" />
+<FailSetToneId type="UNSIGNEDINT" min="1" max="2147483647" policy="Default" />
+<SucessSetToneId type="UNSIGNEDINT" min="1" max="2147483647" policy="Default" />
+<IsDialSNSecurityDisabled type="BOOLEAN" min="0" max="1" policy="Default" />
+<DialSNMode type="Enumer" policy="Default">
+<item id="0" en="Common DialSN Mode,allow to input when ONT is offline" />
+<item id="1" en="Bell DialSN Mode,allow to input when ONT is offline" />
+<item id="2" en="Common DialSN Mode,allow to input when the ONT fiber is not connected " />
+<item id="3" en="Bell DialSN Mode,allow to input when the ONT fiber is not connected " />
+</DialSNMode>
+<PONAuthInfoQueryCode type="STRING" min="0" max="24" policy="Default" />
+<PONAuthInfoToneId type="UNSIGNEDINT" min="0" max="2147483647" policy="Default" />
+</X_HW_DialSN>
+<X_HW_LineTestThreshold type="object" policy="Ignore" maxnumber="1">
+<Threshold0 type="UNSIGNEDINT" min="0" max="2147483647" policy="Default" />
+<Threshold1 type="UNSIGNEDINT" min="0" max="2147483647" policy="Default" />
+<Threshold2 type="UNSIGNEDINT" min="0" max="2147483647" policy="Default" />
+<Threshold3 type="UNSIGNEDINT" min="0" max="2147483647" policy="Default" />
+<Threshold4 type="UNSIGNEDINT" min="0" max="2147483647" policy="Default" />
+<Threshold5 type="UNSIGNEDINT" min="0" max="2147483647" policy="Default" />
+<Threshold6 type="UNSIGNEDINT" min="0" max="2147483647" policy="Default" />
+<Threshold7 type="UNSIGNEDINT" min="0" max="2147483647" policy="Default" />
+<Threshold8 type="UNSIGNEDINT" min="0" max="2147483647" policy="Default" />
+<Threshold9 type="UNSIGNEDINT" min="0" max="2147483647" policy="Default" />
+<Threshold10 type="UNSIGNEDINT" min="0" max="2147483647" policy="Default" />
+<Threshold11 type="UNSIGNEDINT" min="0" max="2147483647" policy="Default" />
+<Threshold12 type="UNSIGNEDINT" min="0" max="2147483647" policy="Default" />
+<Threshold13 type="UNSIGNEDINT" min="0" max="2147483647" policy="Default" />
+</X_HW_LineTestThreshold>
+<X_HW_InnerCall type="object" policy="Ignore" maxnumber="1">
+<Enable type="BOOLEAN" min="0" max="1" policy="Default" />
+<Prefix type="STRING" min="0" max="8" policy="Default" />
+</X_HW_InnerCall>
+<X_HW_SimulateTestParameters type="object" policy="Ignore" maxnumber="1">
+<CalledNumberDialInterval type="UNSIGNEDINT" min="50" max="5000" policy="Default" />
+<DialDTMFConfirmInputToneId type="UNSIGNEDINT" min="1" max="2147483647" policy="Default" />
+<DialDTMFConfirmFailToneId type="UNSIGNEDINT" min="1" max="2147483647" policy="Default" />
+<DialDTMFConfirmSucessToneId type="UNSIGNEDINT" min="1" max="2147483647" policy="Default" />
+<DTMFSendDelay type="UNSIGNEDINT" min="0" max="60" policy="Default" />
+<DTMFSendPeriod type="UNSIGNEDINT" min="40" max="10000" policy="Default" />
+<DTMFSendInterval type="UNSIGNEDINT" min="40" max="10000" policy="Default" />
+</X_HW_SimulateTestParameters>
+<X_HW_InnerParameters type="object" policy="Ignore" maxnumber="1">
+<AutoResetInterfaceTimer type="UNSIGNEDINT" min="0" max="2147483647" policy="Default" />
+<FskBindReceiveGainEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<ToneBindReceiveGainEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<SendGainRelativeEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<DelayResetTimerOnExistCall type="UNSIGNEDINT" min="0" max="65535" policy="Default" />
+<GracefulTimerOnCallClear type="UNSIGNEDINT" min="0" max="60" policy="Default" />
+<ConfigurationInterruptCallEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<CodecPreferredMode type="Enumer" policy="Default">
+<item id="Narrowband" en="Narrowband" />
+<item id="Wideband" en="Wideband" />
+</CodecPreferredMode>
+<UserAgentDomainPriorityMode type="Enumer" policy="Default">
+<item id="0" en="Override" />
+<item id="1" en="As Home Domain Only" />
+</UserAgentDomainPriorityMode>
+<VBDDualDetectReportMode type="Enumer" policy="Default">
+<item id="0" en="Report local" />
+<item id="1" en="Report  According To The Answer Tone Direction" />
+</VBDDualDetectReportMode>
+<RegisterExpiresPriorityMode type="Enumer" policy="Default">
+<item id="0" en="RegistrationPeriod as Expires?SIP Profile Parameter as Register Refreash Period " />
+<item id="1" en="RegisterExpires as Expires?RegistrationPeriod as Register Refreash Period " />
+<item id="2" en="RegisterExpires as Expires?SIP Profile Parameter as Register Refreash Period " />
+</RegisterExpiresPriorityMode>
+<OAMConfigEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<PingTestEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<RegisterTimeOutArpPingEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<NoneOMCISIPAlarmEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<RFC2833MarkPktRetransEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<G722RTPClockRate type="Enumer" policy="Default">
+<item id="0" en="8000 Compatible" />
+<item id="1" en="8000 Fixed" />
+<item id="2" en="16000 Fixed" />
+</G722RTPClockRate>
+<SIPLoopBackMirrorEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<ConfigueIsolation type="Enumer" policy="Default">
+<item id="0" en="Not Isolation" />
+<item id="1" en="TR069 and OMCI Configuration Isolation" />
+<item id="2" en="OMCI Configuration Disabled" />
+</ConfigueIsolation>
+<Option120DisplayMode type="Enumer" policy="Ignore">
+<item id="0" en="Not display" />
+<item id="1" en="Display as outbound proxy" />
+</Option120DisplayMode>
+<VoIPCallLogMode type="Enumer" policy="Ignore">
+<item id="0" en="Normal mode" />
+<item id="1" en="VDF IT Mode" />
+</VoIPCallLogMode>
+</X_HW_InnerParameters>
+<X_HW_DspTemplate>
+<ServiceNumMapping type="object" policy="Ignore" maxnumber="20">
+<ServiceNum type="STRING" min="0" max="64" policy="Default" />
+<TemplateName type="STRING" min="0" max="32" policy="Default" />
+</ServiceNumMapping>
+<Templates type="object" policy="Ignore" maxnumber="20">
+<TemplateName type="STRING" min="0" max="32" policy="Default" />
+<EchoCancellation type="Enumer" policy="Default">
+<item id="Enabled" en="Enabled" />
+<item id="Disabled" en="Disabled" />
+<item id="Auto" en="Auto" />
+</EchoCancellation>
+<SilenceSuppression type="Enumer" policy="Default">
+<item id="Enabled" en="Enabled" />
+<item id="Disabled" en="Disabled" />
+<item id="Auto" en="Auto" />
+</SilenceSuppression>
+<JbMode type="Enumer" policy="Default">
+<item id="Static" en="Static" />
+<item id="Dynamic" en="Dynamic" />
+<item id="Auto" en="Auto" />
+</JbMode>
+<NLP type="Enumer" policy="Default">
+<item id="Closed" en="Closed" />
+<item id="Normal" en="Normal" />
+<item id="Enhanced" en="Enhanced" />
+<item id="Auto" en="Auto" />
+</NLP>
+<WorkMode type="Enumer" policy="Default">
+<item id="Voice" en="Voice" />
+<item id="Fax" en="Fax" />
+<item id="Modem" en="Modem" />
+<item id="Auto" en="Auto" />
+</WorkMode>
+<DspTransmitGain type="INT" min="-100" max="50" policy="Default" />
+<DspReceiveGain type="INT" min="-100" max="100" policy="Default" />
+<Rfc2833ForDtmf type="Enumer" policy="Default">
+<item id="RFC2833" en="RFC2833" />
+<item id="Erase" en="Erase" />
+<item id="RFC2198For2833" en="RFC2198For2833" />
+<item id="Auto" en="Auto" />
+</Rfc2833ForDtmf>
+<Rfc2833ForDataEvent type="Enumer" policy="Default">
+<item id="RFC2833" en="RFC2833" />
+<item id="Auto" en="Auto" />
+</Rfc2833ForDataEvent>
+<DspSpecialFlow type="Enumer" policy="Default">
+<item id="0" en="Filt The RTP Data,Process RFC2833 Data Only" />
+<item id="1" en="Process RFC2833 Dial Number Data Only" />
+<item id="2-254" en="Reserved" />
+<item id="255" en="Dsp Special Flow Disabled" />
+</DspSpecialFlow>
+<Rfc2198ForVBD type="Enumer" policy="Default">
+<item id="RFC2198" en="RFC2198" />
+<item id="Auto" en="Auto" />
+</Rfc2198ForVBD>
+</Templates>
+</X_HW_DspTemplate>
+<X_HW_RobotParameters type="object" policy="Ignore" maxnumber="2">
+<IntelligentAnnounceEnable type="BOOLEAN" min="0" max="1" policy="Ignore" />
+</X_HW_RobotParameters>
+</VoiceService>
+</Services>
+<X_HW_IEEE8021X>
+<Radius type="object" policy="Ignore" maxnumber="0">
+<AccountServer1 type="STRING" min="0" max="128" policy="Error" />
+<AccountServer2 type="STRING" min="0" max="128" policy="Error" />
+<DASServerPort type="UNSIGNEDINT" min="0" max="65535" policy="Error" />
+<SharedSecretAccount1 type="STRING" min="0" max="25" policy="Ignore" />
+<AuthorizationClientNumberOfEntries type="UNSIGNEDINT" min="0" max="64" policy="Error" />
+<AuthorizationClient type="object" policy="Error" maxnumber="64">
+<ClientAddress type="STRING" min="0" max="128" policy="Error" />
+<SharedSecret type="STRING" min="0" max="25" policy="Ignore" />
+<Creator type="STRING" min="0" max="31" policy="Ignore" />
+</AuthorizationClient>
+</Radius>
+<PAE type="object" policy="Error" maxnumber="0">
+<RadiusAccountReportInterval type="UNSIGNEDINT" min="0" max="36000" policy="Default" />
+</PAE>
+</X_HW_IEEE8021X>
+<X_HW_Dot1agCfm>
+<dot1agCfmMd type="object" policy="Ignore" maxnumber="8">
+<MdIndex type="UNSIGNEDINT" min="0" max="7" policy="Ignore" />
+<MdLevel type="UNSIGNEDINT" min="0" max="7" policy="Error" />
+<MdNameFormat type="Enumer" policy="Default">
+<item id="1" en="no name" />
+<item id="4" en="Character string type" />
+</MdNameFormat>
+<MdNameValue type="STRING" min="0" max="48" policy="Error" />
+<dot1agCfmMa type="object" policy="Ignore" maxnumber="16">
+<CcmInterval type="Enumer" policy="Default">
+<item id="4" en="1s" />
+<item id="5" en="10s" />
+<item id="6" en="1m" />
+<item id="7" en="10m" />
+</CcmInterval>
+<MaIndex type="UNSIGNEDINT" min="0" max="15" policy="Ignore" />
+<MaNameFormat type="Enumer" policy="Error">
+<item id="1" en="Vid type" />
+<item id="2" en="Character string type" />
+<item id="3" en="Integer type" />
+<item id="4" en="Vpnid type" />
+</MaNameFormat>
+<MaNameValue type="STRING" min="0" max="48" policy="Error" />
+<VlanId type="UNSIGNEDINT" min="1" max="4094" policy="Ignore" />
+<dot1agCfmMep type="object" policy="Ignore" maxnumber="16">
+<ActiveStatus type="Enumer" policy="Error">
+<item id="enable" en="enable" />
+<item id="disable" en="disable" />
+</ActiveStatus>
+<CcStatus type="Enumer" policy="Error">
+<item id="enable" en="enable" />
+<item id="disable" en="disable" />
+</CcStatus>
+<Direction type="Enumer" policy="Default">
+<item id="up" en="up" />
+<item id="down" en="down" />
+</Direction>
+<L2Priority type="UNSIGNEDINT" min="0" max="7" policy="Error" />
+<MepId type="UNSIGNEDINT" min="1" max="8191" policy="Error" />
+<MepVlanMode type="Enumer" policy="Ignore">
+<item id="0" en="reserve" />
+<item id="1" en="1tag" />
+<item id="2" en="untag" />
+<item id="3" en="unware" />
+</MepVlanMode>
+<PortId type="UNSIGNEDINT" min="1" max="8" policy="Ignore" />
+<PortType type="Enumer" policy="Default">
+<item id="uplink-port" en="uplink-port" />
+<item id="lan-port" en="lan-port" />
+</PortType>
+<RemoteMepId type="UNSIGNEDINT" min="1" max="8191" policy="Error" />
+<VlanId type="UNSIGNEDINT" min="0" max="4094" policy="Ignore" />
+</dot1agCfmMep>
+</dot1agCfmMa>
+</dot1agCfmMd>
+</X_HW_Dot1agCfm>
+<X_HW_DNS type="object" policy="Ignore" maxnumber="1">
+<SupportedRecordTypes type="Enumer" policy="Ignore">
+<item id="AAAA" en="AAAA" />
+</SupportedRecordTypes>
+<LocalDNSPolicy type="Enumer" policy="Ignore">
+<item id="1" en="Domain-Symmetrical DNS between multi-WANs" />
+<item id="2" en="Domain-Part-Redundancy DNS between multi-WANs" />
+<item id="3" en="Domain-Independent DNS between multi-WANs" />
+</LocalDNSPolicy>
+<SearList type="object" policy="Ignore" maxnumber="32">
+<DomainName type="STRING" min="0" max="255" policy="Ignore" />
+<DNSServer type="STRING" min="0" max="255" policy="Error" />
+<Interface type="STRING" min="0" max="255" policy="Ignore" />
+<MatchMode type="UNSIGNEDINT" min="0" max="1" policy="Error" />
+</SearList>
+<HOSTS type="object" policy="Ignore" maxnumber="20">
+<IPAddress type="STRING" min="0" max="255" policy="Error" />
+<DomainName type="STRING" min="0" max="255" policy="Error" />
+</HOSTS>
+</X_HW_DNS>
+<QueueManagement type="object" policy="Ignore" maxnumber="1">
+<X_HW_ClassificationEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<X_HW_Down_Bandwidth type="UNSIGNEDINT" min="0" max="4294967295" policy="Error" />
+<X_HW_Classification type="object" policy="Ignore" maxnumber="64">
+<ClassInterface type="STRING" min="0" max="256" policy="Ignore" />
+<DestIP type="STRING" min="0" max="64" policy="Ignore" />
+<DestMask type="STRING" min="0" max="64" policy="Ignore" />
+<SourceIP type="STRING" min="0" max="64" policy="Ignore" />
+<SourceMask type="STRING" min="0" max="64" policy="Ignore" />
+<DomainName type="STRING" min="0" max="255" policy="Ignore" />
+<Protocol type="INT" min="-1" max="255" policy="Ignore" />
+<DestPort type="INT" min="-1" max="65535" policy="Ignore" />
+<DestPortRangeMax type="INT" min="-1" max="65535" policy="Ignore" />
+<SourcePort type="INT" min="-1" max="65535" policy="Ignore" />
+<SourcePortRangeMax type="INT" min="-1" max="65535" policy="Ignore" />
+<DSCPMark type="INT" min="-1" max="63" policy="Ignore" />
+<VLANIDCheck type="INT" min="-1" max="4094" policy="Ignore" />
+</X_HW_Classification>
+<X_HW_DscpToPbitMappingTable type="object" policy="Ignore" maxnumber="1">
+<DscpToPbitMapping type="STRING" min="0" max="256" policy="Error" />
+<DefaultPbit type="UNSIGNEDINT" min="0" max="7" policy="Error" />
+</X_HW_DscpToPbitMappingTable>
+</QueueManagement>
+<LANDevice type="object" policy="Ignore" maxnumber="1">
+<X_HW_WlanEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<X_HW_WlanPowerValue type="UNSIGNEDINT" min="0" max="30" policy="Error" />
+<X_HW_Wps2Enable type="BOOLEAN" min="0" max="1" policy="Error" />
+<LANHostConfigManagement type="object" policy="Ignore" maxnumber="1">
+<DHCPLeaseTime type="INT" min="-1,1" max="6048000" policy="Error" />
+<MinAddress type="STRING" min="0" max="15" policy="Error" />
+<MaxAddress type="STRING" min="0" max="15" policy="Error" />
+<X_HW_DHCPOption82Enable type="BOOLEAN" min="0" max="1" policy="Error" />
+<X_HW_PPPoEPITPEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<X_HW_TftpServerEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<X_HW_TftpServer type="STRING" min="0" max="255" policy="Ignore" />
+<IPInterface type="object" policy="Ignore" maxnumber="4">
+<IPInterfaceIPAddress type="STRING" min="0" max="16" policy="Error" />
+<IPInterfaceSubnetMask type="STRING" min="0" max="16" policy="Error" />
+</IPInterface>
+<X_HW_IPv6Interface>
+<IPv6Address type="object" policy="Ignore" maxnumber="1">
+<IPv6Address type="STRING" min="0" max="63" policy="Error" />
+</IPv6Address>
+<IPv6Prefix type="object" policy="Ignore" maxnumber="1">
+<ParentPrefix type="STRING" min="0" max="63" policy="Error" />
+<ChildPrefixMask type="STRING" min="0" max="63" policy="Error" />
+<Mode type="Enumer" policy="Default">
+<item id="WANDelegated" en="WANDelegated" />
+<item id="Static" en="Static" />
+</Mode>
+<Prefix type="STRING" min="0" max="64" policy="Error" />
+<PreferredLifeTime type="UNSIGNEDINT" min="600" max="4294967295" policy="Default" />
+<ValidLifeTime type="UNSIGNEDINT" min="600" max="4294967295" policy="Default" />
+</IPv6Prefix>
+</X_HW_IPv6Interface>
+<DHCPOption type="object" policy="Ignore" maxnumber="8">
+<Tag type="UNSIGNEDINT" min="0" max="254" policy="Error" />
+<Value type="BASE64" min="0" max="340" policy="Error" />
+<X_HW_OptionPolicy type="STRING" min="0" max="255" policy="Ignore" />
+</DHCPOption>
+<X_HW_DHCPOptionInherit type="object" policy="Ignore" maxnumber="1">
+<DHCPOptionInheritEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<OptionInheritFromWAN type="STRING" min="0" max="255" policy="Ignore" />
+<OptionList type="STRING" min="0" max="31" policy="Ignore" />
+<VendorClassID type="STRING" min="0" max="256" policy="Ignore" />
+<VendorClassIDMode type="Enumer" policy="Default">
+<item id="Exact" en="Exact" />
+<item id="Prefix" en="Prefix" />
+<item id="Suffix" en="Suffix" />
+<item id="Substring" en="Substring" />
+</VendorClassIDMode>
+</X_HW_DHCPOptionInherit>
+</LANHostConfigManagement>
+<LANEthernetInterfaceConfig type="object" policy="Ignore" maxnumber="4">
+<X_HW_L3Enable type="BOOLEAN" min="0" max="1" policy="Error" />
+<X_HW_Mode type="Enumer" policy="Default">
+<item id="0" en="port bind" />
+<item id="1" en="vlan bind" />
+</X_HW_Mode>
+<X_HW_VLAN type="STRING" min="0" max="128" policy="Ignore" />
+<Enable type="BOOLEAN" min="0" max="1" policy="Error" />
+<X_HW_MultiCastVlan type="UNSIGNEDINT" min="1" max="4094" policy="Error" />
+<X_HW_MultiCastVlanAct type="Enumer" policy="Error">
+<item id="0" en="tranlate to unicast video vlan" />
+<item id="1" en="untag multicastvlan" />
+<item id="2" en="transparent multicastvlan" />
+<item id="3" en="tranlate to  assign multicastvlan" />
+</X_HW_MultiCastVlanAct>
+</LANEthernetInterfaceConfig>
+<X_HW_DHCPv6>
+<Server>
+<Pool>
+<Option type="object" policy="Ignore" maxnumber="8">
+<Enable type="BOOLEAN" min="0" max="1" policy="Default" />
+<Tag type="UNSIGNEDINT" min="0" max="65535" policy="Error" />
+<Value type="STRING" min="0" max="256" policy="Error" />
+<PassthroughClient type="INT" min="0" max="255" policy="Error" />
+<X_HW_OptionPolicy type="STRING" min="0" max="255" policy="Error" />
+</Option>
+</Pool>
+</Server>
+</X_HW_DHCPv6>
+<X_HW_RouterAdvertisement type="object" policy="Ignore" maxnumber="1">
+<Enable type="BOOLEAN" min="0" max="1" policy="Error" />
+<MinRtrAdvInterval type="UNSIGNEDINT" min="3" max="1800" policy="Default" />
+<MaxRtrAdvInterval type="UNSIGNEDINT" min="4" max="1800" policy="Error" />
+<ManagedFlag type="BOOLEAN" min="0" max="1" policy="Error" />
+<OtherConfigFlag type="BOOLEAN" min="0" max="1" policy="Error" />
+<mode type="Enumer" policy="Default">
+<item id="Manual" en="ManualConfig" />
+<item id="Auto" en="AutoConfig" />
+<item id="StrictManual" en="ManualConfig(strict)" />
+</mode>
+<MTU type="UNSIGNEDINT" min="1280" max="65535" policy="Default" />
+<DefaultLifetime type="UNSIGNEDINT" min="0" max="9000" policy="Error" />
+<MobileAgentFlag type="BOOLEAN" min="0" max="1" policy="Error" />
+<PreferredRouterFlag type="Enumer" policy="Error">
+<item id="Medium" en="Medium" />
+<item id="High" en="High" />
+<item id="Low" en="Low" />
+</PreferredRouterFlag>
+<CurHopLimit type="UNSIGNEDINT" min="0" max="255" policy="Error" />
+<OptionNumberOfEntries type="UNSIGNEDINT" min="0" max="8" policy="Error" />
+<Option type="object" policy="Error" maxnumber="8">
+<Enable type="BOOLEAN" min="0" max="1" policy="Error" />
+<Tag type="UNSIGNEDINT" min="0" max="255" policy="Error" />
+<Value type="STRING" min="0" max="256" policy="Error" />
+</Option>
+</X_HW_RouterAdvertisement>
+<X_HW_LanService type="object" policy="Ignore" maxnumber="1">
+<HttpUnreachableRedirectEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+</X_HW_LanService>
+<X_HW_IPv6Config type="object" policy="Ignore" maxnumber="1">
+<IPv6DNSConfigType type="Enumer" policy="Error">
+<item id="HGWProxy" en="HGWProxy" />
+<item id="WANConnection" en="WANConnection" />
+<item id="Static" en="Static" />
+</IPv6DNSConfigType>
+<IPv6DNSWANConnection type="STRING" min="0" max="256" policy="Error" />
+<IPv6DNSServers type="STRING" min="0" max="128" policy="Error" />
+</X_HW_IPv6Config>
+<X_HW_WLANForISP type="object" policy="Ignore" maxnumber="4">
+<SSID_IDX type="UNSIGNEDINT" min="1" max="8" policy="Error" />
+<PortIsolation type="BOOLEAN" min="0" max="1" policy="Error" />
+<STAIsolation type="BOOLEAN" min="0" max="1" policy="Error" />
+<EnableUserId type="BOOLEAN" min="0" max="1" policy="Error" />
+<UserId type="STRING" min="0" max="32" policy="Error" />
+<WifiShareMaxClientNumber type="UNSIGNEDINT" min="1" max="32" policy="Error" />
+<SSID type="STRING" min="0" max="32" policy="Error" />
+<AuthenticationMode type="Enumer" policy="Error">
+<item id="WebPortal" en="WebPortal" />
+<item id="802.1x-EAP" en="802.1x-EAP" />
+</AuthenticationMode>
+<RadiusServer type="STRING" min="0" max="32" policy="Error" />
+<RadiusKey type="STRING" min="0" max="64" policy="Error" />
+<RadiusAuthenticationPort type="UNSIGNEDINT" min="0" max="65535" policy="Error" />
+<RadiusAccountPort type="UNSIGNEDINT" min="0" max="65535" policy="Error" />
+<RadiusAccountEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<UpRateLimit type="UNSIGNEDINT" min="0" max="65535" policy="Error" />
+<DownRateLimit type="UNSIGNEDINT" min="0" max="65535" policy="Error" />
+<EnableCalledId type="BOOLEAN" min="0" max="1" policy="Error" />
+<OfflineDetectTime type="INT" min="30" max="900" policy="Error" />
+</X_HW_WLANForISP>
+<WiFi>
+<Radio type="object" policy="Ignore" maxnumber="1">
+<OperatingFrequencyBand type="Enumer" policy="Error">
+<item id="2.4GHz" en="2.4GHz" />
+<item id="5GHz" en="5GHz" />
+</OperatingFrequencyBand>
+<GuardInterval type="Enumer" policy="Error">
+<item id="400nsec" en="400nsec" />
+<item id="800nsec" en="800nsec" />
+<item id="Auto" en="Auto" />
+</GuardInterval>
+<X_HW_TxChainMask type="UNSIGNEDINT" min="0" max="0xffffffff" policy="Error" />
+<X_HW_RxChainMask type="UNSIGNEDINT" min="0" max="0xffffffff" policy="Error" />
+<Enable type="BOOLEAN" min="0" max="1" policy="Error" />
+</Radio>
+</WiFi>
+<WLANConfiguration type="object" policy="Ignore" maxnumber="4">
+<Enable type="BOOLEAN" min="0" max="1" policy="Error" />
+<RegulatoryDomain type="STRING" min="0" max="3" policy="Error" />
+<TransmitPower type="UNSIGNEDINT" min="0" max="100" policy="Error" />
+<Channel type="UNSIGNEDINT" min="0" max="255" policy="Error" />
+<AutoChannelEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<SSID type="STRING" min="0" max="32" policy="Error" />
+<SSIDAdvertisementEnabled type="BOOLEAN" min="0" max="1" policy="Error" />
+<MaxBitRate type="STRING" min="1" max="4" policy="Error" />
+<WMMEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<BeaconType type="Enumer" policy="Error">
+<item id="None" en="None" />
+<item id="Basic" en="Basic" />
+<item id="WPA" en="WPA" />
+<item id="11i" en="11i" />
+<item id="WPAand11i" en="WPAand11i" />
+</BeaconType>
+<BasicEncryptionModes type="Enumer" policy="Error">
+<item id="None" en="None" />
+<item id="WEPEncryption" en="WEP Encryption" />
+</BasicEncryptionModes>
+<BasicAuthenticationMode type="Enumer" policy="Error">
+<item id="None" en="None" />
+<item id="SharedAuthentication" en="Shared Authentication" />
+<item id="OpenSystem" en="None Authentication" />
+<item id="SharedKey" en="Shared Authentication" />
+<item id="Both" en="E8C Open&amp;Shared Authentication" />
+</BasicAuthenticationMode>
+<WPAEncryptionModes type="Enumer" policy="Error">
+<item id="TKIPEncryption" en="TKIP Encryption" />
+<item id="AESEncryption" en="AES Encryption" />
+<item id="TKIPandAESEncryption" en="TKIP and AES Encryption" />
+</WPAEncryptionModes>
+<WPAAuthenticationMode type="Enumer" policy="Error">
+<item id="PSKAuthentication" en="PSK Authentication" />
+<item id="EAPAuthentication" en="EAP Authentication" />
+</WPAAuthenticationMode>
+<IEEE11iEncryptionModes type="Enumer" policy="Error">
+<item id="TKIPEncryption" en="TKIP Encryption" />
+<item id="AESEncryption" en="AES Encryption" />
+<item id="TKIPandAESEncryption" en="TKIP and AES Encryption" />
+</IEEE11iEncryptionModes>
+<IEEE11iAuthenticationMode type="Enumer" policy="Error">
+<item id="PSKAuthentication" en="PSK Authentication" />
+<item id="EAPAuthentication" en="EAP Authentication" />
+</IEEE11iAuthenticationMode>
+<X_HW_WPAand11iEncryptionModes type="Enumer" policy="Error">
+<item id="TKIPEncryption" en="TKIP Encryption" />
+<item id="AESEncryption" en="AES Encryption" />
+<item id="TKIPandAESEncryption" en="TKIP and AES Encryption" />
+</X_HW_WPAand11iEncryptionModes>
+<X_HW_WPAand11iAuthenticationMode type="Enumer" policy="Error">
+<item id="PSKAuthentication" en="PSK Authentication" />
+<item id="EAPAuthentication" en="EAP Authentication" />
+</X_HW_WPAand11iAuthenticationMode>
+<WEPKeyIndex type="UNSIGNEDINT" min="1" max="4" policy="Error" />
+<WEPEncryptionLevel type="Enumer" policy="Error">
+<item id="40-bit" en="40 bit" />
+<item id="104-bit" en="104 bit" />
+</WEPEncryptionLevel>
+<X_HW_RadiuServer type="STRING" min="0" max="32" policy="Error" />
+<X_HW_RadiusPort type="UNSIGNEDINT" min="0" max="65535" policy="Error" />
+<X_HW_RadiusKey type="STRING" min="0" max="64" policy="Error" />
+<X_HW_GroupRekey type="UNSIGNEDINT" min="600" max="86400" policy="Error" />
+<X_HW_AssociateNum type="UNSIGNEDINT" min="1" max="32" policy="Error" />
+<X_HW_Powerlevel type="UNSIGNEDINT" min="1" max="5" policy="Error" />
+<X_HW_WPSKeyWord type="UNSIGNEDINT" min="0" max="128" policy="Error" />
+<X_HW_APModuleEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<X_HW_ServiceEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<X_HW_RetryTimeout type="UNSIGNEDINT" min="0" max="32" policy="Error" />
+<X_HW_Mode type="Enumer" policy="Default">
+<item id="0" en="port bind" />
+<item id="1" en="vlan bind" />
+</X_HW_Mode>
+<X_HW_VLAN type="STRING" min="0" max="128" policy="Ignore" />
+<LowerLayers type="STRING" min="0" max="1024" policy="Error" />
+<X_HW_WebVisibility type="BOOLEAN" min="0" max="1" policy="Ignore" />
+<X_HW_AdvanceConf type="object" policy="Ignore" maxnumber="1">
+<DtimPeriod type="UNSIGNEDINT" min="1" max="255" policy="Error" />
+<BeaconPeriod type="UNSIGNEDINT" min="20" max="1000" policy="Error" />
+<RTSThreshold type="UNSIGNEDINT" min="1" max="2346" policy="Error" />
+<FragThreshold type="UNSIGNEDINT" min="256" max="2346" policy="Error" />
+</X_HW_AdvanceConf>
+<WEPKey type="object" policy="Ignore" maxnumber="4">
+<WEPKey type="STRING" min="0" max="128" policy="Error" />
+</WEPKey>
+<PreSharedKey type="object" policy="Ignore" maxnumber="1">
+<PreSharedKey type="STRING" min="0" max="64" policy="Error" />
+<KeyPassphrase type="STRING" min="0" max="63" policy="Error" />
+</PreSharedKey>
+<WPS type="object" policy="Ignore" maxnumber="1">
+<X_HW_ConfigMethod type="Enumer" policy="Error">
+<item id="PushButton" en="PushButton" />
+<item id="Lable" en="Lable" />
+</X_HW_ConfigMethod>
+<DevicePassword type="UNSIGNEDINT" min="0" max="0xffffffff" policy="Error" />
+<X_HW_PinGenerator type="Enumer" policy="Error">
+<item id="AP" en="AP" />
+<item id="STA" en="STA" />
+</X_HW_PinGenerator>
+</WPS>
+</WLANConfiguration>
+<X_HW_DeviceIdentification type="object" policy="Ignore" maxnumber="8">
+<Type type="Enumer" policy="Default">
+<item id="STB" en="STB" />
+<item id="PC" en="PC" />
+<item id="Other" en="Other" />
+</Type>
+<TypeDesc type="STRING" min="0" max="31" policy="Error" />
+<VenderClassId type="STRING" min="0" max="255" policy="Error" />
+</X_HW_DeviceIdentification>
+</LANDevice>
+<WANDevice>
+<WANConnectionDevice type="object" policy="Ignore" maxnumber="8">
+<WANIPConnection type="object" policy="Ignore" maxnumber="8">
+<Enable type="BOOLEAN" min="0" max="1" policy="Error" />
+<ConnectionType type="Enumer" policy="Error">
+<item id="IP_Routed" en="IP_Routed" />
+<item id="IP_Bridged" en="IP_Bridged" />
+</ConnectionType>
+<Name type="STRING" min="0" max="259" policy="Default" />
+<NATEnabled type="BOOLEAN" min="0" max="1" policy="Error" />
+<AddressingType type="Enumer" policy="Error">
+<item id="DHCP" en="DHCP" />
+<item id="Static" en="Static" />
+<item id="Auto" en="Auto" />
+</AddressingType>
+<ExternalIPAddress type="STRING" min="0" max="15" policy="Error" />
+<SubnetMask type="STRING" min="0" max="15" policy="Error" />
+<DefaultGateway type="STRING" min="0" max="15" policy="Error" />
+<DNSEnabled type="BOOLEAN" min="0" max="1" policy="Error" />
+<DNSServers type="STRING" min="0" max="63" policy="Error" />
+<MaxMTUSize type="UNSIGNEDINT" min="0" max="65535" policy="Default" />
+<X_HW_SERVICELIST type="Enumer" policy="Error">
+<item id="INTERNET" en="INTERNET" />
+<item id="TR069" en="TR069" />
+<item id="VOIP" en="VOIP" />
+<item id="TR069_INTERNET" en="TR069_INTERNET" />
+<item id="TR069_VOIP" en="TR069_VOIP" />
+<item id="TR069_VOIP_INTERNET" en="TR069_VOIP_INTERNET" />
+<item id="VOIP_INTERNET" en="VOIP_INTERNET" />
+<item id="IPTV" en="IPTV" />
+<item id="OTHER" en="OTHER" />
+</X_HW_SERVICELIST>
+<X_HW_VLAN type="UNSIGNEDINT" min="0" max="4094" policy="Error" />
+<X_HW_PRI type="UNSIGNEDINT" min="0" max="7" policy="Error" />
+<X_HW_MultiCastVLAN type="UNSIGNEDINT" min="0" max="4094,0xFFFFFFFF" policy="Error" />
+<X_HW_IPv4Enable type="BOOLEAN" min="0" max="1" policy="Ignore" />
+<X_HW_IPv6Enable type="BOOLEAN" min="0" max="1" policy="Ignore" />
+<X_HW_IPv6MultiCastVLAN type="INT" min="-1" max="4094" policy="Ignore" />
+<X_HW_VenderClassID type="STRING" min="0" max="64" policy="Ignore" />
+<X_HW_PriPolicy type="Enumer" policy="Default">
+<item id="Specified" en="UseSpecifiedValue" />
+<item id="CopyFromIPPrecedence" en="CopyFromIPPrecedence" />
+<item id="DscpToPbit" en="DscpToPbit" />
+</X_HW_PriPolicy>
+<X_HW_DscpToPbitTbl type="STRING" min="0" max="127" policy="Default" />
+<X_HW_DefaultPri type="UNSIGNEDINT" min="0" max="7" policy="Default" />
+<X_HW_ClientID type="STRING" min="0" max="64" policy="Ignore" />
+<X_HW_ExServiceList type="Enumer" policy="Ignore">
+<item id="" en="EMPTY" />
+<item id="TR069_IPTV" en="TR069_IPTV" />
+<item id="TR069_VOIP_IPTV" en="TR069_VOIP_IPTV" />
+<item id="VOIP_IPTV" en="VOIP_IPTV" />
+<item id="IPTV_INTERNET" en="IPTV_INTERNET" />
+<item id="VOIP_IPTV_INTERNET" en="VOIP_IPTV_INTERNET" />
+<item id="TR069_IPTV_INTERNET" en="TR069_IPTV_INTERNET" />
+<item id="TR069_VOIP_IPTV_INTERNET" en="TR069_VOIP_IPTV_INTERNET" />
+</X_HW_ExServiceList>
+<X_HW_NatType type="Enumer" policy="Ignore">
+<item id="0" en="PortRestrictedCone" />
+<item id="1" en="FullCone" />
+</X_HW_NatType>
+<X_HW_Dnsv4ProxyForV6 type="BOOLEAN" min="0" max="1" policy="Ignore" />
+<X_HW_LowerLayers type="STRING" min="0" max="255" policy="Ignore" />
+<X_HW_2nd_IPAddress type="STRING" min="0" max="15" policy="Error" />
+<X_HW_2nd_SubnetMask type="STRING" min="0" max="15" policy="Error" />
+<X_HW_3rd_IPAddress type="STRING" min="0" max="15" policy="Error" />
+<X_HW_3rd_SubnetMask type="STRING" min="0" max="15" policy="Error" />
+<X_HW_UpstreamWAN type="BOOLEAN" min="0" max="1" policy="Ignore" />
+<PortMapping type="object" policy="Ignore" maxnumber="32">
+<PortMappingEnabled type="BOOLEAN" min="0" max="1" policy="Error" />
+<PortMappingLeaseDuration type="UNSIGNEDINT" min="0" max="4294967295" policy="Ignore" />
+<RemoteHost type="STRING" min="0" max="15" policy="Error" />
+<ExternalPort type="UNSIGNEDINT" min="0" max="65535" policy="Error" />
+<ExternalPortEndRange type="UNSIGNEDINT" min="0" max="65535" policy="Error" />
+<InternalPort type="UNSIGNEDINT" min="0" max="65535" policy="Error" />
+<PortMappingProtocol type="Enumer" policy="Error">
+<item id="TCP" en="TCP" />
+<item id="UDP" en="UDP" />
+<item id="TCP/UDP" en="TCP/UDP" />
+</PortMappingProtocol>
+<InternalClient type="STRING" min="0" max="15" policy="Error" />
+<PortMappingDescription type="STRING" min="0" max="256" policy="Ignore" />
+<X_HW_InternalEndPort type="UNSIGNEDINT" min="0" max="65535" policy="Error" />
+<X_HW_ExternalSrcPort type="UNSIGNEDINT" min="0" max="65535" policy="Error" />
+<X_HW_ExternalSrcEndPort type="UNSIGNEDINT" min="0" max="65535" policy="Error" />
+<X_HW_RemoteHostRange type="STRING" min="0" max="15" policy="Error" />
+<X_HW_OperateRule type="STRING" min="0" max="1" policy="Error" />
+</PortMapping>
+<X_HW_IPv6 type="object" policy="Ignore" maxnumber="0">
+<IPv6Prefix type="object" policy="Ignore" maxnumber="1">
+<Origin type="Enumer" policy="Ignore">
+<item id="AutoConfigured" en="AutoConfigured" />
+<item id="PrefixDelegation" en="DHCPv6-PD" />
+<item id="RouterAdvertisement" en="RouterAdvertisement" />
+<item id="Static" en="Static" />
+<item id="None" en="None" />
+</Origin>
+<Prefix type="STRING" min="0" max="63" policy="Ignore" />
+</IPv6Prefix>
+<IPv6Address type="object" policy="Ignore" maxnumber="1">
+<Origin type="Enumer" policy="Ignore">
+<item id="AutoConfigured" en="AutoConfigured" />
+<item id="DHCPv6" en="DHCPv6" />
+<item id="Static" en="Static" />
+<item id="None" en="None" />
+</Origin>
+<IPAddress type="STRING" min="0" max="63" policy="Error" />
+<ChildPrefixBits type="STRING" min="0" max="63" policy="Error" />
+<UnnumberredWanReserveAddress type="STRING" min="0" max="63" policy="Error" />
+<AddrMaskLen type="UNSIGNEDINT" min="10" max="128" policy="Default" />
+<DefaultGateway type="STRING" min="0" max="64" policy="Error" />
+</IPv6Address>
+<DSLite type="object" policy="Ignore" maxnumber="1">
+<WorkMode type="Enumer" policy="Default">
+<item id="Off" en="Off" />
+<item id="Static" en="Static" />
+<item id="Dynamic" en="Dynamic" />
+</WorkMode>
+<AFTRName type="STRING" min="0" max="256" policy="Ignore" />
+<InTunnelMTU type="UNSIGNEDINT" min="1240" max="2000" policy="Default" />
+<OutTunnelMTU type="UNSIGNEDINT" min="1280" max="2000" policy="Default" />
+</DSLite>
+<PortForward type="object" policy="Ignore" maxnumber="32">
+<Enabled type="BOOLEAN" min="0" max="1" policy="Error" />
+<InternalClient type="STRING" min="0" max="256" policy="Error" />
+<RemoteHost type="STRING" min="0" max="63" policy="Error" />
+<RemoteHostRange type="STRING" min="0" max="63" policy="Error" />
+<Description type="STRING" min="0" max="256" policy="Ignore" />
+<Portlist type="object" policy="Ignore" maxnumber="12">
+<Protocol type="Enumer" policy="Error">
+<item id="TCP" en="TCP" />
+<item id="UDP" en="UDP" />
+<item id="TCP/UDP" en="TCP/UDP" />
+</Protocol>
+<InternalPortList type="STRING" min="0" max="12" policy="Error" />
+</Portlist>
+</PortForward>
+</X_HW_IPv6>
+<DHCPClient type="object" policy="Ignore" maxnumber="1">
+<SentDHCPOption type="object" policy="Ignore" maxnumber="8">
+<Tag type="UNSIGNEDINT" min="0" max="254" policy="Error" />
+<Value type="BASE64" min="0" max="340" policy="Error" />
+<X_HW_OptionPolicy type="STRING" min="0" max="255" policy="Ignore" />
+</SentDHCPOption>
+<ReqDHCPOption type="object" policy="Ignore" maxnumber="10">
+<Order type="UNSIGNEDINT" min="1" max="4294967295" policy="Error" />
+<Tag type="UNSIGNEDINT" min="0" max="254" policy="Error" />
+</ReqDHCPOption>
+</DHCPClient>
+<X_HW_6RDTunnel type="object" policy="Ignore" maxnumber="1">
+<Enable type="BOOLEAN" min="0" max="1" policy="Default" />
+<RdMode type="Enumer" policy="Default">
+<item id="Dynamic" en="Dynamic" />
+<item id="Static" en="Static" />
+</RdMode>
+<RdPrefix type="STRING" min="0" max="64" policy="Error" />
+<RdPrefixLen type="UNSIGNEDINT" min="10" max="64" policy="Error" />
+<RdBRIPv4Address type="STRING" min="0" max="16" policy="Error" />
+<RdIPv4MaskLen type="UNSIGNEDINT" min="0" max="32" policy="Error" />
+</X_HW_6RDTunnel>
+</WANIPConnection>
+<WANPPPConnection type="object" policy="Ignore" maxnumber="8">
+<Enable type="BOOLEAN" min="0" max="1" policy="Error" />
+<ConnectionType type="Enumer" policy="Error">
+<item id="IP_Routed" en="IP_Routed" />
+<item id="PPPoE_Bridged" en="PPPoE_Bridged" />
+</ConnectionType>
+<Name type="STRING" min="0" max="259" policy="Default" />
+<IdleDisconnectTime type="UNSIGNEDINT" min="0" max="86400" policy="Error" />
+<NATEnabled type="BOOLEAN" min="0" max="1" policy="Error" />
+<Username type="STRING" min="0" max="64" policy="Ignore" />
+<Password type="STRING" min="0" max="64" policy="Ignore" />
+<MaxMRUSize type="UNSIGNEDINT" min="0" max="65535" policy="Default" />
+<ConnectionTrigger type="Enumer" policy="Error">
+<item id="OnDemand" en="OnDemand" />
+<item id="AlwaysOn" en="AlwaysOn" />
+<item id="Manual" en="Manual" />
+</ConnectionTrigger>
+<PPPLCPEcho type="UNSIGNEDINT" min="10" max="3600" policy="Default" />
+<PPPLCPEchoRetry type="UNSIGNEDINT" min="3" max="50" policy="Default" />
+<X_HW_SERVICELIST type="Enumer" policy="Error">
+<item id="INTERNET" en="INTERNET" />
+<item id="TR069" en="TR069" />
+<item id="VOIP" en="VOIP" />
+<item id="TR069_INTERNET" en="TR069_INTERNET" />
+<item id="TR069_VOIP" en="TR069_VOIP" />
+<item id="TR069_VOIP_INTERNET" en="TR069_VOIP_INTERNET" />
+<item id="VOIP_INTERNET" en="VOIP_INTERNET" />
+<item id="IPTV" en="IPTV" />
+<item id="OTHER" en="OTHER" />
+</X_HW_SERVICELIST>
+<X_HW_VLAN type="UNSIGNEDINT" min="0" max="4094" policy="Error" />
+<X_HW_PRI type="UNSIGNEDINT" min="0" max="7" policy="Error" />
+<X_HW_MultiCastVLAN type="UNSIGNEDINT" min="0" max="4094,0xFFFFFFFF" policy="Error" />
+<X_HW_IPv4Enable type="BOOLEAN" min="0" max="1" policy="Ignore" />
+<X_HW_IPv6Enable type="BOOLEAN" min="0" max="1" policy="Ignore" />
+<X_HW_IPv6MultiCastVLAN type="INT" min="-1" max="4094" policy="Ignore" />
+<X_HW_PriPolicy type="Enumer" policy="Default">
+<item id="Specified" en="UseSpecifiedValue" />
+<item id="CopyFromIPPrecedence" en="CopyFromIPPrecedence" />
+<item id="DscpToPbit" en="DscpToPbit" />
+</X_HW_PriPolicy>
+<X_HW_DscpToPbitTbl type="STRING" min="0" max="127" policy="Default" />
+<X_HW_DefaultPri type="UNSIGNEDINT" min="0" max="7" policy="Default" />
+<X_HW_LcpEchoReqCheck type="BOOLEAN" min="0" max="1" policy="Default" />
+<X_HW_ExServiceList type="Enumer" policy="Ignore">
+<item id="" en="EMPTY" />
+<item id="TR069_IPTV" en="TR069_IPTV" />
+<item id="TR069_VOIP_IPTV" en="TR069_VOIP_IPTV" />
+<item id="VOIP_IPTV" en="VOIP_IPTV" />
+<item id="IPTV_INTERNET" en="IPTV_INTERNET" />
+<item id="VOIP_IPTV_INTERNET" en="VOIP_IPTV_INTERNET" />
+<item id="TR069_IPTV_INTERNET" en="TR069_IPTV_INTERNET" />
+<item id="TR069_VOIP_IPTV_INTERNET" en="TR069_VOIP_IPTV_INTERNET" />
+</X_HW_ExServiceList>
+<X_HW_NatType type="Enumer" policy="Ignore">
+<item id="0" en="PortRestrictedCone" />
+<item id="1" en="FullCone" />
+</X_HW_NatType>
+<X_HW_Dnsv4ProxyForV6 type="BOOLEAN" min="0" max="1" policy="Ignore" />
+<X_HW_IdleDetectMode type="Enumer" policy="Ignore">
+<item id="DetectBidirectionally" en="DetectBidirectionally" />
+<item id="DetectUpstream" en="DetectUpstream" />
+</X_HW_IdleDetectMode>
+<X_HW_LowerLayers type="STRING" min="0" max="255" policy="Ignore" />
+<X_HW_UpstreamWAN type="BOOLEAN" min="0" max="1" policy="Ignore" />
+<X_HW_ConnectionDelay type="UNSIGNEDINT" min="0" max="0xFFFFFFFF" policy="Error" />
+<PortMapping type="object" policy="Ignore" maxnumber="32">
+<PortMappingEnabled type="BOOLEAN" min="0" max="1" policy="Error" />
+<PortMappingLeaseDuration type="UNSIGNEDINT" min="0" max="4294967295" policy="Ignore" />
+<RemoteHost type="STRING" min="0" max="15" policy="Error" />
+<ExternalPort type="UNSIGNEDINT" min="0" max="65535" policy="Error" />
+<ExternalPortEndRange type="UNSIGNEDINT" min="0" max="65535" policy="Error" />
+<InternalPort type="UNSIGNEDINT" min="0" max="65535" policy="Error" />
+<PortMappingProtocol type="Enumer" policy="Error">
+<item id="TCP" en="TCP" />
+<item id="UDP" en="UDP" />
+<item id="TCP/UDP" en="TCP/UDP" />
+</PortMappingProtocol>
+<InternalClient type="STRING" min="0" max="15" policy="Error" />
+<PortMappingDescription type="STRING" min="0" max="256" policy="Ignore" />
+<X_HW_InternalEndPort type="UNSIGNEDINT" min="0" max="65535" policy="Default" />
+<X_HW_ExternalSrcPort type="UNSIGNEDINT" min="0" max="65535" policy="Default" />
+<X_HW_ExternalSrcEndPort type="UNSIGNEDINT" min="0" max="65535" policy="Default" />
+<X_HW_RemoteHostRange type="STRING" min="0" max="15" policy="Error" />
+<X_HW_OperateRule type="STRING" min="0" max="1" policy="Error" />
+</PortMapping>
+<X_HW_IPv6>
+<IPv6Prefix type="object" policy="Ignore" maxnumber="1">
+<Origin type="Enumer" policy="Ignore">
+<item id="AutoConfigured" en="AutoConfigured" />
+<item id="PrefixDelegation" en="DHCPv6-PD" />
+<item id="RouterAdvertisement" en="RouterAdvertisement" />
+<item id="Static" en="Static" />
+<item id="None" en="None" />
+</Origin>
+<Prefix type="STRING" min="0" max="63" policy="Ignore" />
+</IPv6Prefix>
+<IPv6Address type="object" policy="Ignore" maxnumber="1">
+<Origin type="Enumer" policy="Ignore">
+<item id="AutoConfigured" en="AutoConfigured" />
+<item id="DHCPv6" en="DHCPv6" />
+<item id="Static" en="Static" />
+<item id="None" en="None" />
+</Origin>
+<IPAddress type="STRING" min="0" max="63" policy="Error" />
+<ChildPrefixBits type="STRING" min="0" max="63" policy="Error" />
+<AddrMaskLen type="UNSIGNEDINT" min="10" max="128" policy="Default" />
+<DefaultGateway type="STRING" min="0" max="64" policy="Error" />
+</IPv6Address>
+<DSLite type="object" policy="Ignore" maxnumber="1">
+<WorkMode type="Enumer" policy="Default">
+<item id="Off" en="Off" />
+<item id="Static" en="Static" />
+<item id="Dynamic" en="Dynamic" />
+</WorkMode>
+<AFTRName type="STRING" min="0" max="256" policy="Ignore" />
+<InTunnelMTU type="UNSIGNEDINT" min="1240" max="2000" policy="Default" />
+<OutTunnelMTU type="UNSIGNEDINT" min="1280" max="2000" policy="Default" />
+</DSLite>
+<PortForward type="object" policy="Ignore" maxnumber="32">
+<Enabled type="BOOLEAN" min="0" max="1" policy="Error" />
+<InternalClient type="STRING" min="0" max="256" policy="Error" />
+<RemoteHost type="STRING" min="0" max="63" policy="Error" />
+<RemoteHostRange type="STRING" min="0" max="63" policy="Error" />
+<Description type="STRING" min="0" max="256" policy="Ignore" />
+<Portlist type="object" policy="Ignore" maxnumber="12">
+<Protocol type="Enumer" policy="Error">
+<item id="TCP" en="TCP" />
+<item id="UDP" en="UDP" />
+<item id="TCP/UDP" en="TCP/UDP" />
+</Protocol>
+<InternalPortList type="STRING" min="0" max="12" policy="Error" />
+</Portlist>
+</PortForward>
+</X_HW_IPv6>
+<X_HW_6RDTunnel type="object" policy="Ignore" maxnumber="1">
+<Enable type="BOOLEAN" min="0" max="1" policy="Default" />
+<RdPrefix type="STRING" min="0" max="64" policy="Error" />
+<RdPrefixLen type="UNSIGNEDINT" min="10" max="64" policy="Error" />
+<RdBRIPv4Address type="STRING" min="0" max="16" policy="Error" />
+<RdIPv4MaskLen type="UNSIGNEDINT" min="0" max="32" policy="Error" />
+</X_HW_6RDTunnel>
+</WANPPPConnection>
+<X_HW_WANUpLinkConfig type="object" policy="Ignore" maxnumber="1">
+<X_HW_Enable type="BOOLEAN" min="0" max="1" policy="Error" />
+<X_HW_Mode type="UNSIGNEDINT" min="0" max="2" policy="Default" />
+<X_HW_VLAN type="UNSIGNEDINT" min="0" max="4094" policy="Error" />
+<X_HW_PRI type="UNSIGNEDINT" min="0" max="7" policy="Error" />
+<X_HW_VLANIDMARK type="UNSIGNEDINT" min="0" max="4094" policy="Error" />
+</X_HW_WANUpLinkConfig>
+</WANConnectionDevice>
+</WANDevice>
+<DHCPv6 type="object" policy="Error" maxnumber="1">
+<X_HW_ClientDefaultDSCP type="UNSIGNEDINT" min="0" max="63" policy="Error" />
+<Client type="object" policy="Error" maxnumber="8">
+<Interface type="STRING" min="0" max="256" policy="Error" />
+<RapidCommit type="BOOLEAN" min="0" max="1" policy="Error" />
+<X_HW_ProtocolDSCP type="UNSIGNEDINT" min="0" max="63" policy="Error" />
+<OneSession type="BOOLEAN" min="0" max="1" policy="Error" />
+<SentOption type="object" policy="Error" maxnumber="8">
+<Enable type="BOOLEAN" min="0" max="1" policy="Default" />
+<Tag type="UNSIGNEDINT" min="0" max="65535" policy="Error" />
+<Value type="STRING" min="0" max="256" policy="Error" />
+<X_HW_OptionPolicy type="STRING" min="0" max="255" policy="Error" />
+</SentOption>
+<ReceivedOption type="object" policy="Error" maxnumber="64">
+<Tag type="UNSIGNEDINT" min="0" max="65535" policy="Error" />
+<Value type="STRING" min="0" max="256" policy="Error" />
+<Server type="STRING" min="0" max="256" policy="Error" />
+</ReceivedOption>
+<Server type="object" policy="Error" maxnumber="16">
+<SourceAddress type="STRING" min="0" max="45" policy="Error" />
+<DUID type="STRING" min="0" max="130" policy="Error" />
+<InformationRefreshTime type="DATETIME" min="0" max="31" policy="Error" />
+</Server>
+</Client>
+</DHCPv6>
+<DHCPv4 type="object" policy="Error" maxnumber="1">
+<X_HW_ClientDefaultDSCP type="UNSIGNEDINT" min="0" max="63" policy="Error" />
+<Client type="object" policy="Error" maxnumber="8">
+<Interface type="STRING" min="0" max="256" policy="Error" />
+<X_HW_ProtocolDSCP type="UNSIGNEDINT" min="0" max="63" policy="Error" />
+</Client>
+</DHCPv4>
+<Layer3Forwarding type="object" policy="Ignore" maxnumber="1">
+<X_HW_AutoDefaultGatewayEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<X_HW_DefaultGatewayIPAddress type="STRING" min="0" max="15" policy="Error" />
+<X_HW_WanDefaultWanName type="STRING" min="0" max="31" policy="Error" />
+<DefaultConnectionService type="STRING" min="0" max="256" policy="Error" />
+<Forwarding type="object" policy="Ignore" maxnumber="192">
+<DestIPAddress type="STRING" min="0" max="15" policy="Error" />
+<DestSubnetMask type="STRING" min="0" max="15" policy="Error" />
+<GatewayIPAddress type="STRING" min="0" max="15" policy="Error" />
+<X_HW_WanName type="STRING" min="0" max="31" policy="Error" />
+<X_HW_DomainName type="STRING" min="0" max="255" policy="Ignore" />
+</Forwarding>
+<X_HW_policy_route type="object" policy="Ignore" maxnumber="32">
+<PolicyRouteType type="Enumer" policy="Ignore">
+<item id="SourcePhyPort" en="SourcePhyPort" />
+<item id="SourceIP" en="DeviceType" />
+<item id="EthernetType" en="EtherType" />
+</PolicyRouteType>
+<PhyPortName type="STRING" min="0" max="256" policy="Ignore" />
+<VenderClassId type="STRING" min="0" max="256" policy="Ignore" />
+<WanName type="STRING" min="0" max="31" policy="Ignore" />
+<EtherType type="Enumer" policy="Ignore">
+<item id="PPPoE" en="PPPoE" />
+</EtherType>
+<Description type="STRING" min="0" max="32" policy="Error" />
+<IsUnBind type="BOOLEAN" min="0" max="1" policy="Error" />
+<IsDefaultRule type="BOOLEAN" min="0" max="1" policy="Error" />
+</X_HW_policy_route>
+</Layer3Forwarding>
+<X_HW_ARPPingDiagnostics type="object" policy="Ignore" maxnumber="8">
+<ARPPingEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<WanName type="STRING" min="0" max="255" policy="Error" />
+<ARPPingInterval type="UNSIGNEDINT" min="1" max="3600" policy="Error" />
+<ARPPingNumberOfRepetitions type="UNSIGNEDINT" min="1" max="255" policy="Error" />
+</X_HW_ARPPingDiagnostics>
+<X_HW_DHCPSLVSERVER type="object" policy="Ignore" maxnumber="1">
+<DHCPEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<Option60 type="STRING" min="0" max="256" policy="Error" />
+<StartIP type="STRING" min="0" max="15" policy="Error" />
+<EndIP type="STRING" min="0" max="15" policy="Error" />
+<LeaseTime type="UNSIGNEDINT" min="1" max="6048000,0xFFFFFFFF" policy="Error" />
+<DNSList type="STRING" min="0" max="64" policy="Error" />
+<NTPList type="STRING" min="0" max="64" policy="Error" />
+<Option43 type="STRING" min="0" max="64" policy="Error" />
+<NormalUserEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<DynamicPortMappingEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<PortMappingWan type="STRING" min="0" max="256" policy="Ignore" />
+<PortMappingStartPort type="UNSIGNEDINT" min="1" max="65535" policy="Error" />
+<PortMappingMaxPort type="UNSIGNEDINT" min="1" max="65535" policy="Error" />
+</X_HW_DHCPSLVSERVER>
+<X_HW_Security type="object" policy="Ignore" maxnumber="1">
+<X_HW_FirewallLevel type="Enumer" policy="Default">
+<item id="Disable" en="Disable" />
+<item id="High" en="High" />
+<item id="Medium" en="Medium" />
+<item id="Low" en="Low" />
+<item id="Custom" en="Custom" />
+</X_HW_FirewallLevel>
+<X_HW_IPv6FWDFireWallEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<AclServices type="object" policy="Ignore" maxnumber="1">
+<HTTPLanEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<HTTPWanEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<FTPLanEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<FTPWanEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<TELNETLanEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<TELNETWanEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<HTTPSWanEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<WanAccess type="object" policy="Ignore" maxnumber="32">
+<Enable type="BOOLEAN" min="0" max="1" policy="Error" />
+<Protocol type="STRING" min="0" max="63" policy="Error" />
+<WanName type="STRING" min="0" max="63" policy="Error" />
+<SrcIPPrefix type="STRING" min="0" max="575" policy="Error" />
+</WanAccess>
+<AccessControl>
+<List type="object" policy="Ignore" maxnumber="128">
+<SrcPortName type="STRING" min="0" max="2048" policy="Error" />
+<SrcPortType type="Enumer" policy="Error">
+<item id="0" en="lan" />
+<item id="1" en="wlan" />
+<item id="2" en="wan" />
+</SrcPortType>
+<SrcIp type="STRING" min="0" max="575" policy="Error" />
+<SrcMac type="STRING" min="0" max="511" policy="Ignore" />
+<ServicePort type="STRING" min="0" max="63" policy="Error" />
+<ServiceProto type="STRING" min="0" max="63" policy="Error" />
+<ServiceProtoPort type="STRING" min="0" max="127" policy="Error" />
+<Priority type="UNSIGNEDINT" min="0" max="1024" policy="Error" />
+<Mode type="UNSIGNEDINT" min="0" max="1" policy="Error" />
+</List>
+</AccessControl>
+</AclServices>
+<WANSrcWhiteList type="object" policy="Ignore" maxnumber="1">
+<WANSrcWhiteListEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<List type="object" policy="Ignore" maxnumber="16">
+<SrcIPPrefix type="STRING" min="0" max="63" policy="Error" />
+</List>
+</WANSrcWhiteList>
+<FirewallLog type="object" policy="Ignore" maxnumber="1">
+<FirewallLogRight type="BOOLEAN" min="0" max="1" policy="Error" />
+<Rules type="object" policy="Ignore" maxnumber="8">
+<Enable type="BOOLEAN" min="0" max="1" policy="Error" />
+<Direction type="Enumer" policy="Default">
+<item id="0" en="From Public To Private" />
+<item id="1" en="From Public To Local" />
+<item id="2" en="From Private To Public" />
+<item id="3" en="From Private To Local" />
+</Direction>
+<Action type="Enumer" policy="Default">
+<item id="Deny" en="Deny" />
+<item id="Permit" en="Permit" />
+</Action>
+</Rules>
+</FirewallLog>
+<Firewall type="object" policy="Ignore" maxnumber="1">
+<Config type="Enumer" policy="Ignore">
+<item id="Standard" en="Accept from lan to the internet,and block from the internet" />
+<item id="Advanced" en="Advanced (Advanced firewall configuration applies, as specified by AdvancedLevel, OPTIONAL) " />
+<item id="X_HW_High" en="Only Accept HTTP/HTTPS/DNS/FTP from the LAN, block from the internet and prevent SYN Flood,ICMP Echo,ICMP Redirect,LAND attack,Smurf attack,Winuke attack" />
+<item id="X_HW_Medium" en="Accept from the LAN, block from the internet and only prevent ICMP Redirect" />
+<item id="X_HW_Low" en="Accept from the LAN, block from the internet and close all dos attack" />
+<item id="X_HW_Customer" en="Accept from the LAN, block from the internet and allow customization" />
+</Config>
+<Enable type="BOOLEAN" min="0" max="1" policy="Error" />
+<AdvancedLevel type="STRING" min="0" max="255" policy="Error" />
+<Type type="Enumer" policy="Error">
+<item id="Stateful" en="Stateful" />
+<item id="Stateless" en="Stateless" />
+</Type>
+</Firewall>
+</X_HW_Security>
+<X_HW_ALG type="object" policy="Ignore" maxnumber="1">
+<TftpEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<H323Enable type="BOOLEAN" min="0" max="1" policy="Error" />
+<SipEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<RTSPEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<PptpEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<L2TPForward type="BOOLEAN" min="0" max="1" policy="Error" />
+<IPSecForward type="BOOLEAN" min="0" max="1" policy="Error" />
+<FtpEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<RTCPEnable type="BOOLEAN" min="0" max="1" policy="Ignore" />
+<RTCPPort type="INT" min="0" max="65535" policy="Ignore" />
+<FtpPort type="STRING" min="0" max="11" policy="Ignore" />
+<H323Port type="STRING" min="0" max="11" policy="Ignore" />
+<L2TPPort type="STRING" min="0" max="11" policy="Ignore" />
+<PptpPort type="STRING" min="0" max="11" policy="Ignore" />
+<RTSPNATPolicy type="UNSIGNEDINT" min="0" max="255" policy="Default" />
+<RTSPPort type="STRING" min="0" max="11" policy="Ignore" />
+<SipPort type="STRING" min="0" max="11" policy="Ignore" />
+<TftpPort type="STRING" min="0" max="11" policy="Ignore" />
+</X_HW_ALG>
+<X_HW_NeighborDiscovery type="object" policy="Ignore" maxnumber="1">
+<InterfaceSetting type="object" policy="Ignore" maxnumber="9">
+<Interface type="STRING" min="0" max="256" policy="Ignore" />
+<ArpAgingTime type="UNSIGNEDINT" min="5" max="1440" policy="Ignore" />
+<AddressFamily type="Enumer" policy="Ignore">
+<item id="inet" en="inet" />
+<item id="inet6" en="inet6" />
+</AddressFamily>
+</InterfaceSetting>
+</X_HW_NeighborDiscovery>
+<X_HW_IPv6Layer3Forwarding>
+<Forwarding type="object" policy="Ignore" maxnumber="33">
+<DestIPPrefix type="STRING" min="0" max="63" policy="Error" />
+<NextHop type="STRING" min="0" max="63" policy="Error" />
+<WanName type="STRING" min="0" max="255" policy="Error" />
+<ForwardingPolicy type="INT" min="-1" max="2147483647" policy="Ignore" />
+<ExpirationTime type="DATETIME" min="0" max="31" policy="Error" />
+<Origin type="Enumer" policy="Error">
+<item id="Static" en="Static" />
+</Origin>
+</Forwarding>
+<X_HW_RARouteInformation>
+<InterfaceSetting type="object" policy="Ignore" maxnumber="64">
+<Status type="Enumer" policy="No">
+<item id="ForwardingEntryCreated" en="ForwardingEntryCreated" />
+<item id="NoForwardingEntry " en="NoForwardingEntry " />
+</Status>
+<Interface type="STRING" min="0" max="256" policy="No" />
+<SourceRouter type="STRING" min="0" max="64" policy="No" />
+<PreferredRouteFlag type="Enumer" policy="No">
+<item id="High" en="High" />
+<item id="Medium" en="Medium" />
+<item id="Low" en="Low" />
+</PreferredRouteFlag>
+<Prefix type="STRING" min="0" max="64" policy="Error" />
+<RouteLifetime type="DATETIME" min="0" max="32" policy="No" />
+</InterfaceSetting>
+</X_HW_RARouteInformation>
+</X_HW_IPv6Layer3Forwarding>
+<X_HW_FeatureList type="object" policy="Ignore" maxnumber="0">
+<BBSPCustomization type="object" policy="Ignore" maxnumber="1">
+<MSSAutoAdjust type="BOOLEAN" min="0" max="1" policy="" />
+<DiscoverInterval type="STRING" min="0" max="159" policy="Error" />
+<DHCP6C_ReconfigEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<option230 type="object" policy="Ignore" maxnumber="1">
+<Enable type="BOOLEAN" min="0" max="1" policy="Error" />
+<Value type="STRING" min="0" max="63" policy="Default" />
+</option230>
+<UpPortDetect type="object" policy="Ignore" maxnumber="1">
+<Enable type="BOOLEAN" min="0" max="1" policy="Ignore" />
+<VLAN type="UNSIGNEDINT" min="0" max="4094" policy="Ignore" />
+<Interval type="UNSIGNEDINT" min="1" max="10" policy="Ignore" />
+<RetryTimes type="UNSIGNEDINT" min="1" max="3" policy="Ignore" />
+</UpPortDetect>
+</BBSPCustomization>
+<BBSPWebCustomization type="object" policy="Ignore" maxnumber="0">
+<WebConfigRGEnable type="BOOLEAN" min="0" max="1" policy="Default" />
+<TagServiceMappingInfo type="STRING" min="0" max="255" policy="Default" />
+</BBSPWebCustomization>
+<SSMPFeature type="object" policy="Ignore" maxnumber="1">
+<UpgradeSupport type="BOOLEAN" min="0" max="1" policy="Ignore" />
+<RedirectUrl type="STRING" min="0" max="256" policy="Ignore" />
+</SSMPFeature>
+</X_HW_FeatureList>
+<X_HW_GRETunnel type="object" policy="Ignore" maxnumber="8">
+<Name type="STRING" min="0" max="32" policy="Ignore" />
+<Type type="Enumer" policy="Ignore">
+<item id="EthernetOverGRE" en="EthernetOverGRE" />
+</Type>
+<EgressInterface type="STRING" min="0" max="128" policy="Ignore" />
+<EgressMode type="Enumer" policy="Ignore">
+<item id="Independent" en="Independent" />
+<item id="Share" en="ShareWithNoneTunnelFlow" />
+</EgressMode>
+<EgressPriPolicy type="Enumer" policy="Ignore">
+<item id="CopyFromIngressInterface" en="CopyFromIngressInterface" />
+<item id="FollowEgressInterface" en="FollowEgressInterface" />
+</EgressPriPolicy>
+<RemoteAddressAcquisitionMode type="Enumer" policy="Ignore">
+<item id="Static" en="Static" />
+</RemoteAddressAcquisitionMode>
+<RemoteAddress type="STRING" min="0" max="256" policy="Ignore" />
+<TcpMssClamping type="UNSIGNEDINT" min="0" max="1" policy="Error" />
+<IngressInterface type="object" policy="Ignore" maxnumber="8">
+<InterfaceName type="STRING" min="0" max="128" policy="Ignore" />
+<VLANTaggingEnable type="BOOLEAN" min="0" max="1" policy="Ignore" />
+<VLANID type="UNSIGNEDINT" min="1" max="4094" policy="Error" />
+<PriPolicy type="Enumer" policy="Ignore">
+<item id="Specified" en="Specified" />
+</PriPolicy>
+<Pri type="UNSIGNEDINT" min="0" max="7" policy="Error" />
+</IngressInterface>
+</X_HW_GRETunnel>
+<X_HW_PCP type="object" policy="Ignore" maxnumber="1">
+<Enable type="BOOLEAN" min="0" max="1" policy="Error" />
+<Interface type="STRING" min="0" max="255" policy="Error" />
+<PlainMode type="BOOLEAN" min="0" max="1" policy="Error" />
+<ServerAddress type="STRING" min="0" max="63" policy="Error" />
+<PCPMapping type="object" policy="Ignore" maxnumber="96">
+<InternalAddress type="STRING" min="0" max="15" policy="Error" />
+<InternalPort type="UNSIGNEDINT" min="0" max="65535" policy="Error" />
+<Protocol type="Enumer" policy="Error">
+<item id="TCP" en="TCP" />
+<item id="UDP" en="UDP" />
+</Protocol>
+<RequiredExternalAddress type="STRING" min="0" max="15" policy="Error" />
+<RequiredExternalPort type="UNSIGNEDINT" min="0" max="65535" policy="Error" />
+<AllowProposal type="BOOLEAN" min="0" max="1" policy="Error" />
+<Lifetime type="UNSIGNEDINT" min="0" max="4294967295" policy="Error" />
+</PCPMapping>
+</X_HW_PCP>
+<X_HW_AmpInfo type="object" policy="Ignore" maxnumber="1">
+<RogueOntCheckSwitch type="BOOLEAN" min="0" max="1" policy="Default" />
+<RfFilterSwitch type="UNSIGNEDINT" min="0" max="2" policy="Error" />
+<X_HW_Spec type="object" policy="Ignore" maxnumber="1">
+<X_HW_HGDetectEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<X_HW_HGVlan type="UNSIGNEDINT" min="1" max="4094" policy="Error" />
+<X_HW_EthTrapEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<X_HW_EthSpec type="object" policy="Ignore" maxnumber="4">
+<X_HW_HGDetectEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+</X_HW_EthSpec>
+<X_HW_PortPhyMode type="object" policy="Ignore" maxnumber="4">
+<X_HW_PortPhyModeSet type="UNSIGNEDINT" min="0" max="4" policy="Ignore" />
+<X_HW_RandomNumberRangeSet type="UNSIGNEDINT" min="0" max="100" policy="Ignore" />
+</X_HW_PortPhyMode>
+</X_HW_Spec>
+</X_HW_AmpInfo>
+<X_HW_APService type="object" policy="Error" maxnumber="1">
+<VenderClassId type="STRING" min="0" max="256" policy="Ignore" />
+<MultiSrvPortList type="object" policy="Error" maxnumber="1">
+<PhyPortName type="STRING" min="0" max="256" policy="Error" />
+</MultiSrvPortList>
+</X_HW_APService>
+<X_HW_Option type="object" policy="Ignore" maxnumber="1">
+<Time type="UNSIGNEDINT" min="30" max="10000" policy="Ignore" />
+<Profile type="object" policy="Ignore" maxnumber="32">
+<Format type="STRING" min="0" max="255" policy="Ignore" />
+</Profile>
+<Element type="object" policy="Ignore" maxnumber="64">
+<Value type="STRING" min="0" max="255" policy="Ignore" />
+<CustomizeValue type="Enumer" policy="Ignore">
+<item id="ciphertext_ctc" en="ciphertext_ctc" />
+<item id="pppoe_dns" en="pppoe_dns" />
+<item id="dhcpc_option" en="dhcpc_option" />
+</CustomizeValue>
+<Reference type="STRING" min="0" max="255" policy="Ignore" />
+<DestType type="Enumer" policy="Ignore">
+<item id="Int" en="Int" />
+<item id="UnsignedInt" en="UnsignedInt" />
+<item id="UnsignedLong" en="UnsignedLong" />
+<item id="Boolean" en="Boolean" />
+<item id="String" en="String" />
+<item id="bin_mac" en="bin_mac" />
+</DestType>
+<DestFormat type="STRING" min="0" max="255" policy="Ignore" />
+</Element>
+</X_HW_Option>
+<Time type="object" policy="Ignore" maxnumber="1">
+<Enable type="BOOLEAN" min="0" max="1" policy="Ignore" />
+<NTPServer1 type="STRING" min="0" max="64" policy="Error" />
+<NTPServer2 type="STRING" min="0" max="64" policy="Error" />
+<NTPServer3 type="STRING" min="0" max="64" policy="Error" />
+<NTPServer4 type="STRING" min="0" max="64" policy="Error" />
+<NTPServer5 type="STRING" min="0" max="64" policy="Error" />
+<LocalTimeZone type="STRING" min="0" max="6" policy="Error" />
+<LocalTimeZoneName type="STRING" min="0" max="64" policy="Error" />
+<X_HW_SynInterval type="UNSIGNEDINT" min="0" max="4294967295" policy="Error" />
+<X_HW_WanName type="STRING" min="0" max="31" policy="Ignore" />
+<DaylightSavingsUsed type="BOOLEAN" min="0" max="1" policy="Ignore" />
+<X_HW_DaylightSavingsStartDate type="STRING" min="0" max="32" policy="Error" />
+<X_HW_DaylightSavingsEndDate type="STRING" min="0" max="32" policy="Error" />
+</Time>
+<UserInterface type="object" policy="Ignore" maxnumber="0">
+<X_HW_WebUserInfo type="object" policy="Ignore" maxnumber="8">
+<UserName type="STRING" min="1" max="32" policy="Error" />
+<Password type="STRING" min="1" max="127" policy="Error" />
+<UserLevel type="UNSIGNEDINT" min="0" max="3" policy="Error" />
+<Alias type="STRING" min="" max="" policy="Error" />
+</X_HW_WebUserInfo>
+<X_HW_WebSslInfo type="object" policy="Ignore" maxnumber="1">
+<Enable type="BOOLEAN" min="0" max="1" policy="Ignore" />
+<CertPassword type="STRING" min="1" max="127" policy="Ignore" />
+</X_HW_WebSslInfo>
+<X_HW_LoginLockSpec type="object" policy="Ignore" maxnumber="1">
+<CliFailTimes type="UNSIGNEDINT" min="1" max="100" policy="Ignore" />
+<CliFailSec type="UNSIGNEDINT" min="300" max="3600" policy="Ignore" />
+<CliLockSec type="UNSIGNEDINT" min="60" max="3600" policy="Ignore" />
+<CwmpFailTimes type="UNSIGNEDINT" min="1" max="100" policy="Ignore" />
+<CwmpFailSec type="UNSIGNEDINT" min="300" max="3600" policy="Ignore" />
+<CwmpLockSec type="UNSIGNEDINT" min="60" max="3600" policy="Ignore" />
+<WebFailTimes type="UNSIGNEDINT" min="1" max="100" policy="Ignore" />
+<WebFailSec type="UNSIGNEDINT" min="300" max="3600" policy="Ignore" />
+<WebLockSec type="UNSIGNEDINT" min="60" max="3600" policy="Ignore" />
+</X_HW_LoginLockSpec>
+</UserInterface>
+<X_HW_APMPolicy type="object" policy="Ignore" maxnumber="1">
+<EnablePowerSavingMode type="BOOLEAN" min="0" max="1" policy="Error" />
+<BatteryModePolicy type="object" policy="Ignore" maxnumber="1">
+<NotUseUsbService type="BOOLEAN" min="0" max="1" policy="Ignore" />
+<NotUseLanService type="BOOLEAN" min="0" max="1" policy="Ignore" />
+<NotUseWlanService type="BOOLEAN" min="0" max="1" policy="Ignore" />
+<NotUseVoiceService type="BOOLEAN" min="0" max="1" policy="Ignore" />
+<NotUseCATVService type="BOOLEAN" min="0" max="1" policy="Ignore" />
+<NotUseRemoteManagement type="BOOLEAN" min="0" max="1" policy="Ignore" />
+</BatteryModePolicy>
+<BatteryAlarmPolicy type="object" policy="Ignore" maxnumber="1">
+<AlwaysEnable type="BOOLEAN" min="0" max="1" policy="Ignore" />
+<VoiceServiceEnable type="BOOLEAN" min="0" max="1" policy="Ignore" />
+</BatteryAlarmPolicy>
+<X_HW_ApmCloseFt type="object" policy="Ignore" maxnumber="1">
+<PortEEEEnable type="BOOLEAN" min="0" max="1" policy="Ignore" />
+<ECSAdjEnable type="BOOLEAN" min="0" max="1" policy="Ignore" />
+</X_HW_ApmCloseFt>
+</X_HW_APMPolicy>
+<DeviceInfo>
+<X_HW_Syslog type="object" policy="Ignore" maxnumber="1">
+<Enable type="BOOLEAN" min="0" max="1" policy="Ignore" />
+<Level type="UNSIGNEDINT" min="0" max="7" policy="Ignore" />
+</X_HW_Syslog>
+<X_HW_SyslogConfig>
+<PPP type="object" policy="Ignore" maxnumber="1">
+<Timer type="UNSIGNEDINT" min="0" max="9999" policy="Error" />
+<AlertAfter type="UNSIGNEDINT" min="0" max="9" policy="Error" />
+<MaxReset type="UNSIGNEDINT" min="0" max="9" policy="Error" />
+<PingIP type="STRING" min="0" max="255" policy="Error" />
+<LookupDomain type="STRING" min="0" max="255" policy="Error" />
+</PPP>
+<ARP type="object" policy="Ignore" maxnumber="1">
+<Timer type="UNSIGNEDINT" min="0" max="9999" policy="Error" />
+<ResetTable type="BOOLEAN" min="0" max="1" policy="Error" />
+<Query type="BOOLEAN" min="0" max="1" policy="Error" />
+</ARP>
+<Route type="object" policy="Ignore" maxnumber="1">
+<Mode type="UNSIGNEDINT" min="0" max="2" policy="Error" />
+<Timer type="UNSIGNEDINT" min="0" max="9999" policy="Error" />
+<Query type="BOOLEAN" min="0" max="1" policy="Error" />
+</Route>
+<IGMP type="object" policy="Ignore" maxnumber="1">
+<Query type="BOOLEAN" min="0" max="1" policy="Error" />
+<ARPCheck type="STRING" min="0" max="18" policy="Error" />
+<Period type="INT" min="0" max="9999" policy="Error" />
+</IGMP>
+</X_HW_SyslogConfig>
+<VendorLogFile type="object" policy="Ignore" maxnumber="1">
+<Alias type="STRING" min="0" max="64" policy="Error" />
+</VendorLogFile>
+<X_HW_AutoBackupRestore type="object" policy="No" maxnumber="1">
+<AutoBackupEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<AutoBackupPeriod type="UNSIGNEDINT" min="1" max="0xFFFFFFFF" policy="Error" />
+<AutoBackupTimes type="UNSIGNEDINT" min="1" max="10" policy="Error" />
+<AutoBackupRestorePoint type="UNSIGNEDINT" min="0" max="10" policy="Error" />
+</X_HW_AutoBackupRestore>
+</DeviceInfo>
+<BulkData>
+<Profile type="object" policy="Ignore" maxnumber="1">
+<Enable type="BOOLEAN" min="0" max="1" policy="Error" />
+<Alias type="STRING" min="0" max="64" policy="Error" />
+<Name type="STRING" min="0" max="255" policy="Error" />
+<NumberOfRetainedFailedReports type="INT" min="-1" max="2147483647" policy="Error" />
+<Protocol type="STRING" min="0" max="64" policy="Error" />
+<EncodingType type="STRING" min="0" max="64" policy="Error" />
+<ReportingInterval type="UNSIGNEDINT" min="0" max="4294967295" policy="Error" />
+<TimeReference type="DATETIME" min="0" max="31" policy="Error" />
+<StreamingHost type="STRING" min="0" max="256" policy="Error" />
+<StreamingPort type="UNSIGNEDINT" min="0" max="65535" policy="Error" />
+<StreamingSessionID type="UNSIGNEDINT" min="48" max="57, 65:90" policy="Error" />
+<FileTransferURL type="STRING" min="0" max="256" policy="Error" />
+<FileTransferUsername type="STRING" min="0" max="64" policy="Error" />
+<FileTransferPassword type="STRING" min="0" max="64" policy="Error" />
+<ControlFileFormat type="STRING" min="0" max="128" policy="Error" />
+<ParameterNumberOfEntries type="UNSIGNEDINT" min="0" max="4294967295" policy="Error" />
+<CSVEncoding type="object" policy="Error" maxnumber="1">
+<FieldSeparator type="STRING" min="0" max="65" policy="Error" />
+<RowSeparator type="STRING" min="0" max="65" policy="Error" />
+<EscapeCharacter type="STRING" min="0" max="65" policy="Error" />
+<ReportFormat type="STRING" min="0" max="65" policy="Error" />
+<RowTimestamp type="STRING" min="0" max="65" policy="Error" />
+</CSVEncoding>
+<HTTP>
+<RequestURIParameter type="object" policy="Error" maxnumber="1">
+<Name type="STRING" min="0" max="64" policy="Error" />
+<Reference type="STRING" min="0" max="256" policy="Error" />
+</RequestURIParameter>
+</HTTP>
+</Profile>
+</BulkData>
+<ManagementServer type="object" policy="Ignore" maxnumber="1">
+<EnableCWMP type="BOOLEAN" min="0" max="1" policy="Error" />
+<URL type="STRING" min="0" max="256" policy="Ignore" />
+<Username type="STRING" min="0" max="256" policy="Ignore" />
+<Password type="STRING" min="0" max="256" policy="Ignore" />
+<PeriodicInformEnable type="BOOLEAN" min="0" max="1" policy="Error" />
+<PeriodicInformInterval type="UNSIGNEDINT" min="0" max="4294967295" policy="Ignore" />
+<PeriodicInformTime type="DATETIME" min="0" max="32" policy="Ignore" />
+<ConnectionRequestUsername type="STRING" min="0" max="256" policy="Ignore" />
+<ConnectionRequestPassword type="STRING" min="0" max="256" policy="Ignore" />
+<ManageableDeviceNotificationLimit type="UNSIGNEDINT" min="0" max="4294967295" policy="Ignore" />
+<X_HW_DSCP type="UNSIGNEDINT" min="0" max="63" policy="Error" />
+<X_HW_ConnectionRequestAuthSwitch type="BOOLEAN" min="0" max="1" policy="Ignore" />
+<X_HW_CheckUrlRandom type="BOOLEAN" min="0" max="1" policy="Error" />
+<X_HW_DataModelSupportVersion type="STRING" min="0" max="64" policy="Error" />
+<VirtualDevice type="object" policy="Ignore" maxnumber="32">
+<X_HW_LinkType type="STRING" min="" max="" policy="Ignore" />
+<X_HW_MAC type="STRING" min="" max="" policy="Ignore" />
+<X_HW_UUID type="STRING" min="" max="" policy="Ignore" />
+<X_HW_DevName type="STRING" min="" max="" policy="Ignore" />
+<X_HW_OnlineTime type="STRING" min="" max="" policy="Ignore" />
+<X_HW_Manufacturer type="STRING" min="0" max="64" policy="Ignore" />
+<X_HW_SerialNumber type="STRING" min="" max="" policy="Ignore" />
+<X_HW_HardVersion type="STRING" min="" max="" policy="Ignore" />
+<X_HW_SoftVersion type="STRING" min="" max="" policy="Ignore" />
+<X_HW_Reboot type="object" policy="Ignore" maxnumber="1">
+<Status type="STRING" min="" max="" policy="Ignore" />
+</X_HW_Reboot>
+<X_HW_Upgrade type="object" policy="Ignore" maxnumber="1">
+<Status type="STRING" min="" max="" policy="Ignore" />
+<DownloadURL type="STRING" min="" max="" policy="Ignore" />
+<AutoReboot type="BOOLEAN" min="0" max="1" policy="Ignore" />
+</X_HW_Upgrade>
+</VirtualDevice>
+</ManagementServer>
+<X_HW_PSIXmlReset type="object" policy="Ignore" maxnumber="1">
+<ResetFlag type="BOOLEAN" min="0" max="1" policy="Ignore" />
+</X_HW_PSIXmlReset>
+<X_HW_HttpGetDiagnostics type="object" policy="Error" maxnumber="1">
+<DiagnosticsState type="STRING" min="0" max="31" policy="Error" />
+<Interface type="STRING" min="0" max="127" policy="Error" />
+<URL type="STRING" min="0" max="256" policy="Error" />
+<HttpVersion type="STRING" min="0" max="15" policy="Error" />
+<NumberOfRepetitions type="UNSIGNEDINT" min="1" max="100" policy="Error" />
+<Timeout type="UNSIGNEDINT" min="1" max="65535" policy="Error" />
+<SuccessCount type="UNSIGNEDINT" min="0" max="100" policy="Ignore" />
+<FailureCount type="UNSIGNEDINT" min="0" max="100" policy="Error" />
+<MinimumResponseTime type="UNSIGNEDINT" min="0" max="4294967295" policy="Error" />
+<MaximumResponseTime type="UNSIGNEDINT" min="0" max="4294967295" policy="Error" />
+<AverageResponseTime type="UNSIGNEDINT" min="0" max="4294967295" policy="Error" />
+</X_HW_HttpGetDiagnostics>
+<X_HW_UserServiceInfo type="object" policy="No" maxnumber="1">
+<ServiceDescription type="STRING" min="0" max="64" policy="Ignore" />
+</X_HW_UserServiceInfo>
+<X_HW_MUInterface type="object" policy="Ignore" maxnumber="1">
+<Username type="STRING" min="1" max="31" policy="Ignore" />
+<password type="STRING" min="8" max="12" policy="Ignore" />
+</X_HW_MUInterface>
+<X_HW_DataModel>
+<X_HW_DataInfo type="object" policy="Ignore" maxnumber="1">
+<X_HW_Version type="STRING" min="" max="" policy="Ignore" />
+<X_HW_LastSaveTime type="STRING" min="" max="" policy="Ignore" />
+<X_HW_DBSavers type="STRING" min="" max="" policy="Ignore" />
+<X_HW_SaveTimes type="UNSIGNEDINT" min="0" max="0xFFFFFFFF" policy="Ignore" />
+</X_HW_DataInfo>
+<DHCPv6>
+<Server>
+<Pool>
+<Option type="object" policy="Ignore" maxnumber="8">
+<Value type="STRING" min="0" max="256" policy="Error" />
+</Option>
+</Pool>
+</Server>
+</DHCPv6>
+</X_HW_DataModel>
+<X_HW_Ethernet type="object" policy="Error" maxnumber="1">
+<VLANTermination type="object" policy="Error" maxnumber="8">
+<LowerLayers type="STRING" min="0" max="1024" policy="Error" />
+<VLANID type="UNSIGNEDINT" min="1" max="4094" policy="Error" />
+</VLANTermination>
+</X_HW_Ethernet>
+<X_HW_RIP type="object" policy="Ignore" maxnumber="1">
+<InterfaceSetting type="object" policy="Ignore" maxnumber="16">
+<AuthKey type="STRING" min="0" max="32" policy="Ignore" />
+<AuthMode type="Enumer" policy="Ignore">
+<item id="Off" en="Off" />
+<item id="MD5" en="MD5" />
+<item id="HMAC-SHA256" en="HMAC-SHA256" />
+<item id="ClearText" en="ClearText" />
+</AuthMode>
+<Enable type="BOOLEAN" min="0" max="1" policy="Ignore" />
+<Interface type="STRING" min="0" max="127" policy="Ignore" />
+<Protocol type="Enumer" policy="Ignore">
+<item id="RIPv1" en="RIPv1" />
+<item id="RIPv2" en="RIPv2" />
+<item id="RIPv1_v2" en="RIPv1_v2" />
+</Protocol>
+<ReceiveRA type="BOOLEAN" min="0" max="1" policy="Ignore" />
+<SendRA type="BOOLEAN" min="0" max="1" policy="Ignore" />
+</InterfaceSetting>
+</X_HW_RIP>
+<X_HW_IPTV type="object" policy="Ignore" maxnumber="0">
+<RemarkNNIIPPrecedence type="INT" min="-1" max="7" policy="Ignore" />
+<RemarkUNIIPPrecedence type="INT" min="-1" max="7" policy="Ignore" />
+<RemarkNNI8021P type="INT" min="-1" max="7" policy="Ignore" />
+<RemarkUNI8021P type="INT" min="-1" max="7" policy="Ignore" />
+<RemarkNNIDSCP type="INT" min="-1" max="63" policy="Ignore" />
+<RemarkUNIDSCP type="INT" min="-1" max="63" policy="Ignore" />
+<Filter type="object" policy="Error" maxnumber="1">
+<PPPoEIGMPTransparent type="BOOLEAN" min="0" max="1" policy="Error" />
+<SourceIPExcludeFilter type="STRING" min="0" max="255" policy="Error" />
+</Filter>
+</X_HW_IPTV>
+</InternetGatewayDevice>

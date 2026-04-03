@@ -1,0 +1,17 @@
+<CusCliRoot>
+<AddRoute CmdStr="ip route add" CmdGroup="0x00004010"/>
+<DelRoute CmdStr="ip route delete" CmdGroup="0x00004010"/>
+<FirewallRuleAdd CmdStr="firewall rule add" CmdGroup="0x00004010"/>
+<FirewallRuleDel CmdStr="firewall rule delete" CmdGroup="0x00004010"/>
+<FirewallRuleFlush CmdStr="firewall rule flush" CmdGroup="0x00004010"/>
+<DnsAddStatic CmdStr="dnsserver add static" CmdGroup="0x00004010"/>
+<DnsDelStatic CmdStr="dnsserver delete static" CmdGroup="0x00004010"/>
+<AddPortmapping CmdStr="nat port mapping add" CmdGroup="0x00004010"/>
+<DelPortmapping CmdStr="nat port mapping delete" CmdGroup="0x00004010"/>
+<FlushPortmapping CmdStr="nat port mapping flush" CmdGroup="0x00004010"/>
+<IPNeighAdd CmdStr="ip neigh add" CmdGroup="0x00004010"/>
+<IPNeighDel CmdStr="ip neigh delete" CmdGroup="0x00004010"/>
+<IPNeighFlush CmdStr="ip neigh flush" CmdGroup="0x00004010"/>
+
+<SetTr069info CmdStr="set tr069 info" CmdGroup="0x00004010"/>
+</CusCliRoot>

@@ -1,0 +1,45 @@
+# Decoded from: etc/app/monitor_app/cfg/monitor_ttree.bin
+# Magic: 0xa4b6c5d7
+# Size: 902 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  &J% GK% G
+  InternetGatewayDevice
+  X_HW_Collect
+  FT_COLLECT_MONITOR_REPORT
+  X_HW_CollectMonitor
+  FT_COLLECT_MONITOR_REPORT
+  Enable
+  FtpServerAddress
+  FTPServerPort
+  FTPMode
+  FTPUsername
+  FTPPassword
+  CollectPeriod
+  ReportPeriod
+  cwmp
+  cms
+  HW<
+
+## All Strings (offset, value):
+
+  @0x0092: &J% GK% G
+  @0x0139: InternetGatewayDevice
+  @0x014f: X_HW_Collect
+  @0x015c: FT_COLLECT_MONITOR_REPORT
+  @0x0176: X_HW_CollectMonitor
+  @0x018a: FT_COLLECT_MONITOR_REPORT
+  @0x01a4: Enable
+  @0x01ab: FtpServerAddress
+  @0x01bc: FTPServerPort
+  @0x01ca: FTPMode
+  @0x01d2: FTPUsername
+  @0x01de: FTPPassword
+  @0x01ea: CollectPeriod
+  @0x01f8: ReportPeriod
+  @0x0205: cwmp
+  @0x020a: cms
+  @0x0213: 0xFFFFFFFF
+  @0x022f: HW<

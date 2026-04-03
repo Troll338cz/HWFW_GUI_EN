@@ -1,0 +1,69 @@
+# Decoded from: etc/app/cwmp_uinfo_a_app/cfg/cwmp_uinfo_a_ttree.bin
+# Magic: 0xa4b6c5d7
+# Size: 1442 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  InternetGatewayDevice
+  X_HW_UserInfo
+  UserName
+  UserId
+  Status
+  Limit
+  Times
+  Result
+  X_HW_InformStatus
+  X_HW_AcsCnnctSatus
+  ForceSupport
+  SameWithPonInfo
+  JSCT_UserName
+  X_HW_TimeoutState
+  ProvisioningCode
+  ServiceNum
+  ConfigureStatus
+  Password
+  X_HW_RmsRegType
+  Desc
+  X_HW_RegisterMode
+  ssmp
+  cms
+  6877687712345678
+  NONE
+  8#^
+  X+!
+  4t`
+  e&m
+
+## All Strings (offset, value):
+
+  @0x01ef: InternetGatewayDevice
+  @0x0205: X_HW_UserInfo
+  @0x0213: UserName
+  @0x021c: UserId
+  @0x0223: Status
+  @0x022a: Limit
+  @0x0230: Times
+  @0x0236: Result
+  @0x023d: X_HW_InformStatus
+  @0x024f: X_HW_AcsCnnctSatus
+  @0x0262: ForceSupport
+  @0x026f: SameWithPonInfo
+  @0x027f: JSCT_UserName
+  @0x028d: X_HW_TimeoutState
+  @0x029f: ProvisioningCode
+  @0x02b0: ServiceNum
+  @0x02bb: ConfigureStatus
+  @0x02cb: Password
+  @0x02d4: X_HW_RmsRegType
+  @0x02e4: Desc
+  @0x02e9: X_HW_RegisterMode
+  @0x02fb: ssmp
+  @0x0300: cms
+  @0x0309: 0xFFFFFFFF
+  @0x031d: 6877687712345678
+  @0x032e: NONE
+  @0x0370: 8#^
+  @0x03a0: X+!
+  @0x03b8: 4t`
+  @0x03ce: e&m

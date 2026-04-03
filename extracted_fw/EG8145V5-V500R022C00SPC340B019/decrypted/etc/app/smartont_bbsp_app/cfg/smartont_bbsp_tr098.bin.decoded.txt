@@ -1,0 +1,18 @@
+# Decoded from: etc/app/smartont_bbsp_app/cfg/smartont_bbsp_tr098.bin
+# Magic: 0xa1b3c2d4
+# Size: 179 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  IGD.X_HW_NetInfo_Acquisition.
+  UserAgentEnable
+  zM3w
+  zM3w
+
+## All Strings (offset, value):
+
+  @0x0044: IGD.X_HW_NetInfo_Acquisition.
+  @0x0062: UserAgentEnable
+  @0x0079: zM3w
+  @0x008a: zM3w

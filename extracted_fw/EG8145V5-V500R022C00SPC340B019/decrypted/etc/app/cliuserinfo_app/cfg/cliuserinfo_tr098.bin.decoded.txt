@@ -1,0 +1,20 @@
+# Decoded from: etc/app/cliuserinfo_app/cfg/cliuserinfo_tr098.bin
+# Magic: 0xa1b3c2d4
+# Size: 235 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  IGD.UserInterface.X_HW_CLIUserInfo.
+  Username
+  Userpassword
+  [t4
+  [t4
+
+## All Strings (offset, value):
+
+  @0x004e: IGD.UserInterface.X_HW_CLIUserInfo.
+  @0x0072: Username
+  @0x007b: Userpassword
+  @0x0096: [t4
+  @0x00ad: [t4

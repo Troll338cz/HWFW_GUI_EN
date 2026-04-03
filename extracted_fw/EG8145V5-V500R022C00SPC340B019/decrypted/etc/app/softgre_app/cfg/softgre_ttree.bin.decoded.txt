@@ -1,0 +1,191 @@
+# Decoded from: etc/app/softgre_app/cfg/softgre_ttree.bin
+# Magic: 0xa4b6c5d7
+# Size: 2400 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  -,&0S0H1S0H
+  ,.0
+  0H1
+  0H2
+  0H3
+  0H4
+  ,.5
+  0H6
+  0H7
+  0H8
+  0H9
+  ,&:
+  0H;
+  ,.<
+  0H=
+  0H>
+  0H?
+  0HG
+  K8&E
+  -,&
+  ,.
+  ,.-
+  ,.=
+  ,.I
+  ,.b
+  ,.i
+  ,.
+  ,.s
+  ,.w
+  ,.
+  ,.{
+  K8&
+  K8&
+  InternetGatewayDevice
+  X_HW_GRETunnelGlobalConfig
+  BBSP_FT_SOFTGRE
+  AutoEgressEnable
+  X_HW_GRETunnel
+  BBSP_FT_SOFTGRE
+  Enable
+  Name
+  Type
+  EgressInterface
+  EgressMode
+  EgressPriPolicy
+  RemoteAddressAcquisitionMode
+  RemoteAddress
+  DSCPMarkPolicy
+  DefaultDSCPMark
+  TcpMssClamping
+  X_HW_KeepaliveIntervals
+  X_HW_RetryIntervals
+  IngressInterface
+  BBSP_FT_SOFTGRE
+  InterfaceName
+  VLANTaggingEnable
+  VLANID
+  PriPolicy
+  Pri
+  IngressQoS
+  BBSP_FT_SOFTGRE
+  DefaultDSCPMark
+  Rule
+  BBSP_FT_SOFTGRE
+  Destination
+  DSCPMark
+  Status
+  BBSP_FT_SOFTGRE
+  EgressInterfaceStatus
+  RemoteIP
+  cwmp
+  bbsp
+  EthernetOverGRE
+  Independent
+  CopyFromIngressInterface
+  Static
+  Specified
+  300
+  300
+  Specified
+  Unconfigured
+  s@{
+  =77
+  M=4S
+  tka$
+  K8&
+  K8&
+  K8&
+  -,&
+  -,&
+
+## All Strings (offset, value):
+
+  @0x006a: -,&0S0H1S0H
+  @0x009a: ,.0
+  @0x009e: 0H1
+  @0x00a2: 0H2
+  @0x00a6: 0H3
+  @0x00aa: 0H4
+  @0x00cb: ,.5
+  @0x00cf: 0H6
+  @0x00d3: 0H7
+  @0x00d7: 0H8
+  @0x00db: 0H9
+  @0x00fc: ,&:
+  @0x0100: 0H;
+  @0x0127: ,.<
+  @0x012b: 0H=
+  @0x012f: 0H>
+  @0x0133: 0H?
+  @0x0137: 0HG
+  @0x0154: K8&E
+  @0x0175: -,&
+  @0x018a: ,. 
+  @0x01b4: ,.-
+  @0x01db: ,.=
+  @0x01ef: ,.I
+  @0x0203: ,.b
+  @0x022b: ,.i
+  @0x0253: ,. 
+  @0x0268: ,.s
+  @0x027e: ,.w
+  @0x02bb: ,. 
+  @0x02d0: ,.{
+  @0x032d: K8&
+  @0x033f: K8&
+  @0x0349: InternetGatewayDevice
+  @0x035f: X_HW_GRETunnelGlobalConfig
+  @0x037a: BBSP_FT_SOFTGRE
+  @0x038a: AutoEgressEnable
+  @0x039b: X_HW_GRETunnel
+  @0x03aa: BBSP_FT_SOFTGRE
+  @0x03ba: Enable
+  @0x03c1: Name
+  @0x03c6: Type
+  @0x03cb: EgressInterface
+  @0x03db: EgressMode
+  @0x03e6: EgressPriPolicy
+  @0x03f6: RemoteAddressAcquisitionMode
+  @0x0413: RemoteAddress
+  @0x0421: DSCPMarkPolicy
+  @0x0430: DefaultDSCPMark
+  @0x0440: TcpMssClamping
+  @0x044f: X_HW_KeepaliveIntervals
+  @0x0467: X_HW_RetryIntervals
+  @0x047b: IngressInterface
+  @0x048c: BBSP_FT_SOFTGRE
+  @0x049c: InterfaceName
+  @0x04aa: VLANTaggingEnable
+  @0x04bc: VLANID
+  @0x04c3: PriPolicy
+  @0x04cd: Pri
+  @0x04d1: IngressQoS
+  @0x04dc: BBSP_FT_SOFTGRE
+  @0x04ec: DefaultDSCPMark
+  @0x04fc: Rule
+  @0x0501: BBSP_FT_SOFTGRE
+  @0x0511: Destination
+  @0x051d: DSCPMark
+  @0x0526: Status
+  @0x052d: BBSP_FT_SOFTGRE
+  @0x053d: EgressInterfaceStatus
+  @0x0553: RemoteIP
+  @0x055c: cwmp
+  @0x0561: bbsp
+  @0x056b: 0xFFFFFFFF
+  @0x0576: EthernetOverGRE
+  @0x0586: Independent
+  @0x0592: CopyFromIngressInterface
+  @0x05ab: Static
+  @0x05b2: Specified
+  @0x05bc: 300
+  @0x05c0: 300
+  @0x05c4: Specified
+  @0x05d4: Unconfigured
+  @0x063a: s@{
+  @0x0643: =77
+  @0x065a: M=4S
+  @0x0673: tka$
+  @0x06dd: K8&
+  @0x06e7: K8&
+  @0x06f1: K8&
+  @0x07f5: -,&
+  @0x07ff: -,&

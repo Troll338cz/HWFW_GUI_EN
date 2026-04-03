@@ -1,0 +1,60 @@
+# Decoded from: etc/app/sftp_app/cfg/CommView_tr098.bin
+# Magic: 0xa1b3c2d4
+# Size: 1073 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  HW_SSMP_FEATURE_USD
+  IGD.X_HW_SFTP.
+  IGD.X_HW_SFTP.X_HW_SFTP_ServerInfo.
+  SftpEnable
+  SftpPort
+  SftpLANEnable
+  SftpWANEnable
+  SftpStatus
+  SftpMaxDuration
+  SftpEnableTime
+  SftpMaxIdleDur
+  IGD.X_HW_SFTP.X_HW_SFTP_ClientInfo.
+  SftpUserName
+  SftpPassword
+  SftpRoorDir
+  EncryptMode
+  Permission
+  F+"
+  ],0
+  %wu
+  W?/.
+  F+"
+  ],0
+  %wu
+  W?/.
+
+## All Strings (offset, value):
+
+  @0x00f5: HW_SSMP_FEATURE_USD
+  @0x0109: IGD.X_HW_SFTP.
+  @0x0118: IGD.X_HW_SFTP.X_HW_SFTP_ServerInfo.
+  @0x013c: SftpEnable
+  @0x0147: SftpPort
+  @0x0150: SftpLANEnable
+  @0x015e: SftpWANEnable
+  @0x016c: SftpStatus
+  @0x0177: SftpMaxDuration
+  @0x0187: SftpEnableTime
+  @0x0196: SftpMaxIdleDur
+  @0x01a5: IGD.X_HW_SFTP.X_HW_SFTP_ClientInfo.
+  @0x01c9: SftpUserName
+  @0x01d6: SftpPassword
+  @0x01e3: SftpRoorDir
+  @0x01ef: EncryptMode
+  @0x01fb: Permission
+  @0x021e: F+"
+  @0x0236: ],0
+  @0x0247: %wu
+  @0x0251: W?/.
+  @0x02a9: F+"
+  @0x02c1: ],0
+  @0x02d2: %wu
+  @0x02dc: W?/.

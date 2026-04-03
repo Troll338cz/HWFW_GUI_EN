@@ -1,0 +1,167 @@
+# Decoded from: etc/app/sntp_app/cfg/sntp_ttree.bin
+# Magic: 0xa4b6c5d7
+# Size: 3798 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  @ G @ G
+  &!@ G
+  &"@ G#@ G
+  InternetGatewayDevice
+  Time
+  BBSP_FT_SNTP
+  Enable
+  Status
+  NameSpace
+  NTPServer1
+  NTPServer2
+  NTPServer3
+  NTPServer4
+  NTPServer5
+  CurrentLocalTime
+  LocalTimeZone
+  LocalTimeZoneName
+  X_HW_SynInterval
+  X_HW_WanName
+  X_HW_ExportCfgMode
+  X_HW_ExportType
+  X_HW_Interfaces
+  DaylightSavingsUsed
+  DaylightSavingsStart
+  DaylightSavingsEnd
+  X_HW_DaylightSavingsStartDate
+  X_HW_DaylightSavingsEndDate
+  X_HW_DSCP
+  X_HW_SetOrigin
+  X_HW_IPProtocolVersion
+  X_HW_SyncServer
+  X_HW_PreNTPServer2
+  X_HW_PreNTPServer3
+  X_HW_NtpStatus
+  HW_SSMP_FEATURE_PTVDF
+  X_HW_IPAddress
+  X_HW_Version
+  X_HW_Status
+  X_HW_Name
+  X_HW_Statistics
+  X_HW_RetryInterval
+  RetryInterval
+  X_HW_DEBUG
+  SMP
+  DisplaySntpInfo
+  SNTP
+  SntpAdd
+  Domain
+  SntpDel
+  Domain
+  DelAllServer
+  SetInterface
+  Interface
+  X_HW_DataModel
+  Time
+  LocalTimeZone
+  cwmp
+  cms
+  +00:00
+  Greenwich Mean Time: Dublin, Edinburgh, Lisbon, London
+  360
+  2009-8-1T00:00:00
+  2009-8-30T00:00:00
+  3/1/1/0/0/0
+  9/1/1/0/0/0
+  UTC-00:00
+  8E_
+  @&G
+  T/P
+  20w
+  #@C
+  hY}
+  e+
+  Xi`
+  bYI
+  h+|
+  F<(F
+  ghT
+
+## All Strings (offset, value):
+
+  @0x006b: @ G @ G
+  @0x0095: &!@ G
+  @0x00be: &"@ G#@ G
+  @0x051f: InternetGatewayDevice
+  @0x0535: Time
+  @0x053a: BBSP_FT_SNTP
+  @0x0547: Enable
+  @0x054e: Status
+  @0x0555: NameSpace
+  @0x055f: NTPServer1
+  @0x056a: NTPServer2
+  @0x0575: NTPServer3
+  @0x0580: NTPServer4
+  @0x058b: NTPServer5
+  @0x0596: CurrentLocalTime
+  @0x05a7: LocalTimeZone
+  @0x05b5: LocalTimeZoneName
+  @0x05c7: X_HW_SynInterval
+  @0x05d8: X_HW_WanName
+  @0x05e5: X_HW_ExportCfgMode
+  @0x05f8: X_HW_ExportType
+  @0x0608: X_HW_Interfaces
+  @0x0618: DaylightSavingsUsed
+  @0x062c: DaylightSavingsStart
+  @0x0641: DaylightSavingsEnd
+  @0x0654: X_HW_DaylightSavingsStartDate
+  @0x0672: X_HW_DaylightSavingsEndDate
+  @0x068e: X_HW_DSCP
+  @0x0698: X_HW_SetOrigin
+  @0x06a7: X_HW_IPProtocolVersion
+  @0x06be: X_HW_SyncServer
+  @0x06ce: X_HW_PreNTPServer2
+  @0x06e1: X_HW_PreNTPServer3
+  @0x06f4: X_HW_NtpStatus
+  @0x0703: HW_SSMP_FEATURE_PTVDF
+  @0x0719: X_HW_IPAddress
+  @0x0728: X_HW_Version
+  @0x0735: X_HW_Status
+  @0x0741: X_HW_Name
+  @0x074b: X_HW_Statistics
+  @0x075b: X_HW_RetryInterval
+  @0x076e: RetryInterval
+  @0x077c: X_HW_DEBUG
+  @0x0787: SMP
+  @0x078b: DisplaySntpInfo
+  @0x079b: SNTP
+  @0x07a0: SntpAdd
+  @0x07a8: Domain
+  @0x07af: SntpDel
+  @0x07b7: Domain
+  @0x07be: DelAllServer
+  @0x07cb: SetInterface
+  @0x07d8: Interface
+  @0x07e2: X_HW_DataModel
+  @0x07f1: Time
+  @0x07f6: LocalTimeZone
+  @0x0804: cwmp
+  @0x0809: cms
+  @0x0812: 0xFFFFFFFF
+  @0x081d: +00:00
+  @0x0824: Greenwich Mean Time: Dublin, Edinburgh, Lisbon, London
+  @0x085b: 360
+  @0x085f: 2009-8-1T00:00:00
+  @0x0871: 2009-8-30T00:00:00
+  @0x0884: 3/1/1/0/0/0
+  @0x0890: 9/1/1/0/0/0
+  @0x089f: UTC-00:00
+  @0x08d0: 8E_
+  @0x08ed: @&G
+  @0x08fe: T/P
+  @0x0917: 20w
+  @0x0920: #@C
+  @0x095f: hY}
+  @0x096f: e+ 
+  @0x099e: Xi`
+  @0x09a7: bYI
+  @0x09d4: h+|
+  @0x09fb: F<(F
+  @0x0a0e: ghT

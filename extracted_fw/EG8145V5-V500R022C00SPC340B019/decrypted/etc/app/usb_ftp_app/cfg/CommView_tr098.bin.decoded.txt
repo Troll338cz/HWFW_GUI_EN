@@ -1,0 +1,24 @@
+# Decoded from: etc/app/usb_ftp_app/cfg/CommView_tr098.bin
+# Magic: 0xa1b3c2d4
+# Size: 405 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  HW_SSMP_FEATURE_USD
+  IGD.X_HW_ServiceManage.
+  FtpEnable
+  FtpUserName
+  FtpPassword
+  FtpPort
+  FtpRoorDir
+
+## All Strings (offset, value):
+
+  @0x006e: HW_SSMP_FEATURE_USD
+  @0x0082: IGD.X_HW_ServiceManage.
+  @0x009a: FtpEnable
+  @0x00a4: FtpUserName
+  @0x00b0: FtpPassword
+  @0x00bc: FtpPort
+  @0x00c4: FtpRoorDir

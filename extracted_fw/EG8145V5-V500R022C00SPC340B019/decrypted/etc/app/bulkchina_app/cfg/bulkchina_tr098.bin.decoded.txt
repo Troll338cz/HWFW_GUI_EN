@@ -1,0 +1,92 @@
+# Decoded from: etc/app/bulkchina_app/cfg/bulkchina_tr098.bin
+# Magic: 0xa1b3c2d4
+# Size: 2447 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  HW_SSMP_FEATURE_MONITORCOLL
+  FT_HTTPGET_DIAG
+  IGD.DeviceInfo.X_HW_Alarm.
+  Enable
+  AlarmNumberOfEntries
+  AlarmNumber
+  EventTime
+  IGD.DeviceInfo.X_HW_Alarm.MonitorConfig.
+  ParaList
+  TimeList
+  IGD.DeviceInfo.X_HW_Alarm.AlarmConfig.
+  Limit-Max
+  Limit-Min
+  Mode
+  IGD.DeviceInfo.X_HW_MonitorCollector.
+  ServerUrl
+  TftpPort
+  MonitorNumberOfEntries
+  Protocol
+  Username
+  Password
+  IGD.DeviceInfo.X_HW_MonitorCollector.MonitorConfig.
+  IGD.DeviceInfo.X_HW_Monitor.
+  IGD.X_HW_HttpGetDiagnostics.
+  DiagnosticsState
+  Interface
+  URL
+  HttpVersion
+  NumberOfRepetitions
+  Timeout
+  SuccessCount
+  FailureCount
+  MinimumResponseTime
+  MaximumResponseTime
+  AverageResponseTime
+  @q8
+  Q+2
+  \Rx
+  @q8
+  Q+2
+  \Rx
+
+## All Strings (offset, value):
+
+  @0x020f: HW_SSMP_FEATURE_MONITORCOLL
+  @0x022b: FT_HTTPGET_DIAG
+  @0x023b: IGD.DeviceInfo.X_HW_Alarm.
+  @0x0256: Enable
+  @0x025d: AlarmNumberOfEntries
+  @0x0272: AlarmNumber
+  @0x027e: EventTime
+  @0x0288: IGD.DeviceInfo.X_HW_Alarm.MonitorConfig.
+  @0x02b1: ParaList
+  @0x02ba: TimeList
+  @0x02c3: IGD.DeviceInfo.X_HW_Alarm.AlarmConfig.
+  @0x02ea: Limit-Max
+  @0x02f4: Limit-Min
+  @0x02fe: Mode
+  @0x0303: IGD.DeviceInfo.X_HW_MonitorCollector.
+  @0x0329: ServerUrl
+  @0x0333: TftpPort
+  @0x033c: MonitorNumberOfEntries
+  @0x0353: Protocol
+  @0x035c: Username
+  @0x0365: Password
+  @0x036e: IGD.DeviceInfo.X_HW_MonitorCollector.MonitorConfig.
+  @0x03a2: IGD.DeviceInfo.X_HW_Monitor.
+  @0x03bf: IGD.X_HW_HttpGetDiagnostics.
+  @0x03dc: DiagnosticsState
+  @0x03ed: Interface
+  @0x03f7: URL
+  @0x03fb: HttpVersion
+  @0x0407: NumberOfRepetitions
+  @0x041b: Timeout
+  @0x0423: SuccessCount
+  @0x0430: FailureCount
+  @0x043d: MinimumResponseTime
+  @0x0451: MaximumResponseTime
+  @0x0465: AverageResponseTime
+  @0x04d6: @q8
+  @0x04e8: Q+2
+  @0x0569: \Rx
+  @0x0612: @q8
+  @0x0624: Q+2
+  @0x06a5: \Rx

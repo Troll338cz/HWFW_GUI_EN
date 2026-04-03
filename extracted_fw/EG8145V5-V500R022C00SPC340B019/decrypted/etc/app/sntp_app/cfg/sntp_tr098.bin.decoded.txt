@@ -1,0 +1,94 @@
+# Decoded from: etc/app/sntp_app/cfg/sntp_tr098.bin
+# Magic: 0xa1b3c2d4
+# Size: 1565 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  BBSP_FT_SNTP
+  HW_SSMP_FEATRUE_DBAA1
+  HW_SSMP_FEATURE_PTVDF
+  IGD.Time.
+  Enable
+  Status
+  NTPServer1
+  NTPServer2
+  NTPServer3
+  NTPServer4
+  NTPServer5
+  CurrentLocalTime
+  LocalTimeZone
+  LocalTimeZoneName
+  X_HW_SynInterval
+  X_HW_WanName
+  X_HW_ExportCfgMode
+  X_HW_ExportType
+  DaylightSavingsUsed
+  DaylightSavingsStart
+  DaylightSavingsEnd
+  X_HW_SyncServer
+  IGD.Time.X_HW_NtpStatus.
+  X_HW_IPAddress
+  X_HW_Version
+  X_HW_Status
+  X_HW_Name
+  X_HW_Statistics
+  mnL
+  e+
+  bYI
+  @&G
+  T/P
+  #@C
+  F<(F
+  mnL
+  e+
+  bYI
+  @&G
+  T/P
+  #@C
+  F<(F
+
+## All Strings (offset, value):
+
+  @0x0141: BBSP_FT_SNTP
+  @0x014e: HW_SSMP_FEATRUE_DBAA1
+  @0x0164: HW_SSMP_FEATURE_PTVDF
+  @0x017a: IGD.Time.
+  @0x0184: Enable
+  @0x018b: Status
+  @0x0192: NTPServer1
+  @0x019d: NTPServer2
+  @0x01a8: NTPServer3
+  @0x01b3: NTPServer4
+  @0x01be: NTPServer5
+  @0x01c9: CurrentLocalTime
+  @0x01da: LocalTimeZone
+  @0x01e8: LocalTimeZoneName
+  @0x01fa: X_HW_SynInterval
+  @0x020b: X_HW_WanName
+  @0x0218: X_HW_ExportCfgMode
+  @0x022b: X_HW_ExportType
+  @0x023b: DaylightSavingsUsed
+  @0x024f: DaylightSavingsStart
+  @0x0264: DaylightSavingsEnd
+  @0x0277: X_HW_SyncServer
+  @0x0287: IGD.Time.X_HW_NtpStatus.
+  @0x02a0: X_HW_IPAddress
+  @0x02af: X_HW_Version
+  @0x02bc: X_HW_Status
+  @0x02c8: X_HW_Name
+  @0x02d2: X_HW_Statistics
+  @0x0304: mnL
+  @0x030d: e+ 
+  @0x0326: bYI
+  @0x032f: @&G
+  @0x0365: T/P
+  @0x0381: #@C
+  @0x038a: F<(F
+  @0x03d5: mnL
+  @0x03de: e+ 
+  @0x03f7: bYI
+  @0x0400: @&G
+  @0x0436: T/P
+  @0x0452: #@C
+  @0x045b: F<(F

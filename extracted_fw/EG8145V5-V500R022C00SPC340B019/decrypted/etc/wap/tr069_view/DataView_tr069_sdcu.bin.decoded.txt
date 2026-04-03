@@ -1,0 +1,100 @@
+# Decoded from: etc/wap/tr069_view/DataView_tr069_sdcu.bin
+# Magic: 0xa1b3c2d4
+# Size: 6554 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.
+  IGD.DeviceInfo.X_HW_USBPlugin.
+  IGD.LANDevice.WiFi.Radio.X_HW_WLANSTABoost.
+  IGD.LANDevice.WiFi.X_HW_GlobalConfig.
+  IGD.X_HW_APDevice.
+  IGD.X_HW_SmartCAT.
+  IGD.X_HW_CHL_SCAN.
+  IGD.X_HW_SmartTopo.
+  IGD.X_HW_WiFiDiagnostic.
+  IGD.LANDevice.1.WiFi.X_HW_WallModeForChina.
+  IGD.Layer3Forwarding.X_HW_CurrentForwarding.
+  IGD.DeviceInfo
+  X_HW_BatteryStatus
+  IGD.WANDevice.WANConnectionDevice.WANPPPConnection.X_HW_IPv6.IPv6Prefix
+  X_HW_E8C_ChildPrefixBits
+  IGD.WANDevice.WANConnectionDevice.WANPPPConnection.X_HW_IPv6.IPv6Address
+  X_HW_E8C_DnsIpAddr
+  IGD.LANDevice.LANEthernetInterfaceConfig
+  MaxBitRate
+  IGD.LANDevice.WiFi
+  X_HW_Txpower
+  FT_MODIFY_CDN
+  FT_SUPPORT_UNICOM_EWCODE
+  FT_F5G_TR069_ACCESS
+  HW_AMP_FEATURE_WLAN
+  IGD.DeviceInfo.
+  X_HW_BatteryStatus
+  IGD.DeviceInfo.X_HW_CDN.
+  IGD.DeviceInfo|X_HW_CDN|.
+  Enable
+  IGD.DeviceInfo.X_HW_USBPlugin.Enable
+  IGD.X_CU_Function.
+  IGD.X_HW_DataModel.InformEwcodeCtrl.
+  Ewcode
+  IGD.LANDevice.LANEthernetInterfaceConfig.
+  MaxBitRate
+  IGD.X_HW_NSS.
+  IGD.X_HW_NSS.X_HW_IPTrafficList.
+  WanType
+  Device
+  DestIPMaskList
+  IGD.X_HW_WifiCoverService.
+  WpS
+  ~Z$L
+  X<c
+
+## All Strings (offset, value):
+
+  @0x0010: IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.
+  @0x0110: IGD.DeviceInfo.X_HW_USBPlugin.
+  @0x0210: IGD.LANDevice.WiFi.Radio.X_HW_WLANSTABoost.
+  @0x0310: IGD.LANDevice.WiFi.X_HW_GlobalConfig.
+  @0x0410: IGD.X_HW_APDevice.
+  @0x0510: IGD.X_HW_SmartCAT.
+  @0x0610: IGD.X_HW_CHL_SCAN.
+  @0x0710: IGD.X_HW_SmartTopo.
+  @0x0810: IGD.X_HW_WiFiDiagnostic.
+  @0x0910: IGD.LANDevice.1.WiFi.X_HW_WallModeForChina.
+  @0x0a10: IGD.Layer3Forwarding.X_HW_CurrentForwarding.
+  @0x0b10: IGD.DeviceInfo
+  @0x0c10: X_HW_BatteryStatus
+  @0x0d10: IGD.WANDevice.WANConnectionDevice.WANPPPConnection.X_HW_IPv6.IPv6Prefix
+  @0x0e10: X_HW_E8C_ChildPrefixBits
+  @0x0f10: IGD.WANDevice.WANConnectionDevice.WANPPPConnection.X_HW_IPv6.IPv6Address
+  @0x1010: X_HW_E8C_DnsIpAddr
+  @0x1110: IGD.LANDevice.LANEthernetInterfaceConfig
+  @0x1210: MaxBitRate
+  @0x1310: IGD.LANDevice.WiFi
+  @0x1410: X_HW_Txpower
+  @0x161b: FT_MODIFY_CDN
+  @0x1629: FT_SUPPORT_UNICOM_EWCODE
+  @0x1642: FT_F5G_TR069_ACCESS
+  @0x1656: HW_AMP_FEATURE_WLAN
+  @0x166a: IGD.DeviceInfo.
+  @0x167a: X_HW_BatteryStatus
+  @0x168d: IGD.DeviceInfo.X_HW_CDN.
+  @0x16a6: IGD.DeviceInfo|X_HW_CDN|.
+  @0x16c0: Enable
+  @0x16c7: IGD.DeviceInfo.X_HW_USBPlugin.Enable
+  @0x16ec: IGD.X_CU_Function.
+  @0x16ff: IGD.X_HW_DataModel.InformEwcodeCtrl.
+  @0x1724: Ewcode
+  @0x172b: IGD.LANDevice.LANEthernetInterfaceConfig.
+  @0x1755: MaxBitRate
+  @0x1760: IGD.X_HW_NSS.
+  @0x176e: IGD.X_HW_NSS.X_HW_IPTrafficList.
+  @0x178f: WanType
+  @0x1797: Device
+  @0x179e: DestIPMaskList
+  @0x17ad: IGD.X_HW_WifiCoverService.
+  @0x1812: WpS
+  @0x1876: ~Z$L
+  @0x18ba: X<c

@@ -1,0 +1,150 @@
+# Decoded from: etc/wap/tr069_view/DataView_tr069_netlife.bin
+# Magic: 0xa1b3c2d4
+# Size: 3447 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  BBSP_FT_PARENTAL_CONTROL
+  BBSP_FT_URLFIL
+  IGD.X_HW_Security.
+  WlanMacFilterPolicy
+  WlanMacFilterRight
+  IGD.X_HW_Security.WLANMacFilter.
+  Enable
+  SSIDName
+  SourceMACAddress
+  DeviceName
+  IGD.X_HW_Security.ParentalCtrl.
+  IGD.X_HW_Security.ParentalCtrl.MAC.
+  MACAddress
+  Description
+  TemplateInst
+  IGD.X_HW_Security.ParentalCtrl.Templates.
+  Name
+  UrlFilterPolicy
+  UrlFilterRight
+  StartDate
+  EndDate
+  URLCategoryFilterList
+  IGD.X_HW_Security.ParentalCtrl.Templates.Duration.
+  StartTime
+  EndTime
+  RepeatDay
+  IGD.X_HW_Security.ParentalCtrl.Templates.UrlFilter.
+  UrlAddress
+  IGD.X_HW_Security.ParentalCtrl.Templates.Stats.
+  PacketsBlockedByTime_High
+  PacketsBlockedByTime_Low
+  PacketsBlockedByUrl_High
+  PacketsBlockedByUrl_Low
+  IGD.X_HW_Security.MacFilter.
+  DestMACAddress
+  Days
+  DeviceAlias
+  IGD.X_HW_Security.IpFilterIn.
+  IGD.X_HW_Security.IpFilterOut.
+  SourceIPStart
+  SourceIPEnd
+  DestIPStart
+  DestIPEnd
+  Protocol
+  SourcePortStart
+  SourcePortEnd
+  DestPortStart
+  DestPortEnd
+  0!W|+
+  D)N
+  kyNu
+  4ZZ
+  EqO
+  dAG
+  0}e
+  V7h!
+  V<r
+  #E($
+  --I
+  0!W|+
+  D)N
+  kyNu
+  4ZZ
+  EqO
+  dAG
+  0}e
+  V7h!
+  V<r
+  #E($
+  --I
+
+## All Strings (offset, value):
+
+  @0x02d7: BBSP_FT_PARENTAL_CONTROL
+  @0x02f0: BBSP_FT_URLFIL
+  @0x02ff: IGD.X_HW_Security.
+  @0x0312: WlanMacFilterPolicy
+  @0x0326: WlanMacFilterRight
+  @0x0339: IGD.X_HW_Security.WLANMacFilter.
+  @0x035a: Enable
+  @0x0361: SSIDName
+  @0x036a: SourceMACAddress
+  @0x037b: DeviceName
+  @0x0386: IGD.X_HW_Security.ParentalCtrl.
+  @0x03a6: IGD.X_HW_Security.ParentalCtrl.MAC.
+  @0x03ca: MACAddress
+  @0x03d5: Description
+  @0x03e1: TemplateInst
+  @0x03ee: IGD.X_HW_Security.ParentalCtrl.Templates.
+  @0x0418: Name
+  @0x041d: UrlFilterPolicy
+  @0x042d: UrlFilterRight
+  @0x043c: StartDate
+  @0x0446: EndDate
+  @0x044e: URLCategoryFilterList
+  @0x0464: IGD.X_HW_Security.ParentalCtrl.Templates.Duration.
+  @0x0497: StartTime
+  @0x04a1: EndTime
+  @0x04a9: RepeatDay
+  @0x04b3: IGD.X_HW_Security.ParentalCtrl.Templates.UrlFilter.
+  @0x04e7: UrlAddress
+  @0x04f2: IGD.X_HW_Security.ParentalCtrl.Templates.Stats.
+  @0x0522: PacketsBlockedByTime_High
+  @0x053c: PacketsBlockedByTime_Low
+  @0x0555: PacketsBlockedByUrl_High
+  @0x056e: PacketsBlockedByUrl_Low
+  @0x0586: IGD.X_HW_Security.MacFilter.
+  @0x05a3: DestMACAddress
+  @0x05b2: Days
+  @0x05b7: DeviceAlias
+  @0x05c3: IGD.X_HW_Security.IpFilterIn.
+  @0x05e1: IGD.X_HW_Security.IpFilterOut.
+  @0x0600: SourceIPStart
+  @0x060e: SourceIPEnd
+  @0x061a: DestIPStart
+  @0x0626: DestIPEnd
+  @0x0630: Protocol
+  @0x0639: SourcePortStart
+  @0x0649: SourcePortEnd
+  @0x0657: DestPortStart
+  @0x0665: DestPortEnd
+  @0x0679: 0!W|+
+  @0x068d: D)N
+  @0x06a5: kyNu
+  @0x06b7: 4ZZ
+  @0x0703: EqO
+  @0x070c: dAG
+  @0x0734: 0}e 
+  @0x0786: V7h!
+  @0x07f1: V<r
+  @0x07fb: #E($
+  @0x0804: --I
+  @0x0832: 0!W|+
+  @0x0846: D)N
+  @0x085e: kyNu
+  @0x0870: 4ZZ
+  @0x08bc: EqO
+  @0x08c5: dAG
+  @0x08ed: 0}e 
+  @0x093f: V7h!
+  @0x09aa: V<r
+  @0x09b4: #E($
+  @0x09bd: --I

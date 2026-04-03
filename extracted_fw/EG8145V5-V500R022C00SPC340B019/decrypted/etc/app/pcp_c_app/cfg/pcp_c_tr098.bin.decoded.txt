@@ -1,0 +1,60 @@
+# Decoded from: etc/app/pcp_c_app/cfg/pcp_c_tr098.bin
+# Magic: 0xa1b3c2d4
+# Size: 1209 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  BBSP_FT_PCP
+  IGD.X_HW_PCP.
+  Enable
+  Interface
+  PlainMode
+  ServerAddress
+  UsedServerAddress
+  IGD.X_HW_PCP.PCPMapping.
+  InternalAddress
+  InternalPort
+  Protocol
+  RequiredExternalAddress
+  RequiredExternalPort
+  AllowProposal
+  Origin
+  ExternalAddress
+  ExternalPort
+  Status
+  ErrorCode
+  Lifetime
+  Description
+  ,C|
+  |R<
+  ,C|
+  |R<
+
+## All Strings (offset, value):
+
+  @0x0108: BBSP_FT_PCP
+  @0x0114: IGD.X_HW_PCP.
+  @0x0122: Enable
+  @0x0129: Interface
+  @0x0133: PlainMode
+  @0x013d: ServerAddress
+  @0x014b: UsedServerAddress
+  @0x015d: IGD.X_HW_PCP.PCPMapping.
+  @0x0176: InternalAddress
+  @0x0186: InternalPort
+  @0x0193: Protocol
+  @0x019c: RequiredExternalAddress
+  @0x01b4: RequiredExternalPort
+  @0x01c9: AllowProposal
+  @0x01d7: Origin
+  @0x01de: ExternalAddress
+  @0x01ee: ExternalPort
+  @0x01fb: Status
+  @0x0202: ErrorCode
+  @0x020c: Lifetime
+  @0x0215: Description
+  @0x0231: ,C|
+  @0x026b: |R<
+  @0x02d4: ,C|
+  @0x030e: |R<

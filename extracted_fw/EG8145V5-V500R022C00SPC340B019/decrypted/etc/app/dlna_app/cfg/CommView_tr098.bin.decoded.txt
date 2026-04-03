@@ -1,0 +1,18 @@
+# Decoded from: etc/app/dlna_app/cfg/CommView_tr098.bin
+# Magic: 0xa1b3c2d4
+# Size: 245 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  HW_SSMP_FEATURE_DLNA
+  IGD.Services.X_HW_DmsService.
+  Enable
+  EnableIPv6
+
+## All Strings (offset, value):
+
+  @0x004c: HW_SSMP_FEATURE_DLNA
+  @0x0061: IGD.Services.X_HW_DmsService.
+  @0x007f: Enable
+  @0x0086: EnableIPv6

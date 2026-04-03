@@ -1,0 +1,156 @@
+# Decoded from: etc/app/softgre_app/cfg/softgre_tr181.bin
+# Magic: 0xa1b3c2d4
+# Size: 3475 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  +Device.GRE.
+  IGD.X_HW_DataModel.GRE.
+  TunnelNumberOfEntries
+  FilterNumberOfEntries
+  Device.GRE.Tunnel.
+  IGD.X_HW_DataModel.GRE.Tunnel.
+  Enable
+  Status
+  Alias
+  RemoteEndpoints
+  KeepAlivePolicy
+  KeepAliveTimeout
+  KeepAliveThreshold
+  DeliveryHeaderProtocol
+  DefaultDSCPMark
+  ConnectedRemoteEndpoint
+  InterfaceNumberOfEntries
+  X_HW_EgressPriPolicy
+  Device.GRE.Tunnel.Stats.
+  IGD.X_HW_DataModel.GRE.Tunnel.Stats.
+  KeepAliveSent
+  KeepAliveReceived
+  BytesSent
+  BytesReceived
+  PacketsSent
+  PacketsReceived
+  ErrorsSent
+  ErrorsReceived
+  Device.GRE.Tunnel.Interface.
+  IGD.X_HW_DataModel.GRE.Tunnel.Interface.
+  Name
+  LastChange
+  LowerLayers
+  ProtocolIdOverride
+  UseChecksum
+  KeyIdentifierGenerationPolicy
+  KeyIdentifier
+  UseSequenceNumber
+  Device.GRE.Tunnel.Interface.Stats.
+  IGD.X_HW_DataModel.GRE.Tunnel.Interface.Stats.
+  DiscardChecksumReceived
+  DiscardSequenceNumberReceived
+  Device.GRE.Filter.
+  IGD.X_HW_DataModel.GRE.Filter.
+  Order
+  Interface
+  AllInterfaces
+  VLANIDCheck
+  VLANIDExclude
+  DSCPMarkPolicy
+  On
+  MC)
+  U<z%
+  gGl
+  #N&
+  M{0
+  .L$
+  [`p
+  )g'
+  }<1
+  cG1*
+  oWp(
+  e!
+  8-r
+  X]a
+  tO!
+  Dl$
+  2Y,
+  w&v
+  od'
+  C:\
+  ~M*
+  . j
+
+## All Strings (offset, value):
+
+  @0x028b: +Device.GRE.
+  @0x0298: IGD.X_HW_DataModel.GRE.
+  @0x02b0: TunnelNumberOfEntries
+  @0x02c6: FilterNumberOfEntries
+  @0x02dc: Device.GRE.Tunnel.
+  @0x02ef: IGD.X_HW_DataModel.GRE.Tunnel.
+  @0x030e: Enable
+  @0x0315: Status
+  @0x031c: Alias
+  @0x0322: RemoteEndpoints
+  @0x0332: KeepAlivePolicy
+  @0x0342: KeepAliveTimeout
+  @0x0353: KeepAliveThreshold
+  @0x0366: DeliveryHeaderProtocol
+  @0x037d: DefaultDSCPMark
+  @0x038d: ConnectedRemoteEndpoint
+  @0x03a5: InterfaceNumberOfEntries
+  @0x03be: X_HW_EgressPriPolicy
+  @0x03d3: Device.GRE.Tunnel.Stats.
+  @0x03ec: IGD.X_HW_DataModel.GRE.Tunnel.Stats.
+  @0x0411: KeepAliveSent
+  @0x041f: KeepAliveReceived
+  @0x0431: BytesSent
+  @0x043b: BytesReceived
+  @0x0449: PacketsSent
+  @0x0455: PacketsReceived
+  @0x0465: ErrorsSent
+  @0x0470: ErrorsReceived
+  @0x047f: Device.GRE.Tunnel.Interface.
+  @0x049c: IGD.X_HW_DataModel.GRE.Tunnel.Interface.
+  @0x04c5: Name
+  @0x04ca: LastChange
+  @0x04d5: LowerLayers
+  @0x04e1: ProtocolIdOverride
+  @0x04f4: UseChecksum
+  @0x0500: KeyIdentifierGenerationPolicy
+  @0x051e: KeyIdentifier
+  @0x052c: UseSequenceNumber
+  @0x053e: Device.GRE.Tunnel.Interface.Stats.
+  @0x0561: IGD.X_HW_DataModel.GRE.Tunnel.Interface.Stats.
+  @0x0590: DiscardChecksumReceived
+  @0x05a8: DiscardSequenceNumberReceived
+  @0x05c6: Device.GRE.Filter.
+  @0x05d9: IGD.X_HW_DataModel.GRE.Filter.
+  @0x05f8: Order
+  @0x05fe: Interface
+  @0x0608: AllInterfaces
+  @0x0616: VLANIDCheck
+  @0x0622: VLANIDExclude
+  @0x0630: DSCPMarkPolicy
+  @0x0659: On 
+  @0x0668: MC)
+  @0x0688: U<z%
+  @0x06b8: gGl
+  @0x06d8: #N&
+  @0x0710: M{0
+  @0x072f: .L$
+  @0x075f: [`p
+  @0x076e: )g'
+  @0x0793: }<1
+  @0x07e6: cG1*
+  @0x07ef: oWp(
+  @0x081f: e! 
+  @0x086e: 8-r
+  @0x0877: X]a
+  @0x08a4: tO!
+  @0x08e9: Dl$
+  @0x0907: 2Y,
+  @0x092e: w&v
+  @0x0946: od'
+  @0x0966: C:\
+  @0x097e:  ~M*
+  @0x09a5: . j

@@ -1,0 +1,7 @@
+<CusCliRoot>
+<SetWlanEnable CmdStr="set wlan enable" CmdGroup=""/>
+<SetWlanBasic CmdStr="set wlan basic" CmdGroup=""/>
+<SetWlanAdvance CmdStr="set wlan advance" CmdGroup=""/>
+<saveData CmdStr="save data" CmdGroup=""/>
+<SetSSID CmdStr="set ssid" CmdGroup=""/>
+</CusCliRoot>

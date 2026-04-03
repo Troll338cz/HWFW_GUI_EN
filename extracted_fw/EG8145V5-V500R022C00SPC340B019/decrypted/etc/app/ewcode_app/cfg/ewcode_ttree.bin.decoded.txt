@@ -1,0 +1,41 @@
+# Decoded from: etc/app/ewcode_app/cfg/ewcode_ttree.bin
+# Magic: 0xa4b6c5d7
+# Size: 752 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  InternetGatewayDevice
+  Ewcode
+  FT_REDIRECT_EWCODE
+  Enable
+  ServerURL
+  Encryption
+  FaultReporting
+  FT_REDIRECT_FAULT_REPORTING
+  Enabled
+  OperationsName
+  OperationsNumber
+  cwmp
+  cms
+  f`M%
+  rK!
+
+## All Strings (offset, value):
+
+  @0x011a: InternetGatewayDevice
+  @0x0130: Ewcode
+  @0x0137: FT_REDIRECT_EWCODE
+  @0x014a: Enable
+  @0x0151: ServerURL
+  @0x015b: Encryption
+  @0x0166: FaultReporting
+  @0x0175: FT_REDIRECT_FAULT_REPORTING
+  @0x0191: Enabled
+  @0x0199: OperationsName
+  @0x01a8: OperationsNumber
+  @0x01b9: cwmp
+  @0x01be: cms
+  @0x01c7: 0xFFFFFFFF
+  @0x01d2: f`M%
+  @0x01ed: rK!

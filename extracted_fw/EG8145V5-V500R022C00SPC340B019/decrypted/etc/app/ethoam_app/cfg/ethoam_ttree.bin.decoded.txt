@@ -1,0 +1,235 @@
+# Decoded from: etc/app/ethoam_app/cfg/ethoam_ttree.bin
+# Magic: 0xa4b6c5d7
+# Size: 3872 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  1G
+  1G
+  1G
+  1G
+  1G
+  P&,
+  1G+
+  Q&.
+  1G-
+  S&*
+  +.}
+  +.}
+  +.|
+  +.}
+  +.|
+  +.}
+  +.}
+  +.}
+  +.|
+  +.}
+  +.}
+  +.}
+  +.|
+  +.}
+  +.}
+  +.}
+  +.|
+  +.}
+  +.}
+  P&}
+  Q&|
+  Q&|
+  Q&|
+  Q&|
+  R&|
+  S&|
+  S&|
+  S&|
+  S&|
+  InternetGatewayDevice
+  X_HW_Dot1agCfm
+  dot1agCfmMd
+  MdIndex
+  MdLevel
+  MdNameFormat
+  MdNameValue
+  MhfCreation
+  dot1agCfmMa
+  CcmInterval
+  MaIndex
+  MaNameFormat
+  MaNameValue
+  MhfCreation
+  VlanId
+  dot1agCfmMep
+  ActiveStatus
+  AlarmStatus
+  CcmSendStatistics
+  CcStatus
+  Direction
+  L2Priority
+  LbrSendStatistics
+  MepId
+  MepVlanMode
+  PortId
+  PortType
+  RemoteMepId
+  RemoteMepMacAddr
+  VlanId
+  MdIndex
+  MaIndex
+  MepId
+  PmIndex
+  RemoteMepMacAddr
+  ReceivePriority
+  SendPriority
+  AutoBackwardMAC
+  BackwardMAC
+  LmEnable
+  DmEnable
+  X_HW_DEBUG
+  BBSP
+  EthoamCfmStat
+  ENABLE
+  EthoamMepStat
+  MDINST
+  MAINST
+  MEPINST
+  ENABLE
+  EthoamDebugSwitch
+  ENABLE
+  EthoamMepPerf
+  MDINST
+  MAINST
+  MEPINST
+  VALID
+  cwmp
+  ethoam
+  enable
+  rdi-ccm
+  disable
+  lan-port
+  8191
+  V`j
+  iCl
+  zSg
+  Ii{.
+  v!(
+  N[#
+  )<*
+  vzm
+  F6P
+
+## All Strings (offset, value):
+
+  @0x0116:  1G
+  @0x011a:  1G
+  @0x011e:  1G
+  @0x0122:  1G
+  @0x0126:  1G 
+  @0x0187: P&,
+  @0x018b: 1G+
+  @0x01b2: Q&.
+  @0x01b6: 1G-
+  @0x0206: S&*
+  @0x0228: +.}
+  @0x023d: +.}
+  @0x0266: +.|
+  @0x02a4: +.}
+  @0x02cb: +.|
+  @0x032c: +.}
+  @0x0379: +.}
+  @0x03a2: +.}
+  @0x03f4: +.|
+  @0x0408: +.}
+  @0x041c: +.}
+  @0x0431: +.}
+  @0x046f: +.|
+  @0x0483: +.}
+  @0x0497: +.}
+  @0x04ab: +.}
+  @0x04bf: +.|
+  @0x04d3: +.}
+  @0x04e6: +.}
+  @0x04f7: P&}
+  @0x050a: Q&|
+  @0x051e: Q&|
+  @0x0532: Q&|
+  @0x0545: Q&|
+  @0x0557: R&|
+  @0x056a: S&|
+  @0x057e: S&|
+  @0x0592: S&|
+  @0x05a5: S&|
+  @0x05af: InternetGatewayDevice
+  @0x05c5: X_HW_Dot1agCfm
+  @0x05d4: dot1agCfmMd
+  @0x05e0: MdIndex
+  @0x05e8: MdLevel
+  @0x05f0: MdNameFormat
+  @0x05fd: MdNameValue
+  @0x0609: MhfCreation
+  @0x0615: dot1agCfmMa
+  @0x0621: CcmInterval
+  @0x062d: MaIndex
+  @0x0635: MaNameFormat
+  @0x0642: MaNameValue
+  @0x064e: MhfCreation
+  @0x065a: VlanId
+  @0x0661: dot1agCfmMep
+  @0x066e: ActiveStatus
+  @0x067b: AlarmStatus
+  @0x0687: CcmSendStatistics
+  @0x0699: CcStatus
+  @0x06a2: Direction
+  @0x06ac: L2Priority
+  @0x06b7: LbrSendStatistics
+  @0x06c9: MepId
+  @0x06cf: MepVlanMode
+  @0x06db: PortId
+  @0x06e2: PortType
+  @0x06eb: RemoteMepId
+  @0x06f7: RemoteMepMacAddr
+  @0x0708: VlanId
+  @0x0712: MdIndex
+  @0x071a: MaIndex
+  @0x0722: MepId
+  @0x0728: PmIndex
+  @0x0730: RemoteMepMacAddr
+  @0x0741: ReceivePriority
+  @0x0751: SendPriority
+  @0x075e: AutoBackwardMAC
+  @0x076e: BackwardMAC
+  @0x077a: LmEnable
+  @0x0783: DmEnable
+  @0x078c: X_HW_DEBUG
+  @0x0797: BBSP
+  @0x079c: EthoamCfmStat
+  @0x07aa: ENABLE
+  @0x07b1: EthoamMepStat
+  @0x07bf: MDINST
+  @0x07c6: MAINST
+  @0x07cd: MEPINST
+  @0x07d5: ENABLE
+  @0x07dc: EthoamDebugSwitch
+  @0x07ee: ENABLE
+  @0x07f5: EthoamMepPerf
+  @0x0803: MDINST
+  @0x080a: MAINST
+  @0x0811: MEPINST
+  @0x0819: VALID
+  @0x081f: cwmp
+  @0x0824: ethoam
+  @0x0830: 0xFFFFFFFF
+  @0x0841: enable
+  @0x0848: rdi-ccm
+  @0x0850: disable
+  @0x085d: lan-port
+  @0x0866: 8191
+  @0x086b: V`j
+  @0x08bd: iCl
+  @0x08c6: zSg
+  @0x08fd: Ii{.
+  @0x0939: v!(
+  @0x0942: N[#
+  @0x0972: )<*
+  @0x09be: vzm
+  @0x0a19: F6P

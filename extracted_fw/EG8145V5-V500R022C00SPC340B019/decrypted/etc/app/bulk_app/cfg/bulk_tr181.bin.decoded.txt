@@ -1,0 +1,279 @@
+# Decoded from: etc/app/bulk_app/cfg/bulk_tr181.bin
+# Magic: 0xa1b3c2d4
+# Size: 5464 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  +Device.PeriodicStatistics.
+  IGD.PeriodicStatistics.
+  MinSampleInterval
+  MaxReportSamples
+  SampleSetNumberOfEntries
+  Device.PeriodicStatistics.SampleSet.
+  IGD.PeriodicStatistics.SampleSet.
+  Alias
+  Enable
+  Status
+  Name
+  SampleInterval
+  ReportSamples
+  TimeReference
+  FetchSamples
+  ForceSample
+  ReportStartTime
+  ReportEndTime
+  SampleSeconds
+  ParameterNumberOfEntries
+  Device.PeriodicStatistics.SampleSet.Parameter.
+  IGD.PeriodicStatistics.SampleSet.Parameter.
+  Reference
+  SampleMode
+  CalculationMode
+  LowThreshold
+  HighThreshold
+  SuspectData
+  Values
+  Failures
+  Device.BulkData.
+  IGD.BulkData.
+  MinReportingInterval
+  Protocols
+  EncodingTypes
+  ParameterWildCardSupported
+  MaxNumberOfProfiles
+  MaxNumberOfParameterReferences
+  ProfileNumberOfEntries
+  X_HW_Interface
+  Device.BulkData.Profile.
+  IGD.BulkData.Profile.
+  NumberOfRetainedFailedReports
+  Protocol
+  EncodingType
+  ReportingInterval
+  StreamingHost
+  StreamingPort
+  StreamingSessionID
+  FileTransferURL
+  FileTransferUsername
+  FileTransferPassword
+  ControlFileFormat
+  Device.BulkData.Profile.Parameter.
+  IGD.BulkData.Profile.Parameter.
+  Device.BulkData.Profile.CSVEncoding.
+  IGD.BulkData.Profile.CSVEncoding.
+  FieldSeparator
+  RowSeparator
+  EscapeCharacter
+  ReportFormat
+  RowTimestamp
+  Device.BulkData.Profile.JSONEncoding.
+  IGD.BulkData.Profile.JSONEncoding.
+  ReportTimestamp
+  Device.BulkData.Profile.HTTP.
+  IGD.BulkData.Profile.HTTP.
+  URL
+  Username
+  Password
+  CompressionsSupported
+  Compression
+  MethodsSupported
+  Method
+  UseDateHeader
+  RetryEnable
+  RetryMinimumWaitInterval
+  RetryIntervalMultiplier
+  RequestURIParameterNumberOfEntries
+  Device.BulkData.Profile.HTTP.RequestURIParameter.
+  IGD.BulkData.Profile.HTTP.RequestURIParameter.
+  xLK
+  8@/
+  bI{3
+  \rY:
+  d|84
+  s=B@
+  0QE
+  8`c
+  |F8
+  + A
+  AJC
+  D3Wq
+  a+;
+  |t;8
+  Tz,
+  ?}!-
+  2V|4
+  k&8%I
+  R8{
+  d-*
+  uy\2
+  913
+  jyF
+  GPH
+  YS_=
+  `c1
+  xXt;
+  %n$
+  2@>c1
+  @0*
+  [S2
+  g[%
+  IM<
+  sp5
+  rDo).
+  >]`
+  60!K
+  K$V4
+  ni:
+  M^F
+  q??
+  p~7
+  :8
+  H6e
+  x99
+  aA-
+  <xE
+  U'j"
+  f!<J
+  9A&
+  l4(
+  z2I
+  8x,
+
+## All Strings (offset, value):
+
+  @0x03e6: +Device.PeriodicStatistics.
+  @0x0402: IGD.PeriodicStatistics.
+  @0x041a: MinSampleInterval
+  @0x042c: MaxReportSamples
+  @0x043d: SampleSetNumberOfEntries
+  @0x0456: Device.PeriodicStatistics.SampleSet.
+  @0x047b: IGD.PeriodicStatistics.SampleSet.
+  @0x049d: Alias
+  @0x04a3: Enable
+  @0x04aa: Status
+  @0x04b1: Name
+  @0x04b6: SampleInterval
+  @0x04c5: ReportSamples
+  @0x04d3: TimeReference
+  @0x04e1: FetchSamples
+  @0x04ee: ForceSample
+  @0x04fa: ReportStartTime
+  @0x050a: ReportEndTime
+  @0x0518: SampleSeconds
+  @0x0526: ParameterNumberOfEntries
+  @0x053f: Device.PeriodicStatistics.SampleSet.Parameter.
+  @0x056e: IGD.PeriodicStatistics.SampleSet.Parameter.
+  @0x059a: Reference
+  @0x05a4: SampleMode
+  @0x05af: CalculationMode
+  @0x05bf: LowThreshold
+  @0x05cc: HighThreshold
+  @0x05da: SuspectData
+  @0x05e6: Values
+  @0x05ed: Failures
+  @0x05f6: Device.BulkData.
+  @0x0607: IGD.BulkData.
+  @0x0615: MinReportingInterval
+  @0x062a: Protocols
+  @0x0634: EncodingTypes
+  @0x0642: ParameterWildCardSupported
+  @0x065d: MaxNumberOfProfiles
+  @0x0671: MaxNumberOfParameterReferences
+  @0x0690: ProfileNumberOfEntries
+  @0x06a7: X_HW_Interface
+  @0x06b6: Device.BulkData.Profile.
+  @0x06cf: IGD.BulkData.Profile.
+  @0x06e5: NumberOfRetainedFailedReports
+  @0x0703: Protocol
+  @0x070c: EncodingType
+  @0x0719: ReportingInterval
+  @0x072b: StreamingHost
+  @0x0739: StreamingPort
+  @0x0747: StreamingSessionID
+  @0x075a: FileTransferURL
+  @0x076a: FileTransferUsername
+  @0x077f: FileTransferPassword
+  @0x0794: ControlFileFormat
+  @0x07a6: Device.BulkData.Profile.Parameter.
+  @0x07c9: IGD.BulkData.Profile.Parameter.
+  @0x07e9: Device.BulkData.Profile.CSVEncoding.
+  @0x080e: IGD.BulkData.Profile.CSVEncoding.
+  @0x0830: FieldSeparator
+  @0x083f: RowSeparator
+  @0x084c: EscapeCharacter
+  @0x085c: ReportFormat
+  @0x0869: RowTimestamp
+  @0x0876: Device.BulkData.Profile.JSONEncoding.
+  @0x089c: IGD.BulkData.Profile.JSONEncoding.
+  @0x08bf: ReportTimestamp
+  @0x08cf: Device.BulkData.Profile.HTTP.
+  @0x08ed: IGD.BulkData.Profile.HTTP.
+  @0x0908: URL
+  @0x090c: Username
+  @0x0915: Password
+  @0x091e: CompressionsSupported
+  @0x0934: Compression
+  @0x0940: MethodsSupported
+  @0x0951: Method
+  @0x0958: UseDateHeader
+  @0x0966: RetryEnable
+  @0x0972: RetryMinimumWaitInterval
+  @0x098b: RetryIntervalMultiplier
+  @0x09a3: RequestURIParameterNumberOfEntries
+  @0x09c6: Device.BulkData.Profile.HTTP.RequestURIParameter.
+  @0x09f8: IGD.BulkData.Profile.HTTP.RequestURIParameter.
+  @0x0a31: xLK
+  @0x0a39: 8@/
+  @0x0a58: bI{3
+  @0x0a6a: \rY:
+  @0x0a83: d|84
+  @0x0ab1: s=B@
+  @0x0ae4: 0QE
+  @0x0afb: 8`c
+  @0x0b0c: |F8
+  @0x0b25: + A
+  @0x0b53: AJC
+  @0x0b63: D3Wq
+  @0x0b6d: a+;
+  @0x0b8c: |t;8
+  @0x0b96: Tz,
+  @0x0ba5: ?}!-
+  @0x0bb5: 2V|4
+  @0x0bbe: k&8%I
+  @0x0bfd: R8{
+  @0x0c06: d-*
+  @0x0c34: uy\2
+  @0x0c4d: 913
+  @0x0c65: jyF
+  @0x0c76: GPH
+  @0x0c7e: YS_=
+  @0x0c87: `c1
+  @0x0c8f: xXt;
+  @0x0cae: %n$
+  @0x0ce3: 2@>c1
+  @0x0ced: @0*
+  @0x0cf6: [S2
+  @0x0cfe: g[%
+  @0x0d59: IM<
+  @0x0d6b: sp5
+  @0x0d92: rDo).
+  @0x0dac: >]`
+  @0x0dcd: 60!K
+  @0x0dd6: K$V4
+  @0x0de6: ni:
+  @0x0dfb: M^F
+  @0x0e0c: q??
+  @0x0e1c: p~7
+  @0x0e24: d  
+  @0x0e2d:  :8
+  @0x0e3f: H6e
+  @0x0e48: x99
+  @0x0e50: aA-
+  @0x0ea8: <xE
+  @0x0ed4: U'j"
+  @0x0efb: f!<J
+  @0x0f12: 9A&
+  @0x0f28: l4(
+  @0x0f5d: z2I
+  @0x0f65: 8x,

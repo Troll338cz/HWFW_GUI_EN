@@ -1,0 +1,64 @@
+# Decoded from: etc/app/video_diag_app/cfg/video_diag_tr098.bin
+# Magic: 0xa1b3c2d4
+# Size: 1044 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  HW_BBSP_FT_BTV_EMDI
+  IGD.X_HW_eMDI.
+  Enable
+  Interval
+  WindowPackets
+  Thresholdpkts
+  DIP
+  DPort
+  SIP
+  MVlanId
+  Time
+  DiagnosingDIP
+  DiagnosingSIP
+  DiagnosingMvlan
+  TotalPackets
+  LostPackets
+  OutOfOrder
+  ConsecutiveLost
+  ELF_F
+  WPP
+  h$o
+  x#E
+  m9_
+  WPP
+  h$o
+  x#E
+  m9_
+
+## All Strings (offset, value):
+
+  @0x00ec: HW_BBSP_FT_BTV_EMDI
+  @0x0100: IGD.X_HW_eMDI.
+  @0x010f: Enable
+  @0x0116: Interval
+  @0x011f: WindowPackets
+  @0x012d: Thresholdpkts
+  @0x013b: DIP
+  @0x013f: DPort
+  @0x0145: SIP
+  @0x0149: MVlanId
+  @0x0151: Time
+  @0x0156: DiagnosingDIP
+  @0x0164: DiagnosingSIP
+  @0x0172: DiagnosingMvlan
+  @0x0182: TotalPackets
+  @0x018f: LostPackets
+  @0x019b: OutOfOrder
+  @0x01a6: ConsecutiveLost
+  @0x01b6: ELF_F
+  @0x01c3: WPP
+  @0x01d5: h$o
+  @0x0210: x#E
+  @0x0240: m9_
+  @0x0250: WPP
+  @0x0262: h$o
+  @0x029d: x#E
+  @0x02cd: m9_

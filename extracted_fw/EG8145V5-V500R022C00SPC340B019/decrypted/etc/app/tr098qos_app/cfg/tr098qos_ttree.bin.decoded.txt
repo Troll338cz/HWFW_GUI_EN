@@ -1,0 +1,537 @@
+# Decoded from: etc/app/tr098qos_app/cfg/tr098qos_ttree.bin
+# Magic: 0xa4b6c5d7
+# Size: 12188 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  (& `0G!`0G
+  `0G
+  `0G
+  `0G
+  `0G
+  `0G@
+  `0G
+  `0G
+  `0G
+  `0G
+  `0G
+  `0G
+  `0G
+  `0G
+  `0GJA0H
+  (.NA0HMA0HKA0HLA0HOA0H
+  (.CA0HBA0H@A0HAA0HIA0H
+  (.GA0HFA0HDA0HEA0HHA0H
+  (.!
+  (.$
+  (.'
+  (.*
+  (.-
+  (.0
+  (.3
+  (.;
+  (.>
+  (.G
+  (.J
+  (.M
+  (.P
+  (.S
+  (.Y
+  (._
+  (.e
+  (.k
+  (.n
+  (.q
+  (.t
+  InternetGatewayDevice
+  QueueManagement
+  BBSP_FT_QOS_CFG
+  Classification
+  BBSP_FT_QOS_CLA
+  ClassInterface
+  DestIP
+  DestMask
+  SourceIP
+  SourceMask
+  Protocol
+  DestPort
+  DestPortRangeMax
+  SourcePort
+  SourcePortRangeMax
+  SourceMACAddress
+  SourceMACMask
+  DestMACAddress
+  DestMACMask
+  Ethertype
+  IPLengthMin
+  IPLengthMax
+  DSCPCheck
+  DSCPMark
+  EthernetPriorityCheck
+  EthernetPriorityMark
+  VLANIDCheck
+  ClassPolicer
+  ClassQueue
+  X_HW_CVlanCheck
+  X_HW_CVlanPriCheck
+  X_HW_CVlanPriMark
+  X_HW_IpTosCheck
+  X_HW_IpTosMark
+  X_HW_IpPreceCheck
+  X_HW_IpPreceCheckMark
+  X_HW_EthLen
+  X_HW_UseOffset
+  X_HW_UseValue
+  X_HW_UseMask
+  X_HW_OutInterface
+  X_HW_Dircetion
+  X_HW_NextLevelClaInsList
+  X_HW_Mirror
+  X_HW_Drop
+  X_HW_OutHardwareQueue
+  ClassificationEnable
+  ClassificationStatus
+  ClassificationOrder
+  SourceMACExclude
+  DestMACExclude
+  DestIPExclude
+  SourceIPExclude
+  EthertypeExclude
+  ProtocolExclude
+  DestPortExclude
+  SourcePortExclude
+  SSAP
+  SSAPExclude
+  DSAP
+  DSAPExclude
+  LLCControl
+  LLCControlExclude
+  SNAPOUI
+  SNAPOUIExclude
+  SourceVendorClassID
+  SourceVendorClassIDExclude
+  SourceVendorClassIDMode
+  DestVendorClassID
+  DestVendorClassIDExclude
+  DestVendorClassIDMode
+  SourceClientID
+  SourceClientIDExclude
+  DestClientID
+  DestClientIDExclude
+  SourceUserClassID
+  SourceUserClassIDExclude
+  DestUserClassID
+  DestUserClassIDExclude
+  SourceVendorSpecificInfo
+  SourceVendorSpecificInfoExclude
+  SourceVendorSpecificInfoEnterprise
+  SourceVendorSpecificInfoSubOption
+  SourceVendorSpecificInfoMode
+  DestVendorSpecificInfo
+  DestVendorSpecificInfoExclude
+  DestVendorSpecificInfoEnterprise
+  DestVendorSpecificInfoSubOption
+  DestVendorSpecificInfoMode
+  TCPACK
+  TCPACKExclude
+  IPLengthExclude
+  DSCPExclude
+  EthernetPriorityExclude
+  VLANIDExclude
+  OutOfBandInfo
+  ForwardingPolicy
+  TrafficClass
+  ClassApp
+  X_HW_EffectPostion
+  X_HW_TYPE
+  DestIPMin
+  DestIPMax
+  SourceIPMin
+  SourceIPMax
+  PnPCfgIndex
+  Policer
+  BBSP_FT_QOS_POLICER
+  CommittedRate
+  CommittedBurstSize
+  ExcessBurstSize
+  PeakRate
+  PeakBurstSize
+  MeterType
+  ConformingAction
+  PolicerEnable
+  PolicerStatus
+  PossibleMeterTypes
+  PartialConformingAction
+  NonConformingAction
+  TotalCountedPackets
+  TotalCountedBytes
+  ConformingCountedPackets
+  ConformingCountedBytes
+  PartiallyConformingCountedPackets
+  PartiallyConformingCountedBytes
+  NonConformingCountedPackets
+  NonConformingCountedBytes
+  Queue
+  BBSP_FT_QOS_QUEUE
+  QueueInterface
+  QueueBufferLength
+  QueueWeight
+  QueuePrecedence
+  REDThreshold
+  REDPercentage
+  DropAlgorithm
+  SchedulerAlgorithm
+  X_HW_REDThresholdMax
+  X_HW_FastQueueId
+  QueueEnable
+  QueueStatus
+  TrafficClasses
+  ShapingRate
+  ShapingBurstSize
+  X_HW_PortQueueID
+  X_HW_MinShapingRate
+  X_HW_HardwareAssisted
+  QueueStats
+  Enable
+  Status
+  Queue
+  Interface
+  OutputPackets
+  OutputBytes
+  DroppedPackets
+  DroppedBytes
+  QueueOccupancyPackets
+  QueueOccupancyPercentage
+  App
+  BBSP_FT_QOS_QUEUE
+  AppEnable
+  AppStatus
+  ProtocolIdentifier
+  AppName
+  AppDefaultForwardingPolicy
+  AppDefaultTrafficClass
+  AppDefaultPolicer
+  AppDefaultQueue
+  AppDefaultDSCPMark
+  AppDefaultEthernetPriorityMark
+  Flow
+  BBSP_FT_QOS_QUEUE
+  FlowEnable
+  FlowStatus
+  FlowType
+  FlowTypeParameters
+  FlowName
+  AppIdentifier
+  FlowForwardingPolicy
+  FlowTrafficClass
+  FlowPolicer
+  FlowQueue
+  FlowDSCPMark
+  FlowEthernetPriorityMark
+  cwmp
+  bbsp
+  inbound
+  Disabled
+  Exact
+  Exact
+  Exact
+  Exact
+  4294967295
+  SimpleTokenBucket
+  Disabled
+  Null
+  Null
+  Disabled
+  Disabled
+  Disabled
+  Disabled
+  %AMz
+  Xg;
+  pfP
+  B3jk
+  P<,&
+  ,G?
+  __C
+  >y*
+  ;zr
+  :2&
+  3UP
+  aN!Q
+  L7L
+  >D
+  2>~
+  S+F?
+  ~^+V
+  #0Km
+  [g!
+  B]*
+  B?D
+  Ev~?
+
+## All Strings (offset, value):
+
+  @0x0065: (& `0G!`0G
+  @0x0097: `0G
+  @0x009b: `0G
+  @0x009f: `0G
+  @0x00a3: `0G
+  @0x00a7: `0G@
+  @0x00c6: `0G
+  @0x00ca: `0G
+  @0x00ce: `0G
+  @0x00d2: `0G
+  @0x00d6: `0G
+  @0x00f4: `0G
+  @0x00f8: `0G
+  @0x00fc: `0G
+  @0x0100: `0GJA0H
+  @0x011a: (.NA0HMA0HKA0HLA0HOA0H
+  @0x0149: (.CA0HBA0H@A0HAA0HIA0H
+  @0x0176: (.GA0HFA0HDA0HEA0HHA0H
+  @0x03a1: (.!
+  @0x03b5: (.$
+  @0x03c9: (.'
+  @0x03dd: (.*
+  @0x03f1: (.-
+  @0x0406: (.0
+  @0x046b: (.3
+  @0x04bb: (.;
+  @0x04e2: (.>
+  @0x05a6: (.G
+  @0x05cf: (.J
+  @0x05f7: (.M
+  @0x061e: (.P
+  @0x066b: (.S
+  @0x06a7: (.Y
+  @0x07a6: (._
+  @0x0807: (.e
+  @0x0894: (.k
+  @0x08bd: (.n
+  @0x08d1: (.q
+  @0x0956: (.t
+  @0x0e48: InternetGatewayDevice
+  @0x0e5e: QueueManagement
+  @0x0e6e: BBSP_FT_QOS_CFG
+  @0x0e7e: Classification
+  @0x0e8d: BBSP_FT_QOS_CLA
+  @0x0e9d: ClassInterface
+  @0x0eac: DestIP
+  @0x0eb3: DestMask
+  @0x0ebc: SourceIP
+  @0x0ec5: SourceMask
+  @0x0ed0: Protocol
+  @0x0ed9: DestPort
+  @0x0ee2: DestPortRangeMax
+  @0x0ef3: SourcePort
+  @0x0efe: SourcePortRangeMax
+  @0x0f11: SourceMACAddress
+  @0x0f22: SourceMACMask
+  @0x0f30: DestMACAddress
+  @0x0f3f: DestMACMask
+  @0x0f4b: Ethertype
+  @0x0f55: IPLengthMin
+  @0x0f61: IPLengthMax
+  @0x0f6d: DSCPCheck
+  @0x0f77: DSCPMark
+  @0x0f80: EthernetPriorityCheck
+  @0x0f96: EthernetPriorityMark
+  @0x0fab: VLANIDCheck
+  @0x0fb7: ClassPolicer
+  @0x0fc4: ClassQueue
+  @0x0fcf: X_HW_CVlanCheck
+  @0x0fdf: X_HW_CVlanPriCheck
+  @0x0ff2: X_HW_CVlanPriMark
+  @0x1004: X_HW_IpTosCheck
+  @0x1014: X_HW_IpTosMark
+  @0x1023: X_HW_IpPreceCheck
+  @0x1035: X_HW_IpPreceCheckMark
+  @0x104b: X_HW_EthLen
+  @0x1057: X_HW_UseOffset
+  @0x1066: X_HW_UseValue
+  @0x1074: X_HW_UseMask
+  @0x1081: X_HW_OutInterface
+  @0x1093: X_HW_Dircetion
+  @0x10a2: X_HW_NextLevelClaInsList
+  @0x10bb: X_HW_Mirror
+  @0x10c7: X_HW_Drop
+  @0x10d1: X_HW_OutHardwareQueue
+  @0x10e7: ClassificationEnable
+  @0x10fc: ClassificationStatus
+  @0x1111: ClassificationOrder
+  @0x1125: SourceMACExclude
+  @0x1136: DestMACExclude
+  @0x1145: DestIPExclude
+  @0x1153: SourceIPExclude
+  @0x1163: EthertypeExclude
+  @0x1174: ProtocolExclude
+  @0x1184: DestPortExclude
+  @0x1194: SourcePortExclude
+  @0x11a6: SSAP
+  @0x11ab: SSAPExclude
+  @0x11b7: DSAP
+  @0x11bc: DSAPExclude
+  @0x11c8: LLCControl
+  @0x11d3: LLCControlExclude
+  @0x11e5: SNAPOUI
+  @0x11ed: SNAPOUIExclude
+  @0x11fc: SourceVendorClassID
+  @0x1210: SourceVendorClassIDExclude
+  @0x122b: SourceVendorClassIDMode
+  @0x1243: DestVendorClassID
+  @0x1255: DestVendorClassIDExclude
+  @0x126e: DestVendorClassIDMode
+  @0x1284: SourceClientID
+  @0x1293: SourceClientIDExclude
+  @0x12a9: DestClientID
+  @0x12b6: DestClientIDExclude
+  @0x12ca: SourceUserClassID
+  @0x12dc: SourceUserClassIDExclude
+  @0x12f5: DestUserClassID
+  @0x1305: DestUserClassIDExclude
+  @0x131c: SourceVendorSpecificInfo
+  @0x1335: SourceVendorSpecificInfoExclude
+  @0x1355: SourceVendorSpecificInfoEnterprise
+  @0x1378: SourceVendorSpecificInfoSubOption
+  @0x139a: SourceVendorSpecificInfoMode
+  @0x13b7: DestVendorSpecificInfo
+  @0x13ce: DestVendorSpecificInfoExclude
+  @0x13ec: DestVendorSpecificInfoEnterprise
+  @0x140d: DestVendorSpecificInfoSubOption
+  @0x142d: DestVendorSpecificInfoMode
+  @0x1448: TCPACK
+  @0x144f: TCPACKExclude
+  @0x145d: IPLengthExclude
+  @0x146d: DSCPExclude
+  @0x1479: EthernetPriorityExclude
+  @0x1491: VLANIDExclude
+  @0x149f: OutOfBandInfo
+  @0x14ad: ForwardingPolicy
+  @0x14be: TrafficClass
+  @0x14cb: ClassApp
+  @0x14d4: X_HW_EffectPostion
+  @0x14e7: X_HW_TYPE
+  @0x14f1: DestIPMin
+  @0x14fb: DestIPMax
+  @0x1505: SourceIPMin
+  @0x1511: SourceIPMax
+  @0x151d: PnPCfgIndex
+  @0x1529: Policer
+  @0x1531: BBSP_FT_QOS_POLICER
+  @0x1545: CommittedRate
+  @0x1553: CommittedBurstSize
+  @0x1566: ExcessBurstSize
+  @0x1576: PeakRate
+  @0x157f: PeakBurstSize
+  @0x158d: MeterType
+  @0x1597: ConformingAction
+  @0x15a8: PolicerEnable
+  @0x15b6: PolicerStatus
+  @0x15c4: PossibleMeterTypes
+  @0x15d7: PartialConformingAction
+  @0x15ef: NonConformingAction
+  @0x1603: TotalCountedPackets
+  @0x1617: TotalCountedBytes
+  @0x1629: ConformingCountedPackets
+  @0x1642: ConformingCountedBytes
+  @0x1659: PartiallyConformingCountedPackets
+  @0x167b: PartiallyConformingCountedBytes
+  @0x169b: NonConformingCountedPackets
+  @0x16b7: NonConformingCountedBytes
+  @0x16d1: Queue
+  @0x16d7: BBSP_FT_QOS_QUEUE
+  @0x16e9: QueueInterface
+  @0x16f8: QueueBufferLength
+  @0x170a: QueueWeight
+  @0x1716: QueuePrecedence
+  @0x1726: REDThreshold
+  @0x1733: REDPercentage
+  @0x1741: DropAlgorithm
+  @0x174f: SchedulerAlgorithm
+  @0x1762: X_HW_REDThresholdMax
+  @0x1777: X_HW_FastQueueId
+  @0x1788: QueueEnable
+  @0x1794: QueueStatus
+  @0x17a0: TrafficClasses
+  @0x17af: ShapingRate
+  @0x17bb: ShapingBurstSize
+  @0x17cc: X_HW_PortQueueID
+  @0x17dd: X_HW_MinShapingRate
+  @0x17f1: X_HW_HardwareAssisted
+  @0x1807: QueueStats
+  @0x1812: Enable
+  @0x1819: Status
+  @0x1820: Queue
+  @0x1826: Interface
+  @0x1830: OutputPackets
+  @0x183e: OutputBytes
+  @0x184a: DroppedPackets
+  @0x1859: DroppedBytes
+  @0x1866: QueueOccupancyPackets
+  @0x187c: QueueOccupancyPercentage
+  @0x1895: App
+  @0x1899: BBSP_FT_QOS_QUEUE
+  @0x18ab: AppEnable
+  @0x18b5: AppStatus
+  @0x18bf: ProtocolIdentifier
+  @0x18d2: AppName
+  @0x18da: AppDefaultForwardingPolicy
+  @0x18f5: AppDefaultTrafficClass
+  @0x190c: AppDefaultPolicer
+  @0x191e: AppDefaultQueue
+  @0x192e: AppDefaultDSCPMark
+  @0x1941: AppDefaultEthernetPriorityMark
+  @0x1960: Flow
+  @0x1965: BBSP_FT_QOS_QUEUE
+  @0x1977: FlowEnable
+  @0x1982: FlowStatus
+  @0x198d: FlowType
+  @0x1996: FlowTypeParameters
+  @0x19a9: FlowName
+  @0x19b2: AppIdentifier
+  @0x19c0: FlowForwardingPolicy
+  @0x19d5: FlowTrafficClass
+  @0x19e6: FlowPolicer
+  @0x19f2: FlowQueue
+  @0x19fc: FlowDSCPMark
+  @0x1a09: FlowEthernetPriorityMark
+  @0x1a22: cwmp
+  @0x1a27: bbsp
+  @0x1a31: 0xFFFFFFFF
+  @0x1a7b: inbound
+  @0x1a86: Disabled
+  @0x1a9b: Exact
+  @0x1aa1: Exact
+  @0x1aa7: Exact
+  @0x1aad: Exact
+  @0x1abc: 4294967295
+  @0x1ac7: SimpleTokenBucket
+  @0x1ad9: Disabled
+  @0x1ae2: Null
+  @0x1ae7: Null
+  @0x1af2: Disabled
+  @0x1b04: Disabled
+  @0x1b0d: Disabled
+  @0x1b25: Disabled
+  @0x1b68: %AMz
+  @0x1b71: Xg;
+  @0x1b7a: pfP
+  @0x1ba7: B3jk
+  @0x1bd6: P<,&
+  @0x1c17: ,G?
+  @0x1c41: __C
+  @0x1c59: >y*
+  @0x1c7a: ;zr
+  @0x1d52: :2&
+  @0x1d64: 3UP
+  @0x1d8c: aN!Q
+  @0x1e44: L7L
+  @0x1edf:  >D
+  @0x1ee8: 2>~
+  @0x1f56: S+F?
+  @0x1f9c: ~^+V
+  @0x1fb6: #0Km
+  @0x2015: [g!
+  @0x203b: B]*
+  @0x2085: B?D
+  @0x209d: Ev~?

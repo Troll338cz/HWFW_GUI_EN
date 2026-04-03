@@ -1,0 +1,12 @@
+<CusCliRoot>
+<SetSSIDInfo CmdStr="set ssid" CmdGroup="0x83000000"/>
+<SetVoipCore CmdStr="set voip core" CmdGroup="0x83000000"/>
+<SetVoiceSIPAccount CmdStr="set voice sip-account" CmdGroup="0x83000000"/>
+<SetVoiceRegister CmdStr="set voice register" CmdGroup="0x83000000"/>
+
+<SetPPPWanNamePsw CmdStr="set pppwan" CmdGroup="0x83000000"/>
+<PPPoEClientPacketGet CmdStr="display debugging pppoe client packet" CmdGroup="0x80002000"/>
+<GetDhcp6sUserInfo CmdStr="display dhcp server6 user" CmdGroup="0x83000000"/>
+<GetDhcp6sUserInfoAll CmdStr="display dhcp server6 user all" CmdGroup="0x83000000"/>
+<DisplayUserdev CmdStr="display user device" CmdGroup="0x83000000"/>
+</CusCliRoot>

@@ -1,0 +1,64 @@
+# Decoded from: etc/app/softgre_app/cfg/softgre_tr098.bin
+# Magic: 0xa1b3c2d4
+# Size: 1463 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  BBSP_FT_SOFTGRE
+  HW_FT_FEATURE_DTEDATA
+  IGD.X_HW_GRETunnel.
+  Enable
+  Name
+  Type
+  EgressInterface
+  EgressMode
+  EgressPriPolicy
+  RemoteAddressAcquisitionMode
+  RemoteAddress
+  DSCPMarkPolicy
+  DefaultDSCPMark
+  TcpMssClamping
+  X_HW_KeepaliveIntervals
+  X_HW_RetryIntervals
+  IGD.X_HW_GRETunnel.IngressInterface.
+  InterfaceName
+  VLANTaggingEnable
+  VLANID
+  PriPolicy
+  Pri
+  IGD.X_HW_GRETunnel.Status.
+  EgressInterfaceStatus
+  RemoteIP
+  =77
+  =77
+
+## All Strings (offset, value):
+
+  @0x013d: BBSP_FT_SOFTGRE
+  @0x014d: HW_FT_FEATURE_DTEDATA
+  @0x0163: IGD.X_HW_GRETunnel.
+  @0x0177: Enable
+  @0x017e: Name
+  @0x0183: Type
+  @0x0188: EgressInterface
+  @0x0198: EgressMode
+  @0x01a3: EgressPriPolicy
+  @0x01b3: RemoteAddressAcquisitionMode
+  @0x01d0: RemoteAddress
+  @0x01de: DSCPMarkPolicy
+  @0x01ed: DefaultDSCPMark
+  @0x01fd: TcpMssClamping
+  @0x020c: X_HW_KeepaliveIntervals
+  @0x0224: X_HW_RetryIntervals
+  @0x0238: IGD.X_HW_GRETunnel.IngressInterface.
+  @0x025d: InterfaceName
+  @0x026b: VLANTaggingEnable
+  @0x027d: VLANID
+  @0x0284: PriPolicy
+  @0x028e: Pri
+  @0x0292: IGD.X_HW_GRETunnel.Status.
+  @0x02ad: EgressInterfaceStatus
+  @0x02c3: RemoteIP
+  @0x0313: =77
+  @0x03cb: =77

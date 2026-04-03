@@ -1,0 +1,266 @@
+# Decoded from: etc/wap/tr069_view/DataView_tr069_jxct.bin
+# Magic: 0xa1b3c2d4
+# Size: 6828 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  IGD.X_HW_DHCP_PING_EMULATOR.
+  IGD.X_HW_ARPPingNum.
+  IGD.X_HW_ARPPingDiagnostics.
+  IGD.DeviceInfo.X_HW_USBPlugin.
+  BBSP_FT_UPLINKQOS
+  BBSP_FT_UNICAST_ARPING
+  FT_MODIFY_CDN
+  IGD.WANDevice.WANConnectionDevice.WANIPConnection.
+  X_CT-COM_SpeedLimit_UP
+  IGD.WANDevice.WANConnectionDevice.WANIPConnection.X_HW_SpeedLimit_UP
+  X_CT-COM_SpeedLimit_DOWN
+  IGD.WANDevice.WANConnectionDevice.WANIPConnection.X_HW_SpeedLimit_DOWN
+  X_CT-COM_Username
+  IGD.WANDevice.WANConnectionDevice.WANIPConnection.X_HW_VR.Username
+  X_CT-COM_Password
+  IGD.WANDevice.WANConnectionDevice.WANIPConnection.X_HW_VR.Password
+  IGD.WANDevice.WANConnectionDevice.WANPPPConnection.
+  IGD.WANDevice.WANConnectionDevice.WANPPPConnection.X_HW_SpeedLimit_UP
+  IGD.WANDevice.WANConnectionDevice.WANPPPConnection.X_HW_SpeedLimit_DOWN
+  X_CT-COM_PPPoEPassthrough
+  IGD.WANDevice.WANConnectionDevice.WANPPPConnection.X_HW_BridgeEnable
+  IGD.X_CT-COM_DownlinkQoS.
+  IGD.X_HW_DownlinkQos.
+  Enable
+  IGD.X_HW_DownlinkQos.Enable
+  Bandwidth
+  IGD.X_HW_DownlinkQos.X_HW_Bandwidth
+  Plan
+  IGD.X_HW_DownlinkQos.X_HW_Plan
+  EnableDSCPMark
+  IGD.X_HW_DownlinkQos.X_HW_EnableDSCPMark
+  Enable802-1_P
+  IGD.X_HW_DownlinkQos.X_HW_Enable8021p
+  IGD.X_CT-COM_DownlinkQoS.Classification.
+  IGD.X_HW_DownlinkQos.Classification.
+  ClassQueue
+  IGD.X_HW_DownlinkQos.Classification.ClassQueue
+  DSCPMarkValue
+  IGD.X_HW_DownlinkQos.Classification.DSCPMarkValue
+  802-1_P_Value
+  IGD.X_HW_DownlinkQos.Classification.8021pValue
+  IGD.X_CT-COM_DownlinkQoS.Classification.type.
+  IGD.X_HW_DownlinkQos.Classification.type.
+  Type
+  IGD.X_HW_DownlinkQos.Classification.type.Type
+  Max
+  IGD.X_HW_DownlinkQos.Classification.type.Max
+  Min
+  IGD.X_HW_DownlinkQos.Classification.type.Min
+  ProtocolList
+  IGD.X_HW_DownlinkQos.Classification.type.ProtocolList
+  IGD.X_CT-COM_DownlinkQoS.PriorityQueue.
+  IGD.X_HW_DownlinkQos.PriorityQueue.
+  IGD.X_HW_DownlinkQos.PriorityQueue.Enable
+  Priority
+  IGD.X_HW_DownlinkQos.PriorityQueue.Priority
+  Weight
+  IGD.X_HW_DownlinkQos.PriorityQueue.Weight
+  IGD.X_CT-COM_IPoEDiagnostics.
+  IGD.X_HW_DHCP_PING_EMULATOR.
+  DiagnosticsState
+  WANInterface
+  UserMac
+  VendorClassID
+  PingDestIPAddress
+  IGD.X_HW_DHCP_PING_EMULATOR.PingDestIPAddress1
+  Result
+  ExternalIPAddress
+  IGD.X_HW_DHCP_PING_EMULATOR.LocalAddress
+  SubnetMask
+  DefaultGateway
+  DNSServers
+  IGD.X_HW_DHCP_PING_EMULATOR.PrimaryDNSServerIP
+  Timeout
+  IGD.X_HW_DHCP_PING_EMULATOR.PingTimeOut
+  PingNumberOfRepetitions
+  SuccessCount
+  IGD.X_HW_DHCP_PING_EMULATOR.PingDest1SuccCount
+  FailureCount
+  IGD.X_HW_DHCP_PING_EMULATOR.PingDest1FailCount
+  AverageResponseTime
+  IGD.X_HW_DHCP_PING_EMULATOR.PingDest1AvgResponseTime
+  MinimumResponseTime
+  IGD.X_HW_DHCP_PING_EMULATOR.PingDest1MinResponseTime
+  MaximumResponseTime
+  IGD.X_HW_DHCP_PING_EMULATOR.PingDest1MaxResponseTime
+  IGD.DeviceInfo.X_CT-COM_NeighborDetection.
+  IGD.X_HW_ARPPingNum.
+  NumberOfEntries
+  IGD.X_HW_ARPPingNum.NumberOfEntries
+  IGD.DeviceInfo.X_CT-COM_NeighborDetection.Config.
+  IGD.X_HW_ARPPingDiagnostics.
+  IGD.X_HW_ARPPingDiagnostics.ARPPingEnable
+  WANConnection
+  IGD.X_HW_ARPPingDiagnostics.WanName
+  Interval
+  IGD.X_HW_ARPPingDiagnostics.ARPPingInterval
+  NumberOfRepetitions
+  IGD.X_HW_ARPPingDiagnostics.ARPPingNumberOfRepetitions
+  IGD.DeviceInfo.X_HW_CDN.
+  IGD.DeviceInfo|X_HW_CDN|.
+  IGD.DeviceInfo.X_HW_USBPlugin.Enable
+  IGD.DeviceInfo.
+  X_CT-COM_ChipID
+  IGD.DeviceInfo.ChipID
+  X_CT-COM_CheckKey
+  IGD.DeviceInfo.CheckKey
+  Cxz[
+  _a;
+  !dp[
+  l1s
+  8#,
+  -'.
+  E,J
+  *iWJ
+  4$-
+  pA
+  $G!
+  ~M(
+  ;+3
+  >A$
+  &k
+  H,0
+  ~Z$L
+  Kj#
+  .l'.
+  \C)
+  X<c,
+
+## All Strings (offset, value):
+
+  @0x0010: IGD.X_HW_DHCP_PING_EMULATOR.
+  @0x0110: IGD.X_HW_ARPPingNum.
+  @0x0210: IGD.X_HW_ARPPingDiagnostics.
+  @0x0310: IGD.DeviceInfo.X_HW_USBPlugin.
+  @0x0791: BBSP_FT_UPLINKQOS
+  @0x07a3: BBSP_FT_UNICAST_ARPING
+  @0x07ba: FT_MODIFY_CDN
+  @0x07c8: IGD.WANDevice.WANConnectionDevice.WANIPConnection.
+  @0x07fb: X_CT-COM_SpeedLimit_UP
+  @0x0812: IGD.WANDevice.WANConnectionDevice.WANIPConnection.X_HW_SpeedLimit_UP
+  @0x0857: X_CT-COM_SpeedLimit_DOWN
+  @0x0870: IGD.WANDevice.WANConnectionDevice.WANIPConnection.X_HW_SpeedLimit_DOWN
+  @0x08b7: X_CT-COM_Username
+  @0x08c9: IGD.WANDevice.WANConnectionDevice.WANIPConnection.X_HW_VR.Username
+  @0x090c: X_CT-COM_Password
+  @0x091e: IGD.WANDevice.WANConnectionDevice.WANIPConnection.X_HW_VR.Password
+  @0x0961: IGD.WANDevice.WANConnectionDevice.WANPPPConnection.
+  @0x0995: IGD.WANDevice.WANConnectionDevice.WANPPPConnection.X_HW_SpeedLimit_UP
+  @0x09db: IGD.WANDevice.WANConnectionDevice.WANPPPConnection.X_HW_SpeedLimit_DOWN
+  @0x0a23: X_CT-COM_PPPoEPassthrough
+  @0x0a3d: IGD.WANDevice.WANConnectionDevice.WANPPPConnection.X_HW_BridgeEnable
+  @0x0a82: IGD.X_CT-COM_DownlinkQoS.
+  @0x0a9c: IGD.X_HW_DownlinkQos.
+  @0x0ab2: Enable
+  @0x0ab9: IGD.X_HW_DownlinkQos.Enable
+  @0x0ad5: Bandwidth
+  @0x0adf: IGD.X_HW_DownlinkQos.X_HW_Bandwidth
+  @0x0b03: Plan
+  @0x0b08: IGD.X_HW_DownlinkQos.X_HW_Plan
+  @0x0b27: EnableDSCPMark
+  @0x0b36: IGD.X_HW_DownlinkQos.X_HW_EnableDSCPMark
+  @0x0b5f: Enable802-1_P
+  @0x0b6d: IGD.X_HW_DownlinkQos.X_HW_Enable8021p
+  @0x0b93: IGD.X_CT-COM_DownlinkQoS.Classification.
+  @0x0bbc: IGD.X_HW_DownlinkQos.Classification.
+  @0x0be1: ClassQueue
+  @0x0bec: IGD.X_HW_DownlinkQos.Classification.ClassQueue
+  @0x0c1b: DSCPMarkValue
+  @0x0c29: IGD.X_HW_DownlinkQos.Classification.DSCPMarkValue
+  @0x0c5b: 802-1_P_Value
+  @0x0c69: IGD.X_HW_DownlinkQos.Classification.8021pValue
+  @0x0c98: IGD.X_CT-COM_DownlinkQoS.Classification.type.
+  @0x0cc6: IGD.X_HW_DownlinkQos.Classification.type.
+  @0x0cf0: Type
+  @0x0cf5: IGD.X_HW_DownlinkQos.Classification.type.Type
+  @0x0d23: Max
+  @0x0d27: IGD.X_HW_DownlinkQos.Classification.type.Max
+  @0x0d54: Min
+  @0x0d58: IGD.X_HW_DownlinkQos.Classification.type.Min
+  @0x0d85: ProtocolList
+  @0x0d92: IGD.X_HW_DownlinkQos.Classification.type.ProtocolList
+  @0x0dc8: IGD.X_CT-COM_DownlinkQoS.PriorityQueue.
+  @0x0df0: IGD.X_HW_DownlinkQos.PriorityQueue.
+  @0x0e14: IGD.X_HW_DownlinkQos.PriorityQueue.Enable
+  @0x0e3e: Priority
+  @0x0e47: IGD.X_HW_DownlinkQos.PriorityQueue.Priority
+  @0x0e73: Weight
+  @0x0e7a: IGD.X_HW_DownlinkQos.PriorityQueue.Weight
+  @0x0ea4: IGD.X_CT-COM_IPoEDiagnostics.
+  @0x0ec2: IGD.X_HW_DHCP_PING_EMULATOR.
+  @0x0edf: DiagnosticsState
+  @0x0ef0: WANInterface
+  @0x0efd: UserMac
+  @0x0f05: VendorClassID
+  @0x0f13: PingDestIPAddress
+  @0x0f25: IGD.X_HW_DHCP_PING_EMULATOR.PingDestIPAddress1
+  @0x0f54: Result
+  @0x0f5b: ExternalIPAddress
+  @0x0f6d: IGD.X_HW_DHCP_PING_EMULATOR.LocalAddress
+  @0x0f96: SubnetMask
+  @0x0fa1: DefaultGateway
+  @0x0fb0: DNSServers
+  @0x0fbb: IGD.X_HW_DHCP_PING_EMULATOR.PrimaryDNSServerIP
+  @0x0fea: Timeout
+  @0x0ff2: IGD.X_HW_DHCP_PING_EMULATOR.PingTimeOut
+  @0x101a: PingNumberOfRepetitions
+  @0x1032: SuccessCount
+  @0x103f: IGD.X_HW_DHCP_PING_EMULATOR.PingDest1SuccCount
+  @0x106e: FailureCount
+  @0x107b: IGD.X_HW_DHCP_PING_EMULATOR.PingDest1FailCount
+  @0x10aa: AverageResponseTime
+  @0x10be: IGD.X_HW_DHCP_PING_EMULATOR.PingDest1AvgResponseTime
+  @0x10f3: MinimumResponseTime
+  @0x1107: IGD.X_HW_DHCP_PING_EMULATOR.PingDest1MinResponseTime
+  @0x113c: MaximumResponseTime
+  @0x1150: IGD.X_HW_DHCP_PING_EMULATOR.PingDest1MaxResponseTime
+  @0x1185: IGD.DeviceInfo.X_CT-COM_NeighborDetection.
+  @0x11b0: IGD.X_HW_ARPPingNum.
+  @0x11c5: NumberOfEntries
+  @0x11d5: IGD.X_HW_ARPPingNum.NumberOfEntries
+  @0x11f9: IGD.DeviceInfo.X_CT-COM_NeighborDetection.Config.
+  @0x122b: IGD.X_HW_ARPPingDiagnostics.
+  @0x1248: IGD.X_HW_ARPPingDiagnostics.ARPPingEnable
+  @0x1272: WANConnection
+  @0x1280: IGD.X_HW_ARPPingDiagnostics.WanName
+  @0x12a4: Interval
+  @0x12ad: IGD.X_HW_ARPPingDiagnostics.ARPPingInterval
+  @0x12d9: NumberOfRepetitions
+  @0x12ed: IGD.X_HW_ARPPingDiagnostics.ARPPingNumberOfRepetitions
+  @0x1324: IGD.DeviceInfo.X_HW_CDN.
+  @0x133d: IGD.DeviceInfo|X_HW_CDN|.
+  @0x1357: IGD.DeviceInfo.X_HW_USBPlugin.Enable
+  @0x137c: IGD.DeviceInfo.
+  @0x138c: X_CT-COM_ChipID
+  @0x139c: IGD.DeviceInfo.ChipID
+  @0x13b2: X_CT-COM_CheckKey
+  @0x13c4: IGD.DeviceInfo.CheckKey
+  @0x13eb: Cxz[
+  @0x1404: _a;
+  @0x14a6: !dp[
+  @0x14b0: l1s
+  @0x14c7: 8#,
+  @0x14d7: -'.
+  @0x14df: E,J
+  @0x152e: *iWJ
+  @0x15a9: 4$-
+  @0x15c1: pA 
+  @0x15d1: $G!
+  @0x15d9: ~M(
+  @0x15e1: ;+3
+  @0x1611: >A$
+  @0x161f: &k 
+  @0x1637: H,0
+  @0x1668: ~Z$L
+  @0x1717: Kj#
+  @0x1727: .l'.
+  @0x1739: \C)
+  @0x1741: X<c,

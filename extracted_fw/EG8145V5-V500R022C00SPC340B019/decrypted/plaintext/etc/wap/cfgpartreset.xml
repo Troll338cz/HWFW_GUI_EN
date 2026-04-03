@@ -1,0 +1,6 @@
+<PartResetConfig>
+<!-- 
+<Mod Type="" KeyPath="" AttName="" AttValList="" ResAttValList="" DelOpt=""/>
+-->
+<Mod Type="WholeSingle" KeyPath="InternetGatewayDevice.Layer3Forwarding" AttName="" AttValList="" ResAttValList="" DelOpt=""/>
+</PartResetConfig>

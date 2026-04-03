@@ -1,0 +1,250 @@
+# Decoded from: etc/app/tr143_app/cfg/tr143_tr181.bin
+# Magic: 0xa1b3c2d4
+# Size: 6187 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  +Device.IP.Diagnostics.
+  IGD.X_HW_DataModel.IP.Diagnostics.
+  IPv4DownloadDiagnosticsSupported
+  IGD.Diagnostics.IPv4DownloadDiagnosticsSupported
+  IPv6DownloadDiagnosticsSupported
+  IGD.Diagnostics.IPv6DownloadDiagnosticsSupported
+  IPv4UploadDiagnosticsSupported
+  IGD.Diagnostics.IPv4UploadDiagnosticsSupported
+  IPv6UploadDiagnosticsSupported
+  IGD.Diagnostics.IPv6UploadDiagnosticsSupported
+  IPv4UDPEchoDiagnosticsSupported
+  IGD.Diagnostics.IPv4UDPEchoDiagnosticsSupported
+  IPv6UDPEchoDiagnosticsSupported
+  IGD.Diagnostics.IPv6UDPEchoDiagnosticsSupported
+  IPv4ServerSelectionDiagnosticsSupported
+  IGD.Diagnostics.IPv4ServerSelectionDiagnosticsSupported
+  IPv6ServerSelectionDiagnosticsSupported
+  IGD.Diagnostics.IPv6ServerSelectionDiagnosticsSupported
+  Device.IP.Diagnostics.ServerSelectionDiagnostics.
+  IGD.ServerSelectionDiagnostics.
+  DiagnosticsState
+  Interface
+  ProtocolVersion
+  Protocol
+  HostList
+  NumberOfRepetitions
+  Timeout
+  FastestHost
+  MinimumResponseTime
+  AverageResponseTime
+  MaximumResponseTime
+  IPAddressUsed
+  Device.IP.Diagnostics.DownloadDiagnostics.
+  IGD.DownloadDiagnostics.
+  DownloadURL
+  DownloadTransports
+  DownloadDiagnosticMaxConnections
+  DownloadDiagnosticsMaxIncrementalResult
+  DSCP
+  EthernetPriority
+  TimeBasedTestDuration
+  TimeBasedTestMeasurementInterval
+  TimeBasedTestMeasurementOffset
+  NumberOfConnections
+  ROMTime
+  BOMTime
+  EOMTime
+  TestBytesReceived
+  TotalBytesReceived
+  TotalBytesSent
+  TestBytesReceivedUnderFullLoading
+  TotalBytesReceivedUnderFullLoading
+  TotalBytesSentUnderFullLoading
+  PeriodOfFullLoading
+  TCPOpenRequestTime
+  TCPOpenResponseTime
+  PerConnectionResultNumberOfEntries
+  IncrementalResultNumberOfEntries
+  Device.IP.Diagnostics.DownloadDiagnostics.IncrementalResult.
+  IGD.DownloadDiagnostics.IncrementalResult.
+  StartTime
+  EndTime
+  Device.IP.Diagnostics.UploadDiagnostics.
+  IGD.UploadDiagnostics.
+  UploadURL
+  UploadTransports
+  UploadDiagnosticMaxConnections
+  UploadDiagnosticsMaxIncrementalResult
+  TestFileLength
+  TestBytesSent
+  TestBytesSentUnderFullLoading
+  Device.IP.Diagnostics.UploadDiagnostics.IncrementalResult.
+  IGD.UploadDiagnostics.IncrementalResult.
+  Y@?
+  ;*4=M
+  `$*
+  cdE1
+  ?<K
+  ^f$
+  xI5
+  YL%
+  fC+
+  0s>8
+  4a(9
+  ,U\
+  vRx
+  ``K#
+  Qj\
+  -;bE
+  7!6
+  YeR
+  -&JWT
+  VfL$
+  wV
+  /77
+  k:n
+  `fG
+  ZRL4
+  ,W%
+  XT?
+  VwA
+  *Xs
+  Qx,
+  n!@
+  B\Q
+  4~H
+  Jh+N
+  .O)
+  _b&M
+  5p2
+  "cD
+  Daw
+  %LEP
+  EAI
+  -6mL
+  2^:
+  P./
+  lM5C
+  5_B
+  D/)/
+
+## All Strings (offset, value):
+
+  @0x0436: +Device.IP.Diagnostics.
+  @0x044e: IGD.X_HW_DataModel.IP.Diagnostics.
+  @0x0471: IPv4DownloadDiagnosticsSupported
+  @0x0492: IGD.Diagnostics.IPv4DownloadDiagnosticsSupported
+  @0x04c3: IPv6DownloadDiagnosticsSupported
+  @0x04e4: IGD.Diagnostics.IPv6DownloadDiagnosticsSupported
+  @0x0515: IPv4UploadDiagnosticsSupported
+  @0x0534: IGD.Diagnostics.IPv4UploadDiagnosticsSupported
+  @0x0563: IPv6UploadDiagnosticsSupported
+  @0x0582: IGD.Diagnostics.IPv6UploadDiagnosticsSupported
+  @0x05b1: IPv4UDPEchoDiagnosticsSupported
+  @0x05d1: IGD.Diagnostics.IPv4UDPEchoDiagnosticsSupported
+  @0x0601: IPv6UDPEchoDiagnosticsSupported
+  @0x0621: IGD.Diagnostics.IPv6UDPEchoDiagnosticsSupported
+  @0x0651: IPv4ServerSelectionDiagnosticsSupported
+  @0x0679: IGD.Diagnostics.IPv4ServerSelectionDiagnosticsSupported
+  @0x06b1: IPv6ServerSelectionDiagnosticsSupported
+  @0x06d9: IGD.Diagnostics.IPv6ServerSelectionDiagnosticsSupported
+  @0x0711: Device.IP.Diagnostics.ServerSelectionDiagnostics.
+  @0x0743: IGD.ServerSelectionDiagnostics.
+  @0x0763: DiagnosticsState
+  @0x0774: Interface
+  @0x077e: ProtocolVersion
+  @0x078e: Protocol
+  @0x0797: HostList
+  @0x07a0: NumberOfRepetitions
+  @0x07b4: Timeout
+  @0x07bc: FastestHost
+  @0x07c8: MinimumResponseTime
+  @0x07dc: AverageResponseTime
+  @0x07f0: MaximumResponseTime
+  @0x0804: IPAddressUsed
+  @0x0812: Device.IP.Diagnostics.DownloadDiagnostics.
+  @0x083d: IGD.DownloadDiagnostics.
+  @0x0856: DownloadURL
+  @0x0862: DownloadTransports
+  @0x0875: DownloadDiagnosticMaxConnections
+  @0x0896: DownloadDiagnosticsMaxIncrementalResult
+  @0x08be: DSCP
+  @0x08c3: EthernetPriority
+  @0x08d4: TimeBasedTestDuration
+  @0x08ea: TimeBasedTestMeasurementInterval
+  @0x090b: TimeBasedTestMeasurementOffset
+  @0x092a: NumberOfConnections
+  @0x093e: ROMTime
+  @0x0946: BOMTime
+  @0x094e: EOMTime
+  @0x0956: TestBytesReceived
+  @0x0968: TotalBytesReceived
+  @0x097b: TotalBytesSent
+  @0x098a: TestBytesReceivedUnderFullLoading
+  @0x09ac: TotalBytesReceivedUnderFullLoading
+  @0x09cf: TotalBytesSentUnderFullLoading
+  @0x09ee: PeriodOfFullLoading
+  @0x0a02: TCPOpenRequestTime
+  @0x0a15: TCPOpenResponseTime
+  @0x0a29: PerConnectionResultNumberOfEntries
+  @0x0a4c: IncrementalResultNumberOfEntries
+  @0x0a6d: Device.IP.Diagnostics.DownloadDiagnostics.IncrementalResult.
+  @0x0aaa: IGD.DownloadDiagnostics.IncrementalResult.
+  @0x0ad5: StartTime
+  @0x0adf: EndTime
+  @0x0ae7: Device.IP.Diagnostics.UploadDiagnostics.
+  @0x0b10: IGD.UploadDiagnostics.
+  @0x0b27: UploadURL
+  @0x0b31: UploadTransports
+  @0x0b42: UploadDiagnosticMaxConnections
+  @0x0b61: UploadDiagnosticsMaxIncrementalResult
+  @0x0b87: TestFileLength
+  @0x0b96: TestBytesSent
+  @0x0ba4: TestBytesSentUnderFullLoading
+  @0x0bc2: Device.IP.Diagnostics.UploadDiagnostics.IncrementalResult.
+  @0x0bfd: IGD.UploadDiagnostics.IncrementalResult.
+  @0x0c47: Y@?
+  @0x0c4f: ;*4=M
+  @0x0c81: `$*
+  @0x0c9a: cdE1
+  @0x0cab: ?<K
+  @0x0cfa: ^f$
+  @0x0d37: xI5
+  @0x0d48: YL%
+  @0x0d59: fC+
+  @0x0d68: 0s>8
+  @0x0d93: 4a(9
+  @0x0d9c: ,U\
+  @0x0dcb: vRx
+  @0x0e1d: ``K#
+  @0x0e4a: Qj\
+  @0x0e5c: -;bE
+  @0x0e65: 7!6
+  @0x0e9d: YeR
+  @0x0ebb: -&JWT
+  @0x0ec5: VfL$
+  @0x0ed7: wV 
+  @0x0ee8: /77
+  @0x0f2b: k:n
+  @0x0f3c: `fG
+  @0x0f4b: ZRL4
+  @0x0f72: ,W%
+  @0x0f90: XT?
+  @0x0f98: VwA
+  @0x0fcc: *Xs
+  @0x0fdc: Qx,
+  @0x0fec: n!@
+  @0x100a: B\Q
+  @0x1040: 4~H
+  @0x1068: Jh+N
+  @0x1078: .O)
+  @0x108a: _b&M
+  @0x1093: 5p2
+  @0x1135: "cD
+  @0x1155: Daw
+  @0x115e: %LEP
+  @0x1178: EAI
+  @0x1187: -6mL
+  @0x1190: 2^:
+  @0x1198: P./
+  @0x11a1: lM5C
+  @0x11aa: 5_B
+  @0x11b3: D/)/

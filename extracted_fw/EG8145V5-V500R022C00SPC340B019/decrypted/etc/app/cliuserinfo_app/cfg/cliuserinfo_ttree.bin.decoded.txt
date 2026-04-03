@@ -1,0 +1,47 @@
+# Decoded from: etc/app/cliuserinfo_app/cfg/cliuserinfo_ttree.bin
+# Magic: 0xa4b6c5d7
+# Size: 839 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  0 G
+  0 G
+  InternetGatewayDevice
+  UserInterface
+  X_HW_CLIUserInfo
+  Username
+  Userpassword
+  UserGroup
+  ModifyPWDFlag
+  EncryptMode
+  Userpasscode
+  Salt
+  AccessInterface
+  cwmp
+  ssmp
+  cms
+  [t4
+  vus
+
+## All Strings (offset, value):
+
+  @0x008e: 0 G
+  @0x0092: 0 G
+  @0x0142: InternetGatewayDevice
+  @0x0158: UserInterface
+  @0x0166: X_HW_CLIUserInfo
+  @0x0177: Username
+  @0x0180: Userpassword
+  @0x018d: UserGroup
+  @0x0197: ModifyPWDFlag
+  @0x01a5: EncryptMode
+  @0x01b1: Userpasscode
+  @0x01be: Salt
+  @0x01c3: AccessInterface
+  @0x01d3: cwmp
+  @0x01d8: ssmp
+  @0x01dd: cms
+  @0x01e6: 0xFFFFFFFF
+  @0x0206: [t4
+  @0x022d: vus

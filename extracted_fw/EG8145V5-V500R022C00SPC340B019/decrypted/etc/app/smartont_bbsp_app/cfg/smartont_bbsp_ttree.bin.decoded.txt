@@ -1,0 +1,15 @@
+# Decoded from: etc/app/smartont_bbsp_app/cfg/smartont_bbsp_ttree.bin
+# Magic: 0xa4b6c5d7
+# Size: 171 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  InternetGatewayDevice
+  cwmp
+
+## All Strings (offset, value):
+
+  @0x0054: InternetGatewayDevice
+  @0x006a: cwmp
+  @0x0074: 0xFFFFFFFF

@@ -1,0 +1,14 @@
+<CliRoot>
+<Tr069UserInfoGet CmdStr="display cwmp status" ObjPath="InternetGatewayDevice.X_HW_UserInfo" OpType="1"  Help="USAGE: display the device register acs status" OutPut="
+Status:%Status%
+Result:%Result%
+Limit:%Limit%
+Times:%Times%
+InformStatus:%X_HW_InformStatus%
+AcsConStatus:%X_HW_AcsCnnctSatus%
+ForceSupport:%ForceSupport%
+ProvisioningCode:%ProvisioningCode%
+ServiceNum:%ServiceNum%
+ConfigureStatus:%ConfigureStatus%"
+CmdGroup="0x00004010"/>
+</CliRoot>

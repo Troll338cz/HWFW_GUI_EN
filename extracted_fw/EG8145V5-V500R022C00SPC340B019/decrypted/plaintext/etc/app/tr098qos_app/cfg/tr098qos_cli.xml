@@ -1,0 +1,134 @@
+<CliRoot>
+<AddPolicer CmdStr="qos add policer" ObjPath="InternetGatewayDevice.QueueManagement.Policer" OpType="3" Help="qos add policer cir [int]" OutPut="" CmdGroup="">
+<para ParaName="cir" AttName="CommittedRate" ParaAtt="0"/>
+<para ParaName="cbs" AttName="CommittedBurstSize" ParaAtt="0"/>
+<para ParaName="ebs" AttName="ExcessBurstSize" ParaAtt="0"/>
+<para ParaName="pir" AttName="PeakRate" ParaAtt="0"/>
+<para ParaName="pbs" AttName="PeakBurstSize" ParaAtt="0"/>
+<para ParaName="meter" AttName="MeterType" ParaAtt="0"/>
+<para ParaName="action" AttName="ConformingAction" ParaAtt="0"/>
+</AddPolicer>
+<SetPolicer CmdStr="qos set policer" ObjPath="InternetGatewayDevice.QueueManagement.Policer" OpType="0" Help="qos set policer ins [int] cir [int]" OutPut="" CmdGroup="">
+<para ParaName="ins" AttName="Policer" ParaAtt="1"/>
+<para ParaName="cir" AttName="CommittedRate" ParaAtt="0"/>
+<para ParaName="cbs" AttName="CommittedBurstSize" ParaAtt="0"/>
+<para ParaName="ebs" AttName="ExcessBurstSize" ParaAtt="0"/>
+<para ParaName="pir" AttName="PeakRate" ParaAtt="0"/>
+<para ParaName="pbs" AttName="PeakBurstSize" ParaAtt="0"/>
+<para ParaName="meter" AttName="MeterType" ParaAtt="0"/>
+<para ParaName="action" AttName="ConformingAction" ParaAtt="0"/>
+</SetPolicer>
+<AddQueue CmdStr="qos add queue" ObjPath="InternetGatewayDevice.QueueManagement.Queue" OpType="3" Help="qos add queue qif [string] buff [int/byte] qw [int] qp [0-7] redmin_th[0:100] redmax_p[0:100] dropalg [DT/RED/WRED] shalg [SP/WRR] fastqid [10-17/20-27]" OutPut="" CmdGroup="">
+<para ParaName="qif" AttName="QueueInterface" ParaAtt="0"/>
+<para ParaName="buff" AttName="QueueBufferLength" ParaAtt="0"/>
+<para ParaName="qw" AttName="QueueWeight" ParaAtt="0"/>
+<para ParaName="qp" AttName="QueuePrecedence" ParaAtt="0"/>
+<para ParaName="redmin_th" AttName="REDThreshold" ParaAtt="0"/>
+<para ParaName="redmax_th" AttName="X_HW_REDThresholdMax" ParaAtt="0"/>
+<para ParaName="redmax_p" AttName="REDPercentage" ParaAtt="0"/>
+<para ParaName="dropalg" AttName="DropAlgorithm" ParaAtt="0"/>
+<para ParaName="shalg" AttName="SchedulerAlgorithm" ParaAtt="0"/>
+<para ParaName="fastqid" AttName="X_HW_FastQueueId" ParaAtt="0"/>
+</AddQueue>
+<AddCla CmdStr="qos add cla" ObjPath="InternetGatewayDevice.QueueManagement.Classification" OpType="3" Help="qos add cla iif [str] dip [str] dipmask [str] sip [str] sipmask [str] ip-proto [int] dp [int] dpend [int] sp [int] spend [int] dscpcheck [int] dscpmark [int] drop [int] ethpri-mark [int] policer-ins [int] hdqueueid [int]" OutPut="" CmdGroup="">
+<para ParaName="iif" AttName="ClassInterface" ParaAtt="0"/>
+<para ParaName="dip" AttName="DestIP" ParaAtt="0"/>
+<para ParaName="dipmask" AttName="DestMask" ParaAtt="0"/>
+<para ParaName="sip" AttName="SourceIP" ParaAtt="0"/>
+<para ParaName="sipmask" AttName="SourceMask" ParaAtt="0"/>
+<para ParaName="ip-proto" AttName="Protocol" ParaAtt="0"/>
+<para ParaName="dp" AttName="DestPort" ParaAtt="0"/>
+<para ParaName="dpend" AttName="DestPortRangeMax" ParaAtt="0"/>
+<para ParaName="sp" AttName="SourcePort" ParaAtt="0"/>
+<para ParaName="spend" AttName="SourcePortRangeMax" ParaAtt="0"/>
+<para ParaName="smac" AttName="SourceMACAddress" ParaAtt="0"/>
+<para ParaName="smacmask" AttName="SourceMACMask" ParaAtt="0"/>
+<para ParaName="dmac" AttName="DestMACAddress" ParaAtt="0"/>
+<para ParaName="dmacmask" AttName="DestMACMask" ParaAtt="0"/>
+<para ParaName="ethtype" AttName="Ethertype" ParaAtt="0"/>
+<para ParaName="iplenmin" AttName="IPLengthMin" ParaAtt="0"/>
+<para ParaName="iplenmax" AttName="IPLengthMax" ParaAtt="0"/>
+<para ParaName="dscpcheck" AttName="DSCPCheck" ParaAtt="0"/>
+<para ParaName="dscpmark" AttName="DSCPMark" ParaAtt="0"/>
+<para ParaName="ethpri" AttName="EthernetPriorityCheck" ParaAtt="0"/>
+<para ParaName="ethpri-mark" AttName="EthernetPriorityMark" ParaAtt="0"/>
+<para ParaName="svlan" AttName="VLANIDCheck" ParaAtt="0"/>
+<para ParaName="policer-ins" AttName="ClassPolicer" ParaAtt="0"/>
+<para ParaName="queue-ins" AttName="ClassQueue" ParaAtt="0"/>
+<para ParaName="cvlan" AttName="X_HW_CVlanCheck" ParaAtt="0"/>
+<para ParaName="cvlanpri" AttName="X_HW_CVlanPriCheck" ParaAtt="0"/>
+<para ParaName="cvlanpri-mark" AttName="X_HW_CVlanPriMark" ParaAtt="0"/>
+<para ParaName="iptos" AttName="X_HW_IpTosCheck" ParaAtt="0"/>
+<para ParaName="iptos-mark" AttName="X_HW_IpTosMark" ParaAtt="0"/>
+<para ParaName="ippre" AttName="X_HW_IpPreceCheck" ParaAtt="0"/>
+<para ParaName="ippre-mark" AttName="X_HW_IpPreceCheckMark" ParaAtt="0"/>
+<para ParaName="ethlen" AttName="X_HW_EthLen" ParaAtt="0"/>
+<para ParaName="useroffset" AttName="X_HW_UseOffset" ParaAtt="0"/>
+<para ParaName="uservalue" AttName="X_HW_UseValue" ParaAtt="0"/>
+<para ParaName="usermask" AttName="X_HW_UseMask" ParaAtt="0"/>
+<para ParaName="oif" AttName="X_HW_OutInterface" ParaAtt="0"/>
+<para ParaName="direction" AttName="X_HW_Dircetion" ParaAtt="0"/>
+<para ParaName="nextcla-ins-list" AttName="X_HW_NextLevelClaInsList" ParaAtt="0"/>
+<para ParaName="mirror" AttName="X_HW_Mirror" ParaAtt="0"/>
+<para ParaName="drop" AttName="X_HW_Drop" ParaAtt="0"/>
+<para ParaName="hdqueueid" AttName="X_HW_OutHardwareQueue" ParaAtt="0"/>
+</AddCla>
+<SetCla CmdStr="qos set cla" ObjPath="InternetGatewayDevice.QueueManagement.Classification" OpType="0" Help="qos set cla ins [int] iif [str] dip [str] dipmask [str] sip [str] sipmask [str] ip-proto [int] dp [int] dpend [int] sp [int] spend [int] dscpcheck [int] dscpmark [int] drop [int] ethpri-mark [int] policer-ins [int] hdqueueid [int]" OutPut="" CmdGroup="">
+<para ParaName="ins" AttName="Classification" ParaAtt="1"/>
+<para ParaName="iif" AttName="ClassInterface" ParaAtt="0"/>
+<para ParaName="dip" AttName="DestIP" ParaAtt="0"/>
+<para ParaName="dipmask" AttName="DestMask" ParaAtt="0"/>
+<para ParaName="sip" AttName="SourceIP" ParaAtt="0"/>
+<para ParaName="sipmask" AttName="SourceMask" ParaAtt="0"/>
+<para ParaName="ip-proto" AttName="Protocol" ParaAtt="0"/>
+<para ParaName="dp" AttName="DestPort" ParaAtt="0"/>
+<para ParaName="dpend" AttName="DestPortRangeMax" ParaAtt="0"/>
+<para ParaName="sp" AttName="SourcePort" ParaAtt="0"/>
+<para ParaName="spend" AttName="SourcePortRangeMax" ParaAtt="0"/>
+<para ParaName="dscpcheck" AttName="DSCPCheck" ParaAtt="0"/>
+<para ParaName="dscpmark" AttName="DSCPMark" ParaAtt="0"/>
+<para ParaName="ethpri-mark" AttName="EthernetPriorityMark" ParaAtt="0"/>
+<para ParaName="policer-ins" AttName="ClassPolicer" ParaAtt="0"/>
+<para ParaName="drop" AttName="X_HW_Drop" ParaAtt="0"/>
+<para ParaName="hdqueueid" AttName="X_HW_OutHardwareQueue" ParaAtt="0"/>
+</SetCla>
+<DelCla CmdStr="qos del cla" ObjPath="InternetGatewayDevice.QueueManagement.Classification" OpType="2" Help="qos del cla ins [int]" OutPut="" CmdGroup="">
+<para ParaName="ins" AttName="Classification" ParaAtt="1"/>
+</DelCla>
+<GetCla CmdStr="qos get cla" ObjPath="InternetGatewayDevice.QueueManagement.Classification" OpType="1" Help="qos get cla ins [int]" OutPut="*************** Cla Infomation ************
+ClassIF  : %ClassInterface%
+DIP      : %DestIP%
+DIPMask  : %DestMask%
+SIP      : %SourceIP%
+SIPMask  : %SourceMask%
+Protocol : %Protocol%
+DPort    : %DestPort%
+DPortEnd : %DestPortRangeMax%
+SPort    : %SourcePort%
+SPortEnd : %SourcePortRangeMax%
+DscpCheck: %DSCPCheck%
+DscpMark : %DSCPMark%
+Priority : %EthernetPriorityMark%
+Policer  : %ClassPolicer%
+Drop     : %X_HW_Drop%
+HWQueueID: %X_HW_OutHardwareQueue%
+*************************************************" CmdGroup="">
+<para ParaName="ins" AttName="Classification" ParaAtt="1"/>
+</GetCla>
+<DelPolicer CmdStr="qos del policer" ObjPath="InternetGatewayDevice.QueueManagement.Policer" OpType="2" Help="qos del policer ins [int]" OutPut="" CmdGroup="">
+<para ParaName="ins" AttName="Policer" ParaAtt="1"/>
+</DelPolicer>
+<GetPolicer CmdStr="qos get policer" ObjPath="InternetGatewayDevice.QueueManagement.Policer" OpType="1" Help="qos get policer ins [int]" OutPut="*************** Policer Infomation ************
+Enable : %PolicerEnable%
+CIR    : %CommittedRate%
+CBS    : %CommittedBurstSize%
+PIR    : %PeakRate%
+PBS    : %PeakBurstSize%
+TYPE   : %PossibleMeterTypes%
+*************************************************" CmdGroup="">
+<para ParaName="ins" AttName="Policer" ParaAtt="1"/>
+</GetPolicer>
+<DelQueue CmdStr="qos del queue" ObjPath="InternetGatewayDevice.QueueManagement.Queue" OpType="2" Help="qos del queue ins [int]" OutPut="" CmdGroup="">
+<para ParaName="ins" AttName="Queue" ParaAtt="1"/>
+</DelQueue>
+</CliRoot>

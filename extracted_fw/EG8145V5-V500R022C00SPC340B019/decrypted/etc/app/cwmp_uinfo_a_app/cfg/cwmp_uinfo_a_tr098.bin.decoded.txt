@@ -1,0 +1,40 @@
+# Decoded from: etc/app/cwmp_uinfo_a_app/cfg/cwmp_uinfo_a_tr098.bin
+# Magic: 0xa1b3c2d4
+# Size: 643 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  IGD.X_HW_UserInfo.
+  UserName
+  UserId
+  Status
+  Limit
+  Times
+  Result
+  ProvisioningCode
+  ServiceNum
+  ConfigureStatus
+  Password
+  X+!
+  4t`
+  X+!
+  4t`
+
+## All Strings (offset, value):
+
+  @0x00a5: IGD.X_HW_UserInfo.
+  @0x00b8: UserName
+  @0x00c1: UserId
+  @0x00c8: Status
+  @0x00cf: Limit
+  @0x00d5: Times
+  @0x00db: Result
+  @0x00e2: ProvisioningCode
+  @0x00f3: ServiceNum
+  @0x00fe: ConfigureStatus
+  @0x010e: Password
+  @0x0136: X+!
+  @0x0147: 4t`
+  @0x018d: X+!
+  @0x019e: 4t`

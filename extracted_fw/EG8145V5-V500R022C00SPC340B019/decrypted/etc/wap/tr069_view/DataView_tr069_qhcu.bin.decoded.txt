@@ -1,0 +1,64 @@
+# Decoded from: etc/wap/tr069_view/DataView_tr069_qhcu.bin
+# Magic: 0xa1b3c2d4
+# Size: 2207 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  IGD.DeviceInfo.X_HW_USBPlugin.
+  IGD.Layer3Forwarding.X_HW_CurrentForwarding.
+  IGD.DeviceInfo
+  X_HW_BatteryStatus
+  FT_F5G_TR069_ACCESS
+  FT_MODIFY_CDN
+  IGD.DeviceInfo.
+  X_HW_BatteryStatus
+  IGD.DeviceInfo.X_HW_IpMacReport.
+  Enable
+  ServerUrl
+  Port
+  Protocol
+  SharedKey
+  IGD.LANDevice.WiFi.X_HW_WallModeForChina.
+  IGD.X_HW_NSS.
+  IGD.X_HW_NSS.X_HW_IPTrafficList.
+  WanType
+  Device
+  DestIPMaskList
+  IGD.DeviceInfo.X_HW_CDN.
+  IGD.DeviceInfo|X_HW_CDN|.
+  IGD.DeviceInfo.X_HW_USBPlugin.Enable
+  bR>
+  bR>
+  ~Z$L
+  X<c
+
+## All Strings (offset, value):
+
+  @0x0010: IGD.DeviceInfo.X_HW_USBPlugin.
+  @0x0110: IGD.Layer3Forwarding.X_HW_CurrentForwarding.
+  @0x0210: IGD.DeviceInfo
+  @0x0310: X_HW_BatteryStatus
+  @0x0522: FT_F5G_TR069_ACCESS
+  @0x0536: FT_MODIFY_CDN
+  @0x0544: IGD.DeviceInfo.
+  @0x0554: X_HW_BatteryStatus
+  @0x0567: IGD.DeviceInfo.X_HW_IpMacReport.
+  @0x0588: Enable
+  @0x058f: ServerUrl
+  @0x0599: Port
+  @0x059e: Protocol
+  @0x05a7: SharedKey
+  @0x05b1: IGD.LANDevice.WiFi.X_HW_WallModeForChina.
+  @0x05db: IGD.X_HW_NSS.
+  @0x05e9: IGD.X_HW_NSS.X_HW_IPTrafficList.
+  @0x060a: WanType
+  @0x0612: Device
+  @0x0619: DestIPMaskList
+  @0x0628: IGD.DeviceInfo.X_HW_CDN.
+  @0x0641: IGD.DeviceInfo|X_HW_CDN|.
+  @0x065b: IGD.DeviceInfo.X_HW_USBPlugin.Enable
+  @0x06a0: bR>
+  @0x0728: bR>
+  @0x0731: ~Z$L
+  @0x078a: X<c

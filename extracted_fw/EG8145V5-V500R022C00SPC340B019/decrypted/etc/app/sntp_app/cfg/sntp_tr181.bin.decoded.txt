@@ -1,0 +1,36 @@
+# Decoded from: etc/app/sntp_app/cfg/sntp_tr181.bin
+# Magic: 0xa1b3c2d4
+# Size: 607 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  +Device.Time.
+  IGD.Time.
+  Enable
+  Status
+  NTPServer1
+  NTPServer2
+  NTPServer3
+  NTPServer4
+  NTPServer5
+  CurrentLocalTime
+  LocalTimeZone
+  ,N~
+  #@C
+
+## All Strings (offset, value):
+
+  @0x0094: +Device.Time.
+  @0x00a2: IGD.Time.
+  @0x00ac: Enable
+  @0x00b3: Status
+  @0x00ba: NTPServer1
+  @0x00c5: NTPServer2
+  @0x00d0: NTPServer3
+  @0x00db: NTPServer4
+  @0x00e6: NTPServer5
+  @0x00f1: CurrentLocalTime
+  @0x0102: LocalTimeZone
+  @0x0136: ,N~
+  @0x0197: #@C

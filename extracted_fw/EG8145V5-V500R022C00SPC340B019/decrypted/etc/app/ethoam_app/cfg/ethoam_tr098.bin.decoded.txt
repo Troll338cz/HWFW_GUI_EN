@@ -1,0 +1,112 @@
+# Decoded from: etc/app/ethoam_app/cfg/ethoam_tr098.bin
+# Magic: 0xa1b3c2d4
+# Size: 2383 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  IGD.X_HW_Dot1agCfm.
+  IGD.X_HW_Dot1agCfm.dot1agCfmMd.
+  MdIndex
+  MdLevel
+  MdNameFormat
+  MdNameValue
+  MhfCreation
+  IGD.X_HW_Dot1agCfm.dot1agCfmMd.dot1agCfmMa.
+  CcmInterval
+  MaIndex
+  MaNameFormat
+  MaNameValue
+  VlanId
+  IGD.X_HW_Dot1agCfm.dot1agCfmMd.dot1agCfmMa.dot1agCfmMep.
+  ActiveStatus
+  AlarmStatus
+  CcmSendStatistics
+  CcStatus
+  Direction
+  L2Priority
+  LbrSendStatistics
+  MepId
+  MepVlanMode
+  PortId
+  PortType
+  RemoteMepId
+  RemoteMepMacAddr
+  IGD.X_HW_Dot1agCfm.Pm.
+  PmIndex
+  ReceivePriority
+  SendPriority
+  AutoBackwardMAC
+  BackwardMAC
+  LmEnable
+  DmEnable
+  Ii{.
+  Xm/
+  F6P
+  N[#
+  )<*
+  vzm
+  v!(
+  gh
+  Ii{.
+  Xm/
+  F6P
+  N[#
+  )<*
+  vzm
+  v!(
+  gh
+
+## All Strings (offset, value):
+
+  @0x0208: IGD.X_HW_Dot1agCfm.
+  @0x021c: IGD.X_HW_Dot1agCfm.dot1agCfmMd.
+  @0x023c: MdIndex
+  @0x0244: MdLevel
+  @0x024c: MdNameFormat
+  @0x0259: MdNameValue
+  @0x0265: MhfCreation
+  @0x0271: IGD.X_HW_Dot1agCfm.dot1agCfmMd.dot1agCfmMa.
+  @0x029d: CcmInterval
+  @0x02a9: MaIndex
+  @0x02b1: MaNameFormat
+  @0x02be: MaNameValue
+  @0x02ca: VlanId
+  @0x02d1: IGD.X_HW_Dot1agCfm.dot1agCfmMd.dot1agCfmMa.dot1agCfmMep.
+  @0x030a: ActiveStatus
+  @0x0317: AlarmStatus
+  @0x0323: CcmSendStatistics
+  @0x0335: CcStatus
+  @0x033e: Direction
+  @0x0348: L2Priority
+  @0x0353: LbrSendStatistics
+  @0x0365: MepId
+  @0x036b: MepVlanMode
+  @0x0377: PortId
+  @0x037e: PortType
+  @0x0387: RemoteMepId
+  @0x0393: RemoteMepMacAddr
+  @0x03a4: IGD.X_HW_Dot1agCfm.Pm.
+  @0x03bb: PmIndex
+  @0x03c3: ReceivePriority
+  @0x03d3: SendPriority
+  @0x03e0: AutoBackwardMAC
+  @0x03f0: BackwardMAC
+  @0x03fc: LmEnable
+  @0x0405: DmEnable
+  @0x040e: Ii{.
+  @0x0458: Xm/
+  @0x0468: F6P
+  @0x048a: N[#
+  @0x04ba: )<*
+  @0x04ca: vzm
+  @0x04fa: v!(
+  @0x0519: gh 
+  @0x0559: Ii{.
+  @0x05a3: Xm/
+  @0x05b3: F6P
+  @0x05d5: N[#
+  @0x0605: )<*
+  @0x0615: vzm
+  @0x0645: v!(
+  @0x0664: gh 

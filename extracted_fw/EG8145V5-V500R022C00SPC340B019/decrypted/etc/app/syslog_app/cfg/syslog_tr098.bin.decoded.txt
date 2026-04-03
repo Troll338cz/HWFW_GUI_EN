@@ -1,0 +1,36 @@
+# Decoded from: etc/app/syslog_app/cfg/syslog_tr098.bin
+# Magic: 0xa1b3c2d4
+# Size: 455 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  IGD.DeviceInfo.X_HW_SyslogConfig.
+  LogServerEnable
+  Interface
+  Facility
+  Severity
+  ServerAddress
+  ServerPort
+  T9I
+  =|}
+  }B0
+  T9I
+  =|}
+  }B0
+
+## All Strings (offset, value):
+
+  @0x0074: IGD.DeviceInfo.X_HW_SyslogConfig.
+  @0x0096: LogServerEnable
+  @0x00a6: Interface
+  @0x00b0: Facility
+  @0x00b9: Severity
+  @0x00c2: ServerAddress
+  @0x00d0: ServerPort
+  @0x00f5: T9I
+  @0x00fe: =|}
+  @0x0107: }B0
+  @0x0133: T9I
+  @0x013c: =|}
+  @0x0145: }B0

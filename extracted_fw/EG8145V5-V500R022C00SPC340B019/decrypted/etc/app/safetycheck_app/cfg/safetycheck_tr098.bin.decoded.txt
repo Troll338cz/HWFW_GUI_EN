@@ -1,0 +1,18 @@
+# Decoded from: etc/app/safetycheck_app/cfg/safetycheck_tr098.bin
+# Magic: 0xa1b3c2d4
+# Size: 264 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  IGD.X_HW_CheckSafety.
+  Enable
+  Status
+  Result
+
+## All Strings (offset, value):
+
+  @0x0058: IGD.X_HW_CheckSafety.
+  @0x006e: Enable
+  @0x0075: Status
+  @0x007c: Result

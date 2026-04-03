@@ -1,0 +1,220 @@
+# Decoded from: etc/wap/tr069_view/DataView_tr069_saxct.bin
+# Magic: 0xa1b3c2d4
+# Size: 6673 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.
+  IGD.X_HW_ARPPingNum.
+  IGD.X_HW_ARPPingDiagnostics.
+  IGD.DeviceInfo.X_HW_USBPlugin.
+  IGD.DownloadDiagnostics
+  SampledValues
+  IGD.UploadDiagnostics
+  SampledValues
+  BBSP_FT_UPLINKQOS
+  BBSP_FT_UNICAST_ARPING
+  FT_MODIFY_CDN
+  IGD.DownloadDiagnostics.
+  X_CT-COM_Aspeed
+  X_CT-COM_Maxspeed
+  IGD.UploadDiagnostics.
+  IGD.WANDevice.WANConnectionDevice.WANIPConnection.
+  X_CT-COM_SpeedLimit_UP
+  IGD.WANDevice.WANConnectionDevice.WANIPConnection.X_HW_SpeedLimit_UP
+  X_CT-COM_SpeedLimit_DOWN
+  IGD.WANDevice.WANConnectionDevice.WANIPConnection.X_HW_SpeedLimit_DOWN
+  X_CT-COM_Username
+  IGD.WANDevice.WANConnectionDevice.WANIPConnection.X_HW_VR.Username
+  X_CT-COM_Password
+  IGD.WANDevice.WANConnectionDevice.WANIPConnection.X_HW_VR.Password
+  IGD.WANDevice.WANConnectionDevice.WANPPPConnection.
+  IGD.WANDevice.WANConnectionDevice.WANPPPConnection.X_HW_SpeedLimit_UP
+  IGD.WANDevice.WANConnectionDevice.WANPPPConnection.X_HW_SpeedLimit_DOWN
+  X_CT-COM_PPPoEPassthrough
+  IGD.WANDevice.WANConnectionDevice.WANPPPConnection.X_HW_BridgeEnable
+  IGD.X_CT-COM_DownlinkQoS.
+  IGD.X_HW_DownlinkQos.
+  Enable
+  IGD.X_HW_DownlinkQos.Enable
+  Bandwidth
+  IGD.X_HW_DownlinkQos.X_HW_Bandwidth
+  Plan
+  IGD.X_HW_DownlinkQos.X_HW_Plan
+  EnableDSCPMark
+  IGD.X_HW_DownlinkQos.X_HW_EnableDSCPMark
+  Enable802-1_P
+  IGD.X_HW_DownlinkQos.X_HW_Enable8021p
+  IGD.X_CT-COM_DownlinkQoS.Classification.
+  IGD.X_HW_DownlinkQos.Classification.
+  ClassQueue
+  IGD.X_HW_DownlinkQos.Classification.ClassQueue
+  DSCPMarkValue
+  IGD.X_HW_DownlinkQos.Classification.DSCPMarkValue
+  802-1_P_Value
+  IGD.X_HW_DownlinkQos.Classification.8021pValue
+  IGD.X_CT-COM_DownlinkQoS.Classification.type.
+  IGD.X_HW_DownlinkQos.Classification.type.
+  Type
+  IGD.X_HW_DownlinkQos.Classification.type.Type
+  Max
+  IGD.X_HW_DownlinkQos.Classification.type.Max
+  Min
+  IGD.X_HW_DownlinkQos.Classification.type.Min
+  ProtocolList
+  IGD.X_HW_DownlinkQos.Classification.type.ProtocolList
+  IGD.X_CT-COM_DownlinkQoS.PriorityQueue.
+  IGD.X_HW_DownlinkQos.PriorityQueue.
+  IGD.X_HW_DownlinkQos.PriorityQueue.Enable
+  Priority
+  IGD.X_HW_DownlinkQos.PriorityQueue.Priority
+  Weight
+  IGD.X_HW_DownlinkQos.PriorityQueue.Weight
+  IGD.DeviceInfo.X_CT-COM_NeighborDetection.
+  IGD.X_HW_ARPPingNum.
+  NumberOfEntries
+  IGD.X_HW_ARPPingNum.NumberOfEntries
+  IGD.DeviceInfo.X_CT-COM_NeighborDetection.Config.
+  IGD.X_HW_ARPPingDiagnostics.
+  IGD.X_HW_ARPPingDiagnostics.ARPPingEnable
+  WANConnection
+  IGD.X_HW_ARPPingDiagnostics.WanName
+  Interval
+  IGD.X_HW_ARPPingDiagnostics.ARPPingInterval
+  NumberOfRepetitions
+  IGD.X_HW_ARPPingDiagnostics.ARPPingNumberOfRepetitions
+  IGD.DeviceInfo.X_HW_CDN.
+  IGD.DeviceInfo|X_HW_CDN|.
+  IGD.DeviceInfo.X_HW_USBPlugin.Enable
+  IGD.DeviceInfo.
+  X_CT-COM_ChipID
+  IGD.DeviceInfo.ChipID
+  X_CT-COM_CheckKey
+  IGD.DeviceInfo.CheckKey
+  Cxz[
+  _a;
+  !dp[
+  l1s
+  -'!
+  E,J
+  *iWJ
+  \Al!
+  6mi
+  4$
+  ;+3
+  &k
+  H,0
+  ~Z$L
+  \Al!
+  .l'!
+  X<c
+  6mi
+
+## All Strings (offset, value):
+
+  @0x0010: IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.
+  @0x0110: IGD.X_HW_ARPPingNum.
+  @0x0210: IGD.X_HW_ARPPingDiagnostics.
+  @0x0310: IGD.DeviceInfo.X_HW_USBPlugin.
+  @0x0410: IGD.DownloadDiagnostics
+  @0x0510: SampledValues
+  @0x0610: IGD.UploadDiagnostics
+  @0x0710: SampledValues
+  @0x0af6: BBSP_FT_UPLINKQOS
+  @0x0b08: BBSP_FT_UNICAST_ARPING
+  @0x0b1f: FT_MODIFY_CDN
+  @0x0b2d: IGD.DownloadDiagnostics.
+  @0x0b46: X_CT-COM_Aspeed
+  @0x0b56: X_CT-COM_Maxspeed
+  @0x0b68: IGD.UploadDiagnostics.
+  @0x0b7f: IGD.WANDevice.WANConnectionDevice.WANIPConnection.
+  @0x0bb2: X_CT-COM_SpeedLimit_UP
+  @0x0bc9: IGD.WANDevice.WANConnectionDevice.WANIPConnection.X_HW_SpeedLimit_UP
+  @0x0c0e: X_CT-COM_SpeedLimit_DOWN
+  @0x0c27: IGD.WANDevice.WANConnectionDevice.WANIPConnection.X_HW_SpeedLimit_DOWN
+  @0x0c6e: X_CT-COM_Username
+  @0x0c80: IGD.WANDevice.WANConnectionDevice.WANIPConnection.X_HW_VR.Username
+  @0x0cc3: X_CT-COM_Password
+  @0x0cd5: IGD.WANDevice.WANConnectionDevice.WANIPConnection.X_HW_VR.Password
+  @0x0d18: IGD.WANDevice.WANConnectionDevice.WANPPPConnection.
+  @0x0d4c: IGD.WANDevice.WANConnectionDevice.WANPPPConnection.X_HW_SpeedLimit_UP
+  @0x0d92: IGD.WANDevice.WANConnectionDevice.WANPPPConnection.X_HW_SpeedLimit_DOWN
+  @0x0dda: X_CT-COM_PPPoEPassthrough
+  @0x0df4: IGD.WANDevice.WANConnectionDevice.WANPPPConnection.X_HW_BridgeEnable
+  @0x0e39: IGD.X_CT-COM_DownlinkQoS.
+  @0x0e53: IGD.X_HW_DownlinkQos.
+  @0x0e69: Enable
+  @0x0e70: IGD.X_HW_DownlinkQos.Enable
+  @0x0e8c: Bandwidth
+  @0x0e96: IGD.X_HW_DownlinkQos.X_HW_Bandwidth
+  @0x0eba: Plan
+  @0x0ebf: IGD.X_HW_DownlinkQos.X_HW_Plan
+  @0x0ede: EnableDSCPMark
+  @0x0eed: IGD.X_HW_DownlinkQos.X_HW_EnableDSCPMark
+  @0x0f16: Enable802-1_P
+  @0x0f24: IGD.X_HW_DownlinkQos.X_HW_Enable8021p
+  @0x0f4a: IGD.X_CT-COM_DownlinkQoS.Classification.
+  @0x0f73: IGD.X_HW_DownlinkQos.Classification.
+  @0x0f98: ClassQueue
+  @0x0fa3: IGD.X_HW_DownlinkQos.Classification.ClassQueue
+  @0x0fd2: DSCPMarkValue
+  @0x0fe0: IGD.X_HW_DownlinkQos.Classification.DSCPMarkValue
+  @0x1012: 802-1_P_Value
+  @0x1020: IGD.X_HW_DownlinkQos.Classification.8021pValue
+  @0x104f: IGD.X_CT-COM_DownlinkQoS.Classification.type.
+  @0x107d: IGD.X_HW_DownlinkQos.Classification.type.
+  @0x10a7: Type
+  @0x10ac: IGD.X_HW_DownlinkQos.Classification.type.Type
+  @0x10da: Max
+  @0x10de: IGD.X_HW_DownlinkQos.Classification.type.Max
+  @0x110b: Min
+  @0x110f: IGD.X_HW_DownlinkQos.Classification.type.Min
+  @0x113c: ProtocolList
+  @0x1149: IGD.X_HW_DownlinkQos.Classification.type.ProtocolList
+  @0x117f: IGD.X_CT-COM_DownlinkQoS.PriorityQueue.
+  @0x11a7: IGD.X_HW_DownlinkQos.PriorityQueue.
+  @0x11cb: IGD.X_HW_DownlinkQos.PriorityQueue.Enable
+  @0x11f5: Priority
+  @0x11fe: IGD.X_HW_DownlinkQos.PriorityQueue.Priority
+  @0x122a: Weight
+  @0x1231: IGD.X_HW_DownlinkQos.PriorityQueue.Weight
+  @0x125b: IGD.DeviceInfo.X_CT-COM_NeighborDetection.
+  @0x1286: IGD.X_HW_ARPPingNum.
+  @0x129b: NumberOfEntries
+  @0x12ab: IGD.X_HW_ARPPingNum.NumberOfEntries
+  @0x12cf: IGD.DeviceInfo.X_CT-COM_NeighborDetection.Config.
+  @0x1301: IGD.X_HW_ARPPingDiagnostics.
+  @0x131e: IGD.X_HW_ARPPingDiagnostics.ARPPingEnable
+  @0x1348: WANConnection
+  @0x1356: IGD.X_HW_ARPPingDiagnostics.WanName
+  @0x137a: Interval
+  @0x1383: IGD.X_HW_ARPPingDiagnostics.ARPPingInterval
+  @0x13af: NumberOfRepetitions
+  @0x13c3: IGD.X_HW_ARPPingDiagnostics.ARPPingNumberOfRepetitions
+  @0x13fa: IGD.DeviceInfo.X_HW_CDN.
+  @0x1413: IGD.DeviceInfo|X_HW_CDN|.
+  @0x142d: IGD.DeviceInfo.X_HW_USBPlugin.Enable
+  @0x1452: IGD.DeviceInfo.
+  @0x1462: X_CT-COM_ChipID
+  @0x1472: IGD.DeviceInfo.ChipID
+  @0x1488: X_CT-COM_CheckKey
+  @0x149a: IGD.DeviceInfo.CheckKey
+  @0x14c1: Cxz[
+  @0x14d2: _a;
+  @0x154c: !dp[
+  @0x1556: l1s
+  @0x1576: -'!
+  @0x157e: E,J
+  @0x15c3: *iWJ
+  @0x15cd: \Al!
+  @0x15fe: 6mi
+  @0x1625: 4$ 
+  @0x1645: ;+3
+  @0x1670: &k 
+  @0x1681: H,0
+  @0x16aa: ~Z$L
+  @0x1725: \Al!
+  @0x1757: .l'!
+  @0x1771: X<c
+  @0x177a: 6mi

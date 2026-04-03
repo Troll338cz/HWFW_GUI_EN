@@ -1,0 +1,350 @@
+# Decoded from: etc/wap/tr069_view/DataView_tr069_bjcmcc.bin
+# Magic: 0xa1b3c2d4
+# Size: 11996 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.
+  IGD.VXLANMAP.
+  IGD.X_HW_VXLAN.
+  IGD.DeviceInfo
+  X_HW_UPLink
+  IGD.UserInterface
+  X_HW_RemoteWebPwdRuler
+  IGD.LANDevice.WLANConfiguration
+  Standard
+  IGD.LANDevice.WLANConfiguration.WPS
+  DevicePassword
+  IGD.LANInterfaces.LANEthernetInterfaceConfig
+  X_HW_CMCC_MACAddressNum
+  IGD.LANInterfaces.LANEthernetInterfaceConfig
+  X_HW_CMCC_EtherTypeFilter
+  IGD.LANInterfaces.LANEthernetInterfaceConfig
+  X_HW_CMCC_SourceMAC
+  IGD.LANInterfaces.LANEthernetInterfaceConfig
+  X_HW_CMCC_DestinationMAC
+  IGD.LANInterfaces.LANEthernetInterfaceConfig
+  X_HW_CMCC_Mode
+  IGD.LANInterfaces.LANEthernetInterfaceConfig
+  X_HW_CMCC_VLAN
+  FT_VXLAN
+  HW_AMP_FT_CMCC_ISP|HW_AMP_FEATURE_WLAN
+  HW_AMP_FEATURE_WLAN
+  IGD.X_CT-COM_VXLAN.
+  IGD.VXLANMAP.
+  MaxNumberOfEntries
+  IGD.VXLANMAP.MaxNumberOfEntries
+  VXLANNumberOfEntries
+  IGD.VXLANMAP.VXLANNumberOfEntries
+  IGD.X_CT-COM_VXLAN.VXLANConfig.
+  IGD.VXLANMAP.VXLANView.
+  TunnelKey
+  IGD.VXLANMAP.VXLANView.VNI
+  Enable
+  IGD.VXLANMAP.VXLANView.Enable
+  TunnelRemoteIp
+  IGD.VXLANMAP.VXLANView.RemoteEndPoints
+  WorkMode
+  IGD.VXLANMAP.VXLANView.WorkMode
+  MaxMTUSize
+  IGD.VXLANMAP.VXLANView.MaxMTUSize
+  IPAddress
+  IGD.VXLANMAP.VXLANView.IPAddress
+  SubnetMask
+  IGD.VXLANMAP.VXLANView.SubnetMask
+  AddressingType
+  IGD.VXLANMAP.VXLANView.AddressingType
+  NATEnabled
+  IGD.VXLANMAP.VXLANView.NATEnabled
+  DNSServers_Master
+  IGD.VXLANMAP.VXLANView.DNSServers_Master
+  DNSServers_Slave
+  IGD.VXLANMAP.VXLANView.DNSServers_Slave
+  DefaultGateway
+  IGD.VXLANMAP.VXLANView.DefaultGateway
+  X_CT-COM_VLANEnable
+  IGD.VXLANMAP.VXLANView.X_HW_VLANEnable
+  X_CT-COM_VLAN
+  IGD.VXLANMAP.VXLANView.X_HW_VLAN
+  X_CT-COM_LanInterface
+  IGD.VXLANMAP.VXLANView.X_HW_LANInterface
+  X_CT-COM_WANInterface
+  IGD.VXLANMAP.VXLANView.OutWANInterface
+  IGD.DeviceInfo.
+  X_CT-COM_UpLinkType
+  IGD.DeviceInfo.X_HW_UPLink
+  X_CT-COM_CustomiseName
+  IGD.DeviceInfo.X_HW_DeviceAlias
+  X_CT-COM_CPUClass
+  IGD.X_HW_DEBUG.AMP.DeviceInfo.X_HW_CPUClass
+  X_CT-COM_PONUpTime
+  IGD.X_HW_DEBUG.AMP.EPONLinkInfo.PONLinkTime
+  X_HW_RemoteWebPwdRuler
+  IGD.UserInterface.X_HW_RemoteWebPwdRuler
+  WarrantyDate
+  IGD.UserInterface.WarrantyDate
+  IGD.LANInterfaces.LANEthernetInterfaceConfig.
+  X_HW_CMCC_MACAddressNum
+  X_HW_CMCC_EtherTypeFilter
+  X_HW_CMCC_SourceMAC
+  X_HW_CMCC_DestinationMAC
+  X_HW_CMCC_Mode
+  X_HW_CMCC_VLAN
+  IGD.DeviceInfo.X_CT-COM_LedControl.
+  IGD.ExtDeviceInfo.
+  Switch
+  IGD.ExtDeviceInfo.X_HW_LedSwitch
+  IGD.Services.X_CT-COM_WIFISHARE.
+  IGD.LANDevice.1.X_HW_WLANForISP.1.
+  WifiShareTimeStats
+  WifiShareMaxClientNumber
+  WifiShareAccount
+  IGD.LANDevice.1.X_HW_WLANForISP.1.UserId
+  WifiShareEnable
+  IGD.LANDevice.1.X_HW_WLANForISP.1.EnableUserId
+  IGD.LANDevice.X_CT-COM_WLANShare.
+  IGD.LANDevice.X_HW_WLANForISP.
+  SSIDIndex
+  IGD.LANDevice.X_HW_WLANForISP.SSID_IDX
+  PortIsolation
+  STAIsolation
+  EnableUserId
+  UserId
+  IGD.LANDevice.WLANConfiguration.
+  IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.
+  ChannelsInAvailability
+  IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.ChannelsInAvailability
+  AirtimeFairEnable
+  IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.X_HW_AirtimeFairness
+  IGD.CT-COM_WIFI_SIGNALTHR.
+  IGD.X_HW_WIFI_SIGNALTHR.
+  IGD.X_HW_WIFI_SIGNALTHR.Switch
+  DetectPeriod
+  IGD.X_HW_WIFI_SIGNALTHR.DetectPeriod
+  LowRLFBAND
+  IGD.X_HW_WIFI_SIGNALTHR.LowRLFBAND
+  LowRHFBAND
+  IGD.X_HW_WIFI_SIGNALTHR.LowRHFBAND
+  PacketLoss
+  IGD.X_HW_WIFI_SIGNALTHR.PacketLoss
+  RetryRatio
+  IGD.X_HW_WIFI_SIGNALTHR.RetryRatio
+  IGD.CT-COM_Wifi_STAStats.
+  IGD.X_HW_Wifi_STAStats.
+  StaMac
+  StaConStatus
+  SsidIndex
+  Ssid
+  Radio
+  RSSI
+  Channel
+  FrequencyWidth
+  Dismiss
+  DismissTime
+  IGD.LANDevice.WiFi.X_HW_WallModeForChina.
+  Yd
+  \oR
+  x/49
+  GSW.
+  de.
+  LV/
+  Fk^
+  LI"#
+  oO,
+  )o<
+  Y!v
+  Q58
+  5{`a:
+  Feo7
+  f[u3
+  0v"
+  9Z4
+  gZj
+  py.
+  g\S2
+  }M)
+  8U*@
+  '2%
+  kq%
+  ur(
+  :Y(
+  )o<
+  +k73
+  `AK
+  - 0
+  lu
+  W>*6
+
+## All Strings (offset, value):
+
+  @0x0010: IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.
+  @0x0110: IGD.VXLANMAP.
+  @0x0210: IGD.X_HW_VXLAN.
+  @0x0310: IGD.DeviceInfo
+  @0x0410: X_HW_UPLink
+  @0x0510: IGD.UserInterface
+  @0x0610: X_HW_RemoteWebPwdRuler
+  @0x0710: IGD.LANDevice.WLANConfiguration
+  @0x0810: Standard
+  @0x0910: IGD.LANDevice.WLANConfiguration.WPS
+  @0x0a10: DevicePassword
+  @0x0b10: IGD.LANInterfaces.LANEthernetInterfaceConfig
+  @0x0c10: X_HW_CMCC_MACAddressNum
+  @0x0d10: IGD.LANInterfaces.LANEthernetInterfaceConfig
+  @0x0e10: X_HW_CMCC_EtherTypeFilter
+  @0x0f10: IGD.LANInterfaces.LANEthernetInterfaceConfig
+  @0x1010: X_HW_CMCC_SourceMAC
+  @0x1110: IGD.LANInterfaces.LANEthernetInterfaceConfig
+  @0x1210: X_HW_CMCC_DestinationMAC
+  @0x1310: IGD.LANInterfaces.LANEthernetInterfaceConfig
+  @0x1410: X_HW_CMCC_Mode
+  @0x1510: IGD.LANInterfaces.LANEthernetInterfaceConfig
+  @0x1610: X_HW_CMCC_VLAN
+  @0x1b14: FT_VXLAN
+  @0x1b1e: HW_AMP_FT_CMCC_ISP|HW_AMP_FEATURE_WLAN
+  @0x1b45: HW_AMP_FEATURE_WLAN
+  @0x1b59: IGD.X_CT-COM_VXLAN.
+  @0x1b6d: IGD.VXLANMAP.
+  @0x1b7b: MaxNumberOfEntries
+  @0x1b8e: IGD.VXLANMAP.MaxNumberOfEntries
+  @0x1bae: VXLANNumberOfEntries
+  @0x1bc3: IGD.VXLANMAP.VXLANNumberOfEntries
+  @0x1be5: IGD.X_CT-COM_VXLAN.VXLANConfig.
+  @0x1c05: IGD.VXLANMAP.VXLANView.
+  @0x1c1d: TunnelKey
+  @0x1c27: IGD.VXLANMAP.VXLANView.VNI
+  @0x1c42: Enable
+  @0x1c49: IGD.VXLANMAP.VXLANView.Enable
+  @0x1c67: TunnelRemoteIp
+  @0x1c76: IGD.VXLANMAP.VXLANView.RemoteEndPoints
+  @0x1c9d: WorkMode
+  @0x1ca6: IGD.VXLANMAP.VXLANView.WorkMode
+  @0x1cc6: MaxMTUSize
+  @0x1cd1: IGD.VXLANMAP.VXLANView.MaxMTUSize
+  @0x1cf3: IPAddress
+  @0x1cfd: IGD.VXLANMAP.VXLANView.IPAddress
+  @0x1d1e: SubnetMask
+  @0x1d29: IGD.VXLANMAP.VXLANView.SubnetMask
+  @0x1d4b: AddressingType
+  @0x1d5a: IGD.VXLANMAP.VXLANView.AddressingType
+  @0x1d80: NATEnabled
+  @0x1d8b: IGD.VXLANMAP.VXLANView.NATEnabled
+  @0x1dad: DNSServers_Master
+  @0x1dbf: IGD.VXLANMAP.VXLANView.DNSServers_Master
+  @0x1de8: DNSServers_Slave
+  @0x1df9: IGD.VXLANMAP.VXLANView.DNSServers_Slave
+  @0x1e21: DefaultGateway
+  @0x1e30: IGD.VXLANMAP.VXLANView.DefaultGateway
+  @0x1e56: X_CT-COM_VLANEnable
+  @0x1e6a: IGD.VXLANMAP.VXLANView.X_HW_VLANEnable
+  @0x1e91: X_CT-COM_VLAN
+  @0x1e9f: IGD.VXLANMAP.VXLANView.X_HW_VLAN
+  @0x1ec0: X_CT-COM_LanInterface
+  @0x1ed6: IGD.VXLANMAP.VXLANView.X_HW_LANInterface
+  @0x1eff: X_CT-COM_WANInterface
+  @0x1f15: IGD.VXLANMAP.VXLANView.OutWANInterface
+  @0x1f3c: IGD.DeviceInfo.
+  @0x1f4c: X_CT-COM_UpLinkType
+  @0x1f60: IGD.DeviceInfo.X_HW_UPLink
+  @0x1f7b: X_CT-COM_CustomiseName
+  @0x1f92: IGD.DeviceInfo.X_HW_DeviceAlias
+  @0x1fb2: X_CT-COM_CPUClass
+  @0x1fc4: IGD.X_HW_DEBUG.AMP.DeviceInfo.X_HW_CPUClass
+  @0x1ff0: X_CT-COM_PONUpTime
+  @0x2003: IGD.X_HW_DEBUG.AMP.EPONLinkInfo.PONLinkTime
+  @0x202f: X_HW_RemoteWebPwdRuler
+  @0x2046: IGD.UserInterface.X_HW_RemoteWebPwdRuler
+  @0x206f: WarrantyDate
+  @0x207c: IGD.UserInterface.WarrantyDate
+  @0x209b: IGD.LANInterfaces.LANEthernetInterfaceConfig.
+  @0x20c9: X_HW_CMCC_MACAddressNum
+  @0x20e1: X_HW_CMCC_EtherTypeFilter
+  @0x20fb: X_HW_CMCC_SourceMAC
+  @0x210f: X_HW_CMCC_DestinationMAC
+  @0x2128: X_HW_CMCC_Mode
+  @0x2137: X_HW_CMCC_VLAN
+  @0x2146: IGD.DeviceInfo.X_CT-COM_LedControl.
+  @0x216a: IGD.ExtDeviceInfo.
+  @0x217d: Switch
+  @0x2184: IGD.ExtDeviceInfo.X_HW_LedSwitch
+  @0x21a5: IGD.Services.X_CT-COM_WIFISHARE.
+  @0x21c6: IGD.LANDevice.1.X_HW_WLANForISP.1.
+  @0x21e9: WifiShareTimeStats
+  @0x21fc: WifiShareMaxClientNumber
+  @0x2215: WifiShareAccount
+  @0x2226: IGD.LANDevice.1.X_HW_WLANForISP.1.UserId
+  @0x224f: WifiShareEnable
+  @0x225f: IGD.LANDevice.1.X_HW_WLANForISP.1.EnableUserId
+  @0x228e: IGD.LANDevice.X_CT-COM_WLANShare.
+  @0x22b0: IGD.LANDevice.X_HW_WLANForISP.
+  @0x22cf: SSIDIndex
+  @0x22d9: IGD.LANDevice.X_HW_WLANForISP.SSID_IDX
+  @0x2300: PortIsolation
+  @0x230e: STAIsolation
+  @0x231b: EnableUserId
+  @0x2328: UserId
+  @0x232f: IGD.LANDevice.WLANConfiguration.
+  @0x2350: IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.
+  @0x2381: ChannelsInAvailability
+  @0x2398: IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.ChannelsInAvailability
+  @0x23df: AirtimeFairEnable
+  @0x23f1: IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.X_HW_AirtimeFairness
+  @0x2436: IGD.CT-COM_WIFI_SIGNALTHR.
+  @0x2451: IGD.X_HW_WIFI_SIGNALTHR.
+  @0x246a: IGD.X_HW_WIFI_SIGNALTHR.Switch
+  @0x2489: DetectPeriod
+  @0x2496: IGD.X_HW_WIFI_SIGNALTHR.DetectPeriod
+  @0x24bb: LowRLFBAND
+  @0x24c6: IGD.X_HW_WIFI_SIGNALTHR.LowRLFBAND
+  @0x24e9: LowRHFBAND
+  @0x24f4: IGD.X_HW_WIFI_SIGNALTHR.LowRHFBAND
+  @0x2517: PacketLoss
+  @0x2522: IGD.X_HW_WIFI_SIGNALTHR.PacketLoss
+  @0x2545: RetryRatio
+  @0x2550: IGD.X_HW_WIFI_SIGNALTHR.RetryRatio
+  @0x2573: IGD.CT-COM_Wifi_STAStats.
+  @0x258d: IGD.X_HW_Wifi_STAStats.
+  @0x25a5: StaMac
+  @0x25ac: StaConStatus
+  @0x25b9: SsidIndex
+  @0x25c3: Ssid
+  @0x25c8: Radio
+  @0x25ce: RSSI
+  @0x25d3: Channel
+  @0x25db: FrequencyWidth
+  @0x25ea: Dismiss
+  @0x25f2: DismissTime
+  @0x25fe: IGD.LANDevice.WiFi.X_HW_WallModeForChina.
+  @0x2642: Yd 
+  @0x26af: \oR
+  @0x26b8: x/49
+  @0x26d9: GSW.
+  @0x26eb: de.
+  @0x2711: LV/
+  @0x273f: Fk^
+  @0x276e: LI"#
+  @0x2777: oO,
+  @0x2790: )o<
+  @0x27ae: Y!v
+  @0x27e7: Q58
+  @0x27ef: 5{`a:
+  @0x2827: Feo7
+  @0x2851: f[u3
+  @0x2875: 0v"
+  @0x2899: 9Z4
+  @0x28a1: gZj
+  @0x28ab: py.
+  @0x28f9: g\S2
+  @0x290a: }M)
+  @0x2912: 8U*@
+  @0x2984: '2%
+  @0x29b5: kq%
+  @0x29d5: ur(
+  @0x29ec: :Y(
+  @0x29fe: )o<
+  @0x2a0e: +k73
+  @0x2a33: `AK
+  @0x2a73: - 0
+  @0x2a92: lu 
+  @0x2aa1: W>*6

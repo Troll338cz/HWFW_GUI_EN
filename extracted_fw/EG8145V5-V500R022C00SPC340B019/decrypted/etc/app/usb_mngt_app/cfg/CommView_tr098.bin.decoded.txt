@@ -1,0 +1,172 @@
+# Decoded from: etc/app/usb_mngt_app/cfg/CommView_tr098.bin
+# Magic: 0xa1b3c2d4
+# Size: 4065 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  HW_SSMP_FEATURE_QUICKCFG
+  HW_SSMP_FEATURE_USBSTORAGE
+  IGD.LANDevice.LANUSBInterfaceConfig.
+  Enable
+  Status
+  X_HW_USBPortStatus
+  IGD.DeviceInfo.X_HW_Restore.
+  IGD.DeviceInfo.X_HW_Restore.X_HW_BACKUPCFG.
+  Operate
+  Path
+  Option
+  IGD.Services.StorageService.
+  PhysicalMediumNumberOfEntries
+  LogicalVolumeNumberOfEntries
+  UserAccountNumberOfEntries
+  IGD.Services.StorageService.NetInfo.
+  HostName
+  DomainName
+  IGD.Services.StorageService.NetworkServer.
+  SMBEnable
+  NetworkProtocolAuthReq
+  IGD.Services.StorageService.UserAccount.
+  Username
+  Password
+  X_HW_AllPath
+  X_HW_Permissions
+  IGD.Services.StorageService.PhysicalMedium.
+  Name
+  Vendor
+  Model
+  SerialNumber
+  FirmwareVersion
+  ConnectionType
+  Removable
+  Capacity
+  Uptime
+  SMARTCapable
+  Health
+  HotSwappable
+  X_HW_Manufacturer
+  X_HW_Product
+  IGD.Services.StorageService.LogicalVolume.
+  PhysicalReference
+  FileSystem
+  UsedSpace
+  Encrypted
+  FolderNumberOfEntries
+  IGD.Services.StorageService.LogicalVolume.Folder.
+  X_HW_NameNative
+  UserAccountAccess
+  UserAccessNumberOfEntries
+  IGD.Services.StorageService.LogicalVolume.Folder.UserAccess.
+  UserReference
+  Permissions
+  IGD.Services.StorageService.SMBServer.
+  Netbios
+  Workgroup
+  Q/$
+  9:R+
+  WS!
+  j^(
+  =dX
+  Ex
+  zC'0
+  F5^
+  6X3
+  " 4
+  ZW#
+  u_d
+  Q/$
+  9:R+
+  WS!
+  j^(
+  =dX
+  Ex
+  zC'0
+  F5^
+  6X3
+  " 4
+  ZW#
+  u_d
+
+## All Strings (offset, value):
+
+  @0x034b: HW_SSMP_FEATURE_QUICKCFG
+  @0x0364: HW_SSMP_FEATURE_USBSTORAGE
+  @0x037f: IGD.LANDevice.LANUSBInterfaceConfig.
+  @0x03a4: Enable
+  @0x03ab: Status
+  @0x03b2: X_HW_USBPortStatus
+  @0x03c5: IGD.DeviceInfo.X_HW_Restore.
+  @0x03e2: IGD.DeviceInfo.X_HW_Restore.X_HW_BACKUPCFG.
+  @0x040e: Operate
+  @0x0416: Path
+  @0x041b: Option
+  @0x0422: IGD.Services.StorageService.
+  @0x043f: PhysicalMediumNumberOfEntries
+  @0x045d: LogicalVolumeNumberOfEntries
+  @0x047a: UserAccountNumberOfEntries
+  @0x0495: IGD.Services.StorageService.NetInfo.
+  @0x04ba: HostName
+  @0x04c3: DomainName
+  @0x04ce: IGD.Services.StorageService.NetworkServer.
+  @0x04f9: SMBEnable
+  @0x0503: NetworkProtocolAuthReq
+  @0x051a: IGD.Services.StorageService.UserAccount.
+  @0x0543: Username
+  @0x054c: Password
+  @0x0555: X_HW_AllPath
+  @0x0562: X_HW_Permissions
+  @0x0573: IGD.Services.StorageService.PhysicalMedium.
+  @0x059f: Name
+  @0x05a4: Vendor
+  @0x05ab: Model
+  @0x05b1: SerialNumber
+  @0x05be: FirmwareVersion
+  @0x05ce: ConnectionType
+  @0x05dd: Removable
+  @0x05e7: Capacity
+  @0x05f0: Uptime
+  @0x05f7: SMARTCapable
+  @0x0604: Health
+  @0x060b: HotSwappable
+  @0x0618: X_HW_Manufacturer
+  @0x062a: X_HW_Product
+  @0x0637: IGD.Services.StorageService.LogicalVolume.
+  @0x0662: PhysicalReference
+  @0x0674: FileSystem
+  @0x067f: UsedSpace
+  @0x0689: Encrypted
+  @0x0693: FolderNumberOfEntries
+  @0x06a9: IGD.Services.StorageService.LogicalVolume.Folder.
+  @0x06db: X_HW_NameNative
+  @0x06eb: UserAccountAccess
+  @0x06fd: UserAccessNumberOfEntries
+  @0x0717: IGD.Services.StorageService.LogicalVolume.Folder.UserAccess.
+  @0x0754: UserReference
+  @0x0762: Permissions
+  @0x076e: IGD.Services.StorageService.SMBServer.
+  @0x0795: Netbios
+  @0x079d: Workgroup
+  @0x07e1: Q/$
+  @0x07f9: 9:R+
+  @0x0825: WS!
+  @0x0836: j^(
+  @0x08ab: =dX
+  @0x08d2: Ex 
+  @0x092a: zC'0
+  @0x0952: F5^
+  @0x096b: 6X3
+  @0x0974: " 4
+  @0x0983: ZW#
+  @0x098b: u_d
+  @0x09e5: Q/$
+  @0x09fd: 9:R+
+  @0x0a29: WS!
+  @0x0a3a: j^(
+  @0x0aaf: =dX
+  @0x0ad6: Ex 
+  @0x0b2e: zC'0
+  @0x0b56: F5^
+  @0x0b6f: 6X3
+  @0x0b78: " 4
+  @0x0b87: ZW#
+  @0x0b8f: u_d

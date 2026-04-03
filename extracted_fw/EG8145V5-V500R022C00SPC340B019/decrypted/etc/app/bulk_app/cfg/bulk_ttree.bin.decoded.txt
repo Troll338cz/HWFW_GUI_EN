@@ -1,0 +1,292 @@
+# Decoded from: etc/app/bulk_app/cfg/bulk_ttree.bin
+# Magic: 0xa4b6c5d7
+# Size: 6006 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  1`G
+  2`G
+  2`G
+  2`G
+  2`G
+  2`G
+  3`G
+  3`G
+  3`G
+  3`G
+  3`G
+  `G@
+  IJK
+  `G
+  InternetGatewayDevice
+  PeriodicStatistics
+  MinSampleInterval
+  MaxReportSamples
+  SampleSetNumberOfEntries
+  SampleSet
+  Alias
+  Enable
+  Status
+  Name
+  SampleInterval
+  ReportSamples
+  TimeReference
+  FetchSamples
+  ForceSample
+  ReportStartTime
+  ReportEndTime
+  SampleSeconds
+  ParameterNumberOfEntries
+  Parameter
+  Alias
+  Enable
+  Reference
+  SampleMode
+  CalculationMode
+  LowThreshold
+  HighThreshold
+  SampleSeconds
+  SuspectData
+  Values
+  Failures
+  BulkData
+  Enable
+  Status
+  MinReportingInterval
+  Protocols
+  EncodingTypes
+  ParameterWildCardSupported
+  MaxNumberOfProfiles
+  MaxNumberOfParameterReferences
+  ProfileNumberOfEntries
+  X_HW_Interface
+  Profile
+  Enable
+  Alias
+  Name
+  NumberOfRetainedFailedReports
+  Protocol
+  EncodingType
+  ReportingInterval
+  TimeReference
+  ParameterNumberOfEntries
+  StreamingHost
+  StreamingPort
+  StreamingSessionID
+  FileTransferURL
+  FileTransferUsername
+  FileTransferPassword
+  ControlFileFormat
+  Parameter
+  Name
+  Reference
+  CSVEncoding
+  FieldSeparator
+  RowSeparator
+  EscapeCharacter
+  ReportFormat
+  RowTimestamp
+  JSONEncoding
+  ReportFormat
+  ReportTimestamp
+  HTTP
+  URL
+  Username
+  Password
+  CompressionsSupported
+  Compression
+  MethodsSupported
+  Method
+  UseDateHeader
+  RetryEnable
+  RetryMinimumWaitInterval
+  RetryIntervalMultiplier
+  RequestURIParameterNumberOfEntries
+  RequestURIParameter
+  Name
+  Reference
+  ssmp
+  Disabled
+  3600
+  0001-01-01T00:00:00Z
+  Current
+  Latest
+  Disabled
+  900
+  HTTP
+  JSON
+  1024
+  HTTP
+  JSON
+  86400
+  0001-01-01T00:00:00Z
+  4737
+  &#13;&#10;
+  &quot;
+  ParameterPerColumn
+  Unix-Epoch
+  NameValuePair
+  Unix-Epoch
+  None
+  POST
+  POST
+  2000
+  K$V
+  f!<
+  H6e
+  l4(
+  rDo)
+  @0*
+  IM<
+  60!
+  U'j
+  :8
+  +(8
+  2@>c
+  [m:
+
+## All Strings (offset, value):
+
+  @0x0069: 1`G
+  @0x0092: 2`G
+  @0x0096: 2`G
+  @0x009a: 2`G
+  @0x009e: 2`G
+  @0x00a2: 2`G 
+  @0x00bc: 3`G
+  @0x00c0: 3`G
+  @0x00c4: 3`G
+  @0x00c8: 3`G
+  @0x00cc: 3`G
+  @0x0121: `G@
+  @0x01d3: IJK
+  @0x01f4: `G 
+  @0x07c5: InternetGatewayDevice
+  @0x07db: PeriodicStatistics
+  @0x07ee: MinSampleInterval
+  @0x0800: MaxReportSamples
+  @0x0811: SampleSetNumberOfEntries
+  @0x082a: SampleSet
+  @0x0834: Alias
+  @0x083a: Enable
+  @0x0841: Status
+  @0x0848: Name
+  @0x084d: SampleInterval
+  @0x085c: ReportSamples
+  @0x086a: TimeReference
+  @0x0878: FetchSamples
+  @0x0885: ForceSample
+  @0x0891: ReportStartTime
+  @0x08a1: ReportEndTime
+  @0x08af: SampleSeconds
+  @0x08bd: ParameterNumberOfEntries
+  @0x08d6: Parameter
+  @0x08e0: Alias
+  @0x08e6: Enable
+  @0x08ed: Reference
+  @0x08f7: SampleMode
+  @0x0902: CalculationMode
+  @0x0912: LowThreshold
+  @0x091f: HighThreshold
+  @0x092d: SampleSeconds
+  @0x093b: SuspectData
+  @0x0947: Values
+  @0x094e: Failures
+  @0x0957: BulkData
+  @0x0960: Enable
+  @0x0967: Status
+  @0x096e: MinReportingInterval
+  @0x0983: Protocols
+  @0x098d: EncodingTypes
+  @0x099b: ParameterWildCardSupported
+  @0x09b6: MaxNumberOfProfiles
+  @0x09ca: MaxNumberOfParameterReferences
+  @0x09e9: ProfileNumberOfEntries
+  @0x0a00: X_HW_Interface
+  @0x0a0f: Profile
+  @0x0a17: Enable
+  @0x0a1e: Alias
+  @0x0a24: Name
+  @0x0a29: NumberOfRetainedFailedReports
+  @0x0a47: Protocol
+  @0x0a50: EncodingType
+  @0x0a5d: ReportingInterval
+  @0x0a6f: TimeReference
+  @0x0a7d: ParameterNumberOfEntries
+  @0x0a96: StreamingHost
+  @0x0aa4: StreamingPort
+  @0x0ab2: StreamingSessionID
+  @0x0ac5: FileTransferURL
+  @0x0ad5: FileTransferUsername
+  @0x0aea: FileTransferPassword
+  @0x0aff: ControlFileFormat
+  @0x0b11: Parameter
+  @0x0b1b: Name
+  @0x0b20: Reference
+  @0x0b2a: CSVEncoding
+  @0x0b36: FieldSeparator
+  @0x0b45: RowSeparator
+  @0x0b52: EscapeCharacter
+  @0x0b62: ReportFormat
+  @0x0b6f: RowTimestamp
+  @0x0b7c: JSONEncoding
+  @0x0b89: ReportFormat
+  @0x0b96: ReportTimestamp
+  @0x0ba6: HTTP
+  @0x0bab: URL
+  @0x0baf: Username
+  @0x0bb8: Password
+  @0x0bc1: CompressionsSupported
+  @0x0bd7: Compression
+  @0x0be3: MethodsSupported
+  @0x0bf4: Method
+  @0x0bfb: UseDateHeader
+  @0x0c09: RetryEnable
+  @0x0c15: RetryMinimumWaitInterval
+  @0x0c2e: RetryIntervalMultiplier
+  @0x0c46: RequestURIParameterNumberOfEntries
+  @0x0c69: RequestURIParameter
+  @0x0c7d: Name
+  @0x0c82: Reference
+  @0x0c8c: ssmp
+  @0x0c96: 0xFFFFFFFF
+  @0x0ca1: Disabled
+  @0x0caa: 3600
+  @0x0cb2: 0001-01-01T00:00:00Z
+  @0x0cc7: Current
+  @0x0ccf: Latest
+  @0x0cd6: Disabled
+  @0x0cdf: 900
+  @0x0ce3: HTTP
+  @0x0ce8: JSON
+  @0x0cf0: 1024
+  @0x0cf5: HTTP
+  @0x0cfa: JSON
+  @0x0cff: 86400
+  @0x0d05: 0001-01-01T00:00:00Z
+  @0x0d1a: 4737
+  @0x0d24: &#13;&#10;
+  @0x0d2f: &quot;
+  @0x0d36: ParameterPerColumn
+  @0x0d49: Unix-Epoch
+  @0x0d54: NameValuePair
+  @0x0d62: Unix-Epoch
+  @0x0d6d: None
+  @0x0d72: POST
+  @0x0d77: POST
+  @0x0d7e: 2000
+  @0x0da5: K$V
+  @0x0dd8: f!<
+  @0x0e0e: H6e
+  @0x0e53: l4(
+  @0x0e5c: rDo)
+  @0x0e9a: @0*
+  @0x0eb3: IM<
+  @0x0ed3: 60!
+  @0x0f36: U'j
+  @0x0f3f: d  
+  @0x0f48:  :8
+  @0x0f78: +(8
+  @0x0fd0: 2@>c
+  @0x0fda: [m:

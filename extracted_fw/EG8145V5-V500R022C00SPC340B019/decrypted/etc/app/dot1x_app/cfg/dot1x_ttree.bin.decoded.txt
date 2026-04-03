@@ -1,0 +1,391 @@
+# Decoded from: etc/app/dot1x_app/cfg/dot1x_ttree.bin
+# Magic: 0xa4b6c5d7
+# Size: 8449 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  *.3
+  0G2
+  0G0
+  0G1
+  0G4
+  0G@
+  0G
+  0G
+  *&~
+  *&~
+  *&~
+  *&~
+  *&~
+  *&~
+  *&~
+  *&~
+  *&~
+  *&~
+  *&~
+  *&~
+  *&~
+  *&~
+  *.~
+  *.~
+  *.~
+  *,~
+  *(~
+  *(~
+  *(~
+  *(~
+  *(~
+  *(~
+  *&~
+  *&~
+  *&~
+  InternetGatewayDevice
+  X_HW_IEEE8021X
+  HW_BBSP_FEATURE_8021X
+  Enable
+  AutoDetect
+  VoiceNotCtrol
+  DetectRetry
+  DetectPeriod
+  Quiet
+  UpgradeSmooth
+  Radius
+  HW_BBSP_FEATURE_8021X
+  Authserver1
+  SharedSecretAuth1
+  Authserver2
+  SharedSecretAuth2
+  AuthUserNameFormat
+  AccountingServer
+  NasPortID
+  FallbackPolicy
+  AccountServer1
+  AccountServer2
+  DASServerPort
+  SharedSecretAccount1
+  SharedSecretAccount2
+  ServerMode
+  SerDetName
+  SerDetResv1
+  SerDetPass
+  SerDetResv2
+  SerDetPeriod
+  SerState
+  AuthorizationClientNumberOfEntries
+  Stats
+  HW_BBSP_FEATURE_8021X
+  TransmittedRequestPackets
+  ReTransmittedRequestPackets
+  ReceivedChallengePackets
+  ReceivedAcceptPackets
+  ReceivedRejectPackets
+  ReceivedInvalidPackets
+  AccountReqPacketsSent
+  AccountReqPacketsResent
+  AccountRspRecevied
+  DisconnectReqRecevied
+  DisconnectACKSent
+  DisconnectNAKSent
+  ReceiveCoaRequestFrames
+  TransmittedCoaAckFrames
+  TransmittedCoaNackFrames
+  AuthorizationClient
+  HW_BBSP_FEATURE_8021X
+  ClientAddress
+  SharedSecret
+  Creator
+  PAE
+  HW_BBSP_FEATURE_8021X
+  Enable
+  ActionRegister
+  AuthenticationMethod
+  GuestVlan
+  Restrictvlan
+  QuietPeriod
+  ServerRetryTimes
+  ServerTimeout
+  HandShakeEnable
+  HandShakePeriod
+  HandShakeTime
+  AuthLogicUnit
+  ReAuthEnable
+  ReAuthPeriod
+  PAEState
+  AuthenticationState
+  LastUpTime
+  CriticalVlan
+  MacBypassEnable
+  DynamicServiceVlan
+  RadiusAccountReportInterval
+  MulticastDetect
+  UnicastDetect
+  PreAuthAclID
+  VoiceMediaVlan
+  VoiceSignalVlan
+  Stats
+  HW_BBSP_FEATURE_8021X
+  ReceivedFrames
+  TransmittedFrames
+  ReceivedStartFrames
+  ReceivedLogoffFrames
+  ReceivedInvalidFrames
+  ReceivedResponseIdFrames
+  ReceivedResponseFrames
+  TransmittedRequestIdFrames
+  TransmittedRequestFrames
+  ReceivedLengthErrorFrames
+  FallbackSuccessFrames
+  FallbackFailFrames
+  UserInfo
+  HW_BBSP_FEATURE_8021X
+  UserName
+  DomainName
+  UserMac
+  UserIp
+  AccessTime
+  AuthState
+  RadiusVlan
+  AccessType
+  AclInfo
+  X_HW_DEBUG
+  BBSP
+  Display8021xStatus
+  HW_BBSP_FEATURE_8021X
+  Display8021xRadiusStats
+  HW_BBSP_FEATURE_8021X
+  Display8021xRadiusCfg
+  HW_BBSP_FEATURE_8021X
+  Display8021xPaeStats
+  HW_BBSP_FEATURE_8021X
+  port
+  Display8021xPaeCfg
+  HW_BBSP_FEATURE_8021X
+  port
+  DOT1XClient
+  HW_BBSP_FEATURE_8021X
+  port
+  UndoDOT1XClient
+  HW_BBSP_FEATURE_8021X
+  port
+  DOT1XClientGet
+  HW_BBSP_FEATURE_8021X
+  port
+  Display8021xInnerStatus
+  HW_BBSP_FEATURE_8021X
+  cwmp
+  dot1x
+  3799
+  65535
+  65535
+  3600
+  65535
+  65535
+  600
+  r$n
+  K8E
+  ^7S
+  &vi
+  P=d
+  tT?
+  wyZ
+  d\-
+  +#&
+  -e}
+  E+X
+  ,m|
+  &&t
+
+## All Strings (offset, value):
+
+  @0x00f1: *.3
+  @0x00f5: 0G2
+  @0x00f9: 0G0
+  @0x00fd: 0G1
+  @0x0101: 0G4
+  @0x0105: 0G@
+  @0x0133: 0G 
+  @0x0190: 0G 
+  @0x0403: *&~
+  @0x0415: *&~
+  @0x0428: *&~
+  @0x043a: *&~
+  @0x045f: *&~
+  @0x0472: *&~
+  @0x0498: *&~
+  @0x04ab: *&~
+  @0x04d1: *&~
+  @0x04e5: *&~
+  @0x050d: *&~
+  @0x0520: *&~
+  @0x0533: *&~
+  @0x0546: *&~
+  @0x06b5: *.~
+  @0x06c7: *.~
+  @0x06d9: *.~
+  @0x0816: *,~
+  @0x09bc: *(~
+  @0x09cf: *(~
+  @0x09e2: *(~
+  @0x09f5: *(~
+  @0x0a08: *(~
+  @0x0a53: *(~
+  @0x0a84: *&~
+  @0x0a96: *&~
+  @0x0aa8: *&~
+  @0x0ab2: InternetGatewayDevice
+  @0x0ac8: X_HW_IEEE8021X
+  @0x0ad7: HW_BBSP_FEATURE_8021X
+  @0x0aed: Enable
+  @0x0af4: AutoDetect
+  @0x0aff: VoiceNotCtrol
+  @0x0b0d: DetectRetry
+  @0x0b19: DetectPeriod
+  @0x0b26: Quiet
+  @0x0b2c: UpgradeSmooth
+  @0x0b3a: Radius
+  @0x0b41: HW_BBSP_FEATURE_8021X
+  @0x0b57: Authserver1
+  @0x0b63: SharedSecretAuth1
+  @0x0b75: Authserver2
+  @0x0b81: SharedSecretAuth2
+  @0x0b93: AuthUserNameFormat
+  @0x0ba6: AccountingServer
+  @0x0bb7: NasPortID
+  @0x0bc1: FallbackPolicy
+  @0x0bd0: AccountServer1
+  @0x0bdf: AccountServer2
+  @0x0bee: DASServerPort
+  @0x0bfc: SharedSecretAccount1
+  @0x0c11: SharedSecretAccount2
+  @0x0c26: ServerMode
+  @0x0c31: SerDetName
+  @0x0c3c: SerDetResv1
+  @0x0c48: SerDetPass
+  @0x0c53: SerDetResv2
+  @0x0c5f: SerDetPeriod
+  @0x0c6c: SerState
+  @0x0c75: AuthorizationClientNumberOfEntries
+  @0x0c98: Stats
+  @0x0c9e: HW_BBSP_FEATURE_8021X
+  @0x0cb4: TransmittedRequestPackets
+  @0x0cce: ReTransmittedRequestPackets
+  @0x0cea: ReceivedChallengePackets
+  @0x0d03: ReceivedAcceptPackets
+  @0x0d19: ReceivedRejectPackets
+  @0x0d2f: ReceivedInvalidPackets
+  @0x0d46: AccountReqPacketsSent
+  @0x0d5c: AccountReqPacketsResent
+  @0x0d74: AccountRspRecevied
+  @0x0d87: DisconnectReqRecevied
+  @0x0d9d: DisconnectACKSent
+  @0x0daf: DisconnectNAKSent
+  @0x0dc1: ReceiveCoaRequestFrames
+  @0x0dd9: TransmittedCoaAckFrames
+  @0x0df1: TransmittedCoaNackFrames
+  @0x0e0a: AuthorizationClient
+  @0x0e1e: HW_BBSP_FEATURE_8021X
+  @0x0e34: ClientAddress
+  @0x0e42: SharedSecret
+  @0x0e4f: Creator
+  @0x0e57: PAE
+  @0x0e5b: HW_BBSP_FEATURE_8021X
+  @0x0e71: Enable
+  @0x0e78: ActionRegister
+  @0x0e87: AuthenticationMethod
+  @0x0e9c: GuestVlan
+  @0x0ea6: Restrictvlan
+  @0x0eb3: QuietPeriod
+  @0x0ebf: ServerRetryTimes
+  @0x0ed0: ServerTimeout
+  @0x0ede: HandShakeEnable
+  @0x0eee: HandShakePeriod
+  @0x0efe: HandShakeTime
+  @0x0f0c: AuthLogicUnit
+  @0x0f1a: ReAuthEnable
+  @0x0f27: ReAuthPeriod
+  @0x0f34: PAEState
+  @0x0f3d: AuthenticationState
+  @0x0f51: LastUpTime
+  @0x0f5c: CriticalVlan
+  @0x0f69: MacBypassEnable
+  @0x0f79: DynamicServiceVlan
+  @0x0f8c: RadiusAccountReportInterval
+  @0x0fa8: MulticastDetect
+  @0x0fb8: UnicastDetect
+  @0x0fc6: PreAuthAclID
+  @0x0fd3: VoiceMediaVlan
+  @0x0fe2: VoiceSignalVlan
+  @0x0ff2: Stats
+  @0x0ff8: HW_BBSP_FEATURE_8021X
+  @0x100e: ReceivedFrames
+  @0x101d: TransmittedFrames
+  @0x102f: ReceivedStartFrames
+  @0x1043: ReceivedLogoffFrames
+  @0x1058: ReceivedInvalidFrames
+  @0x106e: ReceivedResponseIdFrames
+  @0x1087: ReceivedResponseFrames
+  @0x109e: TransmittedRequestIdFrames
+  @0x10b9: TransmittedRequestFrames
+  @0x10d2: ReceivedLengthErrorFrames
+  @0x10ec: FallbackSuccessFrames
+  @0x1102: FallbackFailFrames
+  @0x1115: UserInfo
+  @0x111e: HW_BBSP_FEATURE_8021X
+  @0x1134: UserName
+  @0x113d: DomainName
+  @0x1148: UserMac
+  @0x1150: UserIp
+  @0x1157: AccessTime
+  @0x1162: AuthState
+  @0x116c: RadiusVlan
+  @0x1177: AccessType
+  @0x1182: AclInfo
+  @0x118a: X_HW_DEBUG
+  @0x1195: BBSP
+  @0x119a: Display8021xStatus
+  @0x11ad: HW_BBSP_FEATURE_8021X
+  @0x11c3: Display8021xRadiusStats
+  @0x11db: HW_BBSP_FEATURE_8021X
+  @0x11f1: Display8021xRadiusCfg
+  @0x1207: HW_BBSP_FEATURE_8021X
+  @0x121d: Display8021xPaeStats
+  @0x1232: HW_BBSP_FEATURE_8021X
+  @0x1248: port
+  @0x124d: Display8021xPaeCfg
+  @0x1260: HW_BBSP_FEATURE_8021X
+  @0x1276: port
+  @0x127b: DOT1XClient
+  @0x1287: HW_BBSP_FEATURE_8021X
+  @0x129d: port
+  @0x12a2: UndoDOT1XClient
+  @0x12b2: HW_BBSP_FEATURE_8021X
+  @0x12c8: port
+  @0x12cd: DOT1XClientGet
+  @0x12dc: HW_BBSP_FEATURE_8021X
+  @0x12f2: port
+  @0x12f7: Display8021xInnerStatus
+  @0x130f: HW_BBSP_FEATURE_8021X
+  @0x1325: cwmp
+  @0x132a: dot1x
+  @0x1335: 0xFFFFFFFF
+  @0x1344: 3799
+  @0x134c: 65535
+  @0x1352: 65535
+  @0x1364: 3600
+  @0x136b: 65535
+  @0x1371: 65535
+  @0x1377: 600
+  @0x137b: r$n
+  @0x1409: K8E
+  @0x142b: ^7S
+  @0x1459: &vi
+  @0x14ac: P=d
+  @0x14d4: tT?
+  @0x14e5: wyZ
+  @0x1516: d\-
+  @0x1598: +#&
+  @0x15b9: -e}
+  @0x163f: E+X
+  @0x16c0: ,m|
+  @0x16d2: &&t

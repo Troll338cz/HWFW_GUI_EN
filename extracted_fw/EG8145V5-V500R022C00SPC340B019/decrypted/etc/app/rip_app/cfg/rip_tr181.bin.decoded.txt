@@ -1,0 +1,46 @@
+# Decoded from: etc/app/rip_app/cfg/rip_tr181.bin
+# Magic: 0xa1b3c2d4
+# Size: 936 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  +Device.Routing.RIP.
+  IGD.X_HW_DataModel.Routing.RIP.
+  Enable
+  SupportedModes
+  InterfaceSettingNumberOfEntries
+  Device.Routing.RIP.InterfaceSetting.
+  IGD.X_HW_DataModel.Routing.RIP.InterfaceSetting.
+  Status
+  Alias
+  Interface
+  AcceptRA
+  SendRA
+  X_HW_Protocol
+  X_HW_AuthMode
+  X_HW_AuthKey
+  Q0g
+  J'u
+  wSV
+
+## All Strings (offset, value):
+
+  @0x00c0: +Device.Routing.RIP.
+  @0x00d5: IGD.X_HW_DataModel.Routing.RIP.
+  @0x00f5: Enable
+  @0x00fc: SupportedModes
+  @0x010b: InterfaceSettingNumberOfEntries
+  @0x012b: Device.Routing.RIP.InterfaceSetting.
+  @0x0150: IGD.X_HW_DataModel.Routing.RIP.InterfaceSetting.
+  @0x0181: Status
+  @0x0188: Alias
+  @0x018e: Interface
+  @0x0198: AcceptRA
+  @0x01a1: SendRA
+  @0x01a8: X_HW_Protocol
+  @0x01b6: X_HW_AuthMode
+  @0x01c4: X_HW_AuthKey
+  @0x01e7: Q0g
+  @0x022b: J'u
+  @0x0255: wSV

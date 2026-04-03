@@ -1,0 +1,189 @@
+# Decoded from: etc/app/usb_ftp_app/cfg/usb_ftp_ttree.bin
+# Magic: 0xa4b6c5d7
+# Size: 3257 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  Ga
+  Gb
+  Gc
+  Gd
+  Q G
+  Q G
+  Q G
+  Q G
+  P G
+  @&>
+  @&M
+  @&R
+  @&~
+  @&=
+  @&>
+  @&>
+  @&>
+  @&=
+  @&>
+  +.>
+  +.=
+  +.=
+  +.=
+  +.=
+  +.=
+  +.>
+  +,=
+  +,>
+  +.>
+  ,,=
+  InternetGatewayDevice
+  X_HW_WAN_ServiceManage
+  HW_FT_ENABLE_WAN_SEP_FTP
+  FtpEnable
+  FtpUserName
+  FtpPassword
+  FtpPort
+  FtpRoorDir
+  FtpUserNum
+  EncryptMode
+  FtpService
+  Salt
+  FTPShareAllPath
+  X_HW_ServiceManage
+  HW_SSMP_FEATURE_USD
+  FtpEnable
+  FtpUserName
+  FtpPassword
+  FtpPort
+  FtpRoorDir
+  FtpUserNum
+  EncryptMode
+  FtpService
+  Salt
+  FTPShareAllPath
+  X_HW_AppSrvManage
+  HW_SSMP_FEATURE_USD
+  FtpEnable
+  FtpUserName
+  FtpPassword
+  FtpRoorDir
+  EncryptMode
+  X_HW_DEBUG
+  SMP
+  FtpClient
+  Enable
+  Username
+  Userpassword
+  URL
+  Port
+  Device
+  LocalPath
+  WorkMode
+  Status
+  FtpClientStatus
+  FtpClientStop
+  FtpLog
+  Record
+  cwmp
+  ssmp
+  root
+  $2\oVhK-N}OA7;yFQG["#)S!X)B_nF)=Z!h^/"K}%1$
+  root
+  $2\oVhK-N}OA7;yFQG["#)S!X)B_nF)=Z!h^/"K}%1$
+  root
+  $2\oVhK-N}OA7;yFQG["#)S!X)B_nF)=Z!h^/"K}%1$
+  __N
+  |fF
+  y0<
+
+## All Strings (offset, value):
+
+  @0x00c9:  Ga
+  @0x00cd:  Gb
+  @0x00d1:  Gc
+  @0x00d5:  Gd
+  @0x0164: Q G
+  @0x0168: Q G
+  @0x016c: Q G
+  @0x0174: Q G
+  @0x018f: P G
+  @0x01ad: @&>
+  @0x01c1: @&M
+  @0x01d5: @&R
+  @0x01e9: @&~
+  @0x01fd: @&=
+  @0x0211: @&>
+  @0x0224: @&>
+  @0x0237: @&>
+  @0x024a: @&=
+  @0x025c: @&>
+  @0x038f: +.>
+  @0x03a2: +.=
+  @0x03b5: +.=
+  @0x03c8: +.=
+  @0x03ed: +.=
+  @0x0400: +.=
+  @0x0413: +.>
+  @0x0427: +,=
+  @0x043b: +,>
+  @0x044e: +.>
+  @0x0460: ,,=
+  @0x046a: InternetGatewayDevice
+  @0x0480: X_HW_WAN_ServiceManage
+  @0x0497: HW_FT_ENABLE_WAN_SEP_FTP
+  @0x04b0: FtpEnable
+  @0x04ba: FtpUserName
+  @0x04c6: FtpPassword
+  @0x04d2: FtpPort
+  @0x04da: FtpRoorDir
+  @0x04e5: FtpUserNum
+  @0x04f0: EncryptMode
+  @0x04fc: FtpService
+  @0x0507: Salt
+  @0x050c: FTPShareAllPath
+  @0x051c: X_HW_ServiceManage
+  @0x052f: HW_SSMP_FEATURE_USD
+  @0x0543: FtpEnable
+  @0x054d: FtpUserName
+  @0x0559: FtpPassword
+  @0x0565: FtpPort
+  @0x056d: FtpRoorDir
+  @0x0578: FtpUserNum
+  @0x0583: EncryptMode
+  @0x058f: FtpService
+  @0x059a: Salt
+  @0x059f: FTPShareAllPath
+  @0x05af: X_HW_AppSrvManage
+  @0x05c1: HW_SSMP_FEATURE_USD
+  @0x05d5: FtpEnable
+  @0x05df: FtpUserName
+  @0x05eb: FtpPassword
+  @0x05f7: FtpRoorDir
+  @0x0602: EncryptMode
+  @0x060e: X_HW_DEBUG
+  @0x0619: SMP
+  @0x0620: FtpClient
+  @0x062a: Enable
+  @0x0631: Username
+  @0x063a: Userpassword
+  @0x0647: URL
+  @0x064b: Port
+  @0x0650: Device
+  @0x0657: LocalPath
+  @0x0661: WorkMode
+  @0x066a: Status
+  @0x0671: FtpClientStatus
+  @0x0681: FtpClientStop
+  @0x068f: FtpLog
+  @0x0696: Record
+  @0x069d: cwmp
+  @0x06a2: ssmp
+  @0x06ac: 0xFFFFFFFF
+  @0x06b7: root
+  @0x06bc: $2\oVhK-N}OA7;yFQG["#)S!X)B_nF)=Z!h^/"K}%1$
+  @0x06eb: root
+  @0x06f0: $2\oVhK-N}OA7;yFQG["#)S!X)B_nF)=Z!h^/"K}%1$
+  @0x071f: root
+  @0x0724: $2\oVhK-N}OA7;yFQG["#)S!X)B_nF)=Z!h^/"K}%1$
+  @0x07c8: __N
+  @0x0820: |fF
+  @0x08ad: y0<

@@ -1,0 +1,8 @@
+# Decoded from: etc/app/bulkchina_app/cfg/bulkchina_tr181.bin
+# Magic: 0xa1b3c2d4
+# Size: 40 bytes
+# Type: DataView (TR mapping)
+
+
+## All Strings (offset, value):
+

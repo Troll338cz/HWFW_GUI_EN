@@ -1,0 +1,6269 @@
+# Decoded from: etc/wap/dm.cfg/DataView_tr181.bin
+# Magic: 0xa1b3c2d4
+# Size: 236438 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  +I
+  +'!
+  +>!
+  +I!
+  +X!
+  +j!
+  +r!
+  +:"
+  +I"
+  +D#
+  +U#
+  +g#
+  +y#
+  +8$
+  +A$
+  +U$
+  +i$
+  +#%
+  +4%
+  +S%
+  +Z&
+  +_&
+  +h&
+  +n(
+  +c)
+  +k+
+  +w+
+  +,,
+  +4,
+  +l,
+  +|,
+  +]-
+  +j-
+  +}-
+  + .
+  +5.
+  +i.
+  +*/
+  +;0
+  +l1
+  +v1
+  ++2
+  +92
+  +D2
+  +R2
+  +`2
+  +k2
+  +-3
+  +B3
+  +O3
+  +_3
+  +o3
+  +#4
+  +04
+  +H4
+  +\4
+  +f4
+  +Z5
+  +a5
+  +o5
+  +w5
+  +K6
+  +S6
+  +"7
+  +77
+  +I7
+  +S7
+  +Z7
+  +c7
+  +q7
+  +z7
+  +!8
+  +X8
+  +e8
+  +u8
+  +(9
+  +49
+  +M9
+  +o9
+  +o5
+  +I:
+  +U:
+  +x,
+  +<<
+  +@<
+  +H<
+  +M<
+  +U<
+  +?=
+  +x,
+  +&>
+  +;>
+  +U>
+  +o>
+  +:?
+  +U?
+  +a?
+  +c@
+  +q@
+  +e8
+  +]A
+  +wB
+  +:"
+  +I"
+  +FC
+  +{D
+  +"E
+  +.E
+  +=E
+  +[E
+  +kE
+  +*F
+  +AF
+  +_F
+  +yF
+  +YG
+  +iG
+  +|G
+  +MI
+  +YI
+  +iI
+  +~I
+  +/J
+  +OJ
+  +_J
+  +mJ
+  +8K
+  +WK
+  +lK
+  +#L
+  +OL
+  +eL
+  +|L
+  +!M
+  +(M
+  +/M
+  +6M
+  +=M
+  +DM
+  +XM
+  +*O
+  +,R
+  +AR
+  +PR
+  +\R
+  +dR
+  +oR
+  +)S
+  +<S
+  +KS
+  +YS
+  +hS
+  +#T
+  +0T
+  +=T
+  +MT
+  +]T
+  +pT
+  +{T
+  +QU
+  +\U
+  +kU
+  +vU
+  +`V
+  +eV
+  +qV
+  +zV
+  +-W
+  +7W
+  +FW
+  +UW
+  +kW
+  +}W
+  +*O
+  +;Y
+  +JY
+  +`Y
+  +vY
+  +AR
+  +zZ
+  +<[
+  +M[
+  +][
+  +j[
+  +Z]
+  +q]
+  +)^
+  +9^
+  +I^
+  +^^
+  +u^
+  +5_
+  +S_
+  +q_
+  +1`
+  +N`
+  +oa
+  +xa
+  +%b
+  +5b
+  +/c
+  +1d
+  +Dd
+  +Wd
+  +Ge
+  +Oe
+  +be
+  +ne
+  +}e
+  +Kg
+  +Tg
+  +^g
+  +hg
+  +rg
+  +|g
+  +ph
+  + i
+  +3i
+  +ph
+  ++k
+  +<k
+  +Kk
+  +Wm
+  +fm
+  +ym
+  +"n
+  +>n
+  +]n
+  +pn
+  +zn
+  +,o
+  +<o
+  +Uo
+  +oo
+  +$p
+  +8p
+  +Kp
+  +dp
+  +vp
+  +"E
+  +$q
+  +1q
+  +Z]
+  +=q
+  +Sq
+  +!r
+  +;r
+  +Tr
+  +cr
+  +yr
+  +-s
+  +<s
+  +]s
+  +}s
+  ++t
+  +Bt
+  +_t
+  +~t
+  +pu
+  +~u
+  +nv
+  +q]
+  +tv
+  +(w
+  +5w
+  +Jw
+  +Ww
+  +kw
+  +"x
+  +oa
+  +6z
+  +/c
+  +%{
+  +2{
+  +6|
+  +M|
+  +d|
+  +r|
+  +'}
+  +.}
+  +<}
+  +L}
+  +b}
+  +x}
+  +!~
+  +4~
+  +C~
+  +tv
+  +Z]
+  +q]
+  +Z]
+  +q]
+  +1q
+  +:"
+  +"x
+  +nv
+  +yF
+  +nv
+  +tv
+  +q]
+  +q]
+  +92
+  +;0
+  +FT_REMOTEACCESS_EXTEND
+  FT_XDSL_PVC_SEARCH
+  HW_FT_WEB_INDEPEND_HTTPS_PORT
+  HW_AMP_FEATURE_OPTIC
+  BBSP_FT_PORTMAP_BASED_BY_MAC
+  FT_TR181_FIREWALL
+  FT_FIREWALL_MACFILTER
+  FT_DM_AUTOREBOOT
+  FT_WLAN_RETRANS
+  FT_WLAN_BSD_CAP
+  BBSP_FT_QOS_QUEUE|FT_SSMP_SIPPHONE_PRIOR_UP
+  Device.
+  IGD.X_HW_DataModel.
+  DeviceSummary
+  IGD.DeviceSummary
+  RootDataModelVersion
+  IGD.X_HW_DataModel.X_HW_RootDataModelVersion
+  InterfaceStackNumberOfEntries
+  IGD.X_HW_DataModel.X_HW_InterfaceStackNumberOfEntries
+  Device.UserInterface.
+  IGD.X_HW_DataModel.UserInterface.
+  Device.UserInterface.RemoteAccess.
+  IGD.X_HW_DataModel.UserInterface.RemoteAccess.
+  Enable
+  Port
+  SupportedProtocols
+  Protocol
+  Device.UserInterface.X_HW_RemoteAccess.
+  IGD.X_HW_Security.AclServices.AccessControl.
+  AccessControlListEnable
+  AccessControlListNumberOfEntries
+  Device.UserInterface.X_HW_RemoteAccess.List.
+  IGD.X_HW_Security.AclServices.AccessControl.List.
+  SrcPortType
+  SrcPortName
+  SrcIp
+  ServicePort
+  SrcMac
+  ServiceProto
+  ServiceProtoPort
+  Priority
+  Mode
+  DynamicWanServiceType
+  Device.Services.X_HW_PVCSearch.
+  IGD.Services.X_HW_PVCSearch.
+  PVCSearchList
+  PVCSearchResult
+  WanPvcType
+  ResultFlag
+  ChangeFlag
+  Device.Services.X_HW_WebServerConfig.
+  IGD.Services.X_HW_WebServerConfig.
+  ListenMode
+  ListenInnerPort
+  ListenOuterPort
+  HttpsListenInnerPort
+  HttpsListenOuterPort
+  Device.InterfaceStack.
+  IGD.X_HW_DataModel.InterfaceStack.
+  Alias
+  HigherLayer
+  LowerLayer
+  HigherAlias
+  LowerAlias
+  Device.DHCPv4.
+  IGD.X_HW_DataModel.DHCPv4.
+  ClientNumberOfEntries
+  Device.DHCPv4.Client.
+  IGD.X_HW_DataModel.DHCPv4.Client.
+  Interface
+  Status
+  DHCPStatus
+  Renew
+  IPAddress
+  SubnetMask
+  IPRouters
+  DNSServers
+  LeaseTimeRemaining
+  DHCPServer
+  PassthroughEnable
+  PassthroughDHCPPool
+  SentOptionNumberOfEntries
+  ReqOptionNumberOfEntries
+  Device.DHCPv4.Client.SentOption.
+  IGD.X_HW_DataModel.DHCPv4.Client.SentOption.
+  Tag
+  Value
+  Device.DHCPv4.Client.ReqOption.
+  IGD.X_HW_DataModel.DHCPv4.Client.ReqOption.
+  Order
+  Device.DHCPv6.
+  IGD.X_HW_DataModel.DHCPv6.
+  Device.DHCPv6.Client.
+  IGD.X_HW_DataModel.DHCPv6.Client.
+  DUID
+  RequestAddresses
+  RequestPrefixes
+  RapidCommit
+  SuggestedT1
+  SuggestedT2
+  SupportedOptions
+  RequestedOptions
+  ServerNumberOfEntries
+  ReceivedOptionNumberOfEntries
+  Device.DHCPv6.Client.ReceivedOption.
+  IGD.DHCPv6.Client.ReceivedOption.
+  Server
+  Device.DHCPv6.Client.SentOption.
+  IGD.X_HW_DataModel.DHCPv6.Client.SentOption.
+  Device.DHCPv6.Client.Server.
+  IGD.DHCPv6.Client.Server.
+  SourceAddress
+  InformationRefreshTime
+  Device.DHCPv4.Server.
+  IGD.X_HW_DataModel.DHCPv4.Server.
+  PoolNumberOfEntries
+  Device.DHCPv4.Server.Pool.
+  IGD.X_HW_DataModel.DHCPv4.Server.Pool.
+  VendorClassID
+  VendorClassIDExclude
+  VendorClassIDMode
+  ClientID
+  ClientIDExclude
+  UserClassID
+  UserClassIDExclude
+  Chaddr
+  ChaddrMask
+  ChaddrExclude
+  MinAddress
+  MaxAddress
+  ReservedAddresses
+  DomainName
+  LeaseTime
+  StaticAddressNumberOfEntries
+  OptionNumberOfEntries
+  Device.DHCPv4.Server.Pool.StaticAddress.
+  IGD.X_HW_DataModel.DHCPv4.Server.Pool.StaticAddress.
+  Yiaddr
+  Device.DHCPv4.Server.Pool.Option.
+  IGD.X_HW_DataModel.DHCPv4.Server.Pool.Option.
+  Device.DHCPv4.Server.Pool.Client.
+  IGD.X_HW_DataModel.DHCPv4.Server.Pool.Client.
+  Active
+  IPv4AddressNumberOfEntries
+  Device.DHCPv4.Server.Pool.Client.IPv4Address.
+  IGD.X_HW_DataModel.DHCPv4.Server.Pool.Client.IPv4Address.
+  Device.DHCPv4.Server.Pool.Client.Option.
+  IGD.X_HW_DataModel.DHCPv4.Server.Pool.Client.Option.
+  Device.DHCPv6.Server.
+  IGD.X_HW_DataModel.DHCPv6.Server.
+  Device.DHCPv6.Server.Pool.
+  IGD.X_HW_DataModel.DHCPv6.Server.Pool.
+  DUIDExclude
+  SourceAddressMask
+  SourceAddressExclude
+  IANAEnable
+  IANAManualPrefixes
+  IANAPrefixes
+  IAPDEnable
+  IAPDManualPrefixes
+  IAPDPrefixes
+  IAPDAddLength
+  Device.DHCPv6.Server.Pool.Client.
+  IGD.X_HW_DataModel.DHCPv6.Server.Pool.Client.
+  IPv6AddressNumberOfEntries
+  IPv6PrefixNumberOfEntries
+  Device.DHCPv6.Server.Pool.Client.IPv6Address.
+  IGD.X_HW_DataModel.DHCPv6.Server.Pool.Client.IPv6Address.
+  PreferredLifetime
+  ValidLifetime
+  Device.DHCPv6.Server.Pool.Client.IPv6Prefix.
+  IGD.X_HW_DataModel.DHCPv6.Server.Pool.Client.IPv6Prefix.
+  Prefix
+  Device.DHCPv6.Server.Pool.Client.Option.
+  IGD.X_HW_DataModel.DHCPv6.Server.Pool.Client.Option.
+  Device.DHCPv6.Server.Pool.Option.
+  IGD.X_HW_DataModel.DHCPv6.Server.Pool.Option.
+  PassthroughClient
+  Device.RouterAdvertisement.
+  IGD.X_HW_DataModel.RouterAdvertisement.
+  InterfaceSettingNumberOfEntries
+  Device.RouterAdvertisement.InterfaceSetting.
+  IGD.X_HW_DataModel.RouterAdvertisement.InterfaceSetting.
+  ManualPrefixes
+  Prefixes
+  MaxRtrAdvInterval
+  MinRtrAdvInterval
+  AdvDefaultLifetime
+  AdvManagedFlag
+  AdvOtherConfigFlag
+  AdvMobileAgentFlag
+  AdvPreferredRouterFlag
+  AdvNDProxyFlag
+  AdvLinkMTU
+  AdvReachableTime
+  AdvRetransTimer
+  AdvCurHopLimit
+  IGD.X_HW_DataModel.RouterAdvertisement.InterfaceSetting.OptionNumberOfEntries
+  Device.RouterAdvertisement.InterfaceSetting.Option.
+  IGD.X_HW_DataModel.RouterAdvertisement.InterfaceSetting.Option.
+  Device.Hosts.
+  IGD.X_HW_DataModel.Hosts.
+  HostNumberOfEntries
+  Device.Hosts.Host.
+  IGD.X_HW_DataModel.Hosts.Host.
+  IGD.X_HW_DataModel.Hosts.Host.Alias
+  PhysAddress
+  IGD.X_HW_DataModel.Hosts.Host.PhysAddress
+  IGD.X_HW_DataModel.Hosts.Host.IPAddress
+  AddressSource
+  IGD.X_HW_DataModel.Hosts.Host.AddressSource
+  DHCPClient
+  IGD.X_HW_DataModel.Hosts.Host.DHCPClient
+  IGD.X_HW_DataModel.Hosts.Host.LeaseTimeRemaining
+  AssociatedDevice
+  IGD.X_HW_DataModel.Hosts.Host.AssociatedDevice
+  Layer1Interface
+  IGD.X_HW_DataModel.Hosts.Host.Layer1Interface
+  Layer3Interface
+  IGD.X_HW_DataModel.Hosts.Host.Layer3Interface
+  IGD.X_HW_DataModel.Hosts.Host.VendorClassID
+  IGD.X_HW_DataModel.Hosts.Host.ClientID
+  IGD.X_HW_DataModel.Hosts.Host.UserClassID
+  HostName
+  IGD.X_HW_DataModel.Hosts.Host.HostName
+  GroupName
+  IGD.X_HW_DataModel.Hosts.Host.GroupName
+  IGD.X_HW_DataModel.Hosts.Host.Active
+  ActiveLastChange
+  IGD.X_HW_DataModel.Hosts.Host.ActiveLastChange
+  IGD.X_HW_DataModel.Hosts.Host.IPv4AddressNumberOfEntries
+  IGD.X_HW_DataModel.Hosts.Host.IPv6AddressNumberOfEntries
+  Device.Hosts.Host.IPv4Address.
+  IGD.X_HW_DataModel.Hosts.Host.IPv4Address.
+  Device.Hosts.Host.IPv6Address.
+  IGD.X_HW_DataModel.Hosts.Host.IPv6Address.
+  Device.IP.
+  IGD.X_HW_DataModel.IP.
+  IPv4Capable
+  IPv4Enable
+  IPv4Status
+  IPv6Capable
+  IPv6Enable
+  IPv6Status
+  ULAPrefix
+  InterfaceNumberOfEntries
+  ActivePortNumberOfEntries
+  Device.IP.Interface.
+  IGD.X_HW_DataModel.IP.Interface.
+  ULAEnable
+  Name
+  LastChange
+  LowerLayers
+  Router
+  Reset
+  MaxMTUSize
+  Type
+  Loopback
+  AutoIPEnable
+  X_HW_IPv6AddressRa
+  X_HW_ServiceType
+  X_HW_MultiCastVLAN
+  X_HW_IPv6MultiCastVLAN
+  Device.IP.Interface.IPv4Address.
+  IGD.X_HW_DataModel.IP.Interface.IPv4Address.
+  AddressingType
+  X_HW_DefaultGateway
+  Device.IP.Interface.IPv6Address.
+  IGD.X_HW_DataModel.IP.Interface.IPv6Address.
+  IPAddressStatus
+  Origin
+  Anycast
+  Device.IP.Interface.IPv6Prefix.
+  IGD.X_HW_DataModel.IP.Interface.IPv6Prefix.
+  PrefixStatus
+  StaticType
+  ParentPrefix
+  ChildPrefixBits
+  OnLink
+  Autonomous
+  Device.IP.Interface.Stats.
+  IGD.X_HW_DataModel.IP.Interface.Stats.
+  BytesSent
+  BytesReceived
+  PacketsSent
+  PacketsReceived
+  ErrorsSent
+  ErrorsReceived
+  UnicastPacketsSent
+  UnicastPacketsReceived
+  DiscardPacketsSent
+  DiscardPacketsReceived
+  MulticastPacketsSent
+  MulticastPacketsReceived
+  BroadcastPacketsSent
+  BroadcastPacketsReceived
+  UnknownProtoPacketsReceived
+  Device.IP.Diagnostics.
+  IGD.X_HW_DataModel.IP.Diagnostics.
+  IPv4PingSupported
+  IPv6PingSupported
+  IPv4TraceRouteSupported
+  IPv6TraceRouteSupported
+  Device.IP.Diagnostics.IPPing.
+  IGD.X_HW_DataModel.IP.Diagnostics.IPPing.
+  DiagnosticsState
+  ProtocolVersion
+  Host
+  NumberOfRepetitions
+  Timeout
+  DataBlockSize
+  DSCP
+  IPAddressUsed
+  SuccessCount
+  FailureCount
+  AverageResponseTime
+  MinimumResponseTime
+  MaximumResponseTime
+  AverageResponseTimeDetailed
+  MinimumResponseTimeDetailed
+  MaximumResponseTimeDetailed
+  Device.IP.Diagnostics.TraceRoute.
+  IGD.X_HW_DataModel.IP.Diagnostics.TraceRoute.
+  NumberOfTries
+  MaxHopCount
+  ResponseTime
+  RouteHopsNumberOfEntries
+  Device.IP.Diagnostics.TraceRoute.RouteHops.
+  IGD.X_HW_DataModel.IP.Diagnostics.TraceRoute.RouteHops.
+  HostAddress
+  ErrorCode
+  RTTimes
+  Device.Ethernet.VLANTermination.
+  IGD.X_HW_DataModel.Ethernet.VLANTermination.
+  VLANID
+  TPID
+  Device.Ethernet.VLANTermination.Stats.
+  IGD.X_HW_DataModel.Ethernet.VLANTermination.Stats.
+  Device.Ethernet.Link.
+  IGD.X_HW_DataModel.Ethernet.Link.
+  MACAddress
+  PriorityTagging
+  Device.Ethernet.Link.Stats.
+  IGD.X_HW_DataModel.Ethernet.Link.Stats.
+  Device.NAT.
+  IGD.X_HW_DataModel.NAT.
+  PortMappingNumberOfEntries
+  Device.NAT.InterfaceSetting.
+  IGD.X_HW_DataModel.NAT.InterfaceSetting.
+  Device.PPP.
+  IGD.X_HW_DataModel.PPP.
+  SupportedNCPs
+  Device.PPP.Interface.
+  IGD.X_HW_DataModel.PPP.Interface.
+  ConnectionStatus
+  LastConnectionError
+  AutoDisconnectTime
+  IdleDisconnectTime
+  WarnDisconnectDelay
+  Username
+  Password
+  EncryptionProtocol
+  CompressionProtocol
+  AuthenticationProtocol
+  MaxMRUSize
+  CurrentMRUSize
+  ConnectionTrigger
+  LCPEcho
+  LCPEchoRetry
+  IPCPEnable
+  IPv6CPEnable
+  Device.PPP.Interface.PPPoE.
+  IGD.X_HW_DataModel.PPP.Interface.PPPoE.
+  SessionID
+  ACName
+  ServiceName
+  Device.PPP.Interface.IPCP.
+  IGD.X_HW_DataModel.PPP.Interface.IPCP.
+  LocalIPAddress
+  RemoteIPAddress
+  Device.PPP.Interface.IPv6CP.
+  IGD.X_HW_DataModel.PPP.Interface.IPv6CP.
+  LocalInterfaceIdentifier
+  RemoteInterfaceIdentifier
+  Device.PPP.Interface.Stats.
+  IGD.X_HW_DataModel.PPP.Interface.Stats.
+  Device.Bridging.
+  IGD.X_HW_DataModel.Bridging.
+  MaxBridgeEntries
+  MaxDBridgeEntries
+  MaxQBridgeEntries
+  MaxVLANEntries
+  MaxProviderBridgeEntries
+  ProviderBridgeNumberOfEntries
+  MaxFilterEntries
+  BridgeNumberOfEntries
+  FilterNumberOfEntries
+  Device.Bridging.Bridge.
+  IGD.X_HW_DataModel.Bridging.Bridge.
+  Standard
+  PortNumberOfEntries
+  VLANNumberOfEntries
+  VLANPortNumberOfEntries
+  Device.Bridging.Bridge.Port.
+  IGD.X_HW_DataModel.Bridging.Bridge.Port.
+  ManagementPort
+  DefaultUserPriority
+  PriorityRegeneration
+  PortState
+  PVID
+  AcceptableFrameTypes
+  IngressFiltering
+  ServiceAccessPrioritySelection
+  ServiceAccessPriorityTranslation
+  Device.Bridging.Bridge.Port.Stats.
+  IGD.X_HW_DataModel.Bridging.Bridge.Port.Stats.
+  Device.Bridging.Bridge.VLAN.
+  IGD.X_HW_DataModel.Bridging.Bridge.VLAN.
+  Device.Bridging.Bridge.VLANPort.
+  IGD.X_HW_DataModel.Bridging.Bridge.VLANPort.
+  VLAN
+  Untagged
+  X_HW_EgressEthernetPriorityMark
+  X_HW_EgressDefaultUserPriority
+  Device.Bridging.Filter.
+  IGD.X_HW_DataModel.Bridging.Filter.
+  Bridge
+  VLANIDFilter
+  EthertypeFilterList
+  EthertypeFilterExclude
+  Device.Optical.
+  IGD.X_HW_DataModel.Optical.
+  Device.Optical.Interface.
+  IGD.X_HW_DataModel.Optical.Interface.
+  Upstream
+  OpticalSignalLevel
+  LowerOpticalThreshold
+  UpperOpticalThreshold
+  TransmitOpticalLevel
+  LowerTransmitPowerThreshold
+  UpperTransmitPowerThreshold
+  Device.Optical.Interface.Stats.
+  IGD.WANDevice.X_GponInterafceConfig.Stats.
+  IGD.WANDevice.X_GponInterafceConfig.Stats.DropPackets
+  Device.Ethernet.
+  IGD.X_HW_DataModel.Ethernet.
+  LinkNumberOfEntries
+  VLANTerminationNumberOfEntries
+  RMONStatsNumberOfEntries
+  Device.Ethernet.Interface.
+  IGD.LANDevice.LANEthernetInterfaceConfig.
+  IGD.LANDevice.LANEthernetInterfaceConfig.Name
+  MaxBitRate
+  IGD.LANDevice.LANEthernetInterfaceConfig.X_TR181_MaxBitRate
+  CurrentBitRate
+  DuplexMode
+  EEECapability
+  EEEEnable
+  Device.Ethernet.Interface.Stats.
+  IGD.LANDevice.LANEthernetInterfaceConfig.Stats.
+  Device.Routing.
+  IGD.X_HW_DataModel.Routing.
+  RouterNumberOfEntries
+  Device.Routing.Router.
+  IGD.X_HW_DataModel.Routing.Router.
+  IPv4ForwardingNumberOfEntries
+  IPv6ForwardingNumberOfEntries
+  Device.Routing.Router.IPv4Forwarding.
+  IGD.X_HW_DataModel.Routing.Router.IPv4Forwarding.
+  StaticRoute
+  DestIPAddress
+  DestSubnetMask
+  ForwardingPolicy
+  GatewayIPAddress
+  ForwardingMetric
+  Device.Routing.Router.IPv6Forwarding.
+  IGD.X_HW_DataModel.Routing.Router.IPv6Forwarding.
+  DestIPPrefix
+  NextHop
+  ExpirationTime
+  Device.CaptivePortal.
+  IGD.CaptivePortal.
+  AllowedList
+  URL
+  IGD.CaptivePortal.CaptivePortalURL
+  Device.Routing.RouteInformation.
+  IGD.X_HW_DataModel.Routing.RouteInformation.
+  Device.Routing.RouteInformation.InterfaceSetting.
+  IGD.X_HW_DataModel.Routing.RouteInformation.InterfaceSetting.
+  SourceRouter
+  PreferredRouteFlag
+  RouteLifetime
+  Device.QoS.
+  IGD.X_HW_DataModel.QoS.
+  Device.QoS.Classification.
+  IGD.X_HW_DataModel.QoS.Classification.
+  EthernetPriorityMark
+  VLANIDCheck
+  VLANIDExclude
+  X_HW_EgressInterface
+  X_HW_DefaultPri
+  Device.DNS.
+  IGD.X_HW_DataModel.DNS.
+  SupportedRecordTypes
+  Device.DNS.Client.
+  IGD.X_HW_DataModel.DNS.Client.
+  Device.DNS.Client.Server.
+  IGD.X_HW_DataModel.DNS.Client.Server.
+  DNSServer
+  Device.DNS.Relay.
+  IGD.X_HW_DataModel.DNS.Relay.
+  ForwardNumberOfEntries
+  Device.DNS.Relay.Forwarding.
+  IGD.X_HW_DataModel.DNS.Relay.Forwarding.
+  Device.DNS.Diagnostics.
+  IGD.DNS.Diagnostics.
+  Device.DNS.Diagnostics.NSLookupDiagnostics.
+  IGD.DNS.Diagnostics.NSLookupDiagnostics.
+  IGD.DNS.Diagnostics.NSLookupDiagnostics.Interface
+  ResultNumberOfEntries
+  Device.DNS.Diagnostics.NSLookupDiagnostics.Result.
+  IGD.DNS.Diagnostics.NSLookupDiagnostics.Result.
+  AnswerType
+  HostNameReturned
+  IPAddresses
+  DNSServerIP
+  Device.DynamicDNS.
+  IGD.X_HW_DataModel.DynamicDNS.
+  SupportedServices
+  Device.DynamicDNS.Client.
+  IGD.X_HW_DataModel.DynamicDNS.Client.
+  LastError
+  HostnameNumberOfEntries
+  Device.DynamicDNS.Client.Hostname.
+  IGD.X_HW_DataModel.DynamicDNS.Client.Hostname.
+  LastUpdate
+  Device.DynamicDNS.Server.
+  IGD.X_HW_DataModel.DynamicDNS.Server.
+  ServerAddress
+  ServerPort
+  CheckInterval
+  RetryInterval
+  MaxRetries
+  X_HW_SaltAddress
+  Device.DSLite.
+  IGD.X_HW_DataModel.DSLite.
+  Device.DSLite.InterfaceSetting.
+  IGD.X_HW_DataModel.DSLite.InterfaceSetting.
+  EndpointAssignmentPrecedence
+  EndpointAddressTypePrecedence
+  EndpointAddressInUse
+  EndpointName
+  EndpointAddress
+  TunnelInterface
+  TunneledInterface
+  Device.NeighborDiscovery.
+  IGD.X_HW_DataModel.NeighborDiscovery.
+  Device.NeighborDiscovery.InterfaceSetting.
+  IGD.X_HW_DataModel.NeighborDiscovery.InterfaceSetting.
+  RetransTimer
+  RtrSolicitationInterval
+  MaxRtrSolicitations
+  NUDEnable
+  RSEnable
+  Device.NAT.PortMapping.
+  IGD.X_HW_DataModel.NAT.PortMapping.
+  AllInterfaces
+  LeaseDuration
+  RemoteHost
+  ExternalPort
+  ExternalPortEndRange
+  InternalPort
+  InternalClient
+  Description
+  PMLastChange
+  MAC
+  Device.Firewall.
+  IGD.X_HW_Security.Firewall.
+  Config
+  AdvancedLevel
+  Version
+  LevelNumberOfEntries
+  ChainNumberOfEntries
+  Device.Firewall.Level.
+  IGD.X_HW_Security.Firewall.Level.
+  Chain
+  PortMappingEnabled
+  DefaultPolicy
+  DefaultLogPolicy
+  Device.Firewall.Chain.
+  IGD.X_HW_Security.Firewall.Chain.
+  Creator
+  RuleNumberOfEntries
+  Device.Firewall.Chain.Rule.
+  IGD.X_HW_Security.Firewall.Chain.Rule.
+  Target
+  TargetChain
+  Log
+  CreationDate
+  ExpiryDate
+  SourceInterface
+  SourceInterfaceExclude
+  SourceAllInterfaces
+  DestInterface
+  DestInterfaceExclude
+  DestAllInterfaces
+  IPVersion
+  DestIP
+  DestMask
+  DestIPExclude
+  SourceIP
+  SourceMask
+  SourceIPExclude
+  ProtocolExclude
+  DestPort
+  DestPortRangeMax
+  DestPortExclude
+  SourcePort
+  SourcePortRangeMax
+  SourcePortExclude
+  DSCPExclude
+  X_HW_SourceMACAddress
+  X_HW_DestMACAddress
+  Device.DeviceInfo.
+  IGD.DeviceInfo.
+  Manufacturer
+  ManufacturerOUI
+  ModelName
+  ProductClass
+  SerialNumber
+  HardwareVersion
+  SoftwareVersion
+  X_HW_SlaveSoftversion
+  AdditionalHardwareVersion
+  AdditionalSoftwareVersion
+  ProvisioningCode
+  UpTime
+  FirstUseDate
+  ModelNumber
+  ProcessorNumberOfEntries
+  SupportedDataModelNumberOfEntries
+  VendorConfigFileNumberOfEntries
+  VendorLogFileNumberOfEntries
+  Device.DeviceInfo.VendorConfigFile.
+  IGD.DeviceInfo.VendorConfigFile.
+  Date
+  UseForBackupRestore
+  Device.DeviceInfo.VendorLogFile.
+  IGD.DeviceInfo.VendorLogFile.
+  MaximumSize
+  Persistent
+  Device.DeviceInfo.SupportedDataModel.
+  IGD.DeviceInfo.SupportedDataModel.
+  UUID
+  URN
+  Features
+  Device.DeviceInfo.MemoryStatus.
+  IGD.DeviceInfo.MemoryStatus.
+  Total
+  Free
+  Device.DeviceInfo.FlashStatus.
+  IGD.DeviceInfo.FlashStatus.
+  Device.DeviceInfo.ProcessStatus.
+  IGD.DeviceInfo.ProcessStatus.
+  CPUUsage
+  IGD.DeviceInfo.X_HW_CpuUsed
+  ProcessNumberOfEntries
+  IGD.DeviceInfo.ProcessStatus.ProcessNumberOfEntries
+  Device.DeviceInfo.ProcessStatus.Process.
+  IGD.DeviceInfo.ProcessStatus.Process.
+  PID
+  Command
+  Size
+  CPUTime
+  State
+  Device.DeviceInfo.Processor.
+  IGD.DeviceInfo.Processor.
+  Architecture
+  Device.X_HW_SmartManage.
+  IGD.X_HW_AppRemoteManage.
+  CurrentMgtURL
+  PhoneAppURL
+  CurrentPort
+  Device.ManagementServer.
+  IGD.ManagementServer.
+  DataModelSupportVersion
+  IGD.ManagementServer.X_HW_DataModelSupportVersion
+  DataModelVersion
+  IGD.ManagementServer.X_HW_DataModelVersion
+  AliasBasedAddressing
+  InstanceMode
+  EnableCWMP
+  PeriodicInformEnable
+  PeriodicInformInterval
+  PeriodicInformTime
+  ParameterKey
+  ConnectionRequestURL
+  ConnectionRequestUsername
+  ConnectionRequestPassword
+  UpgradesManaged
+  KickURL
+  DownloadProgressURL
+  DefaultActiveNotificationThrottle
+  UDPConnectionRequestAddress
+  STUNEnable
+  STUNServerAddress
+  STUNServerPort
+  STUNUsername
+  STUNPassword
+  STUNMaximumKeepAlivePeriod
+  STUNMinimumKeepAlivePeriod
+  NATDetected
+  ManageableDeviceNumberOfEntries
+  InformParameterNumberOfEntries
+  AutoCreateInstances
+  ManageableDeviceNotificationLimit
+  ConnReqXMPPConnection
+  ConnReqAllowedJabberIDs
+  ConnReqJabberID
+  Device.ManagementServer.InformParameter.
+  IGD.ManagementServer.InformParameter.
+  ParameterName
+  EventList
+  Device.ManagementServer.ManageableDevice.
+  IGD.ManagementServer.ManageableDevice.
+  Device.Users.
+  IGD.UserInterface.
+  UserNumberOfEntries
+  IGD.UserInterface.X_HW_WebUserNumber
+  Device.Users.User.
+  IGD.UserInterface.X_HW_WebUserInfo.
+  IGD.UserInterface.X_HW_WebUserInfo.UserName
+  Device.IP.Diagnostics.UDPEchoConfig.
+  IGD.UDPEchoConfig.
+  SourceIPAddress
+  UDPPort
+  EchoPlusEnabled
+  EchoPlusSupported
+  PacketsResponded
+  BytesResponded
+  TimeFirstPacketReceived
+  TimeLastPacketReceived
+  Device.X_HW_AutoReboot.
+  IGD.X_HW_AutoReboot.
+  RunningDays
+  TrafficLimit
+  TrafficKeepTime
+  RebootStartTime
+  RebootEndTime
+  DelayMode
+  Device.IP.ActivePort.
+  IGD.X_HW_DataModel.IP.ActivePort.
+  LocalPort
+  RemotePort
+  Device.LANConfigSecurity.
+  IGD.LANConfigSecurity.
+  ConfigPassword
+  Device.Services.
+  IGD.Services.
+  VoiceServiceNumberOfEntries
+  IGD.Services.VoiceService.1.VoiceServiceNumberOfEntries
+  Device.Services.VoiceService.
+  IGD.Services.VoiceService.
+  X_HW_Reset
+  VoiceProfileNumberOfEntries
+  Device.Services.VoiceService.VoiceProfile.
+  IGD.Services.VoiceService.VoiceProfile.
+  SignalingProtocol
+  Region
+  DTMFMethod
+  DigitMap
+  X_HW_DigitMapMatchMode
+  X_HW_PortName
+  X_HW_OverseaVer
+  X_HW_HowlerSendFlag
+  DigitMapEnable
+  X_HW_InterfaceState
+  NumberOfLines
+  MaxSessions
+  DTMFMethodG711
+  X_HW_KeepTransferActivePeriod
+  X_HW_ServerType
+  X_HW_HangingReminderToneTimer
+  X_HW_BusyToneTimer
+  X_HW_NoAnswerTimer
+  X_HW_DigitMapSpecial
+  X_HW_DigitMapSpecialEnable
+  X_HW_Option120PriorityMode
+  X_HW_DigitMapStartTimer
+  X_HW_DigitMapShortTimer
+  X_HW_DigitMapLongTimer
+  X_HW_SignalingProtocolRunning
+  X_HW_Option15PriorityMode
+  FaxPassThrough
+  ModemPassThrough
+  NonVoiceBandwidthReservedDownstream
+  NonVoiceBandwidthReservedUpstream
+  STUNServer
+  Device.Services.VoiceService.VoiceProfile.NumberingPlan.
+  IGD.Services.VoiceService.VoiceProfile.NumberingPlan.
+  X_HW_NumberPlan
+  InterDigitTimerStd
+  InterDigitTimerOpen
+  InvalidNumberTone
+  MaximumNumberOfDigits
+  MinimumNumberOfDigits
+  PrefixInfoMaxEntries
+  PrefixInfoNumberOfEntries
+  Device.Services.VoiceService.VoiceProfile.NumberingPlan.PrefixInfo.
+  IGD.Services.VoiceService.VoiceProfile.NumberingPlan.PrefixInfo.
+  DialTone
+  NumberOfDigitsToRemove
+  PosOfDigitsToRemove
+  PrefixMaxNumberOfDigits
+  PrefixMinNumberOfDigits
+  PrefixRange
+  Device.Services.VoiceService.VoiceProfile.SIP.
+  IGD.Services.VoiceService.VoiceProfile.SIP.
+  ProxyServer
+  ProxyServerPort
+  ProxyServerTransport
+  X_HW_SecondaryProxyServer
+  X_HW_SecondaryProxyServerPort
+  RegistrarServer
+  RegistrarServerPort
+  RegistrarServerTransport
+  OutboundProxy
+  OutboundProxyPort
+  X_HW_SecondaryOutboundProxy
+  X_HW_SecondaryOutboundProxyPort
+  UserAgentDomain
+  UserAgentPort
+  UserAgentTransport
+  VLANIDMark
+  DSCPMark
+  Organization
+  RegistrationPeriod
+  RegisterExpires
+  TimerT1
+  TimerT2
+  TimerT4
+  RegisterRetryInterval
+  InboundAuthUsername
+  InboundAuthPassword
+  UseCodecPriorityInSDPResponse
+  SIPResponseMapNumberOfElements
+  X_HW_HeartbeatSwitch
+  X_HW_HeartbeatCycle
+  X_HW_HeartbeatCount
+  X_HW_SessionUpdateTimer
+  X_HW_EmergencyDSCPMark
+  X_HW_URIType
+  X_HW_PRACKEnable
+  X_HW_BootDeRegisterEnable
+  X_HW_TWaitTimeMode
+  X_HW_SubscribeEnable
+  X_HW_OutNumberContainImmediateDialKeyEnable
+  X_HW_SubscribeExpires
+  X_HW_KeepSilenceNoUser
+  X_HW_SessionUpdateRetry
+  X_HW_ByeWhenSessionUpdateRetryFail
+  InviteExpires
+  ReInviteExpires
+  SIPEventSubscribeNumberOfElements
+  TimerA
+  TimerB
+  TimerC
+  TimerD
+  TimerE
+  TimerF
+  TimerG
+  TimerH
+  TimerI
+  TimerJ
+  TimerK
+  RegistersMinExpires
+  InboundAuth
+  Device.Services.VoiceService.VoiceProfile.SIP.ResponseMap.
+  IGD.Services.VoiceService.VoiceProfile.SIP.ResponseMap.
+  SIPResponseNumber
+  TextMessage
+  Tone
+  X_HW_Duration
+  Device.Services.VoiceService.VoiceProfile.SIP.X_HW_StatusCodeMap.
+  IGD.Services.VoiceService.VoiceProfile.SIP.X_HW_StatusCodeMap.
+  Scene
+  StatusCode
+  Q850Code
+  Device.Services.VoiceService.VoiceProfile.SIP.X_HW_SIPProfile.
+  IGD.Services.VoiceService.VoiceProfile.SIP.X_HW_SIPProfile.
+  ProfileName
+  ProfileBody
+  Device.Services.VoiceService.VoiceProfile.SIP.X_HW_SIPDigitmap.
+  IGD.Services.VoiceService.VoiceProfile.SIP.X_HW_SIPDigitmap.
+  DMName
+  DigitmapType
+  DigitMapStartTimer
+  DigitMapShortTimer
+  DigitMapLongTimer
+  MatchMode
+  Device.Services.VoiceService.VoiceProfile.SIP.X_HW_SIPStringDefine.
+  IGD.Services.VoiceService.VoiceProfile.SIP.X_HW_SIPStringDefine.
+  StringBody
+  Device.Services.VoiceService.VoiceProfile.SIP.X_HW_SIPSrvPri.
+  IGD.Services.VoiceService.VoiceProfile.SIP.X_HW_SIPSrvPri.
+  ServiceID
+  Device.Services.VoiceService.VoiceProfile.SIP.X_HW_SIPSrvLogic.
+  IGD.Services.VoiceService.VoiceProfile.SIP.X_HW_SIPSrvLogic.
+  SrvLogicBody
+  Device.Services.VoiceService.VoiceProfile.SIP.X_HW_SIPExtend.
+  IGD.Services.VoiceService.VoiceProfile.SIP.X_HW_SIPExtend.
+  PhoneContext
+  ConferenceFactoryUri
+  PortFilterFlag
+  MaxForwards
+  TimerTD
+  TimerMinSe
+  TimerSessionProgress
+  TimerSessionRelProgress
+  EntityBasedSessionsTimerFlag
+  AuthHeaderFoldingEnable
+  SoftwareParameters
+  ThreeWayMixType
+  ToHeaderStrickFlag
+  DomainDNSGetMode
+  ProxyRefreshMode
+  DNSACheckTTLEnable
+  DNSAStoreLimit
+  MultiHomeMode
+  SharedUserMode
+  ReregisterResponseCode
+  Q850CauseWhenPark
+  CPCMapCode
+  Device.Services.VoiceService.VoiceProfile.SIP.X_HW_SIPStats.
+  IGD.Services.VoiceService.VoiceProfile.SIP.X_HW_SIPStats.
+  ResetStatistics
+  Transactions
+  RxInviteReqs
+  RxInviteRetrans
+  RxNoninviteReqs
+  RxNoninviteRetrans
+  RxResponse
+  RxResponseRetrans
+  TxInviteReqs
+  TxInviteRetrans
+  TxNoninviteReqs
+  TxNoninviteRetrans
+  TxResponse
+  TxResponseRetrans
+  Device.Services.VoiceService.VoiceProfile.X_HW_H248.
+  IGD.Services.VoiceService.VoiceProfile.X_HW_H248.
+  CallAgent1
+  CallAgentPort1
+  CallAgent2
+  CallAgentPort2
+  Domain
+  DeviceName
+  MIDFormat
+  CallAgentMID1
+  CallAgentMID2
+  MessageEncodingType
+  HeartBeatPattern
+  RegisterMode
+  Device.Services.VoiceService.VoiceProfile.X_HW_H248.auth.
+  IGD.Services.VoiceService.VoiceProfile.X_HW_H248.auth.
+  auth
+  authInitKey
+  authmgid
+  authHeader
+  HeaderSecurityType
+  Device.Services.VoiceService.VoiceProfile.X_HW_H248.StackInfo.
+  IGD.Services.VoiceService.VoiceProfile.X_HW_H248.StackInfo.
+  MsgFormat
+  ResponseAckCtrl
+  LongTimer
+  MaxreTransTime
+  MinreTransTime
+  MGProvisionalRespTime
+  Retransfailoption
+  MaxreTransTimes
+  MaxreTransDuration
+  RetransMode
+  FixedRetransTime
+  MTUValue
+  MsgSegmentation
+  Device.Services.VoiceService.VoiceProfile.X_HW_H248.Digitmap.
+  IGD.Services.VoiceService.VoiceProfile.X_HW_H248.Digitmap.
+  Device.Services.VoiceService.VoiceProfile.X_HW_H248.Profile.
+  IGD.Services.VoiceService.VoiceProfile.X_HW_H248.Profile.
+  Device.Services.VoiceService.VoiceProfile.X_HW_H248.Extend.
+  IGD.Services.VoiceService.VoiceProfile.X_HW_H248.Extend.
+  HeartBeatTimer
+  HeartBeatRetransTimer
+  HeartBeatRetransTimes
+  MWDBaseTime
+  MWD
+  CallholdTimer
+  Topversion
+  ProfileNego
+  ProfileIndex
+  MgcSwitchMethod
+  PortFilterTime
+  DisconnectToneType
+  DigitMapAutoMatchEnable
+  OffhookEventID
+  MgDomainCheck
+  Device.Services.VoiceService.VoiceProfile.RTP.
+  IGD.Services.VoiceService.VoiceProfile.RTP.
+  LocalPortMin
+  LocalPortMax
+  TelephoneEventPayloadType
+  X_HW_2833FaxEventFlag
+  X_HW_2833FlashHook
+  Device.Services.VoiceService.VoiceProfile.RTP.RTCP.
+  IGD.Services.VoiceService.VoiceProfile.RTP.RTCP.
+  TxRepeatInterval
+  X_HW_RtcpxrFlag
+  X_HW_VqmFlag
+  LocalCName
+  Device.Services.VoiceService.VoiceProfile.RTP.Redundancy.
+  IGD.Services.VoiceService.VoiceProfile.RTP.Redundancy.
+  PayloadType
+  X_HW_EnableAuto
+  X_HW_EnableFixedStart
+  X_HW_Rfc2198For2833
+  Device.Services.VoiceService.VoiceProfile.RTP.X_HW_JitBuffer.
+  IGD.Services.VoiceService.VoiceProfile.RTP.X_HW_JitBuffer.
+  MaxAdaptJB
+  MinAdaptJB
+  IniAdaptJB
+  MaxFixedJB
+  MinFixedJB
+  IniFixedJB
+  Device.Services.VoiceService.VoiceProfile.RTP.X_HW_Extend.
+  IGD.Services.VoiceService.VoiceProfile.RTP.X_HW_Extend.
+  EchoCancellationEnable
+  SilenceSuppression
+  DefaultCodec
+  DefaultPktLen
+  PlcFlag
+  PktLostThreshold
+  OnhookDtaLevel
+  OnhookFskLevel
+  OnhookChannelSeizeBit
+  OnhookMarkSignalBit
+  OnhookDtasFskInterval
+  OnhookDtasDuration
+  OffhookDtaLevel
+  OffhookFskLevel
+  OffhookMarkSignalBit
+  OffhookDtasAckInterval
+  OffhookDtasAckFskInterval
+  OffhookDtasDuration
+  RTPTermIDPrefix
+  RTPTermIDStartNum
+  RTPTermIDNumWidth
+  RTPTermIDUniform
+  DualSilenceDetTime
+  DTMFClipStartCode
+  VbdJbAdjustMode
+  DtmfDetectAlgorithmMode
+  DtmfDetectNegativeTwistAdjust
+  DtmfDetectPositiveTwistAdjust
+  DtmfDetectLevelLowerAdjust
+  DtmfDetectSnrAdjust
+  DTMFEraseBeforeEnd
+  DTMFBufferMode
+  DtmfDetectSnrDialAdjust
+  DtmfDetectSnrDialup_900Adjust
+  DtmfDetectSnr900_1250Adjust
+  DtmfDetectSnr1250_1800Adjust
+  DtmfDetectSnr1800_4000Adjust
+  RFC2833DurationMode
+  Device.Services.VoiceService.VoiceProfile.Tone.
+  IGD.Services.VoiceService.VoiceProfile.Tone.
+  EventNumberOfEntries
+  DescriptionNumberOfEntries
+  PatternNumberOfEntries
+  Device.Services.VoiceService.VoiceProfile.Tone.Event.
+  IGD.Services.VoiceService.VoiceProfile.Tone.Event.
+  Function
+  ToneID
+  Device.Services.VoiceService.VoiceProfile.Tone.Description.
+  IGD.Services.VoiceService.VoiceProfile.Tone.Description.
+  EntryID
+  ToneEnable
+  ToneName
+  TonePattern
+  ToneFile
+  ToneRepetitions
+  ToneText
+  Device.Services.VoiceService.VoiceProfile.Tone.TonePattern.
+  IGD.Services.VoiceService.VoiceProfile.Tone.TonePattern.
+  ToneOn
+  Frequency1
+  Power1
+  Frequency2
+  Power2
+  Frequency3
+  Power3
+  Frequency4
+  Power4
+  Duration
+  ModulationFrequency
+  ModulationPower
+  NextEntryID
+  Device.Services.VoiceService.VoiceProfile.FaxT38.
+  IGD.Services.VoiceService.VoiceProfile.FaxT38.
+  BitRate
+  TCFMethod
+  X_HW_PortAdd2
+  HighSpeedRedundancy
+  LowSpeedRedundancy
+  X_HW_NegoAcceptWhenDisabled
+  X_HW_V21PreProcessMode
+  X_HW_T38TrainingComplement
+  X_HW_V21FlagMaxLen
+  X_HW_V21FlagMinLen
+  HighSpeedPacketRate
+  Device.Services.VoiceService.VoiceProfile.X_HW_G711FAX.
+  IGD.Services.VoiceService.VoiceProfile.X_HW_G711FAX.
+  Device.Services.VoiceService.VoiceProfile.X_HW_FaxModem.
+  IGD.Services.VoiceService.VoiceProfile.X_HW_FaxModem.
+  FaxNego
+  FaxModemPktFix10ms
+  FaxNegoFlow
+  ModemEventMode
+  FaxModemVbdCodec
+  FaxModemVbdPTMode
+  FaxModemVbdPayload
+  IpDtmfFallbackVoice
+  Device.Services.VoiceService.VoiceProfile.X_HW_Ring.
+  IGD.Services.VoiceService.VoiceProfile.X_HW_Ring.
+  Device.Services.VoiceService.VoiceProfile.X_HW_Ring.Mapping.
+  IGD.Services.VoiceService.VoiceProfile.X_HW_Ring.Mapping.
+  Pattern
+  CadenceType
+  InitialRing
+  RingName
+  Device.Services.VoiceService.VoiceProfile.X_HW_Ring.UserDefine.
+  IGD.Services.VoiceService.VoiceProfile.X_HW_Ring.UserDefine.
+  RingType
+  RingPara1
+  RingPara2
+  RingPara3
+  RingPara4
+  RingPara5
+  RingPara6
+  Device.Services.VoiceService.VoiceProfile.X_HW_Signal.
+  IGD.Services.VoiceService.VoiceProfile.X_HW_Signal.
+  Device.Services.VoiceService.VoiceProfile.X_HW_Signal.List.
+  IGD.Services.VoiceService.VoiceProfile.X_HW_Signal.List.
+  SignalName
+  Device.Services.VoiceService.VoiceProfile.X_HW_Signal.List.Unit.
+  IGD.Services.VoiceService.VoiceProfile.X_HW_Signal.List.Unit.
+  UnitType
+  UnitDuration
+  UnitRepetitions
+  UnitStartCondition
+  UnitEndCondition
+  Device.Services.VoiceService.VoiceProfile.X_HW_Signal.Mapping.
+  IGD.Services.VoiceService.VoiceProfile.X_HW_Signal.Mapping.
+  Device.Services.VoiceService.VoiceProfile.ServiceProviderInfo.
+  IGD.Services.VoiceService.VoiceProfile.ServiceProviderInfo.
+  Device.Services.VoiceService.VoiceProfile.Line.
+  IGD.Services.VoiceService.VoiceProfile.Line.
+  DirectoryNumber
+  PhyReferenceList
+  X_HW_RtpLoop
+  X_HW_Priority
+  CallState
+  X_HW_ServiceState
+  X_HW_LastRegisterError
+  X_HW_SubsUAProfile
+  X_HW_SubsRegState
+  X_HW_Description
+  RingMuteStatus
+  RingVolumeStatus
+  Device.Services.VoiceService.VoiceProfile.Line.SIP.
+  IGD.Services.VoiceService.VoiceProfile.Line.SIP.
+  AuthUserName
+  AuthPassword
+  URI
+  Device.Services.VoiceService.VoiceProfile.Line.SIP.X_HW_Digitmap.
+  IGD.Services.VoiceService.VoiceProfile.Line.SIP.X_HW_Digitmap.
+  Device.Services.VoiceService.VoiceProfile.Line.X_HW_H248.
+  IGD.Services.VoiceService.VoiceProfile.Line.X_HW_H248.
+  LineName
+  Device.Services.VoiceService.VoiceProfile.Line.CallingFeatures.
+  IGD.Services.VoiceService.VoiceProfile.Line.CallingFeatures.
+  CallerIDEnable
+  CallerIDNameEnable
+  CallerIDName
+  CallWaitingEnable
+  CallForwardUnconditionalEnable
+  CallForwardUnconditionalNumber
+  CallForwardOnBusyEnable
+  CallForwardOnBusyNumber
+  CallForwardOnNoAnswerEnable
+  CallForwardOnNoAnswerNumber
+  CallForwardOnNoAnswerRingCount
+  CallTransferEnable
+  MWIEnable
+  X_HW_MWIMode
+  X_HW_HotlineEnable
+  X_HW_HotlineNumber
+  X_HW_HotlineTimer
+  X_HW_3WayEnable
+  X_HW_CallHoldEnable
+  X_HW_ConferenceEnable
+  X_HW_CentrexPrefix
+  X_HW_CentrexDialSecondaryEnable
+  X_HW_MCIDEnable
+  X_HW_DigitsSendingMethod
+  X_HW_ConferenceFactoryUri
+  X_HW_CancelCallWaitingDuringCallEnable
+  DoNotDisturbEnable
+  X_HW_DNDStatus
+  X_HW_HotlineMode
+  X_HW_CLIPEnable
+  X_HW_PBXPrefixEnable
+  ConferenceCallingStatus
+  ConferenceCallingSessionCount
+  X_HW_SccClassEnable
+  AnonymousCalEnable
+  AnonymousCallBlockEnable
+  CallWaitingStatus
+  MessageWaiting
+  CallReturnEnable
+  RepeatDialEnable
+  Device.Services.VoiceService.VoiceProfile.Line.VoiceProcessing.
+  IGD.Services.VoiceService.VoiceProfile.Line.VoiceProcessing.
+  TransmitGain
+  ReceiveGain
+  EchoCancellationInUse
+  EchoCancellationTail
+  Device.Services.VoiceService.VoiceProfile.Line.Stats.
+  IGD.Services.VoiceService.VoiceProfile.Line.Stats.
+  X_HW_PartResetStatistics
+  PacketsLost
+  ReceivePacketLossRate
+  FarEndPacketLossRate
+  ReceiveInterarrivalJitter
+  FarEndInterarrivalJitter
+  RoundTripDelay
+  IncomingCallsReceived
+  IncomingCallsAnswered
+  IncomingCallsConnected
+  IncomingCallsFailed
+  OutgoingCallsAttempted
+  OutgoingCallsAnswered
+  OutgoingCallsConnected
+  OutgoingCallsFailed
+  CallsDropped
+  TotalCallTime
+  ServerDownTime
+  AverageReceiveInterarrivalJitter
+  AverageFarEndInterarrivalJitter
+  AverageRoundTripDelay
+  X_HW_PacketLossRate
+  X_HW_MaxReceiveInterarrivalJitter
+  X_HW_MaxFarEndInterarrivalJitter
+  Overruns
+  Underruns
+  X_HW_RTPErrors
+  X_HW_MaxTimeBetweenRTCPPackets
+  X_HW_CallSetupTimerMax
+  X_HW_AnalogPortReleasesCount
+  X_HW_AnalogPortOffhookTimerMax
+  X_HW_SIPCallFailedToConnectCounter
+  X_HW_SIPCallTimeoutCounter
+  X_HW_SIPCallFailureReceivedCounter
+  X_HW_SIPCallFailedToAuthenticateCounter
+  Device.Services.VoiceService.VoiceProfile.Line.Codec.
+  IGD.Services.VoiceService.VoiceProfile.Line.Codec.
+  TransmitCodec
+  ReceiveCodec
+  TransmitBitRate
+  ReceiveBitRate
+  TransmitSilenceSuppression
+  ReceiveSilenceSuppression
+  TransmitPacketizationPeriod
+  Device.Services.VoiceService.VoiceProfile.Line.Codec.List.
+  IGD.Services.VoiceService.VoiceProfile.Line.Codec.List.
+  Codec
+  PacketizationPeriod
+  Codecs
+  Device.Services.VoiceService.VoiceProfile.Line.X_HW_UAProfileStatus.
+  IGD.Services.VoiceService.VoiceProfile.Line.X_HW_UAProfileStatus.
+  dial-tone-pattern
+  mcid-service
+  no-dialing-behaviour
+  hold-service
+  three-party-service
+  cw-service
+  Device.Services.VoiceService.VoiceProfile.Line.Session.
+  IGD.Services.VoiceService.VoiceProfile.Line.Session.
+  SessionStartTime
+  SessionDuration
+  FarEndIPAddress
+  FarEndUDPPort
+  LocalUDPPort
+  Device.Services.VoiceService.VoiceProfile.Line.Ringer.
+  IGD.Services.VoiceService.VoiceProfile.Line.Ringer.
+  Device.Services.VoiceService.VoiceProfile.Line.Ringer.Event.
+  IGD.Services.VoiceService.VoiceProfile.Line.Ringer.Event.
+  RingID
+  Device.Services.VoiceService.VoiceProfile.Line.Ringer.Description.
+  IGD.Services.VoiceService.VoiceProfile.Line.Ringer.Description.
+  RingEnable
+  RingPattern
+  RingFile
+  Device.Services.VoiceService.VoiceProfile.Line.Ringer.Pattern.
+  IGD.Services.VoiceService.VoiceProfile.Line.Ringer.Pattern.
+  RingerOn
+  Device.Services.VoiceService.PhyInterface.
+  IGD.Services.VoiceService.PhyInterface.
+  InterfaceID
+  PhyPort
+  X_HW_Loop
+  X_HW_Status
+  Device.Services.VoiceService.PhyInterface.Tests.
+  IGD.Services.VoiceService.PhyInterface.Tests.
+  TestState
+  TestSelector
+  PhoneConnectivity
+  Device.Services.VoiceService.PhyInterface.Tests.X_HW_LineTest.
+  IGD.Services.VoiceService.PhyInterface.Tests.X_HW_LineTest.
+  IsTestOnBusy
+  Conclusion
+  AGACVoltage
+  BGACVoltage
+  ABACVoltage
+  AGDCVoltage
+  BGDCVoltage
+  ABDCVoltage
+  AGInsulationResistance
+  BGInsulationResistance
+  ABInsulationResistance
+  AGCapacitance
+  BGCapacitance
+  ABCapacitance
+  Device.Services.VoiceService.PhyInterface.Tests.X_HW_SimulateTest.
+  IGD.Services.VoiceService.PhyInterface.Tests.X_HW_SimulateTest.
+  TestType
+  CalledNumber
+  IsAuto
+  CallHoldTimer
+  CalledWaitTimer
+  DialDTMFConfirmEnable
+  DailDTMFConfirmEnable
+  DialDTMFConfirmNumber
+  DailDTMFConfirmNumber
+  CallType
+  DTMFSendSequence
+  DialDTMFConfirmResult
+  DailDTMFConfirmResult
+  CalledNumberToRemote
+  CallerFailReason
+  CalledFailReason
+  FailedResponseCode
+  AutoTestResult
+  DTMFReceiveSequence
+  Device.Services.VoiceService.PhyInterface.Tests.X_HW_InnerTest.
+  IGD.Services.VoiceService.PhyInterface.Tests.X_HW_InnerTest.
+  LoopCurrentTestResult
+  FeedTestResult
+  RingTestResult
+  OnOffHookTestResult
+  LoopCurrentValue
+  FeedValue
+  RingValue
+  Device.Services.VoiceService.PhyInterface.X_HW_RemoteCap.
+  IGD.Services.VoiceService.PhyInterface.X_HW_RemoteCap.
+  TimerAutoStop
+  CapType
+  Device.Services.VoiceService.PhyInterface.X_HW_IPSpc.
+  IGD.Services.VoiceService.PhyInterface.X_HW_IPSpc.
+  PortName
+  LocalTransport
+  RemoteIP
+  RemoteTransport
+  MediaMode
+  JbMode
+  Device.Services.VoiceService.PhyInterface.X_HW_DspTemplate.
+  IGD.Services.VoiceService.PhyInterface.X_HW_DspTemplate.
+  NLP
+  WorkMode
+  Device.Services.VoiceService.PhyInterface.X_HW_Extend.
+  IGD.Services.VoiceService.PhyInterface.X_HW_Extend.
+  DialMode
+  DialPulseInterval
+  DialPulsePeriodUpperLimit
+  DialPulsePeriodLowerLimit
+  DialPulseMakeUpperLimit
+  DialPulseMakeLowerLimit
+  DialPulseBreakUpperLimit
+  DialPulseBreakLowerLimit
+  CallerOffhookShakeTime
+  CalledOffhookShakeTime
+  HookFlashUpTime
+  HookFlashDownTime
+  OnhookConfirmTime
+  Impedance
+  Current
+  CurrentOnPark
+  RingFrequency
+  RingVoltage
+  DCTime
+  SendGain
+  ReversePolePulse
+  ReversePolePulseLevel
+  KcType
+  KcHighLevel
+  KcLowLevel
+  KcVoltage
+  FskTime
+  ClipTransWhen
+  ClipFormat
+  ClipReversePole
+  ClipFskMode
+  ClipTasPattern
+  ClipForceSendFsk
+  ClipSendDateTime
+  BellAnsEnable
+  DetectAnsbarBySingleToneEnable
+  MWIRingFlag
+  ReversePoleOnAnswer
+  ToneIdForNoLineConfig
+  DspTemplateName
+  RingDCVoltageOverlapped
+  UserDefineRingVoltage
+  DspHighPassFilterEnable
+  DspDtmfDetHighPassFilterValue
+  ClipNormalPoleAfterFsk
+  PowerDenyForOutOfService
+  V21lANSEnable
+  V21hANSEnable
+  Bell103MarkANSEnable
+  V22usb1DualFreqANSEnable
+  V22usb1TriFreqANSEnable
+  V25ctANSEnable
+  V32aaANSEnable
+  V18aANSEnable
+  V8bisCReANSEnable
+  Device.Services.VoiceService.PhyInterface.X_HW_Stats.
+  IGD.Services.VoiceService.PhyInterface.X_HW_Stats.
+  Device.Services.VoiceService.PhyInterface.X_HW_Stats.PoorQualityList.
+  IGD.Services.VoiceService.PhyInterface.X_HW_Stats.PoorQualityList.
+  StatTime
+  TxPackets
+  RxPackets
+  MeanDelay
+  MeanJitter
+  FractionLoss
+  MosLq
+  Device.Services.VoiceService.X_HW_RemoteCapServer.
+  IGD.Services.VoiceService.X_HW_RemoteCapServer.
+  ReplaceSourceIP
+  Device.Services.VoiceService.X_HW_DialSN.
+  IGD.Services.VoiceService.X_HW_DialSN.
+  TimerWaitInput
+  TimerCompleteInput
+  InputToneId
+  FailSetToneId
+  SucessSetToneId
+  IsDialSNSecurityDisabled
+  IsHaveAuthed
+  DialSNMode
+  PONAuthInfoQueryCode
+  PONAuthInfoToneId
+  Device.Services.VoiceService.X_HW_LineTestThreshold.
+  IGD.Services.VoiceService.X_HW_LineTestThreshold.
+  Threshold0
+  Threshold1
+  Threshold2
+  Threshold3
+  Threshold4
+  Threshold5
+  Threshold6
+  Threshold7
+  Threshold8
+  Threshold9
+  Threshold10
+  Threshold11
+  Threshold12
+  Threshold13
+  Device.Services.VoiceService.X_HW_InnerCall.
+  IGD.Services.VoiceService.X_HW_InnerCall.
+  Device.Services.VoiceService.X_HW_SimulateTestParameters.
+  IGD.Services.VoiceService.X_HW_SimulateTestParameters.
+  CalledNumberDialInterval
+  DialDTMFConfirmInputToneId
+  DialDTMFConfirmFailToneId
+  DialDTMFConfirmSucessToneId
+  DTMFSendDelay
+  DTMFSendPeriod
+  DTMFSendInterval
+  Device.Services.VoiceService.X_HW_InnerParameters.
+  IGD.Services.VoiceService.X_HW_InnerParameters.
+  AutoResetInterfaceTimer
+  FskBindReceiveGainEnable
+  ToneBindReceiveGainEnable
+  SendGainRelativeEnable
+  DelayResetTimerOnExistCall
+  GracefulTimerOnCallClear
+  ConfigurationInterruptCallEnable
+  CodecPreferredMode
+  UserAgentDomainPriorityMode
+  VBDDualDetectReportMode
+  RegisterExpiresPriorityMode
+  OAMConfigEnable
+  PingTestEnable
+  RegisterTimeOutArpPingEnable
+  NoneOMCISIPAlarmEnable
+  RFC2833MarkPktRetransEnable
+  G722RTPClockRate
+  SIPLoopBackMirrorEnable
+  ConfigureIsolation
+  AdoptOMCIDTMFMethod
+  VoIPCallLogMode
+  FlushDNSCacheWhenWANUp
+  TelNoAsDisplayNameEnable
+  Device.Services.VoiceService.Capabilities.
+  IGD.Services.VoiceService.Capabilities.
+  MaxProfileCount
+  MaxLineCount
+  MaxSessionsPerLine
+  MaxSessionCount
+  SignalingProtocols
+  Regions
+  RTCP
+  SRTP
+  SRTPKeyingMethods
+  SRTPEncryptionKeySizes
+  RTPRedundancy
+  DSCPCoupled
+  EthernetTaggingCoupled
+  PSTNSoftSwitchOver
+  FaxT38
+  ToneGeneration
+  ToneDescriptionsEditable
+  PatternBasedToneGeneration
+  FileBasedToneGeneration
+  ToneFileFormats
+  RingGeneration
+  RingDescriptionsEditable
+  PatternBasedRingGeneration
+  RingPatternEditable
+  FileBasedRingGeneration
+  RingFileFormats
+  NumberingPlan
+  ButtonMap
+  VoicePortTests
+  X_HW_Heartbeat
+  Device.Services.VoiceService.Capabilities.SIP.
+  IGD.Services.VoiceService.Capabilities.SIP.
+  Role
+  Extensions
+  Transports
+  URISchemes
+  EventSubscription
+  ResponseMap
+  TLSAuthenticationProtocols
+  TLSAuthenticationKeySizes
+  TLSEncryptionProtocols
+  TLSEncryptionKeySizes
+  TLSKeyExchangeProtocols
+  Device.Services.VoiceService.Capabilities.Codecs.
+  IGD.Services.VoiceService.Capabilities.Codecs.
+  Device.Services.VoiceService.X_HW_DspTemplate.
+  IGD.Services.VoiceService.X_HW_DspTemplate.
+  Device.Services.VoiceService.X_HW_DspTemplate.ServiceNumMapping.
+  IGD.Services.VoiceService.X_HW_DspTemplate.ServiceNumMapping.
+  ServiceNum
+  TemplateName
+  Device.Services.VoiceService.X_HW_DspTemplate.Templates.
+  IGD.Services.VoiceService.X_HW_DspTemplate.Templates.
+  EchoCancellation
+  DspTransmitGain
+  DspReceiveGain
+  Rfc2833ForDtmf
+  Rfc2833ForDataEvent
+  DspSpecialFlow
+  Rfc2198ForVBD
+  Device.WiFi.
+  IGD.LANDevice.WiFi.
+  RadioNumberOfEntries
+  X_HW_VideoEnhanced
+  SSIDNumberOfEntries
+  IGD.LANDevice.LANWLANConfigurationNumberOfEntries
+  AccessPointNumberOfEntries
+  IGD.LANDevice.LANWLANConfigurationNumberOfEntries|AccessPointNumberOfEntries|
+  Device.WiFi.X_HW_GlobalConfig.
+  IGD.LANDevice.WiFi.X_HW_GlobalConfig.
+  BandSteeringPolicy
+  BandSteeringCycle
+  KickHoldTime
+  PreemptTime
+  PreemptRssiThreshold
+  BandSteeringSamplingNumber
+  BandSteeringCapability
+  Device.WiFi.X_HW_GlobalConfig.X_HW_UseBandSteering.
+  IGD.LANDevice.WiFi.X_HW_GlobalConfig.X_HW_UseBandSteering.
+  CurrentBand
+  RssiThreshold
+  RssiBackoffThreshold
+  LoadbalanceThreshold
+  MinStaPhyRateThreshold
+  BackoffTime
+  RssiBuffer
+  LoadbalanceBuffer
+  ChannelUtilization
+  Device.WiFi.Radio.
+  IGD.LANDevice.WiFi.Radio.
+  SupportedFrequencyBands
+  OperatingFrequencyBand
+  ChannelsInUse
+  IGD.LANDevice.WLANConfiguration.ChannelsInUse
+  Channel
+  IGD.LANDevice.WLANConfiguration.Channel
+  AutoChannelSupported
+  AutoChannelEnable
+  IGD.LANDevice.WLANConfiguration.AutoChannelEnable
+  BasicDataTransmitRates
+  IGD.LANDevice.WLANConfiguration.BasicDataTransmitRates
+  OperationalDataTransmitRates
+  IGD.LANDevice.WLANConfiguration.OperationalDataTransmitRates
+  SupportedDataTransmitRates
+  IGD.LANDevice.WLANConfiguration.PossibleDataTransmitRates
+  TransmitPowerSupported
+  IGD.LANDevice.WLANConfiguration.TransmitPowerSupported
+  TransmitPower
+  IGD.LANDevice.WLANConfiguration.TransmitPower
+  SupportedStandards
+  IGD.LANDevice.WLANConfiguration.X_HW_SupportedStandards
+  OperatingStandards
+  IGD.LANDevice.WLANConfiguration.X_HW_TR181ForWlan.X_HW_TR181_OperatingStandard
+  CurrentOperatingChannelBandwidth
+  IGD.LANDevice.WLANConfiguration.X_HW_CurrentOperatingChannelBandwidth
+  OperatingChannelBandwidth
+  IGD.LANDevice.WLANConfiguration.X_HW_OperatingChannelBandwidth
+  PossibleChannels
+  IGD.LANDevice.WLANConfiguration.PossibleChannels|PossibleChannels|
+  IGD.LANDevice.WLANConfiguration.SSIDLowerLayers
+  MCS
+  IGD.LANDevice.WLANConfiguration.X_HW_MCS
+  RegulatoryDomain
+  IGD.LANDevice.WLANConfiguration.RegulatoryDomain
+  GuardInterval
+  AutoChannelRefreshPeriod
+  IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.AutoChannelRefreshPeriod
+  ExtensionChannel
+  IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.X_HW_ExtensionChannel
+  IEEE80211hSupported
+  IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.X_HW_IEEE80211hSupported
+  IEEE80211hEnabled
+  IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.X_HW_IEEE80211hEnabled
+  RetryLimit
+  IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.X_HW_RetryLimit
+  CCARequest
+  IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.X_HW_CCARequest
+  CCAReport
+  IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.X_HW_CCAReport
+  RPIHistogramRequest
+  IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.X_HW_RPIHistogramRequest
+  RPIHistogramReport
+  IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.X_HW_RPIHistogramReport
+  LongRetryLimit
+  IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.X_HW_LongRetryLimit
+  PacketAggregationEnable
+  IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.X_HW_PacketAggregationEnable
+  PreambleType
+  IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.X_HW_PreambleType
+  IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.X_HW_Upstream
+  DTIMPeriod
+  IGD.LANDevice.WLANConfiguration.X_HW_AdvanceConf.DtimPeriod
+  BeaconPeriod
+  IGD.LANDevice.WLANConfiguration.X_HW_AdvanceConf.BeaconPeriod
+  RTSThreshold
+  IGD.LANDevice.WLANConfiguration.X_HW_AdvanceConf.RTSThreshold
+  FragmentationThreshold
+  IGD.LANDevice.WLANConfiguration.X_HW_AdvanceConf.FragThreshold
+  MaxSupportedAssociations
+  IGD.LANDevice.WiFi.Radio.X_HW_AdvanceCfg.MaxSupportedAssociations
+  SupportedOperatingChannelBandwidths
+  IGD.LANDevice.WLANConfiguration.X_HW_SupportedChannelBandwidths
+  Device.WiFi.Radio.Stats.
+  IGD.LANDevice.WiFi.Radio.Stats.
+  PLCPErrorCount
+  FCSErrorCount
+  InvalidMACCount
+  PacketsOtherReceived
+  Noise
+  Device.WiFi.SSID.
+  IGD.LANDevice.WLANConfiguration.
+  IGD.LANDevice.WLANConfiguration.SSIDStatus
+  IGD.LANDevice.WLANConfiguration.SSIDAlias
+  IGD.LANDevice.WLANConfiguration.SSIDLowerLayers|LowerLayers|
+  BSSID
+  IGD.LANDevice.WLANConfiguration.BSSID|MACAddress|
+  SSID
+  Device.WiFi.SSID.Stats.
+  IGD.LANDevice.WLANConfiguration.Stats.
+  IGD.LANDevice.WLANConfiguration.TotalBytesSent
+  IGD.LANDevice.WLANConfiguration.TotalBytesReceived
+  IGD.LANDevice.WLANConfiguration.TotalPacketsSent
+  IGD.LANDevice.WLANConfiguration.TotalPacketsReceived
+  RetransCount
+  FailedRetransCount
+  RetryCount
+  MultipleRetryCount
+  ACKFailureCount
+  AggregatedPacketCount
+  Device.WiFi.AccessPoint.
+  IGD.LANDevice.WLANConfiguration|AccessPoint|.
+  IGD.LANDevice.WLANConfiguration.AccessPointStatus
+  IGD.LANDevice.WLANConfiguration.AccessPointAlias
+  SSIDReference
+  SSIDAdvertisementEnabled
+  WMMCapability
+  IGD.LANDevice.WLANConfiguration.WMMSupported
+  UAPSDCapability
+  IGD.LANDevice.WLANConfiguration.UAPSDSupported
+  WMMEnable
+  UAPSDEnable
+  AssociatedDeviceNumberOfEntries
+  IGD.LANDevice.WLANConfiguration.TotalAssociations
+  MaxAssociatedDevices
+  IGD.LANDevice.WLANConfiguration.X_HW_AssociateNum
+  IsolationEnable
+  MACAddressControlEnabled
+  AllowedMACAddress
+  IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.X_HW_RetryLimit|RetryLimit|
+  Device.WiFi.AccessPoint.Security.
+  IGD.LANDevice.WLANConfiguration|Security|.
+  ModesSupported
+  ModeEnabled
+  WEPKey
+  IGD.LANDevice.WLANConfiguration.WEPKey.WEPKey
+  PreSharedKey
+  IGD.LANDevice.WLANConfiguration.PreSharedKey.PreSharedKey
+  KeyPassphrase
+  IGD.LANDevice.WLANConfiguration.PreSharedKey.KeyPassphrase
+  RekeyingInterval
+  IGD.LANDevice.WLANConfiguration.X_HW_GroupRekey
+  RadiusServerIPAddr
+  IGD.LANDevice.WLANConfiguration.X_HW_RadiuServer
+  SecondaryRadiusServerIPAddr
+  RadiusServerPort
+  IGD.LANDevice.WLANConfiguration.X_HW_RadiusPort
+  SecondaryRadiusServerPort
+  RadiusSecret
+  IGD.LANDevice.WLANConfiguration.X_HW_RadiusKey
+  SecondaryRadiusSecret
+  EncryptionMode
+  IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.X_HW_EncryptionMode
+  Device.WiFi.AccessPoint.Accounting.
+  IGD.LANDevice.WLANConfiguration.Accounting.
+  ServerIPAddr
+  IGD.LANDevice.WLANConfiguration.X_HW_RadiuServer|ServerIPAddr|
+  SecondaryServerIPAddr
+  SecondaryServerPort
+  Secret
+  IGD.LANDevice.WLANConfiguration.X_HW_RadiusKey|Secret|
+  SecondarySecret
+  InterimInterval
+  Device.WiFi.AccessPoint.WPS.
+  IGD.LANDevice.WLANConfiguration.WPS.
+  ConfigMethodsSupported
+  IGD.LANDevice.WLANConfiguration.WPS.WPSConfigMethodsSupported
+  ConfigMethodsEnabled
+  IGD.LANDevice.WLANConfiguration.WPS.WPSConfigMethodsEnabled
+  Device.WiFi.AccessPoint.AssociatedDevice.
+  IGD.LANDevice.WLANConfiguration.AssociatedDevice.
+  IGD.LANDevice.WLANConfiguration.AssociatedDevice.AssociatedDeviceMACAddress
+  AuthenticationState
+  IGD.LANDevice.WLANConfiguration.AssociatedDevice.AssociatedDeviceAuthenticationState
+  LastDataDownlinkRate
+  IGD.LANDevice.WLANConfiguration.AssociatedDevice.X_HW_LastDataDownlinkRate
+  LastDataUplinkRate
+  IGD.LANDevice.WLANConfiguration.AssociatedDevice.X_HW_LastDataUplinkRate
+  SignalStrength
+  IGD.LANDevice.WLANConfiguration.AssociatedDevice.SignalStrength
+  OperatingStandard
+  IGD.LANDevice.WLANConfiguration.AssociatedDevice.X_HW_OperatingStandards
+  Retransmissions
+  Device.WiFi.AccessPoint.AssociatedDevice.Stats.
+  IGD.LANDevice.WLANConfiguration.AssociatedDevice.StaDeviceStats.
+  Device.WiFi.NeighboringWiFiDiagnostic.
+  IGD.LANDevice.WiFi.NeighboringWiFiDiagnostic.
+  Device.WiFi.NeighboringWiFiDiagnostic.Result.
+  IGD.LANDevice.WiFi.NeighboringWiFiDiagnostic.Result.
+  Radio
+  IGD.LANDevice.WiFi.NeighboringWiFiDiagnostic.Result.LowLayer
+  SecurityModeEnabled
+  BasicDataTransferRates
+  SupportedDataTransferRates
+  Device.WiFi.AccessPoint.AC.
+  IGD.LANDevice.WLANConfiguration.APWMMParameter.
+  AccessCategory
+  AIFSN
+  ECWMin
+  ECWMax
+  TxOpMax
+  IGD.LANDevice.WLANConfiguration.APWMMParameter.TXOP
+  AckPolicy
+  Device.WiFi.AccessPoint.AC.Stats.
+  IGD.LANDevice.WLANConfiguration.APWMMParameter.Stats.
+  Device.DeviceInfo.TemperatureStatus.
+  IGD.X_HW_DataModel.DeviceInfo.TemperatureStatus.
+  TemperatureSensorNumberOfEntries
+  Device.DeviceInfo.TemperatureStatus.TemperatureSensor.
+  IGD.X_HW_DataModel.DeviceInfo.TemperatureStatus.TemperatureSensor.
+  Device.SelfTestDiagnostics.
+  IGD.X_HW_DataModel.SelfTestDiagnostics.
+  Results
+  Device.QoS.Flow.
+  IGD.X_HW_DataModel.QoS.Flow.
+  TypeParameters
+  App
+  TrafficClass
+  Policer
+  InnerEthernetPriorityMark
+  Device.AclServices.
+  IGD.X_HW_Security.AclServices.
+  HTTPLanEnable
+  HTTPWanEnable
+  FTPLanEnable
+  FTPWanEnable
+  TELNETLanEnable
+  TELNETWanEnable
+  SSHLanEnable
+  SSHWanEnable
+  HTTPWifiEnable
+  TELNETWifiEnable
+  v@::
+  (H^
+  Y3)
+  (*;
+  I<(
+  !t}Z
+  "j]|
+  $`2I
+  Zj~
+  .p6J
+  hS@
+  u^q
+  3}8
+  u#g}
+  kF~
+  S+T
+  siM
+  F(9
+  6|X?
+  H<M
+  <y$U
+  SxD
+  =R~
+  #V&h
+  T>5
+  [f{
+  x9!a
+  jhj-
+  kF2
+  tu&
+  v aR
+  j(;
+  uKm
+  |sr
+  *Pk
+  -u-h
+  /P0
+  H3l
+  bpj0"
+  bH=
+  Q%
+  Q}-
+  DV3
+  HL*
+  EI*
+  yGZ
+  "jb
+  X6q
+  SrZ
+  X,F
+  bN5
+  +GD
+  3s$u
+  7y\
+  fgT
+  v{Y*
+  #c<
+  C)S
+  ;=}
+  So.
+  0p;z
+  u\SE
+  |}x
+  erd
+  D(y
+  pEbk
+  o)=
+  YFR*
+  YnN
+  b~mn
+  aC\
+  x,4
+  :_o
+  VGq
+  f2G
+  BUd
+  ~c_
+  ,a;
+  3!sa
+  ?$!
+  <)O
+  oXKT
+  0;/
+  `"z
+  Lqw
+  Qv+
+  )Nj
+  [y5U
+  YJe
+  e)a
+  fIs
+  j!TC
+  (3Y
+  m)sy
+  (+T
+  .S'
+  r^fy
+  uAu
+  v/}
+  S~ S
+  )4IM
+  PTk
+  kth
+  dW=v
+  lc>G
+  ?5N
+  zI=
+  y9u
+  nx\
+  7>$\
+  96(
+  9~z
+  IqB
+  Q5S
+  IOZ
+  Y74
+  y/I
+  T(m
+  IA(
+  R}?
+  9H[
+  g,;_
+  "ZtN}
+  =zr
+  A2c%
+  B:p
+  FJI
+  MBbu
+  N28
+  OZ`
+  `2i
+  dRv
+  gyt
+  q"lXL
+  uZb
+  y-k
+  }BQ
+  2KT
+  J+y
+  RX{
+  P|]
+  "nh
+  !sh
+  +C(
+  G#k
+  [sr7
+  gsA
+  uK$
+  z# S
+  {Er
+  1R+
+  %70
+  ;Ub
+  3'`?
+  {Yae
+  wbK
+  Vt^
+  Tz}
+  l-g
+  l3L
+  3`J
+  6TOB
+  ;Da
+  h<$^
+  nT :
+  olX
+  v|XJ\
+  x$r:
+  40X
+  S%s
+  fO&
+  w.\
+  ,GK
+  }`c
+  mC<
+  #e,
+  'ec!
+  1e@
+  2}z
+  8uH
+  =mM
+  DMX
+  E}1
+  MRc
+  N#i
+  Ry(
+  `-i
+  p-U
+  %dI
+  5]'
+  Uys
+  ^d.
+  !kt
+  /)5
+  4~f
+  9fL
+  ?1k
+  LYR
+  NEX
+  TpkB
+  Z&is
+  [~2
+  _FU
+  qND~
+  s.T
+  xV(uR
+  mk|
+  fJU
+  ~!)
+  F!Y
+  {I$
+  /pO
+  7}7
+  &o7
+  +SZ
+  ,wr_
+  .6K
+  4"i
+  RoP#P
+  ^/g
+  dT}
+  hwB
+  lJi
+  u7[
+  }'<
+  'Aw
+  G!:
+  ?<P
+  WqU
+  pBX
+  (WO
+  Dlm
+  *(J
+  .Pn
+  7 \
+  @X 2
+  DR@
+  GF6W
+  M`&0
+  NP5~
+  T 7
+  VP5
+  \X
+  Rs2
+  ^kE
+  xd+
+  Xxh
+  p?.
+  pEFL
+  eP
+  8Y3
+  ADd
+  $aNA
+  *Q9
+  +"`j
+  5qP
+  :[w
+  L9:&
+  m))K
+  o]f6
+  vQMe
+  I/9.
+  aj|T
+  `Km
+  LJo
+  9iN
+  1vC
+  *4[
+  z f
+  `I#
+  j+J1
+  B8A
+  &Z:
+  'ZXF
+  -j'
+  >L3
+  AHk
+  Qz,
+  Xr4!
+  d"W
+  gjK
+  mD|
+  ybh
+  r80
+  T5.
+  j$I
+  j/|#
+  RZrU
+  (K7
+  sg3
+  C}`
+  %/>
+  +73
+  3{:
+  43;
+  8K8
+  :CH
+  D{?8
+  ]3*M
+  ^C9
+  dmu
+  uc'n
+  y;Zo
+  zsc
+  FKI
+  c@d
+  cr5}
+  {Rgx
+  a%L
+  $gr
+  0|.
+  <\sT
+  C||
+  M<t
+  X$D
+  j:V
+  m4E
+  t}^
+  wb|
+  U%f
+  <6ia
+  =+6
+  m9%
+  '-*
+  :M|
+  Pfj
+  ^=j
+  e}/
+  p=jH
+  M#j
+  ekW
+  u#h
+  }35
+  &Kx
+  .&<D
+  Bfu
+  CC
+  JnoT~
+  KNs
+  LV~
+  p@5
+  w},
+  .pu
+  VYd
+  i[L
+  n=p
+  Y1e
+  fYi
+  wi)
+  !gL
+  $/P
+  ?_Ki
+  @'(
+  DO3
+  Mf
+  Z/]
+  \AI
+  i/p
+  tEf
+  7Nn
+  7'5
+  'yD
+  sS_
+  pgk
+  <R<*
+  DHU*)
+  Kl"
+  ZX}
+  aHb
+  p[%
+  H5q
+  pOP1
+  |4R
+  Pug
+  UvM
+  8:s/
+  @mG!
+  x5eY
+  %QI)
+  2&*M
+  3!cZ
+  4G^
+  <R|
+  O18
+  UbH
+  ZAq
+  ^!G'_
+  hi0
+  pYk.
+  rqj
+  v!G&
+  }yk
+  ASj
+  9nw
+  aUE#
+  83
+  a26
+  1!P
+  ::Y
+  %JK%
+  )9M
+  -X|P
+  .r-
+  Ljt
+  VbG
+  X\D
+  Z*,
+  [NG
+  \<N
+  iRx,E
+  r:]
+  5hN
+  *TQ
+  o63
+  B=G
+  JG@
+  &Zc4
+  '+L
+  (cpN
+  .kZ
+  ?3NY
+  CL4{
+  Oc=0B
+  YK49
+  Z{6
+  y#q
+  ~>D^
+  CGh
+  #zZd
+  K:l
+  K^]
+  \)(
+  l B
+  .T0
+  &|H
+  CfA
+  N,`T
+  P]`
+  [L$^
+  uT,
+  k.I
+  \mF
+  D Z
+  3\6
+  d0i
+  |&\
+  Gf`
+  :;>
+  !}\
+  *d\
+  .}7
+  2-}
+  ?Mb
+  A5rl
+  B%Q
+  Gf5
+  HUB
+  OB7
+  PmU"
+  Te<r
+  \VS
+  ^WC
+  u}i
+  |"(
+  }n$
+  ]Px
+  mUW
+  &N\C
+  fvT
+  #)]
+  )~;
+  *.|2
+  1^
+  9>g
+  O6wJ
+  T.0
+  V>>
+  ke\=
+  tBH7
+  w`'
+  NZ%J
+  WO3
+  nL.
+  ^sE
+  N2&
+  f?2
+  6C`
+  FR +
+  /XV
+  :i.
+  _f`
+  E%1
+  +_~
+  2[u
+  ;7/
+  Fw"h
+  ]gk|
+  kuC
+  tA/]
+  y=.
+  7<@
+  _K*
+  lgA
+  ''U
+  i/^
+  /?Z
+  G0]
+  _bH
+  ]hN$
+  tW
+  y.k
+  'P?
+  xU_
+  Pa<H
+  Zi=
+  ha~
+  $ja
+  3zF;
+  $Hf)
+  ^RX
+  eJ
+  "v<
+  /p z
+  "8&
+  1xG
+  4 iN
+  5H.
+  4{uf
+  ?@&S
+  IJ)
+  +=>~
+  >%OW
+  U $
+  ][O
+  ^SU
+  _xw.
+  dT>
+  i(%
+  kxH
+  ^Hz
+  r0>
+  tX$ w
+  MyD
+  3o[Z
+  4'2
+  Ww}
+  W)J=
+  "@@
+  X\'
+  8e+_
+  ph5j
+  1_"
+  Fyh3
+  @f7
+  \qdZ^
+  ftP
+  Prt
+  b6s
+  tbU
+  PD{
+  jX}
+  ##0
+  0k!/
+  I[&I
+  y3_$M
+  k7Q
+  c2C
+  kJ4%
+  0\a
+  $k.
+  @"g
+  ^@5E
+  m}9
+  745
+  0ny
+  UfH
+  u,j
+  %;h
+  HFy
+  mncv
+  v>:
+  "!w
+  oeF
+  *s,u
+  Wx<
+  /|l
+  g@d
+  G<@$
+  71'
+  "8 ~
+  :A:
+  sxBU
+  0QjK
+  97X
+  L!Ry
+  ^V,
+  Q[v
+  P=m
+  Q G
+  UQY
+  [LgI
+  ^a)
+  pZR@
+  :3b
+  hy*
+  jAm
+  cCuv
+  xc/P!
+  p9[
+  !l7
+  H\9
+  AJW
+  U9R
+  eu~<d
+  q%%
+  }Gb
+  Ad_
+  ,fs~
+  Ana7
+  V8r
+  4GU
+  uoR
+  *8f
+  Q7u
+  whgr
+  GUel
+  AR[
+  A98
+  R^}
+  BQ`
+  #jG
+  *Zk
+  5jO
+  >bk=
+  D06
+  HR&
+  h2;
+  sHSA
+  J-v
+  mKH
+  ZQe
+  zvr
+  BG<
+  R~.
+  Z=[
+  zJg
+  3at
+  {8p
+  #|}
+  (Sf
+  4smd
+  73c
+  H[K
+  r{a
+  yPP
+  k`=
+  +zb
+  jDJ
+  +[(
+  KRJ
+  S('"
+  ;6^L
+  >lX
+  !<,
+  )4V
+  44xE
+  :<s{}
+  C)le
+  H$:
+  X[q+
+  ]tQ#
+  id_
+  lDg\
+  ml6
+  |iY
+  3:l
+  LL2
+  4=
+  LW$
+  T`h
+  TMn
+  ]Sc
+  5GO
+  %%,
+  M5S
+  O8uN
+  [et
+  ac-
+  g=b5
+  x%`y
+  eynY
+  %|[
+  ]V[
+  57G
+  }qC
+  = 5#
+  U%3
+  >Gw
+  !Vy@
+  &fb(
+  '&(
+  p[-
+  ^"s*
+  `-M
+  LON
+  >db
+  .sX
+  ^96
+  "k"
+  WlH
+  '}J
+  *o~
+  2o\;
+  39\
+  5W2
+  8KQ2
+  <*P
+  T7x]
+  W?TIf
+  ag\M
+  k_=
+  p?r
+  ~/2
+  o(`r
+  ?&3
+  WoU
+  PQ{
+  -~!
+  6j`
+  7'L
+  ?ol.
+  D!w
+  kpD
+  lP}
+  x ,4
+  H?t
+  X{y
+  0G<
+  $H
+  "Po
+  I.*
+  0-]
+  yPK
+  %+K
+  Aie(
+  EqmN^
+  G&2R
+  J!!
+  Ui6i
+  W%G
+  ayA
+  nY#
+  qI$i
+  u)wr
+  {D9
+  YaB
+  P"}
+  r=/
+  8;,
+  *T1
+  b@E
+  ,R\_
+  7Z$
+  ?h+n
+  Ss<
+  TBi[
+  Y"A@
+  ]*Bg
+  o&5?
+  ~"I
+  yAn
+  N/g
+  BJa
+  -?Q
+  2&
+  +1V
+  9t&^
+  :[W
+  @_s!
+  Lmq
+  T"I
+  V~]
+  Wb[
+  h;Dp
+  iK>
+  rCn
+  z+U
+  #g|
+  i5p
+  CjHx
+  #\K#
+  <lX
+  @4jX
+  E4DQ
+  L$d
+  [up
+  v^T
+  {k%
+  <?T'
+  <-$
+  <u~
+  [^7
+  46M
+  -_/S
+  :~cl
+  D6:
+  EQM
+  F-EmA
+  HUv
+  J-V+
+  Mm]
+  ]eg+
+  e&8
+  xm6
+  z%d
+  uwMS
+  Eq/J
+  %}&
+  Ee&W
+  .13H
+  %N+1H
+  :V{
+  =ON
+  Gn
+  H.`d
+  NFU
+  Z&0BC
+  btG
+  m&H
+  pFRL
+  {fZ
+  ~nA
+  un2
+  vkz
+  66o
+  .Iu
+  VR ^
+  nf=
+  "7C
+  WhHl
+  [Wuf
+  m?P
+  n_sD
+  owd
+  t?+
+  xWkd{
+  y@>
+  7'u
+  DT-
+  +HD
+  /i3
+  aUk
+  " h
+  )J0
+  8`2.
+  ?bC
+  B0c(
+  ChB5
+  Mnk
+  Px{s
+  d|W
+  lpl`
+  'Ps
+  HtA
+  )(n
+  <Gk
+  !.S
+  'yD
+  5AVb
+  EUP
+  GyDS
+  MYw
+  Utp
+  Y!v
+  fXO
+  - #
+  ug9
+  tSg
+  w{(
+  a]b
+  i#r
+  j;1
+  R/$
+  r6"
+  .Qso
+  JZ\5
+  Q@t
+  o|t
+  p:g
+  sJ9
+  v:4
+  wr+
+  |1X?
+  2|r
+  "Ae
+  :%g
+  J2]
+  *N$
+  jo,
+  zE@
+  "`E
+  J/)
+  Oq5
+  #Sq
+  7cs
+  8s}d0
+  :K[
+  <{jU
+  cC<
+  hKI
+  zKVkn
+  {kU
+  ~sA
+  stU
+  DyN
+  D=z
+  \Ho8
+  <bI
+  (h<
+  :tp#
+  Hd|Q
+  KWh
+  VDVx
+  W$=ve
+  X,=F
+  b\X
+  d4x%
+  eayI
+  q,e
+  t|j-
+  0mo
+  ^eB
+  dI%
+  t\,
+  <%R
+  <j>
+  L<=
+  D0]g
+  5J&
+  )m\{
+  -57/
+  /5VA
+  5Uk
+  ;m}E_
+  >e}
+  !lF
+  S5%
+  T}O
+  ]mc8q
+  c.!
+  d%W
+  qmV3
+  }E1
+  ]Ai
+  mS~
+  e;;
+  !&`
+  #fU
+  (F@5
+  +|9
+  ,JQ
+  7$P
+  E8@
+  L^x
+  U^:G
+  f>z
+  l>{
+  }fGto
+  ^.F
+  nftz
+  >Q;i
+  ~Hs,
+  WBG
+  3_#x
+  4ok
+  6W>
+  9'iS
+  ?7ec
+  A?!
+  DG}i
+  U;t
+  WoS-
+  Z)~
+  tWy
+  ugw
+  vgw
+  P|C
+  o]l
+  /.;s
+  Ofj
+
+## All Strings (offset, value):
+
+  @0x1e8a: +I 
+  @0x1f2a: +'!
+  @0x1f34: +>!
+  @0x1f3e: +I!
+  @0x1f48: +X!
+  @0x1f52: +j!
+  @0x1f5c: +r!
+  @0x1f94: +:"
+  @0x1f9e: +I"
+  @0x2067: +D#
+  @0x2071: +U#
+  @0x207b: +g#
+  @0x2085: +y#
+  @0x20d9: +8$
+  @0x20e3: +A$
+  @0x20ed: +U$
+  @0x20f7: +i$
+  @0x21a3: +#%
+  @0x21ad: +4%
+  @0x21b7: +S%
+  @0x2294: +Z&
+  @0x22a8: +_&
+  @0x22b2: +h&
+  @0x23e9: +n(
+  @0x2448: +c)
+  @0x25ae: +k+
+  @0x25b9: +w+
+  @0x2635: +,,
+  @0x265f: +4,
+  @0x267e: +l,
+  @0x2689: +|,
+  @0x26c0: +]-
+  @0x26cb: +j-
+  @0x26e1: +}-
+  @0x274a: + .
+  @0x2755: +5.
+  @0x275f: +i.
+  @0x27db: +*/
+  @0x286f: +;0
+  @0x28e9: +l1
+  @0x2917: +v1
+  @0x296c: ++2
+  @0x2976: +92
+  @0x2994: +D2
+  @0x299e: +R2
+  @0x29a8: +`2
+  @0x29b2: +k2
+  @0x2a00: +-3
+  @0x2a0a: +B3
+  @0x2a14: +O3
+  @0x2a28: +_3
+  @0x2a32: +o3
+  @0x2a76: +#4
+  @0x2a80: +04
+  @0x2a8a: +H4
+  @0x2a94: +\4
+  @0x2a9e: +f4
+  @0x2b44: +Z5
+  @0x2b4e: +a5
+  @0x2b62: +o5
+  @0x2b75: +w5
+  @0x2bf1: +K6
+  @0x2bfb: +S6
+  @0x2c89: +"7
+  @0x2c93: +77
+  @0x2c9d: +I7
+  @0x2ca7: +S7
+  @0x2cb1: +Z7
+  @0x2cbb: +c7
+  @0x2cc5: +q7
+  @0x2ccf: +z7
+  @0x2d4d: +!8
+  @0x2d5a: +X8
+  @0x2d65: +e8
+  @0x2d70: +u8
+  @0x2dee: +(9
+  @0x2df9: +49
+  @0x2e04: +M9
+  @0x2e0f: +o9
+  @0x2e38: +o5
+  @0x2e76: +I:
+  @0x2e81: +U:
+  @0x2e96: +x,
+  @0x2efe: +<<
+  @0x2f09: +@<
+  @0x2f14: +H<
+  @0x2f29: +M<
+  @0x2f34: +U<
+  @0x2f6f: +?=
+  @0x2faa: +x,
+  @0x2ff3: +&>
+  @0x2ffe: +;>
+  @0x3009: +U>
+  @0x3014: +o>
+  @0x3087: +:?
+  @0x3092: +U?
+  @0x309d: +a?
+  @0x30fa: +c@
+  @0x3105: +q@
+  @0x311a: +e8
+  @0x315c: +]A
+  @0x3206: +wB
+  @0x3242: +:"
+  @0x3258: +I"
+  @0x3277: +FC
+  @0x32b5: +{D
+  @0x331b: +"E
+  @0x3325: +.E
+  @0x3339: +=E
+  @0x3343: +[E
+  @0x334d: +kE
+  @0x3397: +*F
+  @0x33a1: +AF
+  @0x33ab: +_F
+  @0x33b5: +yF
+  @0x33ec: +YG
+  @0x33f6: +iG
+  @0x3400: +|G
+  @0x346d: +MI
+  @0x3477: +YI
+  @0x3481: +iI
+  @0x348b: +~I
+  @0x34d6: +/J
+  @0x34e0: +OJ
+  @0x34ea: +_J
+  @0x34f4: +mJ
+  @0x3575: +8K
+  @0x357f: +WK
+  @0x3589: +lK
+  @0x35dc: +#L
+  @0x35e6: +OL
+  @0x35f0: +eL
+  @0x35fa: +|L
+  @0x3662: +!M
+  @0x366c: +(M
+  @0x3676: +/M
+  @0x3680: +6M
+  @0x368a: +=M
+  @0x3694: +DM
+  @0x369e: +XM
+  @0x36e9: +*O
+  @0x374d: +,R
+  @0x3757: +AR
+  @0x376a: +PR
+  @0x3774: +\R
+  @0x377e: +dR
+  @0x3788: +oR
+  @0x37dc: +)S
+  @0x37e6: +<S
+  @0x37f0: +KS
+  @0x37fa: +YS
+  @0x3804: +hS
+  @0x382a: +#T
+  @0x3834: +0T
+  @0x383e: +=T
+  @0x3848: +MT
+  @0x3852: +]T
+  @0x385c: +pT
+  @0x3866: +{T
+  @0x38a5: +QU
+  @0x38af: +\U
+  @0x38b9: +kU
+  @0x38c3: +vU
+  @0x3927: +`V
+  @0x3931: +eV
+  @0x393b: +qV
+  @0x3945: +zV
+  @0x396b: +-W
+  @0x3975: +7W
+  @0x397f: +FW
+  @0x3989: +UW
+  @0x3993: +kW
+  @0x399d: +}W
+  @0x3a09: +*O
+  @0x3a12: +;Y
+  @0x3a1c: +JY
+  @0x3a26: +`Y
+  @0x3a30: +vY
+  @0x3a7a: +AR
+  @0x3abb: +zZ
+  @0x3b1f: +<[
+  @0x3b29: +M[
+  @0x3b33: +][
+  @0x3b3d: +j[
+  @0x3baa: +Z]
+  @0x3bb4: +q]
+  @0x3c12: +)^
+  @0x3c1b: +9^
+  @0x3c24: +I^
+  @0x3c2d: +^^
+  @0x3c36: +u^
+  @0x3c89: +5_
+  @0x3c92: +S_
+  @0x3c9b: +q_
+  @0x3cdd: +1`
+  @0x3ce6: +N`
+  @0x3d07: +oa
+  @0x3d10: +xa
+  @0x3d44: +%b
+  @0x3d4d: +5b
+  @0x3dc1: +/c
+  @0x3e14: +1d
+  @0x3e1d: +Dd
+  @0x3e26: +Wd
+  @0x3e38: +Ge
+  @0x3e41: +Oe
+  @0x3e4a: +be
+  @0x3e53: +ne
+  @0x3e5c: +}e
+  @0x3e9d: +Kg
+  @0x3ea6: +Tg
+  @0x3eaf: +^g
+  @0x3eb8: +hg
+  @0x3ec1: +rg
+  @0x3eca: +|g
+  @0x3edb: +ph
+  @0x3efe: + i
+  @0x3f07: +3i
+  @0x3f18: +ph
+  @0x3f84: ++k
+  @0x3f8d: +<k
+  @0x3f96: +Kk
+  @0x3fef: +Wm
+  @0x3ff8: +fm
+  @0x4001: +ym
+  @0x4041: +"n
+  @0x404b: +>n
+  @0x4055: +]n
+  @0x405f: +pn
+  @0x4069: +zn
+  @0x40bc: +,o
+  @0x40c6: +<o
+  @0x40d0: +Uo
+  @0x40da: +oo
+  @0x4124: +$p
+  @0x412e: +8p
+  @0x4138: +Kp
+  @0x4142: +dp
+  @0x414c: +vp
+  @0x4156: +"E
+  @0x4171: +$q
+  @0x417b: +1q
+  @0x4185: +Z]
+  @0x418f: +=q
+  @0x4199: +Sq
+  @0x41f9: +!r
+  @0x4203: +;r
+  @0x420d: +Tr
+  @0x4217: +cr
+  @0x4221: +yr
+  @0x4275: +-s
+  @0x427f: +<s
+  @0x4289: +]s
+  @0x4293: +}s
+  @0x42dd: ++t
+  @0x42e7: +Bt
+  @0x42f1: +_t
+  @0x42fb: +~t
+  @0x431f: +pu
+  @0x4329: +~u
+  @0x4368: +nv
+  @0x437b: +q]
+  @0x4385: +tv
+  @0x43b4: +(w
+  @0x43be: +5w
+  @0x43c8: +Jw
+  @0x43d2: +Ww
+  @0x43dc: +kw
+  @0x440b: +"x
+  @0x442e: +oa
+  @0x4476: +6z
+  @0x448a: +/c
+  @0x44c9: +%{
+  @0x44d2: +2{
+  @0x4526: +6|
+  @0x452f: +M|
+  @0x4538: +d|
+  @0x4541: +r|
+  @0x4564: +'}
+  @0x456d: +.}
+  @0x4576: +<}
+  @0x457f: +L}
+  @0x4588: +b}
+  @0x4591: +x}
+  @0x45db: +!~
+  @0x45e4: +4~
+  @0x45fd: +C~
+  @0x468c: +tv
+  @0x469d: +Z]
+  @0x46a6: +q]
+  @0x46c0: +Z]
+  @0x46c9: +q]
+  @0x477e: +1q
+  @0x48c6: +:"
+  @0x48d0: +"x
+  @0x48f7: +nv
+  @0x4b91: +yF
+  @0x4c8f: +nv
+  @0x4ca2: +tv
+  @0x4cac: +q]
+  @0x4cd7: +q]
+  @0x5216: +92
+  @0x5315: +;0
+  @0x5556: +FT_REMOTEACCESS_EXTEND
+  @0x556e: FT_XDSL_PVC_SEARCH
+  @0x5581: HW_FT_WEB_INDEPEND_HTTPS_PORT
+  @0x559f: HW_AMP_FEATURE_OPTIC
+  @0x55b4: BBSP_FT_PORTMAP_BASED_BY_MAC
+  @0x55d1: FT_TR181_FIREWALL
+  @0x55e3: FT_FIREWALL_MACFILTER
+  @0x55f9: FT_DM_AUTOREBOOT
+  @0x560a: FT_WLAN_RETRANS
+  @0x561a: FT_WLAN_BSD_CAP
+  @0x562a: BBSP_FT_QOS_QUEUE|FT_SSMP_SIPPHONE_PRIOR_UP
+  @0x5656: Device.
+  @0x565e: IGD.X_HW_DataModel.
+  @0x5672: DeviceSummary
+  @0x5680: IGD.DeviceSummary
+  @0x5692: RootDataModelVersion
+  @0x56a7: IGD.X_HW_DataModel.X_HW_RootDataModelVersion
+  @0x56d4: InterfaceStackNumberOfEntries
+  @0x56f2: IGD.X_HW_DataModel.X_HW_InterfaceStackNumberOfEntries
+  @0x5728: Device.UserInterface.
+  @0x573e: IGD.X_HW_DataModel.UserInterface.
+  @0x5760: Device.UserInterface.RemoteAccess.
+  @0x5783: IGD.X_HW_DataModel.UserInterface.RemoteAccess.
+  @0x57b2: Enable
+  @0x57b9: Port
+  @0x57be: SupportedProtocols
+  @0x57d1: Protocol
+  @0x57da: Device.UserInterface.X_HW_RemoteAccess.
+  @0x5802: IGD.X_HW_Security.AclServices.AccessControl.
+  @0x582f: AccessControlListEnable
+  @0x5847: AccessControlListNumberOfEntries
+  @0x5868: Device.UserInterface.X_HW_RemoteAccess.List.
+  @0x5895: IGD.X_HW_Security.AclServices.AccessControl.List.
+  @0x58c7: SrcPortType
+  @0x58d3: SrcPortName
+  @0x58df: SrcIp
+  @0x58e5: ServicePort
+  @0x58f1: SrcMac
+  @0x58f8: ServiceProto
+  @0x5905: ServiceProtoPort
+  @0x5916: Priority
+  @0x591f: Mode
+  @0x5924: DynamicWanServiceType
+  @0x593a: Device.Services.X_HW_PVCSearch.
+  @0x595a: IGD.Services.X_HW_PVCSearch.
+  @0x5977: PVCSearchList
+  @0x5985: PVCSearchResult
+  @0x5995: WanPvcType
+  @0x59a0: ResultFlag
+  @0x59ab: ChangeFlag
+  @0x59b6: Device.Services.X_HW_WebServerConfig.
+  @0x59dc: IGD.Services.X_HW_WebServerConfig.
+  @0x59ff: ListenMode
+  @0x5a0a: ListenInnerPort
+  @0x5a1a: ListenOuterPort
+  @0x5a2a: HttpsListenInnerPort
+  @0x5a3f: HttpsListenOuterPort
+  @0x5a54: Device.InterfaceStack.
+  @0x5a6b: IGD.X_HW_DataModel.InterfaceStack.
+  @0x5a8e: Alias
+  @0x5a94: HigherLayer
+  @0x5aa0: LowerLayer
+  @0x5aab: HigherAlias
+  @0x5ab7: LowerAlias
+  @0x5ac2: Device.DHCPv4.
+  @0x5ad1: IGD.X_HW_DataModel.DHCPv4.
+  @0x5aec: ClientNumberOfEntries
+  @0x5b02: Device.DHCPv4.Client.
+  @0x5b18: IGD.X_HW_DataModel.DHCPv4.Client.
+  @0x5b3a: Interface
+  @0x5b44: Status
+  @0x5b4b: DHCPStatus
+  @0x5b56: Renew
+  @0x5b5c: IPAddress
+  @0x5b66: SubnetMask
+  @0x5b71: IPRouters
+  @0x5b7b: DNSServers
+  @0x5b86: LeaseTimeRemaining
+  @0x5b99: DHCPServer
+  @0x5ba4: PassthroughEnable
+  @0x5bb6: PassthroughDHCPPool
+  @0x5bca: SentOptionNumberOfEntries
+  @0x5be4: ReqOptionNumberOfEntries
+  @0x5bfd: Device.DHCPv4.Client.SentOption.
+  @0x5c1e: IGD.X_HW_DataModel.DHCPv4.Client.SentOption.
+  @0x5c4b: Tag
+  @0x5c4f: Value
+  @0x5c55: Device.DHCPv4.Client.ReqOption.
+  @0x5c75: IGD.X_HW_DataModel.DHCPv4.Client.ReqOption.
+  @0x5ca1: Order
+  @0x5ca7: Device.DHCPv6.
+  @0x5cb6: IGD.X_HW_DataModel.DHCPv6.
+  @0x5cd1: Device.DHCPv6.Client.
+  @0x5ce7: IGD.X_HW_DataModel.DHCPv6.Client.
+  @0x5d09: DUID
+  @0x5d0e: RequestAddresses
+  @0x5d1f: RequestPrefixes
+  @0x5d2f: RapidCommit
+  @0x5d3b: SuggestedT1
+  @0x5d47: SuggestedT2
+  @0x5d53: SupportedOptions
+  @0x5d64: RequestedOptions
+  @0x5d75: ServerNumberOfEntries
+  @0x5d8b: ReceivedOptionNumberOfEntries
+  @0x5da9: Device.DHCPv6.Client.ReceivedOption.
+  @0x5dce: IGD.DHCPv6.Client.ReceivedOption.
+  @0x5df0: Server
+  @0x5df7: Device.DHCPv6.Client.SentOption.
+  @0x5e18: IGD.X_HW_DataModel.DHCPv6.Client.SentOption.
+  @0x5e45: Device.DHCPv6.Client.Server.
+  @0x5e62: IGD.DHCPv6.Client.Server.
+  @0x5e7c: SourceAddress
+  @0x5e8a: InformationRefreshTime
+  @0x5ea1: Device.DHCPv4.Server.
+  @0x5eb7: IGD.X_HW_DataModel.DHCPv4.Server.
+  @0x5ed9: PoolNumberOfEntries
+  @0x5eed: Device.DHCPv4.Server.Pool.
+  @0x5f08: IGD.X_HW_DataModel.DHCPv4.Server.Pool.
+  @0x5f2f: VendorClassID
+  @0x5f3d: VendorClassIDExclude
+  @0x5f52: VendorClassIDMode
+  @0x5f64: ClientID
+  @0x5f6d: ClientIDExclude
+  @0x5f7d: UserClassID
+  @0x5f89: UserClassIDExclude
+  @0x5f9c: Chaddr
+  @0x5fa3: ChaddrMask
+  @0x5fae: ChaddrExclude
+  @0x5fbc: MinAddress
+  @0x5fc7: MaxAddress
+  @0x5fd2: ReservedAddresses
+  @0x5fe4: DomainName
+  @0x5fef: LeaseTime
+  @0x5ff9: StaticAddressNumberOfEntries
+  @0x6016: OptionNumberOfEntries
+  @0x602c: Device.DHCPv4.Server.Pool.StaticAddress.
+  @0x6055: IGD.X_HW_DataModel.DHCPv4.Server.Pool.StaticAddress.
+  @0x608a: Yiaddr
+  @0x6091: Device.DHCPv4.Server.Pool.Option.
+  @0x60b3: IGD.X_HW_DataModel.DHCPv4.Server.Pool.Option.
+  @0x60e1: Device.DHCPv4.Server.Pool.Client.
+  @0x6103: IGD.X_HW_DataModel.DHCPv4.Server.Pool.Client.
+  @0x6131: Active
+  @0x6138: IPv4AddressNumberOfEntries
+  @0x6153: Device.DHCPv4.Server.Pool.Client.IPv4Address.
+  @0x6181: IGD.X_HW_DataModel.DHCPv4.Server.Pool.Client.IPv4Address.
+  @0x61bb: Device.DHCPv4.Server.Pool.Client.Option.
+  @0x61e4: IGD.X_HW_DataModel.DHCPv4.Server.Pool.Client.Option.
+  @0x6219: Device.DHCPv6.Server.
+  @0x622f: IGD.X_HW_DataModel.DHCPv6.Server.
+  @0x6251: Device.DHCPv6.Server.Pool.
+  @0x626c: IGD.X_HW_DataModel.DHCPv6.Server.Pool.
+  @0x6293: DUIDExclude
+  @0x629f: SourceAddressMask
+  @0x62b1: SourceAddressExclude
+  @0x62c6: IANAEnable
+  @0x62d1: IANAManualPrefixes
+  @0x62e4: IANAPrefixes
+  @0x62f1: IAPDEnable
+  @0x62fc: IAPDManualPrefixes
+  @0x630f: IAPDPrefixes
+  @0x631c: IAPDAddLength
+  @0x632a: Device.DHCPv6.Server.Pool.Client.
+  @0x634c: IGD.X_HW_DataModel.DHCPv6.Server.Pool.Client.
+  @0x637a: IPv6AddressNumberOfEntries
+  @0x6395: IPv6PrefixNumberOfEntries
+  @0x63af: Device.DHCPv6.Server.Pool.Client.IPv6Address.
+  @0x63dd: IGD.X_HW_DataModel.DHCPv6.Server.Pool.Client.IPv6Address.
+  @0x6417: PreferredLifetime
+  @0x6429: ValidLifetime
+  @0x6437: Device.DHCPv6.Server.Pool.Client.IPv6Prefix.
+  @0x6464: IGD.X_HW_DataModel.DHCPv6.Server.Pool.Client.IPv6Prefix.
+  @0x649d: Prefix
+  @0x64a4: Device.DHCPv6.Server.Pool.Client.Option.
+  @0x64cd: IGD.X_HW_DataModel.DHCPv6.Server.Pool.Client.Option.
+  @0x6502: Device.DHCPv6.Server.Pool.Option.
+  @0x6524: IGD.X_HW_DataModel.DHCPv6.Server.Pool.Option.
+  @0x6552: PassthroughClient
+  @0x6564: Device.RouterAdvertisement.
+  @0x6580: IGD.X_HW_DataModel.RouterAdvertisement.
+  @0x65a8: InterfaceSettingNumberOfEntries
+  @0x65c8: Device.RouterAdvertisement.InterfaceSetting.
+  @0x65f5: IGD.X_HW_DataModel.RouterAdvertisement.InterfaceSetting.
+  @0x662e: ManualPrefixes
+  @0x663d: Prefixes
+  @0x6646: MaxRtrAdvInterval
+  @0x6658: MinRtrAdvInterval
+  @0x666a: AdvDefaultLifetime
+  @0x667d: AdvManagedFlag
+  @0x668c: AdvOtherConfigFlag
+  @0x669f: AdvMobileAgentFlag
+  @0x66b2: AdvPreferredRouterFlag
+  @0x66c9: AdvNDProxyFlag
+  @0x66d8: AdvLinkMTU
+  @0x66e3: AdvReachableTime
+  @0x66f4: AdvRetransTimer
+  @0x6704: AdvCurHopLimit
+  @0x6713: IGD.X_HW_DataModel.RouterAdvertisement.InterfaceSetting.OptionNumberOfEntries
+  @0x6761: Device.RouterAdvertisement.InterfaceSetting.Option.
+  @0x6795: IGD.X_HW_DataModel.RouterAdvertisement.InterfaceSetting.Option.
+  @0x67d5: Device.Hosts.
+  @0x67e3: IGD.X_HW_DataModel.Hosts.
+  @0x67fd: HostNumberOfEntries
+  @0x6811: Device.Hosts.Host.
+  @0x6824: IGD.X_HW_DataModel.Hosts.Host.
+  @0x6843: IGD.X_HW_DataModel.Hosts.Host.Alias
+  @0x6867: PhysAddress
+  @0x6873: IGD.X_HW_DataModel.Hosts.Host.PhysAddress
+  @0x689d: IGD.X_HW_DataModel.Hosts.Host.IPAddress
+  @0x68c5: AddressSource
+  @0x68d3: IGD.X_HW_DataModel.Hosts.Host.AddressSource
+  @0x68ff: DHCPClient
+  @0x690a: IGD.X_HW_DataModel.Hosts.Host.DHCPClient
+  @0x6933: IGD.X_HW_DataModel.Hosts.Host.LeaseTimeRemaining
+  @0x6964: AssociatedDevice
+  @0x6975: IGD.X_HW_DataModel.Hosts.Host.AssociatedDevice
+  @0x69a4: Layer1Interface
+  @0x69b4: IGD.X_HW_DataModel.Hosts.Host.Layer1Interface
+  @0x69e2: Layer3Interface
+  @0x69f2: IGD.X_HW_DataModel.Hosts.Host.Layer3Interface
+  @0x6a20: IGD.X_HW_DataModel.Hosts.Host.VendorClassID
+  @0x6a4c: IGD.X_HW_DataModel.Hosts.Host.ClientID
+  @0x6a73: IGD.X_HW_DataModel.Hosts.Host.UserClassID
+  @0x6a9d: HostName
+  @0x6aa6: IGD.X_HW_DataModel.Hosts.Host.HostName
+  @0x6acd: GroupName
+  @0x6ad7: IGD.X_HW_DataModel.Hosts.Host.GroupName
+  @0x6aff: IGD.X_HW_DataModel.Hosts.Host.Active
+  @0x6b24: ActiveLastChange
+  @0x6b35: IGD.X_HW_DataModel.Hosts.Host.ActiveLastChange
+  @0x6b64: IGD.X_HW_DataModel.Hosts.Host.IPv4AddressNumberOfEntries
+  @0x6b9d: IGD.X_HW_DataModel.Hosts.Host.IPv6AddressNumberOfEntries
+  @0x6bd6: Device.Hosts.Host.IPv4Address.
+  @0x6bf5: IGD.X_HW_DataModel.Hosts.Host.IPv4Address.
+  @0x6c20: Device.Hosts.Host.IPv6Address.
+  @0x6c3f: IGD.X_HW_DataModel.Hosts.Host.IPv6Address.
+  @0x6c6a: Device.IP.
+  @0x6c75: IGD.X_HW_DataModel.IP.
+  @0x6c8c: IPv4Capable
+  @0x6c98: IPv4Enable
+  @0x6ca3: IPv4Status
+  @0x6cae: IPv6Capable
+  @0x6cba: IPv6Enable
+  @0x6cc5: IPv6Status
+  @0x6cd0: ULAPrefix
+  @0x6cda: InterfaceNumberOfEntries
+  @0x6cf3: ActivePortNumberOfEntries
+  @0x6d0d: Device.IP.Interface.
+  @0x6d22: IGD.X_HW_DataModel.IP.Interface.
+  @0x6d43: ULAEnable
+  @0x6d4d: Name
+  @0x6d52: LastChange
+  @0x6d5d: LowerLayers
+  @0x6d69: Router
+  @0x6d70: Reset
+  @0x6d76: MaxMTUSize
+  @0x6d81: Type
+  @0x6d86: Loopback
+  @0x6d8f: AutoIPEnable
+  @0x6d9c: X_HW_IPv6AddressRa
+  @0x6daf: X_HW_ServiceType
+  @0x6dc0: X_HW_MultiCastVLAN
+  @0x6dd3: X_HW_IPv6MultiCastVLAN
+  @0x6dea: Device.IP.Interface.IPv4Address.
+  @0x6e0b: IGD.X_HW_DataModel.IP.Interface.IPv4Address.
+  @0x6e38: AddressingType
+  @0x6e47: X_HW_DefaultGateway
+  @0x6e5b: Device.IP.Interface.IPv6Address.
+  @0x6e7c: IGD.X_HW_DataModel.IP.Interface.IPv6Address.
+  @0x6ea9: IPAddressStatus
+  @0x6eb9: Origin
+  @0x6ec0: Anycast
+  @0x6ec8: Device.IP.Interface.IPv6Prefix.
+  @0x6ee8: IGD.X_HW_DataModel.IP.Interface.IPv6Prefix.
+  @0x6f14: PrefixStatus
+  @0x6f21: StaticType
+  @0x6f2c: ParentPrefix
+  @0x6f39: ChildPrefixBits
+  @0x6f49: OnLink
+  @0x6f50: Autonomous
+  @0x6f5b: Device.IP.Interface.Stats.
+  @0x6f76: IGD.X_HW_DataModel.IP.Interface.Stats.
+  @0x6f9d: BytesSent
+  @0x6fa7: BytesReceived
+  @0x6fb5: PacketsSent
+  @0x6fc1: PacketsReceived
+  @0x6fd1: ErrorsSent
+  @0x6fdc: ErrorsReceived
+  @0x6feb: UnicastPacketsSent
+  @0x6ffe: UnicastPacketsReceived
+  @0x7015: DiscardPacketsSent
+  @0x7028: DiscardPacketsReceived
+  @0x703f: MulticastPacketsSent
+  @0x7054: MulticastPacketsReceived
+  @0x706d: BroadcastPacketsSent
+  @0x7082: BroadcastPacketsReceived
+  @0x709b: UnknownProtoPacketsReceived
+  @0x70b7: Device.IP.Diagnostics.
+  @0x70ce: IGD.X_HW_DataModel.IP.Diagnostics.
+  @0x70f1: IPv4PingSupported
+  @0x7103: IPv6PingSupported
+  @0x7115: IPv4TraceRouteSupported
+  @0x712d: IPv6TraceRouteSupported
+  @0x7145: Device.IP.Diagnostics.IPPing.
+  @0x7163: IGD.X_HW_DataModel.IP.Diagnostics.IPPing.
+  @0x718d: DiagnosticsState
+  @0x719e: ProtocolVersion
+  @0x71ae: Host
+  @0x71b3: NumberOfRepetitions
+  @0x71c7: Timeout
+  @0x71cf: DataBlockSize
+  @0x71dd: DSCP
+  @0x71e2: IPAddressUsed
+  @0x71f0: SuccessCount
+  @0x71fd: FailureCount
+  @0x720a: AverageResponseTime
+  @0x721e: MinimumResponseTime
+  @0x7232: MaximumResponseTime
+  @0x7246: AverageResponseTimeDetailed
+  @0x7262: MinimumResponseTimeDetailed
+  @0x727e: MaximumResponseTimeDetailed
+  @0x729a: Device.IP.Diagnostics.TraceRoute.
+  @0x72bc: IGD.X_HW_DataModel.IP.Diagnostics.TraceRoute.
+  @0x72ea: NumberOfTries
+  @0x72f8: MaxHopCount
+  @0x7304: ResponseTime
+  @0x7311: RouteHopsNumberOfEntries
+  @0x732a: Device.IP.Diagnostics.TraceRoute.RouteHops.
+  @0x7356: IGD.X_HW_DataModel.IP.Diagnostics.TraceRoute.RouteHops.
+  @0x738e: HostAddress
+  @0x739a: ErrorCode
+  @0x73a4: RTTimes
+  @0x73ac: Device.Ethernet.VLANTermination.
+  @0x73cd: IGD.X_HW_DataModel.Ethernet.VLANTermination.
+  @0x73fa: VLANID
+  @0x7401: TPID
+  @0x7406: Device.Ethernet.VLANTermination.Stats.
+  @0x742d: IGD.X_HW_DataModel.Ethernet.VLANTermination.Stats.
+  @0x7460: Device.Ethernet.Link.
+  @0x7476: IGD.X_HW_DataModel.Ethernet.Link.
+  @0x7498: MACAddress
+  @0x74a3: PriorityTagging
+  @0x74b3: Device.Ethernet.Link.Stats.
+  @0x74cf: IGD.X_HW_DataModel.Ethernet.Link.Stats.
+  @0x74f7: Device.NAT.
+  @0x7503: IGD.X_HW_DataModel.NAT.
+  @0x751b: PortMappingNumberOfEntries
+  @0x7536: Device.NAT.InterfaceSetting.
+  @0x7553: IGD.X_HW_DataModel.NAT.InterfaceSetting.
+  @0x757c: Device.PPP.
+  @0x7588: IGD.X_HW_DataModel.PPP.
+  @0x75a0: SupportedNCPs
+  @0x75ae: Device.PPP.Interface.
+  @0x75c4: IGD.X_HW_DataModel.PPP.Interface.
+  @0x75e6: ConnectionStatus
+  @0x75f7: LastConnectionError
+  @0x760b: AutoDisconnectTime
+  @0x761e: IdleDisconnectTime
+  @0x7631: WarnDisconnectDelay
+  @0x7645: Username
+  @0x764e: Password
+  @0x7657: EncryptionProtocol
+  @0x766a: CompressionProtocol
+  @0x767e: AuthenticationProtocol
+  @0x7695: MaxMRUSize
+  @0x76a0: CurrentMRUSize
+  @0x76af: ConnectionTrigger
+  @0x76c1: LCPEcho
+  @0x76c9: LCPEchoRetry
+  @0x76d6: IPCPEnable
+  @0x76e1: IPv6CPEnable
+  @0x76ee: Device.PPP.Interface.PPPoE.
+  @0x770a: IGD.X_HW_DataModel.PPP.Interface.PPPoE.
+  @0x7732: SessionID
+  @0x773c: ACName
+  @0x7743: ServiceName
+  @0x774f: Device.PPP.Interface.IPCP.
+  @0x776a: IGD.X_HW_DataModel.PPP.Interface.IPCP.
+  @0x7791: LocalIPAddress
+  @0x77a0: RemoteIPAddress
+  @0x77b0: Device.PPP.Interface.IPv6CP.
+  @0x77cd: IGD.X_HW_DataModel.PPP.Interface.IPv6CP.
+  @0x77f6: LocalInterfaceIdentifier
+  @0x780f: RemoteInterfaceIdentifier
+  @0x7829: Device.PPP.Interface.Stats.
+  @0x7845: IGD.X_HW_DataModel.PPP.Interface.Stats.
+  @0x786d: Device.Bridging.
+  @0x787e: IGD.X_HW_DataModel.Bridging.
+  @0x789b: MaxBridgeEntries
+  @0x78ac: MaxDBridgeEntries
+  @0x78be: MaxQBridgeEntries
+  @0x78d0: MaxVLANEntries
+  @0x78df: MaxProviderBridgeEntries
+  @0x78f8: ProviderBridgeNumberOfEntries
+  @0x7916: MaxFilterEntries
+  @0x7927: BridgeNumberOfEntries
+  @0x793d: FilterNumberOfEntries
+  @0x7953: Device.Bridging.Bridge.
+  @0x796b: IGD.X_HW_DataModel.Bridging.Bridge.
+  @0x798f: Standard
+  @0x7998: PortNumberOfEntries
+  @0x79ac: VLANNumberOfEntries
+  @0x79c0: VLANPortNumberOfEntries
+  @0x79d8: Device.Bridging.Bridge.Port.
+  @0x79f5: IGD.X_HW_DataModel.Bridging.Bridge.Port.
+  @0x7a1e: ManagementPort
+  @0x7a2d: DefaultUserPriority
+  @0x7a41: PriorityRegeneration
+  @0x7a56: PortState
+  @0x7a60: PVID
+  @0x7a65: AcceptableFrameTypes
+  @0x7a7a: IngressFiltering
+  @0x7a8b: ServiceAccessPrioritySelection
+  @0x7aaa: ServiceAccessPriorityTranslation
+  @0x7acb: Device.Bridging.Bridge.Port.Stats.
+  @0x7aee: IGD.X_HW_DataModel.Bridging.Bridge.Port.Stats.
+  @0x7b1d: Device.Bridging.Bridge.VLAN.
+  @0x7b3a: IGD.X_HW_DataModel.Bridging.Bridge.VLAN.
+  @0x7b63: Device.Bridging.Bridge.VLANPort.
+  @0x7b84: IGD.X_HW_DataModel.Bridging.Bridge.VLANPort.
+  @0x7bb1: VLAN
+  @0x7bb6: Untagged
+  @0x7bbf: X_HW_EgressEthernetPriorityMark
+  @0x7bdf: X_HW_EgressDefaultUserPriority
+  @0x7bfe: Device.Bridging.Filter.
+  @0x7c16: IGD.X_HW_DataModel.Bridging.Filter.
+  @0x7c3a: Bridge
+  @0x7c41: VLANIDFilter
+  @0x7c4e: EthertypeFilterList
+  @0x7c62: EthertypeFilterExclude
+  @0x7c79: Device.Optical.
+  @0x7c89: IGD.X_HW_DataModel.Optical.
+  @0x7ca5: Device.Optical.Interface.
+  @0x7cbf: IGD.X_HW_DataModel.Optical.Interface.
+  @0x7ce5: Upstream
+  @0x7cee: OpticalSignalLevel
+  @0x7d01: LowerOpticalThreshold
+  @0x7d17: UpperOpticalThreshold
+  @0x7d2d: TransmitOpticalLevel
+  @0x7d42: LowerTransmitPowerThreshold
+  @0x7d5e: UpperTransmitPowerThreshold
+  @0x7d7a: Device.Optical.Interface.Stats.
+  @0x7d9a: IGD.WANDevice.X_GponInterafceConfig.Stats.
+  @0x7dc5: IGD.WANDevice.X_GponInterafceConfig.Stats.DropPackets
+  @0x7dfb: Device.Ethernet.
+  @0x7e0c: IGD.X_HW_DataModel.Ethernet.
+  @0x7e29: LinkNumberOfEntries
+  @0x7e3d: VLANTerminationNumberOfEntries
+  @0x7e5c: RMONStatsNumberOfEntries
+  @0x7e75: Device.Ethernet.Interface.
+  @0x7e90: IGD.LANDevice.LANEthernetInterfaceConfig.
+  @0x7eba: IGD.LANDevice.LANEthernetInterfaceConfig.Name
+  @0x7ee8: MaxBitRate
+  @0x7ef3: IGD.LANDevice.LANEthernetInterfaceConfig.X_TR181_MaxBitRate
+  @0x7f2f: CurrentBitRate
+  @0x7f3e: DuplexMode
+  @0x7f49: EEECapability
+  @0x7f57: EEEEnable
+  @0x7f61: Device.Ethernet.Interface.Stats.
+  @0x7f82: IGD.LANDevice.LANEthernetInterfaceConfig.Stats.
+  @0x7fb2: Device.Routing.
+  @0x7fc2: IGD.X_HW_DataModel.Routing.
+  @0x7fde: RouterNumberOfEntries
+  @0x7ff4: Device.Routing.Router.
+  @0x800b: IGD.X_HW_DataModel.Routing.Router.
+  @0x802e: IPv4ForwardingNumberOfEntries
+  @0x804c: IPv6ForwardingNumberOfEntries
+  @0x806a: Device.Routing.Router.IPv4Forwarding.
+  @0x8090: IGD.X_HW_DataModel.Routing.Router.IPv4Forwarding.
+  @0x80c2: StaticRoute
+  @0x80ce: DestIPAddress
+  @0x80dc: DestSubnetMask
+  @0x80eb: ForwardingPolicy
+  @0x80fc: GatewayIPAddress
+  @0x810d: ForwardingMetric
+  @0x811e: Device.Routing.Router.IPv6Forwarding.
+  @0x8144: IGD.X_HW_DataModel.Routing.Router.IPv6Forwarding.
+  @0x8176: DestIPPrefix
+  @0x8183: NextHop
+  @0x818b: ExpirationTime
+  @0x819a: Device.CaptivePortal.
+  @0x81b0: IGD.CaptivePortal.
+  @0x81c3: AllowedList
+  @0x81cf: URL
+  @0x81d3: IGD.CaptivePortal.CaptivePortalURL
+  @0x81f6: Device.Routing.RouteInformation.
+  @0x8217: IGD.X_HW_DataModel.Routing.RouteInformation.
+  @0x8244: Device.Routing.RouteInformation.InterfaceSetting.
+  @0x8276: IGD.X_HW_DataModel.Routing.RouteInformation.InterfaceSetting.
+  @0x82b4: SourceRouter
+  @0x82c1: PreferredRouteFlag
+  @0x82d4: RouteLifetime
+  @0x82e2: Device.QoS.
+  @0x82ee: IGD.X_HW_DataModel.QoS.
+  @0x8306: Device.QoS.Classification.
+  @0x8321: IGD.X_HW_DataModel.QoS.Classification.
+  @0x8348: EthernetPriorityMark
+  @0x835d: VLANIDCheck
+  @0x8369: VLANIDExclude
+  @0x8377: X_HW_EgressInterface
+  @0x838c: X_HW_DefaultPri
+  @0x839c: Device.DNS.
+  @0x83a8: IGD.X_HW_DataModel.DNS.
+  @0x83c0: SupportedRecordTypes
+  @0x83d5: Device.DNS.Client.
+  @0x83e8: IGD.X_HW_DataModel.DNS.Client.
+  @0x8407: Device.DNS.Client.Server.
+  @0x8421: IGD.X_HW_DataModel.DNS.Client.Server.
+  @0x8447: DNSServer
+  @0x8451: Device.DNS.Relay.
+  @0x8463: IGD.X_HW_DataModel.DNS.Relay.
+  @0x8481: ForwardNumberOfEntries
+  @0x8498: Device.DNS.Relay.Forwarding.
+  @0x84b5: IGD.X_HW_DataModel.DNS.Relay.Forwarding.
+  @0x84de: Device.DNS.Diagnostics.
+  @0x84f6: IGD.DNS.Diagnostics.
+  @0x850b: Device.DNS.Diagnostics.NSLookupDiagnostics.
+  @0x8537: IGD.DNS.Diagnostics.NSLookupDiagnostics.
+  @0x8560: IGD.DNS.Diagnostics.NSLookupDiagnostics.Interface
+  @0x8592: ResultNumberOfEntries
+  @0x85a8: Device.DNS.Diagnostics.NSLookupDiagnostics.Result.
+  @0x85db: IGD.DNS.Diagnostics.NSLookupDiagnostics.Result.
+  @0x860b: AnswerType
+  @0x8616: HostNameReturned
+  @0x8627: IPAddresses
+  @0x8633: DNSServerIP
+  @0x863f: Device.DynamicDNS.
+  @0x8652: IGD.X_HW_DataModel.DynamicDNS.
+  @0x8671: SupportedServices
+  @0x8683: Device.DynamicDNS.Client.
+  @0x869d: IGD.X_HW_DataModel.DynamicDNS.Client.
+  @0x86c3: LastError
+  @0x86cd: HostnameNumberOfEntries
+  @0x86e5: Device.DynamicDNS.Client.Hostname.
+  @0x8708: IGD.X_HW_DataModel.DynamicDNS.Client.Hostname.
+  @0x8737: LastUpdate
+  @0x8742: Device.DynamicDNS.Server.
+  @0x875c: IGD.X_HW_DataModel.DynamicDNS.Server.
+  @0x8782: ServerAddress
+  @0x8790: ServerPort
+  @0x879b: CheckInterval
+  @0x87a9: RetryInterval
+  @0x87b7: MaxRetries
+  @0x87c2: X_HW_SaltAddress
+  @0x87d3: Device.DSLite.
+  @0x87e2: IGD.X_HW_DataModel.DSLite.
+  @0x87fd: Device.DSLite.InterfaceSetting.
+  @0x881d: IGD.X_HW_DataModel.DSLite.InterfaceSetting.
+  @0x8849: EndpointAssignmentPrecedence
+  @0x8866: EndpointAddressTypePrecedence
+  @0x8884: EndpointAddressInUse
+  @0x8899: EndpointName
+  @0x88a6: EndpointAddress
+  @0x88b6: TunnelInterface
+  @0x88c6: TunneledInterface
+  @0x88d8: Device.NeighborDiscovery.
+  @0x88f2: IGD.X_HW_DataModel.NeighborDiscovery.
+  @0x8918: Device.NeighborDiscovery.InterfaceSetting.
+  @0x8943: IGD.X_HW_DataModel.NeighborDiscovery.InterfaceSetting.
+  @0x897a: RetransTimer
+  @0x8987: RtrSolicitationInterval
+  @0x899f: MaxRtrSolicitations
+  @0x89b3: NUDEnable
+  @0x89bd: RSEnable
+  @0x89c6: Device.NAT.PortMapping.
+  @0x89de: IGD.X_HW_DataModel.NAT.PortMapping.
+  @0x8a02: AllInterfaces
+  @0x8a10: LeaseDuration
+  @0x8a1e: RemoteHost
+  @0x8a29: ExternalPort
+  @0x8a36: ExternalPortEndRange
+  @0x8a4b: InternalPort
+  @0x8a58: InternalClient
+  @0x8a67: Description
+  @0x8a73: PMLastChange
+  @0x8a80: MAC
+  @0x8a84: Device.Firewall.
+  @0x8a95: IGD.X_HW_Security.Firewall.
+  @0x8ab1: Config
+  @0x8ab8: AdvancedLevel
+  @0x8ac6: Version
+  @0x8ace: LevelNumberOfEntries
+  @0x8ae3: ChainNumberOfEntries
+  @0x8af8: Device.Firewall.Level.
+  @0x8b0f: IGD.X_HW_Security.Firewall.Level.
+  @0x8b31: Chain
+  @0x8b37: PortMappingEnabled
+  @0x8b4a: DefaultPolicy
+  @0x8b58: DefaultLogPolicy
+  @0x8b69: Device.Firewall.Chain.
+  @0x8b80: IGD.X_HW_Security.Firewall.Chain.
+  @0x8ba2: Creator
+  @0x8baa: RuleNumberOfEntries
+  @0x8bbe: Device.Firewall.Chain.Rule.
+  @0x8bda: IGD.X_HW_Security.Firewall.Chain.Rule.
+  @0x8c01: Target
+  @0x8c08: TargetChain
+  @0x8c14: Log
+  @0x8c18: CreationDate
+  @0x8c25: ExpiryDate
+  @0x8c30: SourceInterface
+  @0x8c40: SourceInterfaceExclude
+  @0x8c57: SourceAllInterfaces
+  @0x8c6b: DestInterface
+  @0x8c79: DestInterfaceExclude
+  @0x8c8e: DestAllInterfaces
+  @0x8ca0: IPVersion
+  @0x8caa: DestIP
+  @0x8cb1: DestMask
+  @0x8cba: DestIPExclude
+  @0x8cc8: SourceIP
+  @0x8cd1: SourceMask
+  @0x8cdc: SourceIPExclude
+  @0x8cec: ProtocolExclude
+  @0x8cfc: DestPort
+  @0x8d05: DestPortRangeMax
+  @0x8d16: DestPortExclude
+  @0x8d26: SourcePort
+  @0x8d31: SourcePortRangeMax
+  @0x8d44: SourcePortExclude
+  @0x8d56: DSCPExclude
+  @0x8d62: X_HW_SourceMACAddress
+  @0x8d78: X_HW_DestMACAddress
+  @0x8d8c: Device.DeviceInfo.
+  @0x8d9f: IGD.DeviceInfo.
+  @0x8daf: Manufacturer
+  @0x8dbc: ManufacturerOUI
+  @0x8dcc: ModelName
+  @0x8dd6: ProductClass
+  @0x8de3: SerialNumber
+  @0x8df0: HardwareVersion
+  @0x8e00: SoftwareVersion
+  @0x8e10: X_HW_SlaveSoftversion
+  @0x8e26: AdditionalHardwareVersion
+  @0x8e40: AdditionalSoftwareVersion
+  @0x8e5a: ProvisioningCode
+  @0x8e6b: UpTime
+  @0x8e72: FirstUseDate
+  @0x8e7f: ModelNumber
+  @0x8e8b: ProcessorNumberOfEntries
+  @0x8ea4: SupportedDataModelNumberOfEntries
+  @0x8ec6: VendorConfigFileNumberOfEntries
+  @0x8ee6: VendorLogFileNumberOfEntries
+  @0x8f03: Device.DeviceInfo.VendorConfigFile.
+  @0x8f27: IGD.DeviceInfo.VendorConfigFile.
+  @0x8f48: Date
+  @0x8f4d: UseForBackupRestore
+  @0x8f61: Device.DeviceInfo.VendorLogFile.
+  @0x8f82: IGD.DeviceInfo.VendorLogFile.
+  @0x8fa0: MaximumSize
+  @0x8fac: Persistent
+  @0x8fb7: Device.DeviceInfo.SupportedDataModel.
+  @0x8fdd: IGD.DeviceInfo.SupportedDataModel.
+  @0x9000: UUID
+  @0x9005: URN
+  @0x9009: Features
+  @0x9012: Device.DeviceInfo.MemoryStatus.
+  @0x9032: IGD.DeviceInfo.MemoryStatus.
+  @0x904f: Total
+  @0x9055: Free
+  @0x905a: Device.DeviceInfo.FlashStatus.
+  @0x9079: IGD.DeviceInfo.FlashStatus.
+  @0x9095: Device.DeviceInfo.ProcessStatus.
+  @0x90b6: IGD.DeviceInfo.ProcessStatus.
+  @0x90d4: CPUUsage
+  @0x90dd: IGD.DeviceInfo.X_HW_CpuUsed
+  @0x90f9: ProcessNumberOfEntries
+  @0x9110: IGD.DeviceInfo.ProcessStatus.ProcessNumberOfEntries
+  @0x9144: Device.DeviceInfo.ProcessStatus.Process.
+  @0x916d: IGD.DeviceInfo.ProcessStatus.Process.
+  @0x9193: PID
+  @0x9197: Command
+  @0x919f: Size
+  @0x91a4: CPUTime
+  @0x91ac: State
+  @0x91b2: Device.DeviceInfo.Processor.
+  @0x91cf: IGD.DeviceInfo.Processor.
+  @0x91e9: Architecture
+  @0x91f6: Device.X_HW_SmartManage.
+  @0x920f: IGD.X_HW_AppRemoteManage.
+  @0x9229: CurrentMgtURL
+  @0x9237: PhoneAppURL
+  @0x9243: CurrentPort
+  @0x924f: Device.ManagementServer.
+  @0x9268: IGD.ManagementServer.
+  @0x927e: DataModelSupportVersion
+  @0x9296: IGD.ManagementServer.X_HW_DataModelSupportVersion
+  @0x92c8: DataModelVersion
+  @0x92d9: IGD.ManagementServer.X_HW_DataModelVersion
+  @0x9304: AliasBasedAddressing
+  @0x9319: InstanceMode
+  @0x9326: EnableCWMP
+  @0x9331: PeriodicInformEnable
+  @0x9346: PeriodicInformInterval
+  @0x935d: PeriodicInformTime
+  @0x9370: ParameterKey
+  @0x937d: ConnectionRequestURL
+  @0x9392: ConnectionRequestUsername
+  @0x93ac: ConnectionRequestPassword
+  @0x93c6: UpgradesManaged
+  @0x93d6: KickURL
+  @0x93de: DownloadProgressURL
+  @0x93f2: DefaultActiveNotificationThrottle
+  @0x9414: UDPConnectionRequestAddress
+  @0x9430: STUNEnable
+  @0x943b: STUNServerAddress
+  @0x944d: STUNServerPort
+  @0x945c: STUNUsername
+  @0x9469: STUNPassword
+  @0x9476: STUNMaximumKeepAlivePeriod
+  @0x9491: STUNMinimumKeepAlivePeriod
+  @0x94ac: NATDetected
+  @0x94b8: ManageableDeviceNumberOfEntries
+  @0x94d8: InformParameterNumberOfEntries
+  @0x94f7: AutoCreateInstances
+  @0x950b: ManageableDeviceNotificationLimit
+  @0x952d: ConnReqXMPPConnection
+  @0x9543: ConnReqAllowedJabberIDs
+  @0x955b: ConnReqJabberID
+  @0x956b: Device.ManagementServer.InformParameter.
+  @0x9594: IGD.ManagementServer.InformParameter.
+  @0x95ba: ParameterName
+  @0x95c8: EventList
+  @0x95d2: Device.ManagementServer.ManageableDevice.
+  @0x95fc: IGD.ManagementServer.ManageableDevice.
+  @0x9623: Device.Users.
+  @0x9631: IGD.UserInterface.
+  @0x9644: UserNumberOfEntries
+  @0x9658: IGD.UserInterface.X_HW_WebUserNumber
+  @0x967d: Device.Users.User.
+  @0x9690: IGD.UserInterface.X_HW_WebUserInfo.
+  @0x96b4: IGD.UserInterface.X_HW_WebUserInfo.UserName
+  @0x96e0: Device.IP.Diagnostics.UDPEchoConfig.
+  @0x9705: IGD.UDPEchoConfig.
+  @0x9718: SourceIPAddress
+  @0x9728: UDPPort
+  @0x9730: EchoPlusEnabled
+  @0x9740: EchoPlusSupported
+  @0x9752: PacketsResponded
+  @0x9763: BytesResponded
+  @0x9772: TimeFirstPacketReceived
+  @0x978a: TimeLastPacketReceived
+  @0x97a1: Device.X_HW_AutoReboot.
+  @0x97b9: IGD.X_HW_AutoReboot.
+  @0x97ce: RunningDays
+  @0x97da: TrafficLimit
+  @0x97e7: TrafficKeepTime
+  @0x97f7: RebootStartTime
+  @0x9807: RebootEndTime
+  @0x9815: DelayMode
+  @0x981f: Device.IP.ActivePort.
+  @0x9835: IGD.X_HW_DataModel.IP.ActivePort.
+  @0x9857: LocalPort
+  @0x9861: RemotePort
+  @0x986c: Device.LANConfigSecurity.
+  @0x9886: IGD.LANConfigSecurity.
+  @0x989d: ConfigPassword
+  @0x98ac: Device.Services.
+  @0x98bd: IGD.Services.
+  @0x98cb: VoiceServiceNumberOfEntries
+  @0x98e7: IGD.Services.VoiceService.1.VoiceServiceNumberOfEntries
+  @0x991f: Device.Services.VoiceService.
+  @0x993d: IGD.Services.VoiceService.
+  @0x9958: X_HW_Reset
+  @0x9963: VoiceProfileNumberOfEntries
+  @0x997f: Device.Services.VoiceService.VoiceProfile.
+  @0x99aa: IGD.Services.VoiceService.VoiceProfile.
+  @0x99d2: SignalingProtocol
+  @0x99e4: Region
+  @0x99eb: DTMFMethod
+  @0x99f6: DigitMap
+  @0x99ff: X_HW_DigitMapMatchMode
+  @0x9a16: X_HW_PortName
+  @0x9a24: X_HW_OverseaVer
+  @0x9a34: X_HW_HowlerSendFlag
+  @0x9a48: DigitMapEnable
+  @0x9a57: X_HW_InterfaceState
+  @0x9a6b: NumberOfLines
+  @0x9a79: MaxSessions
+  @0x9a85: DTMFMethodG711
+  @0x9a94: X_HW_KeepTransferActivePeriod
+  @0x9ab2: X_HW_ServerType
+  @0x9ac2: X_HW_HangingReminderToneTimer
+  @0x9ae0: X_HW_BusyToneTimer
+  @0x9af3: X_HW_NoAnswerTimer
+  @0x9b06: X_HW_DigitMapSpecial
+  @0x9b1b: X_HW_DigitMapSpecialEnable
+  @0x9b36: X_HW_Option120PriorityMode
+  @0x9b51: X_HW_DigitMapStartTimer
+  @0x9b69: X_HW_DigitMapShortTimer
+  @0x9b81: X_HW_DigitMapLongTimer
+  @0x9b98: X_HW_SignalingProtocolRunning
+  @0x9bb6: X_HW_Option15PriorityMode
+  @0x9bd0: FaxPassThrough
+  @0x9bdf: ModemPassThrough
+  @0x9bf0: NonVoiceBandwidthReservedDownstream
+  @0x9c14: NonVoiceBandwidthReservedUpstream
+  @0x9c36: STUNServer
+  @0x9c41: Device.Services.VoiceService.VoiceProfile.NumberingPlan.
+  @0x9c7a: IGD.Services.VoiceService.VoiceProfile.NumberingPlan.
+  @0x9cb0: X_HW_NumberPlan
+  @0x9cc0: InterDigitTimerStd
+  @0x9cd3: InterDigitTimerOpen
+  @0x9ce7: InvalidNumberTone
+  @0x9cf9: MaximumNumberOfDigits
+  @0x9d0f: MinimumNumberOfDigits
+  @0x9d25: PrefixInfoMaxEntries
+  @0x9d3a: PrefixInfoNumberOfEntries
+  @0x9d54: Device.Services.VoiceService.VoiceProfile.NumberingPlan.PrefixInfo.
+  @0x9d98: IGD.Services.VoiceService.VoiceProfile.NumberingPlan.PrefixInfo.
+  @0x9dd9: DialTone
+  @0x9de2: NumberOfDigitsToRemove
+  @0x9df9: PosOfDigitsToRemove
+  @0x9e0d: PrefixMaxNumberOfDigits
+  @0x9e25: PrefixMinNumberOfDigits
+  @0x9e3d: PrefixRange
+  @0x9e49: Device.Services.VoiceService.VoiceProfile.SIP.
+  @0x9e78: IGD.Services.VoiceService.VoiceProfile.SIP.
+  @0x9ea4: ProxyServer
+  @0x9eb0: ProxyServerPort
+  @0x9ec0: ProxyServerTransport
+  @0x9ed5: X_HW_SecondaryProxyServer
+  @0x9eef: X_HW_SecondaryProxyServerPort
+  @0x9f0d: RegistrarServer
+  @0x9f1d: RegistrarServerPort
+  @0x9f31: RegistrarServerTransport
+  @0x9f4a: OutboundProxy
+  @0x9f58: OutboundProxyPort
+  @0x9f6a: X_HW_SecondaryOutboundProxy
+  @0x9f86: X_HW_SecondaryOutboundProxyPort
+  @0x9fa6: UserAgentDomain
+  @0x9fb6: UserAgentPort
+  @0x9fc4: UserAgentTransport
+  @0x9fd7: VLANIDMark
+  @0x9fe2: DSCPMark
+  @0x9feb: Organization
+  @0x9ff8: RegistrationPeriod
+  @0xa00b: RegisterExpires
+  @0xa01b: TimerT1
+  @0xa023: TimerT2
+  @0xa02b: TimerT4
+  @0xa033: RegisterRetryInterval
+  @0xa049: InboundAuthUsername
+  @0xa05d: InboundAuthPassword
+  @0xa071: UseCodecPriorityInSDPResponse
+  @0xa08f: SIPResponseMapNumberOfElements
+  @0xa0ae: X_HW_HeartbeatSwitch
+  @0xa0c3: X_HW_HeartbeatCycle
+  @0xa0d7: X_HW_HeartbeatCount
+  @0xa0eb: X_HW_SessionUpdateTimer
+  @0xa103: X_HW_EmergencyDSCPMark
+  @0xa11a: X_HW_URIType
+  @0xa127: X_HW_PRACKEnable
+  @0xa138: X_HW_BootDeRegisterEnable
+  @0xa152: X_HW_TWaitTimeMode
+  @0xa165: X_HW_SubscribeEnable
+  @0xa17a: X_HW_OutNumberContainImmediateDialKeyEnable
+  @0xa1a6: X_HW_SubscribeExpires
+  @0xa1bc: X_HW_KeepSilenceNoUser
+  @0xa1d3: X_HW_SessionUpdateRetry
+  @0xa1eb: X_HW_ByeWhenSessionUpdateRetryFail
+  @0xa20e: InviteExpires
+  @0xa21c: ReInviteExpires
+  @0xa22c: SIPEventSubscribeNumberOfElements
+  @0xa24e: TimerA
+  @0xa255: TimerB
+  @0xa25c: TimerC
+  @0xa263: TimerD
+  @0xa26a: TimerE
+  @0xa271: TimerF
+  @0xa278: TimerG
+  @0xa27f: TimerH
+  @0xa286: TimerI
+  @0xa28d: TimerJ
+  @0xa294: TimerK
+  @0xa29b: RegistersMinExpires
+  @0xa2af: InboundAuth
+  @0xa2bb: Device.Services.VoiceService.VoiceProfile.SIP.ResponseMap.
+  @0xa2f6: IGD.Services.VoiceService.VoiceProfile.SIP.ResponseMap.
+  @0xa32e: SIPResponseNumber
+  @0xa340: TextMessage
+  @0xa34c: Tone
+  @0xa351: X_HW_Duration
+  @0xa35f: Device.Services.VoiceService.VoiceProfile.SIP.X_HW_StatusCodeMap.
+  @0xa3a1: IGD.Services.VoiceService.VoiceProfile.SIP.X_HW_StatusCodeMap.
+  @0xa3e0: Scene
+  @0xa3e6: StatusCode
+  @0xa3f1: Q850Code
+  @0xa3fa: Device.Services.VoiceService.VoiceProfile.SIP.X_HW_SIPProfile.
+  @0xa439: IGD.Services.VoiceService.VoiceProfile.SIP.X_HW_SIPProfile.
+  @0xa475: ProfileName
+  @0xa481: ProfileBody
+  @0xa48d: Device.Services.VoiceService.VoiceProfile.SIP.X_HW_SIPDigitmap.
+  @0xa4cd: IGD.Services.VoiceService.VoiceProfile.SIP.X_HW_SIPDigitmap.
+  @0xa50a: DMName
+  @0xa511: DigitmapType
+  @0xa51e: DigitMapStartTimer
+  @0xa531: DigitMapShortTimer
+  @0xa544: DigitMapLongTimer
+  @0xa556: MatchMode
+  @0xa560: Device.Services.VoiceService.VoiceProfile.SIP.X_HW_SIPStringDefine.
+  @0xa5a4: IGD.Services.VoiceService.VoiceProfile.SIP.X_HW_SIPStringDefine.
+  @0xa5e5: StringBody
+  @0xa5f0: Device.Services.VoiceService.VoiceProfile.SIP.X_HW_SIPSrvPri.
+  @0xa62e: IGD.Services.VoiceService.VoiceProfile.SIP.X_HW_SIPSrvPri.
+  @0xa669: ServiceID
+  @0xa673: Device.Services.VoiceService.VoiceProfile.SIP.X_HW_SIPSrvLogic.
+  @0xa6b3: IGD.Services.VoiceService.VoiceProfile.SIP.X_HW_SIPSrvLogic.
+  @0xa6f0: SrvLogicBody
+  @0xa6fd: Device.Services.VoiceService.VoiceProfile.SIP.X_HW_SIPExtend.
+  @0xa73b: IGD.Services.VoiceService.VoiceProfile.SIP.X_HW_SIPExtend.
+  @0xa776: PhoneContext
+  @0xa783: ConferenceFactoryUri
+  @0xa798: PortFilterFlag
+  @0xa7a7: MaxForwards
+  @0xa7b3: TimerTD
+  @0xa7bb: TimerMinSe
+  @0xa7c6: TimerSessionProgress
+  @0xa7db: TimerSessionRelProgress
+  @0xa7f3: EntityBasedSessionsTimerFlag
+  @0xa810: AuthHeaderFoldingEnable
+  @0xa828: SoftwareParameters
+  @0xa83b: ThreeWayMixType
+  @0xa84b: ToHeaderStrickFlag
+  @0xa85e: DomainDNSGetMode
+  @0xa86f: ProxyRefreshMode
+  @0xa880: DNSACheckTTLEnable
+  @0xa893: DNSAStoreLimit
+  @0xa8a2: MultiHomeMode
+  @0xa8b0: SharedUserMode
+  @0xa8bf: ReregisterResponseCode
+  @0xa8d6: Q850CauseWhenPark
+  @0xa8e8: CPCMapCode
+  @0xa8f3: Device.Services.VoiceService.VoiceProfile.SIP.X_HW_SIPStats.
+  @0xa930: IGD.Services.VoiceService.VoiceProfile.SIP.X_HW_SIPStats.
+  @0xa96a: ResetStatistics
+  @0xa97a: Transactions
+  @0xa987: RxInviteReqs
+  @0xa994: RxInviteRetrans
+  @0xa9a4: RxNoninviteReqs
+  @0xa9b4: RxNoninviteRetrans
+  @0xa9c7: RxResponse
+  @0xa9d2: RxResponseRetrans
+  @0xa9e4: TxInviteReqs
+  @0xa9f1: TxInviteRetrans
+  @0xaa01: TxNoninviteReqs
+  @0xaa11: TxNoninviteRetrans
+  @0xaa24: TxResponse
+  @0xaa2f: TxResponseRetrans
+  @0xaa41: Device.Services.VoiceService.VoiceProfile.X_HW_H248.
+  @0xaa76: IGD.Services.VoiceService.VoiceProfile.X_HW_H248.
+  @0xaaa8: CallAgent1
+  @0xaab3: CallAgentPort1
+  @0xaac2: CallAgent2
+  @0xaacd: CallAgentPort2
+  @0xaadc: Domain
+  @0xaae3: DeviceName
+  @0xaaee: MIDFormat
+  @0xaaf8: CallAgentMID1
+  @0xab06: CallAgentMID2
+  @0xab14: MessageEncodingType
+  @0xab28: HeartBeatPattern
+  @0xab39: RegisterMode
+  @0xab46: Device.Services.VoiceService.VoiceProfile.X_HW_H248.auth.
+  @0xab80: IGD.Services.VoiceService.VoiceProfile.X_HW_H248.auth.
+  @0xabb7: auth
+  @0xabbc: authInitKey
+  @0xabc8: authmgid
+  @0xabd1: authHeader
+  @0xabdc: HeaderSecurityType
+  @0xabef: Device.Services.VoiceService.VoiceProfile.X_HW_H248.StackInfo.
+  @0xac2e: IGD.Services.VoiceService.VoiceProfile.X_HW_H248.StackInfo.
+  @0xac6a: MsgFormat
+  @0xac74: ResponseAckCtrl
+  @0xac84: LongTimer
+  @0xac8e: MaxreTransTime
+  @0xac9d: MinreTransTime
+  @0xacac: MGProvisionalRespTime
+  @0xacc2: Retransfailoption
+  @0xacd4: MaxreTransTimes
+  @0xace4: MaxreTransDuration
+  @0xacf7: RetransMode
+  @0xad03: FixedRetransTime
+  @0xad14: MTUValue
+  @0xad1d: MsgSegmentation
+  @0xad2d: Device.Services.VoiceService.VoiceProfile.X_HW_H248.Digitmap.
+  @0xad6b: IGD.Services.VoiceService.VoiceProfile.X_HW_H248.Digitmap.
+  @0xada6: Device.Services.VoiceService.VoiceProfile.X_HW_H248.Profile.
+  @0xade3: IGD.Services.VoiceService.VoiceProfile.X_HW_H248.Profile.
+  @0xae1d: Device.Services.VoiceService.VoiceProfile.X_HW_H248.Extend.
+  @0xae59: IGD.Services.VoiceService.VoiceProfile.X_HW_H248.Extend.
+  @0xae92: HeartBeatTimer
+  @0xaea1: HeartBeatRetransTimer
+  @0xaeb7: HeartBeatRetransTimes
+  @0xaecd: MWDBaseTime
+  @0xaed9: MWD
+  @0xaedd: CallholdTimer
+  @0xaeeb: Topversion
+  @0xaef6: ProfileNego
+  @0xaf02: ProfileIndex
+  @0xaf0f: MgcSwitchMethod
+  @0xaf1f: PortFilterTime
+  @0xaf2e: DisconnectToneType
+  @0xaf41: DigitMapAutoMatchEnable
+  @0xaf59: OffhookEventID
+  @0xaf68: MgDomainCheck
+  @0xaf76: Device.Services.VoiceService.VoiceProfile.RTP.
+  @0xafa5: IGD.Services.VoiceService.VoiceProfile.RTP.
+  @0xafd1: LocalPortMin
+  @0xafde: LocalPortMax
+  @0xafeb: TelephoneEventPayloadType
+  @0xb005: X_HW_2833FaxEventFlag
+  @0xb01b: X_HW_2833FlashHook
+  @0xb02e: Device.Services.VoiceService.VoiceProfile.RTP.RTCP.
+  @0xb062: IGD.Services.VoiceService.VoiceProfile.RTP.RTCP.
+  @0xb093: TxRepeatInterval
+  @0xb0a4: X_HW_RtcpxrFlag
+  @0xb0b4: X_HW_VqmFlag
+  @0xb0c1: LocalCName
+  @0xb0cc: Device.Services.VoiceService.VoiceProfile.RTP.Redundancy.
+  @0xb106: IGD.Services.VoiceService.VoiceProfile.RTP.Redundancy.
+  @0xb13d: PayloadType
+  @0xb149: X_HW_EnableAuto
+  @0xb159: X_HW_EnableFixedStart
+  @0xb16f: X_HW_Rfc2198For2833
+  @0xb183: Device.Services.VoiceService.VoiceProfile.RTP.X_HW_JitBuffer.
+  @0xb1c1: IGD.Services.VoiceService.VoiceProfile.RTP.X_HW_JitBuffer.
+  @0xb1fc: MaxAdaptJB
+  @0xb207: MinAdaptJB
+  @0xb212: IniAdaptJB
+  @0xb21d: MaxFixedJB
+  @0xb228: MinFixedJB
+  @0xb233: IniFixedJB
+  @0xb23e: Device.Services.VoiceService.VoiceProfile.RTP.X_HW_Extend.
+  @0xb279: IGD.Services.VoiceService.VoiceProfile.RTP.X_HW_Extend.
+  @0xb2b1: EchoCancellationEnable
+  @0xb2c8: SilenceSuppression
+  @0xb2db: DefaultCodec
+  @0xb2e8: DefaultPktLen
+  @0xb2f6: PlcFlag
+  @0xb2fe: PktLostThreshold
+  @0xb30f: OnhookDtaLevel
+  @0xb31e: OnhookFskLevel
+  @0xb32d: OnhookChannelSeizeBit
+  @0xb343: OnhookMarkSignalBit
+  @0xb357: OnhookDtasFskInterval
+  @0xb36d: OnhookDtasDuration
+  @0xb380: OffhookDtaLevel
+  @0xb390: OffhookFskLevel
+  @0xb3a0: OffhookMarkSignalBit
+  @0xb3b5: OffhookDtasAckInterval
+  @0xb3cc: OffhookDtasAckFskInterval
+  @0xb3e6: OffhookDtasDuration
+  @0xb3fa: RTPTermIDPrefix
+  @0xb40a: RTPTermIDStartNum
+  @0xb41c: RTPTermIDNumWidth
+  @0xb42e: RTPTermIDUniform
+  @0xb43f: DualSilenceDetTime
+  @0xb452: DTMFClipStartCode
+  @0xb464: VbdJbAdjustMode
+  @0xb474: DtmfDetectAlgorithmMode
+  @0xb48c: DtmfDetectNegativeTwistAdjust
+  @0xb4aa: DtmfDetectPositiveTwistAdjust
+  @0xb4c8: DtmfDetectLevelLowerAdjust
+  @0xb4e3: DtmfDetectSnrAdjust
+  @0xb4f7: DTMFEraseBeforeEnd
+  @0xb50a: DTMFBufferMode
+  @0xb519: DtmfDetectSnrDialAdjust
+  @0xb531: DtmfDetectSnrDialup_900Adjust
+  @0xb54f: DtmfDetectSnr900_1250Adjust
+  @0xb56b: DtmfDetectSnr1250_1800Adjust
+  @0xb588: DtmfDetectSnr1800_4000Adjust
+  @0xb5a5: RFC2833DurationMode
+  @0xb5b9: Device.Services.VoiceService.VoiceProfile.Tone.
+  @0xb5e9: IGD.Services.VoiceService.VoiceProfile.Tone.
+  @0xb616: EventNumberOfEntries
+  @0xb62b: DescriptionNumberOfEntries
+  @0xb646: PatternNumberOfEntries
+  @0xb65d: Device.Services.VoiceService.VoiceProfile.Tone.Event.
+  @0xb693: IGD.Services.VoiceService.VoiceProfile.Tone.Event.
+  @0xb6c6: Function
+  @0xb6cf: ToneID
+  @0xb6d6: Device.Services.VoiceService.VoiceProfile.Tone.Description.
+  @0xb712: IGD.Services.VoiceService.VoiceProfile.Tone.Description.
+  @0xb74b: EntryID
+  @0xb753: ToneEnable
+  @0xb75e: ToneName
+  @0xb767: TonePattern
+  @0xb773: ToneFile
+  @0xb77c: ToneRepetitions
+  @0xb78c: ToneText
+  @0xb795: Device.Services.VoiceService.VoiceProfile.Tone.TonePattern.
+  @0xb7d1: IGD.Services.VoiceService.VoiceProfile.Tone.TonePattern.
+  @0xb80a: ToneOn
+  @0xb811: Frequency1
+  @0xb81c: Power1
+  @0xb823: Frequency2
+  @0xb82e: Power2
+  @0xb835: Frequency3
+  @0xb840: Power3
+  @0xb847: Frequency4
+  @0xb852: Power4
+  @0xb859: Duration
+  @0xb862: ModulationFrequency
+  @0xb876: ModulationPower
+  @0xb886: NextEntryID
+  @0xb892: Device.Services.VoiceService.VoiceProfile.FaxT38.
+  @0xb8c4: IGD.Services.VoiceService.VoiceProfile.FaxT38.
+  @0xb8f3: BitRate
+  @0xb8fb: TCFMethod
+  @0xb905: X_HW_PortAdd2
+  @0xb913: HighSpeedRedundancy
+  @0xb927: LowSpeedRedundancy
+  @0xb93a: X_HW_NegoAcceptWhenDisabled
+  @0xb956: X_HW_V21PreProcessMode
+  @0xb96d: X_HW_T38TrainingComplement
+  @0xb988: X_HW_V21FlagMaxLen
+  @0xb99b: X_HW_V21FlagMinLen
+  @0xb9ae: HighSpeedPacketRate
+  @0xb9c2: Device.Services.VoiceService.VoiceProfile.X_HW_G711FAX.
+  @0xb9fa: IGD.Services.VoiceService.VoiceProfile.X_HW_G711FAX.
+  @0xba2f: Device.Services.VoiceService.VoiceProfile.X_HW_FaxModem.
+  @0xba68: IGD.Services.VoiceService.VoiceProfile.X_HW_FaxModem.
+  @0xba9e: FaxNego
+  @0xbaa6: FaxModemPktFix10ms
+  @0xbab9: FaxNegoFlow
+  @0xbac5: ModemEventMode
+  @0xbad4: FaxModemVbdCodec
+  @0xbae5: FaxModemVbdPTMode
+  @0xbaf7: FaxModemVbdPayload
+  @0xbb0a: IpDtmfFallbackVoice
+  @0xbb1e: Device.Services.VoiceService.VoiceProfile.X_HW_Ring.
+  @0xbb53: IGD.Services.VoiceService.VoiceProfile.X_HW_Ring.
+  @0xbb85: Device.Services.VoiceService.VoiceProfile.X_HW_Ring.Mapping.
+  @0xbbc2: IGD.Services.VoiceService.VoiceProfile.X_HW_Ring.Mapping.
+  @0xbbfc: Pattern
+  @0xbc04: CadenceType
+  @0xbc10: InitialRing
+  @0xbc1c: RingName
+  @0xbc25: Device.Services.VoiceService.VoiceProfile.X_HW_Ring.UserDefine.
+  @0xbc65: IGD.Services.VoiceService.VoiceProfile.X_HW_Ring.UserDefine.
+  @0xbca2: RingType
+  @0xbcab: RingPara1
+  @0xbcb5: RingPara2
+  @0xbcbf: RingPara3
+  @0xbcc9: RingPara4
+  @0xbcd3: RingPara5
+  @0xbcdd: RingPara6
+  @0xbce7: Device.Services.VoiceService.VoiceProfile.X_HW_Signal.
+  @0xbd1e: IGD.Services.VoiceService.VoiceProfile.X_HW_Signal.
+  @0xbd52: Device.Services.VoiceService.VoiceProfile.X_HW_Signal.List.
+  @0xbd8e: IGD.Services.VoiceService.VoiceProfile.X_HW_Signal.List.
+  @0xbdc7: SignalName
+  @0xbdd2: Device.Services.VoiceService.VoiceProfile.X_HW_Signal.List.Unit.
+  @0xbe13: IGD.Services.VoiceService.VoiceProfile.X_HW_Signal.List.Unit.
+  @0xbe51: UnitType
+  @0xbe5a: UnitDuration
+  @0xbe67: UnitRepetitions
+  @0xbe77: UnitStartCondition
+  @0xbe8a: UnitEndCondition
+  @0xbe9b: Device.Services.VoiceService.VoiceProfile.X_HW_Signal.Mapping.
+  @0xbeda: IGD.Services.VoiceService.VoiceProfile.X_HW_Signal.Mapping.
+  @0xbf16: Device.Services.VoiceService.VoiceProfile.ServiceProviderInfo.
+  @0xbf55: IGD.Services.VoiceService.VoiceProfile.ServiceProviderInfo.
+  @0xbf91: Device.Services.VoiceService.VoiceProfile.Line.
+  @0xbfc1: IGD.Services.VoiceService.VoiceProfile.Line.
+  @0xbfee: DirectoryNumber
+  @0xbffe: PhyReferenceList
+  @0xc00f: X_HW_RtpLoop
+  @0xc01c: X_HW_Priority
+  @0xc02a: CallState
+  @0xc034: X_HW_ServiceState
+  @0xc046: X_HW_LastRegisterError
+  @0xc05d: X_HW_SubsUAProfile
+  @0xc070: X_HW_SubsRegState
+  @0xc082: X_HW_Description
+  @0xc093: RingMuteStatus
+  @0xc0a2: RingVolumeStatus
+  @0xc0b3: Device.Services.VoiceService.VoiceProfile.Line.SIP.
+  @0xc0e7: IGD.Services.VoiceService.VoiceProfile.Line.SIP.
+  @0xc118: AuthUserName
+  @0xc125: AuthPassword
+  @0xc132: URI
+  @0xc136: Device.Services.VoiceService.VoiceProfile.Line.SIP.X_HW_Digitmap.
+  @0xc178: IGD.Services.VoiceService.VoiceProfile.Line.SIP.X_HW_Digitmap.
+  @0xc1b7: Device.Services.VoiceService.VoiceProfile.Line.X_HW_H248.
+  @0xc1f1: IGD.Services.VoiceService.VoiceProfile.Line.X_HW_H248.
+  @0xc228: LineName
+  @0xc231: Device.Services.VoiceService.VoiceProfile.Line.CallingFeatures.
+  @0xc271: IGD.Services.VoiceService.VoiceProfile.Line.CallingFeatures.
+  @0xc2ae: CallerIDEnable
+  @0xc2bd: CallerIDNameEnable
+  @0xc2d0: CallerIDName
+  @0xc2dd: CallWaitingEnable
+  @0xc2ef: CallForwardUnconditionalEnable
+  @0xc30e: CallForwardUnconditionalNumber
+  @0xc32d: CallForwardOnBusyEnable
+  @0xc345: CallForwardOnBusyNumber
+  @0xc35d: CallForwardOnNoAnswerEnable
+  @0xc379: CallForwardOnNoAnswerNumber
+  @0xc395: CallForwardOnNoAnswerRingCount
+  @0xc3b4: CallTransferEnable
+  @0xc3c7: MWIEnable
+  @0xc3d1: X_HW_MWIMode
+  @0xc3de: X_HW_HotlineEnable
+  @0xc3f1: X_HW_HotlineNumber
+  @0xc404: X_HW_HotlineTimer
+  @0xc416: X_HW_3WayEnable
+  @0xc426: X_HW_CallHoldEnable
+  @0xc43a: X_HW_ConferenceEnable
+  @0xc450: X_HW_CentrexPrefix
+  @0xc463: X_HW_CentrexDialSecondaryEnable
+  @0xc483: X_HW_MCIDEnable
+  @0xc493: X_HW_DigitsSendingMethod
+  @0xc4ac: X_HW_ConferenceFactoryUri
+  @0xc4c6: X_HW_CancelCallWaitingDuringCallEnable
+  @0xc4ed: DoNotDisturbEnable
+  @0xc500: X_HW_DNDStatus
+  @0xc50f: X_HW_HotlineMode
+  @0xc520: X_HW_CLIPEnable
+  @0xc530: X_HW_PBXPrefixEnable
+  @0xc545: ConferenceCallingStatus
+  @0xc55d: ConferenceCallingSessionCount
+  @0xc57b: X_HW_SccClassEnable
+  @0xc58f: AnonymousCalEnable
+  @0xc5a2: AnonymousCallBlockEnable
+  @0xc5bb: CallWaitingStatus
+  @0xc5cd: MessageWaiting
+  @0xc5dc: CallReturnEnable
+  @0xc5ed: RepeatDialEnable
+  @0xc5fe: Device.Services.VoiceService.VoiceProfile.Line.VoiceProcessing.
+  @0xc63e: IGD.Services.VoiceService.VoiceProfile.Line.VoiceProcessing.
+  @0xc67b: TransmitGain
+  @0xc688: ReceiveGain
+  @0xc694: EchoCancellationInUse
+  @0xc6aa: EchoCancellationTail
+  @0xc6bf: Device.Services.VoiceService.VoiceProfile.Line.Stats.
+  @0xc6f5: IGD.Services.VoiceService.VoiceProfile.Line.Stats.
+  @0xc728: X_HW_PartResetStatistics
+  @0xc741: PacketsLost
+  @0xc74d: ReceivePacketLossRate
+  @0xc763: FarEndPacketLossRate
+  @0xc778: ReceiveInterarrivalJitter
+  @0xc792: FarEndInterarrivalJitter
+  @0xc7ab: RoundTripDelay
+  @0xc7ba: IncomingCallsReceived
+  @0xc7d0: IncomingCallsAnswered
+  @0xc7e6: IncomingCallsConnected
+  @0xc7fd: IncomingCallsFailed
+  @0xc811: OutgoingCallsAttempted
+  @0xc828: OutgoingCallsAnswered
+  @0xc83e: OutgoingCallsConnected
+  @0xc855: OutgoingCallsFailed
+  @0xc869: CallsDropped
+  @0xc876: TotalCallTime
+  @0xc884: ServerDownTime
+  @0xc893: AverageReceiveInterarrivalJitter
+  @0xc8b4: AverageFarEndInterarrivalJitter
+  @0xc8d4: AverageRoundTripDelay
+  @0xc8ea: X_HW_PacketLossRate
+  @0xc8fe: X_HW_MaxReceiveInterarrivalJitter
+  @0xc920: X_HW_MaxFarEndInterarrivalJitter
+  @0xc941: Overruns
+  @0xc94a: Underruns
+  @0xc954: X_HW_RTPErrors
+  @0xc963: X_HW_MaxTimeBetweenRTCPPackets
+  @0xc982: X_HW_CallSetupTimerMax
+  @0xc999: X_HW_AnalogPortReleasesCount
+  @0xc9b6: X_HW_AnalogPortOffhookTimerMax
+  @0xc9d5: X_HW_SIPCallFailedToConnectCounter
+  @0xc9f8: X_HW_SIPCallTimeoutCounter
+  @0xca13: X_HW_SIPCallFailureReceivedCounter
+  @0xca36: X_HW_SIPCallFailedToAuthenticateCounter
+  @0xca5e: Device.Services.VoiceService.VoiceProfile.Line.Codec.
+  @0xca94: IGD.Services.VoiceService.VoiceProfile.Line.Codec.
+  @0xcac7: TransmitCodec
+  @0xcad5: ReceiveCodec
+  @0xcae2: TransmitBitRate
+  @0xcaf2: ReceiveBitRate
+  @0xcb01: TransmitSilenceSuppression
+  @0xcb1c: ReceiveSilenceSuppression
+  @0xcb36: TransmitPacketizationPeriod
+  @0xcb52: Device.Services.VoiceService.VoiceProfile.Line.Codec.List.
+  @0xcb8d: IGD.Services.VoiceService.VoiceProfile.Line.Codec.List.
+  @0xcbc5: Codec
+  @0xcbcb: PacketizationPeriod
+  @0xcbdf: Codecs
+  @0xcbe6: Device.Services.VoiceService.VoiceProfile.Line.X_HW_UAProfileStatus.
+  @0xcc2b: IGD.Services.VoiceService.VoiceProfile.Line.X_HW_UAProfileStatus.
+  @0xcc6d: dial-tone-pattern
+  @0xcc7f: mcid-service
+  @0xcc8c: no-dialing-behaviour
+  @0xcca1: hold-service
+  @0xccae: three-party-service
+  @0xccc2: cw-service
+  @0xcccd: Device.Services.VoiceService.VoiceProfile.Line.Session.
+  @0xcd05: IGD.Services.VoiceService.VoiceProfile.Line.Session.
+  @0xcd3a: SessionStartTime
+  @0xcd4b: SessionDuration
+  @0xcd5b: FarEndIPAddress
+  @0xcd6b: FarEndUDPPort
+  @0xcd79: LocalUDPPort
+  @0xcd86: Device.Services.VoiceService.VoiceProfile.Line.Ringer.
+  @0xcdbd: IGD.Services.VoiceService.VoiceProfile.Line.Ringer.
+  @0xcdf1: Device.Services.VoiceService.VoiceProfile.Line.Ringer.Event.
+  @0xce2e: IGD.Services.VoiceService.VoiceProfile.Line.Ringer.Event.
+  @0xce68: RingID
+  @0xce6f: Device.Services.VoiceService.VoiceProfile.Line.Ringer.Description.
+  @0xceb2: IGD.Services.VoiceService.VoiceProfile.Line.Ringer.Description.
+  @0xcef2: RingEnable
+  @0xcefd: RingPattern
+  @0xcf09: RingFile
+  @0xcf12: Device.Services.VoiceService.VoiceProfile.Line.Ringer.Pattern.
+  @0xcf51: IGD.Services.VoiceService.VoiceProfile.Line.Ringer.Pattern.
+  @0xcf8d: RingerOn
+  @0xcf96: Device.Services.VoiceService.PhyInterface.
+  @0xcfc1: IGD.Services.VoiceService.PhyInterface.
+  @0xcfe9: InterfaceID
+  @0xcff5: PhyPort
+  @0xcffd: X_HW_Loop
+  @0xd007: X_HW_Status
+  @0xd013: Device.Services.VoiceService.PhyInterface.Tests.
+  @0xd044: IGD.Services.VoiceService.PhyInterface.Tests.
+  @0xd072: TestState
+  @0xd07c: TestSelector
+  @0xd089: PhoneConnectivity
+  @0xd09b: Device.Services.VoiceService.PhyInterface.Tests.X_HW_LineTest.
+  @0xd0da: IGD.Services.VoiceService.PhyInterface.Tests.X_HW_LineTest.
+  @0xd116: IsTestOnBusy
+  @0xd123: Conclusion
+  @0xd12e: AGACVoltage
+  @0xd13a: BGACVoltage
+  @0xd146: ABACVoltage
+  @0xd152: AGDCVoltage
+  @0xd15e: BGDCVoltage
+  @0xd16a: ABDCVoltage
+  @0xd176: AGInsulationResistance
+  @0xd18d: BGInsulationResistance
+  @0xd1a4: ABInsulationResistance
+  @0xd1bb: AGCapacitance
+  @0xd1c9: BGCapacitance
+  @0xd1d7: ABCapacitance
+  @0xd1e5: Device.Services.VoiceService.PhyInterface.Tests.X_HW_SimulateTest.
+  @0xd228: IGD.Services.VoiceService.PhyInterface.Tests.X_HW_SimulateTest.
+  @0xd268: TestType
+  @0xd271: CalledNumber
+  @0xd27e: IsAuto
+  @0xd285: CallHoldTimer
+  @0xd293: CalledWaitTimer
+  @0xd2a3: DialDTMFConfirmEnable
+  @0xd2b9: DailDTMFConfirmEnable
+  @0xd2cf: DialDTMFConfirmNumber
+  @0xd2e5: DailDTMFConfirmNumber
+  @0xd2fb: CallType
+  @0xd304: DTMFSendSequence
+  @0xd315: DialDTMFConfirmResult
+  @0xd32b: DailDTMFConfirmResult
+  @0xd341: CalledNumberToRemote
+  @0xd356: CallerFailReason
+  @0xd367: CalledFailReason
+  @0xd378: FailedResponseCode
+  @0xd38b: AutoTestResult
+  @0xd39a: DTMFReceiveSequence
+  @0xd3ae: Device.Services.VoiceService.PhyInterface.Tests.X_HW_InnerTest.
+  @0xd3ee: IGD.Services.VoiceService.PhyInterface.Tests.X_HW_InnerTest.
+  @0xd42b: LoopCurrentTestResult
+  @0xd441: FeedTestResult
+  @0xd450: RingTestResult
+  @0xd45f: OnOffHookTestResult
+  @0xd473: LoopCurrentValue
+  @0xd484: FeedValue
+  @0xd48e: RingValue
+  @0xd498: Device.Services.VoiceService.PhyInterface.X_HW_RemoteCap.
+  @0xd4d2: IGD.Services.VoiceService.PhyInterface.X_HW_RemoteCap.
+  @0xd509: TimerAutoStop
+  @0xd517: CapType
+  @0xd51f: Device.Services.VoiceService.PhyInterface.X_HW_IPSpc.
+  @0xd555: IGD.Services.VoiceService.PhyInterface.X_HW_IPSpc.
+  @0xd588: PortName
+  @0xd591: LocalTransport
+  @0xd5a0: RemoteIP
+  @0xd5a9: RemoteTransport
+  @0xd5b9: MediaMode
+  @0xd5c3: JbMode
+  @0xd5ca: Device.Services.VoiceService.PhyInterface.X_HW_DspTemplate.
+  @0xd606: IGD.Services.VoiceService.PhyInterface.X_HW_DspTemplate.
+  @0xd63f: NLP
+  @0xd643: WorkMode
+  @0xd64c: Device.Services.VoiceService.PhyInterface.X_HW_Extend.
+  @0xd683: IGD.Services.VoiceService.PhyInterface.X_HW_Extend.
+  @0xd6b7: DialMode
+  @0xd6c0: DialPulseInterval
+  @0xd6d2: DialPulsePeriodUpperLimit
+  @0xd6ec: DialPulsePeriodLowerLimit
+  @0xd706: DialPulseMakeUpperLimit
+  @0xd71e: DialPulseMakeLowerLimit
+  @0xd736: DialPulseBreakUpperLimit
+  @0xd74f: DialPulseBreakLowerLimit
+  @0xd768: CallerOffhookShakeTime
+  @0xd77f: CalledOffhookShakeTime
+  @0xd796: HookFlashUpTime
+  @0xd7a6: HookFlashDownTime
+  @0xd7b8: OnhookConfirmTime
+  @0xd7ca: Impedance
+  @0xd7d4: Current
+  @0xd7dc: CurrentOnPark
+  @0xd7ea: RingFrequency
+  @0xd7f8: RingVoltage
+  @0xd804: DCTime
+  @0xd80b: SendGain
+  @0xd814: ReversePolePulse
+  @0xd825: ReversePolePulseLevel
+  @0xd83b: KcType
+  @0xd842: KcHighLevel
+  @0xd84e: KcLowLevel
+  @0xd859: KcVoltage
+  @0xd863: FskTime
+  @0xd86b: ClipTransWhen
+  @0xd879: ClipFormat
+  @0xd884: ClipReversePole
+  @0xd894: ClipFskMode
+  @0xd8a0: ClipTasPattern
+  @0xd8af: ClipForceSendFsk
+  @0xd8c0: ClipSendDateTime
+  @0xd8d1: BellAnsEnable
+  @0xd8df: DetectAnsbarBySingleToneEnable
+  @0xd8fe: MWIRingFlag
+  @0xd90a: ReversePoleOnAnswer
+  @0xd91e: ToneIdForNoLineConfig
+  @0xd934: DspTemplateName
+  @0xd944: RingDCVoltageOverlapped
+  @0xd95c: UserDefineRingVoltage
+  @0xd972: DspHighPassFilterEnable
+  @0xd98a: DspDtmfDetHighPassFilterValue
+  @0xd9a8: ClipNormalPoleAfterFsk
+  @0xd9bf: PowerDenyForOutOfService
+  @0xd9d8: V21lANSEnable
+  @0xd9e6: V21hANSEnable
+  @0xd9f4: Bell103MarkANSEnable
+  @0xda09: V22usb1DualFreqANSEnable
+  @0xda22: V22usb1TriFreqANSEnable
+  @0xda3a: V25ctANSEnable
+  @0xda49: V32aaANSEnable
+  @0xda58: V18aANSEnable
+  @0xda66: V8bisCReANSEnable
+  @0xda78: Device.Services.VoiceService.PhyInterface.X_HW_Stats.
+  @0xdaae: IGD.Services.VoiceService.PhyInterface.X_HW_Stats.
+  @0xdae1: Device.Services.VoiceService.PhyInterface.X_HW_Stats.PoorQualityList.
+  @0xdb27: IGD.Services.VoiceService.PhyInterface.X_HW_Stats.PoorQualityList.
+  @0xdb6a: StatTime
+  @0xdb73: TxPackets
+  @0xdb7d: RxPackets
+  @0xdb87: MeanDelay
+  @0xdb91: MeanJitter
+  @0xdb9c: FractionLoss
+  @0xdba9: MosLq
+  @0xdbaf: Device.Services.VoiceService.X_HW_RemoteCapServer.
+  @0xdbe2: IGD.Services.VoiceService.X_HW_RemoteCapServer.
+  @0xdc12: ReplaceSourceIP
+  @0xdc22: Device.Services.VoiceService.X_HW_DialSN.
+  @0xdc4c: IGD.Services.VoiceService.X_HW_DialSN.
+  @0xdc73: TimerWaitInput
+  @0xdc82: TimerCompleteInput
+  @0xdc95: InputToneId
+  @0xdca1: FailSetToneId
+  @0xdcaf: SucessSetToneId
+  @0xdcbf: IsDialSNSecurityDisabled
+  @0xdcd8: IsHaveAuthed
+  @0xdce5: DialSNMode
+  @0xdcf0: PONAuthInfoQueryCode
+  @0xdd05: PONAuthInfoToneId
+  @0xdd17: Device.Services.VoiceService.X_HW_LineTestThreshold.
+  @0xdd4c: IGD.Services.VoiceService.X_HW_LineTestThreshold.
+  @0xdd7e: Threshold0
+  @0xdd89: Threshold1
+  @0xdd94: Threshold2
+  @0xdd9f: Threshold3
+  @0xddaa: Threshold4
+  @0xddb5: Threshold5
+  @0xddc0: Threshold6
+  @0xddcb: Threshold7
+  @0xddd6: Threshold8
+  @0xdde1: Threshold9
+  @0xddec: Threshold10
+  @0xddf8: Threshold11
+  @0xde04: Threshold12
+  @0xde10: Threshold13
+  @0xde1c: Device.Services.VoiceService.X_HW_InnerCall.
+  @0xde49: IGD.Services.VoiceService.X_HW_InnerCall.
+  @0xde73: Device.Services.VoiceService.X_HW_SimulateTestParameters.
+  @0xdead: IGD.Services.VoiceService.X_HW_SimulateTestParameters.
+  @0xdee4: CalledNumberDialInterval
+  @0xdefd: DialDTMFConfirmInputToneId
+  @0xdf18: DialDTMFConfirmFailToneId
+  @0xdf32: DialDTMFConfirmSucessToneId
+  @0xdf4e: DTMFSendDelay
+  @0xdf5c: DTMFSendPeriod
+  @0xdf6b: DTMFSendInterval
+  @0xdf7c: Device.Services.VoiceService.X_HW_InnerParameters.
+  @0xdfaf: IGD.Services.VoiceService.X_HW_InnerParameters.
+  @0xdfdf: AutoResetInterfaceTimer
+  @0xdff7: FskBindReceiveGainEnable
+  @0xe010: ToneBindReceiveGainEnable
+  @0xe02a: SendGainRelativeEnable
+  @0xe041: DelayResetTimerOnExistCall
+  @0xe05c: GracefulTimerOnCallClear
+  @0xe075: ConfigurationInterruptCallEnable
+  @0xe096: CodecPreferredMode
+  @0xe0a9: UserAgentDomainPriorityMode
+  @0xe0c5: VBDDualDetectReportMode
+  @0xe0dd: RegisterExpiresPriorityMode
+  @0xe0f9: OAMConfigEnable
+  @0xe109: PingTestEnable
+  @0xe118: RegisterTimeOutArpPingEnable
+  @0xe135: NoneOMCISIPAlarmEnable
+  @0xe14c: RFC2833MarkPktRetransEnable
+  @0xe168: G722RTPClockRate
+  @0xe179: SIPLoopBackMirrorEnable
+  @0xe191: ConfigureIsolation
+  @0xe1a4: AdoptOMCIDTMFMethod
+  @0xe1b8: VoIPCallLogMode
+  @0xe1c8: FlushDNSCacheWhenWANUp
+  @0xe1df: TelNoAsDisplayNameEnable
+  @0xe1f8: Device.Services.VoiceService.Capabilities.
+  @0xe223: IGD.Services.VoiceService.Capabilities.
+  @0xe24b: MaxProfileCount
+  @0xe25b: MaxLineCount
+  @0xe268: MaxSessionsPerLine
+  @0xe27b: MaxSessionCount
+  @0xe28b: SignalingProtocols
+  @0xe29e: Regions
+  @0xe2a6: RTCP
+  @0xe2ab: SRTP
+  @0xe2b0: SRTPKeyingMethods
+  @0xe2c2: SRTPEncryptionKeySizes
+  @0xe2d9: RTPRedundancy
+  @0xe2e7: DSCPCoupled
+  @0xe2f3: EthernetTaggingCoupled
+  @0xe30a: PSTNSoftSwitchOver
+  @0xe31d: FaxT38
+  @0xe324: ToneGeneration
+  @0xe333: ToneDescriptionsEditable
+  @0xe34c: PatternBasedToneGeneration
+  @0xe367: FileBasedToneGeneration
+  @0xe37f: ToneFileFormats
+  @0xe38f: RingGeneration
+  @0xe39e: RingDescriptionsEditable
+  @0xe3b7: PatternBasedRingGeneration
+  @0xe3d2: RingPatternEditable
+  @0xe3e6: FileBasedRingGeneration
+  @0xe3fe: RingFileFormats
+  @0xe40e: NumberingPlan
+  @0xe41c: ButtonMap
+  @0xe426: VoicePortTests
+  @0xe435: X_HW_Heartbeat
+  @0xe444: Device.Services.VoiceService.Capabilities.SIP.
+  @0xe473: IGD.Services.VoiceService.Capabilities.SIP.
+  @0xe49f: Role
+  @0xe4a4: Extensions
+  @0xe4af: Transports
+  @0xe4ba: URISchemes
+  @0xe4c5: EventSubscription
+  @0xe4d7: ResponseMap
+  @0xe4e3: TLSAuthenticationProtocols
+  @0xe4fe: TLSAuthenticationKeySizes
+  @0xe518: TLSEncryptionProtocols
+  @0xe52f: TLSEncryptionKeySizes
+  @0xe545: TLSKeyExchangeProtocols
+  @0xe55d: Device.Services.VoiceService.Capabilities.Codecs.
+  @0xe58f: IGD.Services.VoiceService.Capabilities.Codecs.
+  @0xe5be: Device.Services.VoiceService.X_HW_DspTemplate.
+  @0xe5ed: IGD.Services.VoiceService.X_HW_DspTemplate.
+  @0xe619: Device.Services.VoiceService.X_HW_DspTemplate.ServiceNumMapping.
+  @0xe65a: IGD.Services.VoiceService.X_HW_DspTemplate.ServiceNumMapping.
+  @0xe698: ServiceNum
+  @0xe6a3: TemplateName
+  @0xe6b0: Device.Services.VoiceService.X_HW_DspTemplate.Templates.
+  @0xe6e9: IGD.Services.VoiceService.X_HW_DspTemplate.Templates.
+  @0xe71f: EchoCancellation
+  @0xe730: DspTransmitGain
+  @0xe740: DspReceiveGain
+  @0xe74f: Rfc2833ForDtmf
+  @0xe75e: Rfc2833ForDataEvent
+  @0xe772: DspSpecialFlow
+  @0xe781: Rfc2198ForVBD
+  @0xe78f: Device.WiFi.
+  @0xe79c: IGD.LANDevice.WiFi.
+  @0xe7b0: RadioNumberOfEntries
+  @0xe7c5: X_HW_VideoEnhanced
+  @0xe7d8: SSIDNumberOfEntries
+  @0xe7ec: IGD.LANDevice.LANWLANConfigurationNumberOfEntries
+  @0xe81e: AccessPointNumberOfEntries
+  @0xe839: IGD.LANDevice.LANWLANConfigurationNumberOfEntries|AccessPointNumberOfEntries|
+  @0xe887: Device.WiFi.X_HW_GlobalConfig.
+  @0xe8a6: IGD.LANDevice.WiFi.X_HW_GlobalConfig.
+  @0xe8cc: BandSteeringPolicy
+  @0xe8df: BandSteeringCycle
+  @0xe8f1: KickHoldTime
+  @0xe8fe: PreemptTime
+  @0xe90a: PreemptRssiThreshold
+  @0xe91f: BandSteeringSamplingNumber
+  @0xe93a: BandSteeringCapability
+  @0xe951: Device.WiFi.X_HW_GlobalConfig.X_HW_UseBandSteering.
+  @0xe985: IGD.LANDevice.WiFi.X_HW_GlobalConfig.X_HW_UseBandSteering.
+  @0xe9c0: CurrentBand
+  @0xe9cc: RssiThreshold
+  @0xe9da: RssiBackoffThreshold
+  @0xe9ef: LoadbalanceThreshold
+  @0xea04: MinStaPhyRateThreshold
+  @0xea1b: BackoffTime
+  @0xea27: RssiBuffer
+  @0xea32: LoadbalanceBuffer
+  @0xea44: ChannelUtilization
+  @0xea57: Device.WiFi.Radio.
+  @0xea6a: IGD.LANDevice.WiFi.Radio.
+  @0xea84: SupportedFrequencyBands
+  @0xea9c: OperatingFrequencyBand
+  @0xeab3: ChannelsInUse
+  @0xeac1: IGD.LANDevice.WLANConfiguration.ChannelsInUse
+  @0xeaef: Channel
+  @0xeaf7: IGD.LANDevice.WLANConfiguration.Channel
+  @0xeb1f: AutoChannelSupported
+  @0xeb34: AutoChannelEnable
+  @0xeb46: IGD.LANDevice.WLANConfiguration.AutoChannelEnable
+  @0xeb78: BasicDataTransmitRates
+  @0xeb8f: IGD.LANDevice.WLANConfiguration.BasicDataTransmitRates
+  @0xebc6: OperationalDataTransmitRates
+  @0xebe3: IGD.LANDevice.WLANConfiguration.OperationalDataTransmitRates
+  @0xec20: SupportedDataTransmitRates
+  @0xec3b: IGD.LANDevice.WLANConfiguration.PossibleDataTransmitRates
+  @0xec75: TransmitPowerSupported
+  @0xec8c: IGD.LANDevice.WLANConfiguration.TransmitPowerSupported
+  @0xecc3: TransmitPower
+  @0xecd1: IGD.LANDevice.WLANConfiguration.TransmitPower
+  @0xecff: SupportedStandards
+  @0xed12: IGD.LANDevice.WLANConfiguration.X_HW_SupportedStandards
+  @0xed4a: OperatingStandards
+  @0xed5d: IGD.LANDevice.WLANConfiguration.X_HW_TR181ForWlan.X_HW_TR181_OperatingStandard
+  @0xedac: CurrentOperatingChannelBandwidth
+  @0xedcd: IGD.LANDevice.WLANConfiguration.X_HW_CurrentOperatingChannelBandwidth
+  @0xee13: OperatingChannelBandwidth
+  @0xee2d: IGD.LANDevice.WLANConfiguration.X_HW_OperatingChannelBandwidth
+  @0xee6c: PossibleChannels
+  @0xee7d: IGD.LANDevice.WLANConfiguration.PossibleChannels|PossibleChannels|
+  @0xeec0: IGD.LANDevice.WLANConfiguration.SSIDLowerLayers
+  @0xeef0: MCS
+  @0xeef4: IGD.LANDevice.WLANConfiguration.X_HW_MCS
+  @0xef1d: RegulatoryDomain
+  @0xef2e: IGD.LANDevice.WLANConfiguration.RegulatoryDomain
+  @0xef5f: GuardInterval
+  @0xef6d: AutoChannelRefreshPeriod
+  @0xef86: IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.AutoChannelRefreshPeriod
+  @0xefcf: ExtensionChannel
+  @0xefe0: IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.X_HW_ExtensionChannel
+  @0xf026: IEEE80211hSupported
+  @0xf03a: IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.X_HW_IEEE80211hSupported
+  @0xf083: IEEE80211hEnabled
+  @0xf095: IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.X_HW_IEEE80211hEnabled
+  @0xf0dc: RetryLimit
+  @0xf0e7: IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.X_HW_RetryLimit
+  @0xf127: CCARequest
+  @0xf132: IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.X_HW_CCARequest
+  @0xf172: CCAReport
+  @0xf17c: IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.X_HW_CCAReport
+  @0xf1bb: RPIHistogramRequest
+  @0xf1cf: IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.X_HW_RPIHistogramRequest
+  @0xf218: RPIHistogramReport
+  @0xf22b: IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.X_HW_RPIHistogramReport
+  @0xf273: LongRetryLimit
+  @0xf282: IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.X_HW_LongRetryLimit
+  @0xf2c6: PacketAggregationEnable
+  @0xf2de: IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.X_HW_PacketAggregationEnable
+  @0xf32b: PreambleType
+  @0xf338: IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.X_HW_PreambleType
+  @0xf37a: IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.X_HW_Upstream
+  @0xf3b8: DTIMPeriod
+  @0xf3c3: IGD.LANDevice.WLANConfiguration.X_HW_AdvanceConf.DtimPeriod
+  @0xf3ff: BeaconPeriod
+  @0xf40c: IGD.LANDevice.WLANConfiguration.X_HW_AdvanceConf.BeaconPeriod
+  @0xf44a: RTSThreshold
+  @0xf457: IGD.LANDevice.WLANConfiguration.X_HW_AdvanceConf.RTSThreshold
+  @0xf495: FragmentationThreshold
+  @0xf4ac: IGD.LANDevice.WLANConfiguration.X_HW_AdvanceConf.FragThreshold
+  @0xf4eb: MaxSupportedAssociations
+  @0xf504: IGD.LANDevice.WiFi.Radio.X_HW_AdvanceCfg.MaxSupportedAssociations
+  @0xf546: SupportedOperatingChannelBandwidths
+  @0xf56a: IGD.LANDevice.WLANConfiguration.X_HW_SupportedChannelBandwidths
+  @0xf5aa: Device.WiFi.Radio.Stats.
+  @0xf5c3: IGD.LANDevice.WiFi.Radio.Stats.
+  @0xf5e3: PLCPErrorCount
+  @0xf5f2: FCSErrorCount
+  @0xf600: InvalidMACCount
+  @0xf610: PacketsOtherReceived
+  @0xf625: Noise
+  @0xf62b: Device.WiFi.SSID.
+  @0xf63d: IGD.LANDevice.WLANConfiguration.
+  @0xf65e: IGD.LANDevice.WLANConfiguration.SSIDStatus
+  @0xf689: IGD.LANDevice.WLANConfiguration.SSIDAlias
+  @0xf6b3: IGD.LANDevice.WLANConfiguration.SSIDLowerLayers|LowerLayers|
+  @0xf6f0: BSSID
+  @0xf6f6: IGD.LANDevice.WLANConfiguration.BSSID|MACAddress|
+  @0xf728: SSID
+  @0xf72d: Device.WiFi.SSID.Stats.
+  @0xf745: IGD.LANDevice.WLANConfiguration.Stats.
+  @0xf76c: IGD.LANDevice.WLANConfiguration.TotalBytesSent
+  @0xf79b: IGD.LANDevice.WLANConfiguration.TotalBytesReceived
+  @0xf7ce: IGD.LANDevice.WLANConfiguration.TotalPacketsSent
+  @0xf7ff: IGD.LANDevice.WLANConfiguration.TotalPacketsReceived
+  @0xf834: RetransCount
+  @0xf841: FailedRetransCount
+  @0xf854: RetryCount
+  @0xf85f: MultipleRetryCount
+  @0xf872: ACKFailureCount
+  @0xf882: AggregatedPacketCount
+  @0xf898: Device.WiFi.AccessPoint.
+  @0xf8b1: IGD.LANDevice.WLANConfiguration|AccessPoint|.
+  @0xf8df: IGD.LANDevice.WLANConfiguration.AccessPointStatus
+  @0xf911: IGD.LANDevice.WLANConfiguration.AccessPointAlias
+  @0xf942: SSIDReference
+  @0xf950: SSIDAdvertisementEnabled
+  @0xf969: WMMCapability
+  @0xf977: IGD.LANDevice.WLANConfiguration.WMMSupported
+  @0xf9a4: UAPSDCapability
+  @0xf9b4: IGD.LANDevice.WLANConfiguration.UAPSDSupported
+  @0xf9e3: WMMEnable
+  @0xf9ed: UAPSDEnable
+  @0xf9f9: AssociatedDeviceNumberOfEntries
+  @0xfa19: IGD.LANDevice.WLANConfiguration.TotalAssociations
+  @0xfa4b: MaxAssociatedDevices
+  @0xfa60: IGD.LANDevice.WLANConfiguration.X_HW_AssociateNum
+  @0xfa92: IsolationEnable
+  @0xfaa2: MACAddressControlEnabled
+  @0xfabb: AllowedMACAddress
+  @0xfacd: IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.X_HW_RetryLimit|RetryLimit|
+  @0xfb19: Device.WiFi.AccessPoint.Security.
+  @0xfb3b: IGD.LANDevice.WLANConfiguration|Security|.
+  @0xfb66: ModesSupported
+  @0xfb75: ModeEnabled
+  @0xfb81: WEPKey
+  @0xfb88: IGD.LANDevice.WLANConfiguration.WEPKey.WEPKey
+  @0xfbb6: PreSharedKey
+  @0xfbc3: IGD.LANDevice.WLANConfiguration.PreSharedKey.PreSharedKey
+  @0xfbfd: KeyPassphrase
+  @0xfc0b: IGD.LANDevice.WLANConfiguration.PreSharedKey.KeyPassphrase
+  @0xfc46: RekeyingInterval
+  @0xfc57: IGD.LANDevice.WLANConfiguration.X_HW_GroupRekey
+  @0xfc87: RadiusServerIPAddr
+  @0xfc9a: IGD.LANDevice.WLANConfiguration.X_HW_RadiuServer
+  @0xfccb: SecondaryRadiusServerIPAddr
+  @0xfce7: RadiusServerPort
+  @0xfcf8: IGD.LANDevice.WLANConfiguration.X_HW_RadiusPort
+  @0xfd28: SecondaryRadiusServerPort
+  @0xfd42: RadiusSecret
+  @0xfd4f: IGD.LANDevice.WLANConfiguration.X_HW_RadiusKey
+  @0xfd7e: SecondaryRadiusSecret
+  @0xfd94: EncryptionMode
+  @0xfda3: IGD.LANDevice.WLANConfiguration.X_HW_AttachConf.X_HW_EncryptionMode
+  @0xfde7: Device.WiFi.AccessPoint.Accounting.
+  @0xfe0b: IGD.LANDevice.WLANConfiguration.Accounting.
+  @0xfe37: ServerIPAddr
+  @0xfe44: IGD.LANDevice.WLANConfiguration.X_HW_RadiuServer|ServerIPAddr|
+  @0xfe83: SecondaryServerIPAddr
+  @0xfe99: SecondaryServerPort
+  @0xfead: Secret
+  @0xfeb4: IGD.LANDevice.WLANConfiguration.X_HW_RadiusKey|Secret|
+  @0xfeeb: SecondarySecret
+  @0xfefb: InterimInterval
+  @0xff0b: Device.WiFi.AccessPoint.WPS.
+  @0xff28: IGD.LANDevice.WLANConfiguration.WPS.
+  @0xff4d: ConfigMethodsSupported
+  @0xff64: IGD.LANDevice.WLANConfiguration.WPS.WPSConfigMethodsSupported
+  @0xffa2: ConfigMethodsEnabled
+  @0xffb7: IGD.LANDevice.WLANConfiguration.WPS.WPSConfigMethodsEnabled
+  @0xfff3: Device.WiFi.AccessPoint.AssociatedDevice.
+  @0x1001d: IGD.LANDevice.WLANConfiguration.AssociatedDevice.
+  @0x1004f: IGD.LANDevice.WLANConfiguration.AssociatedDevice.AssociatedDeviceMACAddress
+  @0x1009b: AuthenticationState
+  @0x100af: IGD.LANDevice.WLANConfiguration.AssociatedDevice.AssociatedDeviceAuthenticationState
+  @0x10104: LastDataDownlinkRate
+  @0x10119: IGD.LANDevice.WLANConfiguration.AssociatedDevice.X_HW_LastDataDownlinkRate
+  @0x10164: LastDataUplinkRate
+  @0x10177: IGD.LANDevice.WLANConfiguration.AssociatedDevice.X_HW_LastDataUplinkRate
+  @0x101c0: SignalStrength
+  @0x101cf: IGD.LANDevice.WLANConfiguration.AssociatedDevice.SignalStrength
+  @0x1020f: OperatingStandard
+  @0x10221: IGD.LANDevice.WLANConfiguration.AssociatedDevice.X_HW_OperatingStandards
+  @0x1026a: Retransmissions
+  @0x1027a: Device.WiFi.AccessPoint.AssociatedDevice.Stats.
+  @0x102aa: IGD.LANDevice.WLANConfiguration.AssociatedDevice.StaDeviceStats.
+  @0x102eb: Device.WiFi.NeighboringWiFiDiagnostic.
+  @0x10312: IGD.LANDevice.WiFi.NeighboringWiFiDiagnostic.
+  @0x10340: Device.WiFi.NeighboringWiFiDiagnostic.Result.
+  @0x1036e: IGD.LANDevice.WiFi.NeighboringWiFiDiagnostic.Result.
+  @0x103a3: Radio
+  @0x103a9: IGD.LANDevice.WiFi.NeighboringWiFiDiagnostic.Result.LowLayer
+  @0x103e6: SecurityModeEnabled
+  @0x103fa: BasicDataTransferRates
+  @0x10411: SupportedDataTransferRates
+  @0x1042c: Device.WiFi.AccessPoint.AC.
+  @0x10448: IGD.LANDevice.WLANConfiguration.APWMMParameter.
+  @0x10478: AccessCategory
+  @0x10487: AIFSN
+  @0x1048d: ECWMin
+  @0x10494: ECWMax
+  @0x1049b: TxOpMax
+  @0x104a3: IGD.LANDevice.WLANConfiguration.APWMMParameter.TXOP
+  @0x104d7: AckPolicy
+  @0x104e1: Device.WiFi.AccessPoint.AC.Stats.
+  @0x10503: IGD.LANDevice.WLANConfiguration.APWMMParameter.Stats.
+  @0x10539: Device.DeviceInfo.TemperatureStatus.
+  @0x1055e: IGD.X_HW_DataModel.DeviceInfo.TemperatureStatus.
+  @0x1058f: TemperatureSensorNumberOfEntries
+  @0x105b0: Device.DeviceInfo.TemperatureStatus.TemperatureSensor.
+  @0x105e7: IGD.X_HW_DataModel.DeviceInfo.TemperatureStatus.TemperatureSensor.
+  @0x1062a: Device.SelfTestDiagnostics.
+  @0x10646: IGD.X_HW_DataModel.SelfTestDiagnostics.
+  @0x1066e: Results
+  @0x10676: Device.QoS.Flow.
+  @0x10687: IGD.X_HW_DataModel.QoS.Flow.
+  @0x106a4: TypeParameters
+  @0x106b3: App
+  @0x106b7: TrafficClass
+  @0x106c4: Policer
+  @0x106cc: InnerEthernetPriorityMark
+  @0x106e6: Device.AclServices.
+  @0x106fa: IGD.X_HW_Security.AclServices.
+  @0x10719: HTTPLanEnable
+  @0x10727: HTTPWanEnable
+  @0x10735: FTPLanEnable
+  @0x10742: FTPWanEnable
+  @0x1074f: TELNETLanEnable
+  @0x1075f: TELNETWanEnable
+  @0x1076f: SSHLanEnable
+  @0x1077c: SSHWanEnable
+  @0x10789: HTTPWifiEnable
+  @0x10798: TELNETWifiEnable
+  @0x107d1: v@::
+  @0x1081d: (H^
+  @0x1082f: Y3)
+  @0x10838: (*;
+  @0x10842: I<(
+  @0x10885: !t}Z
+  @0x108ad: "j]|
+  @0x108c6: $`2I
+  @0x108d8: Zj~
+  @0x10914: .p6J
+  @0x1092c: hS@
+  @0x10934: u^q
+  @0x1093e: 3}8
+  @0x1094d: u#g}
+  @0x1097f: kF~
+  @0x109a7: S+T
+  @0x109af: siM
+  @0x109ce: F(9
+  @0x109d8: 6|X?
+  @0x109f2: H<M
+  @0x10a2a: <y$U
+  @0x10a33: SxD
+  @0x10a5f: =R~
+  @0x10ac2: #V&h
+  @0x10acc: T>5
+  @0x10ad4: [f{
+  @0x10ae5: x9!a
+  @0x10aee: jhj-
+  @0x10af7: kF2
+  @0x10b37: tu&
+  @0x10b48: v aR
+  @0x10b6b: j(;
+  @0x10b73: uKm
+  @0x10b7c: |sr
+  @0x10b9a: *Pk
+  @0x10ba2: -u-h
+  @0x10bab: /P0
+  @0x10bc3: H3l
+  @0x10bf0: bpj0"
+  @0x10bfb: bH=
+  @0x10c0a:  Q%
+  @0x10c1f: Q}-
+  @0x10c32: DV3
+  @0x10c6e: HL*
+  @0x10c76: EI*
+  @0x10ccc: yGZ
+  @0x10cff: "jb
+  @0x10d18: X6q
+  @0x10d33: SrZ
+  @0x10d44: X,F
+  @0x10d53: bN5
+  @0x10d99: +GD
+  @0x10da1: 3s$u
+  @0x10db2: 7y\
+  @0x10dcb: fgT
+  @0x10dd3: v{Y*
+  @0x10df0: #c<
+  @0x10e1d: C)S
+  @0x10e25: ;=}
+  @0x10e3e: So.
+  @0x10ea3: 0p;z
+  @0x10ec6: u\SE
+  @0x10efa: |}x
+  @0x10f0d: erd
+  @0x10f32: D(y
+  @0x10f51: pEbk
+  @0x10f7f: o)=
+  @0x10fac: YFR*
+  @0x10fc4: YnN
+  @0x10fcd: b~mn
+  @0x10fff: aC\
+  @0x1100f: x,4
+  @0x1105d: :_o
+  @0x11079: VGq
+  @0x110a4: f2G
+  @0x110ac: BUd
+  @0x110c3: ~c_
+  @0x110d2: ,a;
+  @0x11101: 3!sa
+  @0x11111: ?$!
+  @0x11146: <)O
+  @0x1114e: oXKT
+  @0x11157: 0;/
+  @0x11168: `"z
+  @0x111c1: Lqw
+  @0x111c9: Qv+
+  @0x111da: )Nj
+  @0x11236: [y5U
+  @0x11262: YJe
+  @0x11284: e)a
+  @0x1128d: fIs
+  @0x112ad: j!TC
+  @0x112bb: (3Y
+  @0x112c5: m)sy
+  @0x112ce: (+T
+  @0x112d6: .S'
+  @0x112ef: r^fy
+  @0x1130c: uAu
+  @0x11314: v/}
+  @0x113ac: S~ S
+  @0x113ca: )4IM
+  @0x113e7: PTk
+  @0x113f7: kth
+  @0x1140d: dW=v
+  @0x1143f: lc>G
+  @0x1148e: ?5N
+  @0x114ae: zI=
+  @0x114cd: y9u
+  @0x1150e: nx\
+  @0x1153b: 7>$\
+  @0x11545: 96(
+  @0x1154e: 9~z
+  @0x11586: IqB
+  @0x115ac: Q5S
+  @0x11626: IOZ
+  @0x11636: Y74
+  @0x11670: y/I
+  @0x11696: T(m
+  @0x116a6: IA(
+  @0x116bd: R}?
+  @0x116d4: 9H[
+  @0x116dd: g,;_
+  @0x118b5: "ZtN}
+  @0x119eb: =zr
+  @0x11a14: A2c%
+  @0x11a1d: B:p
+  @0x11a4b: FJI
+  @0x11a93: MBbu
+  @0x11a9c: N28
+  @0x11aa4: OZ`
+  @0x11b5b: `2i
+  @0x11b88: dRv
+  @0x11ba8: gyt
+  @0x11c15: q"lXL
+  @0x11c3f: uZb
+  @0x11c6b: y-k
+  @0x11c92: }BQ
+  @0x11db7: 2KT
+  @0x12043: J+y
+  @0x1204b: RX{
+  @0x121c0: P|]
+  @0x122b9: "nh
+  @0x12399: !sh
+  @0x12409: +C(
+  @0x12542: G#k
+  @0x12623: [sr7
+  @0x126a2: gsA
+  @0x12741: uK$
+  @0x1277b: z# S
+  @0x127ed: {Er
+  @0x12937: 1R+
+  @0x12979: %70
+  @0x129af: ;Ub
+  @0x12ab6: 3'`?
+  @0x12bdf: {Yae
+  @0x12cb9: wbK
+  @0x12d0d: Vt^
+  @0x12d42: Tz}
+  @0x12d77: l-g
+  @0x12ddb: l3L
+  @0x12f37: 3`J
+  @0x12f57: 6TOB
+  @0x12f8f: ;Da
+  @0x13180: h<$^
+  @0x131c5: nT :
+  @0x131ce: olX
+  @0x1321e: v|XJ\
+  @0x13234: x$r:
+  @0x132d5: 40X
+  @0x1343d: S%s
+  @0x1378a: fO&
+  @0x137be: w.\
+  @0x137c6: ,GK
+  @0x13846: }`c
+  @0x138eb: mC<
+  @0x13982: #e,
+  @0x139ae: 'ec!
+  @0x13a23: 1e@
+  @0x13a2b: 2}z
+  @0x13a67: 8uH
+  @0x13a9b: =mM
+  @0x13aed: DMX
+  @0x13af8: E}1
+  @0x13b4d: MRc
+  @0x13b55: N#i
+  @0x13b7d: Ry(
+  @0x13c0f: `-i
+  @0x13cc4: p-U
+  @0x13eb6: %dI
+  @0x13ef7: 5]'
+  @0x141e9: Uys
+  @0x1435c: ^d.
+  @0x1444b: !kt
+  @0x144e8: /)5
+  @0x14520: 4~f
+  @0x14554: 9fL
+  @0x14598: ?1k
+  @0x1462d: LYR
+  @0x14641: NEX
+  @0x14685: TpkB
+  @0x146cc: Z&is
+  @0x146d5: [~2
+  @0x14701: _FU
+  @0x147d0: qND~
+  @0x147e5: s.T
+  @0x14818: xV(uR
+  @0x148cb: mk|
+  @0x14974: fJU
+  @0x14ab5: ~!)
+  @0x14acb: F!Y
+  @0x14b4c: {I$
+  @0x14df9: /pO
+  @0x14f21: 7}7
+  @0x14f73: &o7
+  @0x14fab: +SZ
+  @0x14fb3: ,wr_
+  @0x14fca: .6K
+  @0x1500e: 4"i
+  @0x1515a: RoP#P
+  @0x151da: ^/g
+  @0x1521e: dT}
+  @0x15246: hwB
+  @0x15272: lJi
+  @0x152d4: u7[
+  @0x1532c: }'<
+  @0x15469: 'Aw
+  @0x156a0: G!:
+  @0x156a8: ?<P
+  @0x1579b: WqU
+  @0x1580b: pBX
+  @0x159c5: (WO
+  @0x15a13: Dlm
+  @0x15a1b:   d
+  @0x15a8a: *(J
+  @0x15aaf: .Pn
+  @0x15b0c: 7 \
+  @0x15b69: @X 2
+  @0x15b90: DR@
+  @0x15bac: GF6W
+  @0x15bf1: M`&0
+  @0x15bfa: NP5~
+  @0x15c38: T 7
+  @0x15c4c: VP5
+  @0x15c8b: \X 
+  @0x15d6c: Rs2
+  @0x15eba: ^kE
+  @0x1604d: xd+
+  @0x160b2: Xxh
+  @0x160c0: p?.
+  @0x16118: pEFL
+  @0x16121:  eP
+  @0x1620d: 8Y3
+  @0x163e6: ADd
+  @0x164d1: $aNA
+  @0x16516: *Q9
+  @0x1651e: +"`j
+  @0x1658e: 5qP
+  @0x165c2: :[w
+  @0x16681: L9:&
+  @0x167f0: m))K
+  @0x16805: o]f6
+  @0x16852: vQMe
+  @0x168fb: I/9.
+  @0x16971: aj|T
+  @0x169bf: `Km
+  @0x16a1a: LJo
+  @0x16ca1: 9iN
+  @0x16d24: 1vC
+  @0x16e21: *4[
+  @0x16ebc: z f
+  @0x16edd: `I#
+  @0x16efa: j+J1
+  @0x16f41:  B8A
+  @0x16f81: &Z:
+  @0x16f8a: 'ZXF
+  @0x16fca: -j'
+  @0x17078: >L3
+  @0x17094: AHk
+  @0x1713f: Qz,
+  @0x17186: Xr4!
+  @0x17210: d"W
+  @0x1722e: gjK
+  @0x1726b: mD|
+  @0x172f7: ybh
+  @0x1747c: r80
+  @0x174b5: T5.
+  @0x17567: j$I
+  @0x1757b: j/|#
+  @0x1762b: RZrU
+  @0x17839: (K7
+  @0x1794a: sg3
+  @0x1795f: C}`
+  @0x17a27: %/>
+  @0x17a61: +73
+  @0x17ab9: 3{:
+  @0x17ac4: 43;
+  @0x17aec: 8K8
+  @0x17b00: :CH
+  @0x17b74: D{?8
+  @0x17c86: ]3*M
+  @0x17c8f: ^C9
+  @0x17ccf: dmu
+  @0x17d8a: uc'n
+  @0x17db0: y;Zo
+  @0x17db9: zsc
+  @0x17e40: FKI
+  @0x17e97: c@d
+  @0x17f37: cr5}
+  @0x180cb: {Rgx
+  @0x18353: a%L
+  @0x184c7: $gr
+  @0x18551: 0|.
+  @0x185d0: <\sT
+  @0x18617: C||
+  @0x18680: M<t
+  @0x18700: X$D
+  @0x18792: j:V
+  @0x187e9: m4E
+  @0x18837: t}^
+  @0x18854: wb|
+  @0x18876: U%f
+  @0x18d48: <6ia
+  @0x18e9f: =+6
+  @0x18f0c: m9%
+  @0x18ffb: '-*
+  @0x190be: :M|
+  @0x191b7: Pfj
+  @0x1924f: ^=j
+  @0x1929b: e}/
+  @0x19317: p=jH
+  @0x193ce: M#j
+  @0x1947b: ekW
+  @0x19570: u#h
+  @0x195ef: }35
+  @0x19909: &Kx
+  @0x19b06: .&<D
+  @0x19be4: Bfu
+  @0x19bec: CC 
+  @0x19c38: JnoT~
+  @0x19c42: KNs
+  @0x19c4a: LV~
+  @0x19dca: p@5
+  @0x19e15: w},
+  @0x19f8c: .pu
+  @0x19fbc: VYd
+  @0x1a0e1: i[L
+  @0x1a103: n=p
+  @0x1a25c: Y1e
+  @0x1a2b8: fYi
+  @0x1a4a9: wi)
+  @0x1a523: !gL
+  @0x1a543: $/P
+  @0x1a672: ?_Ki
+  @0x1a67b: @'(
+  @0x1a6a2: DO3
+  @0x1a705: Mf 
+  @0x1a79d: Z/]
+  @0x1a7b1: \AI
+  @0x1a83f: i/p
+  @0x1a8bf: tEf
+  @0x1ab21: 7Nn
+  @0x1ab79: 7'5
+  @0x1ab90: 'yD
+  @0x1abb8: sS_
+  @0x1ae85: pgk
+  @0x1b0ef: <R<*
+  @0x1b14c: DHU*)
+  @0x1b199: Kl"
+  @0x1b244: ZX}
+  @0x1b287: aHb
+  @0x1b4b5: p[%
+  @0x1b50d: H5q
+  @0x1b5cc: pOP1
+  @0x1b6ee: |4R
+  @0x1b75c: Pug
+  @0x1b85e: UvM
+  @0x1b8ae: 8:s/
+  @0x1b8e2: @mG!
+  @0x1b8f9: x5eY
+  @0x1bb07: %QI)
+  @0x1bb96: 2&*M
+  @0x1bb9f: 3!cZ
+  @0x1bba8: 4G^
+  @0x1bbff: <R|
+  @0x1bce1: O18 
+  @0x1bd26: UbH
+  @0x1bd5e: ZAq
+  @0x1bd8b: ^!G'_
+  @0x1be01: hi0
+  @0x1be58: pYk.
+  @0x1be6d: rqj
+  @0x1be9a: v!G&
+  @0x1bee8: }yk
+  @0x1bfb3: ASj
+  @0x1c0a2: 9nw
+  @0x1c135: aUE#
+  @0x1c25f: 83 
+  @0x1c29d: a26
+  @0x1c3ae: 1!P
+  @0x1c59b:  ::Y
+  @0x1c5cc: %JK%
+  @0x1c5f4: )9M
+  @0x1c623: -X|P
+  @0x1c62c: .r-
+  @0x1c778: Ljt
+  @0x1c7ec: VbG
+  @0x1c800: X\D
+  @0x1c815: Z*,
+  @0x1c81d: [NG
+  @0x1c825: \<N
+  @0x1c8b1: iRx,E
+  @0x1c91b: r:]
+  @0x1cb84: 5hN
+  @0x1cc5b: *TQ
+  @0x1cd0b: o63
+  @0x1cf0c: B=G
+  @0x1cfa9: JG@
+  @0x1d0d9: &Zc4
+  @0x1d0e2: '+L
+  @0x1d0eb: (cpN
+  @0x1d129: .kZ
+  @0x1d1e2: ?3NY
+  @0x1d20c: CL4{
+  @0x1d28c: Oc=0B
+  @0x1d2fd: YK49
+  @0x1d308: Z{6
+  @0x1d46d: y#q
+  @0x1d4a5: ~>D^
+  @0x1d52a: CGh
+  @0x1d6d6: #zZd
+  @0x1d77e: K:l
+  @0x1d8c5: K^]
+  @0x1da49: \)(
+  @0x1da9f: l B
+  @0x1daa8: .T0
+  @0x1db9d: &|H
+  @0x1dcdc: CfA
+  @0x1dd5d: N,`T
+  @0x1dd72: P]`
+  @0x1ddec: [L$^
+  @0x1df06: uT,
+  @0x1e078: k.I
+  @0x1e124: \mF
+  @0x1e138: D Z
+  @0x1e257: 3\6
+  @0x1e28b: d0i
+  @0x1e484: |&\
+  @0x1e4fc: Gf`
+  @0x1e5ca: :;>
+  @0x1e60a: !}\
+  @0x1e66a: *d\
+  @0x1e697: .}7
+  @0x1e6c3: 2-}
+  @0x1e74f: ?Mb
+  @0x1e766: A5rl
+  @0x1e76f: B%Q
+  @0x1e7a3: Gf5
+  @0x1e7ab: HUB
+  @0x1e7fb: OB7
+  @0x1e803: PmU"
+  @0x1e82c: Te<r
+  @0x1e87d: \VS
+  @0x1e891: ^WC
+  @0x1e998: u}i
+  @0x1e9e1: |"(
+  @0x1eb38: }n$
+  @0x1edc9: ]Px
+  @0x1ee4c: mUW
+  @0x1efe5: &N\C
+  @0x1f0d0:  fvT
+  @0x1f0ec: #)]
+  @0x1f130: )~; 
+  @0x1f139: *.|2
+  @0x1f189: 1^ 
+  @0x1f1e2: 9>g
+  @0x1f2d4: O6wJ
+  @0x1f30d: T.0
+  @0x1f323: V>>
+  @0x1f413: ke\=
+  @0x1f46e: tBH7
+  @0x1f48b: w`'
+  @0x1f514: NZ%J
+  @0x1f610: WO3
+  @0x1f630: nL.
+  @0x1f6f9: ^sE
+  @0x1f7ee: N2&
+  @0x1f87d: f?2
+  @0x1f929: 6C`
+  @0x1fa19: FR +
+  @0x1fa98: /XV
+  @0x1facb: :i.
+  @0x1faec: _f`
+  @0x1fbfe: E%1
+  @0x1fc18: +_~
+  @0x1fc66: 2[u
+  @0x1fcc8: ;7/
+  @0x1fd31: Fw"h
+  @0x1fe29: ]gk|
+  @0x1fece: kuC
+  @0x1ff32: tA/]
+  @0x1ff6b: y=.
+  @0x2019d: 7<@
+  @0x201f3: _K*
+  @0x20240: lgA
+  @0x2026e: ''U
+  @0x204a3: i/^
+  @0x204ab: /?Z
+  @0x204c0: G0]
+  @0x204c8: _bH
+  @0x20506: ]hN$
+  @0x2050f: tW 
+  @0x20518: y.k
+  @0x20523: 'P?
+  @0x20548: xU_
+  @0x20551: Pa<H
+  @0x205c8: Zi=
+  @0x205d0: ha~
+  @0x205f2: $ja
+  @0x2060a: 3zF;
+  @0x2061b: $Hf)
+  @0x20636: ^RX
+  @0x2063e: eJ 
+  @0x20663: "v<
+  @0x20672: /p z
+  @0x2067b: "8&
+  @0x20683: 1xG
+  @0x20699: 4 iN
+  @0x206a2: 5H.
+  @0x206b3: 4{uf
+  @0x206ef: ?@&S
+  @0x20768: IJ)
+  @0x20778: +=>~
+  @0x20788: >%OW
+  @0x20798: U $
+  @0x207d4: ][O
+  @0x207de: ^SU
+  @0x207e6: _xw.
+  @0x2080d: dT>
+  @0x20834: i(%
+  @0x20846: kxH
+  @0x20865: ^Hz
+  @0x2087b: r0>
+  @0x2088a: tX$ w
+  @0x208a0:  MyD
+  @0x208b1: 3o[Z
+  @0x208c3: 4'2
+  @0x208d9: Ww}
+  @0x208e7: W)J=
+  @0x2092a: "@@
+  @0x2095c: X\'
+  @0x20971: 8e+_
+  @0x2097b: ph5j
+  @0x20985: 1_"
+  @0x2099c: Fyh3
+  @0x209a5: @f7
+  @0x209bc: \qdZ^
+  @0x209c6: ftP
+  @0x20a44: Prt
+  @0x20a5b: b6s
+  @0x20a8b: tbU
+  @0x20aab: PD{
+  @0x20aee: jX}
+  @0x20b47: ##0
+  @0x20b60: 0k!/
+  @0x20b69: I[&I
+  @0x20b8f: y3_$M
+  @0x20b99: k7Q
+  @0x20bb4: c2C
+  @0x20bda: kJ4%
+  @0x20beb: 0\a
+  @0x20c0a: $k.
+  @0x20c20: @"g
+  @0x20c39: ^@5E
+  @0x20c4b: m}9
+  @0x20c8c: 745
+  @0x20cb1: 0ny
+  @0x20cd2: UfH
+  @0x20d18: u,j
+  @0x20d4d: %;h
+  @0x20d5d: HFy
+  @0x20d6e: mncv
+  @0x20d77: v>:
+  @0x20dcc: "!w
+  @0x20dd5: oeF
+  @0x20e11: *s,u
+  @0x20e2e: Wx<
+  @0x20e38: /|l
+  @0x20e4f: g@d
+  @0x20e67: G<@$
+  @0x20e7a: 71'
+  @0x20e8c: "8 ~
+  @0x20e95: :A:
+  @0x20ea4: sxBU
+  @0x20ead: 0QjK
+  @0x20ebd: 97X
+  @0x20edd: L!Ry
+  @0x20ee6: ^V,
+  @0x20f0e: Q[v
+  @0x20f3c: P=m
+  @0x20f44: Q G
+  @0x20f62: UQY
+  @0x20f94: [LgI
+  @0x20fae: ^a)
+  @0x20fc9: pZR@
+  @0x20fe2: :3b
+  @0x20fff: hy*
+  @0x21011: jAm
+  @0x21026: cCuv
+  @0x21036: xc/P!
+  @0x21040: p9[
+  @0x210c6: !l7
+  @0x210ee: H\9
+  @0x21131: AJW 
+  @0x21176: U9R
+  @0x211a3: eu~<d
+  @0x211ad: q%%
+  @0x2121d: }Gb
+  @0x2122d: Ad_
+  @0x2123c: ,fs~
+  @0x21245: Ana7
+  @0x21274: V8r
+  @0x21302: 4GU
+  @0x21319: uoR
+  @0x21328: *8f
+  @0x21356: Q7u
+  @0x2137e: whgr
+  @0x2138d: GUel
+  @0x213b9: AR[
+  @0x21471: A98
+  @0x21528: R^}
+  @0x21557: BQ`
+  @0x21649: #jG
+  @0x21698: *Zk
+  @0x21710: 5jO
+  @0x21775: >bk=
+  @0x217b5: D06
+  @0x217e1: HR&
+  @0x21935: h2;
+  @0x219a7: sHSA
+  @0x21a93: J-v
+  @0x21b0c: mKH
+  @0x21b7b: ZQe
+  @0x21bf4: zvr
+  @0x21cb2: BG<
+  @0x21d1c: R~.
+  @0x21d26: Z=[
+  @0x21db8: zJg
+  @0x21fbc: 3at
+  @0x220a7: {8p
+  @0x22103: #|}
+  @0x2213b: (Sf
+  @0x221c1: 4smd
+  @0x221e0: 73c
+  @0x222a0: H[K
+  @0x2245e: r{a
+  @0x224aa: yPP
+  @0x22690: k`=
+  @0x226c4: +zb
+  @0x226fc: jDJ
+  @0x2273d: +[(
+  @0x227d2: KRJ
+  @0x2298d: S('"
+  @0x229a4: ;6^L
+  @0x22b0c: >lX
+  @0x22b95: !<,
+  @0x22bea: )4V
+  @0x22c60: 44xE
+  @0x22ca1: :<s{}
+  @0x22d04: C)le
+  @0x22d38: H$:
+  @0x22dde: X[q+
+  @0x22e12: ]tQ#
+  @0x22e96: id_
+  @0x22eb1: lDg\
+  @0x22eba: ml6
+  @0x22f52: |iY
+  @0x22fe6: 3:l
+  @0x23104: LL2
+  @0x23148: 4= 
+  @0x231b3: LW$
+  @0x23285: T`h
+  @0x232d5: TMn
+  @0x233c0: ]Sc
+  @0x23543: 5GO
+  @0x2360a:  %%,
+  @0x23804: M5S
+  @0x23818: O8uN
+  @0x238a5: [et
+  @0x238e9: ac-
+  @0x23928: g=b5
+  @0x239e9: x%`y
+  @0x23ac3: eynY
+  @0x23ba7: %|[
+  @0x23d98: ]V[
+  @0x23f02: 57G
+  @0x23f16: }qC
+  @0x23f1e: = 5#
+  @0x23f47: U%3
+  @0x24093: >Gw
+  @0x240d7: !Vy@
+  @0x2410c: &fb(
+  @0x24116: '&(
+  @0x24450: p[-
+  @0x24591: ^"s*
+  @0x245c8: `-M
+  @0x245dc: LON
+  @0x247f1: >db
+  @0x24856: .sX
+  @0x2496c: ^96
+  @0x24b08: "k"
+  @0x24b48: WlH
+  @0x24c13: '}J
+  @0x24c33: *o~
+  @0x24c86: 2o\;
+  @0x24c8f: 39\
+  @0x24ca4: 5W2
+  @0x24cc1: 8KQ2
+  @0x24cee: <*P
+  @0x24df6: T7x]
+  @0x24e17: W?TIf
+  @0x24e81: ag\M
+  @0x24ef0: k_=
+  @0x24f24: p?r
+  @0x24fc1: ~/2
+  @0x24fd5: o(`r
+  @0x25157: ?&3
+  @0x251d0: WoU
+  @0x25622: PQ{
+  @0x256f1: -~!
+  @0x25759: 6j`
+  @0x25762: 7'L
+  @0x257b5: ?ol.
+  @0x257ee: D!w
+  @0x25995: kpD
+  @0x2599d: lP}
+  @0x25a22: x ,4
+  @0x25ad1: H?t
+  @0x25b85: X{y
+  @0x25bcc: 0G<
+  @0x25c76:  $H
+  @0x25d3d: "Po
+  @0x25d45: I.*
+  @0x25dec: 0-]
+  @0x260fb: yPK
+  @0x2616a: %+K
+  @0x2628a: Aie(
+  @0x262b5: EqmN^
+  @0x262c9: G&2R
+  @0x262e8: J!!
+  @0x26364: Ui6i
+  @0x26379: W%G
+  @0x263eb: ayA
+  @0x26479: nY#
+  @0x2649a: qI$i
+  @0x264c7: u)wr
+  @0x2650a: {D9
+  @0x268ae: YaB
+  @0x2690b: P"}
+  @0x26926: r=/
+  @0x2699c: 8;,
+  @0x26a9c: *T1
+  @0x26af5: b@E
+  @0x26c7d: ,R\_
+  @0x26cf2: 7Z$
+  @0x26d48: ?h+n
+  @0x26e21: Ss<
+  @0x26e29: TBi[
+  @0x26e62: Y"A@
+  @0x26e85: ]*Bg
+  @0x26f4b: o&5?
+  @0x26ff3: ~"I
+  @0x2709c: yAn
+  @0x27194: N/g
+  @0x2719c: BJa
+  @0x27233: -?Q
+  @0x272b3: 2& 
+  @0x2765a: +1V
+  @0x277c9: 9t&^
+  @0x277d2: :[W
+  @0x27816: @_s!
+  @0x27899: Lmq
+  @0x278e8: T"I
+  @0x278f9: V~]
+  @0x27901: Wb[
+  @0x279bf: h;Dp
+  @0x279c9: iK>
+  @0x27a2e: rCn
+  @0x27a87: z+U
+  @0x27b67: #g|
+  @0x27b87: i5p
+  @0x27d86: CjHx
+  @0x28186: #\K#
+  @0x282a6: <lX
+  @0x282d2: @4jX
+  @0x28307: E4DQ
+  @0x28352: L$d
+  @0x283f4: [up
+  @0x28513: v^T
+  @0x2854b: {k%
+  @0x2865a: <?T'
+  @0x286d5: <-$
+  @0x287d4: <u~
+  @0x28800: [^7
+  @0x2883a: 46M
+  @0x28c29: -_/S
+  @0x28d62: :~cl
+  @0x28dd7: D6:
+  @0x28ddf: EQM
+  @0x28de7: F-EmA
+  @0x28dfa: HUv
+  @0x28e0f: J-V+
+  @0x28e2a: Mm]
+  @0x28ee4: ]eg+
+  @0x28f35: e&8
+  @0x29008: xm6
+  @0x2901d: z%d
+  @0x29095: uwMS
+  @0x2914c: Eq/J
+  @0x29161: %}&
+  @0x29422: Ee&W
+  @0x295e5: .13H
+  @0x29750: %N+1H
+  @0x2983a: :V{
+  @0x29857: =ON
+  @0x298c4: Gn 
+  @0x298cc: H.`d
+  @0x29913: NFU
+  @0x2999d: Z&0BC
+  @0x299f6: btG
+  @0x29a76: m&H
+  @0x29a98: pFRL
+  @0x29b01: {fZ
+  @0x29b21: ~nA
+  @0x29cad: un2
+  @0x29da6: vkz
+  @0x29dfc: 66o
+  @0x29f4c: .Iu
+  @0x29f78: VR ^
+  @0x2a03e: nf=
+  @0x2a215: "7C
+  @0x2a449: WhHl
+  @0x2a472: [Wuf
+  @0x2a53c: m?P
+  @0x2a546: n_sD
+  @0x2a54f: owd
+  @0x2a580: t?+
+  @0x2a5aa: xWkd{
+  @0x2a5b4: y@>
+  @0x2a5f9: 7'u
+  @0x2a61a: DT-
+  @0x2a66f: +HD
+  @0x2a72d: /i3
+  @0x2abc7: aUk
+  @0x2aceb: " h
+  @0x2ad38: )J0
+  @0x2adda: 8`2.
+  @0x2ae2b: ?bC
+  @0x2ae4b: B0c(
+  @0x2ae54: ChB5
+  @0x2aec2: Mnk
+  @0x2aee3: Px{s
+  @0x2afc7: d|W
+  @0x2b018: lpl`
+  @0x2b163: 'Ps
+  @0x2b1af: HtA
+  @0x2b6ab: )(n
+  @0x2b761: <Gk
+  @0x2b7c0: !.S
+  @0x2b806: 'yD
+  @0x2b8a1: 5AVb
+  @0x2b95b: EUP
+  @0x2b96f: GyDS
+  @0x2b9b1: MYw
+  @0x2ba0a: Utp
+  @0x2ba31: Y!v
+  @0x2bab9: fXO
+  @0x2bb24: - #
+  @0x2bb58: ug9
+  @0x2bd50: tSg
+  @0x2bd64: w{(
+  @0x2c00f: a]b
+  @0x2c059: i#r
+  @0x2c1dd: j;1
+  @0x2c206: R/$
+  @0x2c24f: r6"
+  @0x2c305: .Qso
+  @0x2c44e: JZ\5
+  @0x2c49b: Q@t
+  @0x2c5e8: o|t
+  @0x2c5f0: p:g
+  @0x2c612: sJ9
+  @0x2c634: v:4
+  @0x2c63e: wr+
+  @0x2c66c: |1X?
+  @0x2c77d: 2|r
+  @0x2c7f8: "Ae
+  @0x2c800: :%g
+  @0x2c87e: J2]
+  @0x2c926: *N$
+  @0x2c97f: jo,
+  @0x2c9bb: zE@
+  @0x2cade: "`E
+  @0x2cbbf: J/)
+  @0x2cbd5: Oq5
+  @0x2cd57: #Sq
+  @0x2ce38: 7cs
+  @0x2ce40: 8s}d0
+  @0x2ce56: :K[
+  @0x2ce67: <{jU
+  @0x2d028: cC<
+  @0x2d05f: hKI
+  @0x2d130: zKVkn
+  @0x2d13a: {kU
+  @0x2d15c: ~sA
+  @0x2d552: stU
+  @0x2d765: DyN
+  @0x2d79e: D=z
+  @0x2d7bf: \Ho8
+  @0x2d846: <bI
+  @0x2d8a9: (h<
+  @0x2d96c: :tp#
+  @0x2da08: Hd|Q
+  @0x2da2a: KWh
+  @0x2daaa: VDVx
+  @0x2dab3: W$=ve
+  @0x2dabd: X,=F
+  @0x2db2d: b\X
+  @0x2db3f: d4x%
+  @0x2db49: eayI
+  @0x2dbd0: q,e
+  @0x2dbf1: t|j-
+  @0x2dd7a: 0mo
+  @0x2ddb9: ^eB
+  @0x2de18: dI%
+  @0x2def1: t\,
+  @0x2df11: <%R
+  @0x2e081: <j>
+  @0x2e0a2: L<=
+  @0x2e0b8: D0]g
+  @0x2e300: 5J&
+  @0x2e388: )m\{
+  @0x2e3ac: -57/
+  @0x2e3bf: /5VA
+  @0x2e405: 5Uk
+  @0x2e449: ;m}E_
+  @0x2e467: >e}
+  @0x2e4b0: !lF
+  @0x2e547: S5%
+  @0x2e550: T}O
+  @0x2e5a7: ]mc8q
+  @0x2e5ed: c.!
+  @0x2e5f5: d%W
+  @0x2e687: qmV3
+  @0x2e70e: }E1
+  @0x2e740: ]Ai
+  @0x2ea46: mS~
+  @0x2eb15: e;;
+  @0x2ede6: !&`
+  @0x2edf5: #fU
+  @0x2ee2c: (F@5
+  @0x2ee4d: +|9
+  @0x2ee55: ,JQ
+  @0x2eec5: 7$P
+  @0x2ef5d: E8@
+  @0x2efa8: L^x
+  @0x2f007: U^:G
+  @0x2f0cc: f>z
+  @0x2f10f: l>{
+  @0x2f1d3: }fGto
+  @0x2f1ea: ^.F
+  @0x2f53b: nftz
+  @0x2f63d: >Q;i
+  @0x2f721: ~Hs,
+  @0x2f7ec: WBG
+  @0x2f976: 3_#x
+  @0x2f980: 4ok
+  @0x2f993: 6W>
+  @0x2f9b5: 9'iS
+  @0x2f9fb: ?7ec
+  @0x2fa10: A?!
+  @0x2fa30: DG}i
+  @0x2faf5: U;t
+  @0x2fb09: WoS-
+  @0x2fb2a: Z)~
+  @0x2fc5f: tWy
+  @0x2fc67: ugw
+  @0x2fc70: vgw
+  @0x2fd78: P|C
+  @0x2fed4: o]l
+  @0x2ff30: /.;s
+  @0x3020d: Ofj

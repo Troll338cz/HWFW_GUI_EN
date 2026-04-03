@@ -1,0 +1,101 @@
+# Decoded from: etc/app/sftp_app/cfg/sftp_ttree.bin
+# Magic: 0xa4b6c5d7
+# Size: 1488 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  a.j
+  Gl
+  Gk
+  Gh
+  Gi
+  a.D
+  a.C
+  a.C
+  a.b
+  a.D
+  a.D
+  a.D
+  a.C
+  InternetGatewayDevice
+  X_HW_SFTP
+  X_HW_SFTP_ServerInfo
+  HW_SSMP_FEATURE_USD
+  SftpEnable
+  SftpPort
+  SftpLANEnable
+  SftpWANEnable
+  SftpStatus
+  SftpMaxDuration
+  SftpEnableTime
+  SftpMaxIdleDur
+  X_HW_SFTP_ClientInfo
+  HW_SSMP_FEATURE_USD
+  SftpEnable
+  SftpUserName
+  SftpPassword
+  SftpRoorDir
+  EncryptMode
+  Permission
+  SFTPShareAllPath
+  Salt
+  cwmp
+  ssmp
+  8022
+  86400
+  300
+  /mnt/usb/
+  ],0
+  %wu
+  F+"
+  <f3
+
+## All Strings (offset, value):
+
+  @0x00bf: a.j
+  @0x00c3:  Gl
+  @0x00c7:  Gk
+  @0x00cb:  Gh
+  @0x00cf:  Gi
+  @0x017d: a.D
+  @0x0191: a.C
+  @0x01a5: a.C
+  @0x01ba: a.b
+  @0x01cf: a.D
+  @0x01e4: a.D
+  @0x01f9: a.D
+  @0x020d: a.C
+  @0x0217: InternetGatewayDevice
+  @0x022d: X_HW_SFTP
+  @0x0237: X_HW_SFTP_ServerInfo
+  @0x024c: HW_SSMP_FEATURE_USD
+  @0x0260: SftpEnable
+  @0x026b: SftpPort
+  @0x0274: SftpLANEnable
+  @0x0282: SftpWANEnable
+  @0x0290: SftpStatus
+  @0x029b: SftpMaxDuration
+  @0x02ab: SftpEnableTime
+  @0x02ba: SftpMaxIdleDur
+  @0x02c9: X_HW_SFTP_ClientInfo
+  @0x02de: HW_SSMP_FEATURE_USD
+  @0x02f2: SftpEnable
+  @0x02fd: SftpUserName
+  @0x030a: SftpPassword
+  @0x0317: SftpRoorDir
+  @0x0323: EncryptMode
+  @0x032f: Permission
+  @0x033a: SFTPShareAllPath
+  @0x034b: Salt
+  @0x0350: cwmp
+  @0x0355: ssmp
+  @0x035f: 0xFFFFFFFF
+  @0x036a: 8022
+  @0x036f: 86400
+  @0x0375: 300
+  @0x0379: /mnt/usb/
+  @0x03c8: ],0
+  @0x03d9: %wu
+  @0x0401: F+"
+  @0x041a: <f3

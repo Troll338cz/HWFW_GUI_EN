@@ -1,0 +1,4 @@
+<CusCliRoot>
+<SetSN CmdStr="set sn" CmdGroup=""/>
+<SetProductmac CmdStr="set productmac" CmdGroup=""/>
+</CusCliRoot>

@@ -1,0 +1,312 @@
+# Decoded from: etc/app/tr143_app/cfg/tr143_tr098.bin
+# Magic: 0xa1b3c2d4
+# Size: 7033 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  FT_SAMPLE_SPEEDTEST
+  FT_SAMPLE_SPEEDTEST_TOTAL
+  FT_TR143_BONDING_SPEEDTEST
+  IGD.UDPEchoConfig.
+  Enable
+  Interface
+  SourceIPAddress
+  UDPPort
+  EchoPlusEnabled
+  EchoPlusSupported
+  PacketsReceived
+  PacketsResponded
+  BytesReceived
+  BytesResponded
+  TimeFirstPacketReceived
+  TimeLastPacketReceived
+  IGD.DownloadDiagnostics.
+  DiagnosticsState
+  DownloadURL
+  DSCP
+  EthernetPriority
+  DownloadDiagnosticMaxConnections
+  ROMTime
+  BOMTime
+  EOMTime
+  TestBytesReceived
+  TotalBytesReceived
+  TCPOpenRequestTime
+  TCPOpenResponseTime
+  SampledValues
+  SampledTotalValues
+  TotalBytesSent
+  TestBytesReceivedUnderFullLoading
+  TotalBytesReceivedUnderFullLoading
+  TotalBytesSentUnderFullLoading
+  PeriodOfFullLoading
+  PerConnectionResultNumberOfEntries
+  IncrementalResultNumberOfEntries
+  DownloadDiagnosticsMaxIncrementalResult
+  IPAddressUsed
+  TimeBasedTestDuration
+  TimeBasedTestMeasurementInterval
+  TimeBasedTestMeasurementOffset
+  ProtocolVersion
+  NumberOfConnections
+  DownloadTransports
+  X_ATP_TotalBytesReceivedDSLTunnel
+  X_ATP_TotalBytesReceivedLTETunnel
+  X_ATP_TotalBytesReceivedDSLNative
+  X_ATP_TotalBytesReceivedLTENative
+  IGD.DownloadDiagnostics.IncrementalResult.
+  StartTime
+  EndTime
+  IGD.UploadDiagnostics.
+  UploadURL
+  TestFileLength
+  TestBytesSent
+  TestBytesSentUnderFullLoading
+  UploadDiagnosticsMaxIncrementalResult
+  UploadTransports
+  X_ATP_TotalBytesSentDSLTunnel
+  X_ATP_TotalBytesSentLTETunnel
+  X_ATP_TotalBytesSentDSLNative
+  X_ATP_TotalBytesSentLTENative
+  IGD.UploadDiagnostics.IncrementalResult.
+  IGD.ServerSelectionDiagnostics.
+  Protocol
+  HostList
+  NumberOfRepetitions
+  Timeout
+  FastestHost
+  MinimumResponseTime
+  AverageResponseTime
+  MaximumResponseTime
+  IGD.Diagnostics.
+  IPv4DownloadDiagnosticsSupported
+  IPv6DownloadDiagnosticsSupported
+  IPv4UploadDiagnosticsSupported
+  IPv6UploadDiagnosticsSupported
+  IPv4UDPEchoDiagnosticsSupported
+  IPv6UDPEchoDiagnosticsSupported
+  IPv4ServerSelectionDiagnosticsSupported
+  IPv6ServerSelectionDiagnosticsSupported
+  z!%
+  L.R
+  k:n
+  `f@
+  ZRL2
+  iL^Q
+  XTK
+  5T,,
+  VwM
+  g=k
+  *Xs[
+  5<"
+  n!L
+  B\G
+  ;ca
+  4~A
+  Jh+=
+  _b&E
+  5p0
+  WhH
+  vil
+  &Ng
+  "c9
+  Daw
+  %LEF
+  8>h
+  EA<
+  )bW
+  -6mD
+  2^H
+  P./
+  lM5I
+  5_Be
+  D/)!
+  z!%
+  L.R
+  k:n
+  `f@
+  ZRL2
+  iL^Q
+  XTK
+  5T,,
+  VwM
+  g=k
+  *Xs[
+  5<"
+  n!L
+  B\G
+  ;ca
+  4~A
+  Jh+=
+  _b&E
+  5p0
+  WhH
+  vil
+  &Ng
+  "c9
+  Daw
+  %LEF
+  8>h
+  EA<
+  )bW
+  -6mD
+  2^H
+  P./
+  lM5I
+  5_Be
+  D/)!
+
+## All Strings (offset, value):
+
+  @0x0557: FT_SAMPLE_SPEEDTEST
+  @0x056b: FT_SAMPLE_SPEEDTEST_TOTAL
+  @0x0585: FT_TR143_BONDING_SPEEDTEST
+  @0x05a0: IGD.UDPEchoConfig.
+  @0x05b3: Enable
+  @0x05ba: Interface
+  @0x05c4: SourceIPAddress
+  @0x05d4: UDPPort
+  @0x05dc: EchoPlusEnabled
+  @0x05ec: EchoPlusSupported
+  @0x05fe: PacketsReceived
+  @0x060e: PacketsResponded
+  @0x061f: BytesReceived
+  @0x062d: BytesResponded
+  @0x063c: TimeFirstPacketReceived
+  @0x0654: TimeLastPacketReceived
+  @0x066b: IGD.DownloadDiagnostics.
+  @0x0684: DiagnosticsState
+  @0x0695: DownloadURL
+  @0x06a1: DSCP
+  @0x06a6: EthernetPriority
+  @0x06b7: DownloadDiagnosticMaxConnections
+  @0x06d8: ROMTime
+  @0x06e0: BOMTime
+  @0x06e8: EOMTime
+  @0x06f0: TestBytesReceived
+  @0x0702: TotalBytesReceived
+  @0x0715: TCPOpenRequestTime
+  @0x0728: TCPOpenResponseTime
+  @0x073c: SampledValues
+  @0x074a: SampledTotalValues
+  @0x075d: TotalBytesSent
+  @0x076c: TestBytesReceivedUnderFullLoading
+  @0x078e: TotalBytesReceivedUnderFullLoading
+  @0x07b1: TotalBytesSentUnderFullLoading
+  @0x07d0: PeriodOfFullLoading
+  @0x07e4: PerConnectionResultNumberOfEntries
+  @0x0807: IncrementalResultNumberOfEntries
+  @0x0828: DownloadDiagnosticsMaxIncrementalResult
+  @0x0850: IPAddressUsed
+  @0x085e: TimeBasedTestDuration
+  @0x0874: TimeBasedTestMeasurementInterval
+  @0x0895: TimeBasedTestMeasurementOffset
+  @0x08b4: ProtocolVersion
+  @0x08c4: NumberOfConnections
+  @0x08d8: DownloadTransports
+  @0x08eb: X_ATP_TotalBytesReceivedDSLTunnel
+  @0x090d: X_ATP_TotalBytesReceivedLTETunnel
+  @0x092f: X_ATP_TotalBytesReceivedDSLNative
+  @0x0951: X_ATP_TotalBytesReceivedLTENative
+  @0x0973: IGD.DownloadDiagnostics.IncrementalResult.
+  @0x099e: StartTime
+  @0x09a8: EndTime
+  @0x09b0: IGD.UploadDiagnostics.
+  @0x09c7: UploadURL
+  @0x09d1: TestFileLength
+  @0x09e0: TestBytesSent
+  @0x09ee: TestBytesSentUnderFullLoading
+  @0x0a0c: UploadDiagnosticsMaxIncrementalResult
+  @0x0a32: UploadTransports
+  @0x0a43: X_ATP_TotalBytesSentDSLTunnel
+  @0x0a61: X_ATP_TotalBytesSentLTETunnel
+  @0x0a7f: X_ATP_TotalBytesSentDSLNative
+  @0x0a9d: X_ATP_TotalBytesSentLTENative
+  @0x0abb: IGD.UploadDiagnostics.IncrementalResult.
+  @0x0ae4: IGD.ServerSelectionDiagnostics.
+  @0x0b04: Protocol
+  @0x0b0d: HostList
+  @0x0b16: NumberOfRepetitions
+  @0x0b2a: Timeout
+  @0x0b32: FastestHost
+  @0x0b3e: MinimumResponseTime
+  @0x0b52: AverageResponseTime
+  @0x0b66: MaximumResponseTime
+  @0x0b7a: IGD.Diagnostics.
+  @0x0b8b: IPv4DownloadDiagnosticsSupported
+  @0x0bac: IPv6DownloadDiagnosticsSupported
+  @0x0bcd: IPv4UploadDiagnosticsSupported
+  @0x0bec: IPv6UploadDiagnosticsSupported
+  @0x0c0b: IPv4UDPEchoDiagnosticsSupported
+  @0x0c2b: IPv6UDPEchoDiagnosticsSupported
+  @0x0c4b: IPv4ServerSelectionDiagnosticsSupported
+  @0x0c73: IPv6ServerSelectionDiagnosticsSupported
+  @0x0c9c: z!%
+  @0x0cd4: L.R
+  @0x0cdc: k:n
+  @0x0cf3: `f@
+  @0x0d02: ZRL2
+  @0x0d29: iL^Q
+  @0x0d57: XTK
+  @0x0d66: 5T,,
+  @0x0d6f: VwM
+  @0x0d90: g=k
+  @0x0dbc: *Xs[
+  @0x0ddd: 5<"
+  @0x0de5: n!L
+  @0x0e0b: B\G
+  @0x0e40: ;ca
+  @0x0e48: 4~A
+  @0x0e68: Jh+=
+  @0x0e8a: _b&E
+  @0x0e93: 5p0
+  @0x0e9b: WhH
+  @0x0ee4: vil
+  @0x0f5d: &Ng
+  @0x0f6d: "c9
+  @0x0f95: Daw
+  @0x0f9e: %LEF
+  @0x0fa7: 8>h
+  @0x0fb8: EA<
+  @0x0fc0: )bW
+  @0x0fd0: -6mD
+  @0x0fd9: 2^H
+  @0x0fe1: P./
+  @0x0fea: lM5I
+  @0x0ffa: 5_Be
+  @0x1003: D/)!
+  @0x103a: z!%
+  @0x1072: L.R
+  @0x107a: k:n
+  @0x1091: `f@
+  @0x10a0: ZRL2
+  @0x10c7: iL^Q
+  @0x10f5: XTK
+  @0x1104: 5T,,
+  @0x110d: VwM
+  @0x112e: g=k
+  @0x115a: *Xs[
+  @0x117b: 5<"
+  @0x1183: n!L
+  @0x11a9: B\G
+  @0x11de: ;ca
+  @0x11e6: 4~A
+  @0x1206: Jh+=
+  @0x1228: _b&E
+  @0x1231: 5p0
+  @0x1239: WhH
+  @0x1282: vil
+  @0x12fb: &Ng
+  @0x130b: "c9
+  @0x1333: Daw
+  @0x133c: %LEF
+  @0x1345: 8>h
+  @0x1356: EA<
+  @0x135e: )bW
+  @0x136e: -6mD
+  @0x1377: 2^H
+  @0x137f: P./
+  @0x1388: lM5I
+  @0x1398: 5_Be
+  @0x13a1: D/)!

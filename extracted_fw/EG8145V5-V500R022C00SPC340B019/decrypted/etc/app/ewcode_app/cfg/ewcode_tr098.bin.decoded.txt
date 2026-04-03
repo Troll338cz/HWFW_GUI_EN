@@ -1,0 +1,40 @@
+# Decoded from: etc/app/ewcode_app/cfg/ewcode_tr098.bin
+# Magic: 0xa1b3c2d4
+# Size: 573 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  FT_REDIRECT_EWCODE
+  FT_REDIRECT_FAULT_REPORTING
+  IGD.Ewcode.
+  Enable
+  ServerURL
+  Encryption
+  IGD.X_CU_Function.Ewcode.
+  IGD.FaultReporting.
+  Enabled
+  OperationsName
+  OperationsNumber
+  rK!
+  f`M%
+  $#&
+  rK!
+
+## All Strings (offset, value):
+
+  @0x008a: FT_REDIRECT_EWCODE
+  @0x009d: FT_REDIRECT_FAULT_REPORTING
+  @0x00b9: IGD.Ewcode.
+  @0x00c5: Enable
+  @0x00cc: ServerURL
+  @0x00d6: Encryption
+  @0x00e1: IGD.X_CU_Function.Ewcode.
+  @0x00fb: IGD.FaultReporting.
+  @0x010f: Enabled
+  @0x0117: OperationsName
+  @0x0126: OperationsNumber
+  @0x0161: rK!
+  @0x0178: f`M%
+  @0x0194: $#&
+  @0x01ae: rK!

@@ -1,0 +1,109 @@
+# Decoded from: etc/app/rip_app/cfg/rip_ttree.bin
+# Magic: 0xa4b6c5d7
+# Size: 1197 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  5-&
+  P4F
+  G,.
+  P4F
+  P4F
+  P4F
+  P4F
+  P4F
+  UQ0H
+  VQ0H
+  5-$
+  G,.
+  G,.
+  G,.
+  G,.
+  G,.
+  G,.
+  G,.
+  InternetGatewayDevice
+  X_HW_RIP
+  FT_RIP_DYNAMIC_ROUTE
+  InterfaceSettingNumberOfEntries
+  InterfaceSetting
+  Enable
+  Interface
+  Protocol
+  SendRA
+  ReceiveRA
+  AuthMode
+  AuthKey
+  X_HW_DEBUG
+  BBSP
+  DebugRip
+  UndoDebugRip
+  cwmp
+  bbsp
+  Off
+  nFq
+  z.N
+  5-&
+  G,.
+  G,.
+  G,.
+  G,.
+  G,.
+  G,.
+  G,.
+  G,.
+  5-$
+
+## All Strings (offset, value):
+
+  @0x0069: 5-&
+  @0x006d: P4F
+  @0x0091: G,.
+  @0x0095: P4F
+  @0x0099: P4F
+  @0x009d: P4F
+  @0x00a1: P4F
+  @0x00a5: P4F
+  @0x0108: UQ0H
+  @0x012c: VQ0H
+  @0x0148: 5-$
+  @0x015a: G,.
+  @0x016e: G,.
+  @0x0181: G,.
+  @0x0195: G,.
+  @0x01a8: G,.
+  @0x01bb: G,.
+  @0x01cd: G,.
+  @0x01d7: InternetGatewayDevice
+  @0x01ed: X_HW_RIP
+  @0x01f6: FT_RIP_DYNAMIC_ROUTE
+  @0x020b: InterfaceSettingNumberOfEntries
+  @0x022b: InterfaceSetting
+  @0x023c: Enable
+  @0x0243: Interface
+  @0x024d: Protocol
+  @0x0256: SendRA
+  @0x025d: ReceiveRA
+  @0x0267: AuthMode
+  @0x0270: AuthKey
+  @0x0278: X_HW_DEBUG
+  @0x0283: BBSP
+  @0x0288: DebugRip
+  @0x0291: UndoDebugRip
+  @0x029e: cwmp
+  @0x02a3: bbsp
+  @0x02ad: 0xFFFFFFFF
+  @0x02b8: Off
+  @0x0304: nFq
+  @0x0325: z.N
+  @0x0347: 5-&
+  @0x0351: G,.
+  @0x035b: G,.
+  @0x0365: G,.
+  @0x036f: G,.
+  @0x0379: G,.
+  @0x0383: G,.
+  @0x038d: G,.
+  @0x0397: G,.
+  @0x03bd: 5-$

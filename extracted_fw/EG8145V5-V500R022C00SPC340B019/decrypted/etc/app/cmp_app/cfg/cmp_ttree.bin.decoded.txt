@@ -1,0 +1,147 @@
+# Decoded from: etc/app/cmp_app/cfg/cmp_ttree.bin
+# Magic: 0xa4b6c5d7
+# Size: 3839 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  /G@
+  InternetGatewayDevice
+  X_HW_DEBUG
+  SMP
+  ImportDevCert
+  ChannelName
+  ServerIp
+  Filename
+  UserName
+  Password
+  Port
+  ExportDevCsr
+  ChannelName
+  ServerIp
+  Filename
+  UserName
+  Password
+  Port
+  DisplayDevCertState
+  State
+  Filename
+  Thumbprint
+  Issuer
+  Subject
+  NotBefore
+  NotAfter
+  SignatureAlgorithm
+  DisplayDeviceCsrInfo
+  ProductName
+  X_HW_DataModel
+  Security
+  CertificateNumberOfEntries
+  Certificate
+  Enable
+  LastModif
+  SerialNumber
+  Issuer
+  NotBefore
+  NotAfter
+  Subject
+  SubjectAlt
+  SignatureAlgorithm
+  X_HW_Action
+  X_HW_Interface
+  X_HW_UploadURL
+  X_HW_CertContext
+  X_HW_Status
+  X_HW_Type
+  X_HW_Usage
+  X_HW_Priority
+  X_HW_CertPath
+  X_HW_KeyPath
+  X_HW_Password
+  X_HW_Thumbprint
+  X_HW_Notify
+  X_HW_IsImportedCert
+  X_HW_Alias
+  X_HW_LastAlarmTime
+  X_HW_CRLPath
+  ssmp
+  cwmp
+  xv]
+  :\C+
+  gRg
+  xSz
+  kU7
+  BR9
+  u_y
+
+## All Strings (offset, value):
+
+  @0x01ab: /G@
+  @0x0520: InternetGatewayDevice
+  @0x0536: X_HW_DEBUG
+  @0x0541: SMP
+  @0x0545: ImportDevCert
+  @0x0553: ChannelName
+  @0x055f: ServerIp
+  @0x0568: Filename
+  @0x0571: UserName
+  @0x057a: Password
+  @0x0583: Port
+  @0x0588: ExportDevCsr
+  @0x0595: ChannelName
+  @0x05a1: ServerIp
+  @0x05aa: Filename
+  @0x05b3: UserName
+  @0x05bc: Password
+  @0x05c5: Port
+  @0x05ca: DisplayDevCertState
+  @0x05de: State
+  @0x05e4: Filename
+  @0x05ed: Thumbprint
+  @0x05f8: Issuer
+  @0x05ff: Subject
+  @0x0607: NotBefore
+  @0x0611: NotAfter
+  @0x061a: SignatureAlgorithm
+  @0x062d: DisplayDeviceCsrInfo
+  @0x0642: ProductName
+  @0x064e: X_HW_DataModel
+  @0x065d: Security
+  @0x0666: CertificateNumberOfEntries
+  @0x0681: Certificate
+  @0x068d: Enable
+  @0x0694: LastModif
+  @0x069e: SerialNumber
+  @0x06ab: Issuer
+  @0x06b2: NotBefore
+  @0x06bc: NotAfter
+  @0x06c5: Subject
+  @0x06cd: SubjectAlt
+  @0x06d8: SignatureAlgorithm
+  @0x06eb: X_HW_Action
+  @0x06f7: X_HW_Interface
+  @0x0706: X_HW_UploadURL
+  @0x0715: X_HW_CertContext
+  @0x0726: X_HW_Status
+  @0x0732: X_HW_Type
+  @0x073c: X_HW_Usage
+  @0x0747: X_HW_Priority
+  @0x0755: X_HW_CertPath
+  @0x0763: X_HW_KeyPath
+  @0x0770: X_HW_Password
+  @0x077e: X_HW_Thumbprint
+  @0x078e: X_HW_Notify
+  @0x079a: X_HW_IsImportedCert
+  @0x07ae: X_HW_Alias
+  @0x07b9: X_HW_LastAlarmTime
+  @0x07cc: X_HW_CRLPath
+  @0x07d9: ssmp
+  @0x07de: cwmp
+  @0x07e8: 0xFFFFFFFF
+  @0x0825: xv]
+  @0x0847: :\C+
+  @0x0863: gRg
+  @0x089a: xSz
+  @0x08da: kU7
+  @0x0919: BR9
+  @0x09af: u_y

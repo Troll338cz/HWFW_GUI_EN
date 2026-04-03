@@ -1,0 +1,367 @@
+# Decoded from: etc/app/usb_mngt_app/cfg/usb_mngt_ttree.bin
+# Magic: 0xa4b6c5d7
+# Size: 8091 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  &0
+  G1
+  HU
+  H#
+  H!
+  HA
+  HB
+  HC
+  HD
+  -./
+  HQ
+  HR
+  HS
+  HT
+  Ha
+  0`G
+  0`G
+  Q G
+  56<
+  Q G
+  Q G
+  7  G
+  (8! G
+  9! G
+  BCQ
+  (@! G
+  A! G
+  P G
+  P G
+  P G
+  P G
+  STV
+  P G
+  P G
+  InternetGatewayDevice
+  Services
+  X_HW_Printer
+  Enable
+  Name
+  StorageService
+  HW_SSMP_FEATURE_USBSTORAGE
+  Enable
+  PhysicalMediumNumberOfEntries
+  LogicalVolumeNumberOfEntries
+  UserAccountNumberOfEntries
+  NetInfo
+  HostName
+  DomainName
+  NetworkServer
+  SMBEnable
+  NetworkProtocolAuthReq
+  UserAccount
+  Enable
+  Username
+  Password
+  X_HW_AllPath
+  X_HW_Permissions
+  X_HW_ShareName
+  PhysicalMedium
+  Name
+  Vendor
+  Model
+  SerialNumber
+  FirmwareVersion
+  ConnectionType
+  Removable
+  Capacity
+  Status
+  Uptime
+  SMARTCapable
+  Health
+  HotSwappable
+  X_HW_Manufacturer
+  X_HW_Product
+  X_HW_SafeRemove
+  LogicalVolume
+  Name
+  Status
+  Enable
+  PhysicalReference
+  FileSystem
+  Capacity
+  UsedSpace
+  Encrypted
+  FolderNumberOfEntries
+  Folder
+  Name
+  X_HW_NameNative
+  Enable
+  UserAccountAccess
+  UserAccessNumberOfEntries
+  UserAccess
+  UserReference
+  Permissions
+  SMBServer
+  Netbios
+  Workgroup
+  LANDevice
+  LANUSBInterfaceConfig
+  Enable
+  Status
+  X_HW_USBPortStatus
+  X_HW_UsbInterface
+  X_HW_UsbStorageDevice
+  DeviceList
+  X_HW_UsbMntInfo
+  blockName
+  mntDir
+  mntType
+  mntOpt
+  blockNum
+  usedNum
+  availNum
+  X_HW_DataModel
+  USB
+  USBHosts
+  HostNumberOfEntries
+  Host
+  Enable
+  Name
+  Type
+  USBVersion
+  DeviceNumberOfEntries
+  Device
+  DeviceNumber
+  USBVersion
+  DeviceClass
+  DeviceSubClass
+  DeviceVersion
+  DeviceProtocol
+  ProductID
+  VendorID
+  Manufacturer
+  ProductClass
+  SerialNumber
+  Port
+  Rate
+  Parent
+  MaxChildren
+  X_HW_DEBUG
+  SMP
+  USB
+  CfgDebug
+  Option
+  DeviceInfo
+  X_HW_Restore
+  HW_SSMP_FEATURE_QUICKCFG
+  Enable
+  X_HW_BACKUPCFG
+  Operate
+  Path
+  Option
+  X_HW_USB_LABLE_INFO
+  Lable
+  Name
+  cwmp
+  ssmp
+  wifi
+  WAP
+  HOME
+  Offline
+  WORKGROUP
+  None
+  ICR
+  k59
+  QTe'
+  R?y
+  r8Y
+  K]#
+  u_d
+  zC'
+  \ZH
+  dFM
+  9:R
+  6X3
+  xfH&
+  Koo
+  F5^
+
+## All Strings (offset, value):
+
+  @0x0091: &0 
+  @0x0095: G1 
+  @0x00c2:  HU
+  @0x016e:  H#
+  @0x0172:  H!
+  @0x01c4:  HA
+  @0x01c8:  HB
+  @0x01cc:  HC
+  @0x01d0:  HD
+  @0x01db: -./
+  @0x01ec:  HQ
+  @0x01f0:  HR
+  @0x01f4:  HS
+  @0x01f8:  HT
+  @0x0215:  Ha
+  @0x0241: 0`G
+  @0x0245: 0`G
+  @0x02c0: Q G
+  @0x02d7: 56<
+  @0x02e7: Q G
+  @0x02eb: Q G
+  @0x035d:  7  G
+  @0x0386: (8! G
+  @0x0397: 9! G 
+  @0x03a1: BCQ
+  @0x03b0: (@! G
+  @0x03c1: A! G
+  @0x0477: P G
+  @0x047b: P G
+  @0x04a3: P G
+  @0x04a7: P G
+  @0x04ba: STV
+  @0x04cb: P G
+  @0x04cf: P G
+  @0x0baf: InternetGatewayDevice
+  @0x0bc5: Services
+  @0x0bce: X_HW_Printer
+  @0x0bdb: Enable
+  @0x0be2: Name
+  @0x0be7: StorageService
+  @0x0bf6: HW_SSMP_FEATURE_USBSTORAGE
+  @0x0c11: Enable
+  @0x0c18: PhysicalMediumNumberOfEntries
+  @0x0c36: LogicalVolumeNumberOfEntries
+  @0x0c53: UserAccountNumberOfEntries
+  @0x0c6e: NetInfo
+  @0x0c76: HostName
+  @0x0c7f: DomainName
+  @0x0c8a: NetworkServer
+  @0x0c98: SMBEnable
+  @0x0ca2: NetworkProtocolAuthReq
+  @0x0cb9: UserAccount
+  @0x0cc5: Enable
+  @0x0ccc: Username
+  @0x0cd5: Password
+  @0x0cde: X_HW_AllPath
+  @0x0ceb: X_HW_Permissions
+  @0x0cfc: X_HW_ShareName
+  @0x0d0b: PhysicalMedium
+  @0x0d1a: Name
+  @0x0d1f: Vendor
+  @0x0d26: Model
+  @0x0d2c: SerialNumber
+  @0x0d39: FirmwareVersion
+  @0x0d49: ConnectionType
+  @0x0d58: Removable
+  @0x0d62: Capacity
+  @0x0d6b: Status
+  @0x0d72: Uptime
+  @0x0d79: SMARTCapable
+  @0x0d86: Health
+  @0x0d8d: HotSwappable
+  @0x0d9a: X_HW_Manufacturer
+  @0x0dac: X_HW_Product
+  @0x0db9: X_HW_SafeRemove
+  @0x0dc9: LogicalVolume
+  @0x0dd7: Name
+  @0x0ddc: Status
+  @0x0de3: Enable
+  @0x0dea: PhysicalReference
+  @0x0dfc: FileSystem
+  @0x0e07: Capacity
+  @0x0e10: UsedSpace
+  @0x0e1a: Encrypted
+  @0x0e24: FolderNumberOfEntries
+  @0x0e3a: Folder
+  @0x0e41: Name
+  @0x0e46: X_HW_NameNative
+  @0x0e56: Enable
+  @0x0e5d: UserAccountAccess
+  @0x0e6f: UserAccessNumberOfEntries
+  @0x0e89: UserAccess
+  @0x0e94: UserReference
+  @0x0ea2: Permissions
+  @0x0eae: SMBServer
+  @0x0eb8: Netbios
+  @0x0ec0: Workgroup
+  @0x0eca: LANDevice
+  @0x0ed4: LANUSBInterfaceConfig
+  @0x0eea: Enable
+  @0x0ef1: Status
+  @0x0ef8: X_HW_USBPortStatus
+  @0x0f0b: X_HW_UsbInterface
+  @0x0f1d: X_HW_UsbStorageDevice
+  @0x0f33: DeviceList
+  @0x0f3e: X_HW_UsbMntInfo
+  @0x0f4e: blockName
+  @0x0f58: mntDir
+  @0x0f5f: mntType
+  @0x0f67: mntOpt
+  @0x0f6e: blockNum
+  @0x0f77: usedNum
+  @0x0f7f: availNum
+  @0x0f88: X_HW_DataModel
+  @0x0f97: USB
+  @0x0f9b: USBHosts
+  @0x0fa4: HostNumberOfEntries
+  @0x0fb8: Host
+  @0x0fbd: Enable
+  @0x0fc4: Name
+  @0x0fc9: Type
+  @0x0fce: USBVersion
+  @0x0fd9: DeviceNumberOfEntries
+  @0x0fef: Device
+  @0x0ff6: DeviceNumber
+  @0x1003: USBVersion
+  @0x100e: DeviceClass
+  @0x101a: DeviceSubClass
+  @0x1029: DeviceVersion
+  @0x1037: DeviceProtocol
+  @0x1046: ProductID
+  @0x1050: VendorID
+  @0x1059: Manufacturer
+  @0x1066: ProductClass
+  @0x1073: SerialNumber
+  @0x1080: Port
+  @0x1085: Rate
+  @0x108a: Parent
+  @0x1091: MaxChildren
+  @0x109d: X_HW_DEBUG
+  @0x10a8: SMP
+  @0x10ac: USB
+  @0x10b0: CfgDebug
+  @0x10b9: Option
+  @0x10c0: DeviceInfo
+  @0x10cb: X_HW_Restore
+  @0x10d8: HW_SSMP_FEATURE_QUICKCFG
+  @0x10f1: Enable
+  @0x10f8: X_HW_BACKUPCFG
+  @0x1107: Operate
+  @0x110f: Path
+  @0x1114: Option
+  @0x111b: X_HW_USB_LABLE_INFO
+  @0x112f: Lable
+  @0x1135: Name
+  @0x113a: cwmp
+  @0x113f: ssmp
+  @0x1144: wifi
+  @0x114e: 0xFFFFFFFF
+  @0x1159: WAP
+  @0x115d: HOME
+  @0x1165: Offline
+  @0x116f: WORKGROUP
+  @0x1179: None
+  @0x1195: ICR
+  @0x11fa: k59
+  @0x1290: QTe'
+  @0x12c1: R?y
+  @0x1312: r8Y
+  @0x1340: K]#
+  @0x1379: u_d
+  @0x13ad: zC'
+  @0x13c8: \ZH
+  @0x13e9: dFM
+  @0x141f: 9:R
+  @0x1474: 6X3
+  @0x1485: xfH&
+  @0x1496: Koo
+  @0x1502: F5^

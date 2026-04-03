@@ -1,0 +1,70 @@
+# Decoded from: etc/app/video_diag_app/cfg/video_diag_ttree.bin
+# Magic: 0xa4b6c5d7
+# Size: 1314 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  D0G
+  D0G
+  InternetGatewayDevice
+  X_HW_eMDI
+  HW_BBSP_FT_BTV_EMDI
+  Enable
+  Interval
+  WindowPackets
+  Thresholdpkts
+  DIP
+  DPort
+  SIP
+  MVlanId
+  Time
+  DiagnosingDIP
+  DiagnosingSIP
+  DiagnosingMvlan
+  TotalPackets
+  LostPackets
+  OutOfOrder
+  ConsecutiveLost
+  ELF_F
+  bbsp
+  100
+  255.255.255.255
+  255.255.255.255
+  h$o
+  x#E
+  WPP
+
+## All Strings (offset, value):
+
+  @0x006c: D0G
+  @0x0070: D0G
+  @0x01ca: InternetGatewayDevice
+  @0x01e0: X_HW_eMDI
+  @0x01ea: HW_BBSP_FT_BTV_EMDI
+  @0x01fe: Enable
+  @0x0205: Interval
+  @0x020e: WindowPackets
+  @0x021c: Thresholdpkts
+  @0x022a: DIP
+  @0x022e: DPort
+  @0x0234: SIP
+  @0x0238: MVlanId
+  @0x0240: Time
+  @0x0245: DiagnosingDIP
+  @0x0253: DiagnosingSIP
+  @0x0261: DiagnosingMvlan
+  @0x0271: TotalPackets
+  @0x027e: LostPackets
+  @0x028a: OutOfOrder
+  @0x0295: ConsecutiveLost
+  @0x02a5: ELF_F
+  @0x02ab: bbsp
+  @0x02b5: 0xFFFFFFFF
+  @0x02c3: 100
+  @0x02c9: 255.255.255.255
+  @0x02d9: 255.255.255.255
+  @0x02e9: 0xffff
+  @0x0337: h$o
+  @0x0349: x#E
+  @0x035a: WPP

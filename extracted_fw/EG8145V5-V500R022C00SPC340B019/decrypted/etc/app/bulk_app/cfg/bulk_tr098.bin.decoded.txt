@@ -1,0 +1,162 @@
+# Decoded from: etc/app/bulk_app/cfg/bulk_tr098.bin
+# Magic: 0xa1b3c2d4
+# Size: 3474 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  FT_BULKDATA_INTERFACE_WAN
+  IGD.BulkData.
+  Enable
+  Status
+  MinReportingInterval
+  Protocols
+  EncodingTypes
+  ParameterWildCardSupported
+  MaxNumberOfProfiles
+  MaxNumberOfParameterReferences
+  ProfileNumberOfEntries
+  X_HW_Interface
+  IGD.BulkData.Profile.
+  Alias
+  Name
+  NumberOfRetainedFailedReports
+  Protocol
+  EncodingType
+  ReportingInterval
+  TimeReference
+  ParameterNumberOfEntries
+  StreamingHost
+  StreamingPort
+  StreamingSessionID
+  FileTransferURL
+  FileTransferUsername
+  FileTransferPassword
+  ControlFileFormat
+  IGD.BulkData.Profile.Parameter.
+  Reference
+  IGD.BulkData.Profile.CSVEncoding.
+  FieldSeparator
+  RowSeparator
+  EscapeCharacter
+  ReportFormat
+  RowTimestamp
+  IGD.BulkData.Profile.JSONEncoding.
+  ReportTimestamp
+  IGD.BulkData.Profile.HTTP.
+  URL
+  Username
+  Password
+  CompressionsSupported
+  Compression
+  MethodsSupported
+  Method
+  UseDateHeader
+  RetryEnable
+  RetryMinimumWaitInterval
+  RetryIntervalMultiplier
+  RequestURIParameterNumberOfEntries
+  IGD.BulkData.Profile.HTTP.RequestURIParameter.
+  2@>c
+  IM<
+  rDo)
+  >]`
+  60!0
+  K$V
+  M^+
+  q?$
+  <x*
+  U'j
+  f!</
+  z2.
+  2@>c
+  IM<
+  rDo)
+  >]`
+  60!0
+  K$V
+  M^+
+  q?$
+  <x*
+  U'j
+  f!</
+  z2.
+
+## All Strings (offset, value):
+
+  @0x02ae: FT_BULKDATA_INTERFACE_WAN
+  @0x02c8: IGD.BulkData.
+  @0x02d6: Enable
+  @0x02dd: Status
+  @0x02e4: MinReportingInterval
+  @0x02f9: Protocols
+  @0x0303: EncodingTypes
+  @0x0311: ParameterWildCardSupported
+  @0x032c: MaxNumberOfProfiles
+  @0x0340: MaxNumberOfParameterReferences
+  @0x035f: ProfileNumberOfEntries
+  @0x0376: X_HW_Interface
+  @0x0385: IGD.BulkData.Profile.
+  @0x039b: Alias
+  @0x03a1: Name
+  @0x03a6: NumberOfRetainedFailedReports
+  @0x03c4: Protocol
+  @0x03cd: EncodingType
+  @0x03da: ReportingInterval
+  @0x03ec: TimeReference
+  @0x03fa: ParameterNumberOfEntries
+  @0x0413: StreamingHost
+  @0x0421: StreamingPort
+  @0x042f: StreamingSessionID
+  @0x0442: FileTransferURL
+  @0x0452: FileTransferUsername
+  @0x0467: FileTransferPassword
+  @0x047c: ControlFileFormat
+  @0x048e: IGD.BulkData.Profile.Parameter.
+  @0x04ae: Reference
+  @0x04b8: IGD.BulkData.Profile.CSVEncoding.
+  @0x04da: FieldSeparator
+  @0x04e9: RowSeparator
+  @0x04f6: EscapeCharacter
+  @0x0506: ReportFormat
+  @0x0513: RowTimestamp
+  @0x0520: IGD.BulkData.Profile.JSONEncoding.
+  @0x0543: ReportTimestamp
+  @0x0553: IGD.BulkData.Profile.HTTP.
+  @0x056e: URL
+  @0x0572: Username
+  @0x057b: Password
+  @0x0584: CompressionsSupported
+  @0x059a: Compression
+  @0x05a6: MethodsSupported
+  @0x05b7: Method
+  @0x05be: UseDateHeader
+  @0x05cc: RetryEnable
+  @0x05d8: RetryMinimumWaitInterval
+  @0x05f1: RetryIntervalMultiplier
+  @0x0609: RequestURIParameterNumberOfEntries
+  @0x062c: IGD.BulkData.Profile.HTTP.RequestURIParameter.
+  @0x065b: 2@>c
+  @0x0699: IM<
+  @0x06d2: rDo)
+  @0x06e3: >]`
+  @0x06fd: 60!0
+  @0x0706: K$V
+  @0x0725: M^+
+  @0x072d: q?$
+  @0x077c: <x*
+  @0x0799: U'j
+  @0x07c0: f!</
+  @0x07f6: z2.
+  @0x0815: 2@>c
+  @0x0853: IM<
+  @0x088c: rDo)
+  @0x089d: >]`
+  @0x08b7: 60!0
+  @0x08c0: K$V
+  @0x08df: M^+
+  @0x08e7: q?$
+  @0x0936: <x*
+  @0x0953: U'j
+  @0x097a: f!</
+  @0x09b0: z2.

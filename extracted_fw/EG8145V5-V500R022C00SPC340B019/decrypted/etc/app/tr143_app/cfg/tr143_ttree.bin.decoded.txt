@@ -1,0 +1,355 @@
+# Decoded from: etc/app/tr143_app/cfg/tr143_ttree.bin
+# Magic: 0xa4b6c5d7
+# Size: 8871 bytes
+# Type: DataView (TR mapping)
+
+## Extracted Data Model Paths/Nodes:
+
+  )!p
+  )'#
+  G$
+  )'%
+  G&
+  :;?
+  ))q
+  G?
+  )''
+  G(
+  cdh
+  ))s
+  G?
+  )'7
+  G8
+  )!
+  !)!
+  )!
+  !)!
+  InternetGatewayDevice
+  Diagnostics
+  IPv4DownloadDiagnosticsSupported
+  IPv6DownloadDiagnosticsSupported
+  IPv4UploadDiagnosticsSupported
+  IPv6UploadDiagnosticsSupported
+  IPv4UDPEchoDiagnosticsSupported
+  IPv6UDPEchoDiagnosticsSupported
+  IPv4ServerSelectionDiagnosticsSupported
+  IPv6ServerSelectionDiagnosticsSupported
+  UDPEchoConfig
+  Enable
+  Interface
+  SourceIPAddress
+  UDPPort
+  EchoPlusEnabled
+  EchoPlusSupported
+  PacketsReceived
+  PacketsResponded
+  BytesReceived
+  BytesResponded
+  TimeFirstPacketReceived
+  TimeLastPacketReceived
+  DownloadDiagnostics
+  DiagnosticsState
+  Interface
+  DownloadURL
+  DSCP
+  EthernetPriority
+  DownloadDiagnosticMaxConnections
+  ROMTime
+  BOMTime
+  EOMTime
+  TestBytesReceived
+  TotalBytesReceived
+  TCPOpenRequestTime
+  TCPOpenResponseTime
+  SampledValues
+  X_HW_Mode
+  SampledTotalValues
+  DNSOpenRequestTime
+  DNSOpenResponseTime
+  TotalBytesSent
+  TestBytesReceivedUnderFullLoading
+  TotalBytesReceivedUnderFullLoading
+  TotalBytesSentUnderFullLoading
+  PeriodOfFullLoading
+  PerConnectionResultNumberOfEntries
+  IncrementalResultNumberOfEntries
+  DownloadDiagnosticsMaxIncrementalResult
+  IPAddressUsed
+  TimeBasedTestDuration
+  TimeBasedTestMeasurementInterval
+  TimeBasedTestMeasurementOffset
+  ProtocolVersion
+  NumberOfConnections
+  DownloadTransports
+  X_CT-COM_Aspeed
+  X_CT-COM_Maxspeed
+  X_ATP_TotalBytesReceivedDSLTunnel
+  X_ATP_TotalBytesReceivedLTETunnel
+  X_ATP_TotalBytesReceivedDSLNative
+  X_ATP_TotalBytesReceivedLTENative
+  IncrementalResult
+  TestBytesReceived
+  TotalBytesReceived
+  TotalBytesSent
+  StartTime
+  EndTime
+  UploadDiagnostics
+  DiagnosticsState
+  Interface
+  UploadURL
+  DSCP
+  EthernetPriority
+  TestFileLength
+  UploadDiagnosticMaxConnections
+  ROMTime
+  BOMTime
+  EOMTime
+  TotalBytesSent
+  TCPOpenRequestTime
+  TCPOpenResponseTime
+  SampledValues
+  TestBytesSent
+  TotalBytesReceived
+  TestBytesSentUnderFullLoading
+  TotalBytesReceivedUnderFullLoading
+  TotalBytesSentUnderFullLoading
+  PeriodOfFullLoading
+  PerConnectionResultNumberOfEntries
+  IncrementalResultNumberOfEntries
+  UploadDiagnosticsMaxIncrementalResult
+  IPAddressUsed
+  TimeBasedTestDuration
+  TimeBasedTestMeasurementInterval
+  TimeBasedTestMeasurementOffset
+  ProtocolVersion
+  NumberOfConnections
+  UploadTransports
+  X_CT-COM_Aspeed
+  X_CT-COM_Maxspeed
+  X_ATP_TotalBytesSentDSLTunnel
+  X_ATP_TotalBytesSentLTETunnel
+  X_ATP_TotalBytesSentDSLNative
+  X_ATP_TotalBytesSentLTENative
+  IncrementalResult
+  TestBytesSent
+  TotalBytesReceived
+  TotalBytesSent
+  StartTime
+  EndTime
+  ServerSelectionDiagnostics
+  DiagnosticsState
+  Interface
+  ProtocolVersion
+  Protocol
+  HostList
+  NumberOfRepetitions
+  Timeout
+  FastestHost
+  MinimumResponseTime
+  AverageResponseTime
+  MaximumResponseTime
+  IPAddressUsed
+  ssmp
+  192.168.100.100
+  Any
+  52428800
+  Any
+  HTTP,FTP (OPTIONAL)
+  *Xs
+  )bW
+  6mi
+  \Al!
+  -6m
+  Jh+
+  WhH
+  %LE
+  iL^
+  P./
+  lM5
+  _b&
+  Daw
+  k:n
+  5T,
+  5_B
+  D/)
+  ZRL
+  )!
+  !)!
+  )!
+  !)!
+
+## All Strings (offset, value):
+
+  @0x0062: )!p
+  @0x008c: )'#
+  @0x0090:  G$
+  @0x00b6: )'%
+  @0x00ba:  G&
+  @0x00d0: :;?
+  @0x00dd: ))q
+  @0x00f1:  G?
+  @0x0109: )''
+  @0x010d:  G(
+  @0x0123: cdh
+  @0x012f: ))s
+  @0x0143:  G?
+  @0x0159: )'7
+  @0x015d:  G8
+  @0x05b5:  )!
+  @0x05ca: !)!
+  @0x08cb:  )!
+  @0x08df: !)!
+  @0x0a29: InternetGatewayDevice
+  @0x0a3f: Diagnostics
+  @0x0a4b: IPv4DownloadDiagnosticsSupported
+  @0x0a6c: IPv6DownloadDiagnosticsSupported
+  @0x0a8d: IPv4UploadDiagnosticsSupported
+  @0x0aac: IPv6UploadDiagnosticsSupported
+  @0x0acb: IPv4UDPEchoDiagnosticsSupported
+  @0x0aeb: IPv6UDPEchoDiagnosticsSupported
+  @0x0b0b: IPv4ServerSelectionDiagnosticsSupported
+  @0x0b33: IPv6ServerSelectionDiagnosticsSupported
+  @0x0b5b: UDPEchoConfig
+  @0x0b69: Enable
+  @0x0b70: Interface
+  @0x0b7a: SourceIPAddress
+  @0x0b8a: UDPPort
+  @0x0b92: EchoPlusEnabled
+  @0x0ba2: EchoPlusSupported
+  @0x0bb4: PacketsReceived
+  @0x0bc4: PacketsResponded
+  @0x0bd5: BytesReceived
+  @0x0be3: BytesResponded
+  @0x0bf2: TimeFirstPacketReceived
+  @0x0c0a: TimeLastPacketReceived
+  @0x0c21: DownloadDiagnostics
+  @0x0c35: DiagnosticsState
+  @0x0c46: Interface
+  @0x0c50: DownloadURL
+  @0x0c5c: DSCP
+  @0x0c61: EthernetPriority
+  @0x0c72: DownloadDiagnosticMaxConnections
+  @0x0c93: ROMTime
+  @0x0c9b: BOMTime
+  @0x0ca3: EOMTime
+  @0x0cab: TestBytesReceived
+  @0x0cbd: TotalBytesReceived
+  @0x0cd0: TCPOpenRequestTime
+  @0x0ce3: TCPOpenResponseTime
+  @0x0cf7: SampledValues
+  @0x0d05: X_HW_Mode
+  @0x0d0f: SampledTotalValues
+  @0x0d22: DNSOpenRequestTime
+  @0x0d35: DNSOpenResponseTime
+  @0x0d49: TotalBytesSent
+  @0x0d58: TestBytesReceivedUnderFullLoading
+  @0x0d7a: TotalBytesReceivedUnderFullLoading
+  @0x0d9d: TotalBytesSentUnderFullLoading
+  @0x0dbc: PeriodOfFullLoading
+  @0x0dd0: PerConnectionResultNumberOfEntries
+  @0x0df3: IncrementalResultNumberOfEntries
+  @0x0e14: DownloadDiagnosticsMaxIncrementalResult
+  @0x0e3c: IPAddressUsed
+  @0x0e4a: TimeBasedTestDuration
+  @0x0e60: TimeBasedTestMeasurementInterval
+  @0x0e81: TimeBasedTestMeasurementOffset
+  @0x0ea0: ProtocolVersion
+  @0x0eb0: NumberOfConnections
+  @0x0ec4: DownloadTransports
+  @0x0ed7: X_CT-COM_Aspeed
+  @0x0ee7: X_CT-COM_Maxspeed
+  @0x0ef9: X_ATP_TotalBytesReceivedDSLTunnel
+  @0x0f1b: X_ATP_TotalBytesReceivedLTETunnel
+  @0x0f3d: X_ATP_TotalBytesReceivedDSLNative
+  @0x0f5f: X_ATP_TotalBytesReceivedLTENative
+  @0x0f81: IncrementalResult
+  @0x0f93: TestBytesReceived
+  @0x0fa5: TotalBytesReceived
+  @0x0fb8: TotalBytesSent
+  @0x0fc7: StartTime
+  @0x0fd1: EndTime
+  @0x0fd9: UploadDiagnostics
+  @0x0feb: DiagnosticsState
+  @0x0ffc: Interface
+  @0x1006: UploadURL
+  @0x1010: DSCP
+  @0x1015: EthernetPriority
+  @0x1026: TestFileLength
+  @0x1035: UploadDiagnosticMaxConnections
+  @0x1054: ROMTime
+  @0x105c: BOMTime
+  @0x1064: EOMTime
+  @0x106c: TotalBytesSent
+  @0x107b: TCPOpenRequestTime
+  @0x108e: TCPOpenResponseTime
+  @0x10a2: SampledValues
+  @0x10b0: TestBytesSent
+  @0x10be: TotalBytesReceived
+  @0x10d1: TestBytesSentUnderFullLoading
+  @0x10ef: TotalBytesReceivedUnderFullLoading
+  @0x1112: TotalBytesSentUnderFullLoading
+  @0x1131: PeriodOfFullLoading
+  @0x1145: PerConnectionResultNumberOfEntries
+  @0x1168: IncrementalResultNumberOfEntries
+  @0x1189: UploadDiagnosticsMaxIncrementalResult
+  @0x11af: IPAddressUsed
+  @0x11bd: TimeBasedTestDuration
+  @0x11d3: TimeBasedTestMeasurementInterval
+  @0x11f4: TimeBasedTestMeasurementOffset
+  @0x1213: ProtocolVersion
+  @0x1223: NumberOfConnections
+  @0x1237: UploadTransports
+  @0x1248: X_CT-COM_Aspeed
+  @0x1258: X_CT-COM_Maxspeed
+  @0x126a: X_ATP_TotalBytesSentDSLTunnel
+  @0x1288: X_ATP_TotalBytesSentLTETunnel
+  @0x12a6: X_ATP_TotalBytesSentDSLNative
+  @0x12c4: X_ATP_TotalBytesSentLTENative
+  @0x12e2: IncrementalResult
+  @0x12f4: TestBytesSent
+  @0x1302: TotalBytesReceived
+  @0x1315: TotalBytesSent
+  @0x1324: StartTime
+  @0x132e: EndTime
+  @0x1336: ServerSelectionDiagnostics
+  @0x1351: DiagnosticsState
+  @0x1362: Interface
+  @0x136c: ProtocolVersion
+  @0x137c: Protocol
+  @0x1385: HostList
+  @0x138e: NumberOfRepetitions
+  @0x13a2: Timeout
+  @0x13aa: FastestHost
+  @0x13b6: MinimumResponseTime
+  @0x13ca: AverageResponseTime
+  @0x13de: MaximumResponseTime
+  @0x13f2: IPAddressUsed
+  @0x1400: ssmp
+  @0x140a: 0xFFFFFFFF
+  @0x1415: 192.168.100.100
+  @0x1427: Any
+  @0x142b: 52428800
+  @0x1434: Any
+  @0x1438: HTTP,FTP (OPTIONAL)
+  @0x14be: *Xs
+  @0x1511: )bW
+  @0x1529: 6mi
+  @0x155f: \Al!
+  @0x15a8: -6m
+  @0x15b1: Jh+
+  @0x15d2: WhH
+  @0x1648: %LE
+  @0x1651: iL^
+  @0x1661: P./
+  @0x166a: lM5
+  @0x167c: _b&
+  @0x16e9: Daw
+  @0x175f: k:n
+  @0x1794: 5T,
+  @0x17ae: 5_B
+  @0x17c0: D/)
+  @0x1805: ZRL
+  @0x1b1e:  )!
+  @0x1b27: !)!
+  @0x1bff:  )!
+  @0x1c08: !)!
