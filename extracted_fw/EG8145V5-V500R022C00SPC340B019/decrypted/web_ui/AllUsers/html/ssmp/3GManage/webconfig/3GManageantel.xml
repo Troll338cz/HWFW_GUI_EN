@@ -1,0 +1,14 @@
+<InternetGatewayDevice> 
+<X_HW_SSMPPDT setconfig="0x00000002">
+<Deviceinfo setconfig = "0x00000002" getconfig = "0x00000002">
+<X_HW_DataCardManage   setconfig = "0x00000002" getconfig = "0x00000002">
+<EnablePin setconfig = "0x00000002" getconfig = "0x00000002"/>
+<OptType setconfig = "0x00000002" getconfig = "0x00000002"/>
+<OldPIN setconfig = "0x00000002" getconfig = "0x00000002"/>
+<PIN setconfig = "0x00000002" getconfig = "0x00000002"/>
+<PukCode setconfig = "0x00000002" getconfig = "0x00000002"/>
+<Mode setconfig = "0x00000002" getconfig = "0x00000002"/>
+</X_HW_DataCardManage>
+</Deviceinfo> 
+</X_HW_SSMPPDT>
+</InternetGatewayDevice> 

@@ -1,0 +1,70 @@
+.TextBox {
+    width: 150px;
+  }
+
+  .TextBoxLtr {
+    width: 150px;
+    direction: ltr;
+  }
+
+  .Select {
+    width: 157px;
+  }
+
+  .TextArea {
+    width: 475px;
+  }
+
+  .nofloat {
+    float: none;
+  }
+
+  .contentItem {
+    *text-align: left;
+  }
+
+  .contenbox {
+    *width: 300px;
+    *text-align: left;
+    *padding-left: 10px;
+  }
+
+  .txt_Username {
+    *padding-left: 10px;
+  }
+
+  .textboxbg {
+    *margin: auto 0px;
+  }
+
+  #guideontauth {
+    margin-left: -90px;
+    *margin-left: 0px;
+  }
+
+  #guideskip {
+    text-decoration: none;
+    color: #666666;
+    white-space: nowrap;
+    *display: block;
+    *margin-top: -26px;
+    *margin-left: 230px;
+    *text-decoration: none;
+  }
+
+  a span {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  .width_100px {
+    width: 90px;
+  }
+
+  .mainbodysmart {
+    background-color: #FFFFFF;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    list-style: none;
+  }

@@ -1,0 +1,7 @@
+<InternetGatewayDevice> 
+<X_HW_CheckSafety setconfig = "0x00000002" getconfig = "0x00000002" > 
+<Enable setconfig = "0x00000002" getconfig = "0x00000002" /> 
+<Status setconfig = "0x00000000" getconfig = "0x00000002" /> 
+<Result setconfig = "0x00000000" getconfig = "0x00000002" /> 
+</X_HW_CheckSafety> 
+</InternetGatewayDevice> 

@@ -1,0 +1,13 @@
+<InternetGatewayDevice> 
+<X_HW_Security setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<ParentalCtrl>
+<Templates setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<Duration setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<StartTime setconfig= "0x00000007" getconfig = "0x00000007"/>
+<EndTime setconfig= "0x00000007" getconfig = "0x00000007"/>
+<RepeatDay setconfig= "0x00000007" getconfig = "0x00000007"/>
+</Duration>
+</Templates>
+</ParentalCtrl>
+</X_HW_Security>
+</InternetGatewayDevice> 

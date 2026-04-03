@@ -1,0 +1,512 @@
+﻿html,body {
+	height:100%;
+}
+
+body{
+	text-align: center;
+	margin: 0px auto;
+	width: 100%;
+	min-width:1000px;
+}
+
+div#indexpage {
+	margin: 0px;
+	padding: 0px;
+	border-width: 0px;
+	text-align: left;
+	vertical-align: top;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height:100%;
+}
+div#indexpage div#headerbg {
+	width: 100%;
+	height: 56px;
+	background:url(../../../images/indexheader.jpg);
+}
+div#indexpage div#header {
+	width: 1000px;
+	height: 56px;
+	margin-left: auto;
+	margin-right: auto;
+}
+div#indexpage div#header div#headerbrandlog {
+	float:left;
+	height: 56px;
+	width: 53px;
+	background:url(../../../images/HeaderLog.jpg) no-repeat center;
+	display:none;
+}
+
+div#indexpage div#header div#headerbrandlogSingtel {
+	height: 56px;
+	width: 75px;
+	background:url(../../../images/HeaderLogSingtel.jpg) no-repeat center;
+	display:none;
+}
+
+div#indexpage div#header div#headerProductName {
+	width: 300px;
+	height: 56px;
+	line-height:56px;
+	text-align:left;
+	font-size:18px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color:#FFFFFF;
+}
+
+div#indexpage div#header div#HeaderRightMenu {
+	float: right;
+	height: 56px;
+	width:  550px;
+	margin-top:-56px;
+}
+
+
+div#indexpage div#header div#HeaderRightMenu div#AppDiv {
+	float: right;
+	height: 30px;
+	width:  150px;
+	cursor: pointer;
+	margin-top:16px;
+	display:none;
+}
+
+div#indexpage div#header div#HeaderRightMenu div#MaPoniterIcon{
+	float: right;
+	width:21px;
+	height: 30px;
+	margin-right:2px;
+	background:url(../../../images/mapointericon.jpg) no-repeat center;
+}
+
+div#indexpage div#header div#HeaderRightMenu div#MaPoniterText {
+	float: right;
+	height: 30px;
+	cursor: pointer;
+}
+
+div#indexpage div#header div#HeaderRightMenu div#D2CodeTop{
+	width:130px;
+	height:10px;
+	margin-left:22px;
+	margin-top:13px;
+	text-align:center;
+}
+
+div#indexpage div#header div#HeaderRightMenu div#D2CodeBottom{
+	width:130px;
+	height:10px;
+	margin-left:22px;
+	margin-top:0px;
+	text-align:center;
+}
+
+div#indexpage div#header div#HeaderRightMenu div#D2CodeTop div.D2CodeCornerLeft{
+	width:10px;
+	height:10px;
+	float:left;
+	background:url(../../../images/D2CodeTL.jpg) no-repeat center;
+}
+
+div#indexpage div#header div#HeaderRightMenu div#D2CodeTop div.D2CodeCornerRigth{
+	width:10px;
+	height: 10px;
+	float:right;
+	background:url(../../../images/D2CodeTR.jpg) no-repeat center;
+}
+
+div#indexpage div#header div#HeaderRightMenu div#D2CodeBottom div.D2CodeCornerLeft{
+	width:10px;
+	height:10px;
+	float:left;
+	background:url(../../../images/D2CodeBL.jpg) no-repeat center;
+}
+
+div#indexpage div#header div#HeaderRightMenu div#D2CodeBottom div.D2CodeCornerRigth{
+	width:10px;
+	height: 10px;
+	float:right;
+	background:url(../../../images/D2CodeBR.jpg) no-repeat center;
+}
+
+div#indexpage div#header div#HeaderRightMenu div#configguide {
+	float: right;
+	height: 30px;
+	cursor: pointer;
+	margin-top:16px;
+	display:none;
+}
+
+div#indexpage div#header div#HeaderRightMenu div#configlangue {
+	float: right;
+	height: 30px;
+	cursor: pointer;
+	margin-top:16px;
+	display:none;
+}
+
+div#indexpage div#header div#HeaderRightMenu div#headerRightProductName {
+	float: right;
+	height: 56px;
+	width: 100px;
+	padding-right:0px;
+}
+
+.HeaderSpanProduct {
+	height: 50px;
+	line-height:62px;
+	font-size:13px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-align:center;
+	color:#FFFFFF;
+}
+
+.HeaderSpanTextGuide {
+	height: 30px;
+	line-height:30px;
+	font-size:12px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-align:center;
+	color:#FFFFFF;
+}
+
+#guidespacetwo {
+	display:none;
+}
+
+#guidespaceone {
+	display:none;
+}
+
+.guidespace {
+	float: right;
+	width: 22px;
+	height: 56px;
+	text-align:center;
+}
+
+.guidespacebar {
+	width: 1px;
+	height: 17px;
+	margin-left:50%;
+	margin-top:105%;
+	background-color: #FFFFFF;
+}
+
+div#indexpage div#header div#HeaderRightMenu div#headeruser {
+	float: right;
+	height: 30px;
+	margin-top:16px;
+	margin-right:20px;
+}
+
+div#indexpage div#header div#HeaderRightMenu div#headerLogout {
+	float: right;
+	height: 30px;
+	cursor: pointer;
+	margin-top:16px;
+	margin-right:10px;
+	text-align:center;
+}
+
+#D2CodeDivInfo {
+	position:absolute;
+	margin-left:0px;
+	margin-top:30px;
+	width:175px;
+	height:205px;
+	background:url(../../../images/D2Codebg.jpg) no-repeat center;
+	display:none;
+}
+
+#FirstLineIcon {
+	margin-top:22px;
+	height:18px;
+	line-height:18px;
+}
+
+#phoneicon {
+	margin-left:20px;
+	float:left;
+	width:11px;
+}
+
+#phonetext {
+	float:left;
+	font-size:12px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin-left:5px;
+	color:#9FBD59;
+}
+
+#D2CodeIcon {
+	height:110px;
+	width:175px;
+	margin-top:0px;
+	margin-left:0px;
+	background:url(../../../images/hw_2dcode.gif) no-repeat center;
+}
+
+div#indexpage div#maincenter {
+	width: 1000px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#indexpage div#maincenter div#MenuInfo {
+	float: left;
+	background-color: #E5ECEF;
+	height:100%;
+	overflow:hidden;
+}
+
+
+div#indexpage div#maincenter div#SecondMenuInfo {
+	float: left;
+	width:170px;
+	background-color: #FFFFFF;
+	height:auto;
+}
+
+.menuContent{
+	height:49px;
+	cursor: pointer;
+	border-top:1px solid #FFFFFF;
+	border-bottom:1px solid #C4C8CC;
+}
+
+#MenuFirstLineSpace{
+	height:50px;
+	border-bottom:1px solid #C4C8CC;
+}
+
+#MenuFirstLineIcon{
+	float:left;
+	height:50px;
+	width:50px;
+}
+
+#MenuFirstLineMid{
+	float:left;
+	height:50px;
+	width:170px;
+}
+
+#MenuFirstLineSpaceborder{
+	float:left;
+	height:50px;
+	width:20px;
+	background:url(../../../images/menubg.jpg) repeat;
+}
+
+#MenuBottomLineSpace{
+	height:100%;
+	background-color: #E5ECEF;
+	border-top:1px solid #FFFFFF;
+	/*border-bottom:1px solid #C4C8CC;*/
+}
+
+#MenuBottomLineIcon{
+	float:left;
+	height:100%;
+	width:50px;
+}
+
+#MenuBottomLineMid{
+	float:left;
+	height:100%;
+	width:170px;
+}
+
+#MenuBottomLineSpaceborder{
+	float:left;
+	height:100%;
+	width:20px;
+	background:url(../../../images/menubg.jpg) repeat;
+}
+
+.menuContentActive, .menuContent:hover, .menuContent.on{
+	background:url(../../../images/menupressbg.jpg) repeat-x;
+	color:#FFFFFF;
+}
+
+.FirstMenuIcon{
+	float: left;
+	height:50px;
+	width:50px;
+}
+
+.menuContTitle{
+	float: left;
+	font-size:13px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	width:170px;
+	line-height:50px;
+	text-align:left;
+	color:#24282B;
+}
+
+.menuContTitleActive, .menuContTitle:hover, .menuContTitle.on{
+	color:#FFFFFF;
+}
+
+.menuContPointer{
+	float: left;
+	height:50px;
+	width:20px;
+}
+
+.menuContPointerdef{
+	background:url(../../../images/menubg.jpg) repeat;
+}
+
+.menuContPointerActive{
+	background:url(../../../images/menuarrow.jpg) no-repeat center;
+}
+
+.SecondmenuContent{
+	height:50px;
+	cursor: pointer;
+	/*border-top:1px solid #FFFFFF;*/
+	border-bottom:1px solid #E5E5E5;
+}
+
+.SecondMenuTitle{
+	float: left;
+	height:50px;
+	width:136px;
+	font-size:13px;
+	line-height:50px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-align:left;
+	white-space:nowrap;
+	padding-left:8px;
+	padding-right:2px;
+	color:#333333;
+	background-color:#F2F2F2;
+}
+
+.SecondMenuTitleChangeLine{
+	float: left;
+	height:50px;
+	width:136px;
+	font-size:13px;
+	line-height:20px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-align:left;
+	padding-left:8px;
+	padding-right:2px;
+	color:#333333;
+	background-color:#F2F2F2;
+	word-wrap:break-word;
+}
+
+.SecondMenuTitleChangeLine:hover, .SecondMenuTitleChangeLine.on{
+	color:#57B7F3;
+}
+
+.SecondMenuTitleActive, .SecondMenuTitle:hover, .SecondMenuTitle.on{
+	color:#57B7F3;
+}
+
+.SecondMenuPointer{
+	float: left;
+	width:24px;
+	height:50px;
+	background:url(../../../images/arrowdown.jpg) no-repeat center;
+	background-color:#F2F2F2;
+}
+
+.SecondMenuPointerBlock{
+	float: left;
+	width:24px;
+	height:50px;
+	background:url(../../../images/arrowup.jpg) no-repeat center;
+	background-color:#F2F2F2;
+}
+
+.SecondMenuNullPointer{
+	float: left;
+	width:24px;
+	height:50px;
+	background-color:#F2F2F2;
+}
+
+.Menuhide{
+	display:none;
+}
+
+.Menushow{
+	display:block;
+}
+
+.ThirdMenuTitleSpace{
+	height:20px;
+	width:160px;
+	font-size:13px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-align:left;
+	padding-left:10px;
+	padding-right:6px;
+	cursor: pointer;
+	background-color:#FFFFFF;
+	word-wrap:break-word;
+}
+
+.ThirdMenuTitle{
+	padding: 15px 0;
+	width:160px;
+	font-size:13px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-align:left;
+	padding-left:10px;
+	padding-right:6px;
+	cursor: pointer;
+	background-color:#FFFFFF;
+	word-wrap:break-word;
+}
+
+.ThirdMenuTitleChangeLine{
+	height:50px;
+	width:160px;
+	font-size:13px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-align:left;
+	padding-left:10px;
+	padding-right:6px;
+	cursor: pointer;
+	background-color:#FFFFFF;
+	word-wrap:break-word;
+}
+
+.ThirdMenuTitleChangeLine:hover, .ThirdMenuTitleChangeLine.on{
+	cursor: pointer;
+	color:#57B7F3;
+}
+
+
+.ThirdMenuTitleActive, .ThirdMenuTitle:hover, .ThirdMenuTitle.on{
+	cursor: pointer;
+	color:#57B7F3;
+}
+
+div#indexpage div#maincenter div#content {
+	float: left;
+	height:100%;
+}
+
+div#indexpage div#fresh {
+	display: none;
+}
+
+#cmodeLogout
+{
+	display:none; float:right; height: 30px; cursor: pointer;margin-top: 16px;margin-right: 0px;text-align: center;
+}
+
+.AspWidth{
+	width:760px
+}

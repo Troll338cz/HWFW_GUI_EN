@@ -1,0 +1,113 @@
+<InternetGatewayDevice> 
+<Services>
+<VoiceService setconfig = "0x00000007">
+<VoiceProfile setconfig = "0x00000006" >
+<DTMFMethod setconfig = "0x00000006" />
+<X_HW_ServerType setconfig = "0x00000006" />
+<X_HW_Option120PriorityMode setconfig = "0x00000006" />
+<SIP setconfig = "0x00000006" >
+<X_HW_SubscribeEnable setconfig = "0x00000006" />
+<X_HW_SIPProfile setconfig = "0x00000006" >
+<ProfileBody setconfig = "0x00000006" />
+</X_HW_SIPProfile>
+<X_HW_SIPDigitmap setconfig = "0x00000006" >
+<DigitMapShortTimer setconfig = "0x00000006" />
+<DigitMapLongTimer setconfig = "0x00000006" />
+</X_HW_SIPDigitmap>
+<X_HW_SIPExtend setconfig = "0x00000006" >
+<SharedUserMode setconfig = "0x00000006" />
+<MultiHomeMode setconfig = "0x00000006" />
+<SoftwareParameters setconfig = "0x00000006" />
+</X_HW_SIPExtend>
+</SIP>
+<RTP  setconfig = "0x00000006">
+<TelephoneEventPayloadType setconfig = "0x00000006" />
+<X_HW_Extend  setconfig = "0x00000006">
+<EchoCancellationEnable setconfig = "0x00000006" />
+<OffhookDtasAckInterval setconfig = "0x00000006" />
+<SilenceSuppression setconfig = "0x00000006" />
+</X_HW_Extend>
+</RTP>
+<FaxT38  setconfig = "0x00000006">
+<Enable setconfig = "0x00000006" />
+</FaxT38>
+<X_HW_FaxModem  setconfig = "0x00000006">
+<FaxNego setconfig = "0x00000006" />
+</X_HW_FaxModem>
+<Line  setconfig = "0x00000006">
+<CallingFeatures  setconfig = "0x00000006">
+<X_HW_HotlineEnable setconfig = "0x00000006" />
+<X_HW_HotlineNumber setconfig = "0x00000006" />
+<X_HW_HotlineTimer setconfig = "0x00000006" />
+<CallForwardUnconditionalEnable setconfig = "0x00000006" />
+<CallForwardUnconditionalNumber setconfig = "0x00000006" />
+<CallForwardOnBusyEnable setconfig = "0x00000006" />
+<CallForwardOnBusyNumber setconfig = "0x00000006" />
+<CallForwardOnNoAnswerEnable setconfig = "0x00000006" />
+<CallForwardOnNoAnswerNumber setconfig = "0x00000006" />
+<CallWaitingEnable setconfig = "0x00000006" />
+<MWIEnable setconfig = "0x00000006" />
+<X_HW_3WayEnable setconfig = "0x00000006" />
+<X_HW_ConferenceFactoryUri setconfig = "0x00000006" />
+<X_HW_CallHoldEnable setconfig = "0x00000006" />
+<X_HW_MCIDEnable setconfig = "0x00000006" />
+<X_HW_CLIPEnable setconfig = "0x00000006" />
+<CallerIDEnable setconfig = "0x00000006" />
+<CallTransferEnable setconfig = "0x00000006" />
+<AnonymousCalEnable setconfig = "0x00000006" />
+</CallingFeatures>
+<VoiceProcessing  setconfig = "0x00000006">
+<TransmitGain setconfig = "0x00000006" />
+<ReceiveGain setconfig = "0x00000006" />
+</VoiceProcessing>
+<Codec  setconfig = "0x00000006" >
+<List  setconfig = "0x00000006" >
+<EntryID setconfig = "0x00000006" />
+<Codecs setconfig = "0x00000006" />
+<Codec setconfig = "0x00000006" />
+<PacketizationPeriod setconfig = "0x00000006" />
+<Priority setconfig = "0x00000006" />
+<Enable setconfig = "0x00000006" />
+<SilenceSuppression setconfig = "0x00000006" />
+</List>
+</Codec>
+</Line>
+</VoiceProfile>
+<PhyInterface setconfig = "0x00000006" >
+<X_HW_DspTemplate setconfig = "0x00000006" >
+<Enable setconfig = "0x00000006" />
+<WorkMode setconfig = "0x00000006" />
+</X_HW_DspTemplate>
+<X_HW_Extend setconfig = "0x00000006" >
+<FskTime setconfig = "0x00000006" />
+<ClipTransWhen setconfig = "0x00000006" />
+<ClipFormat setconfig = "0x00000006" />
+<Impedance setconfig = "0x00000006" />
+<Current setconfig = "0x00000006" />
+<HookFlashUpTime setconfig = "0x00000006" />
+<HookFlashDownTime setconfig = "0x00000006" />
+<OnhookConfirmTime setconfig = "0x00000006" />
+<SendGain setconfig = "0x00000006" />
+<ReceiveGain setconfig = "0x00000006" />
+<UserDefineRingVoltage setconfig = "0x00000006" />
+<RingDCVoltageOverlapped setconfig = "0x00000006" />
+<RingVoltage setconfig = "0x00000006" />
+<ClipSendDateTime setconfig = "0x00000006" />
+<DspHighPassFilterEnable setconfig = "0x00000006" />
+<DspTemplateName setconfig = "0x00000006" />
+<ReversePoleOnAnswer setconfig = "0x00000006" />
+<ClipForceSendFsk setconfig = "0x00000006" />
+</X_HW_Extend>
+</PhyInterface>
+<X_HW_DspTemplate setconfig = "0x00000006">
+<ServiceNumMapping setconfig = "0x00000006" addconfig = "0x00000006" delconfig="0x00000006">
+<ServiceNum setconfig = "0x00000006" addconfig = "0x00000006" delconfig="0x00000006" />
+<TemplateName setconfig = "0x00000006" addconfig = "0x00000006" delconfig="0x00000006" />
+</ServiceNumMapping>
+</X_HW_DspTemplate>
+<X_HW_InnerParameters setconfig = "0x00000006">
+<SilenceSuppressionMode setconfig = "0x00000006"/>
+</X_HW_InnerParameters>
+</VoiceService>
+</Services>
+</InternetGatewayDevice>

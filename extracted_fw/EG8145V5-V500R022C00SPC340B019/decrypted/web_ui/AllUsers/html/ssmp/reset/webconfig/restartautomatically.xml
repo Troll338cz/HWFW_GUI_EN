@@ -1,0 +1,9 @@
+<InternetGatewayDevice>
+<DeviceInfo setconfig = "0x00000003" getconfig = "0x00000003">
+<AutoRebootTerminalManagement setconfig = "0x00000003" getconfig = "0x00000003"> 
+<Enable setconfig = "0x00000003" getconfig = "0x00000003"/>
+<CpuLoadThreshold setconfig = "0x00000003" getconfig = "0x00000003"/> 
+<MemoryLoadThreshold setconfig = "0x00000003" getconfig = "0x00000003"/>  
+</AutoRebootTerminalManagement> 
+</DeviceInfo>
+</InternetGatewayDevice> 

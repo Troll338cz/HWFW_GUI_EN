@@ -1,0 +1,11 @@
+<InternetGatewayDevice> 
+<X_HW_Security setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<ParentalCtrl>
+<MAC setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<MACAddress setconfig = "0x00000007" getconfig = "0x00000007"/>
+<Description setconfig = "0x00000007" getconfig = "0x00000007"/>
+<TemplateInst setconfig = "0x00000007" getconfig = "0x00000007"/>
+</MAC>
+</ParentalCtrl>
+</X_HW_Security>
+</InternetGatewayDevice> 

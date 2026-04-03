@@ -1,0 +1,36 @@
+@font-face {
+    font-family:"HYCuSong-CAICT";
+    src:url("./HYCuSong-CAICT.ttf") format("truetype");
+    font-style:normal;
+}
+
+.digital-encoding {
+    font-family:"HYCuSong-CAICT";
+    color: white;
+    font-size: 12px;
+    bottom: -11px;
+    width: 171px;
+    text-align: center;
+    position: absolute;
+}
+
+.device-model-short {
+    font-family:"HYCuSong-CAICT";
+    font-size: 12px;
+    margin: 20px 0px;
+    bottom: 7px;
+    width: 171px;
+    text-align: center;
+    position: absolute;
+}
+
+.device-model-long {
+    font-family:"HYCuSong-CAICT";
+    font-size: 12px;
+    zoom: 0.78;
+    margin: 20px 0px;
+    bottom: 15px;
+    width: 219px;
+    text-align: center;
+    position: absolute;
+}

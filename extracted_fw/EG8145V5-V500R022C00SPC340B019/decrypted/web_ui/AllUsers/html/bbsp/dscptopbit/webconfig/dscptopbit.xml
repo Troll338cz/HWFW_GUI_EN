@@ -1,0 +1,8 @@
+<InternetGatewayDevice>
+<QueueManagement setconfig="0x00000002" getconfig = "0x00000002">
+<X_HW_DscpToPbitMappingTable setconfig = "0x00000002" addconfig = "0x00000002" delconfig = "0x00000002" getconfig = "0x00000002">
+<DscpToPbitMapping setconfig = "0x00000002" getconfig = "0x00000002"/>
+<DefaultPbit setconfig = "0x00000002" getconfig = "0x00000002"/>
+</X_HW_DscpToPbitMappingTable>
+</QueueManagement>
+</InternetGatewayDevice> 

@@ -1,0 +1,13 @@
+<InternetGatewayDevice>
+    <WANDevice getconfig ="0x00000007">
+        <WANDSLInterfaceConfig setconfig ="0x00000007" getconfig ="0x00000007">
+            <Enable setconfig =" 0x00000007"/>
+            <DownstreamCurrRate getconfig ="0x00000007"/>
+            <UpstreamCurrRate getconfig ="0x00000007"/>
+            <X_SOS setconfig =" 0x00000007"/>
+            <X_Sra setconfig =" 0x00000007"/>
+            <X_AllowedProfiles setconfig =" 0x00000007"/>
+            <X_ConfigMode setconfig =" 0x00000007"/>
+        </WANDSLInterfaceConfig>
+    </WANDevice>
+</InternetGatewayDevice> 

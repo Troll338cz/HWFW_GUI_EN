@@ -1,0 +1,13 @@
+<InternetGatewayDevice> 
+<QueueManagement setconfig = "0x00000002" addconfig = "0x00000002" delconfig = "0x00000002" getconfig = "0x00000002">
+<Enable setconfig = "0x00000002" getconfig = "0x00000002"/>
+<X_HW_Mode setconfig = "0x00000002" getconfig = "0x00000002"/>
+</QueueManagement>
+<X_HW_UplinkQos setconfig = "0x00000003" getconfig = "0x00000003">
+<X_HW_Mode setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Enable setconfig = "0x00000003" getconfig = "0x00000003"/>
+</X_HW_UplinkQos>
+<X_HW_DownlinkQos setconfig = "0x00000002" getconfig = "0x00000002">
+<Enable setconfig = "0x00000002" getconfig = "0x00000002"/>
+</X_HW_DownlinkQos>
+</InternetGatewayDevice> 

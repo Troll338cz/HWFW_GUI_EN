@@ -1,0 +1,3 @@
+# etc/ont/wap/pef31002_zsi_firmware.bin
+# Type: /tmp/fw_extract/sdkfs/squashfs_root/etc/ont/wap/pef31002_zsi_firmware.bin: data
+# Size: 3088 bytes

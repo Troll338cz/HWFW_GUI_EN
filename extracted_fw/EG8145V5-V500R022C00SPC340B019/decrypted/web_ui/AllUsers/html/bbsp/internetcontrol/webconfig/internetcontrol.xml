@@ -1,0 +1,11 @@
+<InternetGatewayDevice>
+<X_HW_Security setconfig="0x00000003" getconfig = "0x00000003">
+<X_HW_InternetOffCtrl setconfig = "0x00000003" getconfig = "0x00000003">
+<Enable setconfig = "0x00000003" getconfig = "0x00000003"/>
+<InternetOffTime   setconfig = "0x00000003"  addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<StartTime setconfig = "0x00000003" getconfig = "0x00000003"/>
+<EndTime setconfig = "0x00000003" getconfig = "0x00000003"/>
+</InternetOffTime>
+</X_HW_InternetOffCtrl> 
+</X_HW_Security>
+</InternetGatewayDevice>

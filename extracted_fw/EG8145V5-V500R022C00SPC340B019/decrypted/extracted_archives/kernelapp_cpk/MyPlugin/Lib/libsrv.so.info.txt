@@ -1,0 +1,55 @@
+# MyPlugin/Lib/libsrv.so
+# Type: /tmp/fw_extract/cpk/cpk_contents/MyPlugin/Lib/libsrv.so: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, stripped
+# Size: 1590780 bytes
+
+# Interesting strings:
+  MAP_MoveMapValueByKey
+  MAP_FindByKey
+  GPB_GetReportCacheKey
+  MAP_RemoveByKey
+  GPB_GetStaDnsMapKey
+  GPB_FreeStaMapItem
+  USERAGENT_IsSupportHttpCapture
+  BASIC_IsCmdUrlSafe
+  USERAGENT_ParseAgentKey
+  USERAGENT_ParseUrltoIp
+  BASIC_ParseUrlToDomain
+  MC_DoHttpsDownload
+  USERAGENT_ProcHttpTraffic
+  USERAGENT_AddHttpRule
+  ADAPTER_AddForwarHttpRule
+  USERAGENT_DelHttpRule
+  ADAPTER_DelForwarHttpRule
+  USERAGENT_DelAllHttpRule
+  g_httpRuleCtl
+  g_httpProcStart
+  USERAGENT_FreeHttpRuleCtlMap
+  GPB_TcpSessionConstructKey
+  web_password_error_event__init
+  web_password_error_event__free_unpacked
+  GPB_InitWebPasswordErrorEvent
+  DC_GetByKey
+  DC_DestroyByKey
+  GPB_InitApInfoCollector
+  GPB_ConverApInfoCommAttrs
+  GPB_QueryApDevCapInfo
+  GPB_QueryApInfo
+  GPB_CollectApInfo
+  GPB_ProcDnsUrlForOneCheck
+  g_oneCheckUrl
+  GPB_UpdateConnDiagDnsUrlList
+  GPB_ConnDiagResultUrl
+  GPB_GetDnsUrlForOneCheck
+  GPB_FillPingTestUrl
+  GPB_ClearPingTestUrlData
+  GPB_FreePingTestUrlData
+  GPB_InitWebTestUrlData
+  g_webTestUrl
+  GPB_GetWebTestUrlData
+  GPB_FreeWebTestUrlData
+  GPB_ClearWebTestUrlData
+  GPB_FillWebTestUrl
+  GPB_UpdateWebTestUrlList
+  CERT_InitCfg
+  CERT_SubscribleEvent
+  CERT_RecoveryCertFile

@@ -1,0 +1,17 @@
+# ttree_spec_smooth.bin Analysis
+# Size: 8712 bytes
+# Version/Magic: 0x00000004 (4)
+# Status: ENCRYPTED (AES, version=4)
+
+This file is encrypted with the same KMC key as hw_ctree.xml.
+It contains TTree specification smoothing data used during firmware upgrades.
+
+Header:
+  0000: 04 00 00 00 01 00 00 00 36 70 c7 e5 81 ab 07 4f
+  0010: b9 21 be 4b f0 da 97 ff a0 3a 8e a1 4f 85 ed e7
+  0020: 3d c5 6d eb 23 8b 37 69 03 04 22 20 89 21 00 00
+  0030: 90 21 00 00 01 01 01 01 38 a4 4a 5a 04 44 e6 9a
+  0040: f1 a0 d5 3f 4d 5a 3c 5b ae c4 7b f3 81 db cb 03
+  0050: 47 86 52 43 23 f1 88 d3 00 00 00 00 00 00 00 00
+  0060: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0070: 00 00 00 00 00 00 00 00 bd 22 bd 91 4c e3 64 82

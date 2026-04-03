@@ -1,0 +1,45 @@
+<InternetGatewayDevice> 
+<Services>
+    <X_HW_IPPingDiagnostics setconfig = "0x00000003" getconfig = "0x00000003">
+      <Enable setconfig = "0x00000003" getconfig = "0x00000003" />
+      <PingNumberOfEntries setconfig = "0x00000003" getconfig = "0x00000003"/>
+      <PingConfig setconfig = "0x00000003" getconfig = "0x00000003">
+        <DiagnosticsState setconfig = "0x00000003" getconfig = "0x00000003"/>
+        <Interface setconfig = "0x00000003" getconfig = "0x00000003"/>
+        <Host setconfig = "0x00000003" getconfig = "0x00000003"/>
+        <NumberOfRepetitions setconfig = "0x00000003" getconfig = "0x00000003"/>
+        <Timeout setconfig = "0x00000003" getconfig = "0x00000003"/>
+        <DataBlockSize setconfig = "0x00000003" getconfig = "0x00000003"/>
+        <DSCP setconfig = "0x00000003" getconfig = "0x00000003"/>
+        <Stop setconfig = "0x00000003" getconfig = "0x00000003"/>
+      </PingConfig>
+    </X_HW_IPPingDiagnostics>  
+</Services>
+<IPPingDiagnostics setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<DiagnosticsState setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Interface setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Host setconfig = "0x00000003" getconfig = "0x00000003"/>
+<NumberOfRepetitions setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Timeout setconfig = "0x00000003" getconfig = "0x00000003"/>
+<DataBlockSize setconfig = "0x00000003" getconfig = "0x00000003"/>
+<DSCP setconfig = "0x00000003" getconfig = "0x00000003"/>    
+</IPPingDiagnostics>
+<TraceRouteDiagnostics setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<DiagnosticsState setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Interface setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Host setconfig = "0x00000003" getconfig = "0x00000003"/>
+<NumberOfTries setconfig = "0x00000003" getconfig = "0x00000003"/>
+<MaxHopCount setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Timeout setconfig = "0x00000003" getconfig = "0x00000003"/>
+<DataBlockSize setconfig = "0x00000003" getconfig = "0x00000003"/>
+<DSCP setconfig = "0x00000003" getconfig = "0x00000003"/>
+<X_HW_ProtocolType setconfig = "0x00000003" getconfig = "0x00000003"/>
+</TraceRouteDiagnostics>
+<X_HW_DEBUG setconfig = "0x00000003" getconfig = "0x00000003"> 
+<BBSP>
+<ExtendPortTransCheck setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<portid setconfig = "0x00000003" getconfig = "0x00000003"/>
+</ExtendPortTransCheck>
+</BBSP>
+</X_HW_DEBUG> 
+</InternetGatewayDevice>

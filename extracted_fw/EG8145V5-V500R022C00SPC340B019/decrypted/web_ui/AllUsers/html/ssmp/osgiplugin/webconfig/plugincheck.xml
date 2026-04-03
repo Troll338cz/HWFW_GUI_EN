@@ -1,0 +1,9 @@
+﻿<InternetGatewayDevice>
+<X_HW_DEBUG>
+<WAP_OSGI setconfig = "0x00000002" getconfig = "0x00000002">
+<PluginCheck setconfig = "0x00000002" getconfig = "0x00000002">
+<Result  setconfig = "0x00000002" getconfig = "0x00000002"/> 
+</PluginCheck>  
+</WAP_OSGI>
+</X_HW_DEBUG>
+</InternetGatewayDevice>

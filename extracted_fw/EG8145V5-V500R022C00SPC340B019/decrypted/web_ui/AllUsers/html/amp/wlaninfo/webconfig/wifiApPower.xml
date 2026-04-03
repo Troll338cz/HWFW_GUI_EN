@@ -1,0 +1,8 @@
+<InternetGatewayDevice> 
+<X_HW_WIFIInfo setconfig = "0x00000003">
+<WifiTpcOptimize setconfig = "0x00000003">
+<TpcEnable setconfig = "0x00000003" getconfig = "0x00000003"/>
+<TpcOpState setconfig = "0x00000003" getconfig = "0x00000003"/>
+</WifiTpcOptimize>
+</X_HW_WIFIInfo>
+</InternetGatewayDevice> 

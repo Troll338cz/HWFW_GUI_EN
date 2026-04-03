@@ -1,0 +1,55 @@
+# MyPlugin/Lib/libbasic.so
+# Type: /tmp/fw_extract/cpk/cpk_contents/MyPlugin/Lib/libbasic.so: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, stripped
+# Size: 413524 bytes
+
+# Interesting strings:
+  BASIC_ParseIpv6AddrByUrl
+  BASIC_ParseUrlToDomain
+  BASIC_IsHttpsSafeUrl
+  BASIC_IsUrlSafe
+  BASIC_IsCmdUrlSafe
+  BASIC_IsValidHttpHead
+  BASIC_GetDomainFromUrl
+  BASIC_ValidateUrl
+  BASIC_CheckUrl
+  UTIL_UrlParse
+  UTIL_UrlConvertDomainToIpAddr
+  MAP_FindByKey
+  MAP_RemoveByKey
+  SYSCFG_GetCountryCodeRestUrl
+  DC_RefreshTableByKey
+  DC_RefreshByKey
+  DC_GetCurrentByKey
+  DC_GetOutDataByKey
+  DC_StartRefreshByKey
+  DC_GetRealtimeByKey
+  DC_GetByKey
+  DC_DestroyByKey
+  DC_HashDelByKeySafe
+  DC_HashDelByKey
+  DC_RefreshElementByKey
+  DC_RefreshByKeyThread
+  DC_GetCurrentDataByKey
+  CmscbbVerifyAddCert
+  LOG_PlugBlockUrlMsg
+  ACTION_DelAppByKey
+  LOCALCRY_InitLocalKey
+  LOCALCRY_CheckLocalKeyTimeOut
+  LOCALCRY_UpdateSecretKey
+  LOCALCRY_AddKeyFileModule
+  LOCALCRY_GetSecretInfo
+  LOCALCRY_NewSecretInfo
+  LOCALCRY_FreeKeyInfo
+  LOCALCRY_NewFactorKey
+  LOCALCRY_NewWorkKey
+  LOCALCRY_UpgradeAllSecretInfo
+  LOCALCRY_UpgradeSecretFile
+  LOCALCRY_SecretInfoFileSmoth
+  LOCALCRY_BakAllSecretInfo
+  LOCALCRY_SecretFileBak
+  LOCALCRY_BakSecretFileRecovery
+  LOCALCRY_BakSecretFileRemove
+  LOCALCRY_SetSecretInfo
+  LOCALCRY_GetLocalKeyFromFile
+  LOCALCRY_FreeKeyInfoInner
+  LOCALCRY_DeriveInitKey

@@ -1,0 +1,9 @@
+<InternetGatewayDevice>
+<LANDevice setconfig="0x00000003" getconfig = "0x00000003">
+<X_HW_DeviceIdentification setconfig = "0x00000002" addconfig = "0x00000002" delconfig = "0x00000002" getconfig = "0x00000002">
+<Type setconfig = "0x00000002" getconfig = "0x00000002"/>
+<TypeDesc setconfig = "0x00000002" getconfig = "0x00000002"/>
+<VenderClassId setconfig = "0x00000002" getconfig = "0x00000002"/>
+</X_HW_DeviceIdentification>
+</LANDevice>
+</InternetGatewayDevice>

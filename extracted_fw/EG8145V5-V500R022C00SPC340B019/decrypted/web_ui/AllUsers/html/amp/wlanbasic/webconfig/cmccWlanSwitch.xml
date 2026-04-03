@@ -1,0 +1,14 @@
+<InternetGatewayDevice> 
+<LANDevice setconfig = "0x00000003">
+<X_HW_WlanEnable setconfig = "0x00000003"/>
+</LANDevice>
+<X_HW_DEBUG> 
+<AMP>
+<SetDualWifiCoverEnable setconfig = "0x00000003">
+<RadioInst setconfig = "0x00000003"/>
+<FirstBandEnable setconfig = "0x00000003"/>
+<SecondBandEnable setconfig = "0x00000003"/>
+</SetDualWifiCoverEnable>
+</AMP>
+</X_HW_DEBUG>
+</InternetGatewayDevice> 

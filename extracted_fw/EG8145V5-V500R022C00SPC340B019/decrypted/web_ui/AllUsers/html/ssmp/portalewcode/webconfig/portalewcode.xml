@@ -1,0 +1,7 @@
+<InternetGatewayDevice> 
+<X_HW_DataModel setconfig = "0x00000002" getconfig = "0x00000002">
+<InformEwcodeCtrl setconfig = "0x00000002" getconfig = "0x00000002">
+<Ewcode setconfig = "0x00000002" getconfig = "0x00000002"/> 
+</InformEwcodeCtrl>
+</X_HW_DataModel>
+</InternetGatewayDevice> 

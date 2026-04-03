@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../../common/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/diagnoseResult.css"/>
+	</head>
+	<body>
+		<div id="banner">
+			<div id="topo">
+				<div id="lineLeft" class="line offline">
+					<img src="../image/disconnect.png" alt="" class="disconnect" style="display: none;"/>
+				</div>
+				<div id="lineRight" class="line"></div>
+				<div id="left">
+					<div class="image"></div>
+					<div class="message"><span key="DIAGNOSE_INTERNET"></span></div>
+				</div>
+				<div id="center">
+					<div class="image"></div>
+					<div class="message"><span key="DIAGNOSE_ROUTER"></span></div>
+				</div>
+				<div id="right">
+					<div class="image"></div>
+					<div class="message"><span key="DIAGNOSE_TERMINAL"></span></div>
+				</div>
+			</div>
+			<p class="completed"></p>
+			<div id="result_ok">
+				<div class="thumb_up"></div>
+				<p><span key="DIAGNOSE_OK"></span></p>
+			</div>
+			<div id="btn"><span key="RE_DIAGNOSE"></span></div>
+		</div>
+		<div id="content"></div>
+		<script src="../../common/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/RESOURCE.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/diagnoseResult.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../../common/xssCheck.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

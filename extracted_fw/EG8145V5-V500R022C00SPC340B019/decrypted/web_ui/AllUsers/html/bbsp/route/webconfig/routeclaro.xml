@@ -1,0 +1,6 @@
+<InternetGatewayDevice> 
+<Layer3Forwarding setconfig = "0x00000006" addconfig = "0x00000006" delconfig = "0x00000006" getconfig = "0x00000006">
+<X_HW_AutoDefaultGatewayEnable setconfig = "0x00000006" getconfig = "0x00000006"/>
+<DefaultConnectionService setconfig = "0x00000006" getconfig = "0x00000006"/>
+</Layer3Forwarding>
+</InternetGatewayDevice> 

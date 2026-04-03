@@ -1,0 +1,24 @@
+<InternetGatewayDevice> 
+<UserInterface setconfig = "0x00000003" getconfig = "0x00000003"> 
+<X_HW_WebUserInfo setconfig = "0x00000003" getconfig = "0x00000003"> 
+<Password setconfig = "0x00000003" getconfig = "0x00000003"/> 
+<OldPassword setconfig = "0x00000003" getconfig = "0x00000003"/>
+</X_HW_WebUserInfo>
+<X_HW_WebSslInfo setconfig = "0x00000003" getconfig = "0x00000003">
+<Enable setconfig = "0x00000003" getconfig = "0x00000003"/>
+<CertPassword setconfig = "0x00000003" getconfig = "0x00000003"/>
+</X_HW_WebSslInfo>
+</UserInterface>
+<ManagementServer setconfig = "0x00000002">
+<EnableCWMP setconfig = "0x00000002" />
+<URL setconfig = "0x00000002" />
+<Username setconfig = "0x00000002" />
+<Password setconfig = "0x00000002" />
+<PeriodicInformEnable setconfig = "0x00000002" />
+<PeriodicInformInterval setconfig = "0x00000002" />
+<ConnectionRequestUsername setconfig = "0x00000002" />
+<ConnectionRequestPassword setconfig = "0x00000002" />
+<X_HW_Path setconfig = "0x00000002" />
+<X_HW_Port setconfig = "0x00000002" />
+</ManagementServer>
+</InternetGatewayDevice>  

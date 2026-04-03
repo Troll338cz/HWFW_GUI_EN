@@ -1,0 +1,16 @@
+<InternetGatewayDevice>
+<X_HW_DEBUG setconfig = "0x00000003" getconfig = "0x00000003">
+<SMP> 
+<DM setconfig = "0x00000003" getconfig = "0x00000003">
+<FtpClient setconfig = "0x00000003" addconfig = "0x00000003" getconfig = "0x00000003"> 
+<Username setconfig = "0x00000003" getconfig = "0x00000003"/> 
+<Userpassword setconfig = "0x00000003" getconfig = "0x00000003"/> 
+<URL setconfig = "0x00000003" getconfig = "0x00000003"/> 
+<Port setconfig = "0x00000003" getconfig = "0x00000003"/> 
+<Device setconfig = "0x00000003" getconfig = "0x00000003"/> 
+<LocalPath setconfig = "0x00000003" getconfig = "0x00000003"/> 
+</FtpClient> 
+</DM> 
+</SMP>
+</X_HW_DEBUG>
+</InternetGatewayDevice> 

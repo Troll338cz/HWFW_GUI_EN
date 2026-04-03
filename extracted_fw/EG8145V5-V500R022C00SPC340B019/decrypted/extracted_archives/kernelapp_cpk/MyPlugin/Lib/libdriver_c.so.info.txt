@@ -1,0 +1,55 @@
+# MyPlugin/Lib/libdriver_c.so
+# Type: /tmp/fw_extract/cpk/cpk_contents/MyPlugin/Lib/libdriver_c.so: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, stripped
+# Size: 428124 bytes
+
+# Interesting strings:
+  CAPICALL_WithIOPara
+  CAPICALL_WithOutputPara
+  CAPICALL_WithInputPara
+  DC_GW_GetBssidListKey
+  DC_GW_GetCommonStrKey
+  DC_GW_RefreshBssidByKey
+  DC_GW_GetLanDevInfoKey
+  DC_GW_RefreshLanDevByKey
+  DC_GW_RefreshLanDevStatByKey
+  DC_GW_GetLanEthPortInfoKey
+  DC_GW_RefreshLanEthPortByKey
+  DC_GW_GetLanPonPhyKey
+  DC_GW_GetEdgeOntPhyKey
+  DC_GW_RefreshLanPonPhyByKey
+  DC_GW_RefresheEdgeOntInfoByKey
+  DC_GW_GetWanDetailKey
+  DC_GW_RefreshWanDetailByKey
+  DC_GW_RefreshWanStatsByKey
+  DC_AP_ApDevInfoGetKey
+  DC_AP_ApDevInfoStatGetKey
+  DC_HashDelByKeySafe
+  DC_AP_RefreshApDevInfoByKey
+  DC_AP_RefreshApDevInfoStatByKey
+  DC_AP_HostInfoGetKey
+  DC_AP_HostStatGetKey
+  DC_AP_DisplayAPDevCapInfo
+  DC_AP_CommonGetKey
+  DC_AP_RmSpecApDevCapInfo
+  DC_AP_FillApDevAntCapInfo
+  DC_AP_FillApDevCapInfo
+  DC_AP_RefreshAllApDevCapInfo
+  DC_AP_RefreshApDevCapInfoByKey
+  DC_AP_AddSpecApDevCapInfo
+  DC_AP_ApDevCapInit
+  DC_GA_SsidInfoGetKey
+  DC_GA_SsidStatGetKey
+  DC_GA_RefreshSsidInfoByKey
+  DC_GA_RefreshSsidStatByKey
+  DC_AP_UplinkInfoGetKey
+  DC_AP_UplinkStatGetKey
+  DC_AP_RefreshApUpLinkByKey
+  DC_AP_RefreshApUpLinkStatByKey
+  DCNEIGHBOR_GetKeyInner
+  DCNEIGHBOR_GetKey
+  DCNEIGHBOR_RefreshHashByKey
+  DCNEIGHBOR_RefreshByKey
+  DCWLAN_HostInfoGetKey
+  DCWLAN_HostStatsGetKey
+  DC_GetByKey
+  DC_DestroyByKey

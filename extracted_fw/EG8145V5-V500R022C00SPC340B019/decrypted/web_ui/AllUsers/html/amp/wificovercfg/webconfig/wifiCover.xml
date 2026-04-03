@@ -1,0 +1,113 @@
+<InternetGatewayDevice>
+    <X_HW_DEBUG>
+        <AMP>
+            <WifiCoverSetWlanBasic setconfig = "0x00000003">
+                <SsidInst setconfig = "0x00000003"/>
+                <SSID setconfig = "0x00000003"/>
+                <SSIDAdvertisementEnabled setconfig = "0x00000003"/>
+                <Enable setconfig = "0x00000003"/>
+                <Standard setconfig = "0x00000003"/>
+                <BeaconType setconfig = "0x00000003"/>
+                <BasicEncryptionModes setconfig = "0x00000003"/>
+                <BasicAuthenticationMode setconfig = "0x00000003"/>
+                <WPAEncryptionModes setconfig = "0x00000003"/>
+                <WPAAuthenticationMode setconfig = "0x00000003"/>
+                <IEEE11iEncryptionModes setconfig = "0x00000003"/>
+                <IEEE11iAuthenticationMode setconfig = "0x00000003"/>
+                <MixEncryptionModes setconfig = "0x00000003"/>
+                <MixAuthenticationMode setconfig = "0x00000003"/>
+                <WEPEncryptionLevel setconfig = "0x00000003"/>
+                <WEPKeyIndex setconfig = "0x00000003"/>
+                <WMMEnable setconfig = "0x00000003"/>
+                <Key setconfig = "0x00000003"/>
+                <MaxAssociateNum setconfig = "0x00000003"/>
+                <STAIsolation setconfig = "0x00000003"/>
+            </WifiCoverSetWlanBasic>
+            <SetWifiCoverExtendedWlan setconfig = "0x00000003">
+                <ApInst  setconfig = "0x00000003"/>
+                <AddWlanInst  setconfig = "0x00000003"/>
+                <DelExtendedWlInst  setconfig = "0x00000003"/>
+            </SetWifiCoverExtendedWlan>
+            <ParallelDelSsid setconfig = "0x00000003">
+                <DeleteInstArray setconfig = "0x00000003"/>
+            </ParallelDelSsid>
+        </AMP>
+    </X_HW_DEBUG>
+    <X_HW_APDevice setconfig = "0x00000003">
+        <WifiCover setconfig = "0x00000003">
+            <WorkingMode setconfig = "0x00000003"/>
+            <ExtendedWLC setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003">
+                <SSIDIndex setconfig = "0x00000003"/>
+            </ExtendedWLC>
+        </WifiCover>
+    </X_HW_APDevice>
+    <X_HW_WifiCoverService setconfig = "0x00000003">
+        <SyncIotSsidInst setconfig = "0x00000003"/>
+        <AutoExtended setconfig = "0x00000003"/>
+        <AutoExtendedSSIDIndex setconfig = "0x00000003"/>
+        <IspExtended setconfig = "0x00000003"/>
+        <AutoSwitchAP setconfig = "0x00000003"/>
+        <ForcedSwitchThrehold setconfig = "0x00000003"/>
+        <ForceKickInterval setconfig = "0x00000003"/>
+        <Enable setconfig = "0x00000003"/>
+        <AutoExtendPublicWiFi setconfig = "0x00000003"/>
+        <ConditionalSwitchThrehold setconfig = "0x00000003"/>
+        <AutoExtendedPolicy setconfig = "0x00000003"/>
+        <SyncWifiSwitch setconfig = "0x00000003"/>
+        <SteeringSensitivity setconfig = "0x00000003"/>
+        <RETEnable setconfig = "0x00000003"/>
+        <RETRtcpPort setconfig = "0x00000003"/>
+        <BondingEnable setconfig = "0x00000003"/>
+        <BondingRatio2G setconfig = "0x00000003"/>
+        <BondingRatio5G setconfig = "0x00000003"/>
+        <ConfigurationByRadio setconfig = "0x00000003">
+            <RFBand setconfig = "0x00000003"/>
+            <AutoExtendedSSIDIndex setconfig = "0x00000003"/>
+            <ForcedRssiThrehold setconfig = "0x00000003"/>
+            <LowRssiThreshold setconfig = "0x00000003"/>
+            <HighRssiThreshold setconfig = "0x00000003"/>
+            <IncreasedRssiThreshold setconfig = "0x00000003"/>
+        </ConfigurationByRadio>
+        <LiveAccessControl setconfig = "0x00000003">
+            <LiveModeEnable setconfig = "0x00000003"/>
+            <IntensityThreshold setconfig = "0x00000003"/>
+            <MonitorTimes setconfig = "0x00000003"/>
+            <WeakTimes setconfig = "0x00000003"/>
+        </LiveAccessControl>
+    </X_HW_WifiCoverService>
+    <LANDevice setconfig = "0x00000003">
+        <WLANConfiguration addconfig = "0x00000003" delconfig = "0x00000003" setconfig = "0x00000003">
+            <SSID setconfig = "0x00000003"/>
+            <SSIDAdvertisementEnabled setconfig = "0x00000003"/>
+            <Enable setconfig = "0x00000003"/>
+            <BeaconType setconfig = "0x00000003"/>
+            <BasicEncryptionModes setconfig = "0x00000003"/>
+            <BasicAuthenticationMode setconfig = "0x00000003"/>
+            <WPAEncryptionModes setconfig = "0x00000003"/>
+            <WPAAuthenticationMode setconfig = "0x00000003"/>
+            <IEEE11iEncryptionModes setconfig = "0x00000003"/>
+            <IEEE11iAuthenticationMode setconfig = "0x00000003"/>
+            <X_HW_WPAand11iEncryptionModes setconfig = "0x00000003"/>
+            <X_HW_WPAand11iAuthenticationMode setconfig = "0x00000003"/>
+            <X_HW_AssociateNum setconfig = "0x00000003"/>
+            <IsolationEnable setconfig = "0x00000003"/>
+            <WEPKeyIndex setconfig = "0x00000003"/>
+            <WEPEncryptionLevel setconfig = "0x00000003"/>
+            <PreSharedKey setconfig = "0x00000003">
+                <PreSharedKey setconfig = "0x00000003"/>
+                <KeyPassphrase setconfig = "0x00000003"/>
+            </PreSharedKey>
+            <X_HW_AttachConf setconfig = "0x00000003">
+                <X_HW_MNGSsidState setconfig = "0x00000003"/>
+            </X_HW_AttachConf>
+        </WLANConfiguration>
+        <X_HW_SCN setconfig = "0x00000003">
+            <Enable setconfig = "0x00000003"/>
+        </X_HW_SCN>
+    </LANDevice>
+    <X_HW_SmartTopo setconfig = "0x00000003">
+        <UserPolicy setconfig = "0x00000003"/>
+        <LowRateThrehold setconfig = "0x00000003"/>
+        <PacketLossRateThrehold setconfig = "0x00000003"/>
+    </X_HW_SmartTopo>
+</InternetGatewayDevice> 

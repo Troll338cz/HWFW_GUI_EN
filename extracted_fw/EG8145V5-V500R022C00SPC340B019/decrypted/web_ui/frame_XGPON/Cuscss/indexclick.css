@@ -1,0 +1,1346 @@
+﻿/* 首页图标点击张开页面的样式 */
+#MainContent {
+	margin-left:20px;
+}
+
+.PageTitleCss {
+	height:30px;
+	line-height:30px;
+	font-size:16px;
+	color:#666666;
+	font-family:"微软雅黑";
+}
+
+#userinfoontmngt {
+	height: auto;
+    overflow: hidden;
+}
+
+.FunctionTitle{
+	width:730px;
+	height:30px;
+	font-family:"微软雅黑";
+	border-bottom:1px solid #A6A6A6;
+}
+
+#FunctionTitleIcon {
+	float:left;
+	height:30px;
+	width:15px;
+}
+
+#FunctionTitleText {
+	float:left;
+}
+
+#defaultpwdnotice {
+	float:left;
+	font-family:"微软雅黑";
+	font-size:12px;
+	line-height:30px;
+	margin-left:10px;
+	color:#FF0000;
+	display:none;
+}
+
+#defaultpwdnoticeCss {
+	color:#FF0000;
+	font-size:12px;
+	font-family:"微软雅黑";
+}
+
+.FunctionTitleCss {
+	background:url(../images/functionicon.jpg) no-repeat center;
+}
+
+.FunctionTitleTextSpanCss {
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	font-family:"微软雅黑";
+}
+
+#userconfig{
+	float:left;
+	width:60%;
+}
+
+#pwdnoticeareatitle{
+	float:left;
+	margin-left:-40px;
+	width:40%;
+	margin-top:15px;
+}
+#pwdnoticearea{
+	float:left;
+	margin-left:-62px;
+	width:45%;
+	height: auto;
+}
+ol.outside 
+{
+	list-style-position: outside
+}
+
+.PwdNoticeTextCss {
+	height:16px;
+	line-height:16px;
+	font-family:"微软雅黑";
+}
+#PwdNoticeTitle{
+	font-size:14px;
+	color:#666666;
+}
+#PwdNotice{
+	font-size:12px;
+	color:#999999;
+}
+
+.divtr{
+	margin-top:5px;
+	height: 30px;
+	width: 100%;
+}
+
+.divtrbutton{
+	margin-top:5px;
+	height: 40px;
+	width: 100%;
+}
+
+.divtdlabal{
+	float:left;
+	font-size:14px;
+	font-family:"微软雅黑";
+	color: #666666;
+	height: 30px;
+	line-height:100%;
+	width: 30%;
+	text-align:left;
+	position:relative;
+}
+
+.divtdinput{
+	float:left;
+	font-size:14px;
+	height: 30px;
+	line-height:100%;
+	color:#333333;
+	font-family:"微软雅黑";
+	height: 30px;
+	width: 60%;
+	position:relative;
+}
+
+.textboxbg {
+	height: 24px;
+	width: 220px;
+	font-size:16px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #cccccc;
+}
+
+.DivSpace{
+	top:10px;
+	height:10px;
+	width:710px;
+	position:relative;
+}
+
+#ResetRestore{
+	height:150px;
+	width:100%;
+	top:20px;
+	position:relative;
+}
+
+#OntReset {
+	margin-top:10px;
+	height:40px;
+}
+
+#OntRestore {
+	margin-top:10px;
+	height:40px;
+}
+
+#ResetDes {
+	float:left;
+	width:420px;
+	height:40px;
+	margin-left:20px;
+	line-height:100%;
+	margin-top:-3px;
+}
+
+.OntResetIcon{
+	float:left;
+	height:40px;
+	width:40px;
+	background:url(../images/ontreseticon.jpg) no-repeat center;
+}
+
+.FloatLeftCss {
+	float:left;
+}
+
+.OntRestoreIcon{
+	float:left;
+	height:40px;
+	width:40px;
+	background:url(../images/ontrestoreicon.jpg) no-repeat center;
+}
+
+.ResetRestoreSpan{
+	font-size:14px;
+	font-family:"微软雅黑";
+	vertical-align:middle;
+}
+
+#SmartOntInfo {
+	width:710px;
+	height:120px;
+}
+
+.SmartOntModule {
+	float:left;
+	margin-left:4%;
+	width:25%;
+}
+
+.SmartOntModule_PonInfo {
+	float:left;
+	margin-left:5%;
+	width:30%;
+}
+
+.SmartOntModule_InterNet {
+	float:left;
+	margin-left:5%;
+	
+}
+
+.TitleBorderCss {
+	height:30px;
+	border-bottom:1px solid #CCCCCC;
+}
+
+.TitleSpace{
+	margin-top:5px;
+}
+.SmartinfoSpan {
+	height:30px;
+	font-size:14px;
+	font-family:"微软雅黑";
+	color:#333333;
+}
+
+.SmartinfoLeft {
+	height:20px;
+	line-height:20px;
+	font-size:12px;
+	font-family:"微软雅黑";
+	color:#666666;
+	margin-top:10px;
+	white-space:nowrap;
+}
+
+.Smartinforight {
+	height:20px;
+	line-height:20px;
+	font-size:12px;
+	font-family:"微软雅黑";
+	color:#333333;
+}
+
+.DevNameTitle {
+	margin-left:22px;
+}
+
+.DevTable {
+	margin-left:22px;
+	margin-right:22px;
+	border-collapse:collapse;
+}
+
+.DeviceTitle {
+	font-size:14px;
+	font-family:"微软雅黑";
+	color:#333333;
+}
+
+.DeviceLine {
+	font-size:14px;
+	font-family:"微软雅黑";
+	color:#727272;
+}
+
+.DeviceRefresh {
+	font-size:14px;
+	font-family:"微软雅黑";
+}
+
+.DevTableTitle {
+	background-color: #E3E3E3;
+	font-family:"微软雅黑";
+	font-size: 12px;
+	font-weight: normal;
+	text-align: center;
+	color: #333333;
+	height: 37px;
+	line-height: 33px;
+	border: 1px solid #C7C6C6;
+}
+
+.DevTableList {
+	background-color: #F2F5F5;
+	font-family:"微软雅黑";
+	font-size: 12px;
+	color: #333333;
+	height: 44px;
+	line-height: 33px;
+	/*padding-left: 12px;*/
+	text-align: center;
+	border: 1px solid #C7C6C6;
+}
+
+.DevTableListTd {
+	border: 1px solid #C7C6C6;
+}
+
+.DevTableListTd1 {
+	border: 1px solid #C7C6C6;
+	padding-left: 12px;
+	text-align: left;
+}
+
+.DevTableListTd2 {
+	border: 1px solid #C7C6C6;
+	padding-left: 12px;
+	text-align: left;
+	line-height: 16px;
+	margin-bottom:2px;
+}
+
+
+.DevEditBtn { 
+	width: 16px;
+	height: 16px;
+	margin-top: 8px;
+	line-height: 33px;
+	background:none; 
+	border:none;
+	float:left;
+	background:url(../images/edit.jpg) no-repeat;
+}
+
+.DevNameLabel {
+	/*margin-left:21px;
+	margin-right:27px;
+	float:left;*/
+	width: 164px;
+}
+
+.DevInputName {
+	height: 33px;
+	width: 164px;
+	font-size:12px;
+	color: #333333;
+	padding-left: 12px;
+	padding-right: 6px;
+	background:none; 
+	border:none;
+	background:url(../images/devnameinput.jpg) no-repeat;
+}
+
+.DevNameBtnBg {
+	height: 16px;
+	margin-top: 6px;
+	color:#333333;
+	text-align: center;
+	line-height: 33px;
+	font-size:12px;
+}
+
+.width_150px {
+	width:150px;
+}
+
+#siptable tbody tr td {
+	border: 1px solid #C7C6C6;
+}
+
+#modeinfo {
+	display:none;
+	margin-left:7%;
+	width:30%;
+	float:left;
+}
+
+#modecars {	
+	width:174px;
+	font-family:"微软雅黑";
+	font-size:13px;
+	
+}
+
+#Apply {
+	
+	float:right;
+	margin-right:20px;
+	font-family:"微软雅黑";
+}
+
+#wifimode {
+	
+	width:100%; 
+	height:500px;
+	margin-top:-320px;
+	top:50%;
+	background-color:#CCCCCC;
+	display:none;
+	position:absolute;
+}
+
+#wifipage{
+	
+	padding:2px 2px 2px 2px;
+	position:relative;
+}
+
+#quitIcon {
+	height:31px;
+	width:60px;
+	position:absolute;
+        padding-left: 92%;
+        top: -6px;
+	background:url(../../images/error.jpg) 100% 100% no-repeat;
+} 
+
+#cmodetop{
+	margin-top:10px;
+}
+
+.accesspoint1{
+	width:80px;
+	height:100px;
+	background:url(../images/accesspoint1.png) no-repeat center;
+	margin-left:-9%;
+	cursor:pointer;
+}
+.accesspoint2{
+	width:80px;
+	height:100px;
+	background:url(../images/accesspoint2.png) no-repeat center;
+	margin-left:-9%;
+	cursor:pointer;
+}
+.rtyouxian1{
+	width:150px;
+	height:40px;
+	background:url(../images/youxian1.png) no-repeat top;
+	margin-left:-72%;
+	cursor:pointer;
+}
+.rtyouxian2{
+	width:150px;
+	height:40px;
+	background:url(../images/youxian2.png) no-repeat top;
+	margin-left:-72%;
+	cursor:pointer;
+}
+.rtwuxian1{
+	width:150px;
+	height:40px;
+	background:url(../images/wuxian1.png) no-repeat top;
+	margin-left:-70%;
+	cursor:pointer;
+}
+.rtwuxian2{
+	width:150px;
+	height:40px;
+	background:url(../images/wuxian2.png) no-repeat top;
+	margin-left:-70%;
+	cursor:pointer;
+}
+.apyouxian1{
+	width:150px;
+	height:40px;
+	background:url(../images/youxian1.png) no-repeat top;
+	margin-left:10%;
+	cursor:pointer;
+}
+.apyouxian2{
+	width:150px;
+	height:40px;
+	background:url(../images/youxian2.png) no-repeat top;
+	margin-left:10%;
+	cursor:pointer;
+}
+.apwuxian1{
+	width:150px;
+	height:40px;
+	background:url(../images/wuxian1.png) no-repeat top;
+	margin-left:1%;
+	cursor:pointer;
+}
+.apwuxian2{
+	width:150px;
+	height:40px;
+	background:url(../images/wuxian2.png) no-repeat top;
+	margin-left:1%;
+	cursor:pointer;
+}
+.reyouxian1{
+	width:150px;
+	height:40px;
+	background:url(../images/youxian1.png) no-repeat top;
+	margin-left:10%;
+	cursor:pointer;
+}
+.reyouxian2{
+	width:150px;
+	height:40px;
+	background:url(../images/youxian2.png) no-repeat top;
+	margin-left:10%;
+	cursor:pointer;
+}
+.rewuxian1{
+	width:150px;
+	height:40px;
+	background:url(../images/wuxian1.png) no-repeat top;
+	cursor:pointer;
+}
+.rewuxian2{
+	width:150px;
+	height:40px;
+	background:url(../images/wuxian2.png) no-repeat top;
+	cursor:pointer;
+}
+.ghnyouxian1{
+	width:150px;
+	height:40px;
+	background:url(../images/youxian1.png) no-repeat top;
+	margin-left:10%;
+	cursor:pointer;
+}
+.ghnyouxian2{
+	width:150px;
+	height:40px;
+	background:url(../images/youxian2.png) no-repeat top;
+	margin-left:10%;
+	cursor:pointer;
+}
+.ghnwuxian1{
+	width:150px;
+	height:40px;
+	background:url(../images/wuxian1.png) no-repeat top;
+	cursor:pointer;
+}
+.ghnwuxian2{
+	width:150px;
+	height:40px;
+	background:url(../images/wuxian2.png) no-repeat top;
+	cursor:pointer;
+}
+.ghnpic1{
+	width:80px;
+	height:100px;
+	background:url(../images/accesspoint1.png) no-repeat center;
+	margin-left:2%;
+	cursor:pointer;
+}
+.ghnpic2{
+	width:80px;
+	height:100px;
+	background:url(../images/accesspoint2.png) no-repeat center;
+	margin-left:2%;
+	cursor:pointer;
+}
+#apInterPics
+{
+	margin-top:35px;
+}
+
+#apgatewaydiv
+{
+	float:left;
+	margin-left:25%;
+	width:58px;
+}
+
+#apgatewaypic
+{
+	width:58px;
+	height:58px;
+	margin-top:15px; 
+	margin-left:-35%;
+	background:url(../images/gateway.png) no-repeat center;
+}
+
+#apgatewaycontent
+{
+	margin-left:-22px;
+	width:60px;
+	text-align:center;
+	font-size: 14px;
+}
+
+#apdianline
+{
+	float:left;
+	background:url(../images/dianline.png) no-repeat center;
+	margin-left:-3%;
+	width:160px;
+	height:100px;
+}
+
+.apdianright
+{
+	float:left;
+	background:url(../images/wificon.png) no-repeat top;
+	margin-left:40%;
+	margin-top:35px;
+	width:30px;
+	height:30px;
+}
+.aptogetway
+{
+	float:left;
+	background:url(../images/error.jpg) no-repeat top;
+	margin-left:40%;
+	margin-top:35px;
+	width:30px;
+	height:30px;
+}
+
+#apdiv
+{
+	float:left;
+}
+
+#apcontent
+{
+	margin-left:-13px;
+	width: 80px;
+	text-align: center;
+	font-size: 14px;
+}
+
+#apwifidiv24
+{
+	float:left;
+}
+
+#apwifipic24
+{
+	width:30px;
+	height:30px;
+	background:url(../images/wifipic24.png) no-repeat top;
+	cursor:pointer;
+}
+
+#apwificontent24
+{
+	margin-left:-8%;
+	font-size:10px;
+}
+
+#apshuline
+{
+	float:left;
+	width:1px;
+	height: 15px;
+	margin-top:6px;
+	background-color:#C4C8CC;
+}
+
+#apwifidiv5
+{
+	float:left;
+	margin-left:1%;
+}
+
+#apwifipic5
+{
+	width:30px;
+	height:30px;
+	background:url(../images/wifipic5.png) no-repeat top;
+	cursor:pointer;
+}
+
+#apwificontent5
+{
+	margin-left:-8%;
+	font-size:10px;
+}
+.clear
+{
+	clear:both
+}
+#apdivs
+{
+	margin-top:5px;
+}
+
+#apxulines
+{
+	float:left;
+	background:url(../images/xulines.png) no-repeat top;
+	margin-left:37.5%;
+	width:150px;
+	height:100px;
+}
+
+#apwifipic1
+{
+	float:left;
+	background:url(../images/wifipic1.png) no-repeat top;
+	margin-left:38%;
+	margin-top:35px;
+	width:30px;
+	height:30px;
+}
+
+#apshilines
+{
+	float:left;
+	background:url(../images/shilines.png) no-repeat top;
+	margin-left:-6%;
+	width:150px;
+	height:100px;
+}
+
+#apwificon
+{
+	float:left;
+	background:url(../images/wificon.png) no-repeat top;
+	margin-left:38%;
+	margin-top:35px;
+	width:30px;
+	height:30px;
+}
+
+#apdevices
+{
+	margin-top:5px;
+}
+
+#apwuxiandev
+{
+	float:left;
+	margin-left:33%;
+}
+
+#apwxdev
+{
+	margin-left:28%;
+	font-size:14px;
+	width: 75px;
+	text-align: center;
+}
+
+#apyouxiandev
+{
+	float:left;
+}
+
+#apyxdev
+{
+	margin-left:35%;
+	font-size:14px;
+    width: 75px;
+    text-align: center;
+}
+
+#accesspoint
+{
+	display:none;
+	width:750px;
+	height:300px;
+	margin-left:10px;
+	margin-top:220px;
+	background-color: #C4C8CC;
+}
+
+#apDivWX
+{
+	display:none;
+	width:750px;
+	height:300px;
+	margin-left:10px;
+	margin-top:220px;
+	background-color: #C4C8CC;
+}
+
+#apDivYX
+{
+	display:none;
+	width:750px;
+	height:300px;
+	margin-left:10px;
+	margin-top:220px;
+	background-color: #C4C8CC;
+}
+
+#apDiv24
+{
+	display:none;
+	width:750px;
+	height:300px;
+	margin-left:10px;
+	margin-top:220px;
+	background-color: #C4C8CC;
+}
+
+#apDiv5
+{
+	display:none;
+	width:750px;
+	height:300px;
+	margin-left:10px;
+	margin-top:220px;
+	background-color: #C4C8CC;
+}
+
+#reDivRE
+{
+	display:none;
+	width:750px;
+	height:300px;
+	margin-left:10px;
+	margin-top:220px;
+	background-color: #C4C8CC;
+}
+
+#reDivWX
+{
+	display:none;
+	width:750px;
+	height:300px;
+	margin-left:10px;
+	margin-top:220px;
+	background-color: #C4C8CC;
+}
+
+#reDivYX
+{
+	display:none;
+	width:750px;
+	height:300px;
+	margin-left:10px;
+	margin-top:220px;
+	background-color: #C4C8CC;
+}
+
+#reDiv24
+{
+	display:none;
+	width:750px;
+	height:300px;
+	margin-left:10px;
+	margin-top:220px;
+	background-color: #C4C8CC;
+}
+
+#reDiv5
+{
+	display:none;
+	width:750px;
+	height:300px;
+	margin-left:10px;
+	margin-top:220px;
+	background-color: #C4C8CC;
+}
+
+#reInterPics
+{
+	margin-top:35px;
+	margin-left:13px;
+}
+
+#regatewaydiv
+{
+	float:left;
+	margin-left:15%;
+	width:58px;
+}
+
+#regatewaypic
+{
+	width:58px;
+	height:58px;
+	margin-top:15px;
+	margin-left:-35%;
+	background:url(../images/gateway.png) no-repeat center;
+}
+
+
+#regatewaycontent
+{
+	margin-left:-18px;
+	width: 55px;
+	text-align: center;
+	font-size: 14px;
+}
+
+#rexuline
+{
+	float:left;
+	background:url(../images/xuline.png) no-repeat center;
+	margin-left:0%;
+	width:100px;
+	height:100px;
+}
+
+#rewifidiv241
+{
+	float:left;
+}
+
+.rewifipic241
+{
+	width:29px;
+	height:50px;
+	margin-top:25px;
+	background:url(../images/wifipic1.png) no-repeat center;
+	margin-left:22%;
+    cursor:pointer;
+}
+.rewifitogetway
+{
+	width:29px;
+	height:50px;
+	margin-top:25px;
+	background:url(../images/error.jpg) no-repeat center;
+	margin-left:22%;
+}
+
+#rewificontent241
+{
+	margin-left:-10%;
+	width:54px;
+	text-align:center;
+}
+
+#rediv
+{
+	float:left;
+	margin-left:22px;
+}
+
+#recontent
+{  	
+	margin-left: -10px;
+	text-align: center;
+	font-size: 14px;
+	width: 80px;
+}
+
+#rewifidiv242
+{
+	float:left;
+}
+
+#rewifipic242
+{
+	width:30px;
+	height:30px;
+	background:url(../images/wifipic24.png) no-repeat top;
+	cursor:pointer;
+}
+
+#rewificontent242
+{
+	margin-left:-8%;
+	font-size:10px;
+}
+
+#reshuline
+{
+	float:left;
+	width:1px;
+	height:15px;
+	margin-top:6px;
+	background-color:#C4C8CC;
+}
+
+#rewifidiv5
+{
+	float:left;
+	margin-left:1%;
+}
+
+#wifipic5
+{
+	width:30px;
+	height:30px;
+	background:url(../images/wifipic5.png) no-repeat top;
+	cursor:pointer;
+}
+
+#rewificontent5
+{
+	margin-left:-8%;
+	font-size:10px;
+}
+
+#redivs
+{
+	margin-top:5px;
+}
+
+#rexulines
+{
+	float:left;
+	background:url(../images/xulines.png) no-repeat top;
+	margin-left:46%;
+	width:150px;
+	height:100px;
+}
+
+#rewifipic1
+{
+	float:left;
+	background:url(../images/wifipic1.png) no-repeat top;
+	margin-left:38%;
+	margin-top:35px;
+	width:30px;
+	height:30px;
+}
+
+#reshilines
+{
+	float:left;
+	background:url(../images/shilines.png) no-repeat top;
+	margin-left:-6%;
+	width:150px;
+	height:100px;
+}
+
+#rewificon
+{
+	float:left;
+	background:url(../images/wificon.png) no-repeat top;
+	margin-left:38%;
+	margin-top:35px;
+	width:30px;
+	height:30px;
+}
+
+#redevices
+{
+	margin-top:5px;
+}
+
+#rewuxiandev
+{
+	float:left;
+	margin-left:41.5%;
+}
+
+#reyouxiandev
+{
+	float:left;
+}
+
+#reyxdev
+{
+	margin-left:35%;
+	font-size:14px;
+	width: 75px;
+	text-align: center;
+}
+
+#rewxdev
+{
+	margin-left:28%;
+	font-size:14px;
+	width: 75px;
+	text-align: center;
+}
+
+#ghnInterPics
+{
+	margin-top:35px;
+}
+
+#ghngatewaydiv
+{
+	float:left;
+	margin-left:8%;
+	width:58px;
+}
+
+#ghngatewaypic
+{
+	width:50px;
+	height:58px;
+	margin-top:15px;
+	margin-left:-35%;
+	background:url(../images/gateway.png) no-repeat center;
+}
+
+#ghngatewaycontent
+{
+	margin-left: -20px;
+	width: 50px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.ghndianright
+{
+	float:left;
+	background:url(../images/wificon.png) no-repeat top;
+	margin-left:40%;
+	margin-top:35px;
+	width:30px;
+	height:30px;
+}
+.ghntoroute
+{
+	float:left;
+	background:url(../images/error.jpg) no-repeat top;
+	margin-left:40%;
+	margin-top:35px;
+	width:30px;
+	height:30px;
+}
+
+#ghndianline
+{
+	float:left;
+	background:url(../images/dianline.png) no-repeat center;
+	margin-left:0%;
+	width:160px;
+	height:100px;
+}
+
+#ghndiv1
+{
+	float:left;
+	margin-top:20px;
+}
+
+#ghnwifipic1
+{
+	width:50px;
+	height:60px;
+	background:url(../images/ghn.png) no-repeat center;
+}
+
+#ghnwificontent
+{
+	margin-left:8px;
+	width: 25px;
+	text-align: center;
+}
+
+.ghndianerror
+{
+	float:left;
+	background:url(../images/dianerror.png) no-repeat top;
+	margin-left:40%;
+	margin-top:35px;
+	width:30px;
+	height:30px;
+}
+.ghntorep
+{
+	float:left;
+	background:url(../images/error.jpg) no-repeat top;
+	margin-left:40%;
+	margin-top:35px;
+	width:30px;
+	height:30px;
+}
+
+#ghndiv2
+{
+	float:left;
+}
+
+#ghncontent
+{
+	margin-left:-8px;
+	width: 95px;
+	text-align: center;
+	font-size: 14px;
+}
+
+#ghndiv24
+{
+	float:left;
+}
+
+#ghnpic24
+{
+	width:30px;
+	height:30px;
+	background:url(../images/wifipic24.png) no-repeat top;
+	cursor:pointer;
+}
+
+#ghncontent24
+{
+	margin-left:-8%;
+	font-size:10px;
+}
+
+#ghnshuline
+{
+	float:left;
+	width:1px;
+	height:15px;
+	margin-top:6px;
+	background-color:#C4C8CC;
+}
+
+#ghndiv5
+{
+	float:left;
+	margin-left:1%;
+}
+
+#ghnpic5
+{
+	width:30px;
+	height:30px;
+	background:url(../images/wifipic5.png) no-repeat top;
+	cursor:pointer;
+}
+
+#ghncontent5
+{
+	margin-left:-8%;
+	font-size:10px;
+}
+
+#ghndivs
+{
+	margin-top:5px;
+}
+
+#ghnxulines
+{
+	float:left;
+	background:url(../images/xulines.png) no-repeat top;
+	margin-left:52%;
+	width:150px;
+	height:100px;
+}
+
+#ghndivpic1
+{
+	float:left;
+	background:url(../images/wifipic1.png) no-repeat top;
+	margin-left:38%;
+	margin-top:35px;
+	width:30px;
+	height:30px;
+}
+
+#ghnshilines
+{
+	float:left;
+	background:url(../images/shilines.png) no-repeat top;
+	margin-left:-6%;
+	width:150px;
+	height:100px;
+}
+
+#ghnwificon
+{
+	float:left;
+	background:url(../images/wificon.png) no-repeat top;
+	margin-left:38%;
+	margin-top:35px;
+	width:30px;
+	height:30px;
+}
+
+#ghndevices
+{
+	margin-top:5px;
+}
+
+#ghnwuxiandev
+{
+	float:left;
+	margin-left:47.5%;
+}
+
+#ghnwxdev
+{
+	margin-left:28%;
+	font-size:14px;	
+	width: 75px;
+	text-align: center;
+}
+
+#ghnyouxiandev
+{
+	float:left;
+}
+
+#ghnyxdev
+{
+	margin-left:35%;
+	font-size:14px;
+        width: 75px;
+        text-align: center;
+}
+
+#ghnreDivRE
+{
+	display:none;
+	width:750px;
+	height:300px;
+	margin-left:10px;
+	margin-top:50px;
+	background-color: #C4C8CC;
+}
+
+#ghnreDivWX
+{
+	display:none;
+	width:750px;
+	height:300px;
+	margin-left:10px;
+	margin-top:50px;
+	background-color:#C4C8CC;
+}
+
+#ghnreDivYX
+{
+	display:none;
+	width:750px;
+	height:300px;
+	margin-left:10px;
+	margin-top:50px;
+	background-color:#C4C8CC;
+}
+
+#ghnreDiv24
+{
+	display:none;
+	width:750px;
+	height:300px;
+	margin-left:10px;
+	margin-top:50px;
+	background-color:#C4C8CC;
+}
+
+#ghnreDiv5
+{
+	display:none;
+	width:750px;
+	height:300px;
+	margin-left:10px;
+	margin-top:50px;
+	background-color: #C4C8CC;
+}
+

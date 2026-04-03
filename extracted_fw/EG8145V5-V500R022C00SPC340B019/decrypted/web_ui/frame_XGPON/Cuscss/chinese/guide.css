@@ -1,0 +1,703 @@
+body{
+	margin:0px;
+	padding:0px;
+	border-width:0px;
+	text-align:center;
+	font-family: "Arial", "微软雅黑";
+}
+
+#mainguidebg {
+	width:100%;
+	min-width:960px;
+	height: 545px;
+	background:url(../../images/loginbg.jpg);
+}
+
+#mainguidetop{
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#guidindexhead{
+	width:100%;
+	margin-top:75px;
+	text-align:center;
+}
+
+#guidindexhead span{
+	font-size:36px;
+	color:#ffffff;
+}
+
+.guideline{
+	width:100%;
+	height:35px;
+	text-align:center;
+}
+
+.guidecheckbox{
+	width:34%;
+	height:19px;
+	float:left;
+	text-align:right;
+}
+
+.guidecheckbox img{
+	margin-right:12px;
+}
+
+.guidecontent{
+	width:66%;
+	height:19px;
+	float:right;
+	text-align:left;
+}
+
+.guidecontent input{
+	margin-top:40px;
+}
+
+.check_content{
+	margin-top:13px;
+}
+
+.guideheadspace{
+	width:100%;
+	height:40px;
+}
+
+.guidespace{
+	width:100%;
+	height:30px;
+}
+
+.check_title{
+	font-family: "Arial", "微软雅黑";
+	word-wrap:break-word;
+	font-size:16px;
+	color:#ffffff;
+}
+
+.check_content{
+	font-family: "Arial", "微软雅黑";
+	word-wrap:break-word;
+	font-size:14px;
+	color:#0169a5;
+}
+
+#guideframehead{
+	width:100%;
+	height:39px;
+	margin-top:87px;
+	*margin-top:120px;	/*IE7 compatible*/
+	text-align:center;
+}
+
+#guideframehead_fttr{
+	width:100%;
+	height:39px;
+	padding-top: 87px;
+	*padding-top: 120px; /*IE7 compatible*/
+	text-align:center;
+}
+
+#guideframehead_fttr span{
+	font-size:24px;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	color:#ffffff;
+}
+
+#guideframehead span{
+	font-size:24px;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	color:#ffffff;
+}
+
+#guideframebody{
+	width:100%;
+	min-width:960px;
+	background:url(../../images/guidebg.jpg);
+}
+
+#guideframebg{
+	width: 960px;
+	height: 388px;
+	margin: 0px;
+	padding: 0px;
+	border-width: 0px;
+	text-align: left;
+	vertical-align: top;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#guideframebg #selectarrow{
+	width: 118px;
+	height: 26px;
+	margin-top:-15px;
+	text-align:center;
+	*position:relative;	/*IE7 compatible*/
+	*z-index:2;			/*IE7 compatible*/
+}
+
+#guideframebg_fttr{
+	width: 960px;
+	height: 300px;
+	margin: 0px;
+	padding: 0px;
+	border-width: 0px;
+	text-align: left;
+	vertical-align: top;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#guideframebg .guidestepinfo{
+	width: 100%;
+	height: 140px;
+	margin-top:90px;
+	text-align:center;
+}
+
+#guideframebg_fttr .guidestepinfo_fttr{
+	width: 100%;
+	height: 140px;
+	margin-top:60px;
+	text-align:center;
+}
+
+#guideframebg_fttr .guidestepinfo_fttr span{
+	word-wrap:break-word;
+	width:118px;
+	font-size:20px;
+	color:#ffffff;
+	font-family: "Arial", "微软雅黑";
+}
+
+#guideframebg .guidestepinfo span{
+	word-wrap:break-word;
+	width:118px;
+	font-size:18px;
+	color:#ffffff;
+	font-family: "Arial", "微软雅黑";
+}
+
+.guidestepintv4{
+	margin-left:115px;
+}
+
+.guidestepintv3{
+	margin-left:165px;
+}
+
+.guidestepintv2{
+	margin-left:250px;
+}
+.guidestepintv2rt{
+	margin-left:0px;
+}
+.guidestep1of4{
+	margin-left:66px;
+}
+
+.guidestep2of4{
+	margin-left:303px;
+}
+
+.guidestep3of4{
+	margin-left:540px;
+}
+
+.guidestep4of4{
+	margin-left:777px;
+}
+
+.guidestep1of3{
+	margin-left:134px;
+}
+
+.guidestep2of3{
+	margin-left:421px;
+}
+
+.guidestep3of3{
+	margin-left:708px;
+}
+
+.guidestep1of2{
+	margin-left:234px;
+}
+
+.guidestep2of2{
+	margin-left:608px;
+}
+.guidewanstep{
+	margin-left:165px;
+	margin-right:165px;
+}
+.guideicocmode{
+	
+}
+.guidecmodestep{
+	margin-left:0px;
+}
+.guideicowancfg{
+	margin-left:165px;
+	margin-right:165px;
+}
+.guidertstep{
+	margin-left:133px;
+}
+.guidestep3of3rt{
+	margin-left:710px;
+}
+.guidestep3of3root{
+	margin-left:85px;
+}
+.guidestep1of3root{
+	margin-left:215px;
+}
+#framepageContent{
+	width: 960px;
+	height: 500px;
+	margin: 0px;
+	padding: 0px;
+	border-width: 0px;
+	text-align: center;
+	vertical-align: top;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#userinfo{
+	margin-top:20px;
+	margin:0 auto;
+	width: 950px;
+}
+
+#userinfo .CancleButtonCss{
+	margin-left:-48px;
+	*margin-left:0;		/*IE7 compatible*/
+}
+
+.guidepwdnoticearea{
+	float:left;
+	width: 330px;
+	height: 130px;
+	text-align:left;
+	font-size:14px;
+	color: #666666;
+}
+
+.labelBox{
+	float:left;
+	font-size:16px;
+	font-family:"微软雅黑";
+	color: #666666;
+	height: 34px;
+	line-height:34px;
+	width: 200px;
+	text-align:right;
+	margin-left:110px;
+	position:relative;
+}
+
+.ModifypwdlabelBox{
+	float:left;
+	font-size:16px;
+	font-family:"微软雅黑";
+	color: #666666;
+	height: 34px;
+	line-height:34px;
+	width: 250px;
+	text-align:right;
+	position:relative;
+}
+
+
+.contenbox{
+	font-size:16px;
+	color:#FFFFFF;
+	font-family:"微软雅黑";
+	height: 34px;
+	width: 500px;
+	position:relative;
+}
+
+.contenModifypwdbox{
+	font-size:16px;
+	color:#FFFFFF;
+	font-family:"微软雅黑";
+	height: 34px;
+	width: 240px;
+	position:relative;
+}
+
+.contenModifySubmitbox{
+	font-size:16px;
+	color:#FFFFFF;
+	font-family:"微软雅黑";
+	height: 34px;
+	width: 400px;
+	margin-left:3px;
+	float:left;
+	text-align:left;
+}
+
+.txt_Username{
+	font-size:16px;
+	font-family:"微软雅黑";
+	color: #333333;
+	height: 34px;
+	line-height:34px;
+	text-align:left;
+	width: 160px;
+}
+
+.contentItem{
+	margin-top:12px;
+	margin-left:-80px;
+	height: 34px;
+	width: 800px;
+}
+
+.contentModifypwdItem{
+	margin-top:12px;
+	height: 34px;
+	float:left;
+}
+
+.btnguide{
+	margin-top:24px;
+	margin-left:93px;
+	height: 40px;
+	width: 800px;
+}
+
+.textboxbg{
+	height: 32px;
+	width: 233px;
+	font-family:"微软雅黑";
+	font-size:16px;
+	background:none;
+	border:none;
+	margin-left:-90px;
+	background:url(../../images/userinput.jpg) no-repeat;
+}
+
+.textModifypwdboxbg{
+	height: 32px;
+	width: 233px;
+	font-family:"微软雅黑";
+	font-size:16px;
+	background:none;
+	border:none;
+	background:url(../../images/userinput.jpg) no-repeat;
+}
+
+.internetlabelBox{
+	float:left;
+	font-size:16px;
+	font-family:"微软雅黑";
+	color: #666666;
+	height: 34px;
+	line-height:34px;
+	width: 200px;
+	text-align:right;
+	margin-left:150px;
+	position:relative;
+}
+
+.internettextboxbg{
+	height: 32px;
+	width: 233px;
+	background:none;
+	border:none;
+	margin-left:-10px;
+	line-height:28px;
+	overflow:hidden;
+	background:url(../../images/userinput.jpg) no-repeat;
+}
+
+.internetbtnguide{
+	height:40px;
+	width:450px;
+	margin-left:356px;
+	position:absolute;
+}
+
+#bssResult{
+	width:100%;
+	height:150px;
+	margin-top:35px;
+	text-align:center;
+}
+
+#bssResult span{
+	width:100%;
+	font-size:16px;
+	color:#666666;
+	font-family:"微软雅黑";
+}
+
+#bssResult #bssResProgPer span{
+	color:#FFFFFF;
+}
+
+#bssResult #bssResTitle span{
+	font-weight:bold;
+}
+
+#bssResTitle{
+	margin-left:298px;
+	text-align:left;
+}
+
+#bssResProg{
+	height:53px;
+	width:565px;
+	margin-top:20px;
+	margin-left:auto;
+	*margin-left:230px;	/*IE7 compatible*/
+	text-align:left;
+	margin-right:auto;
+	display:inline-block;
+}
+
+#bssPrompt{
+	width:500px;
+	margin-top:15px;
+	margin-left:298px;
+	*margin-left:134px;	/*IE7 compatible*/
+	text-align:left;
+}
+
+#bssResProgPer{
+	width:48px;
+	height:34px;
+	text-align:center;
+	color:#ffffff;
+	font-size:24px;
+	background:url(../../images/bssbarpro.jpg) no-repeat center;
+}
+
+#bssResult #bssResProg #bssResProgPer span{
+	margin:auto;
+	margin-top:3px;
+	display:inline-block;
+	display:-moz-inline-stack;
+}
+
+#bssResProgBar{
+	width:536px;
+	height:19px;
+	float:left;
+	background:url(../../images/bssbarbg.jpg) no-repeat left;
+}
+
+#bssResProgBarTotal{
+	max-width:530px;
+	height:18px;
+	float:left;
+	background-color:#7BB600;
+}
+
+#bssResult #bssResProg #bssResProgBar .bssResProgBarSpace{
+	width:7px;
+	height:19px;
+	float:left;
+	background:url(../../images/bssbarperbg.jpg) no-repeat center;
+}
+
+#bssResult #bssResProg #bssResProgBar .bssResProgBarHead{
+	width:9px;
+	height:19px;
+	float:left;
+	background:url(../../images/bssbarhead.jpg) no-repeat center;
+}
+
+#bssResult #bssResProg #bssResProgBar .bssResProgBarTail{
+	width:9px;
+	height:19px;
+	float:left;
+	background:url(../../images/bssbartail.jpg) no-repeat center;
+}
+
+#bssResult #bssResProg #bssResProgBar .bssResProgBarPer{
+	width:100%;
+	height:18px;
+	float:left;
+	background:url(../../images/bssbarper.jpg) no-repeat center;
+}
+
+#bssResult #bssResProg #bssResProgBar .bssResProgBarPerBg{
+	width:24px;
+	height:18px;
+	float:left;
+	background:url(../../images/bssbarperbg.jpg) no-repeat center;
+}
+
+#PwdNoticeTitle
+{
+	margin-left:20px;
+	font-weight:bold;
+}
+
+#PwdNotice
+{
+	margin-top:5px;
+}
+
+#repneighguide #wlanupmodescan td
+{
+    height: 35px;
+    line-height: 35px;
+}
+
+#repneighguide #regResult{
+    margin-left: 50px;
+}
+
+#repneighguide .ampResProgBarPer{
+    width:100%;
+    height:18px;
+    float:left;
+    background:url(../../../images/progress.png) no-repeat center;      
+}
+
+#repneighguide #wlanupmodesetfrom td{
+    text-align: left;
+}
+
+#repneighguide #prv, #next, #pagejump{
+    vertical-align: middle;
+}
+
+#repneighguide #wlanupmodessid,#wlanupmodepassword,#wlanupmodeencrypt{
+    width:195px;
+}
+
+#repneighguide #Tablewlanupmodesetfrom{
+    margin-top: 10px;
+}
+
+#repneighguide #wlanupmodeset{
+    background-color: white;
+}
+
+#repneighguide #wlanupmodeset{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+#repneighguide .prv{
+    width:26px;
+    height:26px;
+    text-align: left;
+    background:url(../../../images/prv.png) no-repeat center;
+}
+
+#repneighguide .next{
+    width:26px;
+    height:26px;
+    text-align: left;
+    background:url(../../../images/next.png) no-repeat center;
+}
+
+#repneighguide .prv:hover{
+    width:26px;
+    height:26px;
+    text-align:left;
+    background:url(../../../images/clickprv.png) no-repeat center;
+}
+
+#repneighguide .next:hover{
+    width:26px;
+    height:26px;
+    text-align:left;
+    background:url(../../../images/clicknext.png) no-repeat center;
+}
+
+#repneighguide .choosepage{
+	text-align: left;
+}
+
+#repneighguide a:link,a:visited {
+  font-size: 12px;
+  color: #666;
+  text-decoration: none;
+}
+
+#repneighguide a:hover {
+  color: #ff0000;
+  text-decoration: underline;
+}
+
+#repneighguide #Tab {
+  margin: 0 auto;
+  width: 100%;
+}
+
+#repneighguide .Menubox {
+  height: 48px;
+  border-bottom: 1px solid #64B8E4;
+  background-color: #F5F9FD;
+  text-align: left;
+}
+
+#repneighguide .Menubox ul {
+  list-style: none;
+  margin: 7px 0;
+  padding: 0;
+  position: absolute;
+}
+
+#repneighguide .Menubox ul li {
+  float: left;
+  background: #64B8E4;
+  line-height: 40px;
+  display: block;
+  cursor: pointer;
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px 5px 0 0;
+  border-top: 1px solid #64B8E4;
+  border-left: 1px solid #64B8E4;
+  border-right: 1px solid #64B8E4;
+}
+
+#repneighguide .Menubox ul li.hover {
+  background: #fff;
+  border-bottom: 1px solid #fff;
+  color: #147AB8;
+}
+#repneighguide #con_menu_2 td {
+	text-align: left;
+}
+
+#repneighguide #importRfband,#importssid,#importpassword,#wimportencrypt{
+	width: 200px;
+}
+
+#repneighguide #importRfband,#importencrypt{
+	width: 204px;
+}
+
+#repneighguide #scanresult {
+	border-left:1px solid #BCE2F3;
+	border-right: 1px solid #BCE2F3;
+}
+
+#repneighguide #submitbutton {
+	border-left:1px solid #BCE2F3;
+	border-right: 1px solid #BCE2F3;
+	border-bottom: 1px solid #BCE2F3;	
+}

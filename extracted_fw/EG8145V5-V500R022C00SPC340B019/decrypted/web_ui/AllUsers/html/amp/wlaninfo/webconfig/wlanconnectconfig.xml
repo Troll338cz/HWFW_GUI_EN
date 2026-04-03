@@ -1,0 +1,14 @@
+<InternetGatewayDevice> 
+<X_HW_SlaveAPConfig setconfig = "0x00000003" getconfig = "0x00000003"> 
+<WifiSyncEnable setconfig = "0x00000003" getconfig = "0x00000003"/>
+<WifiSyncAccessCfg setconfig = "0x00000003" getconfig = "0x00000003"/>
+<HttpsSwitch setconfig = "0x00000003" getconfig = "0x00000003"/>
+</X_HW_SlaveAPConfig>
+<WANDevice setconfig = "0x00000003" getconfig = "0x00000003">
+<WANCommonInterfaceConfig setconfig = "0x00000003" getconfig = "0x00000003">
+<X_HW_UpmodeConfig setconfig = "0x00000003" getconfig = "0x00000003">
+<UpAccessMode  setconfig = "0x00000003" getconfig = "0x00000003"/>
+</X_HW_UpmodeConfig>
+</WANCommonInterfaceConfig>
+</WANDevice>
+</InternetGatewayDevice> 

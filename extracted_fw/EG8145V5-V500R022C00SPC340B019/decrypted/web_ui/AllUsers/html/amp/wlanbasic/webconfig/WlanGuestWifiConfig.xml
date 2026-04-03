@@ -1,0 +1,28 @@
+<InternetGatewayDevice>
+    <LANDevice setconfig = "0x00000003">
+        <WLANConfiguration addconfig = "0x00000003" delconfig = "0x00000003" setconfig = "0x00000003">
+            <Enable setconfig = "0x00000003"/>
+            <SSID setconfig = "0x00000003"/>
+            <SSIDAdvertisementEnabled setconfig = "0x00000003"/>
+            <BeaconType setconfig = "0x00000003"/>
+            <BasicAuthenticationMode setconfig = "0x00000003"/>
+            <BasicEncryptionModes setconfig = "0x00000003"/>
+            <WPAEncryptionModes setconfig = "0x00000003"/>
+            <WPAAuthenticationMode setconfig = "0x00000003"/>
+            <IEEE11iEncryptionModes setconfig = "0x00000003"/>
+            <IEEE11iAuthenticationMode setconfig = "0x00000003"/>
+            <X_HW_WPAand11iEncryptionModes setconfig = "0x00000003"/>
+            <X_HW_WPAand11iAuthenticationMode setconfig = "0x00000003"/>
+        </WLANConfiguration>
+        <X_HW_WLANForGuest addconfig = "0x00000003" delconfig = "0x00000003" setconfig = "0x00000003">
+            <SSID_IDX setconfig = "0x00000003"/>
+            <PortIsolation setconfig = "0x00000003"/>
+            <Duration setconfig = "0x00000003"/>
+            <UpRateLimit setconfig = "0x00000003"/>
+            <DownRateLimit setconfig = "0x00000003"/>
+        </X_HW_WLANForGuest>
+    </LANDevice>
+    <X_HW_WifiCoverService setconfig = "0x00000003" >
+        <AutoExtendGuestWifi setconfig = "0x00000003"/>
+    </X_HW_WifiCoverService>
+</InternetGatewayDevice>

@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<link rel="stylesheet"  href='../../../Cuscss/<%HW_WEB_GetCusSource(frame.css);%>' type='text/css'>
+<script language="JavaScript" src="../../resource/common/util.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<title>Update Software</title>
+</head>
+<body class="mainbody">
+<form action="uploadfile.cgi?RequestFile=html/management/reset.asp&FileType=image" method="post" enctype="multipart/form-data" name="fr_uploadImage" id="fr_uploadImage"> 
+  <div> 
+    <table width="100%" height="10%" border="0" cellspacing="0" cellpadding="0"> 
+      <tr> 
+        <td class="prompt"><table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+            <tr> 
+            <td width="13%" align="center"><img src="../../../images/error.gif" width="48" height="48" /></td>
+              <td width="87%" id="DownloadInfo"> <font face="Arial"> 
+				<script language="JavaScript" type="text/javascript">
+				if ( "ENGLISH" == top.curLanguage.toUpperCase() )
+				{
+					document.write('Add or update failed. Please select the correct file and try again.Note: The bundle cannot be added or updated if the files are not the proper type.');
+				}
+				else
+				{
+					document.write('添加或更新失败，请选择正确的文件重试。注意: 如果该文件类型不正确， 则bundle不能被添加或更新。');
+				}
+				</script>
+                </font> 
+			  </td> 
+            </tr> 
+          </table>
+		</td> 
+      </tr> 
+    </table> 
+  </div> 
+</form> 
+</body>
+</html>

@@ -1,0 +1,55 @@
+# MyPlugin/Lib/libmbedall.so
+# Type: /tmp/fw_extract/cpk/cpk_contents/MyPlugin/Lib/libmbedall.so: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, stripped
+# Size: 722452 bytes
+
+# Interesting strings:
+  mbedtls_aes_setkey_enc
+  mbedtls_aes_setkey_dec
+  mbedtls_aes_xts_setkey_enc
+  mbedtls_aes_xts_setkey_dec
+  mbedtls_aria_setkey_enc
+  mbedtls_aria_setkey_dec
+  mbedtls_camellia_setkey_enc
+  mbedtls_camellia_setkey_dec
+  mbedtls_ccm_setkey
+  mbedtls_cipher_setkey
+  mbedtls_chacha20_setkey
+  mbedtls_chachapoly_setkey
+  mbedtls_nist_kw_setkey
+  mbedtls_des3_set3key_dec
+  mbedtls_des3_set3key_enc
+  mbedtls_des3_set2key_dec
+  mbedtls_des3_set2key_enc
+  mbedtls_des_setkey_dec
+  mbedtls_des_setkey_enc
+  mbedtls_gcm_setkey
+  mbedtls_des_key_set_parity
+  mbedtls_des_key_check_key_parity
+  mbedtls_des_key_check_weak
+  mbedtls_des_setkey
+  mbedtls_dhm_calc_secret
+  mbedtls_ecp_gen_privkey
+  mbedtls_ecdh_calc_secret
+  mbedtls_ecdsa_genkey
+  mbedtls_ecp_gen_keypair
+  mbedtls_ecp_keypair_init
+  mbedtls_ecp_keypair_free
+  mbedtls_ecdsa_from_keypair
+  mbedtls_ecp_gen_keypair_base
+  mbedtls_ecjpake_derive_secret
+  mbedtls_ecp_check_pubkey
+  mbedtls_ecp_check_privkey
+  mbedtls_ecp_gen_key
+  mbedtls_ecp_read_key
+  mbedtls_ecp_write_key
+  mbedtls_oid_get_extended_key_usage
+  mbedtls_oid_get_certificate_policies
+  mbedtls_eckey_info
+  mbedtls_eckeydh_info
+  mbedtls_rsa_check_pubkey
+  mbedtls_pk_parse_subpubkey
+  mbedtls_pk_parse_key
+  mbedtls_pk_parse_keyfile
+  mbedtls_pk_parse_public_key
+  mbedtls_pk_parse_public_keyfile
+  mbedtls_pk_write_pubkey

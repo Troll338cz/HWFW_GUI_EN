@@ -1,0 +1,13 @@
+<InternetGatewayDevice> 
+<DeviceInfo setconfig = "0x00000003"> 
+<X_HW_Framedetection setconfig = "0x00000002"> 
+<DetectionsState setconfig = "0x00000002"/> 
+<CycleCount setconfig = "0x00000002"/>
+<CollectCycle setconfig = "0x00000002"/> 
+<PkgPerSecond setconfig = "0x00000002"/> 
+<DMAC setconfig = "0x00000002"/>
+<ResultNumberOfEntries setconfig = "0x00000002"/> 
+<ResultTotal setconfig = "0x00000002"/> 
+</X_HW_Framedetection> 
+</DeviceInfo> 
+</InternetGatewayDevice> 

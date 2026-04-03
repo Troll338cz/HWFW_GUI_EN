@@ -1,0 +1,590 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Pragma" content="no-cache" />
+<script language="JavaScript" src="../../../resource/common/<%HW_WEB_CleanCache_Resource(util.js);%>"></script>
+<script language="JavaScript" src="../../../resource/common/<%HW_WEB_CleanCache_Resource(jquery.min.js);%>"></script>
+<script language="JavaScript" src='../../../Cusjs/<%HW_WEB_GetCusSource(InitFormCus.js);%>'></script>
+<script language="JavaScript" src="../../../resource/common/<%HW_WEB_CleanCache_Resource(InitForm.asp);%>"></script>
+<link rel="stylesheet"  href='../../../resource/common/<%HW_WEB_CleanCache_Resource(style.css);%>' type='text/css'>
+<link rel="stylesheet"  href='../../../Cuscss/<%HW_WEB_GetCusSource(frame.css);%>' type='text/css'>
+<script language="JavaScript" src="../../../resource/<%HW_WEB_Resource(ssmpdes.js);%>"></script>
+
+<script language="JavaScript" type="text/javascript">
+var cfgMode ='<%HW_WEB_GetCfgMode();%>';
+var pageStatus = '<%WEB_GetLedSynStatus();%>';
+var pageStatus = '<%WEB_GetLedSynStatus();%>';
+
+function stLedOffTimeInfo(domain,StartTime,EndTime)
+{
+    this.domain = domain;
+    this.StartTime = StartTime;
+	this.EndTime = EndTime;
+}
+
+var ChangeLedCfg = 0;
+var ModifyConfigDomain = "";
+var stLedOffConfig = <%HW_WEB_GetParaArryByDomain(InternetGatewayDevice.X_HW_SSMPPDT.Deviceinfo.X_HW_LedOffTime.{i}, StartTime|EndTime, stLedOffTimeInfo);%>;
+var LedInfoPaxu = new Array();
+var isFTTREDGE = '<%HW_WEB_GetFeatureSupport(FT_FTTR_EDGE_ONT);%>';
+var isFTTRMAIN = '<%HW_WEB_GetFeatureSupport(FT_FTTR_MAIN_ONT);%>';
+var halfLedFt = '<%HW_WEB_GetFeatureSupport(FT_DM_LEDOFF_HALF_HOUR);%>';
+var pairLedFt = '<%HW_WEB_GetFeatureSupport(FT_WEB_LEDOFF_HALF_HOUR);%>';
+
+function HourTimeEx(StrTime)
+{
+	var valueEx = StrTime.split(':');
+	var strH = valueEx[0];
+	return strH;
+
+}
+
+function MinTimeEx(StrTime)
+{
+	var valueEx = StrTime.split(':');
+	var strM = valueEx[1];
+	return strM;
+}
+
+var ConfigLen = stLedOffConfig.length - 1;
+for(var j = 0; j < ConfigLen; j++)  
+{ 
+	for(var i = j+1; i < ConfigLen; i++) 
+	{	
+		var HousValue_j = parseInt(HourTimeEx(stLedOffConfig[j].StartTime),10);
+		var MinValue_j = parseInt(MinTimeEx(stLedOffConfig[j].StartTime),10);
+		var ValueCalcByMin_j = HousValue_j*60 + MinValue_j;
+		var HousValue_i = parseInt(HourTimeEx(stLedOffConfig[i].StartTime), 10);
+		var MinValue_i = parseInt(MinTimeEx(stLedOffConfig[i].StartTime), 10);
+		var ValueCalcByMin_i = HousValue_i*60 + MinValue_i;
+		
+		if( ValueCalcByMin_j >  ValueCalcByMin_i)        
+	    {         
+		    LedInfoPaxu[0] = stLedOffConfig[j];        
+		    stLedOffConfig[j] = stLedOffConfig[i];        
+		    stLedOffConfig[i] = LedInfoPaxu[0];        
+		}
+	}    
+}
+
+var EnableLedSwitch = '<%HW_WEB_GetParaByDomainName(InternetGatewayDevice.X_HW_SSMPPDT.Deviceinfo.X_HW_LedSwitch);%>';  
+
+function LoadFrame()
+{
+    if (EnableLedSwitch == '0') {
+        setDisplay('OffTimeConfig', 0);
+        setDisplay('offtimesetbutton', 0);
+        setRadio("LedSwitchEnable", "Enable");
+
+    } else if (EnableLedSwitch == '1') {
+        setDisplay('OffTimeConfig', 1);
+        setDisplay('offtimesetbutton', 1);
+        setRadio("LedSwitchEnable", "Forbid");
+    } else {
+        setDisplay('OffTimeConfig', 0);
+        setDisplay('offtimesetbutton', 0);
+        setRadio("LedSwitchEnable", "ForbidDelay");
+    }
+
+    if (stLedOffConfig.length - 1 == 0) {
+        setDisplay('AddConfigPanel', 0);
+        selectLine('LedPanInfo_record_no');
+    } else {
+        selectLine('LedPanInfo_record_0');
+	}
+    if (pageStatus == 1) {
+        setDisable("OffTimeConfig", "1");
+        setDisable("offtimesetbutton", "1");
+        $("#EnableLedId #LedSwitchEnable").attr("disabled","disabled");
+        $("#ForbidLedId #LedSwitchEnable").attr("disabled","disabled");
+        setDisable("btnApplyLed", "1");
+        setDisable("cancelValueLed", "1");
+        setDisable("StartHour", "1");
+        setDisable("StartMinute", "1");
+        setDisable("EndHour", "1");
+        setDisable("EndMinute", "1");
+        setDisable("Newbutton", "1");
+        setDisable("DeleteButton", "1");
+    }
+}
+
+function GetLanguageDesc(Name)
+{
+    return LedcfgLgeDes[Name];
+}
+
+function SubmitFormLedEnableInfo()
+{
+    var Form = new webSubmitForm();
+    var EnableLedSwitch = getRadioVal("LedSwitchEnable", "Enable");
+    var Value
+
+    if (EnableLedSwitch == "Enable") {
+        Value = 0;
+    } else if (EnableLedSwitch == "Forbid") {
+        Value = 1;
+    } else {
+        Value = 2;
+    }
+
+    Form.addParameter('x.X_HW_LedSwitch', Value);
+    Form.setAction('set.cgi?x=InternetGatewayDevice.X_HW_SSMPPDT.Deviceinfo&RequestFile=html/ssmp/ledcfg/ledcfg.asp');	
+    Form.addParameter('x.X_HW_Token', getValue('onttoken'));
+    Form.submit();
+}
+
+function ShowLedConfigInfo(val)
+{
+    if ((ChangeLedCfg != 0) || (pageStatus == 1)) {
+        return;
+    }
+
+    ChangeLedCfg = 1;
+    var Radioinput = $("#EnableForbidLedId").find("input[type='radio']");  
+    Radioinput.attr("disabled","disabled");
+
+    setDisable("EnableLedId", 1);
+    setDisable("ForbidLedId", 1);
+
+    if ((val == "Enable") || (val == "ForbidDelay")) {
+        setDisplay('OffTimeConfig', 0);
+        setDisplay('offtimesetbutton', 0);
+    }
+
+    SubmitFormLedEnableInfo();
+}
+
+function CancelConfig()
+{	
+	setDisplay('AddConfigPanel', 1);
+    LoadFrame();
+}
+
+function isDecDigit(digit) 
+{
+   var decVals = new Array("0", "1", "2", "3", "4", "5", "6", "7", "8", "9");
+   var len = decVals.length;
+   var i = 0;
+   var ret = false;
+
+   for ( i = 0; i < len; i++ )
+      if ( digit == decVals[i] ) break;
+
+   if ( i < len )
+      ret = true;
+   return ret;
+}
+
+function isValidNumber(number)
+{
+	var numberLen = number.length;
+	if(numberLen != 2 && numberLen != 1)
+	{
+		return false;
+	}
+	for(var i = 0 ; i < numberLen ; i++)
+	{
+		if(!isDecDigit(number.charAt(i)))
+		{
+			return false;
+		}
+	}
+	return true;
+}
+
+function isValidHour(val)
+{
+	if((isValidNumber(val) == true) && (parseInt(val,10) < 24))
+	{
+		return true;
+	}
+	return false;
+}
+
+function isValidMinute(val)
+{
+	if((isValidNumber(val) == true) && (parseInt(val,10) < 60))
+	{
+		return true;
+	}
+	return false;
+}
+
+function DeleteLineRow()
+{
+	var tableRow = getElementById("LedPanInfo");
+	if (tableRow.rows.length > 2)
+	tableRow.deleteRow(tableRow.rows.length-1);
+	return false;
+}
+
+function setControl(Index)
+{
+	selctIndex = Index;
+	if (Index < -1)
+	{
+		return;
+	}
+	
+	if (Index == -1)
+	{	
+		if(stLedOffConfig.length - 1 >= 4)
+		{	
+			DeleteLineRow();
+			AlertEx(GetLanguageDesc("s1807"));
+			setDisplay('AddConfigPanel', 0);
+			return ;
+		}
+		else
+		{	
+			setDisplay('AddConfigPanel', 1);
+			setText('StartHour', '');
+			setText('StartMinute', '');
+			setText('EndHour', '');
+			setText('EndMinute', '');
+		}
+	}
+	else
+	{ 
+		setDisplay('AddConfigPanel', 1);
+    	setText('StartHour',HourTimeEx(stLedOffConfig[Index].StartTime));
+		setText('StartMinute',MinTimeEx(stLedOffConfig[Index].StartTime));
+		setText('EndHour',HourTimeEx(stLedOffConfig[Index].EndTime));
+		setText('EndMinute',MinTimeEx(stLedOffConfig[Index].EndTime));
+	}
+}
+
+function LedPanInfoselectRemoveCnt(obj)
+{
+
+}
+
+function clickRemove()
+{        
+	var SelectCount = 0;
+
+	if(0 == stLedOffConfig.length - 1)
+	{
+		AlertEx(GetLanguageDesc("s1815"));
+		return false;
+	}
+	
+	var Form = new webSubmitForm();
+	
+	for (var i = 0; i < stLedOffConfig.length - 1; i++)
+	{
+		if (getCheckVal("LedPanInfo_rml"+i) == "1")
+		{
+			SelectCount++;
+			Form.addParameter(stLedOffConfig[i].domain, '');
+		}
+	}
+
+	if (SelectCount == 0)
+	{				
+		AlertEx(GetLanguageDesc("s1816"));
+		return false;
+	}
+	if (pageStatus == 1) {
+		return false;
+	}
+	setDisable("btnApplyLed", "1");
+    setDisable("cancelValueLed", "1");
+	Form.addParameter('x.X_HW_Token', getValue('onttoken'));
+	Form.setAction('del.cgi?RequestFile=html/ssmp/ledcfg/ledcfg.asp');   
+	Form.submit();       
+}
+function isValidTimeDuration(startHour, startMin, endHour, endMin)
+{
+	var StHTime = parseInt(startHour, 10);
+	var StMTime = parseInt(startMin, 10);
+	var StTimeCalcByMin = StHTime*60 + StMTime;
+	
+	var EndHTime = parseInt(endHour, 10);
+	var EndMTime = parseInt(endMin, 10);
+	var EndTimeCalcByMin = EndHTime*60 + EndMTime;
+	if(EndTimeCalcByMin >= StTimeCalcByMin)
+	{	
+		return false;
+	}
+	return true;
+}
+
+function CheckNewTime(BaseStartTime, BaseEndTime, CheckStartTime, CheckEndTime)
+{	
+	var BaseStHTime = parseInt(HourTimeEx(BaseStartTime), 10);
+	var BaseStMTime = parseInt(MinTimeEx(BaseStartTime), 10);
+	var BaseStTimeCalcByMin = BaseStHTime*60 + BaseStMTime;
+	
+	var BaseEndHTime = parseInt(HourTimeEx(BaseEndTime), 10);
+	var BaseEndMTime = parseInt(MinTimeEx(BaseEndTime), 10);
+	var BaseEndTimeCalcByMin = BaseEndHTime*60 + BaseEndMTime;
+	
+	var CheckStHTime = parseInt(HourTimeEx(CheckStartTime), 10);
+	var CheckStMTime = parseInt(MinTimeEx(CheckStartTime), 10);
+	var CheckStTimeCalcByMin = CheckStHTime*60 + CheckStMTime;
+	
+	var CheckEndHTime = parseInt(HourTimeEx(CheckEndTime), 10);
+	var CheckEndMTime = parseInt(MinTimeEx(CheckEndTime), 10);
+	var CheckEndTimeCalcByMin = CheckEndHTime*60 + CheckEndMTime;
+	var Value24Min = 24*60;
+	
+	if(CheckStTimeCalcByMin < CheckEndTimeCalcByMin)
+	{	
+		if(BaseStTimeCalcByMin < BaseEndTimeCalcByMin)
+		{	
+			if( CheckStTimeCalcByMin >= BaseEndTimeCalcByMin)
+			{
+				return true;
+			}
+			
+			if(CheckEndTimeCalcByMin <= BaseStTimeCalcByMin)
+			{
+				return true;
+			}
+			return false;
+		}
+		else 
+		{
+			if(CheckEndTimeCalcByMin <= BaseStTimeCalcByMin && CheckStTimeCalcByMin >= BaseEndTimeCalcByMin)
+			{
+				return true;
+			}
+
+			return false;
+		}
+	}
+	else 
+	{
+		if(BaseStTimeCalcByMin < BaseEndTimeCalcByMin)
+		{	
+			if(CheckStTimeCalcByMin >= BaseEndTimeCalcByMin && CheckEndTimeCalcByMin <= BaseStTimeCalcByMin)
+			{
+				return true;
+			}
+			
+			return false;
+		}
+		else 
+		{
+			return false;
+		}
+	}
+		
+	return true;
+}
+
+function CheckParameter()
+{
+	var strStartHour = getValue('StartHour');
+	var strStartMin = getValue('StartMinute');
+	var strEndHour = getValue('EndHour');
+	var strEndMin = getValue('EndMinute');
+	
+	if(isValidNumber(strStartHour))
+	{
+		strStartHour = parseTime(strStartHour);
+	}
+	
+	if(isValidNumber(strStartMin))
+	{
+		strStartMin = parseTime(strStartMin);
+	}
+	
+	if(isValidNumber(strEndHour))
+	{
+		strEndHour = parseTime(strEndHour);
+	}
+	
+	if(isValidNumber(strEndMin))
+	{
+		strEndMin = parseTime(strEndMin);
+	}
+	
+	var strStartTime = strStartHour +":" + strStartMin; 
+	var strEndTime = strEndHour +":" + strEndMin;
+	
+	if(!isValidNumber(strStartHour) || !isValidNumber(strStartMin))
+	{
+		AlertEx(GetLanguageDesc("s1810"));
+		return false;
+	}
+	
+	if(!isValidNumber(strEndHour) || !isValidNumber(strEndMin))
+	{
+		AlertEx(GetLanguageDesc("s1811"));
+		return false;
+	}
+	
+	if(!isValidHour(strStartHour) || !isValidHour(strEndHour))
+	{
+		AlertEx(GetLanguageDesc("s1812"));
+		return false;
+	}
+	
+	if(!isValidMinute(strStartMin) || !isValidMinute(strEndMin))
+	{
+		AlertEx(GetLanguageDesc("s1813"));
+		return false;
+	}
+	
+	if(isValidTimeDuration(strStartHour, strStartMin, strEndHour, strEndMin))
+	{
+		AlertEx(GetLanguageDesc("s1814"));
+		return false;
+	}
+	
+	for (var i = 0; i < stLedOffConfig.length - 1;i++)
+	{	
+		if(ModifyConfigDomain == stLedOffConfig[i].domain)
+		{
+			continue;
+		}
+		
+		var Result = CheckNewTime(stLedOffConfig[i].StartTime, stLedOffConfig[i].EndTime,strStartTime, strEndTime);
+		if(false == Result)
+		{
+			AlertEx(GetLanguageDesc("s1817"));
+			return false;
+		}
+	}
+	
+	return true;
+}
+
+function parseTime(str)
+{
+	if(str.length == 1)
+	{
+		str = '0' + str;
+	}
+	return str;
+}
+
+function SubmitFormTimeInfo()
+{
+	if(selctIndex >=0 )
+	{
+		ModifyConfigDomain = stLedOffConfig[selctIndex].domain;
+	}
+ 	var StartHour = getValue('StartHour');
+	var StartMin = getValue('StartMinute');
+	var EndHour = getValue('EndHour');
+	var EndMin = getValue('EndMinute');
+	var StartTimeStr = "";
+	var EndTimeStr = "";
+	StartHour = parseTime(StartHour);
+ 	StartMin = parseTime(StartMin);
+  	EndHour = parseTime(EndHour);
+  	EndMin = parseTime(EndMin);
+ 
+	StartTimeStr = StartHour + ":" + StartMin;
+	EndTimeStr = EndHour + ":" + EndMin;
+
+	if((!CheckParameter()) || (pageStatus == 1)) {
+		return false;
+	}
+	var Form = new webSubmitForm();
+	Form.addParameter('x.StartTime',StartTimeStr);
+	Form.addParameter('x.EndTime',EndTimeStr);
+	
+	setDisable("btnApplyLed", "1");
+    setDisable("cancelValueLed", "1");
+	
+	Form.addParameter('x.X_HW_Token', getValue('onttoken'));
+	
+	if( selctIndex == -1 )
+	{
+  		Form.setAction('add.cgi?' + 'x=InternetGatewayDevice.X_HW_SSMPPDT.Deviceinfo.X_HW_LedOffTime' + '&RequestFile=html/ssmp/ledcfg/ledcfg.asp');
+	}
+	else
+	{
+ 		Form.setAction('set.cgi?x=' + stLedOffConfig[selctIndex].domain + '&RequestFile=html/ssmp/ledcfg/ledcfg.asp');
+	}
+	
+	Form.submit();
+}
+
+</script>
+</head>
+<body class="mainbody" onLoad="LoadFrame();">
+<script language="JavaScript" type="text/javascript">
+    if (pageStatus == 1) {
+        HWCreatePageHeadInfo("ledcfg", GetDescFormArrayById(LedcfgLgeDes, "s0100"), GetDescFormArrayById(LedcfgLgeDes, "s1500a"), false);
+    } else {
+        HWCreatePageHeadInfo("ledcfg", GetDescFormArrayById(LedcfgLgeDes, "s0100"), GetDescFormArrayById(LedcfgLgeDes, "s1500"), false);
+    }
+</script>
+<div class="title_spread"></div>  
+<div class="func_title" BindText="s1501"></div>
+<div id="EnableForbidLedId">
+<table width="100%" border="0" cellpadding="0" cellspacing="1" class="tabal_noborder_bg"> 
+  <tr> 
+    <td class="table_title width_per20" BindText="s1803"></td> 
+    <td class="table_right width_per15" id="EnableLedId"><input type='radio' name='LedSwitchEnable' id='LedSwitchEnable' value="Enable" onclick="ShowLedConfigInfo(this.value)">
+    <script>document.write(GetLanguageDesc("s1808"));</script></td> 
+    <script>
+        if ((halfLedFt == 0) && (pairLedFt == 0)) {
+            document.write('<td class="table_right width_per65" id="ForbidLedId"><input type="radio" name="LedSwitchEnable" id="LedSwitchEnable" value="Forbid" onclick="ShowLedConfigInfo(this.value)">' + GetLanguageDesc("s1809") + '</td>');
+        } else {
+            document.write('<td class="table_right width_per15" id="ForbidLedId"><input type="radio" name="LedSwitchEnable" id="LedSwitchEnable" value="Forbid" onclick="ShowLedConfigInfo(this.value)">' + GetLanguageDesc("s1809") + '</td>');
+            document.write('<td class="table_right width_per50" id="ForbidLedId"><input type="radio" name="LedSwitchEnable" id="LedSwitchEnable" value="ForbidDelay" onclick="ShowLedConfigInfo(this.value)">' + GetLanguageDesc("s1809a") + '</td>');
+        }
+    </script>
+  </tr> 
+</table>
+</div>
+<div id="OffTimeConfig" name="OffTimeConfig" class="z_index_2">
+<div class="func_spread"></div> 
+<div class="func_title" BindText="s1818"></div>
+<form id="ConfigForm">
+	<script type="text/javascript">
+		var ledConfiglistInfo = new Array(new stTableTileInfo("Empty",null,"DomainBox"),
+											new stTableTileInfo("s1801",null,"StartTime"),
+											new stTableTileInfo("s1802",null,"EndTime"),null);
+
+		var ColumnNum = 3;
+		var TableDataInfo =  HWcloneObject(stLedOffConfig, 1);
+		setDisplay("OffTimeConfig", EnableLedSwitch);
+		HWShowTableListByType(EnableLedSwitch, "LedPanInfo", 1, ColumnNum, TableDataInfo, ledConfiglistInfo, LedcfgLgeDes, null);
+	</script>
+
+<div id="AddConfigPanel">
+<div class="list_table_spread"></div>  
+<table cellpadding="0" cellspacing="1" class="tabal_noborder_bg" width="100%"> 
+<tr class='height20p'> 
+<td class="table_title width_per20 align_left" nowrap="nowrap" BindText='s1804'></td> 
+<td class="table_right align_left">
+<span><script>document.write('&nbsp;&nbsp;&nbsp;' + GetLanguageDesc("s1801"));</script></span>
+<input type="text" id="StartHour" style="width: 18px" maxlength="2">
+<span><script>document.write(GetLanguageDesc("s1805"));</script></span>
+<input type="text" id="StartMinute" style="width: 18px" maxlength="2">
+<span><script>document.write('&nbsp;&nbsp;&nbsp;' + GetLanguageDesc("s1802"));</script></span>
+<input type="text" id="EndHour" style="width: 18px" maxlength="2">
+<span><script>document.write(GetLanguageDesc("s1805"));</script></span>
+<input type="text" id="EndMinute"  style="width: 18px" maxlength="2">
+<span  class="gray"><script>document.write(GetLanguageDesc("s1806"));</script></span>
+</td>
+</tr>  
+</table> 
+</div> 
+</form>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="table_button"> 
+<tr id="offtimesetbutton" name="offtimesetbutton"> 
+<td class="table_submit width_per20"></td> 
+<td  class="table_submit"> 
+<input type="hidden" name="onttoken" id="hwonttoken" value="<%HW_WEB_GetToken();%>"> 
+<input  class="ApplyButtoncss buttonwidth_100px" name="btnApplyLed" id="btnApplyLed" type="button" BindText="s0e08" onClick="SubmitFormTimeInfo();"> 
+<input  class="CancleButtonCss buttonwidth_100px" name="cancelValueLed" id="cancelValueLed" type="button" BindText="s0e09" onClick="CancelConfig();"> 
+</td> 
+</tr> 
+</table>  
+</div>
+<script>
+ParseBindTextByTagName(LedcfgLgeDes, "div",    1);
+ParseBindTextByTagName(LedcfgLgeDes, "td",    1);
+ParseBindTextByTagName(LedcfgLgeDes, "input", 2);
+</script>
+</body>
+</html>

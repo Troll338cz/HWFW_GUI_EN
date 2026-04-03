@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../../common/base.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/phone.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/adjustPosition.css"/>
+</head>
+<body>
+    <div id="main">
+    	<div id="top">
+    		<span id="backIcon" onclick="backPage()"></span>
+    		<div class="title"><span key="POSITION_DEBUGGING"></span></div>
+    	</div>
+    	<div id="chart">
+    		<div class="divBox">
+    			<div id="outer" class="circular"></div>
+	    		<div id="state"></div>
+	    		<div class="crossLine"></div>
+    		</div>
+    	</div>
+    	<div class="status">
+	        <p class="strength"></p>
+	        <p class="suggest"></p>
+	    </div>
+    </div>
+	<div class="bottom">
+	    <p><span></span></p>
+	    <div class="place">
+	        <div class="left">
+	            <img id="left_img" src="" alt="">
+	        </div>
+	        <div class="center">
+	            <div class="center_top">
+	                <div>
+	                    <i></i>
+	                    <img id="center_img" src="" alt="">
+	                </div>
+	            </div>
+	            <div class="center_bottom">
+	                <div>
+	                    <span key="CLOSE"></span>
+	                    <span key="LIMITED_RANGE"></span>
+	                </div>
+	                <div>
+	                    <span key="MODERATE"></span>
+	                    <span key="COVER"></span>
+	                    <span key="SPEED"></span>
+	                </div>
+	                <div>
+	                    <span key="FAR"></span>
+	                    <span key="SPEED_LIMITED"></span>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="right">
+	            <img id="right_img" src="" alt="">
+	        </div>
+	    </div>
+	</div>
+    <div id="btn"><span key="POSITION_FINISHED"></span></div>
+    <script src="../../common/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/RESOURCE.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/adjustPosition.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

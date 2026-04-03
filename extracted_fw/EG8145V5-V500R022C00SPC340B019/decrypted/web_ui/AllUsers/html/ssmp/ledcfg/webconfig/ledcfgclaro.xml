@@ -1,0 +1,11 @@
+<InternetGatewayDevice>
+<X_HW_SSMPPDT setconfig="0x00000007" getconfig = "0x00000007">
+<Deviceinfo setconfig = "0x00000007" getconfig = "0x00000007">
+<X_HW_LedSwitch setconfig = "0x00000007" getconfig = "0x00000007"/>
+<X_HW_LedOffTime   setconfig = "0x00000007"  addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<StartTime setconfig = "0x00000007" getconfig = "0x00000007"/>
+<EndTime setconfig = "0x00000007" getconfig = "0x00000007"/>
+</X_HW_LedOffTime>
+</Deviceinfo> 
+</X_HW_SSMPPDT>
+</InternetGatewayDevice>

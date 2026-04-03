@@ -1,0 +1,20 @@
+<InternetGatewayDevice> 
+<Services>
+<VoiceService setconfig = "0x00000003">
+<VoiceProfile setconfig = "0x00000002" >
+<DigitMapEnable setconfig = "0x00000002" /> 
+<X_HW_DigitMapMatchMode setconfig = "0x00000002" /> 
+<SIP setconfig = "0x00000002" >
+<X_HW_SIPDigitmap setconfig = "0x00000002" >
+<DigitMapStartTimer setconfig = "0x00000002" />
+<DigitMapShortTimer setconfig = "0x00000002" />
+<DigitMapLongTimer setconfig = "0x00000002" />
+<DigitMap setconfig = "0x00000002" />
+</X_HW_SIPDigitmap>
+<X_HW_OutNumberContainImmediateDialKeyEnable setconfig = "0x00000002" />
+<X_HW_TWaitTimeMode setconfig = "0x00000002" />
+</SIP>
+</VoiceProfile>
+</VoiceService>
+</Services>
+</InternetGatewayDevice>

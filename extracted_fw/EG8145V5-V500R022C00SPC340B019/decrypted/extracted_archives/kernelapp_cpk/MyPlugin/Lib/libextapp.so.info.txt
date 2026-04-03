@@ -1,0 +1,6 @@
+# MyPlugin/Lib/libextapp.so
+# Type: /tmp/fw_extract/cpk/cpk_contents/MyPlugin/Lib/libextapp.so: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, stripped
+# Size: 5192 bytes
+
+# Interesting strings:
+  ACTION_DelAppByKey

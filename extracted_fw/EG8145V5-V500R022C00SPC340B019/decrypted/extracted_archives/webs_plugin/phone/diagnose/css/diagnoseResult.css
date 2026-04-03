@@ -1,0 +1,167 @@
+html, body{
+	width: 100%;
+	height: 100%;
+}
+
+#topo{
+	position: relative;
+	width: 80%;
+	height: 4rem;
+	margin: 0 auto;
+	padding: 0 1rem;
+	box-sizing: border-box;
+}
+
+.line{
+	position: absolute;
+	width: 50%;
+	height: 0;
+	border-bottom: 1px solid white;
+	top: 2rem;
+}
+#lineLeft{
+	left: 0;
+}
+#lineLeft.offline{
+	left: 0;
+	border-bottom: 1px dashed red;
+}
+.offline .disconnect{
+	position: absolute;
+	left: 50%;
+	top: -0.5rem;
+}
+#lineRight{
+	right: 0;
+}
+
+#left, #center, #right{
+	position: absolute;
+	top: 1rem;
+	width: 3rem;
+	text-align: center;
+}
+
+#left{
+	left: 0;
+	transform: translateX(-0.5rem);
+}
+#center{
+	left: 50%;
+	transform: translateX(-1rem);
+}
+#right{
+	right: 0;
+	transform: translateX(0.5rem);
+}
+
+#left .image{
+	width: 2rem;
+	height: 2rem;
+	background: #0099FF url(../image/Internet.png) no-repeat center;
+	background-size: cover;
+	transform: translateX(0.5rem);
+}
+#center .image{
+	width: 2rem;
+	height: 2rem;
+	background: #0099FF url(../image/router.png) no-repeat center;
+	background-size: cover;
+	transform: translateX(0.5rem);
+}
+#right .image{
+	width: 2rem;
+	height: 2rem;
+	background: #0099FF url(../image/terminal.png) no-repeat center;
+	background-size: cover;
+	transform: translateX(0.5rem);
+}
+
+.message{
+	margin-top: 0.5rem;
+}
+
+#banner{
+	background: #0099FF;
+	color: white;
+	padding-bottom: 1.5rem;
+	padding-top: 1rem;
+}
+
+.completed{
+	text-align: center;
+	margin: 2rem 0 1rem;
+}
+
+#result_ok{
+	display: none;
+	width: 100%;
+	position: absolute;
+	top: 40%;
+}
+.thumb_up{
+	margin: 0 auto;
+	width: 5rem;
+	height: 5rem;
+	background-image: url(../image/thumb_up.PNG);
+	background-size: 100%;
+}
+#result_ok p{
+	text-align: center;
+	margin-top: 0.5rem;
+}
+
+#btn{
+	width: 80%;
+	height: 1.8rem;
+	font-size: 1rem;
+	line-height: 1.8rem;
+	background: #5ccbb1;
+	text-align: center;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+#btn.okBtn{
+	position: absolute;
+	bottom: 2rem;
+	left: 50%;
+	transform: translateX(-50%)
+}
+
+#content{
+	line-height: 1.5rem;
+}
+
+.problem{
+	padding: 0.5rem 0 0.5rem 2rem;
+	position: relative;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.problem:nth-last-child(1){
+	border-bottom: 0;
+}
+
+.badge{
+	position: absolute;
+	left: 0.5rem;
+	transform: translateY(0.05rem);
+	display: inline-block;
+	width: 1.25rem;
+	height: 1.25rem;
+	text-align: center;
+	line-height: 1.25rem;
+	color: white;
+	border-radius: 50%;
+	background: #0099ff;
+	font-weight: 100;
+}
+
+.title{
+	font-size: 1rem;
+}
+
+.advice{
+	color: #999;
+}

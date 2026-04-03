@@ -1,0 +1,16 @@
+<InternetGatewayDevice>
+<X_HW_BridgePara setconfig="0x00000003">
+<PortIsolateEnable setconfig = "0x00000002" getconfig = "0x00000002"/>
+<Port setconfig = "0x00000002" addconfig = "0x00000002" delconfig = "0x00000002" getconfig = "0x00000002">
+<PortInterface setconfig = "0x00000002" getconfig = "0x00000002"/>
+<QinqEnable setconfig = "0x00000002" getconfig = "0x00000002"/>
+<QinqVlan setconfig = "0x00000002" getconfig = "0x00000002"/>
+<QinqPri setconfig = "0x00000002" getconfig = "0x00000002"/>
+<PvidEnable setconfig = "0x00000002" getconfig = "0x00000002"/>
+<PVID setconfig = "0x00000002" getconfig = "0x00000002"/>
+<PvidPri setconfig = "0x00000002" getconfig = "0x00000002"/>
+<TransparentEnable setconfig = "0x00000002" getconfig = "0x00000002"/>
+<TPIDSwitch setconfig = "0x00000002" getconfig = "0x00000002"/>
+</Port>
+</X_HW_BridgePara> 
+</InternetGatewayDevice>

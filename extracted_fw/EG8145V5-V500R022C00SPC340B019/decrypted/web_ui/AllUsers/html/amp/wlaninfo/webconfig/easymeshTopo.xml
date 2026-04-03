@@ -1,0 +1,11 @@
+<InternetGatewayDevice>
+<EasyMesh setconfig = "0x00000003" getconfig = "0x00000003">
+<Role setconfig = "0x00000003" getconfig = "0x00000003"/>
+<DetectRole setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Roaming setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Enable setconfig = "0x00000003" getconfig = "0x00000003"/>
+<MAPAgent setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Em2GRssiThreshold setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Em5GRssiThreshold setconfig = "0x00000003" getconfig = "0x00000003"/>
+</EasyMesh>
+</InternetGatewayDevice>

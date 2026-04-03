@@ -1,0 +1,10 @@
+<InternetGatewayDevice> 
+<LANDevice setconfig = "0x00000003">
+<WLANConfiguration addconfig = "0x00000003" delconfig = "0x00000003" setconfig = "0x00000003">
+<X_HW_Standard setconfig = "0x00000003"/>
+<Channel setconfig = "0x00000003"/>
+<AutoChannelEnable setconfig = "0x00000003"/>
+<X_HW_HT20 setconfig = "0x00000003"/>
+</WLANConfiguration>
+</LANDevice> 
+</InternetGatewayDevice> 

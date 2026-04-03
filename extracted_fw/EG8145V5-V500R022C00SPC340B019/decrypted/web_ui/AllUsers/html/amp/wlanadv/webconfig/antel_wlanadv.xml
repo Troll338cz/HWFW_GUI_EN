@@ -1,0 +1,27 @@
+<InternetGatewayDevice>
+    <LANDevice setconfig = "0x00000002">
+        <WLANConfiguration addconfig = "0x00000002" delconfig = "0x00000002" setconfig = "0x00000002">
+            <RegulatoryDomain setconfig = "0x00000002"/>
+            <X_HW_Standard setconfig = "0x00000002"/>
+            <TransmitPower setconfig = "0x00000002"/>
+            <Channel setconfig = "0x00000002"/>
+            <AutoChannelEnable setconfig = "0x00000002"/>
+            <X_HW_HT20 setconfig = "0x00000002"/>
+            <X_HW_AutoChannelScope setconfig = "0x00000002"/>
+            <X_HW_AttachConf addconfig = "0x00000002" delconfig = "0x00000002" setconfig = "0x00000002">
+                <X_HW_AirtimeFairness setconfig = "0x00000002"/>
+            </X_HW_AttachConf>
+            <X_HW_AdvanceConf addconfig = "0x00000002" delconfig = "0x00000002" setconfig = "0x00000002">
+                <DtimPeriod setconfig = "0x00000002"/>
+                <BeaconPeriod setconfig = "0x00000002"/>
+                <RTSThreshold setconfig = "0x00000002"/>
+                <FragThreshold setconfig = "0x00000002"/>
+            </X_HW_AdvanceConf>
+        </WLANConfiguration>
+        <WiFi addconfig = "0x00000002" setconfig = "0x00000002">
+            <X_HW_GlobalConfig setconfig = "0x00000002">
+                <BandSteeringPolicy setconfig = "0x00000002"/>
+            </X_HW_GlobalConfig>
+        </WiFi>
+    </LANDevice>
+</InternetGatewayDevice>

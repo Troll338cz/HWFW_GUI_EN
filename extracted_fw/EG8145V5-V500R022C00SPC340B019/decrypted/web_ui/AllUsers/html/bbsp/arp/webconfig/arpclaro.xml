@@ -1,0 +1,7 @@
+<InternetGatewayDevice>
+<X_HW_Arp setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<IPAddress setconfig = "0x00000007" getconfig = "0x00000007"/>
+<MACAddress setconfig = "0x00000007" getconfig = "0x00000007"/>
+<Interface setconfig = "0x00000007" getconfig = "0x00000007"/>
+</X_HW_Arp>
+</InternetGatewayDevice>

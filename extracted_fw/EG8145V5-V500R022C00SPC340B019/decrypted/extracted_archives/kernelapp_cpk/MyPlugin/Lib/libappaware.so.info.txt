@@ -1,0 +1,30 @@
+# MyPlugin/Lib/libappaware.so
+# Type: /tmp/fw_extract/cpk/cpk_contents/MyPlugin/Lib/libappaware.so: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, stripped
+# Size: 128316 bytes
+
+# Interesting strings:
+  APPAWARE_GetFlowKeyByItem
+  APPAWARE_GetIpv6RuleKeyByItem
+  APPAWARE_GetIpv4RuleKeyByItem
+  APPAWARE_GetRuleKeyByItem
+  APPAWARE_FillDestIpByKey
+  APPAWARE_GetDestPortByKey
+  DC_HashDelByKey
+  MAP_FindByKey
+  APPAWARE_FlowIdMapKeyCmpFunc
+  g_flowIdMapInfo
+  DC_GetByKey
+  DC_DestroyByKey
+  APPPING_AddPingTaskKey
+  MAP_RemoveByKey
+  APPPING_PrintPingTaskMapKey
+  [APP]func:%s,line:%d get rule key error
+  [APP]func:%s,line:%d add flow key error
+  [APP]func:%s,line:%d get flow key error
+  [APP]func:%s,line:%d get flow key error by ruleKey
+  APPAWARE_GetFlowKeyByItem
+  APPAWARE_GetIpv6RuleKeyByItem
+  APPAWARE_GetRuleKeyByItem
+  key mac
+  key:%s
+  APPPING_PrintPingTaskMapKey

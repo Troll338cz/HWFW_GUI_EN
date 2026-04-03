@@ -1,0 +1,11 @@
+<InternetGatewayDevice>
+    <Services>
+        <VoiceService setconfig = "0x00000007">
+            <PhyInterface setconfig = "0x00000007">
+                <X_HW_Stats setconfig = "0x00000007">
+                    <ResetStatistics setconfig = "0x00000007" />
+                </X_HW_Stats>
+            </PhyInterface>
+        </VoiceService>
+    </Services>
+</InternetGatewayDevice>

@@ -1,0 +1,12 @@
+<InternetGatewayDevice> 
+<DeviceInfo setconfig = "0x0000000f">
+<X_HW_Loid setconfig = "0x0000000f"/>
+<X_HW_EponPwd setconfig = "0x0000000f"/>
+<X_HW_ForceSet setconfig = "0x0000000f" /> 
+<X_HW_EponKey setconfig = "0x0000000f"/>
+<X_HW_PonHexPassword setconfig = "0x0000000f"/>
+<X_HW_PonSN setconfig = "0x0000000f"/>
+<X_HW_PonPassword setconfig = "0x0000000f"/>
+<SerialNumber setconfig = "0x0000000f"/>
+</DeviceInfo> 
+</InternetGatewayDevice> 

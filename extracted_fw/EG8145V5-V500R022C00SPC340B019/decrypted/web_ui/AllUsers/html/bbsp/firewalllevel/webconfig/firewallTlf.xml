@@ -1,0 +1,32 @@
+<InternetGatewayDevice> 
+<X_HW_Security setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<Dosfilter setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<IcmpEchoReplyEn setconfig = "0x00000003" getconfig = "0x00000003"/>
+<PingSweepEn setconfig = "0x00000003" getconfig = "0x00000003"/>
+</Dosfilter>
+<Firewall setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+      <AdvancedLevel  setconfig ="0x00000003" getconfig = "0x00000003"/>     
+      <Level setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+		<DefaultPolicy setconfig = "0x00000003" getconfig = "0x00000003"/>
+	  </Level>
+      <Chain setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+          <Rule setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+         <Enable setconfig = "0x00000003" getconfig = "0x00000003"/>
+	     <Description setconfig = "0x00000003" getconfig = "0x00000003"/>
+         <Target setconfig = "0x00000003" getconfig = "0x00000003"/>
+		 <SourceInterface setconfig = "0x00000003" getconfig = "0x00000003"/>
+		 <DestInterface setconfig = "0x00000003" getconfig = "0x00000003"/>
+         <DestIP setconfig = "0x00000003" getconfig = "0x00000003"/>
+         <SourceIP setconfig = "0x00000003" getconfig = "0x00000003"/>
+         <Protocol setconfig = "0x00000003" getconfig = "0x00000003"/>
+         <DestPort setconfig = "0x00000003" getconfig = "0x00000003"/>
+         <DestPortRangeMax setconfig = "0x00000003" getconfig = "0x00000003"/>
+         <SourcePort setconfig = "0x00000003" getconfig = "0x00000003"/>
+         <SourcePortRangeMax setconfig = "0x00000003" getconfig = "0x00000003"/>
+	 <Order setconfig = "0x00000003" getconfig = "0x00000003"/> 
+	 <IPVersion setconfig = "0x00000003" getconfig = "0x00000003"/> 
+       </Rule>
+      </Chain>
+    </Firewall>
+</X_HW_Security>
+</InternetGatewayDevice> 

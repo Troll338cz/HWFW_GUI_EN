@@ -1,0 +1,1 @@
+<InternetGatewayDevice><DeviceInfo getconfig = "0x00000003"> <X_HW_Syslog getconfig = "0x00000002"> <Enable getconfig = "0x00000002"/> <Level getconfig = "0x00000002"/> <QueryLevel getconfig = "0x00000002"/></X_HW_Syslog></DeviceInfo></InternetGatewayDevice> 

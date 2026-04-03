@@ -1,0 +1,44 @@
+.wlanmenu  #Tab {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.wlanmenu .Menubox {
+  height: 48px;
+  text-align: left;
+}
+
+.wlanmenu  .Menubox ul {
+  list-style: none;
+  margin: 7px 0;
+  padding: 0;
+  position: absolute;
+}
+
+.wlanmenu  .Menubox ul li {
+  float: left;
+  background: #E3E3E3;
+  line-height: 40px;
+  display: block;
+  cursor: pointer;
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+  border-top: 1px solid #c7c5c5;
+  border-left: 1px solid #c7c5c5;
+  border-right: 1px solid #c7c5c5;
+}
+
+.wlanmenu  .Menubox ul li.hover {
+  background: #f6f6f6;
+  border-bottom: 1px solid #f5f9fd;	
+  font-weight: bold;
+}
+
+.wlanmenu  .MenuboxDivBorder {
+	border-top: 1px solid #c7c5c5;
+	border-left:1px solid #c7c5c5;
+	border-right: 1px solid #c7c5c5;
+	border-bottom: 1px solid #c7c5c5;	
+}

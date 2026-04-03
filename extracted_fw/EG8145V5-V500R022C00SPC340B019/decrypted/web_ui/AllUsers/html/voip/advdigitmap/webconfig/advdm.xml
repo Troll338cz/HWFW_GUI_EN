@@ -1,0 +1,17 @@
+<InternetGatewayDevice> 
+<Services>
+<VoiceService setconfig = "0x00000003">
+<VoiceProfile setconfig = "0x00000002" >
+<X_HW_DigitMapSpecialEnable setconfig = "0x00000002" />
+<X_HW_DigitMapSpecial setconfig = "0x00000002" />
+<Line  setconfig = "0x00000002" addconfig = "0x00000002" delconfig="0x00000002">
+<PhyReferenceList setconfig = "0x00000002" addconfig = "0x00000002" delconfig="0x00000002"/>
+<CallingFeatures  setconfig = "0x00000002">
+<X_HW_PBXPrefixEnable setconfig = "0x00000002" />
+<X_HW_CentrexPrefix setconfig = "0x00000002" />
+</CallingFeatures>
+</Line>
+</VoiceProfile>
+</VoiceService>
+</Services>
+</InternetGatewayDevice>

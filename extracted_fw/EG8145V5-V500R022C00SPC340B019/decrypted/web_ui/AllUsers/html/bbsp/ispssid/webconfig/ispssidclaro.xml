@@ -1,0 +1,6 @@
+<InternetGatewayDevice> 
+<X_HW_WLANForISP setconfig="0x00000007" getconfig="0x00000007">
+<EnableUserId setconfig="0x00000007" getconfig="0x00000007"/>
+<UserId setconfig="0x00000007" getconfig="0x00000007"/>
+</X_HW_WLANForISP>
+</InternetGatewayDevice> 

@@ -2,164 +2,60 @@
 
 ## Firmware: V500R022C00SPC340B019
 
-This directory contains all extractable plaintext configuration files,
-decoded binary data models, and documentation about encrypted files
-from the Huawei EG8145V5 ONT firmware.
+**Total extracted files: 3364**
 
-**Total files: 1281**
+## Summary
 
-## Contents by Category
-
-### Application Configs (49 files)
-
-- `plaintext/etc/app/apm_app/appconfig.ini`
-- `plaintext/etc/app/bbsp_app/appconfig.ini`
-- `plaintext/etc/app/bulk_app/appconfig.ini`
-- `plaintext/etc/app/bulkchina_app/appconfig.ini`
-- `plaintext/etc/app/bulkchina_app/cfg/bulkchina.ini`
-- `plaintext/etc/app/cliuserinfo_app/appconfig.ini`
-- `plaintext/etc/app/cmp_app/appconfig.ini`
-- `plaintext/etc/app/cms_app/appconfig.ini`
-- `plaintext/etc/app/cwmp_app/appconfig.ini`
-- `plaintext/etc/app/cwmp_uinfo_a_app/appconfig.ini`
-- ... and 39 more
-
-### Boot Scripts (2 files)
-
-- `plaintext/etc/rc.d/rc.start/0.wap_init.sh`
-- `plaintext/etc/rc.d/rc.start/1.sdk_init.sh`
-
-### Decoded Binary Data Models (67 files)
-
-- `etc/app/bulk_app/cfg/bulk_tr098.bin.decoded.txt`
-- `etc/app/bulk_app/cfg/bulk_tr181.bin.decoded.txt`
-- `etc/app/bulk_app/cfg/bulk_ttree.bin.decoded.txt`
-- `etc/app/bulkchina_app/cfg/bulkchina_tr098.bin.decoded.txt`
-- `etc/app/bulkchina_app/cfg/bulkchina_tr181.bin.decoded.txt`
-- `etc/app/bulkchina_app/cfg/bulkchina_ttree.bin.decoded.txt`
-- `etc/app/cliuserinfo_app/cfg/cliuserinfo_tr098.bin.decoded.txt`
-- `etc/app/cliuserinfo_app/cfg/cliuserinfo_ttree.bin.decoded.txt`
-- `etc/app/cmp_app/cfg/cmp_tr098.bin.decoded.txt`
-- `etc/app/cmp_app/cfg/cmp_tr181.bin.decoded.txt`
-- ... and 57 more
-
-### Decoded Binary Trees (1 files)
-
-- `hw_ttree.decoded.txt`
-
-### Feature Toggle Configs (138 files)
-
-- `plaintext/etc/wap/ft/amp/base_amp_ft.cfg`
-- `plaintext/etc/wap/ft/amp/doublewlan11ac.cfg`
-- `plaintext/etc/wap/ft/amp/doublewlan11ac_1led2color.cfg`
-- `plaintext/etc/wap/ft/amp/doublewlan11acxgpon.cfg`
-- `plaintext/etc/wap/ft/amp/doublewlan11acxgpon_ctc.cfg`
-- `plaintext/etc/wap/ft/amp/wlanbrd2F3W.cfg`
-- `plaintext/etc/wap/ft/amp/wlanoffbrd.cfg`
-- `plaintext/etc/wap/ft/amp/wlanoffbrd_typeclite.cfg`
-- `plaintext/etc/wap/ft/amp/wlanoffbrdp2p.cfg`
-- `plaintext/etc/wap/ft/amp/wlanoffbrdp2p_nooptic_norf.cfg`
-- ... and 128 more
-
-### ISP Customization Configs (773 files)
-
-- `plaintext/etc/wap/customize/china/AHCT_ft.cfg`
-- `plaintext/etc/wap/customize/china/AHCU_ft.cfg`
-- `plaintext/etc/wap/customize/china/BJCT_ft.cfg`
-- `plaintext/etc/wap/customize/china/CHANGQING_e8c_ft.cfg`
-- `plaintext/etc/wap/customize/china/CQCT_ft.cfg`
-- `plaintext/etc/wap/customize/china/FJCT_ft.cfg`
-- `plaintext/etc/wap/customize/china/FJCU_ft.cfg`
-- `plaintext/etc/wap/customize/china/GDCT_ft.cfg`
-- `plaintext/etc/wap/customize/china/GDCU_ft.cfg`
-- `plaintext/etc/wap/customize/china/GSCT_ft.cfg`
-- ... and 763 more
-
-### ONT Hardware Configs (44 files)
-
-- `plaintext/etc/ont/hardware/EG8041V5_HWSOC1/hw_ldsp_cfg.xml`
-- `plaintext/etc/ont/hardware/EG8041V5_HWSOC1/ldsp_board_init.ini`
-- `plaintext/etc/ont/hardware/EG8041V5_HWSOC1/wifi.cfg`
-- `plaintext/etc/ont/hardware/EG8141H5_HWSOC1/hw_ldsp_cfg.xml`
-- `plaintext/etc/ont/hardware/EG8141H5_HWSOC1/ldsp_board_init.ini`
-- `plaintext/etc/ont/hardware/EG8145V5/wifi.cfg`
-- `plaintext/etc/ont/hardware/EG8245H5/wifi.cfg`
-- `plaintext/etc/ont/hardware/EG8245H5_HWSOC1/hw_ldsp_cfg.xml`
-- `plaintext/etc/ont/hardware/EG8245H5_HWSOC1/ldsp_board_init.ini`
-- `plaintext/etc/ont/hardware/EG8247H5/wifi.cfg`
-- ... and 34 more
-
-### Other (4 files)
-
-- `ENCRYPTED_FILES.md`
-- `plaintext/sbin/BackStackInfo.sh`
-- `plaintext/sbin/SaveDhcpUser.sh`
-- `plaintext/sbin/release.sh`
-
-### Plugin Configs & Certificates (8 files)
-
-- `plaintext/preload_cplugin/extracted_cpk/MyPlugin/etc/config/init_local.json`
-- `plaintext/preload_cplugin/extracted_cpk/MyPlugin/etc/config/kernelapp.config`
-- `plaintext/preload_cplugin/extracted_cpk/MyPlugin/etc/config/opkg.conf`
-- `plaintext/preload_cplugin/extracted_cpk/MyPlugin/etc/config/restssl_info.config`
-- `plaintext/preload_cplugin/extracted_cpk/MyPlugin/etc/config/server_key_ssl.pem`
-- `plaintext/preload_cplugin/extracted_cpk/MyPlugin/etc/config/server_ssl.pem`
-- `plaintext/preload_cplugin/extracted_cpk/MyPlugin/etc/config/trust_ssl.pem`
-- `plaintext/preload_cplugin/extracted_cpk/MyPlugin/etc/config/useragent_feature.json`
-
-### Specification Files (54 files)
-
-- `plaintext/etc/wap/spec/amp/5116spec.cfg`
-- `plaintext/etc/wap/spec/amp/5116spec_256M.cfg`
-- `plaintext/etc/wap/spec/amp/5116spec_erip.cfg`
-- `plaintext/etc/wap/spec/amp/5116spec_mini.cfg`
-- `plaintext/etc/wap/spec/amp/base_amp_spec.cfg`
-- `plaintext/etc/wap/spec/amp/spec.cfg`
-- `plaintext/etc/wap/spec/amp/spec_256M.cfg`
-- `plaintext/etc/wap/spec/amp/spec_mini.cfg`
-- `plaintext/etc/wap/spec/bbsp/base_bbsp_spec.cfg`
-- `plaintext/etc/wap/spec/bbsp/spec_common.cfg`
-- ... and 44 more
-
-### WAP Core Configs (141 files)
-
-- `plaintext/etc/wap/6W01-cfg_ont_hisi.ini`
-- `plaintext/etc/wap/CoverActionConfig.xml`
-- `plaintext/etc/wap/EG8041V5_cfg_ont_hisi.ini`
-- `plaintext/etc/wap/EG8145V5-4504-IN_cfg_ont_hisi.ini`
-- `plaintext/etc/wap/EG8145V5-5589B-IN_cfg_ont_hisi.ini`
-- `plaintext/etc/wap/EG8145V5-5639E-IN_cfg_ont_hisi.ini`
-- `plaintext/etc/wap/EG8145V5-6W01-IN_cfg_ont_hisi.ini`
-- `plaintext/etc/wap/EG8145V5-BigAnti_cfg_ont_hisi.ini`
-- `plaintext/etc/wap/EG8145V5_2gipa_5gepa_cfg_ont_hisi.ini`
-- `plaintext/etc/wap/HG8045A5_BigAnt_ce_cfg_ont_hisi.ini`
-- ... and 131 more
+| Category | Files |
+|----------|-------|
+| Application Configs | 49 |
+| Boot Scripts | 2 |
+| Decoded Binary Data Models | 67 |
+| Decoded Type Trees | 1 |
+| Documentation | 2 |
+| EFS (Equipment Fabrication Sheet) | 1 |
+| Feature Toggle Configs | 138 |
+| ISP Customization Configs | 773 |
+| MTD Partition Data | 5 |
+| Main Web UI (.asp/.js/.css/.html) | 1981 |
+| ONT Hardware Configs | 44 |
+| Plugin Configs & Certificates | 8 |
+| Plugin Package (from kernelapp.cpk) | 35 |
+| Plugin Web UI (from webs.tar.gz) | 53 |
+| SDK SquashFS (from mtd10) | 6 |
+| Specification Files | 54 |
+| System Scripts | 3 |
+| TTree Spec Smooth (encrypted) | 1 |
+| WAP Core Configs | 141 |
+| **TOTAL** | **3364** |
 
 ## Key Files
 
 | File | Description |
 |------|-------------|
-| `plaintext/etc/wap/hw_cli.xml` | Complete CLI command definitions (4743 lines) |
-| `plaintext/etc/wap/hw_aes_tree.xml` | AES encryption field map (100+ password fields) |
-| `plaintext/etc/wap/hw_boardinfo` | Hardware board information |
-| `plaintext/etc/wap/passwd` | System user accounts |
-| `plaintext/etc/wap/group` | System groups |
-| `plaintext/etc/wap/customize/common/spec_telmex.cfg` | Telmex ISP customization |
-| `plaintext/preload_cplugin/.../*.config` | Plugin credentials & SSL certs |
-| `hw_ttree.decoded.txt` | Full data model type tree (21916 nodes) |
-| `ENCRYPTED_FILES.md` | Documentation of 7 encrypted files (need device key) |
+| [`plaintext/etc/wap/hw_cli.xml`](plaintext/etc/wap/hw_cli.xml) | Complete CLI command definitions (4743 lines, all WAP commands) |
+| [`plaintext/etc/wap/hw_aes_tree.xml`](plaintext/etc/wap/hw_aes_tree.xml) | AES encryption field map (100+ password fields) |
+| [`plaintext/etc/wap/hw_boardinfo`](plaintext/etc/wap/hw_boardinfo) | Hardware board information |
+| [`plaintext/etc/wap/passwd`](plaintext/etc/wap/passwd) | System user accounts (22 users) |
+| [`plaintext/etc/wap/customize/common/spec_telmex.cfg`](plaintext/etc/wap/customize/common/spec_telmex.cfg) | Telmex/Megacable ISP customization |
+| [`extracted_archives/kernelapp_cpk/`](extracted_archives/kernelapp_cpk/) | Plugin package with SSL certs, scripts, binary info |
+| [`extracted_archives/webs_plugin/`](extracted_archives/webs_plugin/) | Plugin web UI (diagnose, QR code, WiFi position) |
+| [`extracted_archives/efs_decoded.txt`](extracted_archives/efs_decoded.txt) | EFS: OLT=MA5600, Equipment=H801EPBA |
+| [`extracted_archives/mtd_partitions/UpgradeCheck.xml`](extracted_archives/mtd_partitions/UpgradeCheck.xml) | Hardware compatibility and upgrade validation |
+| [`hw_ttree.decoded.txt`](hw_ttree.decoded.txt) | Full data model type tree (21,916 nodes) |
+| [`web_ui/`](web_ui/) | Complete web administration interface (1,981 files) |
+| [`ENCRYPTED_FILES.md`](ENCRYPTED_FILES.md) | Documentation of 9 encrypted files + decryption script |
 
-## Encrypted Files (Cannot Decrypt Without Device Key)
+## Extracted Archives
 
-See [ENCRYPTED_FILES.md](ENCRYPTED_FILES.md) for details.
+| Archive | Source | Contents |
+|---------|--------|----------|
+| `webs.tar.gz` | MyPlugin/etc/res/ | 53 web UI files (HTML, JS, CSS, PNG) |
+| `kernelapp.cpk` | preload_cplugin/ | 35 files (binaries, configs, scripts, SSL certs) |
+| SquashFS SDK | mtd10 | 6 files (codec drivers, VoIP firmware blobs) |
+| `preload_cplugin.tar` | mtd9 | Plugin package (decompressed from .tar.gz) |
 
-The following files remain encrypted because they use AES-256-CBC
-with a key generated at runtime by KMC (Key Management Center):
+## Encrypted Files (9 files, need device key)
 
-- `hw_ctree.xml` - Main configuration tree (user/network settings)
-- `hw_default_ctree.xml` - Factory default configuration
-- `hw_diag_cli.xml` - Diagnostic CLI commands
-- `hw_shell_cli.xml` - Shell CLI commands
-- `HighTemperatureConfig.xml` - Temperature thresholds
-- `encrypt_spec.tar.gz` - Encrypted specifications
-- `encrypt_spec_key.tar.gz` - Encrypted specification keys
+See [`ENCRYPTED_FILES.md`](ENCRYPTED_FILES.md) for complete documentation,
+format specification, and decryption script.

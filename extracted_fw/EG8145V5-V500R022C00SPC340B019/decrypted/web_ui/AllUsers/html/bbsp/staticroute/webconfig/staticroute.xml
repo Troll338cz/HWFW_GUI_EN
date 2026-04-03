@@ -1,0 +1,13 @@
+<InternetGatewayDevice>
+<Layer3Forwarding setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<Forwarding setconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003" getconfig = "0x00000003">
+<X_HW_DomainName  setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Type setconfig = "0x00000002" getconfig = "0x00000002"/>
+<DestIPAddress  setconfig = "0x00000003" getconfig = "0x00000003"/>
+<DestSubnetMask setconfig = "0x00000003" getconfig = "0x00000003"/>
+<GatewayIPAddress setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Interface setconfig = "0x00000003" getconfig = "0x00000003"/>
+<ForwardingMetric setconfig = "0x00000002" getconfig = "0x00000002"/>
+</Forwarding>
+</Layer3Forwarding>
+</InternetGatewayDevice> 

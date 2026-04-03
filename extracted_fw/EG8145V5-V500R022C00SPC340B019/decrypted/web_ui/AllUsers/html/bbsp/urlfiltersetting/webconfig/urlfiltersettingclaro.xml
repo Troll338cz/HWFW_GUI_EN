@@ -1,0 +1,10 @@
+<InternetGatewayDevice>
+<X_HW_Security setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<UrlFilterPolicy setconfig = "0x00000007" getconfig = "0x00000007"/>
+<UrlFilterRight setconfig = "0x00000007" getconfig = "0x00000007"/>
+<UrlFilterIpConcern setconfig = "0x00000007" getconfig = "0x00000007"/>
+<UrlFilter 	setconfig = "0x00000007" addconfig = "0x00000007" delconfig = "0x00000007" getconfig = "0x00000007">
+<UrlAddress setconfig = "0x00000007" getconfig = "0x00000007"/>
+</UrlFilter>
+</X_HW_Security> 
+</InternetGatewayDevice> 

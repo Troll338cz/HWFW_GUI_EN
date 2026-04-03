@@ -1,0 +1,43 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta HTTP-EQUIV = 'Pragma' CONTENT = 'no-cache'>
+<script language = "javascript">
+
+var ctrgflag = '<%HW_WEB_GetFeatureSupport(HW_SSMP_FEATURE_CTRG);%>';
+var br0Ip = '<%HW_WEB_GetBr0IPString();%>';
+var IsMaintWan = '<%HW_WEB_IfMainWanLink();%>';
+var webflag = '<%HW_WEB_GetFeatureSupport(FT_WEB_CLARO_DIAGNOSE);%>';
+
+function btnrefresh() 
+{
+	document.cookie = 'Cookie=default;path=/';
+	var url;
+	if (ctrgflag == 1)
+	{
+		if (IsMaintWan == 1)
+		{
+			var starIdx = window.location.href.indexOf('://');
+			var subAddr = window.location.href.substr(starIdx+3);
+			var newIp = subAddr.substring(0, subAddr.indexOf('/'));
+			url = 'http://' + newIp + '/cgi-bin/luci';
+		}
+		else
+		{
+			url = window.location.protocol + '//' + br0Ip + '/cgi-bin/luci';
+		}		
+	}
+	else if (webflag == 1) {
+		url = "/login.asp";
+	}
+	else
+	{
+		url= "/";
+	}
+    top.location.replace(url);
+}
+btnrefresh();
+</script>
+</head>
+<body topmargin = "0" leftmargin = "0" marginwidth = "0" marginheight = "0"> </body>
+</html>

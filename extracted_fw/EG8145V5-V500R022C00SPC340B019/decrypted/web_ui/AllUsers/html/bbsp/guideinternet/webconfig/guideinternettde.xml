@@ -1,0 +1,18 @@
+<InternetGatewayDevice> 
+<WANDevice>
+	<WANConnectionDevice addconfig = "0x00000003" setconfig = "0x00000001">
+		<WANPPPConnection setconfig = "0x00000003" addconfig = "0x00000002" delconfig = "0x00000002">
+			<ConnectionType setconfig = "0x00000003"/>
+		</WANPPPConnection>
+	</WANConnectionDevice>
+</WANDevice>
+<Layer3Forwarding setconfig = "0x00000002" addconfig = "0x00000002" delconfig = "0x00000002" getconfig = "0x00000002">
+<X_HW_policy_route setconfig = "0x00000002" addconfig = "0x00000002" delconfig = "0x00000002" getconfig = "0x00000002">
+<PolicyRouteType setconfig = "0x00000002" getconfig = "0x00000002"/>
+<VenderClassId setconfig = "0x00000002" getconfig = "0x00000002"/>
+<WanName setconfig = "0x00000002" getconfig = "0x00000002"/>
+<EtherType setconfig = "0x00000002" getconfig = "0x00000002"/>
+<PhyPortName setconfig = "0x00000002" getconfig = "0x00000002"/>
+</X_HW_policy_route>
+</Layer3Forwarding>
+</InternetGatewayDevice> 

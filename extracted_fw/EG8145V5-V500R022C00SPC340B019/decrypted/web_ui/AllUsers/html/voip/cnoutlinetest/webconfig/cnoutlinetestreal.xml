@@ -1,0 +1,20 @@
+<InternetGatewayDevice> 
+<Services>
+<VoiceService setconfig = "0x00000003">
+<PhyInterface setconfig = "0x00000002" >
+<Tests setconfig = "0x00000002" >
+<TestState setconfig = "0x00000002" />
+<TestSelector setconfig = "0x00000002" />
+<X_HW_LineTest setconfig = "0x00000002" >
+<IsTestOnBusy setconfig = "0x00000002" />
+</X_HW_LineTest>
+<X_HW_SimulateTest setconfig = "0x00000002" >
+<TestType setconfig = "0x00000002" />
+<CalledNumber setconfig = "0x00000002" />
+<DialDTMFConfirmEnable setconfig = "0x00000002" />
+</X_HW_SimulateTest>
+</Tests>
+</PhyInterface>
+</VoiceService>
+</Services>
+</InternetGatewayDevice>

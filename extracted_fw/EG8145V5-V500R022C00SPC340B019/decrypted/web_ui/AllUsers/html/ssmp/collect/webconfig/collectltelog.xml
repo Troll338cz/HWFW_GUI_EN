@@ -1,0 +1,9 @@
+<InternetGatewayDevice>
+    <X_HW_SSMPPDT setconfig = "0x00000002" getconfig = "0x00000002">
+        <Deviceinfo setconfig = "0x00000002" getconfig = "0x00000002">
+            <HidsProxy setconfig = "0x00000002" getconfig = "0x00000002">
+                <Enable setconfig = "0x00000002" getconfig = "0x00000002" />
+            </HidsProxy>
+        </Deviceinfo>
+    </X_HW_SSMPPDT>
+</InternetGatewayDevice> 

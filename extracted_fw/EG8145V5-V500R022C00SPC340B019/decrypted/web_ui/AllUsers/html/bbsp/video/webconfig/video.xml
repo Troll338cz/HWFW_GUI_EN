@@ -1,0 +1,11 @@
+<InternetGatewayDevice>
+    <Services setconfig = "0x00000002" addconfig = "0x00000002" delconfig = "0x00000002" getconfig = "0x00000002">
+        <X_HW_VideoDevice setconfig = "0x00000002" addconfig = "0x00000002" delconfig = "0x00000002" getconfig = "0x00000002">
+            <Enable setconfig = "0x00000002" getconfig = "0x00000002"/>
+            <DSCP setconfig = "0x00000002" getconfig = "0x00000002"/>
+        </X_HW_VideoDevice>
+        <VideoDeviceList setconfig = "0x00000002" addconfig = "0x00000002" delconfig = "0x00000002" getconfig = "0x00000002">
+            <MacAddress setconfig = "0x00000002" getconfig = "0x00000002"/>
+        </VideoDeviceList>
+    </Services>
+</InternetGatewayDevice> 

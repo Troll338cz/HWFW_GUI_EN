@@ -1,0 +1,8 @@
+<InternetGatewayDevice>
+	<Services>
+		<X_HW_Bundle setconfig="0x00000002" delconfig="0x00000002">
+			<bundleopt setconfig="0x00000002"/>
+			<File setconfig="0x00000002"/>
+		</X_HW_Bundle>
+	</Services>
+</InternetGatewayDevice>

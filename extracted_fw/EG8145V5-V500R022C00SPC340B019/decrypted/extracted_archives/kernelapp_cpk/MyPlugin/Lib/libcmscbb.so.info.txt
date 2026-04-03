@@ -1,0 +1,55 @@
+# MyPlugin/Lib/libcmscbb.so
+# Type: /tmp/fw_extract/cpk/cpk_contents/MyPlugin/Lib/libcmscbb.so: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, stripped
+# Size: 83712 bytes
+
+# Interesting strings:
+  CmscbbPkiVerifyCert
+  CmscbbPkiStoreAddCert
+  CmscbbPkiFindCertByIssuerSn
+  CmscbbVerifyAddCert
+  CmscbbDecodeCertCrl
+  CmscbbX509FreeCert
+  CmscbbVerifyAddCertFile
+  CmscbbPkiVerifyCertList
+  CmscbbCrlCertInfoListFree
+  CmscbbCertBaseInfoFree
+  CmscbbDecodeCrlCertInfoToList
+  CmscbbAddCertsInfoToList
+  CmscbbAddCertCrlToUpdateList
+  CmscbbResetCert
+  CmscbbGetCertAndCrlList
+  CmscbbAddCertsToUpdateList
+  CmscbbGetCmscbbX509Cert
+  CmscbbX509DecodeCert
+  CmscbbDecodeStreamCertCrl
+  CmscbbX509PubKeyVerify
+  CmscbbGetCertVerifyInfo
+  Failed to add certificate into store.
+  reset cert failed!
+  Failed to check self sign for certificate.
+  There is a root certificate, which is not allowed when add crl or cms.
+  Failed to add certificate into PKI context.
+  InternalCheckParamVerifyAddCertFile
+  CmscbbVerifyAddCertFile
+  InternalAddCertToStore
+  InternalCheckParamVerifyAddCert
+  CmscbbVerifyAddCert
+  InternalVerifyIssuerCert
+  InternalCheckParamDecodeCrlCertInfoToList
+  CmscbbDecodeCrlCertInfoToList
+  CmscbbCrlCertInfoListFree
+  CmscbbResetCert
+  AOID_CE_KEYUSAGE
+  AOID_CE_EXTKEYUSAGE
+  AOID_PKCS9_AT_TIMESTAMP_TOKEN
+  Can't decode cert in cms file
+  Can't add cert to certs' list
+  Can't add crl to certs' list
+  InternalDecodeCert
+  CmscbbAddCertsToUpdateList
+  InternalSetCertInfo
+  CmscbbAddCertsInfoToList
+  CERTIFICATE
+  -----BEGIN CERTIFICATE-----
+  -----END CERTIFICATE-----
+  InternalPemDecodeCert

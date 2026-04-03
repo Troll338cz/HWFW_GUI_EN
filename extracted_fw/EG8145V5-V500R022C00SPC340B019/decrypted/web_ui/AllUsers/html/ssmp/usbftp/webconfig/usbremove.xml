@@ -1,0 +1,11 @@
+<InternetGatewayDevice>
+<Services setconfig = "0x00000003" getconfig = "0x00000003">
+<StorageService setconfig = "0x00000003" getconfig = "0x00000003">
+<PhysicalMedium setconfig = "0x00000003" getconfig = "0x00000003">
+<Name setconfig = "0x00000003" getconfig = "0x00000003"/>
+<Status setconfig = "0x00000003" getconfig = "0x00000003"/>
+<X_HW_SafeRemove setconfig = "0x00000003" getconfig = "0x00000003"/>
+</PhysicalMedium>
+</StorageService>
+</Services>
+</InternetGatewayDevice> 

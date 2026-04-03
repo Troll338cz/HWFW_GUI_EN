@@ -1,0 +1,3 @@
+# MyPlugin/Lib/libubox.so
+# Type: /tmp/fw_extract/cpk/cpk_contents/MyPlugin/Lib/libubox.so: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, stripped
+# Size: 58544 bytes

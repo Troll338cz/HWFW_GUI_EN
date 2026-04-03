@@ -1,0 +1,20 @@
+<InternetGatewayDevice>
+<X_HW_APService setconfig = "0x00000003" getconfig = "0x00000003">
+<VenderClassId setconfig = "0x00000003" getconfig = "0x00000003"/>
+<IPTVUpPort setconfig = "0x00000003" getconfig = "0x00000003"/>
+<MultiSrvPortList setconfig = "0x00000003" getconfig = "0x00000003">
+<PhyPortName setconfig = "0x00000003" getconfig = "0x00000003"/>
+<AP setconfig = "0x00000003" getconfig = "0x00000003" addconfig = "0x00000003" delconfig = "0x00000003">
+<Mac setconfig = "0x00000003" getconfig = "0x00000003"/>
+<StbPort setconfig = "0x00000003" getconfig = "0x00000003"/>
+</AP>
+</MultiSrvPortList>
+</X_HW_APService>
+<X_HW_DEBUG setconfig = "0x00000003" getconfig = "0x00000003">
+<SMP> 
+<DM setconfig = "0x00000003" getconfig = "0x00000003"> 
+<ResetBoard setconfig =" 0x00000003" getconfig = "0x00000003"/>
+</DM> 
+</SMP> 
+</X_HW_DEBUG>
+</InternetGatewayDevice> 
